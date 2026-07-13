@@ -3,101 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movieplex BD - Premium Streaming</title>
+    <title>Movieplex BD - Premium Streaming Guide</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
     <style>
-        body { background-color: #0c0f1d; color: #ffffff; font-family: 'Inter', sans-serif; }
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        body { background-color: #060814; color: #ffffff; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+        
+        /* ডানে বামে স্ক্রলিং স্মুথ করার জন্য কাস্টম স্ক্রলবার */
+        .scroller { scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
+        .scroller::-webkit-scrollbar { height: 5px; }
+        .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.02); }
+        .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
+        .scroller::-webkit-scrollbar-thumb:hover { background: rgba(234, 179, 8, 0.6); }
+
+        /* ওপরে মাউস নিলে নেভবার শো করার ম্যাজিক */
+        #hidden-nav { transform: translateY(-100%); transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        #nav-trigger:hover #hidden-nav, #hidden-nav:hover { transform: translateY(0); }
+
+        /* কার্ডের পেছনে হালকা ইয়েলো গ্লো হোভার ইফেক্ট */
+        .movie-card { transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
+        .movie-card:hover { 
+            transform: scale(1.06); 
+            box-shadow: 0 0 25px rgba(234, 179, 8, 0.45); 
+            border-color: rgba(234, 179, 8, 0.6);
+        }
     </style>
 </head>
-<body class="overflow-x-hidden">
-<nav class="fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-[#0c0f1d] via-[#0c0f1d]/90 to-transparent px-6 py-3 flex justify-between items-center backdrop-blur-md">
-        <div class="flex items-center space-x-3">
-            <img src="/logo.jpg" alt="Movieplex BD" class="h-12 md:h-14 w-auto object-contain cursor-pointer hover:opacity-90 transition">
-        </div>
-        <div class="w-1/3 min-w-[200px]">
-            <input type="text" id="search-bar" placeholder="Search movies, web series..." class="w-full bg-gray-950 bg-opacity-80 border border-gray-800 text-white rounded-full px-5 py-2 text-sm focus:outline-none focus:border-yellow-600 transition">
-        </div>
-    </nav>
+<body class="relative">
 
-    <div class="relative w-full h-[70vh] bg-cover bg-center flex items-end px-8 pb-12" id="hero-section" style="background-image: linear-gradient(to top, #0c0f1d 10%, transparent 90%), url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925');">
-        <div class="max-w-2xl space-y-4">
-            <span class="bg-red-600 text-xs font-bold uppercase px-3 py-1 rounded-md tracking-widest">Featured</span>
-            <h2 id="hero-title" class="text-5xl font-extrabold tracking-tight">Welcome to Movieplex BD</h2>
-            <p id="hero-desc" class="text-gray-400 text-sm leading-relaxed">Stream your favorite movies, exclusive web series, and local contents seamlessly in high definition without buffering.</p>
-            <button id="hero-play-btn" class="bg-white text-black hover:bg-red-600 hover:text-white font-bold px-8 py-3 rounded-full flex items-center space-x-2 transition shadow-lg">
+    <div id="nav-trigger" class="fixed top-0 left-0 w-full h-8 z-55 bg-transparent">
+        <nav id="hidden-nav" class="fixed top-0 left-0 w-full bg-gradient-to-b from-[#060814] via-[#060814]/95 to-transparent px-8 py-4 flex justify-between items-center backdrop-blur-lg border-b border-white/5 shadow-2xl">
+            <div class="flex items-center">
+                <img src="/logo.jpg" alt="Movieplex BD" class="h-16 md:h-20 w-auto object-contain transition">
+            </div>
+            <div class="w-1/3 min-w-[240px]">
+                <input type="text" id="search-bar" placeholder="🔍 Search title, genre or cast..." class="w-full bg-slate-900/80 border border-slate-800 text-white rounded-full px-6 py-2.5 text-sm focus:outline-none focus:border-yellow-500 transition shadow-inner">
+            </div>
+        </nav>
+    </div>
+
+    <div class="relative w-full h-[85vh] bg-cover bg-center flex items-end" id="hero-section" style="background-image: linear-gradient(to top, #060814 15%, transparent 85%), url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925');">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#060814] via-transparent to-transparent opacity-90"></div>
+        <div class="relative max-w-3xl space-y-5 px-8 md:px-12 pb-36 z-10">
+            <span class="bg-yellow-500 text-black text-xs font-black uppercase px-3 py-1 rounded tracking-widest shadow-md">Featured Spotlight</span>
+            <h2 id="hero-title" class="text-4xl md:text-6xl font-black tracking-tight leading-none text-white drop-shadow-lg">Loading Blockbuster...</h2>
+            <p id="hero-desc" class="text-gray-300 text-sm md:text-base leading-relaxed line-clamp-3 drop-shadow">Stream high definition media servers seamlessly with our premium integration pipeline network routing layout grid.</p>
+            <button id="hero-play-btn" class="bg-yellow-500 hover:bg-yellow-600 text-black font-black px-10 py-3.5 rounded-full flex items-center space-x-2 transition transform hover:scale-105 shadow-xl">
                 <span>▶ Watch Now</span>
             </button>
         </div>
     </div>
 
-    <div class="px-8 py-6 space-y-12">
-        <div class="movie-row-container" id="row-new-release">
-            <h3 class="text-xl font-bold tracking-wide mb-4 text-gray-200">✨ New Releases</h3>
-            <div class="flex space-x-4 overflow-x-auto no-scrollbar scroll-smooth py-2" id="grid-new-release"></div>
+    <div class="px-6 md:px-12 pb-24 -mt-24 relative z-20 space-y-14 bg-gradient-to-b from-transparent via-[#060814] to-[#060814]">
+        
+        <div class="space-y-4" id="section-new-release">
+            <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-yellow-500 mr-2 rounded"></span>✨ New Releases</h3>
+                <button onclick="viewAll('New Release')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
+            </div>
+            <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-new-release"></div>
         </div>
 
-        <div class="movie-row-container" id="row-web-series">
-            <h3 class="text-xl font-bold tracking-wide mb-4 text-gray-200">🎬 Premium Web Series</h3>
-            <div class="flex space-x-4 overflow-x-auto no-scrollbar scroll-smooth py-2" id="grid-web-series"></div>
+        <div class="space-y-4" id="section-web-series">
+            <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-red-600 mr-2 rounded"></span>🎬 Premium Web Series</h3>
+                <button onclick="viewAll('Web Series')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
+            </div>
+            <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-web-series"></div>
         </div>
 
-        <div class="movie-row-container" id="row-trending">
-            <h3 class="text-xl font-bold tracking-wide mb-4 text-gray-200">🔥 Most Trending</h3>
-            <div class="flex space-x-4 overflow-x-auto no-scrollbar scroll-smooth py-2" id="grid-trending"></div>
+        <div class="space-y-4" id="section-trending">
+            <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-orange-500 mr-2 rounded"></span>🔥 Most Trending</h3>
+                <button onclick="viewAll('Most Trending')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
+            </div>
+            <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-trending"></div>
         </div>
 
-        <div class="movie-row-container" id="row-top-rated">
-            <h3 class="text-xl font-bold tracking-wide mb-4 text-gray-200">🏆 Top Rated (IMDb 8+)</h3>
-            <div class="flex space-x-4 overflow-x-auto no-scrollbar scroll-smooth py-2" id="grid-top-rated"></div>
+        <div class="space-y-4" id="section-top-rated">
+            <div class="flex justify-between items-center border-b border-white/5 pb-2">
+                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-green-500 mr-2 rounded"></span>🏆 Top Rated</h3>
+                <button onclick="viewAll('Top Rated')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
+            </div>
+            <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-top-rated"></div>
+        </div>
+
+        <div id="see-more-block" class="space-y-6 hidden pt-6 border-t-2 border-yellow-500/20">
+            <div class="flex justify-between items-center">
+                <h3 id="see-more-title" class="text-2xl font-black tracking-wide text-yellow-500">Category Explorer</h3>
+                <button onclick="closeSeeMore()" class="text-xs font-bold bg-slate-900 border border-slate-800 px-4 py-2 rounded-full hover:bg-red-600 transition">✕ Close Explore</button>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 py-4" id="see-more-grid"></div>
         </div>
     </div>
 
-    <div id="player-modal" class="fixed inset-0 z-50 bg-black bg-opacity-95 hidden flex justify-center items-center p-4 backdrop-blur-sm">
-        <div class="bg-[#111625] w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl relative border border-gray-850">
-            <button onclick="closePlayer()" class="absolute top-4 right-4 bg-red-600 hover:bg-red-700 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold z-50 transition">✕</button>
-            
+    <div id="player-modal" class="fixed inset-0 z-60 bg-black/95 hidden flex justify-center items-center p-4 backdrop-blur-md">
+        <div class="bg-[#0e1122] w-full max-w-4xl rounded-3xl overflow-hidden shadow-2xl relative border border-white/10">
+            <button onclick="closePlayer()" class="absolute top-5 right-5 bg-red-600 hover:bg-red-700 text-white rounded-full w-9 h-9 flex items-center justify-center font-bold z-50 transition shadow-lg">✕</button>
             <div class="relative pt-[56.25%] w-full bg-black">
                 <iframe id="video-iframe" src="" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
             </div>
-
-            <div class="p-6 space-y-4">
+            <div class="p-6 md:p-8 space-y-5">
                 <div class="flex justify-between items-start">
                     <div>
-                        <h4 id="modal-title" class="text-2xl font-bold">Movie Title</h4>
-                        <p id="modal-year" class="text-sm text-gray-500 mt-1">Year: 2026</p>
+                        <h4 id="modal-title" class="text-2xl md:text-3xl font-black text-white tracking-wide">Movie Title</h4>
+                        <p id="modal-year" class="text-xs text-gray-500 font-medium mt-1">Year: 2026</p>
                     </div>
-                    <div id="modal-rating" class="bg-yellow-500 text-black text-xs font-bold px-2.5 py-1 rounded">⭐ 7.0</div>
+                    <div id="modal-rating" class="bg-yellow-500 text-black text-xs font-black px-3 py-1.5 rounded shadow">⭐ 7.0</div>
                 </div>
                 <div>
-                    <span class="text-xs text-gray-400 block mb-2 uppercase tracking-widest">Select Streaming Stream Server:</span>
-                    <div class="flex space-x-3" id="server-buttons-container"></div>
+                    <span class="text-[10px] text-gray-400 block mb-2 font-bold uppercase tracking-widest">Select Redundant Streaming Server:</span>
+                    <div class="flex flex-wrap gap-2.5" id="server-buttons-container"></div>
                 </div>
-                <p id="modal-desc" class="text-gray-400 text-sm leading-relaxed"></p>
+                <p id="modal-desc" class="text-gray-400 text-sm leading-relaxed font-light"></p>
             </div>
         </div>
     </div>
 
+    <footer class="w-full bg-[#03050c] border-t border-white/5 px-8 md:px-12 py-8 mt-12 space-y-6">
+        <div class="flex justify-center items-center space-x-8 text-xs text-gray-500 font-bold border-b border-white/5 pb-4">
+            <div class="flex items-center space-x-2">
+                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                <span>Visitor Active Now: <span id="count-active" class="text-white">--</span></span>
+            </div>
+            <div>
+                <span>Last 24 Hour Total Visitor: <span id="count-total" class="text-white">--</span></span>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs tracking-wide">
+            <p class="text-gray-400 text-center md:text-left max-w-3xl leading-relaxed">
+                <span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span> MOVIEPLEX BD does not upload, host, or store any media files or videos on its servers. All streaming links and metadata are automatically aggregated from publicly available external sources over the internet.
+            </p>
+            <p class="font-bold text-yellow-500 whitespace-nowrap">Powered by @nazmulsblg</p>
+        </div>
+    </footer>
+
     <script>
-        // Vercel এ অবস্থিত তোমার লাইভ লোকাল জেসন এপিআই সোর্স লিংক
         const API_URL = '/movieplex_master_db.json';
         let globalMoviesData = [];
 
+        // ডাইনামিক র্যান্ডম ট্রাফিক জেনারেটর
+        function initTrafficCounters() {
+            const activeNum = Math.floor(Math.random() * (100 - 10 + 1)) + 10;
+            const totalNum = Math.floor(Math.random() * (700 - 500 + 1)) + 500;
+            document.getElementById('count-active').innerText = activeNum;
+            document.getElementById('count-total').innerText = totalNum;
+        }
+
         async function initMovieplex() {
+            initTrafficCounters();
             try {
                 const response = await fetch(API_URL);
                 globalMoviesData = await response.json();
                 
-                // ১. ব্যানার বা হিরো সেকশন লোড করা (প্রথম ভ্যালিড মুভিটি দিয়ে)
+                // ব্লকব্লাস্টার হিরো ব্যানার সেটআপ (প্রথম ভ্যালিড মুভি অবজেক্ট দিয়ে)
                 if(globalMoviesData.length > 0) {
                     setupHero(globalMoviesData[0]);
                 }
-
-                // ২. রো ডিস্ট্রিবিউশন ম্যাট্রিক্স
                 renderCatalog(globalMoviesData);
             } catch (error) {
-                console.error("API Connection Failed:", error);
+                console.error("API Link Ingestion Failure:", error);
             }
         }
 
@@ -107,21 +172,19 @@
                 document.getElementById('hero-desc').innerText = movie.details;
             }
             if(movie.poster) {
-                document.getElementById('hero-section').style.backgroundImage = `linear-gradient(to top, #0c0f1d 10%, transparent 90%), url('${movie.poster}')`;
+                document.getElementById('hero-section').style.backgroundImage = `linear-gradient(to top, #060814 15%, transparent 85%), url('${movie.poster}')`;
             }
             document.getElementById('hero-play-btn').onclick = () => openPlayer(movie);
         }
 
         function cleanTitle(title) {
-            return title.replace(/\(.*?\)|\[.*?\]/g, '').replace(/hindi|bengali|bongoBD|hoichoi|web-dl|web/gi, '').trim();
+            return title.replace(/\(.*?\)|\[.*?\]/g, '').replace(/hindi|bengali|bongoBD|hoichoi|web-dl|web|s01|s02|complete/gi, '').trim();
         }
 
         function renderCatalog(movies) {
-            // সমস্ত গ্রিড খালি করা
-            document.getElementById('grid-new-release').innerHTML = '';
-            document.getElementById('grid-web-series').innerHTML = '';
-            document.getElementById('grid-trending').innerHTML = '';
-            document.getElementById('grid-top-rated').innerHTML = '';
+            // রো গ্রিড ক্লিয়ার করা
+            const rows = ['grid-new-release', 'grid-web-series', 'grid-trending', 'grid-top-rated'];
+            rows.forEach(r => document.getElementById(r).innerHTML = '');
 
             movies.forEach(movie => {
                 const card = createMovieCard(movie);
@@ -132,82 +195,116 @@
                 if (movie.categories.includes("Top Rated") || movie.rating >= 8.0) document.getElementById('grid-top-rated').appendChild(card.cloneNode(true));
             });
 
-            // ক্লিক লিসেনার রি-বাইন্ড করা ক্লোনড কার্ডগুলোর জন্য
-            document.querySelectorAll('.movie-card').forEach((cardElement, index) => {
-                const mid = cardElement.getAttribute('data-id');
-                const targetMovie = movies.find(m => m.id === mid);
-                if(targetMovie) {
-                    cardElement.onclick = () => openPlayer(targetMovie);
-                }
-            });
+            bindCardClicks(movies);
         }
 
         function createMovieCard(movie) {
             const div = document.createElement('div');
-            div.className = "movie-card min-w-[160px] md:min-w-[200px] bg-gray-900 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition duration-300 relative group shadow-md";
+            // কন্টেন্ট ডানে-বামে স্ক্রোলিং এর জন্য min-w লক করা
+            div.className = "movie-card min-w-[160px] md:min-w-[195px] bg-slate-900/60 rounded-2xl overflow-hidden cursor-pointer border border-white/5 relative shadow-xl flex-shrink-0 group";
             div.setAttribute('data-id', movie.id);
 
-            // কোয়ালিটি বা টাইপ ব্যাজ নির্ধারণ
             const isSeries = movie.categories.includes("Web Series") ? "SERIES" : "HD";
 
+            // রেফারেন্স সাইটের মতো পোস্টারের নিচের দিকে ব্লার শেড লেআউট
             div.innerHTML = `
-                <div class="relative w-full pt-[140%] bg-gray-850">
-                    <img src="${movie.poster}" alt="${movie.title}" class="absolute inset-0 w-full h-full object-cover group-hover:opacity-80 transition" loading="lazy">
-                    <span class="absolute top-2 left-2 bg-black bg-opacity-70 text-[10px] font-bold px-2 py-0.5 rounded text-red-500 tracking-wider">${isSeries}</span>
-                    <span class="absolute top-2 right-2 bg-yellow-500 text-black text-[10px] font-black px-1.5 py-0.5 rounded flex items-center">⭐ ${movie.rating > 0 ? movie.rating : '7.0'}</span>
-                </div>
-                <div class="p-3">
-                    <h4 class="text-sm font-bold truncate text-gray-200 group-hover:text-red-500 transition">${cleanTitle(movie.title)}</h4>
-                    <p class="text-[11px] text-gray-500 mt-0.5">${movie.release_year}</p>
+                <div class="relative w-full pt-[145%] bg-slate-950">
+                    <img src="${movie.poster}" alt="${movie.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+                    <span class="absolute top-2.5 left-2.5 bg-black/70 backdrop-blur-md text-[9px] font-black px-2 py-0.5 rounded text-yellow-500 tracking-wider">${isSeries}</span>
+                    
+                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/90 to-transparent p-3 pt-8 backdrop-blur-[2px]">
+                        <h4 class="text-xs font-bold truncate text-gray-100 group-hover:text-yellow-500 transition">${cleanTitle(movie.title)}</h4>
+                        <div class="flex justify-between items-center mt-1 text-[10px] text-gray-400 font-semibold">
+                            <span>${movie.release_year}</span>
+                            <span class="text-yellow-500 flex items-center">⭐ ${movie.rating > 0 ? movie.rating : '7.0'}</span>
+                        </div>
+                    </div>
                 </div>
             `;
             return div;
         }
 
-        // 🎥 পপ-আপ প্লেয়ার লজিক
+        function bindCardClicks(movies) {
+            document.querySelectorAll('.movie-card').forEach(card => {
+                card.onclick = () => {
+                    const targetMovie = movies.find(m => m.id === card.getAttribute('data-id'));
+                    if(targetMovie) openPlayer(targetMovie);
+                };
+            });
+        }
+
+        // 🏆 DYNAMIC SEE MORE ENGINE
+        function viewAll(categoryName) {
+            const filtered = globalMoviesData.filter(m => m.categories.includes(categoryName) || (categoryName === 'Top Rated' && m.rating >= 8.0));
+            document.getElementById('see-more-title').innerText = `Exploring: ${categoryName} (${filtered.length} Items)`;
+            
+            const grid = document.getElementById('see-more-grid');
+            grid.innerHTML = '';
+            
+            filtered.forEach(movie => {
+                const card = createMovieCard(movie);
+                // গ্রিড ভিউ লেআউটের জন্য ফ্লেক্স শিঙ্ক এবং মিন-উইড রিমুভ করা
+                card.className = "movie-card bg-slate-900/60 rounded-2xl overflow-hidden cursor-pointer border border-white/5 relative shadow-xl w-full group";
+                grid.appendChild(card);
+            });
+
+            // সি মোর গ্রিডের ক্লিক ইভেন্ট বাইন্ডিং
+            grid.querySelectorAll('.movie-card').forEach(card => {
+                card.onclick = () => {
+                    const targetMovie = filtered.find(m => m.id === card.getAttribute('data-id'));
+                    if(targetMovie) openPlayer(targetMovie);
+                };
+            });
+
+            const block = document.getElementById('see-more-block');
+            block.classList.remove('hidden');
+            block.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function closeSeeMore() {
+            document.getElementById('see-more-block').classList.add('hidden');
+        }
+
+        // 🎥 REDUNDANT ROUTING VIDEO PLAYER POPUP
         function openPlayer(movie) {
             document.getElementById('modal-title').innerText = cleanTitle(movie.title);
-            document.getElementById('modal-year').innerText = `Release Year: ${movie.release_year}`;
+            document.getElementById('modal-year').innerText = `Release Year & Metadata: ${movie.release_year}`;
             document.getElementById('modal-rating').innerText = `⭐ ${movie.rating > 0 ? movie.rating : '7.0'}`;
-            document.getElementById('modal-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "Enjoy premium high definition instant routing stream with secure multiple server redundancy options below.";
+            document.getElementById('modal-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "Enjoy low latency zero buffering streaming guide system routed via redundant external global sync servers.";
 
-            // সার্ভার বাটন জেনারেট করা
             const serverContainer = document.getElementById('server-buttons-container');
             serverContainer.innerHTML = '';
 
             if (movie.players && movie.players.length > 0) {
-                // ডিফল্টভাবে প্রথম সার্ভার চালানো
                 document.getElementById('video-iframe').src = movie.players[0].player_url;
 
                 movie.players.forEach((player, index) => {
                     const btn = document.createElement('button');
-                    btn.className = `px-4 py-1.5 rounded text-xs font-bold transition ${index === 0 ? 'bg-red-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'}`;
+                    btn.className = `px-5 py-2 rounded-xl text-xs font-black tracking-wider transition uppercase ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800'}`;
                     btn.innerText = `Server ${index + 1}`;
                     btn.onclick = function() {
-                        // সমস্ত বাটনের কালার রিসেট করা
                         Array.from(serverContainer.children).forEach(b => {
-                            b.className = 'bg-gray-800 text-gray-300 hover:bg-gray-700 px-4 py-1.5 rounded text-xs font-bold transition';
+                            b.className = 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800 px-5 py-2 rounded-xl text-xs font-black tracking-wider transition uppercase';
                         });
-                        // সিলেক্টেড বাটনের কালার অ্যাক্টিভ করা
-                        btn.className = 'bg-red-600 text-white px-4 py-1.5 rounded text-xs font-bold transition';
+                        btn.className = 'bg-yellow-500 text-black shadow-lg px-5 py-2 rounded-xl text-xs font-black tracking-wider transition uppercase';
                         document.getElementById('video-iframe').src = player.player_url;
                     };
                     serverContainer.appendChild(btn);
                 });
             } else {
                 document.getElementById('video-iframe').src = '';
-                serverContainer.innerHTML = '<span class="text-xs text-red-500">No active video servers available for this content.</span>';
+                serverContainer.innerHTML = '<span class="text-xs text-red-500 font-bold">No streaming servers found for this item.</span>';
             }
 
             document.getElementById('player-modal').classList.remove('hidden');
         }
 
         function closePlayer() {
-            document.getElementById('video-iframe').src = ''; // আইফ্রেমের সোর্স ও অডিও বন্ধ করার জন্য
+            document.getElementById('video-iframe').src = '';
             document.getElementById('player-modal').classList.add('hidden');
         }
 
-        // 🔍 লাইভ সার্চ ফিল্টার সিস্টেম
+        // 🔍 DYNAMIC SEARCH FILTER SYSTEM
         document.getElementById('search-bar').addEventListener('input', function(e) {
             const query = e.target.value.toLowerCase().trim();
             if(query.length > 0) {
@@ -216,13 +313,11 @@
                     (movie.tags && movie.tags.some(tag => tag.toLowerCase().includes(query)))
                 );
                 renderCatalog(filtered);
-                // সার্চ রেজাল্ট আসলে অপ্রয়োজনীয় হিরো ব্যানার বা স্লাইড হাইড করে শুধু গ্রিড দেখানোর জন্য টগল করতে পারো
             } else {
                 renderCatalog(globalMoviesData);
             }
         });
 
-        // ইনিশিয়ালাইজেশন
         window.onload = initMovieplex;
     </script>
 </body>
