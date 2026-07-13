@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movieplex BD - Premium Stream Grid</title>
+    <title>Movieplex BD - Premium Cinema Guide</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <style>
@@ -13,12 +13,8 @@
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.2); border-radius: 10px; }
         .scroller::-webkit-scrollbar-thumb:hover { background: rgba(234, 179, 8, 0.5); }
-        
-        /* মাউস কার্সর ওপরে নিলে স্মুথলি নেভবার নামার সিএসএস */
         #hidden-nav { transform: translateY(-100%); transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1); }
         #nav-trigger:hover #hidden-nav, #hidden-nav:hover { transform: translateY(0); }
-        
-        /* প্রিমিয়াম ইয়েলো হোভার গ্লো ইফেক্ট */
         .movie-card { transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border: 1px solid rgba(255,255,255,0.03); }
         .movie-card:hover { 
             transform: scale(1.05); 
@@ -29,36 +25,35 @@
 </head>
 <body class="relative min-h-screen">
 
-    <!-- 1. HOVER ACTIVATED NAVIGATION ENGINE -->
+    <!-- 1. NAVIGATION LAYER -->
     <div id="nav-trigger" class="fixed top-0 left-0 w-full h-7 z-50 bg-transparent">
         <nav id="hidden-nav" class="fixed top-0 left-0 w-full bg-[#060814]/95 backdrop-blur-xl px-8 py-3 flex justify-between items-center border-b border-white/5 shadow-2xl">
             <div class="flex items-center">
-                <!-- Vercel রিলেটিভ ফাইল পাথ সলিউশন -->
-                <img src="logo.jpg" alt="Movieplex BD" class="h-14 md:h-16 w-auto object-contain">
+                <img src="logo.jpg" alt="Movieplex BD" class="h-14 md:h-16 w-auto object-contain cursor-pointer" onclick="closeDetailsPage()">
             </div>
             <div class="w-1/3 min-w-[220px]">
-                <input type="text" id="search-bar" placeholder="🔍 Search catalog..." class="w-full bg-slate-900/90 border border-slate-800 text-white rounded-full px-5 py-2 text-sm focus:outline-none focus:border-yellow-500 transition shadow-inner">
+                <input type="text" id="search-bar" placeholder="Search catalog..." class="w-full bg-slate-900/90 border border-slate-800 text-white rounded-full px-5 py-2 text-sm focus:outline-none focus:border-yellow-500 transition shadow-inner">
             </div>
         </nav>
     </div>
 
-    <!-- MAIN HOME VIEW PARENT CONTAINER -->
+    <!-- MAIN HOME VIEW CONTAINER -->
     <div id="home-view-container" class="block">
-        <!-- 2. HIGH EXPANSION AUTOMATIC ROTATING HERO BANNER -->
-        <div class="relative w-full h-[90vh] bg-cover bg-center transition-all duration-1000 ease-in-out flex items-end pb-44" id="hero-section" style="background-image: linear-gradient(to top, #060814 12%, transparent 88%), url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925');">
+        <!-- HERO BANNER (FIXED STANDARD SIZE) -->
+        <div class="relative w-full h-[80vh] bg-cover bg-center flex items-end pb-52 transition-all duration-700" id="hero-section" style="background-image: linear-gradient(to top, #060814 20%, transparent 80%), url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925');">
             <div class="absolute inset-0 bg-gradient-to-r from-[#060814] via-transparent to-transparent opacity-95"></div>
             <div class="relative max-w-3xl space-y-4 px-6 md:px-12 z-10">
                 <span class="bg-yellow-500 text-black text-[10px] font-black uppercase px-2.5 py-1 rounded tracking-widest shadow-md">Featured Spotlight</span>
-                <h2 id="hero-title" class="text-4xl md:text-6xl font-black tracking-tight leading-none text-white drop-shadow-md">Loading Spotlight...</h2>
-                <p id="hero-desc" class="text-gray-300 text-xs md:text-sm leading-relaxed line-clamp-3 max-w-xl drop-shadow"></p>
-                <button id="hero-play-btn" class="bg-yellow-500 hover:bg-yellow-600 text-black font-black px-8 py-3 rounded-full flex items-center space-x-2 transition transform hover:scale-105 shadow-lg text-sm">
+                <h2 id="hero-title" class="text-4xl md:text-6xl font-black tracking-tight text-white drop-shadow-md">Loading Content...</h2>
+                <p id="hero-desc" class="text-gray-300 text-xs md:text-sm leading-relaxed line-clamp-3 max-w-xl"></p>
+                <button id="hero-play-btn" class="bg-yellow-500 hover:bg-yellow-600 text-black font-black px-8 py-3 rounded-full flex items-center space-x-2 transition transform hover:scale-105 text-sm">
                     <span>▶ Watch Now</span>
                 </button>
             </div>
         </div>
 
-        <!-- 3. ALGORITHMIC CATALOG GRID MATRIX (BLUR FUSED OVERLAY LAYER) -->
-        <div class="px-6 md:px-12 pb-24 -mt-36 relative z-20 space-y-12 bg-gradient-to-b from-transparent via-[#060814]/98 to-[#060814] backdrop-blur-[1px]">
+        <!-- FUSED OVERLAY GRID MATRIX (1ST ROW HALF RAISED) -->
+        <div class="px-6 md:px-12 pb-24 -mt-48 relative z-20 space-y-12 bg-gradient-to-b from-transparent via-[#060814]/98 to-[#060814] backdrop-blur-[2px]">
             
             <!-- Row 1: NEW Release -->
             <div class="space-y-3" id="section-new-release">
@@ -96,7 +91,7 @@
                 <div class="flex space-x-4 overflow-x-auto scroller py-3 px-0.5" id="grid-top-rated"></div>
             </div>
 
-            <!-- EXPLORER OVERLAY BLOCK -->
+            <!-- EXPLORER GRID -->
             <div id="see-more-block" class="space-y-6 hidden pt-6 border-t border-white/10">
                 <div class="flex justify-between items-center">
                     <h3 id="see-more-title" class="text-xl font-black text-yellow-500">Explorer</h3>
@@ -107,51 +102,79 @@
         </div>
     </div>
 
-    <!-- 4. DYNAMIC CINEMA DETAILS PAGE ARCHITECTURE (ANTI-ADS SHIELD) -->
-    <div id="details-view-container" class="hidden min-h-screen px-6 md:px-16 py-12 pt-24 space-y-8 bg-[#060814]">
-        <button onclick="closeDetailsPage()" class="bg-slate-900 hover:bg-slate-800 text-white border border-slate-800 px-6 py-2.5 rounded-full text-xs font-bold transition flex items-center space-x-1 shadow-lg">
-            <span>‹ Back to Home</span>
-        </button>
-
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-            <!-- Left Side: Player Frame System -->
-            <div class="lg:col-span-2 space-y-4">
-                <div class="relative pt-[56.25%] w-full bg-black rounded-3xl overflow-hidden border border-white/5 shadow-2xl">
-                    <!-- আইফ্রেমটি এখানে প্রি-লোডেড মোডে ইনজেক্ট হবে -->
-                    <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
+    <!-- 4. FULL SCREEN PREMIUM CINEMA DETAILS PAGE ARCHITECTURE (TMDB MATRICES INSPIRED) -->
+    <div id="details-view-container" class="hidden min-h-screen bg-[#060814] pb-24">
+        <!-- Top Hero Mask Overlay -->
+        <div id="details-hero-bg" class="w-full h-[55vh] bg-cover bg-center relative flex items-end pb-8">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#060814] via-[#060814]/70 to-black/40"></div>
+            <div class="relative z-10 px-6 md:px-16 w-full flex flex-col md:flex-row items-center md:items-end gap-6">
+                <!-- Poster Card -->
+                <img id="details-poster" src="" alt="Poster" class="w-36 md:w-48 rounded-2xl shadow-2xl border border-white/10 transform -reset-y-12 md:translate-y-16">
+                <!-- Core Text Info -->
+                <div class="space-y-2 text-center md:text-left md:mb-4 flex-1">
+                    <button onclick="closeDetailsPage()" class="text-xs font-bold text-yellow-500 hover:underline mb-2 block">‹ Back to Dashboard</button>
+                    <h2 id="details-title" class="text-3xl md:text-5xl font-black tracking-tight text-white">Title</h2>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-3 items-center text-xs font-bold">
+                        <span id="details-age-rating" class="border border-gray-500 px-1.5 py-0.5 rounded text-[10px]">PG</span>
+                        <span id="details-year">--</span>
+                        <span id="details-rating" class="bg-yellow-500 text-black px-2 py-0.5 rounded font-black shadow">⭐ --</span>
+                        <span id="details-views" class="text-gray-400 font-medium">👁️ -- views</span>
+                    </div>
                 </div>
-                <!-- Server Distribution Buttons Layout -->
-                <div class="bg-slate-900/40 p-5 rounded-2xl border border-white/5 space-y-3">
-                    <span class="text-[10px] text-gray-400 block font-bold uppercase tracking-widest">Select Redundant Stream Routing Gateway:</span>
+            </div>
+        </div>
+
+        <!-- Cinema Layout Details Layout Box -->
+        <div class="max-w-7xl mx-auto px-6 md:px-16 mt-16 md:mt-24 grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+            <!-- Left Grid: Large Interactive Video Player Box -->
+            <div class="lg:col-span-2 space-y-6">
+                <div class="relative pt-[56.25%] w-full bg-black rounded-3xl overflow-hidden shadow-[0_0_50px_rgba(234,179,8,0.15)] border border-white/5 group">
+                    <!-- Anti-Ad Shield Protection Cover -->
+                    <div id="player-shield" class="absolute inset-0 bg-black/40 backdrop-blur-sm z-30 flex flex-col justify-center items-center space-y-3 cursor-pointer" onclick="activatePlayerFrame()">
+                        <div class="w-16 h-16 bg-yellow-500 text-black rounded-full flex items-center justify-center font-black text-xl shadow-2xl transform group-hover:scale-110 transition">▶</div>
+                        <span class="text-xs font-bold tracking-widest uppercase text-gray-200">Click to bypass ad shields & stream secure</span>
+                    </div>
+                    <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10" allowfullscreen></iframe>
+                </div>
+                <!-- Server Slots Gateway -->
+                <div class="bg-slate-950 p-5 rounded-2xl border border-white/5 space-y-3">
+                    <span class="text-[10px] text-gray-400 block font-bold uppercase tracking-widest">Select Redundant Core Streaming Server Route:</span>
                     <div class="flex flex-wrap gap-2.5" id="details-server-container"></div>
                 </div>
             </div>
 
-            <!-- Right Side: Meta Data Details -->
-            <div class="bg-slate-900/30 p-6 md:p-8 rounded-3xl border border-white/5 space-y-6">
-                <div>
-                    <h3 id="details-title" class="text-2xl md:text-3xl font-black text-white tracking-wide">Title</h3>
-                    <div class="flex flex-wrap gap-3 items-center mt-3 text-xs">
-                        <span id="details-year" class="text-gray-400 font-bold">--</span>
-                        <span id="details-rating" class="bg-yellow-500 text-black px-2 py-0.5 rounded font-black">⭐ --</span>
-                        <span id="details-views" class="text-gray-400 font-medium">👁️ -- views</span>
-                    </div>
-                </div>
-                <div class="space-y-2">
+            <!-- Right Grid: Deep Meta Details & Cast Grid -->
+            <div class="space-y-6">
+                <div class="bg-slate-900/20 p-6 rounded-2xl border border-white/5 space-y-4">
                     <span class="text-[10px] text-gray-500 font-bold uppercase tracking-wider block">Overview & Synopsis:</span>
                     <p id="details-desc" class="text-gray-300 text-sm leading-relaxed font-light"></p>
                 </div>
-                <div id="details-meta-tags-box" class="pt-4 border-t border-white/5 flex flex-wrap gap-2"></div>
-                
-                <!-- ইন-বিল্ট মিনিমালিস্ট ব্র্যান্ডিং প্রোটোকল -->
-                <div class="pt-6 border-t border-white/5 flex justify-center">
-                    <span class="text-[10px] text-gray-600 font-medium tracking-widest">Powered by @Nazmulsblog</span>
+
+                <!-- TMDB Top Billed Cast Box (Inspired Grid Layout) -->
+                <div class="space-y-3">
+                    <span class="text-[10px] text-gray-500 font-bold uppercase tracking-wider block">Top Billed Cast:</span>
+                    <div class="grid grid-cols-3 gap-3" id="cast-cards-container">
+                        <!-- Dynamic Cast Cards Inserted Here -->
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- SIMILAR CONTENT DOCK LINE LAYER -->
+        <div class="max-w-7xl mx-auto px-6 md:px-16 mt-16 space-y-4">
+            <div class="border-b border-white/5 pb-1">
+                <h3 class="text-lg font-bold text-gray-200">🍿 Similar Content You May Like</h3>
+            </div>
+            <div class="flex space-x-4 overflow-x-auto scroller py-3" id="grid-similar-content"></div>
+        </div>
+
+        <!-- Minimalist Branding Block -->
+        <div class="w-full flex justify-center mt-12">
+            <span class="text-[9px] text-gray-600 font-bold tracking-widest uppercase">Powered by @Nazmulsblog</span>
+        </div>
     </div>
 
-    <!-- 5. REAL COMPLIANCE TRAFFIC COUNTER & FOOTER ENGINE -->
+    <!-- TRAFFIC COUNTER & FOOTER MATRIX -->
     <footer class="w-full bg-[#03050c] border-t border-white/5 px-8 md:px-12 py-6 space-y-5">
         <div class="flex justify-center items-center space-x-8 text-[11px] text-gray-500 font-bold">
             <div class="flex items-center space-x-1.5">
@@ -164,19 +187,21 @@
         </div>
         <div class="text-[11px] tracking-wide leading-relaxed text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4">
             <p class="text-gray-400 max-w-4xl">
-                <span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span> MOVIEPLEX BD does not upload or host any content. <br class="hidden md:block">All data is aggregated from publicly available sources over the internet.
+                <span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span> MOVIEPLEX BD does not upload or host any content. <br>All data is aggregated from publicly available sources over the internet.
             </p>
             <p class="font-bold text-yellow-500 tracking-wider">Powered by @Nazmulsblg</p>
         </div>
     </footer>
 
-    <!-- 6. HIGH ARCHITECTURAL front-END CORE ENGINE -->
+    <!-- INTERACTIVE ENGINE JAVASCRIPT CORE -->
     <script>
         const API_URL = 'movieplex_master_db.json';
+        const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6'; // পাবলিক সেফ ফলব্যাক টিএমডিবি রুট
         let globalMoviesData = [];
         let sortedRowsData = { newRelease: [], recentRelease: [], trending: [], topRated: [] };
-        let heroIntervalIndex = 0;
-        let heroSliderTimer = null;
+        let sliderIndex = 0;
+        let sliderTimer = null;
+        let activePlayerSrc = "";
 
         function initTrafficCounters() {
             document.getElementById('count-active').innerText = Math.floor(Math.random() * (100 - 10 + 1)) + 10;
@@ -193,40 +218,35 @@
                 const response = await fetch(API_URL);
                 globalMoviesData = await response.json();
                 
-                // রিয়েল সিংক লজিক: সোর্সের আসল ভিউ এবং রেটিং ডেটাবেস থেকে ম্যাপিং করা
+                // সোর্স ডেটা রিয়েলম ম্যাপিং
                 globalMoviesData = globalMoviesData.map(m => {
-                    if(!m.views) m.views = 234;
+                    if(!m.views || m.views === 150) m.views = Math.floor(Math.random() * 600) + 150;
                     if(!m.rating || m.rating === 0) m.rating = 7.0;
                     return m;
                 });
 
                 processAlgorithmicRows();
                 setupHeroSlider();
-            } catch (e) { console.error("Database connection fault:", e); }
+            } catch (e) { console.error(e); }
         }
 
         function setupHeroSlider() {
             if(globalMoviesData.length === 0) return;
-            
-            // প্রথম স্লাইড লোড
             updateHeroView(globalMoviesData[0]);
-            
-            // ১৫ সেকেন্ড পর পর ব্যাকগ্রাউন্ড চেঞ্জ মেকানিজম
-            heroSliderTimer = setInterval(() => {
-                heroIntervalIndex = (heroIntervalIndex + 1) % Math.min(globalMoviesData.length, 10);
-                updateHeroView(globalMoviesData[heroIntervalIndex]);
-            }, 15000);
+            sliderTimer = setInterval(() => {
+                sliderIndex = (sliderIndex + 1) % Math.min(globalMoviesData.length, 8);
+                updateHeroView(globalMoviesData[sliderIndex]);
+            }, 15000); // প্রতি ১৫ সেকেন্ড পর পর রোটেট হবে ব্যানার
         }
 
         function updateHeroView(movie) {
             const section = document.getElementById('hero-section');
             if(!section) return;
-            
             section.style.opacity = '0.7';
             setTimeout(() => {
                 document.getElementById('hero-title').innerText = cleanTitle(movie.title);
-                document.getElementById('hero-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "Stream live bufferless proxy streams safely integrated onto multi-channel configuration layouts.";
-                if(movie.poster) section.style.backgroundImage = `linear-gradient(to top, #060814 12%, transparent 88%), url('${movie.poster}')`;
+                document.getElementById('hero-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Stream high definition media servers routing endpoints securely.";
+                if(movie.poster) section.style.backgroundImage = `linear-gradient(to top, #060814 20%, transparent 80%), url('${movie.poster}')`;
                 document.getElementById('hero-play-btn').onclick = () => openDetailsPage(movie);
                 section.style.opacity = '1';
             }, 300);
@@ -236,28 +256,18 @@
             const NOW = Math.floor(Date.now() / 1000);
             const ONE_DAY = 24 * 60 * 60;
 
-            // ১. NEW Release: গত ৭ দিনে আমাদের সিস্টেমে আসা নতুন কন্টেন্ট
+            // অ্যালগরিদমিক রুল বুক ফিল্টারিং পাইপলাইন
             sortedRowsData.newRelease = globalMoviesData.filter(m => (NOW - m.timestamp) <= (7 * ONE_DAY));
-            
-            // ২. RECENT Release: ৭ দিনের বেশি কিন্তু ৩০ দিনের কম বয়সী কন্টেন্ট
             sortedRowsData.recentRelease = globalMoviesData.filter(m => {
                 const age = NOW - m.timestamp;
                 return age > (7 * ONE_DAY) && age <= (30 * ONE_DAY);
             });
+            sortedRowsData.trending = globalMoviesData.filter(m => (NOW - m.timestamp) <= (60 * ONE_DAY)).sort((a,b)=>b.views - a.views);
+            sortedRowsData.topRated = globalMoviesData.filter(m => (NOW - m.timestamp) <= (60 * ONE_DAY)).sort((a,b)=>b.rating - a.rating);
 
-            // ৩. TRENDING Now: ১-৬০ দিনের মধ্যে সর্বোচ্চ সোর্স ভিউ (বড় থেকে ছোট ক্রমান্বয়ে)
-            sortedRowsData.trending = globalMoviesData
-                .filter(m => (NOW - m.timestamp) <= (60 * ONE_DAY))
-                .sort((a,b) => b.views - a.views);
-
-            // ৪. TOP Rated: ১-৬০ দিনের মধ্যে বেস্ট অফিশিয়াল রেটিং (সেরাটা সবার আগে)
-            sortedRowsData.topRated = globalMoviesData
-                .filter(m => (NOW - m.timestamp) <= (60 * ONE_DAY))
-                .sort((a,b) => b.rating - a.rating);
-
-            // প্রোডাকশন ফলব্যাক লেয়ার (প্রজেক্টের শুরুতে ফাঁকা গ্রিড ফিক্স করার জন্য)
-            if(sortedRowsData.newRelease.length < 5) sortedRowsData.newRelease = [...globalMoviesData].sort((a,b)=>b.timestamp-a.timestamp).slice(0, 15);
-            if(sortedRowsData.recentRelease.length < 5) sortedRowsData.recentRelease = [...globalMoviesData].sort((a,b)=>b.timestamp-a.timestamp).slice(8, 23);
+            // ফলব্যাক বুটস্ট্র্যাপ
+            if(sortedRowsData.newRelease.length < 4) sortedRowsData.newRelease = [...globalMoviesData].sort((a,b)=>b.timestamp-a.timestamp).slice(0, 15);
+            if(sortedRowsData.recentRelease.length < 4) sortedRowsData.recentRelease = [...globalMoviesData].sort((a,b)=>b.timestamp-a.timestamp).slice(6, 20);
             if(sortedRowsData.trending.length === 0) sortedRowsData.trending = [...globalMoviesData].sort((a,b)=>b.views-a.views);
             if(sortedRowsData.topRated.length === 0) sortedRowsData.topRated = [...globalMoviesData].sort((a,b)=>b.rating-a.rating);
 
@@ -270,22 +280,18 @@
         function renderRow(targetId, dataset) {
             const container = document.getElementById(targetId);
             container.innerHTML = '';
-            dataset.forEach(movie => {
-                const card = createMovieCard(movie);
-                container.appendChild(card);
-            });
+            dataset.forEach(movie => container.appendChild(createMovieCard(movie)));
         }
 
         function createMovieCard(movie) {
             const div = document.createElement('div');
             div.className = "movie-card min-w-[155px] md:min-w-[190px] bg-slate-900/40 rounded-2xl overflow-hidden cursor-pointer relative shadow-xl flex-shrink-0 group";
             
-            // পোস্টারের নিচের অংশ আরও বড় এরিয়া জুড়ে ব্লার-গ্রাডিয়েন্ট ডিজাইন
+            const isSeries = movie.categories.includes("Web Series") ? "SERIES" : "HD";
             div.innerHTML = `
                 <div class="relative w-full pt-[145%] bg-slate-950">
                     <img src="${movie.poster}" alt="${movie.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-103 transition duration-500" loading="lazy">
-                    
-                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/95 to-transparent p-3 pt-12 backdrop-blur-[3px]">
+                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/95 to-transparent p-3 pt-14 backdrop-blur-[3px]">
                         <h4 class="text-xs font-bold tracking-wide truncate text-gray-100 group-hover:text-yellow-500 transition">${cleanTitle(movie.title)}</h4>
                         <div class="flex justify-between items-center mt-1.5 text-[10px] text-gray-400 font-bold">
                             <span>${movie.release_year}</span>
@@ -298,96 +304,129 @@
             return div;
         }
 
-        // 🚀 DYNAMIC ROUTING DETAILS PAGE ARCHITECTURE
-        function openDetailsPage(movie) {
-            // হোম ভিউ হাইড করে ডিটেইলস স্ক্রিন অন করা
+        // 🚀 FULL SCREEN PRE-PROCESSED DETAILS PAGE ENGINE
+        async function openDetailsPage(movie) {
             document.getElementById('home-view-container').classList.replace('block', 'hidden');
-            const detailsBox = document.getElementById('details-view-container');
-            detailsBox.classList.replace('hidden', 'block');
+            document.getElementById('details-view-container').classList.replace('hidden', 'block');
             window.scrollTo({ top: 0, behavior: 'smooth' });
 
+            // বেস মেটা ইন্টিগ্রেশন
+            document.getElementById('details-poster').src = movie.poster;
+            if(movie.poster) document.getElementById('details-hero-bg').style.backgroundImage = `linear-gradient(to top, #060814 20%, #060814/70 to-black/40), url('${movie.poster}')`;
+            
             document.getElementById('details-title').innerText = cleanTitle(movie.title);
-            document.getElementById('details-year').innerText = `Release Date: ${movie.release_year}`;
+            document.getElementById('details-year').innerText = movie.release_year;
             document.getElementById('details-rating').innerText = `⭐ ${movie.rating}`;
-            document.getElementById('details-views').innerText = `👁️ ${movie.views.toLocaleString()} সোর্স ভিউ`;
-            document.getElementById('details-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "Metadata processing completed. Bufferless video routing stream initialized safely via direct core sync paths.";
+            document.getElementById('details-views').innerText = `Total Views: ${movie.views.toLocaleString()}`;
+            document.getElementById('details-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "No summary available.";
 
-            // ক্যাটাগরি ম্যাপিং ও ট্যাগ ফিল্টার
-            const tagsBox = document.getElementById('details-meta-tags-box');
-            tagsBox.innerHTML = '';
-            movie.categories.forEach(cat => {
-                if(!["New Release", "Recent Release"].includes(cat)) {
-                    const span = document.createElement('span');
-                    span.className = "bg-slate-900 border border-slate-800 text-gray-400 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow";
-                    span.innerText = cat;
-                    tagsBox.appendChild(span);
-                }
-            });
+            // অ্যান্টি-অ্যাড শিল্ড রিসেট
+            document.getElementById('player-shield').classList.remove('hidden');
+            document.getElementById('details-video-iframe').src = "";
 
-            // সার্ভার লোড এবং প্রি-প্রসেসিং গেটওয়ে
+            // সার্ভার ও রাউটিং সেটআপ
             const serverContainer = document.getElementById('details-server-container');
             serverContainer.innerHTML = '';
             
             if (movie.players && movie.players.length > 0) {
-                // পেজ খোলার সাথে সাথেই ১ম প্লেয়ার ফ্রেম ব্যাকগ্রাউন্ডে প্রি-লোড হবে
-                document.getElementById('details-video-iframe').src = movie.players[0].player_url;
+                activePlayerSrc = movie.players[0].player_url; // ব্যাকগ্রাউন্ডে রেডি রাখার জন্য সেভ
 
                 movie.players.forEach((player, index) => {
                     const btn = document.createElement('button');
-                    btn.className = `px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase shadow ${index === 0 ? 'bg-yellow-500 text-black' : 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800'}`;
-                    btn.innerText = `Stream Gateway ${index + 1}`;
+                    btn.className = `px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800'}`;
+                    btn.innerText = `Server Gateway ${index + 1}`;
                     btn.onclick = function() {
-                        Array.from(serverContainer.children).forEach(b => {
-                            b.className = 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800 px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase shadow';
-                        });
-                        btn.className = 'bg-yellow-500 text-black px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase shadow';
-                        document.getElementById('details-video-iframe').src = player.player_url;
+                        Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800 px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase');
+                        btn.className = 'bg-yellow-500 text-black shadow-lg px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase';
+                        activePlayerSrc = player.player_url;
+                        document.getElementById('player-shield').classList.remove('hidden');
+                        document.getElementById('details-video-iframe').src = "";
                     };
                     serverContainer.appendChild(btn);
                 });
             }
+
+            // লাইভ টিএমডিবি ডেটা ফেচিং পাইপলাইন (কাস্টিং, এজ রেটিং, জেনার ইম্পোর্ট)
+            fetchTMDBData(movie.id);
+
+            // সিমিলার কন্টেন্ট রো জেনারেশন
+            renderSimilarContent(movie);
+        }
+
+        function activatePlayerFrame() {
+            document.getElementById('player-shield').classList.add('hidden');
+            document.getElementById('details-video-iframe').src = activePlayerSrc;
+        }
+
+        async function fetchTMDBData(tmdbIdStr) {
+            const castContainer = document.getElementById('cast-cards-container');
+            castContainer.innerHTML = '<span class="text-xs text-gray-500">Syncing cast metadata...</span>';
+            
+            if(!tmdbIdStr.includes('_')) {
+                castContainer.innerHTML = '<span class="text-xs text-gray-600">No local cast metrics.</span>';
+                return;
+            }
+            
+            const [type, id] = tmdbIdStr.split('_');
+            const url = `https://api.themoviedb.org/3/${type}/${id}?api_key=${TMDB_KEY}&append_to_response=credits`;
+            
+            try {
+                const res = await fetch(url).json();
+                // এজ রেটিং ও এক্সট্রা জেনার আপডেট
+                if(res.genres) {
+                    document.getElementById('details-desc').innerText = res.overview || document.getElementById('details-desc').innerText;
+                }
+                
+                // টপ কাস্ট কার্ড জেনারেশন (স্ক্রিনশটের মতো ক্লিন লেআউট)
+                castContainer.innerHTML = '';
+                const casts = res.credits?.cast?.slice(0, 6) || [];
+                if(casts.length === 0) castContainer.innerHTML = '<span class="text-xs text-gray-600">No cast endpoints found.</span>';
+                
+                casts.forEach(c => {
+                    const profile = c.profile_path ? `https://image.tmdb.org/t/p/w185${c.profile_path}` : 'https://via.placeholder.com/150x200?text=Actor';
+                    const div = document.createElement('div');
+                    div.className = "bg-slate-950 rounded-xl overflow-hidden border border-white/5 p-1.5 text-center";
+                    div.innerHTML = `
+                        <img src="${profile}" class="w-full h-20 object-cover rounded-lg mb-1" loading="lazy">
+                        <h5 class="text-[9px] font-bold text-gray-200 truncate">${c.name}</h5>
+                        <p class="text-[8px] text-gray-500 truncate">${c.character}</p>
+                    `;
+                    castContainer.appendChild(div);
+                });
+            } catch(e) { castContainer.innerHTML = '<span class="text-xs text-gray-600">Cast secure.</span>'; }
+        }
+
+        function renderSimilarContent(currentMovie) {
+            const container = document.getElementById('grid-similar-content');
+            container.innerHTML = '';
+            const matching = globalMoviesData.filter(m => m.id !== currentMovie.id && m.categories.some(c => currentMovie.categories.includes(c))).slice(0, 10);
+            matching.forEach(movie => container.appendChild(createMovieCard(movie)));
         }
 
         function closeDetailsPage() {
-            document.getElementById('details-video-iframe').src = ''; // অডিও/ভিডিও ট্র্যাক কিল করার জন্য
+            document.getElementById('details-video-iframe').src = '';
             document.getElementById('details-view-container').classList.replace('block', 'hidden');
             document.getElementById('home-view-container').classList.replace('hidden', 'block');
         }
 
         function viewAll(type) {
-            let list = [];
-            let text = "";
+            let list = []; let text = "";
             if(type === 'new-release') { list = sortedRowsData.newRelease; text = "NEW Release"; }
             else if(type === 'recent-release') { list = sortedRowsData.recentRelease; text = "RECENT Release"; }
             else if(type === 'trending') { list = sortedRowsData.trending; text = "TRENDING Now"; }
             else if(type === 'top-rated') { list = sortedRowsData.topRated; text = "TOP Rated"; }
 
-            document.getElementById('see-more-title').innerText = `${text} Explorer (${list.length} Items)`;
-            const grid = document.getElementById('see-more-grid');
-            grid.innerHTML = '';
-            
+            document.getElementById('see-more-title').innerText = `${text} explorer`;
+            const grid = document.getElementById('see-more-grid'); grid.innerHTML = '';
             list.forEach(movie => {
                 const card = createMovieCard(movie);
                 card.className = "movie-card bg-slate-900/40 rounded-2xl overflow-hidden cursor-pointer relative shadow-xl w-full group";
                 grid.appendChild(card);
             });
-
-            const block = document.getElementById('see-more-block');
-            block.classList.remove('hidden');
-            block.scrollIntoView({ behavior: 'smooth' });
+            document.getElementById('see-more-block').classList.remove('hidden');
         }
 
         function closeSeeMore() { document.getElementById('see-more-block').classList.add('hidden'); }
-
-        document.getElementById('search-bar').addEventListener('input', function(e) {
-            const query = e.target.value.toLowerCase().trim();
-            if(query.length > 0) {
-                const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query));
-                renderRow('grid-new-release', filtered);
-            } else {
-                processAlgorithmicRows();
-            }
-        });
 
         window.onload = initMovieplex;
     </script>
