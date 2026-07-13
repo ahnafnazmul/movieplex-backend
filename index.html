@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movieplex BD - Premium Streaming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0c0f1d; color: #ffffff; font-family: 'Inter', sans-serif; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <nav class="fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-[#0c0f1d] to-transparent px-6 py-4 flex justify-between items-center backdrop-blur-md bg-opacity-70">
+        <div class="flex items-center space-x-6">
+            <h1 class="text-2xl font-black tracking-wider text-red-600">MOVIEPLEX <span class="text-white text-lg font-light">BD</span></h1>
+        </div>
+        <div class="w-1/3">
+            <input type="text" id="search-bar" placeholder="Search movies, web series..." class="w-full bg-gray-900 bg-opacity-80 border border-gray-800 text-white rounded-full px-5 py-2 text-sm focus:outline-none focus:border-red-600 transition">
+        </div>
+    </nav>
+
+    <div class="relative w-full h-[70vh] bg-cover bg-center flex items-end px-8 pb-12" id="hero-section" style="background-image: linear-gradient(to top, #0c0f1d 10%, transparent 90%), url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1925');">
+        <div class="max-w-2xl space-y-4">
+            <span class="bg-red-600 text-xs font-bold uppercase px-3 py-1 rounded-md tracking-widest">Featured</span>
+            <h2 id="hero-title" class="text-5xl font-extrabold tracking-tight">Welcome to Movieplex BD</h2>
+            <p id="hero-desc" class="text-gray-400 text-sm leading-relaxed">Stream your favorite movies, exclusive web series, and local contents seamlessly in high definition without buffering.</p>
+            <button id="hero-play-btn" class="bg-white text-black hover:bg-red-600 hover:text-white font-bold px-8 py-3 rounded-full flex items-center space-x-2 transition shadow-lg">
+                <span>▶ Watch Now</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="px-8 py-6 space-y-12">
+        <div class="movie-row-container" id="row-new-release">
+            <h3 class="text-xl font-bold tracking-wide mb-4 text-gray-200">✨ New Releases</h3>
+            <div class="flex space-x-4 overflow-x-auto no-scrollbar scroll-smooth py-2" id="grid-new-release"></div>
+        </div>
+
+        <div class="movie-row-container" id="row-web-series">
+            <h3 class="text-xl font-bold tracking-wide mb-4 text-gray-200">🎬 Premium Web Series</h3>
+            <div class="flex space-x-4 overflow-x-auto no-scrollbar scroll-smooth py-2" id="grid-web-series"></div>
+        </div>
+
+        <div class="movie-row-container" id="row-trending">
+            <h3 class="text-xl font-bold tracking-wide mb-4 text-gray-200">🔥 Most Trending</h3>
+            <div class="flex space-x-4 overflow-x-auto no-scrollbar scroll-smooth py-2" id="grid-trending"></div>
+        </div>
+
+        <div class="movie-row-container" id="row-top-rated">
+            <h3 class="text-xl font-bold tracking-wide mb-4 text-gray-200">🏆 Top Rated (IMDb 8+)</h3>
+            <div class="flex space-x-4 overflow-x-auto no-scrollbar scroll-smooth py-2" id="grid-top-rated"></div>
+        </div>
+    </div>
+
+    <div id="player-modal" class="fixed inset-0 z-50 bg-black bg-opacity-95 hidden flex justify-center items-center p-4 backdrop-blur-sm">
+        <div class="bg-[#111625] w-full max-w-4xl rounded-2xl overflow-hidden shadow-2xl relative border border-gray-850">
+            <button onclick="closePlayer()" class="absolute top-4 right-4 bg-red-600 hover:bg-red-700 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold z-50 transition">✕</button>
+            
+            <div class="relative pt-[56.25%] w-full bg-black">
+                <iframe id="video-iframe" src="" class="absolute inset-0 w-full h-full border-0" allowfullscreen></iframe>
+            </div>
+
+            <div class="p-6 space-y-4">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h4 id="modal-title" class="text-2xl font-bold">Movie Title</h4>
+                        <p id="modal-year" class="text-sm text-gray-500 mt-1">Year: 2026</p>
+                    </div>
+                    <div id="modal-rating" class="bg-yellow-500 text-black text-xs font-bold px-2.5 py-1 rounded">⭐ 7.0</div>
+                </div>
+                <div>
+                    <span class="text-xs text-gray-400 block mb-2 uppercase tracking-widest">Select Streaming Stream Server:</span>
+                    <div class="flex space-x-3" id="server-buttons-container"></div>
+                </div>
+                <p id="modal-desc" class="text-gray-400 text-sm leading-relaxed"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Vercel এ অবস্থিত তোমার লাইভ লোকাল জেসন এপিআই সোর্স লিংক
+        const API_URL = '/movieplex_master_db.json';
+        let globalMoviesData = [];
+
+        async function initMovieplex() {
+            try {
+                const response = await fetch(API_URL);
+                globalMoviesData = await response.json();
+                
+                // ১. ব্যানার বা হিরো সেকশন লোড করা (প্রথম ভ্যালিড মুভিটি দিয়ে)
+                if(globalMoviesData.length > 0) {
+                    setupHero(globalMoviesData[0]);
+                }
+
+                // ২. রো ডিস্ট্রিবিউশন ম্যাট্রিক্স
+                renderCatalog(globalMoviesData);
+            } catch (error) {
+                console.error("API Connection Failed:", error);
+            }
+        }
+
+        function setupHero(movie) {
+            document.getElementById('hero-title').innerText = cleanTitle(movie.title);
+            if(movie.details && movie.details !== "Local parsing secure.") {
+                document.getElementById('hero-desc').innerText = movie.details;
+            }
+            if(movie.poster) {
+                document.getElementById('hero-section').style.backgroundImage = `linear-gradient(to top, #0c0f1d 10%, transparent 90%), url('${movie.poster}')`;
+            }
+            document.getElementById('hero-play-btn').onclick = () => openPlayer(movie);
+        }
+
+        function cleanTitle(title) {
+            return title.replace(/\(.*?\)|\[.*?\]/g, '').replace(/hindi|bengali|bongoBD|hoichoi|web-dl|web/gi, '').trim();
+        }
+
+        function renderCatalog(movies) {
+            // সমস্ত গ্রিড খালি করা
+            document.getElementById('grid-new-release').innerHTML = '';
+            document.getElementById('grid-web-series').innerHTML = '';
+            document.getElementById('grid-trending').innerHTML = '';
+            document.getElementById('grid-top-rated').innerHTML = '';
+
+            movies.forEach(movie => {
+                const card = createMovieCard(movie);
+                
+                if (movie.categories.includes("New Release")) document.getElementById('grid-new-release').appendChild(card.cloneNode(true));
+                if (movie.categories.includes("Web Series")) document.getElementById('grid-web-series').appendChild(card.cloneNode(true));
+                if (movie.categories.includes("Most Trending")) document.getElementById('grid-trending').appendChild(card.cloneNode(true));
+                if (movie.categories.includes("Top Rated") || movie.rating >= 8.0) document.getElementById('grid-top-rated').appendChild(card.cloneNode(true));
+            });
+
+            // ক্লিক লিসেনার রি-বাইন্ড করা ক্লোনড কার্ডগুলোর জন্য
+            document.querySelectorAll('.movie-card').forEach((cardElement, index) => {
+                const mid = cardElement.getAttribute('data-id');
+                const targetMovie = movies.find(m => m.id === mid);
+                if(targetMovie) {
+                    cardElement.onclick = () => openPlayer(targetMovie);
+                }
+            });
+        }
+
+        function createMovieCard(movie) {
+            const div = document.createElement('div');
+            div.className = "movie-card min-w-[160px] md:min-w-[200px] bg-gray-900 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition duration-300 relative group shadow-md";
+            div.setAttribute('data-id', movie.id);
+
+            // কোয়ালিটি বা টাইপ ব্যাজ নির্ধারণ
+            const isSeries = movie.categories.includes("Web Series") ? "SERIES" : "HD";
+
+            div.innerHTML = `
+                <div class="relative w-full pt-[140%] bg-gray-850">
+                    <img src="${movie.poster}" alt="${movie.title}" class="absolute inset-0 w-full h-full object-cover group-hover:opacity-80 transition" loading="lazy">
+                    <span class="absolute top-2 left-2 bg-black bg-opacity-70 text-[10px] font-bold px-2 py-0.5 rounded text-red-500 tracking-wider">${isSeries}</span>
+                    <span class="absolute top-2 right-2 bg-yellow-500 text-black text-[10px] font-black px-1.5 py-0.5 rounded flex items-center">⭐ ${movie.rating > 0 ? movie.rating : '7.0'}</span>
+                </div>
+                <div class="p-3">
+                    <h4 class="text-sm font-bold truncate text-gray-200 group-hover:text-red-500 transition">${cleanTitle(movie.title)}</h4>
+                    <p class="text-[11px] text-gray-500 mt-0.5">${movie.release_year}</p>
+                </div>
+            `;
+            return div;
+        }
+
+        // 🎥 পপ-আপ প্লেয়ার লজিক
+        function openPlayer(movie) {
+            document.getElementById('modal-title').innerText = cleanTitle(movie.title);
+            document.getElementById('modal-year').innerText = `Release Year: ${movie.release_year}`;
+            document.getElementById('modal-rating').innerText = `⭐ ${movie.rating > 0 ? movie.rating : '7.0'}`;
+            document.getElementById('modal-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "Enjoy premium high definition instant routing stream with secure multiple server redundancy options below.";
+
+            // সার্ভার বাটন জেনারেট করা
+            const serverContainer = document.getElementById('server-buttons-container');
+            serverContainer.innerHTML = '';
+
+            if (movie.players && movie.players.length > 0) {
+                // ডিফল্টভাবে প্রথম সার্ভার চালানো
+                document.getElementById('video-iframe').src = movie.players[0].player_url;
+
+                movie.players.forEach((player, index) => {
+                    const btn = document.createElement('button');
+                    btn.className = `px-4 py-1.5 rounded text-xs font-bold transition ${index === 0 ? 'bg-red-600 text-white' : 'bg-gray-800 text-gray-300 hover:bg-gray-700'}`;
+                    btn.innerText = `Server ${index + 1}`;
+                    btn.onclick = function() {
+                        // সমস্ত বাটনের কালার রিসেট করা
+                        Array.from(serverContainer.children).forEach(b => {
+                            b.className = 'bg-gray-800 text-gray-300 hover:bg-gray-700 px-4 py-1.5 rounded text-xs font-bold transition';
+                        });
+                        // সিলেক্টেড বাটনের কালার অ্যাক্টিভ করা
+                        btn.className = 'bg-red-600 text-white px-4 py-1.5 rounded text-xs font-bold transition';
+                        document.getElementById('video-iframe').src = player.player_url;
+                    };
+                    serverContainer.appendChild(btn);
+                });
+            } else {
+                document.getElementById('video-iframe').src = '';
+                serverContainer.innerHTML = '<span class="text-xs text-red-500">No active video servers available for this content.</span>';
+            }
+
+            document.getElementById('player-modal').classList.remove('hidden');
+        }
+
+        function closePlayer() {
+            document.getElementById('video-iframe').src = ''; // আইফ্রেমের সোর্স ও অডিও বন্ধ করার জন্য
+            document.getElementById('player-modal').classList.add('hidden');
+        }
+
+        // 🔍 লাইভ সার্চ ফিল্টার সিস্টেম
+        document.getElementById('search-bar').addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase().trim();
+            if(query.length > 0) {
+                const filtered = globalMoviesData.filter(movie => 
+                    movie.title.toLowerCase().includes(query) || 
+                    (movie.tags && movie.tags.some(tag => tag.toLowerCase().includes(query)))
+                );
+                renderCatalog(filtered);
+                // সার্চ রেজাল্ট আসলে অপ্রয়োজনীয় হিরো ব্যানার বা স্লাইড হাইড করে শুধু গ্রিড দেখানোর জন্য টগল করতে পারো
+            } else {
+                renderCatalog(globalMoviesData);
+            }
+        });
+
+        // ইনিশিয়ালাইজেশন
+        window.onload = initMovieplex;
+    </script>
+</body>
+</html>
