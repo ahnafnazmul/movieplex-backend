@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movieplex BD - Ultimate OTT Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         body { background-color: #0c0f1d; color: #ffffff; font-family: 'Inter', sans-serif; overflow-x: hidden; }
         .scroller { scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
@@ -13,30 +13,36 @@
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.2); border-radius: 10px; }
         
-        /* 🔄 3D Cinematic Scroll Wheel Engine (Full Screen Expansion) */
-        .carousel-viewport { perspective: 1400px; overflow: visible; width: 100%; height: 520px; display: flex; justify-content: center; items: center; }
+        /* 🔄 GIANT 3D CINEMATIC CAROUSEL WHEEL ENGINE (AS PER USER DRAWING) */
+        .carousel-viewport { perspective: 1400px; overflow: visible; width: 100%; height: 560px; display: flex; justify-content: center; items: center; }
         .carousel-wheel-wrapper { position: relative; width: 100%; height: 100%; display: flex; justify-content: center; items: center; }
         
+        /* ড্রয়িং অনুযায়ী কন্টেন্ট কার্ডের সাইজ এবং ৩ডি ডিস্ট্যান্স প্রোফাইল */
         .wheel-node { 
             position: absolute; 
-            width: 240px; 
-            height: 340px; 
+            width: 260px; 
+            height: 380px; 
             border-radius: 20px; 
             overflow: hidden; 
-            box-shadow: 0 30px 60px rgba(0,0,0,0.8);
+            box-shadow: 0 35px 70px rgba(0,0,0,0.85);
             transition: all 0.7s cubic-bezier(0.25, 1, 0.5, 1);
             cursor: pointer;
             border: 1px solid rgba(255,255,255,0.04);
         }
 
-        /* ৩ডি ফোকাস ডিস্ট্রিবিউশন এবং চারদিকের স্মুথ ওপাসিটি ফেডআউট প্রোটোকল */
-        .wheel-node.active-center { transform: scale(1.18) translateZ(120px); z-index: 40; opacity: 1; border-color: rgba(234,179,8,0.5); filter: drop-shadow(0 0 30px rgba(234,179,8,0.15)); }
-        .wheel-node.side-L1 { transform: scale(0.92) translateX(-220px) translateZ(30px) rotateY(24deg); z-index: 30; opacity: 0.55; }
-        .wheel-node.side-R1 { transform: scale(0.92) translateX(220px) translateZ(30px) rotateY(-24deg); z-index: 30; opacity: 0.55; }
-        .wheel-node.side-L2 { transform: scale(0.76) translateX(-410px) translateZ(-50px) rotateY(38deg); z-index: 20; opacity: 0.25; }
-        .wheel-node.side-R2 { transform: scale(0.76) translateX(410px) translateZ(-50px) rotateY(-38deg); z-index: 20; opacity: 0.25; }
-        .wheel-node.side-L3 { transform: scale(0.60) translateX(-580px) translateZ(-120px) rotateY(48deg); z-index: 10; opacity: 0.08; }
-        .wheel-node.side-R3 { transform: scale(0.60) translateX(580px) translateZ(-120px) rotateY(-48deg); z-index: 10; opacity: 0.08; }
+        /* ড্রয়িং অনুকরণে স্টেপ-বাই-স্টেপ স্কেলিং ও ওপাসিটি ফেডআউট লজিক */
+        .wheel-node.active-center { transform: scale(1.18) translateZ(140px); z-index: 40; opacity: 1; border-color: rgba(234,179,8,0.5); filter: drop-shadow(0 0 35px rgba(234,179,8,0.18)); }
+        
+        /* বাম পাশের উইং: মেটা টেক্সটের ভিজিবিলিটি ঠিক রাখতে ওপাসিটি একটু বেশি ড্রপ করা হয়েছে */
+        .wheel-node.side-L1 { transform: scale(0.94) translateX(-240px) translateZ(40px) rotateY(22deg); z-index: 30; opacity: 0.35; }
+        .wheel-node.side-R1 { transform: scale(0.94) translateX(240px) translateZ(40px) rotateY(-22deg); z-index: 30; opacity: 0.65; }
+        
+        .wheel-node.side-L2 { transform: scale(0.78) translateX(-450px) translateZ(-40px) rotateY(34deg); z-index: 20; opacity: 0.15; }
+        .wheel-node.side-R2 { transform: scale(0.78) translateX(450px) translateZ(-40px) rotateY(-34deg); z-index: 20; opacity: 0.40; }
+        
+        .wheel-node.side-L3 { transform: scale(0.62) translateX(-640px) translateZ(-100px) rotateY(44deg); z-index: 10; opacity: 0.05; }
+        .wheel-node.side-R3 { transform: scale(0.62) translateX(640px) translateZ(-100px) rotateY(-44deg); z-index: 10; opacity: 0.15; }
+        
         .wheel-node.invisible-loop { transform: scale(0.4) translateZ(-250px); z-index: 5; opacity: 0; pointer-events: none; }
 
         /* মুভি কার্ড হোভার ইফেক্ট */
@@ -50,7 +56,6 @@
 </head>
 <body class="relative min-h-screen">
 
-    <!-- 1. COMPACT STANDARDIZED HEADER MENU BAR -->
     <header class="w-full bg-[#060814] border-b border-white/5 sticky top-0 z-50 px-6 md:px-12 py-1.5 flex items-center justify-between shadow-xl">
         <div class="flex items-center space-x-12">
             <img src="logo.jpg" alt="Movieplex BD" class="h-16 md:h-18 w-auto object-contain cursor-pointer transition transform hover:scale-102" onclick="closeDetailsPage()">
@@ -65,13 +70,10 @@
         </div>
     </header>
 
-    <!-- DASHBOARD CENTRAL HOUSING CONTAINER -->
     <div id="home-view-container" class="block">
         
-        <!-- 2. HIGH EXPANSION 3D CINEMATIC CAROUSEL HUB (TOUCHING HEADER BAR) -->
-        <div class="w-full bg-[#060814] px-6 md:px-12 pt-8 pb-48 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative">
+        <div class="w-full bg-[#060814] px-6 md:px-12 pt-4 pb-48 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative">
             
-            <!-- Left Info Panel Matrix -->
             <div class="lg:col-span-4 space-y-4 text-center lg:text-left hidden lg:block z-10" id="wheel-meta-pane">
                 <span class="bg-yellow-500 text-black text-[9px] font-black uppercase px-2.5 py-1 rounded tracking-widest shadow shadow-yellow-500/10">Spotlight</span>
                 <h2 id="wheel-title" class="text-3xl md:text-5xl font-black text-white tracking-tight leading-none drop-shadow-md">Loading...</h2>
@@ -86,22 +88,17 @@
                 </button>
             </div>
 
-            <!-- Right Giant 3D Scrolling Wheel Screen Layout -->
-            <div class="lg:col-span-8 flex justify-center items-center w-full min-h-[460px] relative z-20">
+            <div class="lg:col-span-8 flex justify-center items-center w-full min-h-[500px] relative z-20">
                 <div class="carousel-viewport">
                     <div class="carousel-wheel-wrapper" id="carousel-wheel-core"></div>
                 </div>
             </div>
 
-            <!-- SOLID GRADIENT OPACITY FADE ZONE (NO BLUR OVERLAY FUSION LAYER) -->
             <div class="absolute bottom-0 left-0 w-full h-44 bg-gradient-to-t from-[#0c0f1d] via-[#0c0f1d]/75 to-transparent pointer-events-none z-30"></div>
         </div>
 
-        <!-- 3. HALF RAISED OVERLAY CATALOG MATRIX (DOMINO EFFECT INSTALLED) -->
-        <!-- ১ম রো মাইনাস মার্জিন দিয়ে ওপরে উঠবে এবং নিচের সবগুলো রো-কে সমানুপাতিক হারে ওপরে টেনে তুলবে -->
         <div class="pl-6 pr-0 md:pl-12 md:pr-0 space-y-12 -mt-52 relative z-40 bg-gradient-to-b from-transparent via-[#0c0f1d] to-[#0c0f1d] pt-4">
             
-            <!-- Row 1: NEW Release -->
             <div class="space-y-3" id="section-new-release">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-6 md:pr-12">
                     <h3 class="text-base md:text-lg font-extrabold text-gray-200 flex items-center"><span class="w-1 h-4 bg-yellow-500 mr-2 rounded"></span>✨ NEW Release</h3>
@@ -110,7 +107,6 @@
                 <div class="flex space-x-4 overflow-x-auto scroller py-3 px-0.5" id="grid-new-release"></div>
             </div>
 
-            <!-- Row 2: RECENT Release -->
             <div class="space-y-3" id="section-recent-release">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-6 md:pr-12">
                     <h3 class="text-base md:text-lg font-extrabold text-gray-200 flex items-center"><span class="w-1 h-4 bg-blue-500 mr-2 rounded"></span>🎬 RECENT Release</h3>
@@ -119,7 +115,6 @@
                 <div class="flex space-x-4 overflow-x-auto scroller py-3 px-0.5" id="grid-recent-release"></div>
             </div>
 
-            <!-- Row 3: TRENDING Now -->
             <div class="space-y-3" id="section-trending">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-6 md:pr-12">
                     <h3 class="text-base md:text-lg font-extrabold text-gray-200 flex items-center"><span class="w-1 h-4 bg-orange-500 mr-2 rounded"></span>🔥 TRENDING Now</h3>
@@ -128,7 +123,6 @@
                 <div class="flex space-x-4 overflow-x-auto scroller py-3 px-0.5" id="grid-trending"></div>
             </div>
 
-            <!-- Row 4: TOP Rated -->
             <div class="space-y-3" id="section-top-rated">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-6 md:pr-12">
                     <h3 class="text-base md:text-lg font-extrabold text-gray-200 flex items-center"><span class="w-1 h-4 bg-green-500 mr-2 rounded"></span>🏆 TOP Rated</h3>
@@ -137,7 +131,6 @@
                 <div class="flex space-x-4 overflow-x-auto scroller py-3 px-0.5" id="grid-top-rated"></div>
             </div>
 
-            <!-- EXPLORER GRID OVERLAY -->
             <div id="see-more-block" class="space-y-6 hidden pt-6 border-t border-white/10 pr-6 md:pr-12">
                 <div class="flex justify-between items-center">
                     <h3 id="see-more-title" class="text-xl font-black text-yellow-500">Explorer Hub</h3>
@@ -148,13 +141,11 @@
         </div>
     </div>
 
-    <!-- 4. FIXED PURE CORE MULTI-ROUTING MEGA THEATRE DETAILS SCREEN VIEW -->
     <div id="details-view-container" class="hidden min-h-screen bg-[#0c0f1d] px-6 md:px-16 py-8 space-y-8 z-50 relative">
         <button onclick="closeDetailsPage()" class="bg-slate-900 hover:bg-slate-800 text-white border border-slate-800 px-6 py-2.5 rounded-full text-xs font-bold transition flex items-center shadow-lg">
-            <span>‹ Back to Dashboard Home</span>
+            <span>‹ Back to Home</span>
         </button>
 
-        <!-- GIANT THEATRE MOVIE SCREEN PLAYBOX (বিশাল আকারের প্লেয়ার উইন্ডো) -->
         <div class="w-full relative pt-[45%] bg-black rounded-3xl overflow-hidden shadow-[0_0_60px_rgba(234,179,8,0.14)] border border-white/5 group">
             <div id="player-shield" class="absolute inset-0 bg-black/85 backdrop-blur-md z-30 flex flex-col justify-center items-center space-y-2 cursor-pointer" onclick="activatePlayerFrame()">
                 <div class="w-16 h-16 bg-yellow-500 text-black rounded-full flex items-center justify-center font-black text-xl shadow-2xl transition transform group-hover:scale-105">▶</div>
@@ -163,23 +154,20 @@
             <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10" allowfullscreen></iframe>
         </div>
 
-        <!-- Redundant Server Proxy Hub -->
         <div class="bg-slate-950 p-5 rounded-2xl border border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <span class="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Select Redundant Server Proxy Route Gateways:</span>
             <div class="flex flex-wrap gap-2.5" id="details-server-container"></div>
         </div>
 
-        <!-- EXTENDED METADATA CONTAINER PIPELINE -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start pt-2">
-            <!-- Left Data Column Sheet -->
-            <div class="lg:col-span-2 space-y-6" id="details-data-left-sheet">
+            <div class="lg:col-span-2 space-y-6">
                 <div class="space-y-3">
                     <h2 id="details-title" class="text-3xl md:text-5xl font-black text-white tracking-wide">Movie Title</h2>
                     <div class="flex flex-wrap gap-3 items-center text-xs font-bold text-gray-400">
                         <span id="details-age-rating" class="border border-gray-600 px-2 py-0.5 rounded text-[10px] text-white">PG-13</span>
                         <span id="details-year">--</span>
                         <span id="details-rating" class="bg-yellow-500 text-black px-2.5 py-0.5 rounded font-black shadow">⭐ --</span>
-                        <span id="details-views" class="text-white bg-slate-900 border border-slate-800 px-4 py-0.5 rounded-full">--</span>
+                        <span id="details-views" class="text-white bg-slate-900 border border-slate-800 px-3 py-0.5 rounded-full">--</span>
                     </div>
                 </div>
 
@@ -188,14 +176,12 @@
                     <p id="details-desc" class="text-gray-300 text-sm leading-relaxed font-light"></p>
                 </div>
 
-                <!-- TMDB Top Billed Cast Grid Layout Section -->
                 <div class="space-y-4 border-t border-white/5 pt-4">
                     <span class="text-[10px] text-gray-500 font-black uppercase tracking-wider block">Top Billed Cast Crew:</span>
                     <div class="grid grid-cols-3 sm:grid-cols-6 gap-3" id="cast-cards-container"></div>
                 </div>
             </div>
 
-            <!-- Right Sidebar Dashboard Sheet Metrics -->
             <div class="bg-slate-900/20 p-6 md:p-8 rounded-3xl border border-white/5 space-y-6">
                 <div class="space-y-1">
                     <span class="text-[10px] text-gray-500 font-bold uppercase tracking-wider block">Official Genres:</span>
@@ -222,14 +208,12 @@
             </div>
         </div>
 
-        <!-- RE-ENGINEERED SIMILAR CONTENT LINE SYSTEM -->
         <div class="space-y-4 border-t border-white/5 pt-8">
             <div class="pb-1"><h3 class="text-base font-bold text-gray-200">🍿 Similar Content You May Like</h3></div>
             <div class="flex space-x-4 overflow-x-auto scroller py-3" id="grid-similar-content"></div>
         </div>
     </div>
 
-    <!-- 5. REAL COMPLIANCE DUAL FOOTER MATRIX -->
     <footer class="w-full bg-[#060814] border-t border-white/5 px-8 md:px-12 py-6 mt-16 space-y-4 relative z-40">
         <div class="flex justify-center items-center space-x-8 text-[11px] text-gray-500 font-bold">
             <div class="flex items-center space-x-1.5">
@@ -241,14 +225,13 @@
             </div>
         </div>
         <div class="text-[11px] tracking-wide leading-relaxed text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4">
-            <p class="text-gray-400 max-w-5xl">
+            <p class="text-gray-400 max-w-4xl">
                 <span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span> MOVIEPLEX BD does not upload or host any content. <br>All data is aggregated from publicly available sources over the internet.
             </p>
             <p class="font-bold text-yellow-500 tracking-wider">Powered by @Nazmulsblg</p>
         </div>
     </footer>
 
-    <!-- INTERACTIVE RENDER MANAGEMENT JAVASCRIPT LAYER -->
     <script>
         const API_URL = 'movieplex_master_db.json';
         const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6';
@@ -281,7 +264,7 @@
 
                 processAlgorithmicRows();
                 build3DPosterWheel();
-            } catch (e) { console.error("Index fault: ", e); }
+            } catch (e) { console.error("Index load fault:", e); }
         }
 
         function build3DPosterWheel() {
@@ -293,7 +276,14 @@
                 const node = document.createElement('div');
                 node.className = "wheel-node invisible-loop";
                 node.setAttribute('data-index', index);
-                node.innerHTML = `<img src="${movie.poster}" class="w-full h-full object-cover">`;
+                node.innerHTML = `<img src="${movie.poster}" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 left-0 w-full bg-black/85 backdrop-blur-md p-3 text-center block lg:hidden space-y-0.5">
+                        <h4 class="text-xs font-bold truncate">${cleanTitle(movie.title)}</h4>
+                        <div class="text-[9px] text-gray-400 font-bold flex justify-center space-x-2">
+                            <span>${movie.release_year}</span>
+                            <span class="text-yellow-500">⭐ ${movie.rating}</span>
+                        </div>
+                    </div>`;
                 node.onclick = () => {
                     if(index === wheelIndex) openDetailsPage(movie);
                     else { wheelIndex = index; rotateWheelLogic(); }
@@ -325,7 +315,7 @@
                     node.className = "wheel-node active-center";
                     const movie = globalMoviesData[wheelIndex];
                     document.getElementById('wheel-title').innerText = cleanTitle(movie.title);
-                    document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy bufferless synchronization pipelines.";
+                    document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy low latency premium proxy redundancy streams.";
                     document.getElementById('wheel-year').innerText = movie.release_year;
                     document.getElementById('wheel-rating').innerText = `⭐ ${movie.rating}`;
                     document.getElementById('wheel-views').innerText = `Total Views: ${movie.views.toLocaleString()}`;
@@ -410,7 +400,7 @@
                 movie.players.forEach((player, index) => {
                     const btn = document.createElement('button');
                     btn.className = `px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800'}`;
-                    btn.innerText = `Server Route ${index + 1}`;
+                    btn.innerText = `Server Node ${index + 1}`;
                     btn.onclick = function() {
                         Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800 px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase');
                         btn.className = 'bg-yellow-500 text-black shadow-lg px-5 py-2.5 rounded-xl text-xs font-black tracking-wider transition uppercase';
@@ -496,13 +486,12 @@
                     `;
                     castContainer.appendChild(div);
                 });
-            } catch(e) { console.error(e); }
+            } catch(e) { console.error("TMDB Sync Error: ", e); }
         }
 
         function renderSimilarContent(currentMovie) {
             const container = document.getElementById('grid-similar-content');
             container.innerHTML = '';
-            // সিমিলার ক্যাটাগরির উপর ভিত্তি করে ডাইনামিক ফিল্টারিং ফিক্স
             const matching = globalMoviesData.filter(m => m.id !== currentMovie.id).slice(0, 10);
             matching.forEach(movie => container.appendChild(createMovieCard(movie)));
         }
@@ -515,7 +504,7 @@
 
         function viewAllCategory(categoryTrigger) {
             let list = globalMoviesData.filter(m => m.categories.includes(categoryTrigger) || categoryTrigger === 'Genre');
-            document.getElementById('see-more-title').innerText = `${categoryTrigger} Explorer`;
+            document.getElementById('see-more-title').innerText = `Category: ${categoryTrigger} Explorer`;
             const grid = document.getElementById('see-more-grid'); grid.innerHTML = '';
             list.forEach(movie => {
                 const card = createMovieCard(movie);
@@ -548,7 +537,7 @@
         document.getElementById('search-bar').addEventListener('input', function(e) {
             const query = e.target.value.toLowerCase().trim();
             if(query.length > 0) {
-                const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query));
+                const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query) || (m.categories && m.categories.some(c => c.toLowerCase().includes(query))));
                 renderRow('grid-new-release', filtered);
             } else {
                 processAlgorithmicRows();
