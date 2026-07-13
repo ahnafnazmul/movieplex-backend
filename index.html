@@ -3,25 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movieplex BD - Premium Streaming Guide</title>
+    <title>Movieplex BD - Premium Algorithmic Streaming Guide</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
     <style>
         body { background-color: #060814; color: #ffffff; font-family: 'Inter', sans-serif; overflow-x: hidden; }
-        
-        /* ডানে বামে স্ক্রলিং স্মুথ করার জন্য কাস্টম স্ক্রলবার */
         .scroller { scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
         .scroller::-webkit-scrollbar { height: 5px; }
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.02); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
         .scroller::-webkit-scrollbar-thumb:hover { background: rgba(234, 179, 8, 0.6); }
-
-        /* ওপরে মাউস নিলে নেভবার শো করার ম্যাজিক */
         #hidden-nav { transform: translateY(-100%); transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
         #nav-trigger:hover #hidden-nav, #hidden-nav:hover { transform: translateY(0); }
-
-        /* কার্ডের পেছনে হালকা ইয়েলো গ্লো হোভার ইফেক্ট */
-        .movie-card { transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
+        .movie-card { transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1); border-width: 1px; border-color: rgba(255,255,255,0.05); }
         .movie-card:hover { 
             transform: scale(1.06); 
             box-shadow: 0 0 25px rgba(234, 179, 8, 0.45); 
@@ -34,10 +28,10 @@
     <div id="nav-trigger" class="fixed top-0 left-0 w-full h-8 z-55 bg-transparent">
         <nav id="hidden-nav" class="fixed top-0 left-0 w-full bg-gradient-to-b from-[#060814] via-[#060814]/95 to-transparent px-8 py-4 flex justify-between items-center backdrop-blur-lg border-b border-white/5 shadow-2xl">
             <div class="flex items-center">
-                <img src="/logo.jpg" alt="Movieplex BD" class="h-16 md:h-20 w-auto object-contain transition">
+                <img src="/logo.jpg" alt="Movieplex BD" class="h-16 md:h-20 w-auto object-contain">
             </div>
             <div class="w-1/3 min-w-[240px]">
-                <input type="text" id="search-bar" placeholder="🔍 Search title, genre or cast..." class="w-full bg-slate-900/80 border border-slate-800 text-white rounded-full px-6 py-2.5 text-sm focus:outline-none focus:border-yellow-500 transition shadow-inner">
+                <input type="text" id="search-bar" placeholder="🔍 Search title, genre or tag..." class="w-full bg-slate-900/80 border border-slate-800 text-white rounded-full px-6 py-2.5 text-sm focus:outline-none focus:border-yellow-500 transition shadow-inner">
             </div>
         </nav>
     </div>
@@ -46,8 +40,8 @@
         <div class="absolute inset-0 bg-gradient-to-r from-[#060814] via-transparent to-transparent opacity-90"></div>
         <div class="relative max-w-3xl space-y-5 px-8 md:px-12 pb-36 z-10">
             <span class="bg-yellow-500 text-black text-xs font-black uppercase px-3 py-1 rounded tracking-widest shadow-md">Featured Spotlight</span>
-            <h2 id="hero-title" class="text-4xl md:text-6xl font-black tracking-tight leading-none text-white drop-shadow-lg">Loading Blockbuster...</h2>
-            <p id="hero-desc" class="text-gray-300 text-sm md:text-base leading-relaxed line-clamp-3 drop-shadow">Stream high definition media servers seamlessly with our premium integration pipeline network routing layout grid.</p>
+            <h2 id="hero-title" class="text-4xl md:text-6xl font-black tracking-tight leading-none text-white drop-shadow-lg">Movieplex Streaming Engine</h2>
+            <p id="hero-desc" class="text-gray-300 text-sm md:text-base leading-relaxed line-clamp-3 drop-shadow">Loading dynamic master consolidated data endpoints from verified cross-origin proxy servers...</p>
             <button id="hero-play-btn" class="bg-yellow-500 hover:bg-yellow-600 text-black font-black px-10 py-3.5 rounded-full flex items-center space-x-2 transition transform hover:scale-105 shadow-xl">
                 <span>▶ Watch Now</span>
             </button>
@@ -58,39 +52,39 @@
         
         <div class="space-y-4" id="section-new-release">
             <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-yellow-500 mr-2 rounded"></span>✨ New Releases</h3>
-                <button onclick="viewAll('New Release')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
+                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-yellow-500 mr-2 rounded"></span>✨ NEW Release</h3>
+                <button onclick="viewAll('new-release')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
             </div>
             <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-new-release"></div>
         </div>
 
-        <div class="space-y-4" id="section-web-series">
+        <div class="space-y-4" id="section-recent-release">
             <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-red-600 mr-2 rounded"></span>🎬 Premium Web Series</h3>
-                <button onclick="viewAll('Web Series')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
+                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-blue-500 mr-2 rounded"></span>🎬 RECENT Release</h3>
+                <button onclick="viewAll('recent-release')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
             </div>
-            <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-web-series"></div>
+            <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-recent-release"></div>
         </div>
 
         <div class="space-y-4" id="section-trending">
             <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-orange-500 mr-2 rounded"></span>🔥 Most Trending</h3>
-                <button onclick="viewAll('Most Trending')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
+                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-orange-500 mr-2 rounded"></span>🔥 TRENDING Now</h3>
+                <button onclick="viewAll('trending')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
             </div>
             <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-trending"></div>
         </div>
 
         <div class="space-y-4" id="section-top-rated">
             <div class="flex justify-between items-center border-b border-white/5 pb-2">
-                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-green-500 mr-2 rounded"></span>🏆 Top Rated</h3>
-                <button onclick="viewAll('Top Rated')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
+                <h3 class="text-xl md:text-2xl font-extrabold tracking-wide text-gray-100 flex items-center"><span class="w-1 h-6 bg-green-500 mr-2 rounded"></span>🏆 TOP Rated</h3>
+                <button onclick="viewAll('top-rated')" class="text-xs md:text-sm font-bold text-gray-400 hover:text-white transition">See More ›</button>
             </div>
             <div class="flex space-x-5 overflow-x-auto scroller py-4 px-1" id="grid-top-rated"></div>
         </div>
 
         <div id="see-more-block" class="space-y-6 hidden pt-6 border-t-2 border-yellow-500/20">
             <div class="flex justify-between items-center">
-                <h3 id="see-more-title" class="text-2xl font-black tracking-wide text-yellow-500">Category Explorer</h3>
+                <h3 id="see-more-title" class="text-2xl font-black tracking-wide text-yellow-500">Explorer</h3>
                 <button onclick="closeSeeMore()" class="text-xs font-bold bg-slate-900 border border-slate-800 px-4 py-2 rounded-full hover:bg-red-600 transition">✕ Close Explore</button>
             </div>
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 py-4" id="see-more-grid"></div>
@@ -106,10 +100,10 @@
             <div class="p-6 md:p-8 space-y-5">
                 <div class="flex justify-between items-start">
                     <div>
-                        <h4 id="modal-title" class="text-2xl md:text-3xl font-black text-white tracking-wide">Movie Title</h4>
-                        <p id="modal-year" class="text-xs text-gray-500 font-medium mt-1">Year: 2026</p>
+                        <h4 id="modal-title" class="text-2xl md:text-3xl font-black text-white tracking-wide">Title</h4>
+                        <p id="modal-year" class="text-xs text-gray-500 font-medium mt-1"></p>
                     </div>
-                    <div id="modal-rating" class="bg-yellow-500 text-black text-xs font-black px-3 py-1.5 rounded shadow">⭐ 7.0</div>
+                    <div id="modal-rating" class="bg-yellow-500 text-black text-xs font-black px-3 py-1.5 rounded shadow">⭐ --</div>
                 </div>
                 <div>
                     <span class="text-[10px] text-gray-400 block mb-2 font-bold uppercase tracking-widest">Select Redundant Streaming Server:</span>
@@ -132,7 +126,7 @@
         </div>
         <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-xs tracking-wide">
             <p class="text-gray-400 text-center md:text-left max-w-3xl leading-relaxed">
-                <span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span> MOVIEPLEX BD does not upload, host, or store any media files or videos on its servers. All streaming links and metadata are automatically aggregated from publicly available external sources over the internet.
+                <span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span> STREAMguide BD does not upload or host any content. All data is aggregated from publicly available sources over the internet.
             </p>
             <p class="font-bold text-yellow-500 whitespace-nowrap">Powered by @nazmulsblg</p>
         </div>
@@ -141,13 +135,15 @@
     <script>
         const API_URL = '/movieplex_master_db.json';
         let globalMoviesData = [];
+        let sortedRowsData = { newRelease: [], recentRelease: [], trending: [], topRated: [] };
 
-        // ডাইনামিক র্যান্ডম ট্রাফিক জেনারেটর
         function initTrafficCounters() {
-            const activeNum = Math.floor(Math.random() * (100 - 10 + 1)) + 10;
-            const totalNum = Math.floor(Math.random() * (700 - 500 + 1)) + 500;
-            document.getElementById('count-active').innerText = activeNum;
-            document.getElementById('count-total').innerText = totalNum;
+            document.getElementById('count-active').innerText = Math.floor(Math.random() * (100 - 10 + 1)) + 10;
+            document.getElementById('count-total').innerText = Math.floor(Math.random() * (700 - 500 + 1)) + 500;
+        }
+
+        function cleanTitle(title) {
+            return title.replace(/\(.*?\)|\[.*?\]/g, '').replace(/hindi|bengali|bongoBD|hoichoi|web-dl|web|s01|s02|complete/gi, '').trim();
         }
 
         async function initMovieplex() {
@@ -156,57 +152,77 @@
                 const response = await fetch(API_URL);
                 globalMoviesData = await response.json();
                 
-                // ব্লকব্লাস্টার হিরো ব্যানার সেটআপ (প্রথম ভ্যালিড মুভি অবজেক্ট দিয়ে)
-                if(globalMoviesData.length > 0) {
-                    setupHero(globalMoviesData[0]);
-                }
-                renderCatalog(globalMoviesData);
-            } catch (error) {
-                console.error("API Link Ingestion Failure:", error);
-            }
+                // ১. জেসন ফাইলে ডেটা না থাকলে বা স্ক্র্যাপিং ফলব্যাক ঠিক করার কন্ডিশন
+                globalMoviesData = globalMoviesData.map(m => {
+                    if(!m.views) m.views = 0;
+                    if(!m.rating) m.rating = 7.0;
+                    return m;
+                });
+
+                if(globalMoviesData.length > 0) setupHero(globalMoviesData[0]);
+                processAlgorithmicRows();
+            } catch (e) { console.error("API Fetch Error:", e); }
         }
 
         function setupHero(movie) {
             document.getElementById('hero-title').innerText = cleanTitle(movie.title);
-            if(movie.details && movie.details !== "Local parsing secure.") {
-                document.getElementById('hero-desc').innerText = movie.details;
-            }
-            if(movie.poster) {
-                document.getElementById('hero-section').style.backgroundImage = `linear-gradient(to top, #060814 15%, transparent 85%), url('${movie.poster}')`;
-            }
+            document.getElementById('hero-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "Enjoy bufferless media server integration routed instantly via redundant high speed proxy servers.";
+            if(movie.poster) document.getElementById('hero-section').style.backgroundImage = `linear-gradient(to top, #060814 15%, transparent 85%), url('${movie.poster}')`;
             document.getElementById('hero-play-btn').onclick = () => openPlayer(movie);
         }
 
-        function cleanTitle(title) {
-            return title.replace(/\(.*?\)|\[.*?\]/g, '').replace(/hindi|bengali|bongoBD|hoichoi|web-dl|web|s01|s02|complete/gi, '').trim();
-        }
+        function processAlgorithmicRows() {
+            // 🕒 রিয়েল-টাইম লাইভ টাইমস্ট্যাম্প ক্যালকুলেশন (ডিভাইসের নিজস্ব লাইভ ঘড়ি অনুযায়ী)
+            const NOW_UNIX = Math.floor(Date.now() / 1000);
+            const ONE_DAY_SEC = 24 * 60 * 60;
 
-        function renderCatalog(movies) {
-            // রো গ্রিড ক্লিয়ার করা
-            const rows = ['grid-new-release', 'grid-web-series', 'grid-trending', 'grid-top-rated'];
-            rows.forEach(r => document.getElementById(r).innerHTML = '');
-
-            movies.forEach(movie => {
-                const card = createMovieCard(movie);
-                
-                if (movie.categories.includes("New Release")) document.getElementById('grid-new-release').appendChild(card.cloneNode(true));
-                if (movie.categories.includes("Web Series")) document.getElementById('grid-web-series').appendChild(card.cloneNode(true));
-                if (movie.categories.includes("Most Trending")) document.getElementById('grid-trending').appendChild(card.cloneNode(true));
-                if (movie.categories.includes("Top Rated") || movie.rating >= 8.0) document.getElementById('grid-top-rated').appendChild(card.cloneNode(true));
+            // রুল ১: NEW Release (গত ৭ দিনে আমাদের ডেটাবেসে যুক্ত হওয়া কন্টেন্ট)
+            sortedRowsData.newRelease = globalMoviesData.filter(m => (NOW_UNIX - m.timestamp) <= (7 * ONE_DAY_SEC));
+            
+            // রুল ২: RECENT Release (৭ দিনের বেশি কিন্তু ৩০ দিনের কম বয়সী কন্টেন্ট)
+            sortedRowsData.recentRelease = globalMoviesData.filter(m => {
+                const age = NOW_UNIX - m.timestamp;
+                return age > (7 * ONE_DAY_SEC) && age <= (30 * ONE_DAY_SEC);
             });
 
-            bindCardClicks(movies);
+            // রুল ৩: TRENDING Now (১ থেকে ৬০ দিন বয়সের মধ্যে সর্বোচ্চ ভিউ হওয়া কন্টেন্ট, বড় থেকে ছোট)
+            sortedRowsData.trending = globalMoviesData
+                .filter(m => (NOW_UNIX - m.timestamp) <= (60 * ONE_DAY_SEC))
+                .sort((a, b) => b.views - a.views);
+
+            // রুল ৪: TOP Rated (১ থেকে ৬০ দিন বয়সের মধ্যে সর্বোচ্চ অফিশিয়াল মেটা/TMDB রেটিং, বেস্টটা সবার আগে)
+            sortedRowsData.topRated = globalMoviesData
+                .filter(m => (NOW_UNIX - m.timestamp) <= (60 * ONE_DAY_SEC))
+                .sort((a, b) => b.rating - a.rating);
+
+            // 🛑 সেফটি ফলব্যাক লেয়ার: নতুন ডেটাবেসে ১-৬০ দিনের ভেতরের ডেটা কম থাকলে ইউজারকে খালি স্ক্রিন না দেখিয়ে 
+            // ডাইনামিক গ্লোবাল ডেটা সর্ট করে পুশ করা (যাতে প্রজেক্টের শুরুতে ক্র্যাশ না করে)
+            if(sortedRowsData.newRelease.length < 4) sortedRowsData.newRelease = [...globalMoviesData].sort((a,b)=>b.timestamp-a.timestamp).slice(0, 15);
+            if(sortedRowsData.recentRelease.length < 4) sortedRowsData.recentRelease = [...globalMoviesData].sort((a,b)=>b.timestamp-a.timestamp).slice(10, 25);
+            if(sortedRowsData.trending.length === 0) sortedRowsData.trending = [...globalMoviesData].sort((a,b)=>b.views-a.views);
+            if(sortedRowsData.topRated.length === 0) sortedRowsData.topRated = [...globalMoviesData].sort((a,b)=>b.rating-a.rating);
+
+            // গ্রিডে পাঠানো
+            renderRow('grid-new-release', sortedRowsData.newRelease);
+            renderRow('grid-recent-release', sortedRowsData.recentRelease);
+            renderRow('grid-trending', sortedRowsData.trending);
+            renderRow('grid-top-rated', sortedRowsData.topRated);
+        }
+
+        function renderRow(targetId, dataset) {
+            const container = document.getElementById(targetId);
+            container.innerHTML = '';
+            dataset.forEach(movie => {
+                const card = createMovieCard(movie);
+                container.appendChild(card);
+            });
         }
 
         function createMovieCard(movie) {
             const div = document.createElement('div');
-            // কন্টেন্ট ডানে-বামে স্ক্রোলিং এর জন্য min-w লক করা
             div.className = "movie-card min-w-[160px] md:min-w-[195px] bg-slate-900/60 rounded-2xl overflow-hidden cursor-pointer border border-white/5 relative shadow-xl flex-shrink-0 group";
-            div.setAttribute('data-id', movie.id);
-
+            
             const isSeries = movie.categories.includes("Web Series") ? "SERIES" : "HD";
-
-            // রেফারেন্স সাইটের মতো পোস্টারের নিচের দিকে ব্লার শেড লেআউট
             div.innerHTML = `
                 <div class="relative w-full pt-[145%] bg-slate-950">
                     <img src="${movie.poster}" alt="${movie.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
@@ -216,44 +232,31 @@
                         <h4 class="text-xs font-bold truncate text-gray-100 group-hover:text-yellow-500 transition">${cleanTitle(movie.title)}</h4>
                         <div class="flex justify-between items-center mt-1 text-[10px] text-gray-400 font-semibold">
                             <span>${movie.release_year}</span>
-                            <span class="text-yellow-500 flex items-center">⭐ ${movie.rating > 0 ? movie.rating : '7.0'}</span>
+                            <span class="text-yellow-500 flex items-center">⭐ ${movie.rating}</span>
                         </div>
                     </div>
                 </div>
             `;
+            div.onclick = () => openPlayer(movie);
             return div;
         }
 
-        function bindCardClicks(movies) {
-            document.querySelectorAll('.movie-card').forEach(card => {
-                card.onclick = () => {
-                    const targetMovie = movies.find(m => m.id === card.getAttribute('data-id'));
-                    if(targetMovie) openPlayer(targetMovie);
-                };
-            });
-        }
+        function viewAll(type) {
+            let list = [];
+            let titleText = "";
+            if(type === 'new-release') { list = sortedRowsData.newRelease; titleText = "NEW Release"; }
+            else if(type === 'recent-release') { list = sortedRowsData.recentRelease; titleText = "RECENT Release"; }
+            else if(type === 'trending') { list = sortedRowsData.trending; titleText = "TRENDING Now"; }
+            else if(type === 'top-rated') { list = sortedRowsData.topRated; titleText = "TOP Rated"; }
 
-        // 🏆 DYNAMIC SEE MORE ENGINE
-        function viewAll(categoryName) {
-            const filtered = globalMoviesData.filter(m => m.categories.includes(categoryName) || (categoryName === 'Top Rated' && m.rating >= 8.0));
-            document.getElementById('see-more-title').innerText = `Exploring: ${categoryName} (${filtered.length} Items)`;
-            
+            document.getElementById('see-more-title').innerText = `${titleText} Full Catalog (${list.length} Items)`;
             const grid = document.getElementById('see-more-grid');
             grid.innerHTML = '';
             
-            filtered.forEach(movie => {
+            list.forEach(movie => {
                 const card = createMovieCard(movie);
-                // গ্রিড ভিউ লেআউটের জন্য ফ্লেক্স শিঙ্ক এবং মিন-উইড রিমুভ করা
                 card.className = "movie-card bg-slate-900/60 rounded-2xl overflow-hidden cursor-pointer border border-white/5 relative shadow-xl w-full group";
                 grid.appendChild(card);
-            });
-
-            // সি মোর গ্রিডের ক্লিক ইভেন্ট বাইন্ডিং
-            grid.querySelectorAll('.movie-card').forEach(card => {
-                card.onclick = () => {
-                    const targetMovie = filtered.find(m => m.id === card.getAttribute('data-id'));
-                    if(targetMovie) openPlayer(targetMovie);
-                };
             });
 
             const block = document.getElementById('see-more-block');
@@ -261,23 +264,19 @@
             block.scrollIntoView({ behavior: 'smooth' });
         }
 
-        function closeSeeMore() {
-            document.getElementById('see-more-block').classList.add('hidden');
-        }
+        function closeSeeMore() { document.getElementById('see-more-block').classList.add('hidden'); }
 
-        // 🎥 REDUNDANT ROUTING VIDEO PLAYER POPUP
         function openPlayer(movie) {
             document.getElementById('modal-title').innerText = cleanTitle(movie.title);
-            document.getElementById('modal-year').innerText = `Release Year & Metadata: ${movie.release_year}`;
-            document.getElementById('modal-rating').innerText = `⭐ ${movie.rating > 0 ? movie.rating : '7.0'}`;
-            document.getElementById('modal-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "Enjoy low latency zero buffering streaming guide system routed via redundant external global sync servers.";
+            document.getElementById('modal-year').innerText = `Release Date: ${movie.release_year} | Server Pool Views: ${movie.views}`;
+            document.getElementById('modal-rating').innerText = `⭐ ${movie.rating}`;
+            document.getElementById('modal-desc').innerText = (movie.details && movie.details !== "Local parsing secure.") ? movie.details : "Enjoy low latency premium proxy stream synchronization.";
 
             const serverContainer = document.getElementById('server-buttons-container');
             serverContainer.innerHTML = '';
 
             if (movie.players && movie.players.length > 0) {
                 document.getElementById('video-iframe').src = movie.players[0].player_url;
-
                 movie.players.forEach((player, index) => {
                     const btn = document.createElement('button');
                     btn.className = `px-5 py-2 rounded-xl text-xs font-black tracking-wider transition uppercase ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800 hover:bg-slate-800'}`;
@@ -291,11 +290,7 @@
                     };
                     serverContainer.appendChild(btn);
                 });
-            } else {
-                document.getElementById('video-iframe').src = '';
-                serverContainer.innerHTML = '<span class="text-xs text-red-500 font-bold">No streaming servers found for this item.</span>';
             }
-
             document.getElementById('player-modal').classList.remove('hidden');
         }
 
@@ -304,17 +299,13 @@
             document.getElementById('player-modal').classList.add('hidden');
         }
 
-        // 🔍 DYNAMIC SEARCH FILTER SYSTEM
         document.getElementById('search-bar').addEventListener('input', function(e) {
             const query = e.target.value.toLowerCase().trim();
             if(query.length > 0) {
-                const filtered = globalMoviesData.filter(movie => 
-                    movie.title.toLowerCase().includes(query) || 
-                    (movie.tags && movie.tags.some(tag => tag.toLowerCase().includes(query)))
-                );
-                renderCatalog(filtered);
+                const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query));
+                renderRow('grid-new-release', filtered);
             } else {
-                renderCatalog(globalMoviesData);
+                processAlgorithmicRows();
             }
         });
 
