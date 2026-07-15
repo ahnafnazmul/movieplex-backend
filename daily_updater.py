@@ -269,4 +269,47 @@ def scrape_rtally(db_dict):
                 title = soup.title.text.split('|')[0].strip() if soup.title else f.split('/')[-1]
                 if is_banned(title): continue
                 
-                players = [{"server_name": "Rtally Stream", "player
+                players = [{"server_name": "Rtally Stream", "player_url": iframe.get('src')} for iframe in soup.find_all('iframe') if iframe.get('src') and ('plextream' in iframe.get('src') or 'embed' in iframe.get('src'))]
+                if not players: continue
+                
+                tmdb_data = get_tmdb_max_info(title)
+                if not tmdb_data or tmdb_data in ["ADULT_REJECT", "ANIME_REJECT"]: continue
+                
+                m_id = tmdb_data['id']
+                if m_id in db_dict:
+                    existing_urls = [p['player_url'] for p in db_dict[m_id]['players']]
+                    added = False
+                    for p in players:
+                        if p['player_url'] not in existing_urls: 
+                            db_dict[m_id]['players'].append(p)
+                            added = True
+                    if added:
+                        report_log['merged_count'] += 1
+                        if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
+                else:
+                    tmdb_data['players'] = players
+                    tmdb_data['_source_site'] = "rtally"
+                    db_dict[m_id] = tmdb_data
+                    report_log['added_count'] += 1
+                    if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
+            except: pass
+        report_log['site_status']['Rtally'] = "✅"
+    except Exception as e: print(f"Rtally Error: {e}")
+
+# ================= Main Execution =================
+if __name__ == '__main__':
+    print("🚀 Initiating Full Daily Scanner Engine...")
+    existing_db = load_db()
+    db_dict = {item['id']: item for item in existing_db}
+    
+    # Isolated Execution (একটা ফেইল করলে অন্যটা থামবে না)
+    scrape_moviebox(db_dict)
+    scrape_banglaplex(db_dict)
+    scrape_mlbd(db_dict)
+    scrape_rtally(db_dict)
+    
+    report_log['total_db'] = len(db_dict)
+    
+    save_db(list(db_dict.values()))
+    send_telegram_report()
+    print("✅ Sync Complete!")
