@@ -1,1 +1,390 @@
-[]
+[
+    {
+        "id": "tv_301412",
+        "type": "series",
+        "title": "Dream to You",
+        "poster": "https://image.tmdb.org/t/p/w500/cBiwrUwUNNYXTc5xrDEQWcMqftd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5AhL7NKa8UC6QOyzKiDohUM9VYT.jpg",
+        "rating": 6.8,
+        "release_date": "2026-07-13",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Hwang In-youp",
+                "image": "https://image.tmdb.org/t/p/w185/dI1dL3QHSmDdhXyB65ETjpxKN7Z.jpg"
+            },
+            {
+                "name": "Lee Hye-ri",
+                "image": "https://image.tmdb.org/t/p/w185/5F5tjTAvpBcdVdhI9kGjlJY00fY.jpg"
+            },
+            {
+                "name": "Baek Sung-chul",
+                "image": "https://image.tmdb.org/t/p/w185/2zGYEMlDuQWlUBGZ93TeY942a6F.jpg"
+            },
+            {
+                "name": "Lee Yul-eum",
+                "image": "https://image.tmdb.org/t/p/w185/f0GTS4kgkFAE2zvvX5BzZjTgw95.jpg"
+            },
+            {
+                "name": "Lee Sang-yeob",
+                "image": "https://image.tmdb.org/t/p/w185/m3b6lKDDs6CmBqnaEWEUMdCVjZI.jpg"
+            }
+        ],
+        "details": "Dreaming of filmmaking, a passionate high schooler pushes aside all obligations to create short films, inspiring a studious but passionless classmate. Their deep bond eventually turns romantic, but they are abruptly separated when he is forced to move overseas. Years later in their thirties, their lives have completely swapped: she is a disillusioned, struggling TV reporter, while he has become an award-winning director. When a sudden reunion brings them face-to-face, he resolves to help her rediscover her lost spark, but she still harbors deep resentment over his past disappearance.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/1dc03c732a66c46103bbd569e8b134a2-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_139628",
+        "type": "series",
+        "title": "Love Me",
+        "poster": "https://image.tmdb.org/t/p/w500/sHeLDWexDAjxRALv4Yi0oaT0UCB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oZoTcYBFB1r0TpTdhEQWp3zbglq.jpg",
+        "rating": 6.2,
+        "release_date": "2021-12-26",
+        "runtime": "43 min",
+        "categories": [
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Bojana Novaković",
+                "image": "https://image.tmdb.org/t/p/w185/nY39nvPk7ydtsF0Khb4GLRZwjzq.jpg"
+            },
+            {
+                "name": "Hugo Weaving",
+                "image": "https://image.tmdb.org/t/p/w185/lSC8Et0PYi5zeQb3IpPkFje7hgR.jpg"
+            },
+            {
+                "name": "William Lodder",
+                "image": "https://image.tmdb.org/t/p/w185/zRwq87QEFKhrUjjS5MxOsfHqxla.jpg"
+            },
+            {
+                "name": "Bob Morley",
+                "image": "https://image.tmdb.org/t/p/w185/rr7taHasbSRdrzcMqDhdulomtPP.jpg"
+            },
+            {
+                "name": "Heather Mitchell",
+                "image": "https://image.tmdb.org/t/p/w185/4SxRlg8JA1EguchlyuHurOMVlji.jpg"
+            }
+        ],
+        "details": "The Mathiesons, Clara (30s), Glen (60s) and Aaron (20s), find themselves at an emotional crossroads following an unexpected event that changes their lives forever.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/13/427d631fa92dc35f263a65c1476a02d6-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_243954",
+        "type": "series",
+        "title": "Motorheads",
+        "poster": "https://image.tmdb.org/t/p/w500/jglGmYMPEiHD7tVncvif7WtCOBJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gPoncjnCliOiWRVW2ASyrocqQpM.jpg",
+        "rating": 8.4,
+        "release_date": "2025-05-20",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Michael Cimino",
+                "image": "https://image.tmdb.org/t/p/w185/hixktl0ssobutw3csX3yQaEbRbA.jpg"
+            },
+            {
+                "name": "Ryan Phillippe",
+                "image": "https://image.tmdb.org/t/p/w185/fgneZFXn0fGG1o7tMzJvHqfHHF7.jpg"
+            },
+            {
+                "name": "Nathalie Kelley",
+                "image": "https://image.tmdb.org/t/p/w185/wawAz251CPJelmOVwTeNvjrYnqO.jpg"
+            },
+            {
+                "name": "Deacon Phillippe",
+                "image": "https://image.tmdb.org/t/p/w185/9SnXao30VOOrcBHyy5PHBlzd2Js.jpg"
+            },
+            {
+                "name": "Melissa Collazo",
+                "image": "https://image.tmdb.org/t/p/w185/xpmN26NHUEahwvGq3SX3wZZ2Qe7.jpg"
+            }
+        ],
+        "details": "After moving to Ironwood, siblings Caitlyn and Zac Torres are drawn into a thrilling car culture where street racing reigns and high school status is all about your ride. Haunted by their father's dark past, they join forces with loner Curtis and outcast Marcel to rebuild his legendary car.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/20/d11f83178f3cfde39148f0f244036e72-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1234821",
+        "type": "movie",
+        "title": "Jurassic World Rebirth",
+        "poster": "https://image.tmdb.org/t/p/w500/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zNriRTr0kWwyaXPzdg1EIxf0BWk.jpg",
+        "rating": 6.3,
+        "release_date": "2025-06-23",
+        "runtime": "134 min",
+        "categories": [
+            "Science Fiction",
+            "Adventure",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Scarlett Johansson",
+                "image": "https://image.tmdb.org/t/p/w185/2I2xAQmL87k5YswCnc4vHjpXxE0.jpg"
+            },
+            {
+                "name": "Mahershala Ali",
+                "image": "https://image.tmdb.org/t/p/w185/9ZmSejm5lnUVY5IJ1iNx2QEjnHb.jpg"
+            },
+            {
+                "name": "Jonathan Bailey",
+                "image": "https://image.tmdb.org/t/p/w185/i9m6JsYKQot3kbMMFsvbEuFarvq.jpg"
+            },
+            {
+                "name": "Rupert Friend",
+                "image": "https://image.tmdb.org/t/p/w185/aMOUdXtTlqtscPumbuvfcH1JB42.jpg"
+            },
+            {
+                "name": "Manuel Garcia-Rulfo",
+                "image": "https://image.tmdb.org/t/p/w185/54Rk1hKfNdNKGHQMnONDGmNtUv3.jpg"
+            }
+        ],
+        "details": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/06/0c89df32c9028eaab544f5aaeb0847f9-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_324113",
+        "type": "series",
+        "title": "Sin And Love",
+        "poster": "https://image.tmdb.org/t/p/w500/vmVeg3OxzAEjcLam70ehBhKuhTz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9avh1U70eIAb88zSFDLoh8ufApx.jpg",
+        "rating": 5.0,
+        "release_date": "2026-07-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Kim Seong-hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/zfhzVIgNhBIwK1ZwdjNNBojI5sZ.jpg"
+            },
+            {
+                "name": "Jung Hyun-woong",
+                "image": "https://image.tmdb.org/t/p/w185/kVTiewnHLFtnOqm4BKpCR6kZSrw.jpg"
+            },
+            {
+                "name": "Jung Myeong-cheol",
+                "image": "https://image.tmdb.org/t/p/w185/XyGbTLAYMq4AuK5Rfrg7aTnSir.jpg"
+            },
+            {
+                "name": "Kim Hyun-seo",
+                "image": "https://image.tmdb.org/t/p/w185/dXxJXe2TuW07cOstupLPTqGVGS8.jpg"
+            }
+        ],
+        "details": "Police officers, drug dealers, and spies: a mysterious kidnapping uncovers a criminal network, while love and sex become tools of exchange.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/08/0097aa4861c1e6b892940c89d3704e82-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_573435",
+        "type": "movie",
+        "title": "Bad Boys: Ride or Die",
+        "poster": "https://image.tmdb.org/t/p/w500/oGythE98MYleE6mZlGs5oBGkux1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3q01ACG0MWm0DekhvkPFCXyPZSu.jpg",
+        "rating": 7.3,
+        "release_date": "2024-06-05",
+        "runtime": "116 min",
+        "categories": [
+            "Action",
+            "Comedy",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Will Smith",
+                "image": "https://image.tmdb.org/t/p/w185/8TlKqbXYgHmmaEoPBJ7djJ8Rxxa.jpg"
+            },
+            {
+                "name": "Martin Lawrence",
+                "image": "https://image.tmdb.org/t/p/w185/y3SQzIPUPJpdueb1DkbTYph68nk.jpg"
+            },
+            {
+                "name": "Vanessa Hudgens",
+                "image": "https://image.tmdb.org/t/p/w185/8S8Nn5m5qkiIrEJ3dzPRjltzrkx.jpg"
+            },
+            {
+                "name": "Alexander Ludwig",
+                "image": "https://image.tmdb.org/t/p/w185/3KpzKT4iGhNivSISQMe6EwpAmCi.jpg"
+            },
+            {
+                "name": "Paola Nuñez",
+                "image": "https://image.tmdb.org/t/p/w185/5k8tBBvoV43iK6u0k2YUSVXPmuK.jpg"
+            }
+        ],
+        "details": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/2413c69dd50829c56c46964bbb8a94dc-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_284828",
+        "type": "series",
+        "title": "Duang with You",
+        "poster": "https://image.tmdb.org/t/p/w500/rsKjW0gKur2yhu4RQPpYlGPSWp5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ychH8vLDbBDKVWgZ6WC68iYNIzi.jpg",
+        "rating": 9.1,
+        "release_date": "2026-01-31",
+        "runtime": "70 min",
+        "categories": [
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Wanpichit Nimitparkpoom",
+                "image": "https://image.tmdb.org/t/p/w185/jkegjsowUIDC1UcVOGZIhE7Z97S.jpg"
+            },
+            {
+                "name": "Suppakarn Jirachotikul",
+                "image": "https://image.tmdb.org/t/p/w185/jBZkuuwkpWwSEHwAb0LzJY1soT5.jpg"
+            },
+            {
+                "name": "Chatchapon Pranotphong",
+                "image": "https://image.tmdb.org/t/p/w185/thFrnGh9feXeL814mqssSAUKy3n.jpg"
+            },
+            {
+                "name": "Thanaphat Tansakul",
+                "image": "https://image.tmdb.org/t/p/w185/c3Cl0h0Oz73YugEpkidYG2UYJYl.jpg"
+            },
+            {
+                "name": "Thirati Eksathian",
+                "image": "https://image.tmdb.org/t/p/w185/hbM6ERnfnv4o4mcwDmzBAVOBZwI.jpg"
+            }
+        ],
+        "details": "After a festival confession, art student Duang sets out to win over a guarded music major, slowly turning first love into a safe haven for them both.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/31/618f85e63ee0fdeadd6962a9eb075697-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1273221",
+        "type": "movie",
+        "title": "Scary Movie",
+        "poster": "https://image.tmdb.org/t/p/w500/1KlYdWoOrbL5ux357rW9LC155qw.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
+        "rating": 5.4,
+        "release_date": "2026-06-03",
+        "runtime": "96 min",
+        "categories": [
+            "Comedy",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Marlon Wayans",
+                "image": "https://image.tmdb.org/t/p/w185/7LYnX3vluHFBs1WCRKUjSIEDEkn.jpg"
+            },
+            {
+                "name": "Shawn Wayans",
+                "image": "https://image.tmdb.org/t/p/w185/Cat25uXhB680QLmvg9Tu16W563.jpg"
+            },
+            {
+                "name": "Anna Faris",
+                "image": "https://image.tmdb.org/t/p/w185/tptTb0BQwCpKWETNqzkZzzf5qSZ.jpg"
+            },
+            {
+                "name": "Regina Hall",
+                "image": "https://image.tmdb.org/t/p/w185/jiFZ4xNrvUUZLBHnJu71CvdN4kj.jpg"
+            },
+            {
+                "name": "Damon Wayans Jr.",
+                "image": "https://image.tmdb.org/t/p/w185/f6gNg71Js9XqCiXUtyFyXXbJ9ni.jpg"
+            }
+        ],
+        "details": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/14aeaa92afc1d8dfe90c277eb2082de3-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_287620",
+        "type": "series",
+        "title": "Stuart Fails to Save the Universe",
+        "poster": "https://image.tmdb.org/t/p/w500/iQbTbwmLX5Nh1nlH21YUJPWt3Zo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/2ngdvUiEKW8Q37ta8BBdydE2cuq.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-23",
+        "runtime": "N/A min",
+        "categories": [
+            "Comedy",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Kevin Sussman",
+                "image": "https://image.tmdb.org/t/p/w185/tLqrE9uz6GKoeoDC7LU7cE6oF2Q.jpg"
+            },
+            {
+                "name": "Lauren Lapkus",
+                "image": "https://image.tmdb.org/t/p/w185/zevTufkY38eRvWPslh5c1azdhQN.jpg"
+            },
+            {
+                "name": "Brian Posehn",
+                "image": "https://image.tmdb.org/t/p/w185/kg93LNpDQaRoosR4gVt7SsA3oL1.jpg"
+            },
+            {
+                "name": "John Ross Bowie",
+                "image": "https://image.tmdb.org/t/p/w185/XAv1RilHZu7qiGGIOgikrLgHeD.jpg"
+            }
+        ],
+        "details": "Comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon and Leonard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/bb43815ed3c0ecbabbedbcadb9824fb5-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    }
+]
