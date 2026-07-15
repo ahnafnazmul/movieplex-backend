@@ -1,0 +1,44 @@
+name: OTT Daily Auto-Sync
+
+on:
+  schedule:
+    - cron: '0 4,9,15 * * *' # BD Time: 10AM, 3PM, 9PM
+  workflow_dispatch: # ম্যানুয়ালি রান করার বাটন
+
+permissions:
+  contents: write
+
+jobs:
+  sync-database:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: ⚙️ Install Dependencies
+      run: |
+        pip install requests beautifulsoup4 cloudscraper playwright
+        playwright install chromium
+
+    - name: 🚀 Run Daily Scraper Engine
+      env:
+        TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+        TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        URL_MOVIEBOX: ${{ vars.URL_MOVIEBOX }}
+        URL_MLBD: ${{ vars.URL_MLBD }}
+        URL_BANGLAPLEX: ${{ vars.URL_BANGLAPLEX }}
+      run: python daily_updater.py
+
+    - name: 💾 Commit and Push Updates
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "OTT Sync Bot"
+        git add movie_master_db.json
+        git commit -m "🚀 Auto-Sync: Added fresh content" || echo "No changes to commit"
+        git push
