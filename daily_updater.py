@@ -9,7 +9,7 @@ import re
 # গিটহাব ভ্যারিয়েবল ও সিক্রেটস থেকে ডেটা নেওয়া
 TELEGRAM_TOKEN = os.getenv("TG_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TG_CHAT_ID")
-TMDB_API_KEY = d7e75f78343840e48bf11200be3d7ec9'
+TMDB_API_KEY = 'd7e75f78343840e48bf11200be3d7ec9'
 
 # ডাইনামিক সোর্স ইউআরএল (গিটহাব ভ্যারিয়েবল থেকে আসবে, না থাকলে ডিফল্ট)
 URL_MOVIEBOX = os.getenv("URL_MOVIEBOX", "https://themoviebox.xyz/")
