@@ -386,5 +386,354 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_138501",
+        "type": "series",
+        "title": "Agatha All Along",
+        "poster": "https://image.tmdb.org/t/p/w500/mGsxKwXUjojitRv2E9qMTbxbBRd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tYLXJW1sZQU09VWY1BhSVPKGIwc.jpg",
+        "rating": 7.4,
+        "release_date": "2024-09-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Sci-Fi & Fantasy",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Kathryn Hahn",
+                "image": "https://image.tmdb.org/t/p/w185/dh6MQiVHCnH3YS12ZjcI75FDFJK.jpg"
+            },
+            {
+                "name": "Joe Locke",
+                "image": "https://image.tmdb.org/t/p/w185/snlCoxXK1gLlyE7oncVEtQe7OcO.jpg"
+            },
+            {
+                "name": "Sasheer Zamata",
+                "image": "https://image.tmdb.org/t/p/w185/cI5jWRJNGuECiATsSBGGb5B9VRg.jpg"
+            },
+            {
+                "name": "Ali Ahn",
+                "image": "https://image.tmdb.org/t/p/w185/tK2JL02YuCInio9czdxT77R6i52.jpg"
+            },
+            {
+                "name": "Debra Jo Rupp",
+                "image": "https://image.tmdb.org/t/p/w185/fUhZOSPckMspk03Lh1XgoYGqd5k.jpg"
+            }
+        ],
+        "details": "Agatha Harkness gathers a coven of witches and sets off down, down, down The Witches' Road.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/17/5ebf837d551bdb5d005a5c0ca1724b3a-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_254528",
+        "type": "series",
+        "title": "The Hawk",
+        "poster": "https://image.tmdb.org/t/p/w500/klwdBtkpdW1RIqOl0dkSWJ7mtjq.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fBVNJL85Q60njpKPD6YaLi6tEsX.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Will Ferrell",
+                "image": "https://image.tmdb.org/t/p/w185/yjGbyQzVjpQl8xFkFGa7JxKZWQb.jpg"
+            },
+            {
+                "name": "Molly Shannon",
+                "image": "https://image.tmdb.org/t/p/w185/5ZTbNpJtDRU4ZCH24nJvFRxaqAD.jpg"
+            },
+            {
+                "name": "Jimmy Tatro",
+                "image": "https://image.tmdb.org/t/p/w185/xehT2IK65qXKSctcYChrWLE04pI.jpg"
+            },
+            {
+                "name": "Fortune Feimster",
+                "image": "https://image.tmdb.org/t/p/w185/9f2p2T61K4pIvKQMLRlow8znkXU.jpg"
+            },
+            {
+                "name": "Luke Wilson",
+                "image": "https://image.tmdb.org/t/p/w185/nH1h9dZGSBuWIOyX27HpYyYykvr.jpg"
+            }
+        ],
+        "details": "On the back nine of his career, golf legend Lonnie \"The Hawk\" Hawkins chases one final major — and drags everyone he loves into the chaos.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/22/c9f12397144bc33228e3f38cbecd8f54-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1279493",
+        "type": "movie",
+        "title": "The Get Out",
+        "poster": "https://image.tmdb.org/t/p/w500/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mVHyU4pnu9b2LWByPGGM0GGCA1v.jpg",
+        "rating": 6.4,
+        "release_date": "2026-06-18",
+        "runtime": "111 min",
+        "categories": [
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Russell Crowe",
+                "image": "https://image.tmdb.org/t/p/w185/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg"
+            },
+            {
+                "name": "Luke Evans",
+                "image": "https://image.tmdb.org/t/p/w185/qUkYJcrDc4M0LHNYASs30luFvw0.jpg"
+            },
+            {
+                "name": "Aaron Paul",
+                "image": "https://image.tmdb.org/t/p/w185/8Ac9uuoYwZoYVAIJfRLzzLsGGJn.jpg"
+            },
+            {
+                "name": "Teresa Palmer",
+                "image": "https://image.tmdb.org/t/p/w185/sjSiLSCp9LS1Z0nyGpmquTBuUyr.jpg"
+            },
+            {
+                "name": "Nina Dobrev",
+                "image": "https://image.tmdb.org/t/p/w185/euHNgS3z3M3OTzLhQQAezViQddq.jpg"
+            }
+        ],
+        "details": "A nightclub owner is on the verge of leaving his dangerous past behind for retirement with his girlfriend. When masked gunmen rob him and he finds himself squeezed by ruthless cartels, a mysterious newcomer arrives with an interest in buying the business. With danger closing in from all sides, he must navigate a deadly web of deception, power, and survival  -  where escape may no longer be an option.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/21/c528381cf546b17c0d50d497bee67205-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_950028",
+        "type": "movie",
+        "title": "The Invite",
+        "poster": "https://image.tmdb.org/t/p/w500/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+        "rating": 7.6,
+        "release_date": "2026-06-25",
+        "runtime": "107 min",
+        "categories": [
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Seth Rogen",
+                "image": "https://image.tmdb.org/t/p/w185/nYl9bvQzaPQLzlf0wf75clLN6Hi.jpg"
+            },
+            {
+                "name": "Olivia Wilde",
+                "image": "https://image.tmdb.org/t/p/w185/eODi1QKamyVa41eSK2SjU20VAZS.jpg"
+            },
+            {
+                "name": "Penélope Cruz",
+                "image": "https://image.tmdb.org/t/p/w185/j5iHd2ctzlcQ3gJ3CyEq4GYlY7V.jpg"
+            },
+            {
+                "name": "Edward Norton",
+                "image": "https://image.tmdb.org/t/p/w185/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg"
+            },
+            {
+                "name": "Mel Powell",
+                "image": "https://image.tmdb.org/t/p/w185/qu7T2uxliIK6TbCp1JAVY5rWPLl.jpg"
+            }
+        ],
+        "details": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/16/d6f3c10aba20d1add471dd597036df2f-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_303084",
+        "type": "series",
+        "title": "Deep In",
+        "poster": "https://image.tmdb.org/t/p/w500/aO2R6lWasqv9BsE7qpquDxE68TD.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8RUoesAKJIQjTZffFuVpd7QR1CS.jpg",
+        "rating": 7.9,
+        "release_date": "2026-06-26",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ollie",
+                "image": "https://image.tmdb.org/t/p/w185/t9ZxryoobysQXtGxuHQgws73SdZ.jpg"
+            },
+            {
+                "name": "Zhang Shuyuan",
+                "image": "https://image.tmdb.org/t/p/w185/82XmNHYgvWfjsh6ZuT797xEvtb8.jpg"
+            },
+            {
+                "name": "Yao Wang",
+                "image": "https://image.tmdb.org/t/p/w185/8kcrhUd1CUY9JPicraxbw88vpjH.jpg"
+            },
+            {
+                "name": "Li Dong",
+                "image": "https://image.tmdb.org/t/p/w185/pCGd7MMAHDizSxNRbgenXlGd6En.jpg"
+            },
+            {
+                "name": "Bai Yiru",
+                "image": "https://image.tmdb.org/t/p/w185/3bZkwjHCEYmQAk9SN52spxUwoWP.jpg"
+            }
+        ],
+        "details": "Filming a daring romance movie, an award-winning actor and an ambitious newcomer lose track of where acting ends and their real desire begins.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/26/21ab94847bb7087fef9c7f80a052de1e-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_321559",
+        "type": "series",
+        "title": "The Lie We Lived In",
+        "poster": "https://image.tmdb.org/t/p/w500/cEHiM6ndDgfcwVUo5u7LyY9CZUU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xiCfjMXdxVXxizYSgDNH84BZcbt.jpg",
+        "rating": 8.4,
+        "release_date": "2026-06-05",
+        "runtime": "30 min",
+        "categories": [
+            "Drama",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Kim Seung-beom",
+                "image": "https://image.tmdb.org/t/p/w185/inLgGQEFydK2Xw8pm2Kd3xRARxp.jpg"
+            },
+            {
+                "name": "Kim Kyung-min",
+                "image": "https://image.tmdb.org/t/p/w185/6VpByicQwNFuUKRQhRjsJrDRHTi.jpg"
+            },
+            {
+                "name": "Lee Jung-ho",
+                "image": "https://image.tmdb.org/t/p/w185/uOI61P0nmFSP2oMWmxzYbrPAlVM.jpg"
+            },
+            {
+                "name": "Lee Seung-noh",
+                "image": "https://image.tmdb.org/t/p/w185/hPdBZ20WlDdz5MusNYUo7rjnXak.jpg"
+            },
+            {
+                "name": "Donghyun Baek",
+                "image": "https://image.tmdb.org/t/p/w185/mx1XofnV0seEkmICToHElvX6Jt3.jpg"
+            }
+        ],
+        "details": "While hiding a kidnapped target, a contract killer’s cover unravels when he falls for the detective hunting the truth.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/04/5f7fdd9ff7b5c4480bad7e7c31c7d194-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_92783",
+        "type": "series",
+        "title": "She-Hulk: Attorney at Law",
+        "poster": "https://image.tmdb.org/t/p/w500/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eljErfkQUcFUgQkI4I1soZcH8MW.jpg",
+        "rating": 6.1,
+        "release_date": "2022-08-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Comedy",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Tatiana Maslany",
+                "image": "https://image.tmdb.org/t/p/w185/x8lBkm9CBJbIlLpqjEwkQydZ2or.jpg"
+            },
+            {
+                "name": "Ginger Gonzaga",
+                "image": "https://image.tmdb.org/t/p/w185/4YMXflYscHwrDBrrPfWEndwyNsB.jpg"
+            },
+            {
+                "name": "Jameela Jamil",
+                "image": "https://image.tmdb.org/t/p/w185/e9RviCItpPoSwD79y4YYlDbIwM6.jpg"
+            },
+            {
+                "name": "Renée Elise Goldsberry",
+                "image": "https://image.tmdb.org/t/p/w185/xlcw1r2ieUlaDLK6CIs5MQ9HIgK.jpg"
+            },
+            {
+                "name": "Josh Segarra",
+                "image": "https://image.tmdb.org/t/p/w185/vXhukEBgpI8jmCUCSGcpJCNzXHV.jpg"
+            }
+        ],
+        "details": "Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/552d45d6404f6d7fae5e57d537767607-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_281401",
+        "type": "series",
+        "title": "Finding Her Edge",
+        "poster": "https://image.tmdb.org/t/p/w500/7t6iXlbfoBSfVyINLRHms5kqfze.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3aeYYriPQN7886in9bIGKnbC5eQ.jpg",
+        "rating": 7.6,
+        "release_date": "2026-01-22",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Madelyn Keys",
+                "image": "https://image.tmdb.org/t/p/w185/cSdB1wZKJipIEielUo6JrQtsZ4y.jpg"
+            },
+            {
+                "name": "Alice Malakhov",
+                "image": "https://image.tmdb.org/t/p/w185/zk7Eb301oD8qaWWtfUcCRQL2tyg.jpg"
+            },
+            {
+                "name": "Alexandra Beaton",
+                "image": "https://image.tmdb.org/t/p/w185/luBazgWtZeK6WAaPKb9JUBPB0id.jpg"
+            },
+            {
+                "name": "Harmon Walsh",
+                "image": "https://image.tmdb.org/t/p/w185/3gyUy8Gg1AVwY6M6vFlPAkMD12d.jpg"
+            },
+            {
+                "name": "Cale Ambrozic",
+                "image": "https://image.tmdb.org/t/p/w185/3hyD8V9J8rhhCfwY1IAjQfTQk0a.jpg"
+            }
+        ],
+        "details": "A former ice dancer returns to the rink with an exciting new partner while holding onto feelings for her old one — her first love.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/11/f90ff3f75ab8d635a2b5e7af48c1db16-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
