@@ -4856,5 +4856,485 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_4275",
+        "type": "series",
+        "title": "Prisoner",
+        "poster": "https://image.tmdb.org/t/p/w500/dQsM0p8znOZ4hEueVhpQxTI1QuT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/AqhMVAeGQNtBQbD2HJf2m2KrrUX.jpg",
+        "rating": 7.6,
+        "release_date": "1979-02-27",
+        "runtime": "50 min",
+        "categories": [
+            "Soap",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Gerda Nicolson",
+                "image": "https://image.tmdb.org/t/p/w185/lBmlp7hDMQ8Aqme4hDSssJhxkXk.jpg"
+            },
+            {
+                "name": "Maggie Kirkpatrick",
+                "image": "https://image.tmdb.org/t/p/w185/krmJtbvppjx5m6KplHpUrmZQo4Z.jpg"
+            },
+            {
+                "name": "Janet Andrewartha",
+                "image": ""
+            },
+            {
+                "name": "Elspeth Ballantyne",
+                "image": "https://image.tmdb.org/t/p/w185/qo7dxyXyz11b0sY7RPT6C0P61RD.jpg"
+            },
+            {
+                "name": "Louise Siversen",
+                "image": ""
+            }
+        ],
+        "details": "Prisoner is an Australian soap opera that is set in the Wentworth Detention Centre, a fictional women's prison.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/06/668a35ad0801b4ebfac5ff05478d6809-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_84773",
+        "type": "series",
+        "title": "The Lord of the Rings: The Rings of Power",
+        "poster": "https://image.tmdb.org/t/p/w500/kf5Hz70tjNAHg4swGDzOr9BfoZ1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vpRAeMi5VBZT3Kjykive6qan2Ui.jpg",
+        "rating": 7.2,
+        "release_date": "2022-09-01",
+        "runtime": "N/A min",
+        "categories": [
+            "Action & Adventure",
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Charlie Vickers",
+                "image": "https://image.tmdb.org/t/p/w185/nIn0RTnOukikIKiVwtzRwkpcJvy.jpg"
+            },
+            {
+                "name": "Morfydd Clark",
+                "image": "https://image.tmdb.org/t/p/w185/kG1Xg85F9yAggCMquo4XouAOjdo.jpg"
+            },
+            {
+                "name": "Robert Aramayo",
+                "image": "https://image.tmdb.org/t/p/w185/o7qAOrcW70LD4oz8fcubZUcYDAU.jpg"
+            },
+            {
+                "name": "Charles Edwards",
+                "image": "https://image.tmdb.org/t/p/w185/zyzow44jiPve8nU9O1F1X9wnrtU.jpg"
+            },
+            {
+                "name": "Owain Arthur",
+                "image": "https://image.tmdb.org/t/p/w185/ljqVjVzp9pgcfTTU3oJbKtnd6im.jpg"
+            }
+        ],
+        "details": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/10/08/8afb0541f1b97eb6fbc205fa2d0e850e-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_289424",
+        "type": "series",
+        "title": "We Are All Trying Here",
+        "poster": "https://image.tmdb.org/t/p/w500/c2jswCrMoqDEBEXwSAlrCWtXdfZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4ZXZi107TbfBJFGT4cnqbavQIoc.jpg",
+        "rating": 8.5,
+        "release_date": "2026-04-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Koo Kyo-hwan",
+                "image": "https://image.tmdb.org/t/p/w185/aFwCpSKPGFqoiTStY6ljXnD5CwH.jpg"
+            },
+            {
+                "name": "Go Youn-jung",
+                "image": "https://image.tmdb.org/t/p/w185/wQbPu0QF0IeyXpqJmdmRbfNk6CM.jpg"
+            },
+            {
+                "name": "Oh Jung-se",
+                "image": "https://image.tmdb.org/t/p/w185/oIqRAdI5e777odhOJl6e4Jc9ADj.jpg"
+            },
+            {
+                "name": "Kang Mal-geum",
+                "image": "https://image.tmdb.org/t/p/w185/aQcgxtVnbHnWwjR3yUtnbvwARSR.jpg"
+            },
+            {
+                "name": "Park Hae-joon",
+                "image": "https://image.tmdb.org/t/p/w185/heNKjLHWCQXXfkDB1Hb2nhuhDCf.jpg"
+            }
+        ],
+        "details": "An aspiring director hits rock bottom after 20 years chasing his debut — until he meets an overwhelmed producer who helps him rediscover his self-worth.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/01/131d47387de179a883eb4b17e405ad3d-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1290821",
+        "type": "movie",
+        "title": "Shelter",
+        "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nHxWyy18SvAZ8jJeemtS8k1UNjM.jpg",
+        "rating": 7.7,
+        "release_date": "2026-01-28",
+        "runtime": "107 min",
+        "categories": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Jason Statham",
+                "image": "https://image.tmdb.org/t/p/w185/pXGSq2UpcDE2NMF8LR56QZf5U1q.jpg"
+            },
+            {
+                "name": "Bodhi Rae Breathnach",
+                "image": "https://image.tmdb.org/t/p/w185/v4PXpYOKUQtcUCp85KAW2bIiS51.jpg"
+            },
+            {
+                "name": "Naomi Ackie",
+                "image": "https://image.tmdb.org/t/p/w185/dijwuTAEZUzQtoJfK49S4X80fQw.jpg"
+            },
+            {
+                "name": "Daniel Mays",
+                "image": "https://image.tmdb.org/t/p/w185/2qmA5mXnhA7Nelu2BTbJTvzq35u.jpg"
+            },
+            {
+                "name": "Harriet Walter",
+                "image": "https://image.tmdb.org/t/p/w185/vH8JrqdHaoFeGos44XeKTNuQMKE.jpg"
+            }
+        ],
+        "details": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/03/dfde905a7529b2c6b5f0b907e71c1469-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1010581",
+        "type": "movie",
+        "title": "My Fault",
+        "poster": "https://image.tmdb.org/t/p/w500/w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg",
+        "rating": 7.7,
+        "release_date": "2023-06-08",
+        "runtime": "116 min",
+        "categories": [
+            "Drama",
+            "Romance",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Nicole Wallace",
+                "image": "https://image.tmdb.org/t/p/w185/xlvq6OYCN6yQef4fpJQtwVyQxqr.jpg"
+            },
+            {
+                "name": "Gabriel Guevara",
+                "image": "https://image.tmdb.org/t/p/w185/pviRYKEEmoPUfLYwP1VHJ6LQcRg.jpg"
+            },
+            {
+                "name": "Marta Hazas",
+                "image": "https://image.tmdb.org/t/p/w185/1dbeTFRCbWBt70dIGjYHKVLnpaG.jpg"
+            },
+            {
+                "name": "Iván Sánchez",
+                "image": "https://image.tmdb.org/t/p/w185/woVz8D7t1VUKjFJnsTAdc8tyz5C.jpg"
+            },
+            {
+                "name": "Eva Ruiz",
+                "image": "https://image.tmdb.org/t/p/w185/bcu0nmQvhxwTzh4csc4kuxJsQee.jpg"
+            }
+        ],
+        "details": "Noah must leave her city, boyfriend, and friends to move into William Leister's mansion, the flashy and wealthy husband of her mother Rafaela. As a proud and independent 17 year old, Noah resists living in a mansion surrounded by luxury. However, it is there where she meets Nick, her new stepbrother, and the clash of their strong personalities becomes evident from the very beginning.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/06/10/f3035b461ceb3ef72ed6e2646cc4057b-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_314073",
+        "type": "series",
+        "title": "Never Forget Your Enemy",
+        "poster": "https://image.tmdb.org/t/p/w500/luFOp9VTwnuOJMVrpzCxNOTN76F.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8FOSfkJf9SvuEMnY4b4e3mFtVpw.jpg",
+        "rating": 7.6,
+        "release_date": "2026-03-17",
+        "runtime": "35 min",
+        "categories": [
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Hwang Jun-su",
+                "image": "https://image.tmdb.org/t/p/w185/6cOW5QjA4XTeXzWXq4JeSl7HyZ8.jpg"
+            },
+            {
+                "name": "Lee Ja-woon",
+                "image": "https://image.tmdb.org/t/p/w185/knmW7fV8zh2F6BYx7eQPRr2peVE.jpg"
+            }
+        ],
+        "details": "After a crash erases a decade of his memory, a man wakes up to find his former rival claiming they’re lovers and must uncover the truth behind the relationship he can’t remember.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/17/39cb16f9de9bb17e053c43f032695716-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_306118",
+        "type": "series",
+        "title": "Arafta",
+        "poster": "https://image.tmdb.org/t/p/w500/4yYZoYgeNshoS2aODwUvCXIa8yn.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wuHqvkUVc5jVbeVnTw37Oe8ikC7.jpg",
+        "rating": 9.1,
+        "release_date": "2025-11-21",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "İlsu Demirci",
+                "image": "https://image.tmdb.org/t/p/w185/rsmqA6i2tcAaCTtHvCsQsP434YW.jpg"
+            },
+            {
+                "name": "Emin Günenç",
+                "image": "https://image.tmdb.org/t/p/w185/hCcgXWHHQc3UKQ5mWLzbMsdUa5y.jpg"
+            },
+            {
+                "name": "Aleyna Çalışkan",
+                "image": "https://image.tmdb.org/t/p/w185/7oUh3AYjgHxPvJBK520gqq5MaO6.jpg"
+            },
+            {
+                "name": "Serdar Yıldırım",
+                "image": "https://image.tmdb.org/t/p/w185/zyZ7gGdAAWdOGc2iVAlfssmOBnC.jpg"
+            },
+            {
+                "name": "Çagri Baylan",
+                "image": "https://image.tmdb.org/t/p/w185/gPmSCTaIAsfSsjg3tmv8g593xaa.jpg"
+            }
+        ],
+        "details": "Ateş, a man haunted by childhood scars and consumed by rage, returns to destroy the family that shattered his life years ago. His weapon is not a sword, but a marriage: 187 days with Mercan, the daughter of his enemy. Mercan, already promised to Nezir, is thrust into a battle she never chose, while Ateş binds her to him believing she is the key to his revenge. Yet the woman he intends to destroy becomes the one who threatens to undo him. And in the shadows, Aslı – driven by jealousy, seizes every chance to tear them apart.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/11/28/09f1cfc33ff703a1d65ef3e119409ce5-ld.mp4"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=kzqT3xP8d_8_480p.mp4/season-1/episode-50-r360P"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_407451",
+        "type": "movie",
+        "title": "A Wrinkle in Time",
+        "poster": "https://image.tmdb.org/t/p/w500/yAcb58vipewa1BfNit2RjE6boXA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mx6zzr2H34fXMsBmL2it8NsmKF1.jpg",
+        "rating": 5.1,
+        "release_date": "2018-03-08",
+        "runtime": "109 min",
+        "categories": [
+            "Adventure",
+            "Science Fiction",
+            "Family",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Storm Reid",
+                "image": "https://image.tmdb.org/t/p/w185/c5ld0nVHZ2dv25Jhn5DpXwTlXyH.jpg"
+            },
+            {
+                "name": "Oprah Winfrey",
+                "image": "https://image.tmdb.org/t/p/w185/nNpYieaDLxKZWw2FY9wsDkjwURu.jpg"
+            },
+            {
+                "name": "Reese Witherspoon",
+                "image": "https://image.tmdb.org/t/p/w185/mfjunuTHrd0wnh8UG1ImMN9FSws.jpg"
+            },
+            {
+                "name": "Mindy Kaling",
+                "image": "https://image.tmdb.org/t/p/w185/m4veWEp9TEDallTZRobb7MLkd9K.jpg"
+            },
+            {
+                "name": "Levi Miller",
+                "image": "https://image.tmdb.org/t/p/w185/5ovVnN2ffAWzwhZQKZWZWUgf6tZ.jpg"
+            }
+        ],
+        "details": "After the disappearance of her scientist father, three peculiar beings send Meg, her brother, and her friend to space in order to find him.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/04/08/38e7fdbfce5da77b2db9ec86c5c15943-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1515615",
+        "type": "movie",
+        "title": "Kissing Is the Easy Part",
+        "poster": "https://image.tmdb.org/t/p/w500/gPxlb7LLqbsKgjltgVrgYdhfxCZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7yuHdP85F2ZxhKbSoPgCBT9uJT3.jpg",
+        "rating": 7.6,
+        "release_date": "2026-02-13",
+        "runtime": "101 min",
+        "categories": [
+            "Romance",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Asher Angel",
+                "image": "https://image.tmdb.org/t/p/w185/lgBt67iggDs0d8QBSyjdk2ytHtK.jpg"
+            },
+            {
+                "name": "Paris Berelc",
+                "image": "https://image.tmdb.org/t/p/w185/m7m111XcdpYdCdvgBB88AxcCn7u.jpg"
+            },
+            {
+                "name": "Jennifer Robertson",
+                "image": "https://image.tmdb.org/t/p/w185/poEzn35CILuG3dtCRrTocU2TC2d.jpg"
+            },
+            {
+                "name": "Tom Keat",
+                "image": "https://image.tmdb.org/t/p/w185/jauTGPki5BJTAKOULjGCQDZFMjL.jpg"
+            },
+            {
+                "name": "Rosalie Turmel",
+                "image": "https://image.tmdb.org/t/p/w185/2kALFSx3SPsFryufau1O8iCnihL.jpg"
+            }
+        ],
+        "details": "Sean's gunning for MIT. Flora's ditching the SAT. A secret deal with her tenured parents sparks a romance that challenges everything they believe in.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/06/546342ddcb216dfb27aaf397c8a9b0fa-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1468683",
+        "type": "movie",
+        "title": "Heartstopper Forever",
+        "poster": "https://image.tmdb.org/t/p/w500/r4lVJVO1BeBb11cBcXBdbHc9e9k.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vvE7zc2aie3ozZcy5xYbg5QTFrF.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-16",
+        "runtime": "111 min",
+        "categories": [
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Joe Locke",
+                "image": "https://image.tmdb.org/t/p/w185/snlCoxXK1gLlyE7oncVEtQe7OcO.jpg"
+            },
+            {
+                "name": "Kit Connor",
+                "image": "https://image.tmdb.org/t/p/w185/gXuyzRe6fqP6BhYnh2N5VxgK1x8.jpg"
+            },
+            {
+                "name": "Anna Maxwell Martin",
+                "image": "https://image.tmdb.org/t/p/w185/vBAsZPe1tHPvVLViiDWYkb5k1Cu.jpg"
+            },
+            {
+                "name": "Yasmin Finney",
+                "image": "https://image.tmdb.org/t/p/w185/lmTvK5OwsAAvHpOnXXnULsYKMQW.jpg"
+            },
+            {
+                "name": "Rhea Norwood",
+                "image": "https://image.tmdb.org/t/p/w185/fUk1l9dIpdjkx31YSc34yqIXh1N.jpg"
+            }
+        ],
+        "details": "It's a new school year for the Truham-Higgs gang. As Nick and Charlie's relationship deepens, their thoughts turn to life after the last bell rings.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/3e101759e9e104596afa01dc1b5a9f44-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_210787",
+        "type": "series",
+        "title": "Harlan Coben's Shelter",
+        "poster": "https://image.tmdb.org/t/p/w500/rEDJ0L9xY2SblTsPhghUHTa1VnX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eDzhof8GnNXIErfkfHsAMmSd4W0.jpg",
+        "rating": 6.9,
+        "release_date": "2023-08-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama",
+            "Mystery",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Jaden Michael",
+                "image": "https://image.tmdb.org/t/p/w185/xXhbEcicacePnh7cH012Ji6JUFq.jpg"
+            },
+            {
+                "name": "Constance Zimmer",
+                "image": "https://image.tmdb.org/t/p/w185/6lnaGnzw6ZBwomgdjN1cGqp7HNq.jpg"
+            },
+            {
+                "name": "Adrian Greensmith",
+                "image": "https://image.tmdb.org/t/p/w185/6DytXLvZoFH5C0kRNjUIrIPDEZ.jpg"
+            },
+            {
+                "name": "Abby Corrigan",
+                "image": "https://image.tmdb.org/t/p/w185/7uxYgVW2PpCdZBTaS8x9xTj4h5d.jpg"
+            },
+            {
+                "name": "Sage Linder",
+                "image": "https://image.tmdb.org/t/p/w185/unJav3w9EJapyumwBlQerzeyJ5M.jpg"
+            }
+        ],
+        "details": "Follow Mickey Bolitar after the death of his father leads him to start a new life in suburban New Jersey. When another new student disappears, Mickey finds himself tangled in a web of secrets. With the help of two new friends, Spoon and Ema, they reveal a dark underground that may hold the answers to decades of disappearances.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/18/0395c3ba2c6b0a9b2aeebd93a7498fba-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
