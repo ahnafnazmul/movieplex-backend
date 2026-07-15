@@ -735,5 +735,377 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1034716",
+        "type": "movie",
+        "title": "People We Meet on Vacation",
+        "poster": "https://image.tmdb.org/t/p/w500/peG6482ALJQ9Tbvv2P38BquVk0f.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qa3oDSDZSJKSdIdBgQgEAxO0N88.jpg",
+        "rating": 7.0,
+        "release_date": "2026-01-06",
+        "runtime": "116 min",
+        "categories": [
+            "Comedy",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Emily Bader",
+                "image": "https://image.tmdb.org/t/p/w185/54vsruCMlY2QymN950QoMtINNFA.jpg"
+            },
+            {
+                "name": "Tom Blyth",
+                "image": "https://image.tmdb.org/t/p/w185/q8bkN1GvXqjs1ZGFYWViH9o2WDq.jpg"
+            },
+            {
+                "name": "Sarah Catherine Hook",
+                "image": "https://image.tmdb.org/t/p/w185/hLXqA5OZYX9I9BTj82KlVYqgE2i.jpg"
+            },
+            {
+                "name": "Jameela Jamil",
+                "image": "https://image.tmdb.org/t/p/w185/e9RviCItpPoSwD79y4YYlDbIwM6.jpg"
+            },
+            {
+                "name": "Miles Heizer",
+                "image": "https://image.tmdb.org/t/p/w185/xfIUIS04M6BtuA27047hAhB1y47.jpg"
+            }
+        ],
+        "details": "Poppy's a free spirit. Alex loves a plan. After years of summer vacations, these polar-opposite pals wonder if they could be a perfect romantic match.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/17/bde32e8cec32f5fc6cb86b6a0f4747c3-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_5593",
+        "type": "series",
+        "title": "Average Joe",
+        "poster": "https://image.tmdb.org/t/p/w500/5zuml7I6kI0qPghwQHtYkJtXKmn.jpg",
+        "backdrop": "",
+        "rating": 6.8,
+        "release_date": "2003-11-03",
+        "runtime": "60 min",
+        "categories": [
+            "Reality"
+        ],
+        "cast": [
+            {
+                "name": "Brian Worth",
+                "image": "https://image.tmdb.org/t/p/w185/e9wvVlcTCV4J44j5xaeasmS18xF.jpg"
+            },
+            {
+                "name": "Samantha Trenk",
+                "image": ""
+            }
+        ],
+        "details": "Average Joe is an American reality television show broadcast on the NBC beginning in 2003. There were a total of four seasons, the first two following the original show premise, and the last two bringing back contestants from prior seasons.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/07/17/044c190290d26a6a36a3801a4783920a-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_300954",
+        "type": "series",
+        "title": "The Husband",
+        "poster": "https://image.tmdb.org/t/p/w500/z74qJEf1MRsEEIKFgbeyBAHmJXg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lfTUwBiSyCVcvBPAMzSOYGUgr2c.jpg",
+        "rating": 8.3,
+        "release_date": "2026-07-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Namkoong Min",
+                "image": "https://image.tmdb.org/t/p/w185/d67Fh2o6aFm7mJYfkqWzeGjEjco.jpg"
+            },
+            {
+                "name": "Lee Seol",
+                "image": "https://image.tmdb.org/t/p/w185/9WaLwRRQM6wVnvAsSp4IQk1PS7C.jpg"
+            },
+            {
+                "name": "Kim Dae-myung",
+                "image": "https://image.tmdb.org/t/p/w185/aDBoiB6lfSFB3aKOopnp7Lau9mc.jpg"
+            },
+            {
+                "name": "Lee Sang-hee",
+                "image": "https://image.tmdb.org/t/p/w185/lf0RoPOizR5YGBolLwWrHj0WQeB.jpg"
+            },
+            {
+                "name": "Jang Kwang",
+                "image": "https://image.tmdb.org/t/p/w185/t8xMsqeIe3YzdFNeeh43TPs7c1Y.jpg"
+            }
+        ],
+        "details": "Tae-ju and Se-yun are on the verge of divorce. But when a drunken comment from Tae-ju gets his wife, Se-yun, kidnapped, everything changes. Even worse, he's now the prime suspect. Forced to go on the run, Tae-ju must rescue his wife on his own. To save her, he pushes himself to the absolute limit.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/04/6d64263093698219e782d41cfd477f0e-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_319600",
+        "type": "series",
+        "title": "Azure Spring",
+        "poster": "https://image.tmdb.org/t/p/w500/6gotRZOJFMC4N4wHamsRnZNJtmh.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gLRdw3GkinA9k6GFvG8OKZh56Kv.jpg",
+        "rating": 6.7,
+        "release_date": "2026-05-11",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "YERI",
+                "image": "https://image.tmdb.org/t/p/w185/w1FO7BW44TaatyjRfgXlZ2U5tN1.jpg"
+            },
+            {
+                "name": "Kang Sang-jun",
+                "image": "https://image.tmdb.org/t/p/w185/ntVm8JzE6eXvfDsvDOY9hQQbEmP.jpg"
+            },
+            {
+                "name": "Ko Joo-hee",
+                "image": "https://image.tmdb.org/t/p/w185/8cbPW5rSfeFl6oz5lSjRRdIsxQo.jpg"
+            },
+            {
+                "name": "Jung Hyun-min",
+                "image": "https://image.tmdb.org/t/p/w185/nxjIKfFGrSCBQCRnoWy5dUL4NyD.jpg"
+            },
+            {
+                "name": "Kim Won-sik",
+                "image": "https://image.tmdb.org/t/p/w185/4376uekMqJjPcNbUMXTYZyPRSGm.jpg"
+            }
+        ],
+        "details": "Two people stuck in their lives become haenyeo divers, finding healing and new meaning in the sea as they confront their pasts and fears together.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/25/f271a5a9d5b7e670cf5087865a8bd54d-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_755679",
+        "type": "movie",
+        "title": "Fast Forever",
+        "poster": "https://image.tmdb.org/t/p/w500/xaRzhQZ3zK5lN6vEetG8PD17KPF.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2028-03-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Vin Diesel",
+                "image": "https://image.tmdb.org/t/p/w185/nZdVry7lnUkE24PnXakok9okvL4.jpg"
+            },
+            {
+                "name": "Cristiano Ronaldo",
+                "image": "https://image.tmdb.org/t/p/w185/hAsxOYVLzHIteHwqWYGYJrO0WlC.jpg"
+            }
+        ],
+        "details": "The eleventh and final installment in The Fast Saga. Plot TBA.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/25/6a65428036f79932ee41628b7fb1fb2f-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_120911",
+        "type": "series",
+        "title": "The Terminal List",
+        "poster": "https://image.tmdb.org/t/p/w500/jbyaKYNexl1poKZnEmB6Qobn60s.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eqLwFXX0R7U0crdgQcj0Rxjb9uc.jpg",
+        "rating": 8.0,
+        "release_date": "2022-06-30",
+        "runtime": "N/A min",
+        "categories": [
+            "Action & Adventure",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Chris Pratt",
+                "image": "https://image.tmdb.org/t/p/w185/872Hzdq95gsbMRabsColTW3TLrD.jpg"
+            },
+            {
+                "name": "Jeanne Tripplehorn",
+                "image": "https://image.tmdb.org/t/p/w185/q7D9MDnMVc5PAm99853gszHwJy7.jpg"
+            },
+            {
+                "name": "Riley Keough",
+                "image": "https://image.tmdb.org/t/p/w185/wsodGduU4frFdMy1roqeDmj4kZ.jpg"
+            },
+            {
+                "name": "Taylor Kitsch",
+                "image": "https://image.tmdb.org/t/p/w185/pTFkwvE2URbbftiaofexfolhkH9.jpg"
+            },
+            {
+                "name": "Constance Wu",
+                "image": "https://image.tmdb.org/t/p/w185/dMx2RlHDuCabtk8GHiijWtVOH8h.jpg"
+            }
+        ],
+        "details": "Navy SEAL Commander James Reece turns to vengeance as he investigates the mysterious forces behind the murder of his entire platoon. Free from the military's command structure, Reece applies the lessons he's learned from nearly two decades of warfare to hunt down the people responsible.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/0391673747f71d3b6c88e047a10f67ac-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_324487",
+        "type": "series",
+        "title": "Fix the Error!",
+        "poster": "https://image.tmdb.org/t/p/w500/gLNnzKIXNSRWDOcyJknimdlnq8v.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gejQCF5SbuSe5kbfFA5qUNQjanI.jpg",
+        "rating": 6.0,
+        "release_date": "2026-06-12",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Kan Hyeon-bae",
+                "image": "https://image.tmdb.org/t/p/w185/eAOhsx0GrLRNtV9Tm0H79Fq8SB3.jpg"
+            },
+            {
+                "name": "Lee Hyun-jun",
+                "image": "https://image.tmdb.org/t/p/w185/qEuGzUWjUvhfYgJv5QcqXQw31mv.jpg"
+            },
+            {
+                "name": "Kim Yung-hee",
+                "image": "https://image.tmdb.org/t/p/w185/eSsXzBiwySdgbwl2tcxiDlssiez.jpg"
+            },
+            {
+                "name": "Jung Jung-hwan",
+                "image": "https://image.tmdb.org/t/p/w185/337ZXcM1KcAxuDHRMsWyUrbf5Mx.jpg"
+            },
+            {
+                "name": "Kwak Geon-hee",
+                "image": "https://image.tmdb.org/t/p/w185/7DAav29aibDkV7K3iqBeuJBxrUG.jpg"
+            }
+        ],
+        "details": "Jun, the grim reaper who manages death, receives a list of names and descends to the human world again today. School, unfamiliar scenery, and a strange self. But the task seemed simple: he simply needed to find the target of the code floating above his head.\n\nBut the code written on the register hovered over two people simultaneously. One was Hyeon, with his indifferent gaze, the other Yun, with his playful smile. The question, \"Who should die?\" soon morphed into \"Who should live?\" and Jun, hiding his identity, began living as a student alongside the two.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/12/2d317ccd8d9a2548e70d768c157ee398-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_85271",
+        "type": "series",
+        "title": "WandaVision",
+        "poster": "https://image.tmdb.org/t/p/w500/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lOr9NKxh4vMweufMOUDJjJhCRHW.jpg",
+        "rating": 8.2,
+        "release_date": "2021-01-15",
+        "runtime": "N/A min",
+        "categories": [
+            "Sci-Fi & Fantasy",
+            "Mystery",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Elizabeth Olsen",
+                "image": "https://image.tmdb.org/t/p/w185/dlS1CKO8Dh2lORhE73WosZ4bRt2.jpg"
+            },
+            {
+                "name": "Paul Bettany",
+                "image": "https://image.tmdb.org/t/p/w185/vcAVrAOZrpqmi37qjFdztRAv1u9.jpg"
+            },
+            {
+                "name": "Kathryn Hahn",
+                "image": "https://image.tmdb.org/t/p/w185/dh6MQiVHCnH3YS12ZjcI75FDFJK.jpg"
+            },
+            {
+                "name": "Teyonah Parris",
+                "image": "https://image.tmdb.org/t/p/w185/iGvBTOi0y2fbBVwgnBRXgY0IXDY.jpg"
+            },
+            {
+                "name": "Randall Park",
+                "image": "https://image.tmdb.org/t/p/w185/u1QpbjVIKegk79DJG9HFmg9Ljv4.jpg"
+            }
+        ],
+        "details": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/67e82eafb07cccdf9d94f09fe0f1d17c-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_288671",
+        "type": "series",
+        "title": "The Map of Longing",
+        "poster": "https://image.tmdb.org/t/p/w500/wcgjZ7koqOYDcKUn6DmnNolqmUS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lDhs7EFH1DaOoRXEaTiNhuYaAbC.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Alícia Falcó",
+                "image": "https://image.tmdb.org/t/p/w185/pzFG0vued1eAh7QcOlyNdn8th8m.jpg"
+            },
+            {
+                "name": "Pablo Álvarez",
+                "image": "https://image.tmdb.org/t/p/w185/36W67vL7hXGnjVvUl6KvUdx0IqE.jpg"
+            },
+            {
+                "name": "Georgina Amorós",
+                "image": "https://image.tmdb.org/t/p/w185/979tHBpP2xDEJXX9e3yInr7FcdW.jpg"
+            },
+            {
+                "name": "Laia Marull",
+                "image": "https://image.tmdb.org/t/p/w185/9UCGtbwtrgXuQSgznmXvVgKIEmQ.jpg"
+            },
+            {
+                "name": "Mario de la Rosa",
+                "image": "https://image.tmdb.org/t/p/w185/2EafPw8ar2K8eWfIsx8d5HByBgE.jpg"
+            }
+        ],
+        "details": "Before her death, Lucy creates a game for her sister, Greta, pushing her into a journey of self-discovery — and toward the charming Will Tucker.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/d8c473480222dc391ced22abbacf413e-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
