@@ -59,22 +59,21 @@
 </head>
 <body class="relative min-h-screen">
 
-    <header class="w-full bg-[#060814]/95 backdrop-blur-md border-b border-white/5 sticky top-0 z-50 px-4 md:px-12 py-2 flex items-center justify-between shadow-xl">
+    <!-- 1. COMPACT SLIM HEADER MENU BAR -->
+    <header class="w-full bg-[#060814]/95 backdrop-blur-md border-b border-white/5 sticky top-0 z-50 px-4 md:px-12 py-3 flex items-center justify-between shadow-xl">
         <div class="flex items-center space-x-6 md:space-x-12">
             <h1 class="text-lg md:text-xl font-black tracking-tighter text-yellow-500 uppercase cursor-pointer" onclick="backToHomeView()">MOVIEPLEX<span class="text-white font-light">BD</span></h1>
-            <div class="hidden md:flex space-x-8 text-[11px] font-black tracking-widest uppercase text-gray-400">
-                <a href="#" onclick="viewAllCategory('Genre'); return false;" class="hover:text-yellow-500 transition">Genre</a>
-                <a href="#" onclick="viewAllCategory('Movies'); return false;" class="hover:text-yellow-500 transition">Movies</a>
-                <a href="#" onclick="viewAllCategory('Web Series'); return false;" class="hover:text-yellow-500 transition">Series</a>
-            </div>
         </div>
         <div class="w-36 sm:w-60">
-            <input type="text" id="search-bar" placeholder="Search catalog..." class="w-full bg-slate-900 border border-slate-800 text-white rounded-full px-4 py-1 text-[11px] focus:outline-none focus:border-yellow-500 transition shadow-inner">
+            <input type="text" id="search-bar" placeholder="Search catalog..." class="w-full bg-slate-900 border border-slate-800 text-white rounded-full px-4 py-1.5 text-[11px] focus:outline-none focus:border-yellow-500 transition shadow-inner">
         </div>
     </header>
 
+    <!-- ROOT CONTAINERS FOR APP ARCHITECTURE -->
+    <!-- VIEW A: HOME VIEW -->
     <div id="home-view-container" class="block">
-        <div class="carousel-container-fixed">
+        <!-- added mt-6 md:mt-10 to push the hero scroll down a bit -->
+        <div class="carousel-container-fixed mt-6 md:mt-10">
             <div class="absolute top-12 left-6 md:left-12 max-w-sm md:max-w-md space-y-4 text-left hidden lg:block z-30 pointer-events-auto" id="wheel-meta-pane">
                 <span class="bg-yellow-500 text-black text-[9px] font-black uppercase px-2.5 py-1 rounded tracking-widest shadow shadow-yellow-500/10">Spotlight</span>
                 <h2 id="wheel-title" class="text-3xl md:text-5xl font-black text-white tracking-tight leading-none drop-shadow-md">Loading...</h2>
@@ -95,6 +94,7 @@
         </div>
 
         <div class="pl-4 md:pl-12 space-y-10 -mt-28 md:-mt-36 relative z-40 bg-gradient-to-b from-transparent via-[#0c0f1d] to-[#0c0f1d] pt-4 pb-12">
+            <!-- Row 1: NEW Release -->
             <div class="space-y-3" id="section-new-release">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-yellow-500 mr-2 rounded"></span>✨ NEW Release</h3>
@@ -103,6 +103,7 @@
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-new-release"></div>
             </div>
 
+            <!-- Row 2: RECENT Release -->
             <div class="space-y-3" id="section-recent-release">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-blue-500 mr-2 rounded"></span>🎬 RECENT Release</h3>
@@ -111,6 +112,7 @@
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-recent-release"></div>
             </div>
 
+            <!-- Row 3: TRENDING Now -->
             <div class="space-y-3" id="section-trending">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-orange-500 mr-2 rounded"></span>🔥 TRENDING Now</h3>
@@ -119,6 +121,7 @@
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-trending"></div>
             </div>
 
+            <!-- Row 4: TOP Rated -->
             <div class="space-y-3" id="section-top-rated">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-green-500 mr-2 rounded"></span>🏆 TOP Rated</h3>
@@ -129,6 +132,7 @@
         </div>
     </div>
 
+    <!-- VIEW B: DEDICATED EXPLORER HUB (SEE MORE VIEW) -->
     <div id="explorer-view-container" class="hidden min-h-screen bg-[#0c0f1d] px-4 md:px-12 py-6 space-y-6">
         <div class="flex justify-between items-center border-b border-white/10 pb-3">
             <h3 id="see-more-title" class="text-lg md:text-xl font-black text-yellow-500">Explorer Hub</h3>
@@ -137,6 +141,7 @@
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 py-2" id="see-more-grid"></div>
     </div>
 
+    <!-- VIEW C: DETAILS VIEW -->
     <div id="details-view-container" class="hidden min-h-screen bg-[#0c0f1d] px-4 md:px-16 py-6 space-y-6 z-50 relative">
         <button onclick="closeDetailsPage()" class="bg-slate-900 hover:bg-slate-800 text-white border border-slate-800 px-4 py-1.5 rounded-full text-xs font-bold transition flex items-center shadow-lg">
             <span>‹ Back</span>
@@ -150,11 +155,12 @@
             <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10" allowfullscreen></iframe>
         </div>
 
+        <!-- PREMIUM POWERED BY BRANDING INSIGHT -->
         <div class="w-full bg-gradient-to-r from-yellow-500/10 via-amber-500/5 to-transparent p-3 rounded-xl border border-yellow-500/20 shadow-[0_0_15px_rgba(234,179,8,0.05)] flex flex-col sm:flex-row items-center justify-between gap-3">
             <div class="flex flex-wrap items-center gap-2" id="details-server-container"></div>
             <div class="flex items-center space-x-2 bg-black/40 px-4 py-1.5 rounded-full border border-yellow-500/30 shadow-md">
                 <span class="w-2 h-2 rounded-full bg-yellow-500 animate-ping"></span>
-                <span class="text-[10px] font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-200 uppercase">Powered by @Nazmulsblg</span>
+                <span class="text-[10px] font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-200 uppercase">Powered by @Nazmulsblog</span>
             </div>
         </div>
 
@@ -198,16 +204,19 @@
         </div>
     </div>
 
+    <!-- FOOTER -->
     <footer class="w-full bg-[#060814] border-t border-white/5 px-6 md:px-12 py-6 mt-12 space-y-4 relative z-40 text-center md:text-left">
         <div class="flex justify-center items-center space-x-8 text-[11px] text-gray-500 font-bold">
             <div class="flex items-center space-x-1.5"><span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span><span>Active Now: <span id="count-active" class="text-white">--</span></span></div>
             <div><span>24H Visitors: <span id="count-total" class="text-white">--</span></span></div>
         </div>
-        <div class="text-[10px] tracking-wide text-gray-400">
-            <span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span> Aggregated from publicly available internet sources.
+        <div class="text-[10px] tracking-wide text-gray-400 flex flex-col md:flex-row justify-between items-center gap-3">
+            <p><span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span> Aggregated from publicly available internet sources.</p>
+            <p class="font-bold text-yellow-500 tracking-wider">Powered by @Nazmulsblog</p>
         </div>
     </footer>
 
+    <!-- JAVASCRIPT APP CORE ENGINE INTERFACES -->
     <script>
         const API_URL = 'movie_master_db.json';
         const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6';
@@ -301,7 +310,6 @@
         }
 
         function processAlgorithmicRows() {
-            // জেসন ডেটাকে উল্টে দেওয়া হলো যেন লেটেস্ট আপলোড সবার আগে আসে
             const latestMovies = [...globalMoviesData].reverse();
 
             sortedRowsData.newRelease = latestMovies.slice(0, 15);
@@ -323,7 +331,6 @@
 
         function createMovieCard(movie) {
             const div = document.createElement('div');
-            // মোবাইল অপ্টিমাইজড কম্প্যাক্ট রেসপনসিভ ক্লাস
             div.className = "movie-card min-w-[120px] sm:min-w-[165px] bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl flex-shrink-0 group";
             div.innerHTML = `
                 <div class="relative w-full pt-[142%] bg-slate-950">
@@ -342,7 +349,6 @@
         }
 
         function viewAllCategory(categoryTrigger) {
-            // ডেডিকেটেড ক্যাটাগরি পেজ ওপেন মেকানিজম (অ্যাপ আর্কিটেকচার)
             document.getElementById('home-view-container').classList.replace('block', 'hidden');
             document.getElementById('details-view-container').classList.replace('block', 'hidden');
             document.getElementById('explorer-view-container').classList.replace('hidden', 'block');
@@ -509,7 +515,7 @@
             document.getElementById('home-view-container').classList.replace('hidden', 'block');
         }
 
-        // গ্লোবাল সার্চ মেকানিজম (১৫৪টি মুভি ব্যাকলগ স্ক্যানার)
+        // গ্লোবাল সার্চ মেকানিজম
         document.getElementById('search-bar').addEventListener('input', function(e) {
             const query = e.target.value.toLowerCase().trim();
             if(query.length > 0) {
