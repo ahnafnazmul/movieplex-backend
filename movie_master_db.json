@@ -6168,5 +6168,189 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1382832",
+        "type": "movie",
+        "title": "Hungry",
+        "poster": "https://image.tmdb.org/t/p/w500/4uNhvGxBDiO0mU5UhxuXBsJwKF3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ikyzq678qnHtRY8ZiQJzK4hiOyW.jpg",
+        "rating": 7.1,
+        "release_date": "2026-06-03",
+        "runtime": "93 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Madison Davenport",
+                "image": "https://image.tmdb.org/t/p/w185/8yIHX149UVVeoJfUbi4oOC1nGcI.jpg"
+            },
+            {
+                "name": "Tracey Bonner",
+                "image": "https://image.tmdb.org/t/p/w185/1Y3dKqq9dkYIFYQZqgh7mB7Ts7g.jpg"
+            },
+            {
+                "name": "Joaquim de Almeida",
+                "image": "https://image.tmdb.org/t/p/w185/muXJn8kTEPxJaetkgCyS8RPEzTC.jpg"
+            },
+            {
+                "name": "Michel Curiel",
+                "image": "https://image.tmdb.org/t/p/w185/ml4NqwB24Vr0PpRXiKjelUAWab5.jpg"
+            },
+            {
+                "name": "Samantha Coughlan",
+                "image": "https://image.tmdb.org/t/p/w185/oTcw7AFY52UYyIjPLp9ZjySwivy.jpg"
+            }
+        ],
+        "details": "A group of holidaymakers must fight for their lives against a rampaging hippo on the loose after becoming lost in the Louisiana swamplands.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/23/52bbbbf62a8ead5a0522e254ae93c154-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1368314",
+        "type": "movie",
+        "title": "Passenger",
+        "poster": "https://image.tmdb.org/t/p/w500/2sOEJzhPzjTkZSlPbGxOJ7xgIyS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3pDfu71mrzSuFYyIfnKEjt8z4BC.jpg",
+        "rating": 7.2,
+        "release_date": "2026-05-20",
+        "runtime": "94 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Lou Llobell",
+                "image": "https://image.tmdb.org/t/p/w185/vjCaa2EhEFgkraE6l2Vypzb93fz.jpg"
+            },
+            {
+                "name": "Jacob Scipio",
+                "image": "https://image.tmdb.org/t/p/w185/gcZSJy9LZ8DUDP480Q2K1OhL1Ct.jpg"
+            },
+            {
+                "name": "Melissa Leo",
+                "image": "https://image.tmdb.org/t/p/w185/ueAIX0MH68xCei3N8vFLS0EUEjY.jpg"
+            },
+            {
+                "name": "Joseph Lopez",
+                "image": "https://image.tmdb.org/t/p/w185/ozlHXphP1TLrLwPLJMxY00Rhnx1.jpg"
+            },
+            {
+                "name": "Tony Doupe",
+                "image": "https://image.tmdb.org/t/p/w185/wmhu0egMzWXak0hn13Obso06KDU.jpg"
+            }
+        ],
+        "details": "After a young couple witnesses a gruesome highway accident, they soon realize they did not leave the crash scene alone, as a demonic presence called the Passenger that won't stop until it claims them both turns their van life adventure into a nightmare.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/15/f3414ee47f4ce130b01583b21d05d0c4-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1321008",
+        "type": "movie",
+        "title": "Black Box",
+        "poster": "https://image.tmdb.org/t/p/w500/O7vJPEWsnLrKqPYHIHKG8zlEK1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ce0RjYfcgzQeiT3PjaARWv5PVQO.jpg",
+        "rating": 6.3,
+        "release_date": "2026-06-25",
+        "runtime": "85 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Tom Brittney",
+                "image": "https://image.tmdb.org/t/p/w185/qSe3SuZHVPR5AMOuOAGxLdD6kYv.jpg"
+            },
+            {
+                "name": "Holly White",
+                "image": "https://image.tmdb.org/t/p/w185/lkQmGKoC996jgcJ6lBbbRayjl5J.jpg"
+            },
+            {
+                "name": "Betsy Blue-English",
+                "image": "https://image.tmdb.org/t/p/w185/bmsIruL18XXxkFqlK5BKt6WllKz.jpg"
+            },
+            {
+                "name": "Dane Whyte O'Hara",
+                "image": "https://image.tmdb.org/t/p/w185/yNmVq7CaixCk4N9eOpb3BCQ5XAH.jpg"
+            },
+            {
+                "name": "Kaja Chan",
+                "image": "https://image.tmdb.org/t/p/w185/uOfFVTPkkaNvCgBoDFuzlFoAyhm.jpg"
+            }
+        ],
+        "details": "A routine domestic flight turns into the flight from hell through a series of inexplicable phenomena and raw terror. Surreal encounters blur the boundaries between reality and nightmare. Passengers fight against all the odds in an attempt to survive while combating bizarre technological malfunctions, accelerating supernatural events and alien influences.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/07/dff999c2ae16d41a41f8bbec71b97614-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_207484",
+        "type": "series",
+        "title": "Outlander: Blood of My Blood",
+        "poster": "https://image.tmdb.org/t/p/w500/z5iW51VQe9GCGhMMeKdmQL3jgCg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eIzZbii038RzFgKMHIJZEekONfa.jpg",
+        "rating": 8.5,
+        "release_date": "2025-08-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Harriet Slater",
+                "image": "https://image.tmdb.org/t/p/w185/9BJxdhi4tuiQdgT8bfDuiPipnsx.jpg"
+            },
+            {
+                "name": "Jamie Roy",
+                "image": "https://image.tmdb.org/t/p/w185/nYy56LbMANPBVGW0VD1VxoKd75B.jpg"
+            },
+            {
+                "name": "Hermione Corfield",
+                "image": "https://image.tmdb.org/t/p/w185/wHTsaef270ng3OlMfFzsO9yBo5b.jpg"
+            },
+            {
+                "name": "Jeremy Irvine",
+                "image": "https://image.tmdb.org/t/p/w185/wnyLs0r9j1IB4zK2QBkgg2TyAzZ.jpg"
+            },
+            {
+                "name": "Tony Curran",
+                "image": "https://image.tmdb.org/t/p/w185/s50kh2ubcoCV6rvXobebvcyNALE.jpg"
+            }
+        ],
+        "details": "From the battlefields of World War I to the rugged Highlands of 18th century Scotland, two fated couples must defy the forces that seek to tear them apart, unfolding in surprising and unforeseen ways in this romantic saga that unfolds across time.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/07/23/76a64fa80584932202fac4c4728cf5b4-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
