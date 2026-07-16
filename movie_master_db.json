@@ -5336,5 +5336,230 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1659087",
+        "type": "movie",
+        "title": "180",
+        "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
+        "rating": 5.8,
+        "release_date": "2026-04-16",
+        "runtime": "94 min",
+        "categories": [
+            "Thriller",
+            "Crime",
+            "Drama",
+            "TV Movie"
+        ],
+        "cast": [
+            {
+                "name": "Prince Grootboom",
+                "image": "https://image.tmdb.org/t/p/w185/q0mimF5YqWzROTbEc0y9WZPQeLT.jpg"
+            },
+            {
+                "name": "Noxolo Dlamini",
+                "image": "https://image.tmdb.org/t/p/w185/65IrMfqkixKnIcrNvv2MUd650QK.jpg"
+            },
+            {
+                "name": "Danica De La Rey",
+                "image": "https://image.tmdb.org/t/p/w185/fTtueFonjxAmx7GgegKpLcpnNTW.jpg"
+            },
+            {
+                "name": "Warren Masemola",
+                "image": "https://image.tmdb.org/t/p/w185/xQykZ5j99uX6SJXKWLZfaoKiQV.jpg"
+            },
+            {
+                "name": "Desmond Dube",
+                "image": "https://image.tmdb.org/t/p/w185/pFp0HfE1Bhg4dHA6RIKvmcLzdHA.jpg"
+            }
+        ],
+        "details": "When an unexpected road rage incident puts his son in critical condition, an enraged father spirals down a dark path of emotional turmoil and vengeance.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/06/d16796386211531e6478339b383ebf77-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1116201",
+        "type": "movie",
+        "title": "Iron Lung",
+        "poster": "https://image.tmdb.org/t/p/w500/sIwakdbMGS1krtgendTWpxTY9Hw.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/seuG9UslSFybML8C4enbrE6Hsyz.jpg",
+        "rating": 7.0,
+        "release_date": "2026-01-30",
+        "runtime": "125 min",
+        "categories": [
+            "Horror",
+            "Mystery",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Mark Fischbach",
+                "image": "https://image.tmdb.org/t/p/w185/2y59nq7vipTBdRMmMTsy1d4HeiG.jpg"
+            },
+            {
+                "name": "Caroline Kaplan",
+                "image": "https://image.tmdb.org/t/p/w185/oMOswhHN3LfRtziULWTxNiYgAFj.jpg"
+            },
+            {
+                "name": "Troy Baker",
+                "image": "https://image.tmdb.org/t/p/w185/mppX8pDkwNvx3dJzclwcGkngEb3.jpg"
+            },
+            {
+                "name": "Elsie Lovelock",
+                "image": "https://image.tmdb.org/t/p/w185/aVI0QKCJVbIPBFY99E2VLKCpaXa.jpg"
+            },
+            {
+                "name": "Elle LaMont",
+                "image": "https://image.tmdb.org/t/p/w185/uR16F3g1J32HgvnlHW890ZAFnnT.jpg"
+            }
+        ],
+        "details": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/10/b34bc5e2421600e3e5649c79841c34e7-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1477317",
+        "type": "movie",
+        "title": "Your Fault: London",
+        "poster": "https://image.tmdb.org/t/p/w500/nLxu237EJAisFCYKK48hN9Plobx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wQOhbCP6H8bO5ddlXDZT207orew.jpg",
+        "rating": 7.5,
+        "release_date": "2026-06-17",
+        "runtime": "123 min",
+        "categories": [
+            "Romance",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Asha Banks",
+                "image": "https://image.tmdb.org/t/p/w185/vZi45Xn17QMaOXmAOvkCEjB3QFr.jpg"
+            },
+            {
+                "name": "Matthew Broome",
+                "image": "https://image.tmdb.org/t/p/w185/nSjPuDG5IVQfyMU8TkZl0ZQkLu6.jpg"
+            },
+            {
+                "name": "Louisa Binder",
+                "image": "https://image.tmdb.org/t/p/w185/cE3763PmrLLomSN2uO0WSKx4UzU.jpg"
+            },
+            {
+                "name": "Joel Nankervis",
+                "image": "https://image.tmdb.org/t/p/w185/p9gyKYXICMSMf6U7y2m2psQGoLX.jpg"
+            },
+            {
+                "name": "Scarlett Rayner",
+                "image": "https://image.tmdb.org/t/p/w185/cKPCR1A20nyg3gKwJqXBLDycoNN.jpg"
+            }
+        ],
+        "details": "Nick and Noah are both embarking on life-changing adventures that are threatening to pull them apart—Nick in business with his father and Noah starting a fresh chapter at Oxford University. Now living separate lives, and meeting new people, they find themselves entangled in temptations, rivalries, and betrayals and their bond is tested like never before. As secrets unravel and temptation rises, they must fight to hold onto each other—or risk losing everything.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/12/27/5a52515546d30c155175af798f747a67-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_300727",
+        "type": "series",
+        "title": "The Apartment Job",
+        "poster": "https://image.tmdb.org/t/p/w500/qFxbrHvNq5tn9SCBq3aKPgaGfyO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/stJcZWrpfT2DjY0K261Q2FpxUkS.jpg",
+        "rating": 5.3,
+        "release_date": "2026-07-11",
+        "runtime": "N/A min",
+        "categories": [
+            "Drama",
+            "Comedy",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Ji Sung",
+                "image": "https://image.tmdb.org/t/p/w185/6RBiKyGLczeCrgnu1tfw5URRvEg.jpg"
+            },
+            {
+                "name": "Ha Yoon-kyung",
+                "image": "https://image.tmdb.org/t/p/w185/855aD0tnj8rOJRdVfeu26eXdFO3.jpg"
+            },
+            {
+                "name": "Moon So-ri",
+                "image": "https://image.tmdb.org/t/p/w185/iXfIsmrzohNAAf2gyPCE06rJM1N.jpg"
+            },
+            {
+                "name": "Park Byung-eun",
+                "image": "https://image.tmdb.org/t/p/w185/8lDiEHjbBxPD8VNu1kGifMXhPUn.jpg"
+            },
+            {
+                "name": "Bek Hyun-jin",
+                "image": "https://image.tmdb.org/t/p/w185/1wKuypLzAzaSDUd93cuCz1N75qx.jpg"
+            }
+        ],
+        "details": "Desperate for cash, a former gang boss teams up with an aspiring lawyer to steal an apartment complex's reserve fund — only to uncover deep corruption.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/10/2866d5adfe6b401866d3fd4db29a5abc-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1325734",
+        "type": "movie",
+        "title": "The Drama",
+        "poster": "https://image.tmdb.org/t/p/w500/qhGCY6DIemLoCi7x1GuEt98m4JF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1oKLEA9JOhvaBwLpqjROisvWMy7.jpg",
+        "rating": 6.9,
+        "release_date": "2026-04-01",
+        "runtime": "105 min",
+        "categories": [
+            "Romance",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Zendaya",
+                "image": "https://image.tmdb.org/t/p/w185/1qup8tSt95HLbcy2c2xrx4iJNxv.jpg"
+            },
+            {
+                "name": "Robert Pattinson",
+                "image": "https://image.tmdb.org/t/p/w185/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg"
+            },
+            {
+                "name": "Alana Haim",
+                "image": "https://image.tmdb.org/t/p/w185/uOU4uueRxH5BYhzNjzPxJOxZStJ.jpg"
+            },
+            {
+                "name": "Mamoudou Athie",
+                "image": "https://image.tmdb.org/t/p/w185/ycUbhfZRKC8MtNK9oMwscRsl3uM.jpg"
+            },
+            {
+                "name": "Hailey Benton Gates",
+                "image": "https://image.tmdb.org/t/p/w185/6gwH5IN15L4PXtLRwZYED6mO5xp.jpg"
+            }
+        ],
+        "details": "A happily engaged couple is put to the test when an unexpected turn sends their wedding week off the rails.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/17/99f27fa7cefd7fafc9a411567d6100d4-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
