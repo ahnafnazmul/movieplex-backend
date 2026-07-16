@@ -338,28 +338,26 @@
                 else if (diff === 3) node.className = "wheel-node side-R3";
             });
         }
+function processAlgorithmicRows() {
+            // ১. জেসন ডেটাকে উল্টে দেওয়া হলো যেন একদম লেটেস্ট মুভিগুলো সবার আগে আসে
+            const latestMovies = [...globalMoviesData].reverse();
 
-        function processAlgorithmicRows() {
-            const NOW = Math.floor(Date.now() / 1000);
-            const ONE_DAY = 24 * 60 * 60;
+            // ২. একদম তাজা ১৫টি মুভি যাবে NEW Release-এ
+            sortedRowsData.newRelease = latestMovies.slice(0, 15);
 
-            sortedRowsData.newRelease = globalMoviesData.filter(m => (NOW - m.timestamp) <= (7 * ONE_DAY));
-            sortedRowsData.recentRelease = globalMoviesData.filter(m => {
-                const age = NOW - m.timestamp;
-                return age > (7 * ONE_DAY) && age <= (30 * ONE_DAY);
-            });
-            sortedRowsData.trending = globalMoviesData.filter(m => (NOW - m.timestamp) <= (60 * ONE_DAY)).sort((a,b)=>b.views - a.views);
-            sortedRowsData.topRated = globalMoviesData.filter(m => (NOW - m.timestamp) <= (60 * ONE_DAY)).sort((a,b)=>b.rating - a.rating);
+            // ৩. পরের ১৫টি মুভি যাবে RECENT Release-এ
+            sortedRowsData.recentRelease = latestMovies.slice(15, 30);
 
-            if(sortedRowsData.newRelease.length < 5) sortedRowsData.newRelease = [...globalMoviesData].sort((a,b)=>b.timestamp-a.timestamp).slice(0, 15);
-            if(sortedRowsData.recentRelease.length < 5) sortedRowsData.recentRelease = [...globalMoviesData].sort((a,b)=>b.timestamp-a.timestamp).slice(6, 20);
-            if(sortedRowsData.trending.length === 0) sortedRowsData.trending = [...globalMoviesData].sort((a,b)=>b.views-a.views);
-            if(sortedRowsData.topRated.length === 0) sortedRowsData.topRated = [...globalMoviesData].sort((a,b)=>b.rating-a.rating);
+            // ৪. ভিউ এবং রেটিং অনুযায়ী ট্রেন্ডিং ও টপ রেটেড সাজানো হলো
+            sortedRowsData.trending = [...globalMoviesData].sort((a,b) => b.views - a.views).slice(0, 20);
+            sortedRowsData.topRated = [...globalMoviesData].sort((a,b) => b.rating - a.rating).slice(0, 20);
 
+            // ৫. ফ্রন্টএন্ড গ্রিডে ডেটা রেন্ডার করা
             renderRow('grid-new-release', sortedRowsData.newRelease);
             renderRow('grid-recent-release', sortedRowsData.recentRelease);
             renderRow('grid-trending', sortedRowsData.trending);
             renderRow('grid-top-rated', sortedRowsData.topRated);
+        }
         }
 
         function renderRow(targetId, dataset) {
