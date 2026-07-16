@@ -2,7 +2,7 @@ name: OTT Daily Auto-Sync
 
 on:
   schedule:
-    - cron: '0 4,9,15 * * *' # BD Time: 10AM, 3PM, 9PM
+    - cron: '0 3,6,9,12,15,18 * * *' # BD Time: 9AM, 12PM, 3PM, 6PM, 9PM, 12AM
   workflow_dispatch: # ম্যানুয়ালি রান করার বাটন
 
 permissions:
