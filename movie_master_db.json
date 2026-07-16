@@ -5941,5 +5941,232 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_303351",
+        "type": "series",
+        "title": "Blood Sacrifice",
+        "poster": "https://image.tmdb.org/t/p/w500/8iFUWLKBAWDrJ9rOunscgIDrGQ1.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Jakob Oftebro",
+                "image": "https://image.tmdb.org/t/p/w185/ypyMSXwABVXHjTOfpEHW008cw1A.jpg"
+            },
+            {
+                "name": "Peter Andersson",
+                "image": "https://image.tmdb.org/t/p/w185/3QrCFAESqlCgwg10KLv1Wre0sKL.jpg"
+            },
+            {
+                "name": "Electra Hallman",
+                "image": ""
+            },
+            {
+                "name": "Alexander Abdallah",
+                "image": "https://image.tmdb.org/t/p/w185/AqCx9UAHa4vpZ1nx4UyTGz8iwjk.jpg"
+            },
+            {
+                "name": "Henrik Norlén",
+                "image": "https://image.tmdb.org/t/p/w185/eiOu61USG30JqBKq6Axc05IU6yc.jpg"
+            }
+        ],
+        "details": "As endless summer takes its hold over Stockholm, a different kind of darkness sets in. Clean cut, highly regarded lead investigator Thomas Berg has a serial killer on his hands. With the brutal murderer targeting his police colleagues, Thomas makes a desperate gamble, turning to a once well-regarded but now out of favour, misanthropic ex-detective for help. His estranged father, Alfred. If they’re to stand any chance of protecting their fellow police officers, they must put their differences aside and find a way to work together. Only then will they catch one of the worst killers in Sweden’s history.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/ab83c5a06fbc76e0dc04d9b650b32141-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_221079",
+        "type": "series",
+        "title": "The Last Frontier",
+        "poster": "https://image.tmdb.org/t/p/w500/4S2gS1mECZ5wDRBVAZE6KWmJHI3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pzxIAuKHqQqCFOxh2ALmHUgXkOD.jpg",
+        "rating": 7.2,
+        "release_date": "2025-10-09",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Jason Clarke",
+                "image": "https://image.tmdb.org/t/p/w185/quH4y2dto3UAgZOfaM0QriyRLPN.jpg"
+            },
+            {
+                "name": "Haley Bennett",
+                "image": "https://image.tmdb.org/t/p/w185/c2UpS5JRooWADFVkK8JpDfUewJH.jpg"
+            },
+            {
+                "name": "Dominic Cooper",
+                "image": "https://image.tmdb.org/t/p/w185/wFPdARerxpaAaHucYGTSNqViWpn.jpg"
+            },
+            {
+                "name": "Simone Kessell",
+                "image": "https://image.tmdb.org/t/p/w185/rWZrkFkJVbrLSAxdHRE90it3yGh.jpg"
+            },
+            {
+                "name": "Dallas Goldtooth",
+                "image": "https://image.tmdb.org/t/p/w185/lSn8AUXjAhFfafGAZ683UA8fTlp.jpg"
+            }
+        ],
+        "details": "When a prison transport plane crashes in the remote Alaskan wilderness—freeing dozens of violent inmates—the region's lone marshal must protect the town he's vowed to keep safe.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/23/e3ccac46cf9ed7d0945ce4685eabc2f3-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_76284",
+        "type": "series",
+        "title": "Gone",
+        "poster": "https://image.tmdb.org/t/p/w500/fN3I7ly9XUCXJabIpn9hadJIpca.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ul8Y9F7NGeImg9avbiFM9U8pfMA.jpg",
+        "rating": 7.2,
+        "release_date": "2018-01-23",
+        "runtime": "45 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Leven Rambin",
+                "image": "https://image.tmdb.org/t/p/w185/vjXXg3QCtFIxvLl1Aa0fTHFhA3d.jpg"
+            },
+            {
+                "name": "Chris Noth",
+                "image": "https://image.tmdb.org/t/p/w185/9awGeDN5MSbSefDMAyMglm96vcy.jpg"
+            },
+            {
+                "name": "Danny Pino",
+                "image": "https://image.tmdb.org/t/p/w185/2Sp7Mq9aqwq5BIPpobWMG2F0O5x.jpg"
+            },
+            {
+                "name": "Andy Mientus",
+                "image": "https://image.tmdb.org/t/p/w185/lDTCPB3ZJ5DgMLFhdqK6Hi1gjsc.jpg"
+            }
+        ],
+        "details": "The survivor of a famous child-abduction case joins a special task force dedicated to solving abductions and missing person cases.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/d28148d83722701de9692bbfd8fa8c4b-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_134375",
+        "type": "series",
+        "title": "The Endgame",
+        "poster": "https://image.tmdb.org/t/p/w500/qH0BuRkZmP6sdi8R6tvlvwdBxmo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jfOU0MImgyeNX2vJejSOP9m70nR.jpg",
+        "rating": 7.5,
+        "release_date": "2022-02-21",
+        "runtime": "43 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Morena Baccarin",
+                "image": "https://image.tmdb.org/t/p/w185/4gyHyg6FJ1oFczOm5pmMkdEEo2J.jpg"
+            },
+            {
+                "name": "Ryan Michelle Bathe",
+                "image": "https://image.tmdb.org/t/p/w185/s3pDXctJVVZltxgerlK6vEhUor3.jpg"
+            },
+            {
+                "name": "Kamal Angelo Bolden",
+                "image": "https://image.tmdb.org/t/p/w185/9e4HbWyo1Uf7vpVQxXWsH3Dxc69.jpg"
+            },
+            {
+                "name": "Costa Ronin",
+                "image": "https://image.tmdb.org/t/p/w185/6PjUNZ6HYCT5PlQdXFI1ue2tOls.jpg"
+            },
+            {
+                "name": "Noah Bean",
+                "image": "https://image.tmdb.org/t/p/w185/o1aKAllaQWQ1xrcBlcOpUJKn8AB.jpg"
+            }
+        ],
+        "details": "A high-stakes thriller about Elena Federova, a very recently captured international arms dealer and brilliant criminal mastermind who even in captivity orchestrates a number of coordinated bank heists, and Val Turner, the principled, relentless and socially outcast FBI agent who will stop at nothing to foil her ambitious plan.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/video/2022/11/04/8dbc8007f9c44dd27befd0e737897abd-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_23629",
+        "type": "movie",
+        "title": "Sucker Punch",
+        "poster": "https://image.tmdb.org/t/p/w500/jtaUDnvIiHUd2ranDcjB5AbPx6o.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cnWVCPDrX29kX7AwA9sfNlLx5vn.jpg",
+        "rating": 6.2,
+        "release_date": "2011-03-24",
+        "runtime": "110 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Fantasy",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Emily Browning",
+                "image": "https://image.tmdb.org/t/p/w185/silK3Pdugbf1YOtIdXev1eZxzvF.jpg"
+            },
+            {
+                "name": "Abbie Cornish",
+                "image": "https://image.tmdb.org/t/p/w185/AgIA8uPnwySIbqaPjr5jEXwZbS.jpg"
+            },
+            {
+                "name": "Jena Malone",
+                "image": "https://image.tmdb.org/t/p/w185/kGwV9iLmfUxJ6a73ehr0QvAnc8C.jpg"
+            },
+            {
+                "name": "Vanessa Hudgens",
+                "image": "https://image.tmdb.org/t/p/w185/8S8Nn5m5qkiIrEJ3dzPRjltzrkx.jpg"
+            },
+            {
+                "name": "Jamie Chung",
+                "image": "https://image.tmdb.org/t/p/w185/5PWv7tbNtCR5PS7R14Geb71X6py.jpg"
+            }
+        ],
+        "details": "A young woman, institutionalized by her abusive stepfather, retreats into a vivid fantasy world where she envisions a plan to escape. Gathering a group of fellow inmates, she embarks on a quest to collect five mystical items, blurring the lines between reality and imagination.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#vpm9e"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
