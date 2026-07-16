@@ -343,10 +343,10 @@ function processAlgorithmicRows() {
             const latestMovies = [...globalMoviesData].reverse();
 
             // ২. একদম তাজা ১৫টি মুভি যাবে NEW Release-এ
-            sortedRowsData.newRelease = latestMovies.slice(0, 15);
+            sortedRowsData.newRelease = latestmovies.slice(0, 15);
 
            // ৩. পরের ১৫টি মুভি যাবে RECENT Release-এ
-            sortedRowsData.recentRelease = latestMovies.slice(15, 30);
+            sortedRowsData.recentRelease = latestmovies.slice(15, 30);
 
             // ৪. ভিউ এবং রেটিং অনুযায়ী ট্রেন্ডিং ও টপ রেটেড সাজানো হলো
             sortedRowsData.trending = [...globalMoviesData].sort((a,b) => b.views - a.views).slice(0, 20);
