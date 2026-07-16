@@ -5860,5 +5860,86 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_219760",
+        "type": "series",
+        "title": "The Terminal List: Dark Wolf",
+        "poster": "https://image.tmdb.org/t/p/w500/9mYeRoWguq5etbwJRdF8BXFKiF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yQw23xxmVBFVHPCF6V68TAIIfno.jpg",
+        "rating": 7.5,
+        "release_date": "2025-08-27",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Taylor Kitsch",
+                "image": "https://image.tmdb.org/t/p/w185/pTFkwvE2URbbftiaofexfolhkH9.jpg"
+            },
+            {
+                "name": "Tom Hopper",
+                "image": "https://image.tmdb.org/t/p/w185/4Bx09xFBXIWIhptQ10yJEPbB1HI.jpg"
+            }
+        ],
+        "details": "Before The Terminal List, Navy SEAL Ben Edwards finds himself entangled in the black operations side of the CIA. The deeper Ben goes into the 'gray', the harder it will become to not give himself over to his darker impulses. Every man has two wolves inside him – light and dark – fighting for control. Which wolf will Ben Edwards feed?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/07/23/2fceaae14b3ae2d426ab32e07f32cf56-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_215072",
+        "type": "series",
+        "title": "A Shop for Killers",
+        "poster": "https://image.tmdb.org/t/p/w500/7yUY1HUyQuybbvkAAhLzQ7x1l9g.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mWVeYmtCfA3zvSeZtW5bN2Khe01.jpg",
+        "rating": 8.3,
+        "release_date": "2024-01-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Action & Adventure",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Lee Dong-wook",
+                "image": "https://image.tmdb.org/t/p/w185/khwUahjzIHFlrxYeKQAWrbWqsL6.jpg"
+            },
+            {
+                "name": "Kim Hye-jun",
+                "image": "https://image.tmdb.org/t/p/w185/hRYxlcLIFhCNwnuHJkkFzpcQ23Y.jpg"
+            },
+            {
+                "name": "Geum Hannah",
+                "image": "https://image.tmdb.org/t/p/w185/1UmNUfz2jPj8hXNdE36kDyy4cW.jpg"
+            },
+            {
+                "name": "Min Kim",
+                "image": "https://image.tmdb.org/t/p/w185/pvNgh5koYxNG9NQcSa60XNzoFgE.jpg"
+            },
+            {
+                "name": "Lee Tae-young",
+                "image": "https://image.tmdb.org/t/p/w185/gmqS7W15bbnpU495NbR9whqhIio.jpg"
+            }
+        ],
+        "details": "A niece who lost her parents and grew up in the hands of an uncle who runs a shopping mall faces a new truth after her uncle's sudden death.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/01/21/4aa5c88aae32ba002b976ebcfb6d2e4e-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
