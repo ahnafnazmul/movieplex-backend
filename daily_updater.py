@@ -41,7 +41,6 @@ def send_telegram_report():
     
     total_added = report_log['added_count'] + report_log['merged_count']
     
-    # তোমার দেওয়া ফর্ম্যাট অনুযায়ী মেসেজ তৈরি
     msg = f"Hello Boss, This Is Your Admin,\nReporting Scheduled Update:\n\n"
     msg += f"Moviebox {report_log['site_status']['Moviebox']}\n"
     msg += f"Banglaplex {report_log['site_status']['Banglaplex']}\n"
@@ -52,7 +51,6 @@ def send_telegram_report():
     
     if report_log['content_names']:
         msg += "Contents Name:\n"
-        # নামের লিস্ট (সর্বোচ্চ ৪০টি নাম দেখাবে যাতে মেসেজ সাইজ লিমিট ক্রস না করে)
         for idx, name in enumerate(report_log['content_names'][:40], 1):
             msg += f"{idx}. {name}\n"
             
@@ -103,12 +101,36 @@ def get_tmdb_max_info(title):
             
             type_formatted = "series" if media_type == "tv" else "movie"
             
+            # 🔄 🧠 ডাইনামিক স্মার্ট ল্যাঙ্গুয়েজ ক্যাটাগরি ফিল্টারিং ইনজেকশন 
+            title_lower = title.lower()
+            categories = []
+            
+            # কন্টেন্ট টাইপ নির্ধারণ (Movie বা Web Series)
+            if type_formatted == "series":
+                categories.append("Web Series")
+            else:
+                categories.append("Movies")
+
+            # নিখুঁত ল্যাঙ্গুয়েজ আইসোলেশন রুলস (মুভি এবং সিরিজ দুটোর জন্যই)
+            if "bangla" in title_lower or "bengali" in title_lower or "natok" in title_lower:
+                categories.append("Bangla")
+            elif "hindi" in title_lower or "dual audio" in title_lower or "dual-audio" in title_lower:
+                categories.append("Hindi")
+            else:
+                # যদি টাইটেলে বাংলা বা হিন্দি কি-ওয়ার্ড না থাকে তবে সেটি পিওর ইংলিশ কন্টেন্ট
+                categories.append("English")
+
+            # এরপর TMDB থেকে আসা জনরাগুলোও ফিউচার মেটাডেটার জন্য ব্যাকআপ হিসেবে রেখে দেওয়া হলো
+            for g in genres:
+                if g not in categories:
+                    categories.append(g)
+            
             return {
                 "id": f"{media_type}_{tmdb_id}", "type": type_formatted, "title": top.get('title') or top.get('name'),
                 "poster": f"https://image.tmdb.org/t/p/w500{detail.get('poster_path')}" if detail.get('poster_path') else "",
                 "backdrop": f"https://image.tmdb.org/t/p/w1280{detail.get('backdrop_path')}" if detail.get('backdrop_path') else "",
                 "rating": round(detail.get('vote_average', 7.0), 1), "release_date": detail.get('release_date') or detail.get('first_air_date', '2026'),
-                "runtime": f"{runtime} min", "categories": genres, "cast": cast, "details": detail.get('overview', 'Premium OTT content.'), "players": []
+                "runtime": f"{runtime} min", "categories": categories, "cast": cast, "details": detail.get('overview', 'Premium OTT content.'), "players": []
             }
     except: pass
     return None
@@ -186,6 +208,11 @@ def scrape_banglaplex(db_dict):
                 
                 m_id = tmdb_data['id']
                 if m_id in db_dict:
+                    # ফাইল মার্জ হলেও নতুন ল্যাঙ্গুয়েজ ট্যাগ আপডেট করে রাখা হচ্ছে
+                    for cat in tmdb_data['categories']:
+                        if cat not in db_dict[m_id]['categories']:
+                            db_dict[m_id]['categories'].append(cat)
+                            
                     existing_urls = [p['player_url'] for p in db_dict[m_id]['players']]
                     added = False
                     for p in players:
@@ -233,6 +260,10 @@ def scrape_mlbd(db_dict):
                 
                 m_id = tmdb_data['id']
                 if m_id in db_dict:
+                    for cat in tmdb_data['categories']:
+                        if cat not in db_dict[m_id]['categories']:
+                            db_dict[m_id]['categories'].append(cat)
+                            
                     existing_urls = [p['player_url'] for p in db_dict[m_id]['players']]
                     added = False
                     for p in players:
@@ -277,6 +308,10 @@ def scrape_rtally(db_dict):
                 
                 m_id = tmdb_data['id']
                 if m_id in db_dict:
+                    for cat in tmdb_data['categories']:
+                        if cat not in db_dict[m_id]['categories']:
+                            db_dict[m_id]['categories'].append(cat)
+                            
                     existing_urls = [p['player_url'] for p in db_dict[m_id]['players']]
                     added = False
                     for p in players:
@@ -302,7 +337,6 @@ if __name__ == '__main__':
     existing_db = load_db()
     db_dict = {item['id']: item for item in existing_db}
     
-    # Isolated Execution (একটা ফেইল করলে অন্যটা থামবে না)
     scrape_moviebox(db_dict)
     scrape_banglaplex(db_dict)
     scrape_mlbd(db_dict)
