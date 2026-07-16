@@ -6352,5 +6352,142 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_8840",
+        "type": "series",
+        "title": "Fightland",
+        "poster": "https://image.tmdb.org/t/p/w500/qRlOEIiwkfLy6ERRMbyQNGQQ6Lc.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-07-31",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Howard Charles",
+                "image": "https://image.tmdb.org/t/p/w185/dx7mitxEUuRZZj13Pgk9ebzBi32.jpg"
+            },
+            {
+                "name": "Nicholas Pinnock",
+                "image": "https://image.tmdb.org/t/p/w185/ufGrGvx2JPLfFbMrNXAQWZoSI38.jpg"
+            },
+            {
+                "name": "Deborah Ayorinde",
+                "image": "https://image.tmdb.org/t/p/w185/hTbuFZSSEk5nWD3XxsSzQQ47CPb.jpg"
+            },
+            {
+                "name": "Charles Babalola",
+                "image": "https://image.tmdb.org/t/p/w185/eQnrDYXe4aajZCyipX1yPFZGE1j.jpg"
+            },
+            {
+                "name": "Anita-Joy Uwajeh",
+                "image": "https://image.tmdb.org/t/p/w185/vwMfsZ3oskcWhRhmlYXIpUTWOtj.jpg"
+            }
+        ],
+        "details": "A disgraced, formerly incarcerated boxing champion returns to London to seek vengeance against the crime syndicate he thinks betrayed him.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/db4ad6009351625bfce251bcbab35afd-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1290417",
+        "type": "movie",
+        "title": "Thrash",
+        "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hniERZojXCEc7Fp3yljZUigOAhm.jpg",
+        "rating": 6.1,
+        "release_date": "2026-04-10",
+        "runtime": "84 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Phoebe Dynevor",
+                "image": "https://image.tmdb.org/t/p/w185/gvriCFuwIvOoZyYph5YkYGZyFR9.jpg"
+            },
+            {
+                "name": "Whitney Peak",
+                "image": "https://image.tmdb.org/t/p/w185/nDJQufvXG9ojYV1dQi51TnG9h6K.jpg"
+            },
+            {
+                "name": "Djimon Hounsou",
+                "image": "https://image.tmdb.org/t/p/w185/tpvtxxvCx2Mb5DV632hmuYlHoiY.jpg"
+            },
+            {
+                "name": "Alyla Browne",
+                "image": "https://image.tmdb.org/t/p/w185/1aAyhOWIP1tnIZwmoMpENvpyQff.jpg"
+            },
+            {
+                "name": "Stacy Clausen",
+                "image": "https://image.tmdb.org/t/p/w185/8zwuEGXi26Yg9FQ29MntI5tWRk2.jpg"
+            }
+        ],
+        "details": "When a Category 5 hurricane decimates a coastal town, the storm surge brings devastation, chaos, and something far more frightening onto shore: hungry sharks.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/01/5d58e93047ded9375fb0a22d1d141e73-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_316540",
+        "type": "series",
+        "title": "Bittersweet Love",
+        "poster": "https://image.tmdb.org/t/p/w500/xGXWk9FL4SNJpiLCKDkB3QTO4w6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ugTBA8nEDCq2sVvxH7ViRAJpUSN.jpg",
+        "rating": 10.0,
+        "release_date": "2026-07-03",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Guan Yue",
+                "image": "https://image.tmdb.org/t/p/w185/pSfdEtPHR4HOD30R4ASkmucRxQV.jpg"
+            },
+            {
+                "name": "Yan Ruihao",
+                "image": "https://image.tmdb.org/t/p/w185/yqhPPhwWXCdFCOVKDJamuzzvzj6.jpg"
+            },
+            {
+                "name": "Li Juexuan",
+                "image": "https://image.tmdb.org/t/p/w185/gGKKgWBuo2wfFa6MrbCMu6PTkkR.jpg"
+            },
+            {
+                "name": "Han Minglin",
+                "image": "https://image.tmdb.org/t/p/w185/n8hirT7kkZ8sEOkjNu8gRsskZvJ.jpg"
+            },
+            {
+                "name": "Zhao Yang",
+                "image": "https://image.tmdb.org/t/p/w185/yx2mCfN4LxZHNE7Xoe6qSEb7Eu0.jpg"
+            }
+        ],
+        "details": "A poor young man trapped in a sham marriage falls for his wife’s older brother, risking everything for forbidden love.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/03/697bc976d5f1b11aeee131b9c3e1a56c-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
