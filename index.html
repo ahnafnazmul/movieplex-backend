@@ -57,8 +57,8 @@
         .movie-card:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
         
         /* ✨ CUTE & MINIMAL LOADER ANIMATION SCREENS */
-        #site-preloader { position: fixed; inset: 0; background-color: #0c0f1d; z-index: 9999; display: flex; flex-direction: column; justify-content: center; items: center; transition: opacity 0.4s ease, visibility 0.4s ease; }
-        .dot-pulse { display: flex; align-items: center; justify-content: center; space-x: 8px; }
+        #site-preloader { position: fixed; inset: 0; background-color: #0c0f1d; z-index: 9999; display: flex; flex-direction: column; justify-content: center; items: center; transition: opacity 0.3s ease, visibility 0.3s ease; }
+        .dot-pulse { display: flex; align-items: center; justify-content: center; }
         .dot-pulse div { width: 10px; height: 10px; background-color: #eab308; border-radius: 50%; animation: pulse-glow 1.2s infinite ease-in-out both; }
         .dot-pulse div:nth-child(1) { animation-delay: -0.32s; }
         .dot-pulse div:nth-child(2) { animation-delay: -0.16s; }
@@ -138,7 +138,7 @@
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-recent-release"></div>
             </div>
 
-            <!-- Row 4: Trending Now (Positioned Upward) -->
+            <!-- Row 4: Trending Now -->
             <div class="space-y-3" id="section-trending">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-orange-500 mr-2 rounded"></span>🔥 Trending Now</h3>
@@ -147,7 +147,7 @@
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-trending"></div>
             </div>
 
-            <!-- Row 5: Top Rated (Positioned Downward) -->
+            <!-- Row 5: Top Rated -->
             <div class="space-y-3" id="section-top-rated">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-green-500 mr-2 rounded"></span>🏆 Top Rated (60 Days)</h3>
@@ -338,6 +338,15 @@
         let currentViewingMovieObj = null;
         let tmdbCastsBackup = [];
 
+        // ⚡ BULLETPROOF PRELOADER KILLSWITCH GATEWAY
+        function hidePreloaderSafely() {
+            const preloader = document.getElementById('site-preloader');
+            if(preloader) {
+                preloader.style.opacity = '0';
+                setTimeout(() => preloader.style.visibility = 'hidden', 300);
+            }
+        }
+
         // 📊 UP-DOWN OPTIMIZED TRAFFIC GENERATOR CONSTANTS
         function initTrafficCounters() {
             document.getElementById('count-active').innerText = Math.floor(Math.random() * (240 - 70 + 1)) + 70;
@@ -414,21 +423,15 @@
                 try {
                     const sgRes = await fetch('https://raw.githubusercontent.com/ahnafnazmul/STREAMguide-BD/main/data.json');
                     streamguideData = await sgRes.json();
-                } catch(e) { console.error("Streamguide bypassed", e); }
+                } catch(e) { console.error("Streamguide isolated securely"); }
 
                 processAlgorithmicRows();
                 build3DPosterWheel();
                 populateGenreDropdown();
-            } catch (e) { console.error("Pipeline breakdown: ", e); }
-            finally {
-                // ⚡ HIDE CUTE PRELOADER SMOOTHLY IN 400MS
-                setTimeout(() => {
-                    const preloader = document.getElementById('site-preloader');
-                    if(preloader) {
-                        preloader.style.opacity = '0';
-                        preloader.style.visibility = 'hidden';
-                    }
-                }, 350);
+            } catch (e) { 
+                console.error("Ecosystem structural break avoided: ", e); 
+            } finally {
+                hidePreloaderSafely(); // Emergency backup close out gateway
             }
         }
 
@@ -476,7 +479,7 @@
                     const movie = safeItems[wheelIndex];
                     if(movie) {
                         document.getElementById('wheel-title').innerText = cleanTitle(movie.title);
-                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy premium clean stream optimizations flawlessly.";
+                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy low latency premium clean stream optimizations flawlessly.";
                         document.getElementById('wheel-year').innerText = movie.release_year;
                         document.getElementById('wheel-rating').innerText = `⭐ ${movie.rating}`;
                         document.getElementById('wheel-views').innerText = `Views: ${movie.views.toLocaleString()}`;
@@ -494,7 +497,7 @@
             const cleanGlobalDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m));
             let globalBanglaMatchedList = [];
 
-            // 🎯 MULTI-ROUTING BALANCED AUDIO FILTERS
+            // 🎯 GLOBO MULTI-ROUTING CONVERGENCE CHANNELS[cite: 1]
             cleanGlobalDataset.forEach(m => {
                 if (m.detectedAudio.includes('Bangla')) {
                     globalBanglaMatchedList.push(m);
@@ -532,10 +535,10 @@
             // Row 3: Recent Release
             sortedRowsData.recentRelease = chronologicalList.slice(20, 50);
 
-            // Row 4: Trending Now (Upward)
+            // Row 4: Trending Now (Upward Placement)
             sortedRowsData.trending = [...cleanGlobalDataset].sort((a,b) => b.views - a.views).slice(0, 15);
 
-            // Row 5: Top Rated (Downward - 60 Days Window Criteria)
+            // Row 5: Top Rated (Downward Placement - 60 Days Cutoff Window)
             const cutoffDate = new Date();
             cutoffDate.setDate(cutoffDate.getDate() - 60);
             
@@ -545,7 +548,7 @@
                 return movieDate >= cutoffDate;
             }).sort((a, b) => b.rating - a.rating);
 
-            // Row 6: All Contents (Safe Protected From Adult Thumbnails)
+            // Row 6: All Contents
             sortedRowsData.allContents = [...cleanGlobalDataset];
 
             renderRow('grid-bangla', sortedRowsData.bangla);
@@ -621,7 +624,7 @@
             const targetMinRating = parseFloat(document.getElementById('filter-rating').value);
             const targetSort = document.getElementById('filter-sort').value;
 
-            let filteredResult = [...globalMoviesData]; // Unlocked inside internal routing search structures
+            let filteredResult = [...globalMoviesData];
 
             if(targetGenre !== 'all') {
                 filteredResult = filteredResult.filter(m => m.categories && m.categories.includes(targetGenre));
@@ -663,7 +666,7 @@
             const grid = document.getElementById('see-more-grid');
             grid.innerHTML = '';
             if(filteredResult.length === 0) {
-                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching records found.</span>`;
+                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching entries discovered.</span>`;
                 return;
             }
 
@@ -709,7 +712,7 @@
 
         async function openDetailsPage(movie) {
             currentViewingMovieObj = movie;
-            tmdbCastsBackup = []; // reset actor memory structures cleanly
+            tmdbCastsBackup = [];
             document.getElementById('home-view-container').classList.replace('block', 'hidden');
             document.getElementById('explorer-view-container').classList.replace('block', 'hidden');
             document.getElementById('details-view-container').classList.replace('hidden', 'block');
@@ -831,7 +834,7 @@
 
                 const casts = res.credits?.cast?.slice(0, 6) || [];
                 casts.forEach(c => {
-                    tmdbCastsBackup.push(c.name.toLowerCase()); // push actors to validation array pool natively
+                    tmdbCastsBackup.push(c.name.toLowerCase()); 
                     const profile = c.profile_path ? `https://image.tmdb.org/t/p/w185${c.profile_path}` : 'https://via.placeholder.com/150x200?text=Actor';
                     const div = document.createElement('div');
                     div.className = "bg-slate-950 rounded-lg p-1 text-center border border-white/5";
@@ -849,7 +852,7 @@
             }
         }
 
-        // 🧠 5-STAGE FALLBACK ABSOLUTE RECOMMENDATION MATCH ENGINE (GUARANTEED NO BLANK)
+        // 🧠 5-STAGE FALLBACK ABSOLUTE RECOMMENDATION MATCH ENGINE
         function renderAdvancedRecommendedContent(currentMovie, tmdbGenres) {
             const container = document.getElementById('grid-similar-content');
             container.innerHTML = '';
@@ -868,25 +871,25 @@
                 let score = 0;
                 let loopTitleCleaned = cleanTitle(movie.title).toLowerCase();
 
-                // Stage 1: Prequel / Sequel Franchise evaluation (+50 Points)[cite: 1]
+                // Stage 1: Franchise Evaluation[cite: 1]
                 let isSequelMatch = franchiseKeywords.some(keyword => loopTitleCleaned.includes(keyword));
                 if(isSequelMatch) score += 50;[cite: 1]
 
-                // Stage 2: User History preferences match[cite: 1]
+                // Stage 2: User History preferences[cite: 1]
                 if(movie.categories) {
                     movie.categories.forEach(cat => {
                         if(userHistoryGenres.includes(cat)) score += 10;[cite: 1]
                     });
                 }
 
-                // Stage 3: Current Movie TMDB Genre intersection[cite: 1]
+                // Stage 3: Live TMDB Genre intersection[cite: 1]
                 if(movie.categories && tmdbGenres.length > 0) {
                     movie.categories.forEach(cat => {
                         if(tmdbGenres.includes(cat)) score += 15;[cite: 1]
                     });
                 }
 
-                // Stage 4: Actor / Cast alignment checks (+8 Points)[cite: 1]
+                // Stage 4: Actor / Cast checks[cite: 1]
                 if(movie.details && tmdbCastsBackup.length > 0) {
                     let summary = movie.details.toLowerCase();
                     tmdbCastsBackup.forEach(actor => {
@@ -894,7 +897,7 @@
                     });
                 }
 
-                // Stage 5: Native Audio Track alignment (+4 Points Fallback Gate)[cite: 1]
+                // Stage 5: Native Audio Track alignment[cite: 1]
                 if(movie.detectedAudio === currentMovie.detectedAudio) {
                     score += 4;[cite: 1]
                 }
@@ -905,7 +908,6 @@
             scoredCollection.sort((a, b) => b.score - a.score);
             let finalRecommendedNodes = scoredCollection.slice(0, 12).map(item => item.movie);
             
-            // Absolute Emergency Fallback Grid populator to guarantee 0% blank pages[cite: 1]
             if(finalRecommendedNodes.length < 5) {
                 let remainingFillers = cleanDataset.filter(m => !finalRecommendedNodes.some(f => f.id === m.id)).slice(0, 8);[cite: 1]
                 finalRecommendedNodes = [...finalRecommendedNodes, ...remainingFillers];[cite: 1]
@@ -948,7 +950,12 @@
             }
         });
 
-        window.onload = initMovieplex;
+        // ⚡ MULTI-FALLBACK CORE INITIATION ENGINE
+        document.addEventListener("DOMContentLoaded", () => {
+            initMovieplex();
+            // Absolute hardware rendering fallback gate: force close preloader if it lags over 2 seconds
+            setTimeout(hidePreloaderSafely, 2000);
+        });
     </script>
 </body>
 </html>
