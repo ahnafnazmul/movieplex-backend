@@ -7913,5 +7913,189 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_17627",
+        "type": "series",
+        "title": "The Take",
+        "poster": "https://image.tmdb.org/t/p/w500/1caD6qD3acG2NmVnZeH0xibcfT4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yoImho3EUrbwU4RrUlRfCrN6Mqc.jpg",
+        "rating": 7.5,
+        "release_date": "2009-06-17",
+        "runtime": "60 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Shaun Evans",
+                "image": "https://image.tmdb.org/t/p/w185/fqEw8H5VRN2SyV8QMT9toHEYDpl.jpg"
+            },
+            {
+                "name": "Tom Hardy",
+                "image": "https://image.tmdb.org/t/p/w185/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+            },
+            {
+                "name": "Charlotte Riley",
+                "image": "https://image.tmdb.org/t/p/w185/cTZ8RhEk67OtOa4yosJLA4l5v5r.jpg"
+            },
+            {
+                "name": "Kierston Wareing",
+                "image": "https://image.tmdb.org/t/p/w185/lcPlix0o1cQxOWG0YbeshdvGzfj.jpg"
+            },
+            {
+                "name": "Margot Leicester",
+                "image": "https://image.tmdb.org/t/p/w185/M2PEeYUdkrd4VjI1D0lsHbiG8t.jpg"
+            }
+        ],
+        "details": "Freddie Jackson is released from prison in 1984 having served a four-year sentence for armed robbery. His wife Jackie, who has been waiting for him on the outside in the mistaken belief that that he wants to go straight, soon finds herself disappointed: Freddie is in fact raring to get back into the game and has set his sights on becoming top dog in the East End underworld.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/video/2022/09/07/6d67b2fcc4da91596a7bef3625293aca-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_132750",
+        "type": "series",
+        "title": "Dead Boy Detectives",
+        "poster": "https://image.tmdb.org/t/p/w500/qGEjCjfBSUzaYNzOqUTx3XRniHH.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ySQuGiSNMC3dbL1rdiVivrwsD5C.jpg",
+        "rating": 7.6,
+        "release_date": "2024-04-25",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "George Rexstrew",
+                "image": "https://image.tmdb.org/t/p/w185/9Ayb7NJM2sDfjnJkj1v3VX3qw2F.jpg"
+            },
+            {
+                "name": "Jayden Revri",
+                "image": "https://image.tmdb.org/t/p/w185/uD6uMPIzQDelMNMNgxhCwYSkmZW.jpg"
+            },
+            {
+                "name": "Kassius Nelson",
+                "image": "https://image.tmdb.org/t/p/w185/eztn9rtRG1ZqrdouAw5xVzsBIhM.jpg"
+            },
+            {
+                "name": "Yuyu Kitamura",
+                "image": "https://image.tmdb.org/t/p/w185/qUiIf6H1H75ukVvLK6os1dEGtNr.jpg"
+            },
+            {
+                "name": "Briana Cuoco",
+                "image": "https://image.tmdb.org/t/p/w185/nN3BYKtC6ndGSn4DAdiCiUTRJkE.jpg"
+            }
+        ],
+        "details": "Two teen ghosts work alongside a clairvoyant to solve mysteries for their supernatural clientele — until a powerful witch complicates their plans.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/04/11/ddd7bae87c5dbc1dc89191c5c2b2438c-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_286506",
+        "type": "series",
+        "title": "Blossoms of Power",
+        "poster": "https://image.tmdb.org/t/p/w500/g8Af8gOu7bZlvjoQ7St9WolzaI9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/AcNgNI4HtZHeepeSI5nATqtPemZ.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-09",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Meng Ziyi",
+                "image": "https://image.tmdb.org/t/p/w185/R1cfuT9TQ2Xc7hsQHWzbzN0sbA.jpg"
+            },
+            {
+                "name": "He Yu",
+                "image": "https://image.tmdb.org/t/p/w185/xgXKg2EgqrCGKghJ1QEkJ1dCSEf.jpg"
+            },
+            {
+                "name": "Xu Zhengxi",
+                "image": "https://image.tmdb.org/t/p/w185/a0HMEoOEtuzTKnxZRZJFPPMhWK0.jpg"
+            },
+            {
+                "name": "Ye Zuxin",
+                "image": "https://image.tmdb.org/t/p/w185/qOuDI8KauaPnNcbFsnqxKmQnYeX.jpg"
+            },
+            {
+                "name": "Lai Weiming",
+                "image": "https://image.tmdb.org/t/p/w185/zZIs8U7rDL3GSj1Tvs9c3gXNa9L.jpg"
+            }
+        ],
+        "details": "The sole survivor of a bloodshed, Gu Qingzhi awakens under a new identity — Shen Xihe, the Princess of the Northwest. Once a proud and spirited rose of the frontier, she has now transformed into a cold, calculating figure, determined to seize control of her destiny and dominate the game of power. Crown Prince Xiao Huayong, frail in body but razor-sharp in mind, sees through the treacherous currents of the court. As their fates intertwine, they grow closer, joining forces to command the winds of destiny.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/10/b6c83f77ff6a76e497d15e903d8d2acb-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1288341",
+        "type": "movie",
+        "title": "Seven Snipers",
+        "poster": "https://image.tmdb.org/t/p/w500/pK6tGCG6UAgUT5FTq3ylGErHxQQ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/g2aOpyCO1vEyUZURh3V5uaHu187.jpg",
+        "rating": 5.8,
+        "release_date": "2026-04-30",
+        "runtime": "87 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Radha Mitchell",
+                "image": "https://image.tmdb.org/t/p/w185/8EVKyEkwPfIA6GxlIo0PJv0A5mm.jpg"
+            },
+            {
+                "name": "Tim Roth",
+                "image": "https://image.tmdb.org/t/p/w185/qSizF2i9gz6c6DbAC5RoIq8sVqX.jpg"
+            },
+            {
+                "name": "Annabel Wolfe",
+                "image": "https://image.tmdb.org/t/p/w185/4NONXcOJfAiLb8f3EcGgWETna9f.jpg"
+            },
+            {
+                "name": "Ioan Gruffudd",
+                "image": "https://image.tmdb.org/t/p/w185/h2pg2XwJPcOWotHgiohXjEZUBLa.jpg"
+            },
+            {
+                "name": "Ryan Kwanten",
+                "image": "https://image.tmdb.org/t/p/w185/vvbEabUWIeaHMBA2wrUChiLTjch.jpg"
+            }
+        ],
+        "details": "When a former elite sniper is hunted down by the ruthless warlord who once held her captive, she must fight to the death to protect the daughter she has raised in hiding, on a remote Australian farm.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/22/53c7e9e84234553b9930cb1df88dacc5-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
