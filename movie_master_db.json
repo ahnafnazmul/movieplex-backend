@@ -6674,5 +6674,326 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_855435",
+        "type": "movie",
+        "title": "Faces of Death",
+        "poster": "https://image.tmdb.org/t/p/w500/vPVY3S57lEooBLJCg6KGdMHkUxm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qdyeQg2gWj1L8cDlwU3tI4s0Hub.jpg",
+        "rating": 5.5,
+        "release_date": "2026-04-10",
+        "runtime": "97 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Barbie Ferreira",
+                "image": "https://image.tmdb.org/t/p/w185/kl59GoAbazPffmmZtSLZmUQCK6S.jpg"
+            },
+            {
+                "name": "Dacre Montgomery",
+                "image": "https://image.tmdb.org/t/p/w185/v5zhoNq2RgnUEtSLAFLOPLTJWCT.jpg"
+            },
+            {
+                "name": "Josie Totah",
+                "image": "https://image.tmdb.org/t/p/w185/125iM9BTPVDfRjKGVSqmvgeGsai.jpg"
+            },
+            {
+                "name": "Aaron Holliday",
+                "image": "https://image.tmdb.org/t/p/w185/hFy4UlVt7n8HohIuppl6a6XNPwD.jpg"
+            },
+            {
+                "name": "Jermaine Fowler",
+                "image": "https://image.tmdb.org/t/p/w185/tUovrCcFKncccMY7yarqeLBeVPk.jpg"
+            }
+        ],
+        "details": "A woman, employed as a website content moderator, comes across a series of violent videos reproducing death scenes from a film.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/12/6f6bacdb1fff98c4144604c87e7bdb0f-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_306607",
+        "type": "series",
+        "title": "When Oranges Fall",
+        "poster": "https://image.tmdb.org/t/p/w500/aUSEvsPpxnXjaTY1MyPTxq7uNGy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lx1t4GVwsjo55YxqwrR5A1uDwyb.jpg",
+        "rating": 9.0,
+        "release_date": "2026-05-13",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Passawish Thamasungkeeti",
+                "image": "https://image.tmdb.org/t/p/w185/jEiqGC8wDT93NItzTzJd1ynCDoO.jpg"
+            },
+            {
+                "name": "Poomsuwan suwansatit",
+                "image": "https://image.tmdb.org/t/p/w185/ysynThjwif4hxDO8wNhcjKZVx7D.jpg"
+            },
+            {
+                "name": "Kanthee Limpitikranon",
+                "image": "https://image.tmdb.org/t/p/w185/irNU4uSeex8v4ac89BfHjue9Fhc.jpg"
+            },
+            {
+                "name": "Tanan Lohawatanakul",
+                "image": "https://image.tmdb.org/t/p/w185/ySW4bZ7VUb7v2nhs2MfJEYwwc1v.jpg"
+            },
+            {
+                "name": "Justin Angus Moir",
+                "image": "https://image.tmdb.org/t/p/w185/jxUZNoy9lnQ5cFRD7ohmyOwDM9E.jpg"
+            }
+        ],
+        "details": "In the 90s, two polar-opposite classmates with the same nickname find their mutual dislike turning to love after a stray orange brings them together.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/13/7c734aba346dd3c5ed898b0251836604-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1381202",
+        "type": "movie",
+        "title": "The Outer Threat",
+        "poster": "https://image.tmdb.org/t/p/w500/3ZaO8yZwGo4PJSgwLwSowD4EBbN.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ouEdGbvYnhAnHJYLYDkISs3X9yJ.jpg",
+        "rating": 5.8,
+        "release_date": "2026-07-10",
+        "runtime": "94 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Constance Wu",
+                "image": "https://image.tmdb.org/t/p/w185/dMx2RlHDuCabtk8GHiijWtVOH8h.jpg"
+            },
+            {
+                "name": "Mark O'Brien",
+                "image": "https://image.tmdb.org/t/p/w185/8ckgltvlife4BBJcBpHEQWXfQ9p.jpg"
+            },
+            {
+                "name": "William Fichtner",
+                "image": "https://image.tmdb.org/t/p/w185/wWtJOoaNAwPparpzMNuRBjvxwEf.jpg"
+            },
+            {
+                "name": "Isaac Smelcer-Zhang",
+                "image": ""
+            },
+            {
+                "name": "Oscar Hsu",
+                "image": ""
+            }
+        ],
+        "details": "After making a groundbreaking extraterrestrial discovery, astrophysicists Daniel and Michelle are forced to flee from home with their family — pursued through the countryside by a relentless and anonymous assailant. As their flight unfolds, the line between cosmic revelation and human paranoia blurs, leading to a tense and emotional confrontation that challenges the boundaries of understanding, science, and survival.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/23/796bb0b8dfe24ba18b9d7784ac3d0d69-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_47663",
+        "type": "series",
+        "title": "The Ark",
+        "poster": "https://image.tmdb.org/t/p/w500/rec774m02XNLSjU9qm5z6UUfMRl.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nUEcobWsTpvOh23US0MRZXIU8jt.jpg",
+        "rating": 6.3,
+        "release_date": "2023-02-01",
+        "runtime": "52 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Christie Burke",
+                "image": "https://image.tmdb.org/t/p/w185/ltrTLKdYV8OdeYFKR6NPfRdYLli.jpg"
+            },
+            {
+                "name": "Richard Fleeshman",
+                "image": "https://image.tmdb.org/t/p/w185/4g0jDx6OYk1lEuCFbETat3vfJOU.jpg"
+            },
+            {
+                "name": "Stacey Read",
+                "image": "https://image.tmdb.org/t/p/w185/6ufUA9KqEJMHDwZr5BNt4ujpoJI.jpg"
+            },
+            {
+                "name": "Ryan Adams",
+                "image": "https://image.tmdb.org/t/p/w185/jszNugTJO5eRdTIYTdb9ZTyxNKJ.jpg"
+            },
+            {
+                "name": "Pavle Jerinić",
+                "image": "https://image.tmdb.org/t/p/w185/piUz737sO6utpS4win9j3jGRA8Z.jpg"
+            }
+        ],
+        "details": "100 years in the future, planetary colonization missions have begun as a necessity to help secure the survival of the human race. The first of these missions on a spacecraft known as Ark One encounters a catastrophic event causing massive destruction and loss of life. With more than a year left to go before reaching their target planet, a lack of life-sustaining supplies and loss of leadership, the remaining crew must become the best versions of themselves to stay on course and survive.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/3837802a33dbbf3bba29d3463a0694af-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1361774",
+        "type": "movie",
+        "title": "The Dink",
+        "poster": "https://image.tmdb.org/t/p/w500/8dq7vaUkXPqwqKxBFW4qJNBWeop.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tJQhL95q63ITeBy5OTGPx51sFks.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-23",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Jake Johnson",
+                "image": "https://image.tmdb.org/t/p/w185/3UNfW2qZgRkW81neNVfQvaRC92K.jpg"
+            },
+            {
+                "name": "Mary Steenburgen",
+                "image": "https://image.tmdb.org/t/p/w185/yJhfuqS3yXW7kLSyvRU6n3b35mq.jpg"
+            },
+            {
+                "name": "Ed Harris",
+                "image": "https://image.tmdb.org/t/p/w185/kUbUA70WPiosPT4kBJMWtGk0ASd.jpg"
+            },
+            {
+                "name": "Andy Roddick",
+                "image": "https://image.tmdb.org/t/p/w185/hsFCpMMnczzI6BvukUQydMxrHZ2.jpg"
+            },
+            {
+                "name": "Aaron Chen",
+                "image": "https://image.tmdb.org/t/p/w185/AbXN2wpfiH97Mj7f7smzXPeZNOG.jpg"
+            }
+        ],
+        "details": "Desperate to save a struggling country club and earn his father's respect, a washed-up tennis pro is compelled to break a sacred vow and do the unthinkable: play pickleball.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/1f8903844bcd98d87af9b5f0b1800343-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_239901",
+        "type": "series",
+        "title": "The Legend of Rosy Clouds",
+        "poster": "https://image.tmdb.org/t/p/w500/2BplPHTd5BIPKXRawey3Q2hO3Iu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dStkVJ2dQPe2Ak9X4McM1606vNn.jpg",
+        "rating": 7.7,
+        "release_date": "2026-06-20",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Li Yitong",
+                "image": "https://image.tmdb.org/t/p/w185/jfostFmHde0D1Wj9F57GWHEVzmO.jpg"
+            },
+            {
+                "name": "Joseph Zeng",
+                "image": "https://image.tmdb.org/t/p/w185/hfMNwzZv7SxJ6d8gk8rhPZdg4C8.jpg"
+            },
+            {
+                "name": "Deng Wei",
+                "image": "https://image.tmdb.org/t/p/w185/AtcwQb1B20rvGCw3JRCbOQyVpcN.jpg"
+            },
+            {
+                "name": "Dai Luwa",
+                "image": "https://image.tmdb.org/t/p/w185/4yJZSb5RAUprTdS2dW5TdiVAWp4.jpg"
+            },
+            {
+                "name": "Riley Wang",
+                "image": "https://image.tmdb.org/t/p/w185/lzzvRyyltnsExIrsWhm6DCPMz62.jpg"
+            }
+        ],
+        "details": "In the legendary Nine Cities, noblewoman Fan Yun and cunning lord Qi Zheng join forces to overcome a looming crisis. As they fight for the people's welfare, their bond deepens into friendship and love to bring peace and prosperity to the realm.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/22/8b75f2e0124bab1b7adf8d92c155c430-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_898704",
+        "type": "movie",
+        "title": "Desert Warrior",
+        "poster": "https://image.tmdb.org/t/p/w500/waxnw1NpzTPY5JkqWvu0muSopRJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ohlNSR8MsHk5e6fcAxqAJmcz4Sm.jpg",
+        "rating": 5.7,
+        "release_date": "2026-04-23",
+        "runtime": "127 min",
+        "categories": [
+            "Movies",
+            "English",
+            "History",
+            "War",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Anthony Mackie",
+                "image": "https://image.tmdb.org/t/p/w185/eZSIDrtTzhvabyjrmIITQLsjx8h.jpg"
+            },
+            {
+                "name": "Aiysha Hart",
+                "image": "https://image.tmdb.org/t/p/w185/ilIvkFvqgyDrlKpJwNcDpAITeNd.jpg"
+            },
+            {
+                "name": "Sami Bouajila",
+                "image": "https://image.tmdb.org/t/p/w185/xq8TMMCA4RI2omGxbPtLVsBMWX8.jpg"
+            },
+            {
+                "name": "Sharlto Copley",
+                "image": "https://image.tmdb.org/t/p/w185/em89OJJvBRX7kNJJPASmNKQujsC.jpg"
+            },
+            {
+                "name": "Ben Kingsley",
+                "image": "https://image.tmdb.org/t/p/w185/k3Dmu49B2akwDvgqy52MOxznI59.jpg"
+            }
+        ],
+        "details": "In 7th-century Arabia, Princess Hind becomes a warrior to defy the ruthless Emperor Kisra. Forged into a warrior and aided by legendary bandit Hanzala, Hind unites warring tribes for a last stand—the historic Battle of Dhi Qar—that will change history.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#bhb9r"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
