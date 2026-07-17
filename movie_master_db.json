@@ -7722,5 +7722,196 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_931285",
+        "type": "movie",
+        "title": "Mortal Kombat II",
+        "poster": "https://image.tmdb.org/t/p/w500/hwRdDFIhaEmpRgoki805YvyyjZf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4EAAwpylq313qrDqpCxulUrXBNF.jpg",
+        "rating": 8.0,
+        "release_date": "2026-05-06",
+        "runtime": "116 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Fantasy",
+            "Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Karl Urban",
+                "image": "https://image.tmdb.org/t/p/w185/7Y96dAfg0HcFrcLjlD5eD9N0uj4.jpg"
+            },
+            {
+                "name": "Adeline Rudolph",
+                "image": "https://image.tmdb.org/t/p/w185/sWjjm53MeVrpQH2dxtFD3gfEt3v.jpg"
+            },
+            {
+                "name": "Ludi Lin",
+                "image": "https://image.tmdb.org/t/p/w185/9Ila4K8POeuVWRO9hzyekFjvCDk.jpg"
+            },
+            {
+                "name": "Jessica McNamee",
+                "image": "https://image.tmdb.org/t/p/w185/xX1WxRZyJqVAx24Q3ziziGq2T8A.jpg"
+            },
+            {
+                "name": "Lewis Tan",
+                "image": "https://image.tmdb.org/t/p/w185/yMr3mwHHBpfbXwDDkahOzFtTCak.jpg"
+            }
+        ],
+        "details": "The fan favorite champions—now joined by Johnny Cage himself—are pitted against one another in the ultimate, no-holds barred, gory battle to defeat the dark rule of Shao Kahn that threatens the very existence of the Earthrealm and its defenders.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/03/29/0cee7d624983c8dab2a1b9119e4890bf-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1290792",
+        "type": "movie",
+        "title": "One Spoon of Chocolate",
+        "poster": "https://image.tmdb.org/t/p/w500/iiVuwRguusPeO2Mqmg68cpqq9ex.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5CdoqLaj2VjMkfXMwUtUwziQJDX.jpg",
+        "rating": 5.3,
+        "release_date": "2026-05-01",
+        "runtime": "114 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Shameik Moore",
+                "image": "https://image.tmdb.org/t/p/w185/ovUKfVOwJ7CadEHaG3NDsfA5xRq.jpg"
+            },
+            {
+                "name": "Blair Underwood",
+                "image": "https://image.tmdb.org/t/p/w185/3e6my8gZYS3L2OP4ZTN1psQDYIT.jpg"
+            },
+            {
+                "name": "RJ Cyler",
+                "image": "https://image.tmdb.org/t/p/w185/9baPsx4DJn2vy7AOfcfEe6IH5JN.jpg"
+            },
+            {
+                "name": "Paris Jackson",
+                "image": "https://image.tmdb.org/t/p/w185/sSj4u7m40MmMRnlqJmiQyhllDYb.jpg"
+            },
+            {
+                "name": "Emyri Crutchfield",
+                "image": "https://image.tmdb.org/t/p/w185/wsdVu6Duu5MjvAc82u1rrNM2AAK.jpg"
+            }
+        ],
+        "details": "After serving his country in the Army, Unique is falsely accused of assault and sent to prison. Once released, Unique sets up shop in Ohio to restart his life, linking up with his only surviving relative, Ramsey. There’s something insidious happening in this town, though, as its racist sheriff and his crew of similarly bigoted acolytes all have a knack for violence and share a gruesome secret pertaining to a recent string of missing young Black men. When they set their sights on Unique and turn his life upside down, the former soldier has no choice but to bring the ruckus down on the sheriff and his goons.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/12/417a74eae3344fe4514c4eba154e3a2b-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_249039",
+        "type": "series",
+        "title": "Black Rabbit",
+        "poster": "https://image.tmdb.org/t/p/w500/4e9CraVtGY00jLP2YGwsuEtaIjR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/efbDkbMBPcHAfnsvJ9SXCdHgMBw.jpg",
+        "rating": 7.0,
+        "release_date": "2025-09-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Jason Bateman",
+                "image": "https://image.tmdb.org/t/p/w185/wS22fofYtUf4aGXACFwhkTjUk6a.jpg"
+            },
+            {
+                "name": "Jude Law",
+                "image": "https://image.tmdb.org/t/p/w185/6UadpSbfC39WMChAcdnNunzwDxv.jpg"
+            },
+            {
+                "name": "Chris Coy",
+                "image": "https://image.tmdb.org/t/p/w185/qM89KmZYCOC9VVUle5OPMP0i5U8.jpg"
+            },
+            {
+                "name": "Troy Kotsur",
+                "image": "https://image.tmdb.org/t/p/w185/24K3og12jGBGL9dqH5OYFdjF9wu.jpg"
+            },
+            {
+                "name": "Abbey Lee",
+                "image": "https://image.tmdb.org/t/p/w185/y4ZIuFjtglTjSLxhGTkzsCPFMQZ.jpg"
+            }
+        ],
+        "details": "A rising-star restaurateur is forced into New York's criminal underworld when his chaotic brother returns to town with loan sharks on his trail.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/08/22/41e9f56594662834ff14533729ddac4e-ld.mp4"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/30/2c154caf698f5255c27dbb52595e76cc-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_297712",
+        "type": "series",
+        "title": "Fifties Professionals",
+        "poster": "https://image.tmdb.org/t/p/w500/lPG0WrpcKKl3QegDBvYf0vW9mbl.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gfBw8ZoGtRHSmSD5jo0McgwDzYd.jpg",
+        "rating": 6.1,
+        "release_date": "2026-05-22",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Shin Ha-kyun",
+                "image": "https://image.tmdb.org/t/p/w185/4UF7bfqwWUt8gZPH8t7fWuoGQVX.jpg"
+            },
+            {
+                "name": "Oh Jung-se",
+                "image": "https://image.tmdb.org/t/p/w185/oIqRAdI5e777odhOJl6e4Jc9ADj.jpg"
+            },
+            {
+                "name": "Heo Sung-tae",
+                "image": "https://image.tmdb.org/t/p/w185/j65kOkZ8RjGVuwNHjuIVbSD49tB.jpg"
+            },
+            {
+                "name": "Kim Shin-rock",
+                "image": "https://image.tmdb.org/t/p/w185/x4zo2mSbehnQY80PbuldAZ7ruGm.jpg"
+            },
+            {
+                "name": "Lee Hak-ju",
+                "image": "https://image.tmdb.org/t/p/w185/9PuGmzY1nm8uYYiOanEKJHEcdbZ.jpg"
+            }
+        ],
+        "details": "Three seemingly ordinary but deadly uncles, whose fate sets them in motion again. It depicts the everyday lives of three middle-aged men, who have lived 50% of their lives, and the realistic comedy of these uncles who are even sadder because they were successful in their past.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/22/a7ed12a7c93a2a3eb32c3f0074509926-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
