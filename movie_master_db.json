@@ -7581,5 +7581,146 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_285807",
+        "type": "series",
+        "title": "Nemesis",
+        "poster": "https://image.tmdb.org/t/p/w500/NY7ZwSMw5PjoJdK2CObqiTj7Bm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pxnJeLSBdUikUOrWdNgrK1HQy2u.jpg",
+        "rating": 7.6,
+        "release_date": "2026-05-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Matthew Law",
+                "image": "https://image.tmdb.org/t/p/w185/bGCYMu3GErcLgmAd3nIEP468vFs.jpg"
+            },
+            {
+                "name": "Y'lan Noel",
+                "image": "https://image.tmdb.org/t/p/w185/hVR9aDPZUZSF4EGgGlDVST58IUA.jpg"
+            },
+            {
+                "name": "Cleopatra Coleman",
+                "image": "https://image.tmdb.org/t/p/w185/vA0KiqXasmcvjafImY4hwoxYe8d.jpg"
+            },
+            {
+                "name": "Tre Hale",
+                "image": "https://image.tmdb.org/t/p/w185/yASkZD15DmMgoDgGabuF7ZetGYk.jpg"
+            },
+            {
+                "name": "Domenick Lombardozzi",
+                "image": "https://image.tmdb.org/t/p/w185/ygbrVKqVQe2rog9CFhHhLcBElj8.jpg"
+            }
+        ],
+        "details": "A relentless LAPD cop becomes obsessed with taking down the master thief behind a string of daring heists — and only one can come out on top.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/31/5525795b3b278483d6e287f450e59ccf-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_276161",
+        "type": "series",
+        "title": "Teach You a Lesson",
+        "poster": "https://image.tmdb.org/t/p/w500/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vyG93jhmPL7tBIhRtCLa5mdBKob.jpg",
+        "rating": 9.5,
+        "release_date": "2026-06-05",
+        "runtime": "70 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kim Moo-yul",
+                "image": "https://image.tmdb.org/t/p/w185/wLuVca9icDLjUkOG84IlEmfP52b.jpg"
+            },
+            {
+                "name": "Lee Sung-min",
+                "image": "https://image.tmdb.org/t/p/w185/p71yyyIQmHbrOZHU2lphMvjlVIk.jpg"
+            },
+            {
+                "name": "Jin Ki-joo",
+                "image": "https://image.tmdb.org/t/p/w185/xwhR8nrFKxalOjmADxJPTouxE0g.jpg"
+            },
+            {
+                "name": "Pyo Ji-hoon",
+                "image": "https://image.tmdb.org/t/p/w185/rg2fuaF8yRmKBgyGWdpvEmtCBmU.jpg"
+            },
+            {
+                "name": "Kim Jong-soo",
+                "image": "https://image.tmdb.org/t/p/w185/bcZLy3t0EXvRY4EWsD5BoEt3xOM.jpg"
+            }
+        ],
+        "details": "An inspector from the Educational Rights Protection Bureau (ERPB) who is authorized by the government to use physical intervention and unconventional methods to discipline delinquent students and reform the educational system.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/9a5f374cd3caaf401a2bf8aac398fff5-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_279323",
+        "type": "series",
+        "title": "The East Palace",
+        "poster": "https://image.tmdb.org/t/p/w500/yfYohBszGqoAW8oM0qydOtJ4kPh.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9LJiiVPSS2DsV9drnA3k3zqMgPW.jpg",
+        "rating": 10.0,
+        "release_date": "2026-07-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery",
+            "Action & Adventure",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Nam Joo-hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/kuLC8pR24kbEIAjfg3WpKW41Kcl.jpg"
+            },
+            {
+                "name": "Roh Yoon-seo",
+                "image": "https://image.tmdb.org/t/p/w185/A67wGhTozfav5saZ1Umi5f98Ezb.jpg"
+            },
+            {
+                "name": "Cho Seung-woo",
+                "image": "https://image.tmdb.org/t/p/w185/agXysHUmaUdHrEQAZ2ZMvMR5oCU.jpg"
+            },
+            {
+                "name": "Park Soo-yeon",
+                "image": "https://image.tmdb.org/t/p/w185/qrdfEmfX0M0O8ReXv3RZoUs0F5F.jpg"
+            },
+            {
+                "name": "Jang Young-nam",
+                "image": "https://image.tmdb.org/t/p/w185/u0hl8WSswFhKVaKwaMAERU0xUJk.jpg"
+            }
+        ],
+        "details": "A man who walks the spirit world and a court lady who hears the dead enter the East Palace by the king's orders — can they unravel its dark secrets?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/a87b12b507ad366f2e4e38b1113a2f52-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
