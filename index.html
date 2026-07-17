@@ -13,7 +13,7 @@
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
         
-        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - DOWNWARD POSITIONING MAINTAINED */
+        /* 🔄 3D BACKGROUND CAROUSEL ENGINE */
         .carousel-container-fixed { position: relative; width: 100%; height: 480px; overflow: visible; background-color: #060814; margin-top: 40px; }
         @media (min-width: 768px) { .carousel-container-fixed { height: 600px; margin-top: 64px; } }
         
@@ -55,9 +55,26 @@
         .wheel-node.invisible-loop { transform: scale(0.4) translateZ(-250px); z-index: 5; opacity: 0; pointer-events: none; }
         .movie-card { transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border: 1px solid rgba(255,255,255,0.03); }
         .movie-card:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
+        
+        /* ✨ CUTE & MINIMAL LOADER ANIMATION SCREENS */
+        #site-preloader { position: fixed; inset: 0; background-color: #0c0f1d; z-index: 9999; display: flex; flex-direction: column; justify-content: center; items: center; transition: opacity 0.4s ease, visibility 0.4s ease; }
+        .dot-pulse { display: flex; align-items: center; justify-content: center; space-x: 8px; }
+        .dot-pulse div { width: 10px; height: 10px; background-color: #eab308; border-radius: 50%; animation: pulse-glow 1.2s infinite ease-in-out both; }
+        .dot-pulse div:nth-child(1) { animation-delay: -0.32s; }
+        .dot-pulse div:nth-child(2) { animation-delay: -0.16s; }
+        @keyframes pulse-glow { 0%, 80%, 100% { transform: scale(0.6); opacity: 0.3; } 40% { transform: scale(1.1); opacity: 1; box-shadow: 0 0 12px #eab308; } }
     </style>
 </head>
 <body class="relative min-h-screen">
+
+    <!-- ✨ MICRO CUTE PRELOADER DOM NODE -->
+    <div id="site-preloader">
+        <div class="dot-pulse space-x-2">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
     <!-- 1. HEADER MENU BAR -->
     <header class="w-full bg-[#060814]/95 backdrop-blur-md border-b border-white/5 sticky top-0 z-50 px-4 md:px-12 py-3 flex items-center justify-between shadow-xl">
@@ -91,7 +108,7 @@
             <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0c0f1d] to-transparent pointer-events-none z-30"></div>
         </div>
 
-        <!-- 📐 OPTIMIZED NEGATIVE MARGIN OVERLAP SYSTEM TO BRING ALL ROWS BACK UPWARD -->
+        <!-- 📐 OPTIMIZED OVERLAP LAYOUT -->
         <div class="pl-4 md:pl-12 space-y-10 -mt-44 md:-mt-56 relative z-40 bg-gradient-to-b from-transparent via-[#0c0f1d] to-[#0c0f1d] pt-4 pb-12">
             
             <!-- Row 1: Bangla -->
@@ -121,7 +138,7 @@
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-recent-release"></div>
             </div>
 
-            <!-- Row 4: Trending Now (Moved Up Successfully) -->
+            <!-- Row 4: Trending Now (Positioned Upward) -->
             <div class="space-y-3" id="section-trending">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-orange-500 mr-2 rounded"></span>🔥 Trending Now</h3>
@@ -130,7 +147,7 @@
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-trending"></div>
             </div>
 
-            <!-- Row 5: Top Rated (Moved Down Successfully) -->
+            <!-- Row 5: Top Rated (Positioned Downward) -->
             <div class="space-y-3" id="section-top-rated">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-green-500 mr-2 rounded"></span>🏆 Top Rated (60 Days)</h3>
@@ -168,7 +185,7 @@
                 <select id="filter-lang" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
                     <option value="all">All Tracks</option>
                     <option value="bangla">Bangla Track</option>
-                    <option value="dual-bangla">Dual Audio (with Bangla)</option>
+                    <option value="multi-audio">Multi Audio Track</option>
                     <option value="hindi">Hindi Track</option>
                     <option value="english">English Track</option>
                 </select>
@@ -211,9 +228,10 @@
         </button>
 
         <div class="w-full relative pt-[56.25%] md:pt-[45%] bg-black rounded-2xl overflow-hidden border border-white/5 group shadow-2xl">
-            <div id="player-shield" class="absolute inset-0 bg-black/90 backdrop-blur-md z-30 flex flex-col justify-center items-center space-y-2 cursor-pointer p-4 text-center" onclick="activatePlayerFrame()">
-                <div class="w-12 h-12 md:w-16 md:h-16 bg-yellow-500 text-black rounded-full flex items-center justify-center font-black text-lg md:text-xl shadow-2xl transition transform group-hover:scale-105">▶</div>
-                <span class="text-[11px] font-black tracking-widest uppercase text-gray-200">Bypass Player Ad Shields & Launch Stream</span>
+            <!-- 🎮 CLEAN PLAY NOW SHIELD INTERFACE -->
+            <div id="player-shield" class="absolute inset-0 bg-black/95 backdrop-blur-sm z-30 flex flex-col justify-center items-center space-y-3 cursor-pointer p-4 text-center" onclick="activatePlayerFrame()">
+                <div class="w-14 h-14 md:w-16 md:h-16 bg-yellow-500 text-black rounded-full flex items-center justify-center font-black text-xl shadow-[0_0_30px_rgba(234,179,8,0.4)] transition transform group-hover:scale-110 animate-pulse">▶</div>
+                <span class="text-xs font-black tracking-widest text-yellow-500 uppercase flex items-center space-x-1"><span>Play Now</span><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping ml-1.5"></span></span>
             </div>
             <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -269,15 +287,33 @@
             </div>
         </div>
 
-        <!-- 🚀 RENAMED & POWERED UP TO RECOMMENDED CONTENT AREA -->
+        <!-- 🍿 RECOMMENDED CONTENT CHANNELS -->
         <div class="space-y-4 border-t border-white/5 pt-6">
             <h3 class="text-xs md:text-sm font-bold text-gray-200">✨ Recommended Content For You</h3>
             <div class="flex space-x-3 overflow-x-auto scroller py-2" id="grid-similar-content"></div>
         </div>
     </div>
 
+    <!-- 📊 PREMIUM EYE-CATCHING METADATA STATISTICS ROW -->
+    <div class="w-full px-4 md:px-12 mt-12 relative z-40">
+        <div class="bg-gradient-to-r from-slate-950 via-slate-900/50 to-slate-950 border border-white/5 p-4 rounded-2xl grid grid-cols-3 gap-2 md:gap-6 text-center shadow-2xl">
+            <div class="space-y-1 py-1">
+                <span class="text-[9px] md:text-[10px] font-black text-gray-500 uppercase tracking-wider block">Recent Uploads</span>
+                <span class="text-xl md:text-2xl font-black text-yellow-500 drop-shadow">04</span>
+            </div>
+            <div class="space-y-1 py-1 border-x border-white/5">
+                <span class="text-[9px] md:text-[10px] font-black text-gray-500 uppercase tracking-wider block">Last 24H Uploads</span>
+                <span class="text-xl md:text-2xl font-black text-white drop-shadow">17</span>
+            </div>
+            <div class="space-y-1 py-1">
+                <span class="text-[9px] md:text-[10px] font-black text-gray-500 uppercase tracking-wider block">In Process</span>
+                <span class="text-xl md:text-2xl font-black text-emerald-500 drop-shadow animate-pulse">05</span>
+            </div>
+        </div>
+    </div>
+
     <!-- FOOTER -->
-    <footer class="w-full bg-[#060814] border-t border-white/5 px-6 md:px-12 py-6 mt-12 space-y-4 relative z-40 text-center md:text-left">
+    <footer class="w-full bg-[#060814] border-t border-white/5 px-6 md:px-12 py-6 mt-6 space-y-4 relative z-40 text-center md:text-left">
         <div class="flex justify-center items-center space-x-8 text-[11px] text-gray-500 font-bold">
             <div class="flex items-center space-x-1.5"><span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span><span>Active Now: <span id="count-active" class="text-white">--</span></span></div>
             <div><span>24H Visitors: <span id="count-total" class="text-white">--</span></span></div>
@@ -300,10 +336,12 @@
         let wheelTimer = null;
         let activePlayerSrc = "";
         let currentViewingMovieObj = null;
+        let tmdbCastsBackup = [];
 
+        // 📊 UP-DOWN OPTIMIZED TRAFFIC GENERATOR CONSTANTS
         function initTrafficCounters() {
-            document.getElementById('count-active').innerText = Math.floor(Math.random() * 90) + 10;
-            document.getElementById('count-total').innerText = Math.floor(Math.random() * 200) + 500;
+            document.getElementById('count-active').innerText = Math.floor(Math.random() * (240 - 70 + 1)) + 70;
+            document.getElementById('count-total').innerText = Math.floor(Math.random() * (1500 - 700 + 1)) + 700;
         }
 
         function cleanTitle(title) {
@@ -314,7 +352,6 @@
             return /[\u0980-\u09FF]/.test(str);
         }
 
-        // 🔍 DETECT EXPLICIT / ADULT CONTENT SIGNATURES (Safe Gate Architecture)
         function isAdultContentFlagged(movie) {
             const blacklistKeywords = ['18+', 'adult', 'erotic', 'threesome', 'ullu', 'kooku', 'primeplay', 'hotshots', 'gandii baat', 'sex', 'desikahaniya'];
             const targetId = movie.id.toLowerCase();
@@ -332,7 +369,7 @@
             return blacklistKeywords.some(keyword => masterCheckPool.includes(keyword));
         }
 
-        // 🔍 GLOBAL ADVANCED TRACK ENGINE (Scans Player Links, Title, ID with URL Fallbacks)
+        // 🔍 MULTI-AUDIO ENGINE PIPELINE RE-ARCHITECTED
         function detectAdvancedAudioTracks(movie) {
             let playerUrl = "";
             if (movie.players && movie.players.length > 0) {
@@ -343,26 +380,20 @@
             const targetTitle = movie.title.toLowerCase();
             const scanPool = playerUrl + " " + targetId + " " + targetTitle;
 
-            if (scanPool.includes('dual') || scanPool.includes('multi') || scanPool.includes('dual-audio')) {
-                let languages = [];
-                if (scanPool.includes('bengali') || scanPool.includes('bangla') || hasBengaliCharacters(movie.title)) {
-                    languages.push('Bangla');
+            let detectionList = [];
+            if (scanPool.includes('bengali') || scanPool.includes('bangla') || hasBengaliCharacters(movie.title)) detectionList.push('Bangla');
+            if (scanPool.includes('hindi')) detectionList.push('Hindi');
+            if (scanPool.includes('tamil')) detectionList.push('Tamil');
+            if (scanPool.includes('english') || scanPool.includes('eng')) detectionList.push('English');
+
+            if (scanPool.includes('dual') || scanPool.includes('multi') || scanPool.includes('dual-audio') || detectionList.length > 1) {
+                if (detectionList.length <= 1) {
+                    return "Multi Audio: English, Hindi";
                 }
-                if (scanPool.includes('hindi')) languages.push('Hindi');
-                if (scanPool.includes('tamil')) languages.push('Tamil');
-                if (scanPool.includes('english') || scanPool.includes('eng')) languages.push('English');
-                
-                if (languages.length === 0) return "Dual Audio: English, Hindi";
-                if (languages.length === 1 && languages[0] === 'Bangla') return "Dual Audio: English, Bangla";
-                
-                return `Dual Audio: ${languages.join(', ')}`;
+                return `Multi Audio: ${detectionList.join(', ')}`;
             }
 
-            if (scanPool.includes('bengali') || scanPool.includes('bangla') || hasBengaliCharacters(movie.title)) {
-                return "Audio: Bangla";
-            }
-            if (scanPool.includes('hindi')) return "Audio: Hindi";
-            if (scanPool.includes('tamil')) return "Audio: Tamil";
+            if (detectionList.length === 1) return `Audio: ${detectionList[0]}`;
             return "Audio: English";
         }
 
@@ -383,12 +414,22 @@
                 try {
                     const sgRes = await fetch('https://raw.githubusercontent.com/ahnafnazmul/STREAMguide-BD/main/data.json');
                     streamguideData = await sgRes.json();
-                } catch(e) { console.error("Streamguide data bypassed cleanly", e); }
+                } catch(e) { console.error("Streamguide bypassed", e); }
 
                 processAlgorithmicRows();
                 build3DPosterWheel();
                 populateGenreDropdown();
-            } catch (e) { console.error("Initialization pipeline fatal failure: ", e); }
+            } catch (e) { console.error("Pipeline breakdown: ", e); }
+            finally {
+                // ⚡ HIDE CUTE PRELOADER SMOOTHLY IN 400MS
+                setTimeout(() => {
+                    const preloader = document.getElementById('site-preloader');
+                    if(preloader) {
+                        preloader.style.opacity = '0';
+                        preloader.style.visibility = 'hidden';
+                    }
+                }, 350);
+            }
         }
 
         function build3DPosterWheel() {
@@ -435,7 +476,7 @@
                     const movie = safeItems[wheelIndex];
                     if(movie) {
                         document.getElementById('wheel-title').innerText = cleanTitle(movie.title);
-                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy low latency premium clean stream optimizations.";
+                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy premium clean stream optimizations flawlessly.";
                         document.getElementById('wheel-year').innerText = movie.release_year;
                         document.getElementById('wheel-rating').innerText = `⭐ ${movie.rating}`;
                         document.getElementById('wheel-views').innerText = `Views: ${movie.views.toLocaleString()}`;
@@ -450,12 +491,10 @@
         }
 
         function processAlgorithmicRows() {
-            // 🛑 CRITICAL ADULT SANITIZATION EXTENDED UNTO ALL HOMEPAGE CHANNELS NATIVELY
             const cleanGlobalDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m));
-
             let globalBanglaMatchedList = [];
 
-            // 1. GLOBAL COMPILED BANGLA INTERFACE 
+            // 🎯 MULTI-ROUTING BALANCED AUDIO FILTERS
             cleanGlobalDataset.forEach(m => {
                 if (m.detectedAudio.includes('Bangla')) {
                     globalBanglaMatchedList.push(m);
@@ -481,22 +520,22 @@
                 }
             });
 
-            // Row 1: Bangla Row (Unlimited Clean Family Content)
+            // Row 1: Bangla
             globalBanglaMatchedList.sort((a,b) => (b.timestamp || 0) - (a.timestamp || 0));
             sortedRowsData.bangla = globalBanglaMatchedList;
 
             const chronologicalList = [...cleanGlobalDataset].reverse();
 
-            // Row 2: New Release Row (Strict first 20 clean nodes)
+            // Row 2: New Release
             sortedRowsData.newRelease = chronologicalList.slice(0, 20);
 
-            // Row 3: Recent Release Row (Strict next 30 clean nodes)
+            // Row 3: Recent Release
             sortedRowsData.recentRelease = chronologicalList.slice(20, 50);
 
-            // Row 4: Trending Now Row (Positioned Upward)
+            // Row 4: Trending Now (Upward)
             sortedRowsData.trending = [...cleanGlobalDataset].sort((a,b) => b.views - a.views).slice(0, 15);
 
-            // Row 5: Top Rated Row (Positioned Downward - Filtered by 60 Days cutoff window criteria)
+            // Row 5: Top Rated (Downward - 60 Days Window Criteria)
             const cutoffDate = new Date();
             cutoffDate.setDate(cutoffDate.getDate() - 60);
             
@@ -506,7 +545,7 @@
                 return movieDate >= cutoffDate;
             }).sort((a, b) => b.rating - a.rating);
 
-            // Row 6: All Contents Row (Safe filtered on home screen, completely accessible via advanced hub/queries)
+            // Row 6: All Contents (Safe Protected From Adult Thumbnails)
             sortedRowsData.allContents = [...cleanGlobalDataset];
 
             renderRow('grid-bangla', sortedRowsData.bangla);
@@ -545,7 +584,7 @@
         function populateGenreDropdown() {
             globalMoviesData.forEach(m => {
                 if(m.categories) m.categories.forEach(cat => {
-                    if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio"].includes(cat)) {
+                    if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio", "Multi Audio"].includes(cat)) {
                         allGenresCollected.add(cat);
                     }
                 });
@@ -582,7 +621,7 @@
             const targetMinRating = parseFloat(document.getElementById('filter-rating').value);
             const targetSort = document.getElementById('filter-sort').value;
 
-            let filteredResult = [...globalMoviesData]; // Access unfiltered master list inside advanced hub
+            let filteredResult = [...globalMoviesData]; // Unlocked inside internal routing search structures
 
             if(targetGenre !== 'all') {
                 filteredResult = filteredResult.filter(m => m.categories && m.categories.includes(targetGenre));
@@ -592,7 +631,7 @@
                 filteredResult = filteredResult.filter(m => {
                     const track = m.detectedAudio;
                     if(targetAudio === 'bangla') return track.includes('Bangla');
-                    if(targetAudio === 'dual-bangla') return track.includes('Dual') && track.includes('Bangla');
+                    if(targetAudio === 'multi-audio') return track.includes('Multi');
                     if(targetAudio === 'hindi') return track.includes('Hindi');
                     if(targetAudio === 'english') return track.includes('English');
                     return true;
@@ -624,7 +663,7 @@
             const grid = document.getElementById('see-more-grid');
             grid.innerHTML = '';
             if(filteredResult.length === 0) {
-                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching configurations discovered.</span>`;
+                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching records found.</span>`;
                 return;
             }
 
@@ -646,8 +685,8 @@
             if(type === 'bangla') { list = sortedRowsData.bangla; text = "Bangla"; }
             else if(type === 'new-release') { list = sortedRowsData.newRelease; text = "New Release"; }
             else if(type === 'recent-release') { list = sortedRowsData.recentRelease; text = "Recent Release"; }
-            else if(type === 'top-rated') { list = sortedRowsData.topRated; text = "Top Rated"; }
             else if(type === 'trending') { list = sortedRowsData.trending; text = "Trending Now"; }
+            else if(type === 'top-rated') { list = sortedRowsData.topRated; text = "Top Rated"; }
 
             document.getElementById('see-more-title').innerText = `🔥 ${text} Rows Explorer`;
             const grid = document.getElementById('see-more-grid'); 
@@ -670,6 +709,7 @@
 
         async function openDetailsPage(movie) {
             currentViewingMovieObj = movie;
+            tmdbCastsBackup = []; // reset actor memory structures cleanly
             document.getElementById('home-view-container').classList.replace('block', 'hidden');
             document.getElementById('explorer-view-container').classList.replace('block', 'hidden');
             document.getElementById('details-view-container').classList.replace('hidden', 'block');
@@ -688,11 +728,6 @@
             serverContainer.innerHTML = '';
 
             document.getElementById('player-shield').classList.remove('hidden');
-            document.getElementById('player-shield').innerHTML = `
-                <div class="w-12 h-12 md:w-16 md:h-16 bg-yellow-500 text-black rounded-full flex items-center justify-center font-black text-lg md:text-xl shadow-2xl transition transform group-hover:scale-105">▶</div>
-                <span class="text-[11px] font-black tracking-widest uppercase text-gray-200 mt-2 block">Bypass Player Ad Shields & Launch Stream</span>
-            `;
-            document.getElementById('player-shield').onclick = activatePlayerFrame;
 
             if (movie.players && movie.players.length > 0) {
                 activePlayerSrc = movie.players[0].player_url;
@@ -701,7 +736,6 @@
                     btn.className = `px-4 py-1.5 rounded-lg text-[11px] font-black uppercase transition ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800'}`;
                     btn.innerText = `Server ${index + 1}`;
                     
-                    // Hook active execution block to trigger dynamically mapped local state caching models
                     btn.onclick = function() {
                         Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase');
                         btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
@@ -709,7 +743,6 @@
                         document.getElementById('player-shield').classList.remove('hidden');
                         document.getElementById('details-video-iframe').src = "";
                         
-                        // 🧠 Cache user favorite streaming selections seamlessly inside storage vectors
                         cacheUserPlaybackPreferences(movie);
                     };
                     serverContainer.appendChild(btn);
@@ -725,21 +758,19 @@
             if(currentViewingMovieObj) cacheUserPlaybackPreferences(currentViewingMovieObj);
         }
 
-        // 🧠 LOCAL STORAGE ENGINE FOR USER RECOMMENDATION MODELS
         function cacheUserPlaybackPreferences(movie) {
             try {
                 let history = JSON.parse(localStorage.getItem('mp_genre_history')) || [];
                 if(movie.categories) {
                     movie.categories.forEach(cat => {
-                        if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio"].includes(cat)) {
+                        if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio", "Multi Audio"].includes(cat)) {
                             history.push(cat);
                         }
                     });
                 }
-                // Cap cache index safely at maximum bounds to avoid footprint bloat
                 if(history.length > 40) history = history.slice(-40);
                 localStorage.setItem('mp_genre_history', JSON.stringify(history));
-            } catch(e) { console.error("Cache memory writing failed cleanly", e); }
+            } catch(e) {}
         }
 
         async function fetchDeepTMDBData(tmdbIdStr, localCategories, currentMovie) {
@@ -800,6 +831,7 @@
 
                 const casts = res.credits?.cast?.slice(0, 6) || [];
                 casts.forEach(c => {
+                    tmdbCastsBackup.push(c.name.toLowerCase()); // push actors to validation array pool natively
                     const profile = c.profile_path ? `https://image.tmdb.org/t/p/w185${c.profile_path}` : 'https://via.placeholder.com/150x200?text=Actor';
                     const div = document.createElement('div');
                     div.className = "bg-slate-950 rounded-lg p-1 text-center border border-white/5";
@@ -813,12 +845,11 @@
                 renderAdvancedRecommendedContent(currentMovie, apiGenreNames);
 
             } catch(e) { 
-                console.error(m);
                 renderAdvancedRecommendedContent(currentMovie, []);
             }
         }
 
-        // 🧠 ADVANCED ECOSYSTEM RECOMMENDATION & SEQUEL INTELLIGENCE ENGINE
+        // 🧠 5-STAGE FALLBACK ABSOLUTE RECOMMENDATION MATCH ENGINE (GUARANTEED NO BLANK)
         function renderAdvancedRecommendedContent(currentMovie, tmdbGenres) {
             const container = document.getElementById('grid-similar-content');
             container.innerHTML = '';
@@ -831,47 +862,56 @@
 
             let scoredCollection = [];
             let currentTitleCleaned = cleanTitle(currentMovie.title).toLowerCase();
-
-            // Extract baseline alphanumeric words to calculate matching franchises/sequels
             let franchiseKeywords = currentTitleCleaned.split(' ').filter(word => word.length > 3 && !['chapter', 'part', 'movie', 'season', 'the', 'return'].includes(word));
 
             cleanDataset.forEach(movie => {
                 let score = 0;
                 let loopTitleCleaned = cleanTitle(movie.title).toLowerCase();
 
-                // 🎯 1. SEQUEL / PREQUEL FRANCHISE MATCHING ENGINE (Super high priority weight)
+                // Stage 1: Prequel / Sequel Franchise evaluation (+50 Points)[cite: 1]
                 let isSequelMatch = franchiseKeywords.some(keyword => loopTitleCleaned.includes(keyword));
-                if(isSequelMatch) {
-                    score += 50; // Instantly propel node onto front lines
-                }
+                if(isSequelMatch) score += 50;[cite: 1]
 
-                // 2. User History Preference Vector Mapping
+                // Stage 2: User History preferences match[cite: 1]
                 if(movie.categories) {
                     movie.categories.forEach(cat => {
-                        if(userHistoryGenres.includes(cat)) score += 3;
+                        if(userHistoryGenres.includes(cat)) score += 10;[cite: 1]
                     });
                 }
 
-                // 3. Current Live TMDB Meta Genre Convergence
+                // Stage 3: Current Movie TMDB Genre intersection[cite: 1]
                 if(movie.categories && tmdbGenres.length > 0) {
                     movie.categories.forEach(cat => {
-                        if(tmdbGenres.includes(cat)) score += 5;
+                        if(tmdbGenres.includes(cat)) score += 15;[cite: 1]
                     });
                 }
 
-                // 4. Keyword String Title overlap
-                if (loopTitleCleaned.split(' ').some(word => word.length > 4 && currentTitleCleaned.includes(word))) {
-                    score += 8;
+                // Stage 4: Actor / Cast alignment checks (+8 Points)[cite: 1]
+                if(movie.details && tmdbCastsBackup.length > 0) {
+                    let summary = movie.details.toLowerCase();
+                    tmdbCastsBackup.forEach(actor => {
+                        if(summary.includes(actor)) score += 8;[cite: 1]
+                    });
+                }
+
+                // Stage 5: Native Audio Track alignment (+4 Points Fallback Gate)[cite: 1]
+                if(movie.detectedAudio === currentMovie.detectedAudio) {
+                    score += 4;[cite: 1]
                 }
 
                 scoredCollection.push({ movie: movie, score: score });
             });
 
-            // Sort nodes gracefully and render onto viewport mapping layers
             scoredCollection.sort((a, b) => b.score - a.score);
             let finalRecommendedNodes = scoredCollection.slice(0, 12).map(item => item.movie);
             
-            finalRecommendedNodes.forEach(movie => container.appendChild(createMovieCard(movie)));
+            // Absolute Emergency Fallback Grid populator to guarantee 0% blank pages[cite: 1]
+            if(finalRecommendedNodes.length < 5) {
+                let remainingFillers = cleanDataset.filter(m => !finalRecommendedNodes.some(f => f.id === m.id)).slice(0, 8);[cite: 1]
+                finalRecommendedNodes = [...finalRecommendedNodes, ...remainingFillers];[cite: 1]
+            }
+
+            finalRecommendedNodes.slice(0, 10).forEach(movie => container.appendChild(createMovieCard(movie)));
         }
 
         function closeDetailsPage() {
