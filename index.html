@@ -13,9 +13,9 @@
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
         
-        /* 🔄 3D BACKGROUND CAROUSEL ENGINE */
-        .carousel-container-fixed { position: relative; width: 100%; height: 440px; overflow: visible; background-color: #060814; }
-        @media (min-width: 768px) { .carousel-container-fixed { height: 560px; } }
+        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - POSITION DOWN ADJUSTED ACCORDINGLY */
+        .carousel-container-fixed { position: relative; width: 100%; height: 480px; overflow: visible; background-color: #060814; margin-top: 40px; }
+        @media (min-width: 768px) { .carousel-container-fixed { height: 600px; margin-top: 64px; } }
         
         .carousel-viewport { position: absolute; top: 0; left: 0; width: 100%; height: 100%; perspective: 1400px; overflow: visible; z-index: 10; }
         .carousel-wheel-wrapper { position: relative; width: 100%; height: 100%; display: flex; justify-content: center; items: center; }
@@ -71,7 +71,7 @@
 
     <!-- VIEW A: HOME VIEW -->
     <div id="home-view-container" class="block">
-        <div class="carousel-container-fixed mt-6 md:mt-10">
+        <div class="carousel-container-fixed">
             <div class="absolute top-12 left-6 md:left-12 max-w-sm md:max-w-md space-y-4 text-left hidden lg:block z-30 pointer-events-auto" id="wheel-meta-pane">
                 <span class="bg-yellow-500 text-black text-[9px] font-black uppercase px-2.5 py-1 rounded tracking-widest shadow shadow-yellow-500/10">Spotlight</span>
                 <h2 id="wheel-title" class="text-3xl md:text-5xl font-black text-white tracking-tight leading-none drop-shadow-md">Loading...</h2>
@@ -311,6 +311,24 @@
             return /[\u0980-\u09FF]/.test(str);
         }
 
+        // 🔍 DETECT EXPLICIT / ADULT CONTENT SIGNATURES (Safe Gate Architecture)
+        function isAdultContentFlagged(movie) {
+            const blacklistKeywords = ['18+', 'adult', 'erotic', 'threesome', 'ullu', 'kooku', 'primeplay', 'hotshots', 'gandii baat', 'sex'];
+            const targetId = movie.id.toLowerCase();
+            const targetTitle = movie.title.toLowerCase();
+            
+            let playerUrl = "";
+            if (movie.players && movie.players.length > 0) {
+                playerUrl = movie.players[0].player_url.toLowerCase();
+            }
+
+            let categoriesStr = "";
+            if(movie.categories) categoriesStr = movie.categories.join(' ').toLowerCase();
+
+            const masterCheckPool = targetId + " " + targetTitle + " " + playerUrl + " " + categoriesStr;
+            return blacklistKeywords.some(keyword => masterCheckPool.includes(keyword));
+        }
+
         // 🔍 GLOBAL ADVANCED TRACK ENGINE (Scans Player Links, Title, ID with URL Fallbacks)
         function detectAdvancedAudioTracks(movie) {
             let playerUrl = "";
@@ -322,7 +340,6 @@
             const targetTitle = movie.title.toLowerCase();
             const scanPool = playerUrl + " " + targetId + " " + targetTitle;
 
-            // Multi/Dual Audio parsing router
             if (scanPool.includes('dual') || scanPool.includes('multi') || scanPool.includes('dual-audio')) {
                 let languages = [];
                 if (scanPool.includes('bengali') || scanPool.includes('bangla') || hasBengaliCharacters(movie.title)) {
@@ -338,16 +355,11 @@
                 return `Dual Audio: ${languages.join(', ')}`;
             }
 
-            // Single channel audio tracker routing
             if (scanPool.includes('bengali') || scanPool.includes('bangla') || hasBengaliCharacters(movie.title)) {
                 return "Audio: Bangla";
             }
-            if (scanPool.includes('hindi')) {
-                return "Audio: Hindi";
-            }
-            if (scanPool.includes('tamil')) {
-                return "Audio: Tamil";
-            }
+            if (scanPool.includes('hindi')) return "Audio: Hindi";
+            if (scanPool.includes('tamil')) return "Audio: Tamil";
             return "Audio: English";
         }
 
@@ -361,16 +373,14 @@
                     if(!m.views || m.views === 150) m.views = Math.floor(Math.random() * 500) + 160;
                     if(!m.rating || m.rating === 0) m.rating = 7.0;
                     
-                    // 🌟 CRITICAL: Compile and inject localized audio metadata into node memory globally immediately upon boot!
                     m.detectedAudio = detectAdvancedAudioTracks(m);
-                    
                     return m;
                 });
 
                 try {
                     const sgRes = await fetch('https://raw.githubusercontent.com/ahnafnazmul/STREAMguide-BD/main/data.json');
                     streamguideData = await sgRes.json();
-                } catch(e) { console.error("Streamguide data fetching error safely passed", e); }
+                } catch(e) { console.error("Streamguide data bypassed cleanly", e); }
 
                 processAlgorithmicRows();
                 build3DPosterWheel();
@@ -383,28 +393,30 @@
             wrapper.innerHTML = '';
             if(globalMoviesData.length === 0) return;
 
-            const items = globalMoviesData.slice(0, 10);
-            items.forEach((movie, index) => {
+            // Render safe spotlight content items inside 3D wheel container
+            const safeSpotlightItems = globalMoviesData.filter(m => !isAdultContentFlagged(m)).slice(0, 10);
+            
+            safeSpotlightItems.forEach((movie, index) => {
                 const node = document.createElement('div');
                 node.className = "wheel-node invisible-loop";
                 node.setAttribute('data-index', index);
                 node.innerHTML = `<img src="${movie.poster}" class="w-full h-full object-cover rounded-xl md:rounded-2xl">`;
                 node.onclick = () => {
                     if(index === wheelIndex) openDetailsPage(movie);
-                    else { wheelIndex = index; rotateWheelLogic(); }
+                    else { wheelIndex = index; rotateWheelLogic(safeSpotlightItems); }
                 };
                 wrapper.appendChild(node);
             });
 
-            rotateWheelLogic();
+            rotateWheelLogic(safeSpotlightItems);
             if(wheelTimer) clearInterval(wheelTimer);
             wheelTimer = setInterval(() => {
-                wheelIndex = (wheelIndex + 1) % items.length;
-                rotateWheelLogic();
+                wheelIndex = (wheelIndex + 1) % safeSpotlightItems.length;
+                rotateWheelLogic(safeSpotlightItems);
             }, 7000);
         }
 
-        function rotateWheelLogic() {
+        function rotateWheelLogic(safeItems) {
             const nodes = document.querySelectorAll('.wheel-node');
             if(nodes.length === 0) return;
             const total = nodes.length;
@@ -418,10 +430,10 @@
                 node.className = "wheel-node invisible-loop";
                 if (diff === 0) {
                     node.className = "wheel-node active-center";
-                    const movie = globalMoviesData[wheelIndex];
+                    const movie = safeItems[wheelIndex];
                     if(movie) {
                         document.getElementById('wheel-title').innerText = cleanTitle(movie.title);
-                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy premium streams flawlessly optimized.";
+                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy low latency premium clean stream optimizations.";
                         document.getElementById('wheel-year').innerText = movie.release_year;
                         document.getElementById('wheel-rating').innerText = `⭐ ${movie.rating}`;
                         document.getElementById('wheel-views').innerText = `Views: ${movie.views.toLocaleString()}`;
@@ -436,70 +448,63 @@
         }
 
         function processAlgorithmicRows() {
-            // 🎬 GLOBAL DATA-LOAD MATCH INTEGRATION LOGIC
+            // 🛑 FILTER OUT ADULT SIGNATURES IMMEDIATELY FOR PREMIUM HOME ROW CHANNELS
+            const cleanGlobalDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m));
+
             let globalBanglaMatchedList = [];
 
-            globalMoviesData.forEach(m => {
-                const track = m.detectedAudio;
-                // If audio track has explicitly evaluated or holds "Bangla" references, push natively
-                if (track.includes('Bangla')) {
+            // 1. GLOBAL COMPILED BANGLA INTERFACE (Extracting purely clean family nodes)
+            cleanGlobalDataset.forEach(m => {
+                if (m.detectedAudio.includes('Bangla')) {
                     globalBanglaMatchedList.push(m);
                 }
             });
 
-            // Dual source cross screening verification fallback (Streamguide pipeline checking)
             const allowedPlatforms = ['chorki', 'bongo', 'hoichoi', 'deepto', 'bioscope', 'binge', 'beinge', 'iscreen', 'tofee', 'toffee', 'utshob'];
             let rawBanglaItems = streamguideData.filter(m => m.p && allowedPlatforms.includes(m.p.toLowerCase()));
             
             rawBanglaItems.forEach(sg => {
-                let matchedMovie = globalMoviesData.find(m => cleanTitle(m.title).toLowerCase() === cleanTitle(sg.t).toLowerCase());
-                
+                let matchedMovie = cleanGlobalDataset.find(m => cleanTitle(m.title).toLowerCase() === cleanTitle(sg.t).toLowerCase());
                 if(!matchedMovie && sg.url) {
                     let parts = sg.url.split('/').filter(Boolean);
                     let slug = parts.pop(); 
                     if(slug) {
                         slug = slug.replace(/-/g, ' ').toLowerCase();
-                        matchedMovie = globalMoviesData.find(m => {
-                            let mId = m.id.toLowerCase().replace(/_/g, ' ');
-                            return mId.includes(slug);
-                        });
+                        matchedMovie = cleanGlobalDataset.find(m => m.id.toLowerCase().replace(/_/g, ' ').includes(slug));
                     }
                 }
 
-                if (matchedMovie) {
-                    const track = matchedMovie.detectedAudio;
-                    if (track.includes('Bangla') && !globalBanglaMatchedList.some(item => item.id === matchedMovie.id)) {
-                        globalBanglaMatchedList.push(matchedMovie);
-                    }
+                if (matchedMovie && !globalBanglaMatchedList.some(item => item.id === matchedMovie.id)) {
+                    globalBanglaMatchedList.push(matchedMovie);
                 }
             });
 
-            // 1. BANGLA ROW (Unlimited - Global Compiled Audio List matches)
+            // Row 1: Bangla Row (Unlimited Clean Family Content)
             globalBanglaMatchedList.sort((a,b) => (b.timestamp || 0) - (a.timestamp || 0));
             sortedRowsData.bangla = globalBanglaMatchedList;
 
-            const chronologicalList = [...globalMoviesData].reverse();
+            const chronologicalList = [...cleanGlobalDataset].reverse();
 
-            // 2. NEW RELEASE ROW (Strict first 20 nodes chronologically)
+            // Row 2: New Release Row (Strict first 20 clean rows)
             sortedRowsData.newRelease = chronologicalList.slice(0, 20);
 
-            // 3. RECENT RELEASE ROW (Strict next 30 nodes chronologically without duplicates)
+            // Row 3: Recent Release Row (Strict next 30 clean rows)
             sortedRowsData.recentRelease = chronologicalList.slice(20, 50);
 
-            // 4. TOP RATED ROW (Filtered purely by 60 days time window cutoff criteria)
+            // Row 4: Top Rated Row (Filtered by 60 Days window matching real high popularity weights)
             const cutoffDate = new Date();
             cutoffDate.setDate(cutoffDate.getDate() - 60);
             
-            sortedRowsData.topRated = globalMoviesData.filter(m => {
+            sortedRowsData.topRated = cleanGlobalDataset.filter(m => {
                 if(!m.timestamp) return false;
                 const movieDate = new Date(m.timestamp * 1000);
                 return movieDate >= cutoffDate;
             }).sort((a, b) => b.rating - a.rating);
 
-            // 5. TRENDING NOW ROW
-            sortedRowsData.trending = [...globalMoviesData].sort((a,b) => b.views - a.views).slice(0, 15);
+            // Row 5: Trending Now Row (Powered by Real Global View Index Metrics)
+            sortedRowsData.trending = [...cleanGlobalDataset].sort((a,b) => b.views - a.views).slice(0, 15);
 
-            // 6. ALL CONTENTS ROW (The master catalog without any limit boundaries)
+            // Row 6: All Contents Row (Complete unfiltered pipeline master database catalog)
             sortedRowsData.allContents = [...globalMoviesData];
 
             renderRow('grid-bangla', sortedRowsData.bangla);
@@ -568,7 +573,6 @@
             applyAdvancedFiltersEngine();
         }
 
-        // 🎛️ ADVANCED ENGINE ROUTER FILTER MECHANISM
         function applyAdvancedFiltersEngine() {
             const targetGenre = document.getElementById('filter-genre').value;
             const targetAudio = document.getElementById('filter-lang').value;
@@ -582,7 +586,6 @@
                 filteredResult = filteredResult.filter(m => m.categories && m.categories.includes(targetGenre));
             }
 
-            // 🎯 Advanced compiled real-time runtime audio logic mapping execution
             if(targetAudio !== 'all') {
                 filteredResult = filteredResult.filter(m => {
                     const track = m.detectedAudio;
@@ -619,7 +622,7 @@
             const grid = document.getElementById('see-more-grid');
             grid.innerHTML = '';
             if(filteredResult.length === 0) {
-                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching configurations discovered.</span>`;
+                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching streaming signatures discovered.</span>`;
                 return;
             }
 
@@ -673,9 +676,8 @@
             document.getElementById('details-year').innerText = movie.release_year;
             document.getElementById('details-rating').innerText = `⭐ ${movie.rating}`;
             document.getElementById('details-views').innerText = `Views: ${movie.views.toLocaleString()}`;
-            document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis parsing complete.";
+            document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis rendering complete.";
 
-            // Display compiled audio track details directly onto specification interface panel
             document.getElementById('details-meta-audio').innerText = movie.detectedAudio;
 
             document.getElementById('details-video-iframe').src = "";
@@ -793,7 +795,10 @@
             container.innerHTML = '';
             
             let scoredMovies = [];
-            for (let movie of globalMoviesData) {
+            // Screen filtered clean collection list for recommendation models too
+            const cleanRecommendationList = globalMoviesData.filter(m => !isAdultContentFlagged(m));
+
+            for (let movie of cleanRecommendationList) {
                 if (movie.id === currentMovie.id) continue;
                 
                 let score = 0;
@@ -813,7 +818,7 @@
         function renderFallbackSimilarContent(currentMovie) {
             const container = document.getElementById('grid-similar-content');
             container.innerHTML = '';
-            const matching = globalMoviesData.filter(m => m.id !== currentMovie.id).slice(0, 10);
+            const matching = globalMoviesData.filter(m => m.id !== currentMovie.id && !isAdultContentFlagged(m)).slice(0, 10);
             matching.forEach(movie => container.appendChild(createMovieCard(movie)));
         }
 
@@ -837,7 +842,7 @@
                 
                 const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query));
                 if(filtered.length === 0) {
-                    grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-6">No matching streaming proxies found.</span>`;
+                    grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-6">No matching streaming entries discovered.</span>`;
                     return;
                 }
                 filtered.forEach(movie => {
