@@ -55,8 +55,9 @@
         .wheel-node.invisible-loop { transform: scale(0.4) translateZ(-250px); z-index: 5; opacity: 0; pointer-events: none; }
         .movie-card { transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border: 1px solid rgba(255,255,255,0.03); }
         .movie-card:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
-        
-        
+    </style>
+</head>
+<body class="relative min-h-screen">
 
     <!-- 1. HEADER MENU BAR -->
     <header class="w-full bg-[#060814]/95 backdrop-blur-md border-b border-white/5 sticky top-0 z-50 px-4 md:px-12 py-3 flex items-center justify-between shadow-xl">
@@ -320,15 +321,6 @@
         let currentViewingMovieObj = null;
         let tmdbCastsBackup = [];
 
-        // ⚡ BULLETPROOF PRELOADER KILLSWITCH GATEWAY
-        function hidePreloaderSafely() {
-            const preloader = document.getElementById('site-preloader');
-            if(preloader) {
-                preloader.style.opacity = '0';
-                setTimeout(() => preloader.style.visibility = 'hidden', 300);
-            }
-        }
-
         // 📊 UP-DOWN OPTIMIZED TRAFFIC GENERATOR CONSTANTS
         function initTrafficCounters() {
             document.getElementById('count-active').innerText = Math.floor(Math.random() * (240 - 70 + 1)) + 70;
@@ -412,8 +404,6 @@
                 populateGenreDropdown();
             } catch (e) { 
                 console.error("Ecosystem structural break avoided: ", e); 
-            } finally {
-                hidePreloaderSafely(); // Emergency backup close out gateway
             }
         }
 
@@ -479,7 +469,6 @@
             const cleanGlobalDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m));
             let globalBanglaMatchedList = [];
 
-            // 🎯 GLOBO MULTI-ROUTING CONVERGENCE CHANNELS[cite: 1]
             cleanGlobalDataset.forEach(m => {
                 if (m.detectedAudio.includes('Bangla')) {
                     globalBanglaMatchedList.push(m);
@@ -853,35 +842,35 @@
                 let score = 0;
                 let loopTitleCleaned = cleanTitle(movie.title).toLowerCase();
 
-                // Stage 1: Franchise Evaluation[cite: 1]
+                // Stage 1: Franchise Evaluation
                 let isSequelMatch = franchiseKeywords.some(keyword => loopTitleCleaned.includes(keyword));
-                if(isSequelMatch) score += 50;[cite: 1]
+                if(isSequelMatch) score += 50;
 
-                // Stage 2: User History preferences[cite: 1]
+                // Stage 2: User History preferences
                 if(movie.categories) {
                     movie.categories.forEach(cat => {
-                        if(userHistoryGenres.includes(cat)) score += 10;[cite: 1]
+                        if(userHistoryGenres.includes(cat)) score += 10;
                     });
                 }
 
-                // Stage 3: Live TMDB Genre intersection[cite: 1]
+                // Stage 3: Live TMDB Genre intersection
                 if(movie.categories && tmdbGenres.length > 0) {
                     movie.categories.forEach(cat => {
-                        if(tmdbGenres.includes(cat)) score += 15;[cite: 1]
+                        if(tmdbGenres.includes(cat)) score += 15;
                     });
                 }
 
-                // Stage 4: Actor / Cast checks[cite: 1]
+                // Stage 4: Actor / Cast checks
                 if(movie.details && tmdbCastsBackup.length > 0) {
                     let summary = movie.details.toLowerCase();
                     tmdbCastsBackup.forEach(actor => {
-                        if(summary.includes(actor)) score += 8;[cite: 1]
+                        if(summary.includes(actor)) score += 8;
                     });
                 }
 
-                // Stage 5: Native Audio Track alignment[cite: 1]
+                // Stage 5: Native Audio Track alignment
                 if(movie.detectedAudio === currentMovie.detectedAudio) {
-                    score += 4;[cite: 1]
+                    score += 4;
                 }
 
                 scoredCollection.push({ movie: movie, score: score });
@@ -891,8 +880,8 @@
             let finalRecommendedNodes = scoredCollection.slice(0, 12).map(item => item.movie);
             
             if(finalRecommendedNodes.length < 5) {
-                let remainingFillers = cleanDataset.filter(m => !finalRecommendedNodes.some(f => f.id === m.id)).slice(0, 8);[cite: 1]
-                finalRecommendedNodes = [...finalRecommendedNodes, ...remainingFillers];[cite: 1]
+                let remainingFillers = cleanDataset.filter(m => !finalRecommendedNodes.some(f => f.id === m.id)).slice(0, 8);
+                finalRecommendedNodes = [...finalRecommendedNodes, ...remainingFillers];
             }
 
             finalRecommendedNodes.slice(0, 10).forEach(movie => container.appendChild(createMovieCard(movie)));
@@ -932,11 +921,9 @@
             }
         });
 
-        // ⚡ MULTI-FALLBACK CORE INITIATION ENGINE
+        // DIRECT LAUNCH ON DOM LOAD
         document.addEventListener("DOMContentLoaded", () => {
             initMovieplex();
-            // Absolute hardware rendering fallback gate: force close preloader if it lags over 2 seconds
-            setTimeout(hidePreloaderSafely, 2000);
         });
     </script>
 </body>
