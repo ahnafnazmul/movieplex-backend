@@ -245,6 +245,11 @@
             return title.replace(/\(.*?\)|\[.*?\]/g, '').replace(/hindi|bengali|bongoBD|hoichoi|web-dl|web|s01|s02|complete|nf/gi, '').trim();
         }
 
+        // Helper: Check if string has any Bengali script characters
+        function hasBengaliCharacters(str) {
+            return /[\u0980-\u09FF]/.test(str);
+        }
+
         async function initMovieplex() {
             initTrafficCounters();
             try {
@@ -327,21 +332,20 @@
         }
 
         function processAlgorithmicRows() {
-            // Bangla Row Logic using Streamguide Data
             const allowedPlatforms = ['chorki', 'bongo', 'hoichoi', 'deepto', 'bioscope', 'binge', 'beinge', 'iscreen', 'tofee', 'toffee', 'utshob'];
-            let banglaItems = streamguideData.filter(m => m.p && allowedPlatforms.includes(m.p.toLowerCase()));
+            let rawBanglaItems = streamguideData.filter(m => m.p && allowedPlatforms.includes(m.p.toLowerCase()));
             
-            // Sort by releaseDate descending (Latest First)
-            banglaItems.sort((a,b) => new Date(b.releaseDate || '1970-01-01') - new Date(a.releaseDate || '1970-01-01'));
+            let matchedList = [];
+            let uploadingList = [];
 
-            sortedRowsData.bangla = banglaItems.map(sg => {
+            rawBanglaItems.forEach(sg => {
                 let matchedMovie = null;
                 
-                // 1. Title Match Fallback
+                // 1. Cross-matching Strategy A: Clean Title match
                 let cleanSgTitle = cleanTitle(sg.t).toLowerCase();
                 matchedMovie = globalMoviesData.find(m => cleanTitle(m.title).toLowerCase() === cleanSgTitle);
                 
-                // 2. URL Slug Match (Main Logic for Bengali Names)
+                // 2. Cross-matching Strategy B: URL Slug parsing hock
                 if(!matchedMovie && sg.url) {
                     let parts = sg.url.split('/').filter(Boolean);
                     let slug = parts.pop(); 
@@ -354,21 +358,44 @@
                     }
                 }
 
-                return {
+                // Firewall Filter: Protect Bioscope & Toffee from non-bengali contents
+                if (!matchedMovie && ['bioscope', 'tofee', 'toffee'].includes(sg.p.toLowerCase())) {
+                    // Skip if it doesn't have any native Bengali script character in title
+                    if (!hasBengaliCharacters(sg.t)) {
+                        return; 
+                    }
+                }
+
+                let finalObject = {
                     id: matchedMovie ? matchedMovie.id : 'sg_' + Math.random().toString(36).substr(2, 9),
-                    title: sg.t,
-                    poster: (sg.img && sg.img !== "N/A") ? sg.img : 'https://via.placeholder.com/300x450?text=No+Poster',
-                    rating: sg.rating || 0.0,
+                    title: matchedMovie ? matchedMovie.title : sg.t,
+                    poster: matchedMovie ? matchedMovie.poster : ((sg.img && sg.img !== "N/A") ? sg.img : 'https://via.placeholder.com/300x450?text=No+Poster'),
+                    rating: matchedMovie ? matchedMovie.rating : (sg.rating || 0.0),
                     views: matchedMovie ? matchedMovie.views : Math.floor(Math.random() * 500) + 160,
-                    release_year: sg.releaseDate ? sg.releaseDate.split('-')[0] : '--',
-                    categories: ['Bangla'],
-                    details: sg.overview && sg.overview !== "N/A" ? sg.overview : "No summary available.",
+                    release_year: matchedMovie ? matchedMovie.release_year : (sg.releaseDate ? sg.releaseDate.split('-')[0] : '--'),
+                    categories: matchedMovie ? matchedMovie.categories : ['Bangla'],
+                    details: matchedMovie ? matchedMovie.details : (sg.overview && sg.overview !== "N/A" ? sg.overview : "No summary available."),
                     players: matchedMovie ? matchedMovie.players : [],
-                    isUploading: !matchedMovie // Flag for uploading state
+                    timestamp: matchedMovie ? (matchedMovie.timestamp || 0) : 0,
+                    releaseDateRaw: sg.releaseDate || '1970-01-01',
+                    isUploading: !matchedMovie
                 };
+
+                if (matchedMovie) {
+                    matchedList.push(finalObject);
+                } else {
+                    uploadingList.push(finalObject);
+                }
             });
 
-            // Standard Rows Logic
+            // 🔄 Smart sorting engine hack: Pure Live items stay in front by calendar date descending
+            matchedList.sort((a,b) => new Date(b.releaseDateRaw) - new Date(a.releaseDateRaw));
+            uploadingList.sort((a,b) => new Date(b.releaseDateRaw) - new Date(a.releaseDateRaw));
+
+            // Merge queues: Active Live items first, Confused/Uploading items at the back
+            sortedRowsData.bangla = [...matchedList, ...uploadingList];
+
+            // Standard core pipeline rows processing
             const latestMovies = [...globalMoviesData].reverse();
             sortedRowsData.newRelease = latestMovies.slice(0, 15);
             sortedRowsData.recentRelease = latestMovies.slice(15, 30);
@@ -394,6 +421,7 @@
             div.innerHTML = `
                 <div class="relative w-full pt-[142%] bg-slate-950">
                     <img src="${movie.poster}" alt="${movie.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-103 transition duration-500" loading="lazy">
+                    ${movie.isUploading ? `<div class="absolute top-2 left-2 bg-orange-600/90 text-white text-[8px] font-black uppercase px-2 py-0.5 rounded tracking-wider shadow">⏳ Uploading</div>` : ''}
                     <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/90 to-transparent p-2 md:p-2.5 pt-8">
                         <h4 class="text-[10px] sm:text-[11px] font-bold truncate text-gray-100 group-hover:text-yellow-500 transition">${cleanTitle(movie.title)}</h4>
                         <div class="flex justify-between items-center mt-0.5 text-[8px] sm:text-[9px] text-gray-400 font-bold">
@@ -475,7 +503,7 @@
             const serverContainer = document.getElementById('details-server-container');
             serverContainer.innerHTML = '';
 
-            // Check if uploading state
+            // Check if uploading fallback applies
             if(movie.isUploading) {
                 document.getElementById('player-shield').classList.remove('hidden');
                 document.getElementById('player-shield').innerHTML = `
@@ -515,6 +543,7 @@
         }
 
         function activatePlayerFrame() {
+            document.getElementById('player-shield').append = "hidden";
             document.getElementById('player-shield').classList.add('hidden');
             document.getElementById('details-video-iframe').src = activePlayerSrc;
         }
