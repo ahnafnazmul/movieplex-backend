@@ -13,7 +13,7 @@
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
         
-        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - POSITION DOWN ADJUSTED ACCORDINGLY */
+        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - DOWNWARD POSITIONING MAINTAINED */
         .carousel-container-fixed { position: relative; width: 100%; height: 480px; overflow: visible; background-color: #060814; margin-top: 40px; }
         @media (min-width: 768px) { .carousel-container-fixed { height: 600px; margin-top: 64px; } }
         
@@ -91,7 +91,8 @@
             <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0c0f1d] to-transparent pointer-events-none z-30"></div>
         </div>
 
-        <div class="pl-4 md:pl-12 space-y-10 -mt-28 md:-mt-36 relative z-40 bg-gradient-to-b from-transparent via-[#0c0f1d] to-[#0c0f1d] pt-4 pb-12">
+        <!-- 📐 OPTIMIZED NEGATIVE MARGIN OVERLAP SYSTEM TO BRING ALL ROWS BACK UPWARD -->
+        <div class="pl-4 md:pl-12 space-y-10 -mt-44 md:-mt-56 relative z-40 bg-gradient-to-b from-transparent via-[#0c0f1d] to-[#0c0f1d] pt-4 pb-12">
             
             <!-- Row 1: Bangla -->
             <div class="space-y-3" id="section-bangla">
@@ -120,22 +121,22 @@
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-recent-release"></div>
             </div>
 
-            <!-- Row 4: Top Rated -->
-            <div class="space-y-3" id="section-top-rated">
-                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
-                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-green-500 mr-2 rounded"></span>🏆 Top Rated (60 Days)</h3>
-                    <button onclick="viewAllAlgorithmic('top-rated')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
-                </div>
-                <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-top-rated"></div>
-            </div>
-
-            <!-- Row 5: Trending Now -->
+            <!-- Row 4: Trending Now (Moved Up Successfully) -->
             <div class="space-y-3" id="section-trending">
                 <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
                     <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-orange-500 mr-2 rounded"></span>🔥 Trending Now</h3>
                     <button onclick="viewAllAlgorithmic('trending')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
                 </div>
                 <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-trending"></div>
+            </div>
+
+            <!-- Row 5: Top Rated (Moved Down Successfully) -->
+            <div class="space-y-3" id="section-top-rated">
+                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
+                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-green-500 mr-2 rounded"></span>🏆 Top Rated (60 Days)</h3>
+                    <button onclick="viewAllAlgorithmic('top-rated')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
+                </div>
+                <div class="flex space-x-3 overflow-x-auto scroller py-2 px-0.5" id="grid-top-rated"></div>
             </div>
 
             <!-- Row 6: All Contents -->
@@ -268,8 +269,9 @@
             </div>
         </div>
 
+        <!-- 🚀 RENAMED & POWERED UP TO RECOMMENDED CONTENT AREA -->
         <div class="space-y-4 border-t border-white/5 pt-6">
-            <h3 class="text-xs md:text-sm font-bold text-gray-200">🍿 Similar Content You May Like</h3>
+            <h3 class="text-xs md:text-sm font-bold text-gray-200">✨ Recommended Content For You</h3>
             <div class="flex space-x-3 overflow-x-auto scroller py-2" id="grid-similar-content"></div>
         </div>
     </div>
@@ -297,6 +299,7 @@
         let wheelIndex = 0;
         let wheelTimer = null;
         let activePlayerSrc = "";
+        let currentViewingMovieObj = null;
 
         function initTrafficCounters() {
             document.getElementById('count-active').innerText = Math.floor(Math.random() * 90) + 10;
@@ -313,7 +316,7 @@
 
         // 🔍 DETECT EXPLICIT / ADULT CONTENT SIGNATURES (Safe Gate Architecture)
         function isAdultContentFlagged(movie) {
-            const blacklistKeywords = ['18+', 'adult', 'erotic', 'threesome', 'ullu', 'kooku', 'primeplay', 'hotshots', 'gandii baat', 'sex'];
+            const blacklistKeywords = ['18+', 'adult', 'erotic', 'threesome', 'ullu', 'kooku', 'primeplay', 'hotshots', 'gandii baat', 'sex', 'desikahaniya'];
             const targetId = movie.id.toLowerCase();
             const targetTitle = movie.title.toLowerCase();
             
@@ -393,7 +396,6 @@
             wrapper.innerHTML = '';
             if(globalMoviesData.length === 0) return;
 
-            // Render safe spotlight content items inside 3D wheel container
             const safeSpotlightItems = globalMoviesData.filter(m => !isAdultContentFlagged(m)).slice(0, 10);
             
             safeSpotlightItems.forEach((movie, index) => {
@@ -448,12 +450,12 @@
         }
 
         function processAlgorithmicRows() {
-            // 🛑 FILTER OUT ADULT SIGNATURES IMMEDIATELY FOR PREMIUM HOME ROW CHANNELS
+            // 🛑 CRITICAL ADULT SANITIZATION EXTENDED UNTO ALL HOMEPAGE CHANNELS NATIVELY
             const cleanGlobalDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m));
 
             let globalBanglaMatchedList = [];
 
-            // 1. GLOBAL COMPILED BANGLA INTERFACE (Extracting purely clean family nodes)
+            // 1. GLOBAL COMPILED BANGLA INTERFACE 
             cleanGlobalDataset.forEach(m => {
                 if (m.detectedAudio.includes('Bangla')) {
                     globalBanglaMatchedList.push(m);
@@ -485,13 +487,16 @@
 
             const chronologicalList = [...cleanGlobalDataset].reverse();
 
-            // Row 2: New Release Row (Strict first 20 clean rows)
+            // Row 2: New Release Row (Strict first 20 clean nodes)
             sortedRowsData.newRelease = chronologicalList.slice(0, 20);
 
-            // Row 3: Recent Release Row (Strict next 30 clean rows)
+            // Row 3: Recent Release Row (Strict next 30 clean nodes)
             sortedRowsData.recentRelease = chronologicalList.slice(20, 50);
 
-            // Row 4: Top Rated Row (Filtered by 60 Days window matching real high popularity weights)
+            // Row 4: Trending Now Row (Positioned Upward)
+            sortedRowsData.trending = [...cleanGlobalDataset].sort((a,b) => b.views - a.views).slice(0, 15);
+
+            // Row 5: Top Rated Row (Positioned Downward - Filtered by 60 Days cutoff window criteria)
             const cutoffDate = new Date();
             cutoffDate.setDate(cutoffDate.getDate() - 60);
             
@@ -501,17 +506,14 @@
                 return movieDate >= cutoffDate;
             }).sort((a, b) => b.rating - a.rating);
 
-            // Row 5: Trending Now Row (Powered by Real Global View Index Metrics)
-            sortedRowsData.trending = [...cleanGlobalDataset].sort((a,b) => b.views - a.views).slice(0, 15);
-
-            // Row 6: All Contents Row (Complete unfiltered pipeline master database catalog)
-            sortedRowsData.allContents = [...globalMoviesData];
+            // Row 6: All Contents Row (Safe filtered on home screen, completely accessible via advanced hub/queries)
+            sortedRowsData.allContents = [...cleanGlobalDataset];
 
             renderRow('grid-bangla', sortedRowsData.bangla);
             renderRow('grid-new-release', sortedRowsData.newRelease);
             renderRow('grid-recent-release', sortedRowsData.recentRelease);
-            renderRow('grid-top-rated', sortedRowsData.topRated);
             renderRow('grid-trending', sortedRowsData.trending);
+            renderRow('grid-top-rated', sortedRowsData.topRated);
             renderRow('grid-all-contents', sortedRowsData.allContents);
         }
 
@@ -580,7 +582,7 @@
             const targetMinRating = parseFloat(document.getElementById('filter-rating').value);
             const targetSort = document.getElementById('filter-sort').value;
 
-            let filteredResult = [...globalMoviesData];
+            let filteredResult = [...globalMoviesData]; // Access unfiltered master list inside advanced hub
 
             if(targetGenre !== 'all') {
                 filteredResult = filteredResult.filter(m => m.categories && m.categories.includes(targetGenre));
@@ -622,7 +624,7 @@
             const grid = document.getElementById('see-more-grid');
             grid.innerHTML = '';
             if(filteredResult.length === 0) {
-                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching streaming signatures discovered.</span>`;
+                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching configurations discovered.</span>`;
                 return;
             }
 
@@ -667,6 +669,7 @@
         }
 
         async function openDetailsPage(movie) {
+            currentViewingMovieObj = movie;
             document.getElementById('home-view-container').classList.replace('block', 'hidden');
             document.getElementById('explorer-view-container').classList.replace('block', 'hidden');
             document.getElementById('details-view-container').classList.replace('hidden', 'block');
@@ -697,12 +700,17 @@
                     const btn = document.createElement('button');
                     btn.className = `px-4 py-1.5 rounded-lg text-[11px] font-black uppercase transition ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800'}`;
                     btn.innerText = `Server ${index + 1}`;
+                    
+                    // Hook active execution block to trigger dynamically mapped local state caching models
                     btn.onclick = function() {
                         Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase');
                         btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
                         activePlayerSrc = player.player_url;
                         document.getElementById('player-shield').classList.remove('hidden');
                         document.getElementById('details-video-iframe').src = "";
+                        
+                        // 🧠 Cache user favorite streaming selections seamlessly inside storage vectors
+                        cacheUserPlaybackPreferences(movie);
                     };
                     serverContainer.appendChild(btn);
                 });
@@ -714,6 +722,24 @@
         function activatePlayerFrame() {
             document.getElementById('player-shield').classList.add('hidden');
             document.getElementById('details-video-iframe').src = activePlayerSrc;
+            if(currentViewingMovieObj) cacheUserPlaybackPreferences(currentViewingMovieObj);
+        }
+
+        // 🧠 LOCAL STORAGE ENGINE FOR USER RECOMMENDATION MODELS
+        function cacheUserPlaybackPreferences(movie) {
+            try {
+                let history = JSON.parse(localStorage.getItem('mp_genre_history')) || [];
+                if(movie.categories) {
+                    movie.categories.forEach(cat => {
+                        if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio"].includes(cat)) {
+                            history.push(cat);
+                        }
+                    });
+                }
+                // Cap cache index safely at maximum bounds to avoid footprint bloat
+                if(history.length > 40) history = history.slice(-40);
+                localStorage.setItem('mp_genre_history', JSON.stringify(history));
+            } catch(e) { console.error("Cache memory writing failed cleanly", e); }
         }
 
         async function fetchDeepTMDBData(tmdbIdStr, localCategories, currentMovie) {
@@ -738,7 +764,7 @@
             }
 
             if(!tmdbIdStr || !tmdbIdStr.includes('_')) {
-                renderFallbackSimilarContent(currentMovie);
+                renderAdvancedRecommendedContent(currentMovie, []);
                 return;
             }
             
@@ -761,8 +787,10 @@
                     document.getElementById('details-meta-country').innerText = res.production_countries.map(c => c.name).join(', ');
                 }
 
+                let apiGenreNames = [];
                 if(res.genres) {
                     res.genres.forEach(g => {
+                        apiGenreNames.push(g.name);
                         const span = document.createElement('span');
                         span.className = "bg-slate-900 border border-slate-800 text-yellow-500 text-[9px] font-black px-2.5 py-0.5 rounded-full uppercase";
                         span.innerText = g.name;
@@ -782,50 +810,75 @@
                     castContainer.appendChild(div);
                 });
 
-                renderTMDBBasedSimilarContent(currentMovie);
+                renderAdvancedRecommendedContent(currentMovie, apiGenreNames);
 
             } catch(e) { 
-                console.error(e);
-                renderFallbackSimilarContent(currentMovie);
+                console.error(m);
+                renderAdvancedRecommendedContent(currentMovie, []);
             }
         }
 
-        async function renderTMDBBasedSimilarContent(currentMovie) {
+        // 🧠 ADVANCED ECOSYSTEM RECOMMENDATION & SEQUEL INTELLIGENCE ENGINE
+        function renderAdvancedRecommendedContent(currentMovie, tmdbGenres) {
             const container = document.getElementById('grid-similar-content');
             container.innerHTML = '';
             
-            let scoredMovies = [];
-            // Screen filtered clean collection list for recommendation models too
-            const cleanRecommendationList = globalMoviesData.filter(m => !isAdultContentFlagged(m));
+            const cleanDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m) && m.id !== currentMovie.id);
+            let userHistoryGenres = [];
+            try {
+                userHistoryGenres = JSON.parse(localStorage.getItem('mp_genre_history')) || [];
+            } catch(e){}
 
-            for (let movie of cleanRecommendationList) {
-                if (movie.id === currentMovie.id) continue;
-                
+            let scoredCollection = [];
+            let currentTitleCleaned = cleanTitle(currentMovie.title).toLowerCase();
+
+            // Extract baseline alphanumeric words to calculate matching franchises/sequels
+            let franchiseKeywords = currentTitleCleaned.split(' ').filter(word => word.length > 3 && !['chapter', 'part', 'movie', 'season', 'the', 'return'].includes(word));
+
+            cleanDataset.forEach(movie => {
                 let score = 0;
-                let currentClean = cleanTitle(currentMovie.title).toLowerCase();
-                let loopClean = cleanTitle(movie.title).toLowerCase();
-                if (loopClean.split(' ').some(word => word.length > 3 && currentClean.includes(word))) {
-                    score += 3;
+                let loopTitleCleaned = cleanTitle(movie.title).toLowerCase();
+
+                // 🎯 1. SEQUEL / PREQUEL FRANCHISE MATCHING ENGINE (Super high priority weight)
+                let isSequelMatch = franchiseKeywords.some(keyword => loopTitleCleaned.includes(keyword));
+                if(isSequelMatch) {
+                    score += 50; // Instantly propel node onto front lines
                 }
-                scoredMovies.push({ movie: movie, score: score });
-            }
 
-            scoredMovies.sort((a, b) => b.score - a.score);
-            let topMatches = scoredMovies.slice(0, 10).map(item => item.movie);
-            topMatches.forEach(movie => container.appendChild(createMovieCard(movie)));
-        }
+                // 2. User History Preference Vector Mapping
+                if(movie.categories) {
+                    movie.categories.forEach(cat => {
+                        if(userHistoryGenres.includes(cat)) score += 3;
+                    });
+                }
 
-        function renderFallbackSimilarContent(currentMovie) {
-            const container = document.getElementById('grid-similar-content');
-            container.innerHTML = '';
-            const matching = globalMoviesData.filter(m => m.id !== currentMovie.id && !isAdultContentFlagged(m)).slice(0, 10);
-            matching.forEach(movie => container.appendChild(createMovieCard(movie)));
+                // 3. Current Live TMDB Meta Genre Convergence
+                if(movie.categories && tmdbGenres.length > 0) {
+                    movie.categories.forEach(cat => {
+                        if(tmdbGenres.includes(cat)) score += 5;
+                    });
+                }
+
+                // 4. Keyword String Title overlap
+                if (loopTitleCleaned.split(' ').some(word => word.length > 4 && currentTitleCleaned.includes(word))) {
+                    score += 8;
+                }
+
+                scoredCollection.push({ movie: movie, score: score });
+            });
+
+            // Sort nodes gracefully and render onto viewport mapping layers
+            scoredCollection.sort((a, b) => b.score - a.score);
+            let finalRecommendedNodes = scoredCollection.slice(0, 12).map(item => item.movie);
+            
+            finalRecommendedNodes.forEach(movie => container.appendChild(createMovieCard(movie)));
         }
 
         function closeDetailsPage() {
             document.getElementById('details-video-iframe').src = '';
             document.getElementById('details-view-container').classList.replace('block', 'hidden');
             document.getElementById('home-view-container').classList.replace('hidden', 'block');
+            currentViewingMovieObj = null;
         }
 
         document.getElementById('search-bar').addEventListener('input', function(e) {
@@ -842,7 +895,7 @@
                 
                 const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query));
                 if(filtered.length === 0) {
-                    grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-6">No matching streaming entries discovered.</span>`;
+                    grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-6">No matching entries discovered.</span>`;
                     return;
                 }
                 filtered.forEach(movie => {
