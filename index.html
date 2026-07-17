@@ -13,7 +13,7 @@
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
         
-        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - PERFECT BALANCED GAPS LOADED */
+        /* 🔄 3D BACKGROUND CAROUSEL ENGINE */
         .carousel-container-fixed { position: relative; width: 100%; height: 420px; overflow: visible; background-color: #060814; margin-top: 55px; }
         @media (min-width: 768px) { .carousel-container-fixed { height: 560px; margin-top: 75px; } }
         
@@ -55,9 +55,42 @@
         .wheel-node.invisible-loop { transform: scale(0.4) translateZ(-250px); z-index: 5; opacity: 0; pointer-events: none; }
         .movie-card { transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border: 1px solid rgba(255,255,255,0.03); }
         .movie-card:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
+
+        /* ⚠️ STRATEGIC MARKETING & LEGAL SHIELD MODAL */
+        #legal-shield-modal { display: flex; animation: fadeIn 0.3s ease-out; }
+        .text-stroke-red { text-shadow: -1.5px -1.5px 0 #cc0000, 1.5px -1.5px 0 #cc0000, -1.5px 1.5px 0 #cc0000, 1.5px 1.5px 0 #cc0000; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
 </head>
-<body class="relative min-h-screen pb-[120px] md:pb-[100px]"> <!-- Clean padding bottom to handle slimmed HUD footprint safely -->
+<body class="relative min-h-screen pb-[120px] md:pb-[100px]">
+
+    <!-- ⚠️ STRATEGIC 5-SECOND MARKETING & LEGAL SHIELD POP-UP -->
+    <div id="legal-shield-modal" class="fixed inset-0 z-[100] bg-black/80 backdrop-blur-md flex items-center justify-center p-4 select-none">
+        <div class="bg-yellow-500 text-slate-950 w-full max-w-lg rounded-2xl p-6 md:p-8 shadow-[0_20px_50px_rgba(234,179,8,0.3)] text-center transform transition-all space-y-5 border border-yellow-400">
+            <!-- Header Level Status (Red & Ultra High Visibility Strokings) -->
+            <h2 class="text-3xl md:text-4xl font-black tracking-widest text-white text-stroke-red uppercase italic">DISCLAIMER</h2>
+            
+            <!-- Stage 1 Target: Pure White Bold Premium Promotion Statement -->
+            <p class="text-white font-extrabold text-sm md:text-base leading-snug drop-shadow-md">
+                Keeping family entertainment in mind, we strictly block adult content from our feature feeds. Enjoy a 100% premium, ad-free streaming experience with no clickbaits.
+            </p>
+            
+            <!-- Spacer Divider Line Layout -->
+            <div class="w-16 h-0.5 bg-slate-950/20 mx-auto"></div>
+            
+            <!-- Stage 2 Target: Thin Small Print Legal Protection Shield Bypass -->
+            <p class="text-slate-900/80 font-normal text-[10px] md:text-[11px] leading-relaxed max-w-sm mx-auto">
+                We do not upload or host any video content. All materials displayed here are publicly available on the internet. Movieplex BD is strictly a showcase platform providing ratings, details, and independent reviews.
+            </p>
+
+            <!-- Dynamic Live Core Counter Progress Engine Layer -->
+            <div class="pt-2">
+                <span id="shield-timer-text" class="bg-slate-950 text-yellow-500 text-[10px] font-black px-4 py-1.5 rounded-full tracking-wider uppercase shadow-inner">
+                    Entering Hub in 5s...
+                </span>
+            </div>
+        </div>
+    </div>
 
     <!-- 1. HEADER MENU BAR -->
     <header class="w-full bg-[#060814]/95 backdrop-blur-md border-b border-white/5 sticky top-0 z-50 px-4 md:px-12 py-3 flex items-center justify-between shadow-xl">
@@ -72,7 +105,6 @@
     <!-- VIEW A: HOME VIEW -->
     <div id="home-view-container" class="block">
         <div class="carousel-container-fixed">
-            <!-- 🖥️ DESKTOP INFO VIEW PANE -->
             <div class="absolute top-12 left-6 md:left-12 max-w-sm md:max-w-md space-y-4 text-left hidden lg:block z-30 pointer-events-auto" id="wheel-meta-pane">
                 <span class="bg-yellow-500 text-black text-[9px] font-black uppercase px-2.5 py-1 rounded tracking-widest shadow shadow-yellow-500/10">Spotlight</span>
                 <h2 id="wheel-title" class="text-3xl md:text-5xl font-black text-white tracking-tight leading-none drop-shadow-md">Loading...</h2>
@@ -92,7 +124,6 @@
             <div class="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-[#0c0f1d] to-transparent pointer-events-none z-30"></div>
         </div>
 
-        <!-- 📐 EQUALIZED MARGIN COUNTERWEIGHT: PUSHES ROWS UP FOR MAXIMUM 1st AND 2nd ROW VISIBILITY -->
         <div class="pl-4 md:pl-12 space-y-9 -mt-44 md:-mt-52 relative z-40 bg-gradient-to-b from-transparent via-[#0c0f1d] to-[#0c0f1d] pt-4 pb-4">
             
             <!-- Row 1: Bangla -->
@@ -206,7 +237,7 @@
 
     <!-- VIEW C: DETAILS VIEW -->
     <div id="details-view-container" class="hidden min-h-screen bg-[#0c0f1d] px-4 md:px-16 py-6 space-y-6 z-50 relative">
-        <button onclick="closeDetailsPage()" class="bg-slate-900 hover:bg-slate-800 text-white border border-slate-800 px-4 py-1.5 rounded-full text-xs font-bold transition flex items-center shadow-lg">
+        <button onclick="backToHomeView()" class="bg-slate-900 hover:bg-slate-800 text-white border border-slate-800 px-4 py-1.5 rounded-full text-xs font-bold transition flex items-center shadow-lg">
             <span>‹ Back</span>
         </button>
 
@@ -267,12 +298,9 @@
         </div>
     </div>
 
-    <!-- 🔒 🧱 SLIMMED & BALANCED HEADER-SIZED FIXED HUD (2 STAGE SYMMETRIC SPLIT) -->
+    <!-- 🔒 🧱 SLIMMED HIGH-PERFORMANCE BOTTOM FIXED HUD -->
     <div class="fixed bottom-0 left-0 w-full z-50 bg-[#060814]/95 backdrop-blur-md border-t border-white/10 shadow-[0_-10px_25px_rgba(0,0,0,0.95)] px-4 md:px-12 py-2.5 space-y-1.5 select-none">
-        
-        <!-- 🏢 STEP 1: ACTIVE ENGINE STATS (LEFT-CENTERED) & CONTENT METRICS (RIGHT-CENTERED) -->
         <div class="max-w-7xl mx-auto flex justify-between items-center text-[10px] sm:text-[11px] font-bold tracking-wide">
-            <!-- Left-Centered Area for Active Counters -->
             <div class="w-1/2 flex justify-start pl-2 sm:pl-12 items-center space-x-3 text-gray-400 border-r border-white/5">
                 <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
                 <p>Active: <span id="count-active" class="text-white font-extrabold">--</span></p>
@@ -280,7 +308,6 @@
                 <p class="hidden sm:inline">24H Visitors: <span id="count-total" class="text-white font-extrabold">--</span></p>
                 <p class="inline sm:hidden">24H: <span id="count-total-mobile" class="text-white font-extrabold">--</span></p>
             </div>
-            <!-- Right-Centered Area for Content Statistics -->
             <div class="w-1/2 flex justify-end pr-2 sm:pr-12 items-center space-x-3 text-[9px] sm:text-[10px] text-gray-400">
                 <p class="text-gray-500 uppercase tracking-widest text-[8px]">Uploads:</p>
                 <p>Recent: <span id="real-stats-recent" class="text-yellow-500 font-black">04</span></p>
@@ -290,22 +317,18 @@
                 <p>Process: <span id="fake-stats-process" class="text-emerald-500 font-black animate-pulse">05</span></p>
             </div>
         </div>
-
-        <!-- 🛡️ STEP 2: STAGE DEPLOYMENTS: DISCLAIMER (ABSOLUTE LEFT) & BRANDING DEV (ABSOLUTE RIGHT) -->
         <div class="max-w-7xl mx-auto flex justify-between items-center text-[9px] sm:text-[10px] font-bold pt-1.5 border-t border-white/5">
-            <!-- Absolute Left Placement for Disclaimer -->
             <div class="text-left text-gray-500 font-medium truncate max-w-[65%]">
                 <span class="text-red-500 font-black uppercase tracking-wider mr-1">Disclaimer:</span>
                 <span class="font-light text-gray-400">Aggregated from public internet sources.</span>
             </div>
-            <!-- Absolute Right Placement for Powered/Developed Signatures -->
             <div class="text-right text-yellow-500 uppercase tracking-widest font-black text-[8px] sm:text-[9px]">
                 DEVELOPED BY @NAZMULSBLOG
             </div>
         </div>
     </div>
 
-    <!-- JAVASCRIPT CORE INTERFACES ENGINE -->
+    <!-- JAVASCRIPT CORE ENGINE -->
     <script>
         const API_URL = 'movie_master_db.json';
         const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6';
@@ -318,6 +341,25 @@
         let activePlayerSrc = "";
         let currentViewingMovieObj = null;
         let tmdbCastsBackup = [];
+
+        /* ⏳ 5-SECOND OBLIGATORY MARKETING TIMER LOGIC */
+        function runObligatoryShieldTimer() {
+            let secondsLeft = 5;
+            const timerContainer = document.getElementById('shield-timer-text');
+            
+            const countdownInterval = setInterval(() => {
+                secondsLeft--;
+                if(secondsLeft > 0) {
+                    timerContainer.innerText = `Entering Hub in ${secondsLeft}s...`;
+                } else {
+                    clearInterval(countdownInterval);
+                    const modal = document.getElementById('legal-shield-modal');
+                    modal.style.transition = 'opacity 0.4s ease-out';
+                    modal.style.opacity = '0';
+                    setTimeout(() => modal.remove(), 400); // Clean DOM garbage removal smoothly
+                }
+            }, 1000);
+        }
 
         function initTrafficCounters() {
             const activePool = Math.floor(Math.random() * (240 - 70 + 1)) + 70;
@@ -351,7 +393,7 @@
                     document.getElementById('fake-stats-process').innerText = pool[Math.floor(Math.random() * pool.length)];
                 }, 10 * 60 * 1000);
 
-            } catch(e) { console.error("Stats structural error handled safely"); }
+            } catch(e) { console.error("Stats failover structural bypass active."); }
         }
 
         function cleanTitle(title) {
@@ -364,8 +406,8 @@
 
         function isAdultContentFlagged(movie) {
             const blacklistKeywords = ['18+', 'adult', 'erotic', 'threesome', 'ullu', 'kooku', 'primeplay', 'hotshots', 'gandii baat', 'sex', 'desikahaniya'];
-            const targetId = movie.id.toLowerCase();
-            const targetTitle = movie.title.toLowerCase();
+            const targetId = movie.id ? movie.id.toLowerCase() : '';
+            const targetTitle = movie.title ? movie.title.toLowerCase() : '';
             
             let playerUrl = "";
             if (movie.players && movie.players.length > 0) playerUrl = movie.players[0].player_url.toLowerCase();
@@ -380,7 +422,7 @@
             let playerUrl = "";
             if (movie.players && movie.players.length > 0) playerUrl = movie.players[0].player_url.toLowerCase();
             
-            const scanPool = playerUrl + " " + movie.id.toLowerCase() + " " + movie.title.toLowerCase();
+            const scanPool = playerUrl + " " + (movie.id ? movie.id.toLowerCase() : '') + " " + (movie.title ? movie.title.toLowerCase() : '');
             let detectionList = [];
             if (scanPool.includes('bengali') || scanPool.includes('bangla') || hasBengaliCharacters(movie.title)) detectionList.push('Bangla');
             if (scanPool.includes('hindi')) detectionList.push('Hindi');
@@ -395,8 +437,15 @@
             return "Audio: English";
         }
 
+        function extractSafeYear(movie) {
+            if (movie.release_year && movie.release_year !== 'undefined') return movie.release_year;
+            if (movie.year && movie.year !== 'undefined') return movie.year;
+            return '----';
+        }
+
         async function initMovieplex() {
             initTrafficCounters();
+            runObligatoryShieldTimer();
             try {
                 const response = await fetch(API_URL);
                 globalMoviesData = await response.json();
@@ -417,7 +466,7 @@
                 build3DPosterWheel();
                 populateGenreDropdown();
                 processRealDatabaseStatistics();
-            } catch (e) { console.error("System pipeline crash protected."); }
+            } catch (e) { console.error("System engine protective wrap loaded."); }
         }
 
         function build3DPosterWheel() {
@@ -465,7 +514,7 @@
                     if(movie) {
                         document.getElementById('wheel-title').innerText = cleanTitle(movie.title);
                         document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy premium clean stream optimizations flawlessly.";
-                        document.getElementById('wheel-year').innerText = movie.release_year;
+                        document.getElementById('wheel-year').innerText = extractSafeYear(movie);
                         document.getElementById('wheel-rating').innerText = `⭐ ${movie.rating}`;
                         document.getElementById('wheel-views').innerText = `Views: ${movie.views.toLocaleString()}`;
                         document.getElementById('wheel-play-btn').onclick = () => openDetailsPage(movie);
@@ -479,6 +528,7 @@
         }
 
         function processAlgorithmicRows() {
+            /* 🛡️ SAFE GATE ABSOLUTE MANDATORY ENFORCEMENT ON ALL ROWS */
             const cleanGlobalDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m));
             let globalBanglaMatchedList = [];
 
@@ -509,6 +559,8 @@
 
             sortedRowsData.newRelease = chronologicalList.slice(0, 20);
             sortedRowsData.recentRelease = chronologicalList.slice(20, 50);
+            
+            /* 🛡️ SAFE GATE SECURED: TRENDING DATA IS NOW INHERENTLY DERIVED FROM SANITIZED DATASET */
             sortedRowsData.trending = [...cleanGlobalDataset].sort((a,b) => b.views - a.views).slice(0, 15);
 
             const cutoffDate = new Date();
@@ -543,7 +595,7 @@
                     <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/90 to-transparent p-2 md:p-2.5 pt-8">
                         <h4 class="text-[10px] sm:text-[11px] font-bold truncate text-gray-100 group-hover:text-yellow-500 transition">${cleanTitle(movie.title)}</h4>
                         <div class="flex justify-between items-center mt-0.5 text-[8px] sm:text-[9px] text-gray-400 font-bold">
-                            <span>${movie.release_year}</span>
+                            <span>${extractSafeYear(movie)}</span>
                             <span class="text-yellow-500">⭐ ${movie.rating}</span>
                         </div>
                     </div>
@@ -596,7 +648,7 @@
             }
             if(targetQuality !== 'all') {
                 filteredResult = filteredResult.filter(m => {
-                    const str = (m.id + " " + m.title).toLowerCase();
+                    const str = ((m.id || "") + " " + (m.title || "")).toLowerCase();
                     if(targetQuality === 'web') return str.includes('web');
                     if(targetQuality === 'bluray') return str.includes('bluray') || str.includes('hdrip');
                     if(targetQuality === 'predvd') return str.includes('predvd') || str.includes('hdtc') || str.includes('cam');
@@ -663,7 +715,7 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
 
             document.getElementById('details-title').innerText = cleanTitle(movie.title);
-            document.getElementById('details-year').innerText = movie.release_year;
+            document.getElementById('details-year').innerText = extractSafeYear(movie);
             document.getElementById('details-rating').innerText = `⭐ ${movie.rating}`;
             document.getElementById('details-views').innerText = `Views: ${movie.views.toLocaleString()}`;
             document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis rendering complete.";
