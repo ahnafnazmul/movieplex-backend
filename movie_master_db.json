@@ -5259,7 +5259,9 @@
         "runtime": "111 min",
         "categories": [
             "Drama",
-            "Romance"
+            "Romance",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -5288,6 +5290,10 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/3e101759e9e104596afa01dc1b5a9f44-ld.mp4"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#5qcjs"
             }
         ],
         "_source_site": "themoviebox"
@@ -7220,6 +7226,358 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://rtally.embedseek.com/#hxa9n"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_454639",
+        "type": "movie",
+        "title": "Masters of the Universe",
+        "poster": "https://image.tmdb.org/t/p/w500/3YMd9Ogae4rDKLWuAZFuse9xhc5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/piV2OnzTZCyGBP9JCjlHIgKGlfo.jpg",
+        "rating": 6.9,
+        "release_date": "2026-06-03",
+        "runtime": "141 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Fantasy",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Nicholas Galitzine",
+                "image": "https://image.tmdb.org/t/p/w185/hG4rH7eBMs117746bBOd8fUa4PA.jpg"
+            },
+            {
+                "name": "Camila Mendes",
+                "image": "https://image.tmdb.org/t/p/w185/pZAWRHdJtJlDcWuQHlgIwX12s02.jpg"
+            },
+            {
+                "name": "Idris Elba",
+                "image": "https://image.tmdb.org/t/p/w185/be1bVF7qGX91a6c5WeRPs5pKXln.jpg"
+            },
+            {
+                "name": "Jared Leto",
+                "image": "https://image.tmdb.org/t/p/w185/ca3x0OfIKbJppZh8S1Alx3GfUZO.jpg"
+            },
+            {
+                "name": "Alison Brie",
+                "image": "https://image.tmdb.org/t/p/w185/uu16GiwYblS6IJV3o4qFSLWKXOC.jpg"
+            }
+        ],
+        "details": "After being separated for 15 years, the Sword of Power leads Prince Adam back to Eternia, where he discovers his home shattered under the fiendish rule of Skeletor. To save his family and his world, Adam must join forces with his closest allies, Teela and Duncan/Man-At-Arms, and embrace his true destiny as He-Man — the most powerful man in the universe.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/30/4045fc8219b0646205fe0ac36d7c595f-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_247796",
+        "type": "series",
+        "title": "Diarra from Detroit",
+        "poster": "https://image.tmdb.org/t/p/w500/82h6c3yOXvaty7s0VNIFV8Fc3We.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5PeE8xPnIXOW2Nv1NreXGIcJFX9.jpg",
+        "rating": 4.5,
+        "release_date": "2024-03-21",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Diarra Kilpatrick",
+                "image": "https://image.tmdb.org/t/p/w185/riIETmWl2d5On4YaKy3ISLUjPf.jpg"
+            }
+        ],
+        "details": "A divorcing, overworked teacher finds herself drawn into a cold case after a dating app matches her with a man she suspects is the adult version of a boy abducted in the 90s.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/22/f074f97fa0cebaa9ef65d84d43e7afe6-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_194764",
+        "type": "series",
+        "title": "The Penguin",
+        "poster": "https://image.tmdb.org/t/p/w500/vOWcqC4oDQws1doDWLO7d3dh5qc.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4TdmuuwiIiKw3JOjIuhdgYxRXnN.jpg",
+        "rating": 8.4,
+        "release_date": "2024-09-19",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Colin Farrell",
+                "image": "https://image.tmdb.org/t/p/w185/5FdalJbrbZ5UCsED5rFrXpvbqJa.jpg"
+            },
+            {
+                "name": "Cristin Milioti",
+                "image": "https://image.tmdb.org/t/p/w185/zn0bAUnjauKIsDzRnhHogtUKpZm.jpg"
+            },
+            {
+                "name": "Rhenzy Feliz",
+                "image": "https://image.tmdb.org/t/p/w185/9YPe3GgyWjG4D0GnTx9KzfvnO0L.jpg"
+            },
+            {
+                "name": "Deirdre O'Connell",
+                "image": "https://image.tmdb.org/t/p/w185/14e0AZOZafenduP7O6oMLSL92RP.jpg"
+            },
+            {
+                "name": "Clancy Brown",
+                "image": "https://image.tmdb.org/t/p/w185/1JeBRNG7VS7r64V9lOvej9bZXW5.jpg"
+            }
+        ],
+        "details": "With the city in peril following the seawall's collapse, Oswald \"Oz\" Cobb seeks to fill the power vacuum left by the death of Carmine Falcone and finally give his mother Francis the life he's always promised. But first, Oz must confront his enemies and his own demoralizing reputation as \"the Penguin.\"",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/28/2883dc5979976ab84f5a5714a84a52cc-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_272715",
+        "type": "series",
+        "title": "Fate Chooses You",
+        "poster": "https://image.tmdb.org/t/p/w500/fBgbr6rGLxV7qwiVJ5BnosDE0av.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/caMAXpi8r9nc5aPkn0qkOBSMzn6.jpg",
+        "rating": 8.2,
+        "release_date": "2026-04-25",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Ren Jialun",
+                "image": "https://image.tmdb.org/t/p/w185/5sBfnbHbTmNriFPGGD12mPpTNNO.jpg"
+            },
+            {
+                "name": "Wang Herun",
+                "image": "https://image.tmdb.org/t/p/w185/gCyDBSneRaRNKERZ3tWf9bFB94U.jpg"
+            },
+            {
+                "name": "Riley Wang",
+                "image": "https://image.tmdb.org/t/p/w185/lzzvRyyltnsExIrsWhm6DCPMz62.jpg"
+            },
+            {
+                "name": "Zhang Kaiying",
+                "image": "https://image.tmdb.org/t/p/w185/3XtnEl4vHfQlLg4XJzDrq9HzsjY.jpg"
+            },
+            {
+                "name": "Huang Yi",
+                "image": "https://image.tmdb.org/t/p/w185/5psVJsMLVEtsRs3tvd0vTuZ0SbX.jpg"
+            }
+        ],
+        "details": "To break a powerful curse and save his clan, Lu Qianqiao is reborn as a human and secretly marries Xin Mei, a gifted cultivator with a fated curse. What starts as a mission of survival soon entangles them in betrayal, memory loss, and growing affection as they face deadly trials and uncover their intertwined destinies.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/28/e2613454cdf452728b6d8f6938a8fe1a-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1314481",
+        "type": "movie",
+        "title": "The Devil Wears Prada 2",
+        "poster": "https://image.tmdb.org/t/p/w500/fCAURTUx3YfsJ8k9I0UamjSILiR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/Af907x5h9W1wVis8XrSd7ynTWuy.jpg",
+        "rating": 7.1,
+        "release_date": "2026-04-29",
+        "runtime": "119 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Anne Hathaway",
+                "image": "https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
+            },
+            {
+                "name": "Meryl Streep",
+                "image": "https://image.tmdb.org/t/p/w185/g5cVxQBAQ3AXt3LhdBXtbbN47Uc.jpg"
+            },
+            {
+                "name": "Emily Blunt",
+                "image": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+            },
+            {
+                "name": "Stanley Tucci",
+                "image": "https://image.tmdb.org/t/p/w185/q4TanMDI5Rgsvw4SfyNbPBh4URr.jpg"
+            },
+            {
+                "name": "Kenneth Branagh",
+                "image": "https://image.tmdb.org/t/p/w185/AbCqqFxNi5w3nDUFdQt0DGMFh5H.jpg"
+            }
+        ],
+        "details": "Andy Sachs returns to Runway as Miranda Priestly navigates a new media landscape and Runway's position within. The duo reconnect with former assistant Emily Charlton, now the head of a luxury brand that possesses funding which could ensure Runway's survival.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/02/6e78f9ac3c4acd9d5c9d8b199771d649-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_317056",
+        "type": "series",
+        "title": "Double Helix",
+        "poster": "https://image.tmdb.org/t/p/w500/udcrxC8tceOSAZ41jKtLCc47j6F.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/b5lBe5DfYd8Io7rCmo6ykLATgDz.jpg",
+        "rating": 7.4,
+        "release_date": "2026-05-08",
+        "runtime": "60 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ayden Sng",
+                "image": "https://image.tmdb.org/t/p/w185/53YYrofxpMInmYhUXjRuw0umQGq.jpg"
+            },
+            {
+                "name": "Lü Sitong",
+                "image": "https://image.tmdb.org/t/p/w185/pL7PimnQ3gwscd67Hz5UjepIUOH.jpg"
+            },
+            {
+                "name": "Fa Xuange",
+                "image": "https://image.tmdb.org/t/p/w185/TDCy46afcgwWPp1DYoVcNRTqJb.jpg"
+            },
+            {
+                "name": "He Jiashu",
+                "image": "https://image.tmdb.org/t/p/w185/8dYbi9DD4TulvHifs9UrFf0OGU1.jpg"
+            },
+            {
+                "name": "Li Keyi",
+                "image": "https://image.tmdb.org/t/p/w185/hfYwTLu0dIZpTX3tIaEEDJFcbyN.jpg"
+            }
+        ],
+        "details": "Years after being torn apart by family and fate, two former lovers reunite as boss and employee, forced to confront a love they can't escape.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/12/4674209fe13c88d0c424549f0eec30ed-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_295509",
+        "type": "series",
+        "title": "The Legend of Kitchen Soldier",
+        "poster": "https://image.tmdb.org/t/p/w500/nmYgPJiZebWUtL6D72D0Qp9ce0H.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9lQZ18CYk5n3YNbOfmSjkiBrfrk.jpg",
+        "rating": 8.5,
+        "release_date": "2026-05-11",
+        "runtime": "60 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Park Ji-hoon",
+                "image": "https://image.tmdb.org/t/p/w185/zbNZZ8o6qF3gaDndsq76h19Pe33.jpg"
+            },
+            {
+                "name": "Yoon Kyung-ho",
+                "image": "https://image.tmdb.org/t/p/w185/217cVZqyvJypi4OR1uvxoaJxvLm.jpg"
+            },
+            {
+                "name": "Han Dong-hee",
+                "image": "https://image.tmdb.org/t/p/w185/nltWyQ738gemdw2ghC4aebzGMXD.jpg"
+            },
+            {
+                "name": "Lee Hong-nae",
+                "image": "https://image.tmdb.org/t/p/w185/fZTSESUAmiyl6w5GutEhwtpwxv6.jpg"
+            },
+            {
+                "name": "Lee Sang-yi",
+                "image": "https://image.tmdb.org/t/p/w185/4OSOux7D8ZIbNsA7eINSwmHM9nb.jpg"
+            }
+        ],
+        "details": "A plastic-spoon man is on his way to becoming a legendary army cook—uncovering dark secrets within the base through his cooking skills.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/20/532da3cfbebb3b317fd0d93fb3bf59b2-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1656220",
+        "type": "movie",
+        "title": "23 000 Lives",
+        "poster": "https://image.tmdb.org/t/p/w500/yHIuR7rTAbHXbELc9UqoaOIxXZx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/q5L3aXchoCgwbZbwWl5FjhGmuYs.jpg",
+        "rating": 5.0,
+        "release_date": "2026-07-02",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Louis Hofmann",
+                "image": "https://image.tmdb.org/t/p/w185/m3Mo38afbKmy9EOsfmUagvTFM9q.jpg"
+            },
+            {
+                "name": "Mala Emde",
+                "image": "https://image.tmdb.org/t/p/w185/rXmhczHGMiN0bhlqTP4qAfoszZL.jpg"
+            },
+            {
+                "name": "Katharina Stark",
+                "image": "https://image.tmdb.org/t/p/w185/3cwKbMriYdDDhPwSQTXTdMhG6p6.jpg"
+            },
+            {
+                "name": "Frederick Lau",
+                "image": "https://image.tmdb.org/t/p/w185/4ukrX8OPPsD06YMFoTL00uZrwa4.jpg"
+            },
+            {
+                "name": "Maria Dragus",
+                "image": "https://image.tmdb.org/t/p/w185/4AiU1EdwWlNuxBbYV1qLxc09mv1.jpg"
+            }
+        ],
+        "details": "Unable to stand by and watch as countless refugees lose their lives attempting to reach Europe by sea, a group of young Berliners take action. Inexperienced but driven by passion and courage, they launch a crowdfunding campaign to buy an old ship. Venturing into the Mediterranean, they embark on a mission to save thousands of people. But their efforts soon put their understanding of law and justice to the test.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#npfla"
             }
         ],
         "_source_site": "rtally"
