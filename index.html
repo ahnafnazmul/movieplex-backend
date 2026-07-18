@@ -29,9 +29,9 @@
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
         
-        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - TIGHT RELATIVE POSITIONING */
-        .carousel-container-fixed { position: relative; width: 100%; height: 320px; overflow: visible; background-color: #060814; }
-        @media (min-width: 768px) { .carousel-container-fixed { height: 440px; } }
+        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - RE-CENTERED GRID BASED ON ORIGINAL SPEC */
+        .carousel-container-fixed { position: relative; width: 100%; height: 320px; overflow: visible; background-color: #060814; margin-top: 16px; }
+        @media (min-width: 768px) { .carousel-container-fixed { height: 440px; margin-top: 24px; } }
         
         .carousel-viewport { position: absolute; top: 0; left: 0; width: 100%; height: 100%; perspective: 1400px; overflow: visible; z-index: 10; }
         .carousel-wheel-wrapper { position: relative; width: 100%; height: 100%; display: flex; justify-content: center; items: center; }
@@ -48,24 +48,24 @@
             border: 1px solid rgba(255,255,255,0.04);
         }
         @media (min-width: 768px) {
-            .wheel-node { width: 235px; height: 335px; border-radius: 20px; box-shadow: 0 30px 60px rgba(0,0,0,0.9); }
+            .wheel-node { width: 220px; height: 315px; border-radius: 20px; box-shadow: 0 30px 60px rgba(0,0,0,0.9); }
         }
 
         .wheel-node.active-center { transform: scale(1.1) translateX(20px) translateZ(60px); z-index: 40; opacity: 1; border-color: rgba(234,179,8,0.5); }
-        @media (min-width: 768px) { .wheel-node.active-center { transform: scale(1.12) translateX(110px) translateZ(120px); } }
+        @media (min-width: 768px) { .wheel-node.active-center { transform: scale(1.15) translateX(100px) translateZ(120px); } }
         
         .wheel-node.side-L1 { transform: scale(0.85) translateX(-80px) translateZ(10px) rotateY(20deg); z-index: 30; opacity: 0.15; }
         .wheel-node.side-R1 { transform: scale(0.85) translateX(140px) translateZ(10px) rotateY(-20deg); z-index: 30; opacity: 0.60; }
         @media (min-width: 768px) {
             .wheel-node.side-L1 { transform: scale(0.92) translateX(-100px) translateZ(20px) rotateY(25deg); opacity: 0.20; }
-            .wheel-node.side-R1 { transform: scale(0.92) translateX(350px) translateZ(20px) rotateY(-25deg); opacity: 0.65; }
+            .wheel-node.side-R1 { transform: scale(0.92) translateX(320px) translateZ(20px) rotateY(-25deg); opacity: 0.65; }
         }
         
         .wheel-node.side-L2 { transform: scale(0.7) translateX(-160px) rotateY(30deg); z-index: 20; opacity: 0.05; }
         .wheel-node.side-R2 { transform: scale(0.7) translateX(230px) rotateY(-30deg); z-index: 20; opacity: 0.35; }
         @media (min-width: 768px) {
-            .wheel-node.side-L2 { transform: scale(0.76) translateX(-300px) translateZ(-50px) rotateY(38deg); opacity: 0.08; }
-            .wheel-node.side-R2 { transform: scale(0.76) translateX(560px) translateZ(-50px) rotateY(-38deg); opacity: 0.40; }
+            .wheel-node.side-L2 { transform: scale(0.76) translateX(-280px) translateZ(-50px) rotateY(38deg); opacity: 0.08; }
+            .wheel-node.side-R2 { transform: scale(0.76) translateX(520px) translateZ(-50px) rotateY(-38deg); opacity: 0.40; }
         }
         
         .wheel-node.invisible-loop { transform: scale(0.4) translateZ(-250px); z-index: 5; opacity: 0; pointer-events: none; }
@@ -111,7 +111,7 @@
         });
     </script>
 </head>
-<body class="relative min-h-screen pb-[100px]">
+<body class="relative min-h-screen pb-[120px] md:pb-[100px]">
 
     <!-- ⚠️ PWA BRAND-SPECIFIED OBLIGATORY MARKETING & COPYRIGHT SHIELD MODAL PORTAL -->
     <div id="legal-shield-modal" class="fixed inset-0 z-[100] bg-black/85 backdrop-blur-xl flex flex-col items-center justify-center p-4 select-none">
@@ -337,22 +337,32 @@
         </div>
     </div>
 
-    <!-- 🔒 🧱 ORIGINAL SINGLE-LINE HUD PANEL WITH DYNAMIC FLUID SPACER EDGE (NO ADDED TEXT OVERLAP FIX) -->
-    <div class="fixed bottom-0 left-0 w-full z-50 bg-[#060814]/95 backdrop-blur-md border-t border-white/10 shadow-[0_-10px_25px_rgba(0,0,0,0.95)] px-4 md:px-12 py-3 select-none flex justify-between items-center text-[10px] md:text-[11px] font-bold tracking-widest uppercase text-gray-400">
-        <div class="flex items-center space-x-2">
-            <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
-            <p>Active: <span id="count-active" class="text-white font-extrabold ml-0.5">--</span></p>
-            <span class="text-gray-800 mx-1 font-light">|</span>
-            <p>24hr: <span id="count-total" class="text-white font-extrabold ml-0.5">--</span></p>
+    <!-- 🔒 🧱 100% ORIGINAL RESPONSIVE TWO-ROW EXTENDED HUD PLATFORM LAYER WITH FULL WIDTH MATRIX -->
+    <div class="fixed bottom-0 left-0 w-full z-50 bg-[#060814]/95 backdrop-blur-md border-t border-white/10 shadow-[0_-10px_25px_rgba(0,0,0,0.95)] px-4 md:px-12 py-2.5 space-y-1 select-none">
+        <div class="w-full flex justify-between items-center text-[9px] md:text-[10.5px] font-bold tracking-tight text-gray-400 uppercase">
+            <div class="flex items-center space-x-1.5">
+                <span class="w-1 h-1 rounded-full bg-green-500 animate-pulse"></span>
+                <p>ACTIVE: <span id="count-active" class="text-white font-extrabold ml-0.5">--</span></p>
+                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
+                <p>24HR: <span id="count-total" class="text-white font-extrabold ml-0.5">--</span></p>
+            </div>
+            <div class="flex items-center space-x-1.5 text-right text-[8.5px] md:text-[10px]">
+                <p>RECENT: <span id="real-stats-recent" class="text-yellow-500 font-black ml-0.5">04</span></p>
+                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
+                <p>24HR: <span id="real-stats-24h" class="text-white font-black ml-0.5">17</span></p>
+                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
+                <p>PROCESSING: <span id="fake-stats-process" class="text-emerald-500 font-black ml-0.5">05</span></p>
+            </div>
         </div>
-        <div class="flex items-center space-x-2 text-right">
-            <p>Recent: <span id="real-stats-recent" class="text-yellow-500 font-black ml-0.5">04</span></p>
-            <span class="text-gray-800 mx-1 font-light">|</span>
-            <p>24hr: <span id="real-stats-24h" class="text-white font-black ml-0.5">17</span></p>
-            <span class="text-gray-800 mx-1 font-light">|</span>
-            <p>Processing: <span id="fake-stats-process" class="text-emerald-500 font-black ml-0.5">05</span></p>
-            <span class="text-gray-800 mx-1 font-light hidden sm:inline">|</span>
-            <p class="hidden sm:inline text-yellow-500 font-black">Developed by @Nazmulsblog</p>
+        
+        <div class="w-full flex justify-between items-center text-[8px] md:text-[9px] font-bold pt-1 border-t border-white/5">
+            <div class="text-left text-gray-500 font-medium truncate max-w-[65%]">
+                <span class="text-red-500 font-black uppercase mr-0.5">DISCLAIMER:</span>
+                <span class="font-light text-gray-400">Aggregated from public internet sources.</span>
+            </div>
+            <div class="text-right text-yellow-500 font-black tracking-wider text-[7.5px] md:text-[8.5px]">
+                DEVELOPED BY @NAZMULSBLOG
+            </div>
         </div>
     </div>
 
