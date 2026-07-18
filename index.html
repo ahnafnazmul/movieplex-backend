@@ -763,7 +763,26 @@
 
         function activatePlayerFrame() {
             document.getElementById('player-shield').classList.add('hidden');
-            document.getElementById('details-video-iframe').src = activePlayerSrc;
+            
+            const iframe = document.getElementById('details-video-iframe');
+            let finalSrc = activePlayerSrc;
+            
+            if (!finalSrc.includes('autoplay=')) {
+                finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
+            }
+            
+            iframe.src = finalSrc;
+            
+            iframe.onload = function() {
+                try {
+                    iframe.contentWindow.focus();
+                } catch(e) {
+                    setTimeout(() => {
+                        iframe.focus();
+                    }, 200);
+                }
+            };
+
             if(currentViewingMovieObj) cacheUserPlaybackPreferences(currentViewingMovieObj);
         }
 
