@@ -3845,7 +3845,9 @@
         "release_date": "2025-05-20",
         "runtime": "N/A min",
         "categories": [
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -3890,7 +3892,9 @@
         "categories": [
             "Science Fiction",
             "Adventure",
-            "Action"
+            "Action",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -5171,7 +5175,9 @@
             "Adventure",
             "Science Fiction",
             "Family",
-            "Fantasy"
+            "Fantasy",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -8615,6 +8621,267 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://rtally.embedseek.com/#tlory"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_205591",
+        "type": "series",
+        "title": "Payback",
+        "release_year": 2022,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=ixgSWj26_No",
+        "poster": "https://image.tmdb.org/t/p/w500/wqoxASIvfbJTVjDsgFbw6FKlDMk.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/aWukDVpQ7DfrsxopBle0TtnzfkX.jpg",
+        "rating": 4.0,
+        "release_date": "2022-06-06",
+        "runtime": "43 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Documentary"
+        ],
+        "cast": [
+            {
+                "name": "Jeff Wilburn",
+                "image": "https://image.tmdb.org/t/p/w185/tMHMeAw2vCrG1RNpPwOT59Zsr5W.jpg"
+            }
+        ],
+        "details": "Whether it's a cheating ex, a double-crossing co-worker, or the best friend who stabbed you in the back, it's human instinct to want to get even. Though most people don't act on this impulse, there are those who are consumed with getting even. For them, what starts as a nagging bitterness evolves into obsession and results in murder. This true crime documentary series profiles those stories of revenge, told through gripping interviews with the family members, community members, and law enforcement who experienced the events firsthand.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/30/3f3c01b66b2efaba1425c2721951c728-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/30/3f3c01b66b2efaba1425c2721951c728-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_314402",
+        "type": "series",
+        "title": "Crazy Love, Moo-Moo!",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "https://www.youtube.com/watch?v=GRP1l1j3lUE",
+        "poster": "https://image.tmdb.org/t/p/w500/bpj6cELj5j3SzkMoncQCYDY19Ve.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/j11uBblRUMotP6tTFbnYkmsKiAu.jpg",
+        "rating": 7.8,
+        "release_date": "2026-05-09",
+        "runtime": "40 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Chaikamon Sermsongwittaya",
+                "image": "https://image.tmdb.org/t/p/w185/f836NcklLJbJ0irfaoUXcO2mgKM.jpg"
+            },
+            {
+                "name": "Nuttarat Tangwai",
+                "image": "https://image.tmdb.org/t/p/w185/nAY1Fk0DpaYOR3e6EVrIFu2W2JQ.jpg"
+            },
+            {
+                "name": "Chanokchon Boonmanawong",
+                "image": "https://image.tmdb.org/t/p/w185/aHQbuOTluH1r774XCM1U7YItKm9.jpg"
+            },
+            {
+                "name": "Phouluang Thongprasert",
+                "image": "https://image.tmdb.org/t/p/w185/aM4QA2tXdqFhQp9Ltr4EQR9FvT7.jpg"
+            },
+            {
+                "name": "Narawich Khueanphet",
+                "image": "https://image.tmdb.org/t/p/w185/blmikZ2q6VQVCHZmtD4ePhaA3t2.jpg"
+            }
+        ],
+        "details": "To drive away a persistent admirer, MooMoo interns at his hotel to show off his worst habits, only to find himself falling for the man he hates.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/09/e87638f6f114cb08075f7c207d60beab-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/09/e87638f6f114cb08075f7c207d60beab-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_278624",
+        "type": "series",
+        "title": "Lucky",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=GAbT5qCTXR8",
+        "poster": "https://image.tmdb.org/t/p/w500/qdobPy3No4Fi3dCzcIDP9n8AjcO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hKXMOOvQwXiL01hfYG5nrkH0tEP.jpg",
+        "rating": 6.1,
+        "release_date": "2026-07-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Anya Taylor-Joy",
+                "image": "https://image.tmdb.org/t/p/w185/qYNofOjlRke2MlJVihmJmEdQI4v.jpg"
+            },
+            {
+                "name": "Annette Bening",
+                "image": "https://image.tmdb.org/t/p/w185/kGslMAWcpv8MKzODhDRDkFE0uX7.jpg"
+            },
+            {
+                "name": "Clifton Collins Jr.",
+                "image": "https://image.tmdb.org/t/p/w185/xfD0scqaPvAxKCPHYLo8553Le5g.jpg"
+            },
+            {
+                "name": "Aunjanue Ellis-Taylor",
+                "image": "https://image.tmdb.org/t/p/w185/e54DfgDyS67xdtomYODFule6Ofa.jpg"
+            },
+            {
+                "name": "Timothy Olyphant",
+                "image": "https://image.tmdb.org/t/p/w185/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg"
+            }
+        ],
+        "details": "When a multi-million-dollar heist goes sideways, con artist Lucky is forced to go on the run. Pursued by both the FBI and a ruthless crime boss, Lucky must fight for her life—and a way out.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/31c5aa85edd47d27b0cb7716c4ed2b4c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/31c5aa85edd47d27b0cb7716c4ed2b4c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_275966",
+        "type": "series",
+        "title": "The Heir",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=YCbSAJwg5IE",
+        "poster": "https://image.tmdb.org/t/p/w500/i0BxMg1UTMXthZC3R5ccegSFJU0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/68UHE4T9CzlBgI5HuVs5caLeZU7.jpg",
+        "rating": 9.0,
+        "release_date": "2026-05-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Yang Zi",
+                "image": "https://image.tmdb.org/t/p/w185/20Nc1xnRFC5XGsb896ZxVNUOzFU.jpg"
+            },
+            {
+                "name": "Elvis Han",
+                "image": "https://image.tmdb.org/t/p/w185/r3b5X3gHqHStLnBcs51L7QqraKp.jpg"
+            },
+            {
+                "name": "Wu Mian",
+                "image": "https://image.tmdb.org/t/p/w185/297YqYTeJ5VVbD9M2me8s9xrTZe.jpg"
+            },
+            {
+                "name": "Tian Xiaojie",
+                "image": "https://image.tmdb.org/t/p/w185/cREJt7c3MChcZAGJSLzMGJxiMLz.jpg"
+            },
+            {
+                "name": "Wang Zihao",
+                "image": "https://image.tmdb.org/t/p/w185/vfKGot2050wLg8hhJ3usvQOtveT.jpg"
+            }
+        ],
+        "details": "A tribute ink scandal topples the Li family’s long-standing ink business, leaving their legacy in ruins. Years later, Li Zhen, the determined youngest daughter, sets out to restore her family's name. As she rises in the industry, she joins forces with Luo Wenqian, heir to another fallen clan, to take on a rising rival and face new challenges from foreign markets, fighting to bring Huizhou ink back to its former glory.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/18/1701b3a657cba0bf3f2fb5d867d37a70-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/18/1701b3a657cba0bf3f2fb5d867d37a70-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_891479",
+        "type": "movie",
+        "title": "Adbhutham",
+        "release_year": 2021,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=Z7lKq6sDtQ4",
+        "poster": "https://image.tmdb.org/t/p/w500/mDaBilIfuY6v6V2xMvAdFkozoza.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3xvSUNNWdAgzPaKkShNULwET94b.jpg",
+        "rating": 6.8,
+        "release_date": "2021-11-19",
+        "runtime": "142 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Teja Sajja",
+                "image": "https://image.tmdb.org/t/p/w185/7MhRbb4VTRpk199CsX4vnYqQRd2.jpg"
+            },
+            {
+                "name": "Shivani Rajashekar",
+                "image": "https://image.tmdb.org/t/p/w185/cdXHlt70KALj0827MO3POJ9X2WE.jpg"
+            },
+            {
+                "name": "Satya",
+                "image": "https://image.tmdb.org/t/p/w185/fWHqfjiqnORU6R2fqwiJnowujdP.jpg"
+            },
+            {
+                "name": "Tulasi",
+                "image": "https://image.tmdb.org/t/p/w185/oETAXn9y9YZ6yvCZFvzOcHBImr0.jpg"
+            },
+            {
+                "name": "Mirchi Kiran",
+                "image": "https://image.tmdb.org/t/p/w185/h47N3gRWRcTYxnjaopSkMD8x8qk.jpg"
+            }
+        ],
+        "details": "A boy and a girl ending up using the same phone number without each other's knowledge. What will be the consequences of this situation? will they be pleasant?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a5b587b84269",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
             }
         ],
         "_source_site": "rtally"
