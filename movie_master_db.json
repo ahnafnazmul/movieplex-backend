@@ -8190,5 +8190,126 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_304871",
+        "type": "series",
+        "title": "Be My Player Two",
+        "poster": "https://image.tmdb.org/t/p/w500/xEjE8HpI3cZl5zL2qXXYBb611kV.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mycJbvCiQgbbWBHjREiNiYDUxaf.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Ratchata Pichetshote",
+                "image": "https://image.tmdb.org/t/p/w185/jV4dwoSzVXonmRPYJT6Aj7zEkdH.jpg"
+            },
+            {
+                "name": "Hassanat Piniwat",
+                "image": "https://image.tmdb.org/t/p/w185/fxaSUnygIsZpN10hZ1VUZBPFWB3.jpg"
+            },
+            {
+                "name": "Chotipat Suthadsanasoung",
+                "image": "https://image.tmdb.org/t/p/w185/7llzvXPCZ7KAiGz2hDh7JAQrA1c.jpg"
+            },
+            {
+                "name": "Natsakan Chairote",
+                "image": "https://image.tmdb.org/t/p/w185/8weSwPrXmwrT7QZEZdqfSoepfZi.jpg"
+            },
+            {
+                "name": "Wichayaporn Jiravechsoontornkul",
+                "image": "https://image.tmdb.org/t/p/w185/yfRvBw9spz2hfTbztPXiRTarrVP.jpg"
+            }
+        ],
+        "details": "To win a gaming championship, a famous streamer teams up with his biggest rival, only to risk it all when real feelings ignite.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/16/fe2f643ff8c0cf4491cda8b3028bfcee-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_321045",
+        "type": "series",
+        "title": "The Summer you Kissed Me",
+        "poster": "https://image.tmdb.org/t/p/w500/3R4OUyeWgAD7y79KK0rdxLeCrjP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/c4WtCZqY5IK7ItAwhwKJqAjsjmZ.jpg",
+        "rating": 8.3,
+        "release_date": "2026-06-04",
+        "runtime": "15 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ray Chen",
+                "image": "https://image.tmdb.org/t/p/w185/eYBzAR8NDhg8hU9OXHRVVOcPTOS.jpg"
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/04/206e024f70ebf5b787917cc6f0cb5255-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1413976",
+        "type": "movie",
+        "title": "Citizen Vigilante",
+        "poster": "https://image.tmdb.org/t/p/w500/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qJ2KSHJhlFvASBMLbGuP7OFMaFg.jpg",
+        "rating": 6.4,
+        "release_date": "2026-06-19",
+        "runtime": "89 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Action",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Armie Hammer",
+                "image": "https://image.tmdb.org/t/p/w185/4Z5nLW2biRjqstDMKqSaeQYAesK.jpg"
+            },
+            {
+                "name": "Costas Mandylor",
+                "image": "https://image.tmdb.org/t/p/w185/yPkQdbhCj2EJM0cjDtkuJTlFp86.jpg"
+            },
+            {
+                "name": "Désirée Giorgetti",
+                "image": "https://image.tmdb.org/t/p/w185/vDoGIUjB4472uMRtif1cQPGtMNU.jpg"
+            },
+            {
+                "name": "Steffen Mennekes",
+                "image": "https://image.tmdb.org/t/p/w185/sQqg3K8SbBCAUcud5IkSrSEEz5c.jpg"
+            },
+            {
+                "name": "Neb Chupin",
+                "image": "https://image.tmdb.org/t/p/w185/aK6MI2o2x3jeoVJM5Hj8Z5re4be.jpg"
+            }
+        ],
+        "details": "A man takes justice into his own hands, hunting down criminals. His vigilante crusade makes him a social media star but puts him at odds with the local police chief.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/22/172557cec84779c7c7513c82f97357c9-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
