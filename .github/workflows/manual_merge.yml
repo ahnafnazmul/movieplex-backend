@@ -1,0 +1,57 @@
+name: Manual JSON Merger Engine
+
+on:
+  push:
+    paths:
+      - 'manualdata.json'
+
+jobs:
+  merge_and_update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Smart Merge Engine
+        id: run_merge
+        run: |
+          # পাইথন স্ক্রিপ্ট রান করে আউটপুট ক্যাপচার করা
+          OUTPUT=$(python merge_engine.py)
+          echo "$OUTPUT"
+          
+          # সামারি ডেটা এক্সট্রাক্ট করে গিটহাব এনভায়রনমেন্টে সেভ করা
+          FRESH_ADD=$(echo "$OUTPUT" | grep -oP 'Fresh Added: \K\d+' || echo "0")
+          LINK_UPD=$(echo "$OUTPUT" | grep -oP 'Links Updated: \K\d+' || echo "0")
+          
+          echo "fresh_add=$FRESH_ADD" >> $GITHUB_OUTPUT
+          echo "link_upd=$LINK_UPD" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push Updated Master DB
+        run: |
+          git config --global user.name "Github Action Bot"
+          git config --global user.email "actions@github.com"
+          git add movie_master_db.json manualdata.json
+          git commit -m "🚀 Auto-Merged new manual content into Master DB" || exit 0
+          git push
+
+      - name: Send Telegram Notification to Boss
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          if [ -z "$TG_BOT_TOKEN" ] || [ -z "$TG_CHAT_ID" ]; then
+            echo "⚠️ Telegram Secrets missing in GitHub Settings!"
+            exit 0
+          fi
+          
+          # চমৎকার ফরম্যাটেড মেসেজ বডি
+          MESSAGE="Hello Boss, This Is Your Admin,%0ANotifying Manual Merge Status:%0A%0A✅ Fresh Content Added: ${{ steps.run_merge.outputs.fresh_add }}%0A🔵 Player Links Updated: ${{ steps.run_merge.outputs.link_upd }}%0A%0A🧹 manualdata.json has been cleared for next cycle.%0A📊 Master DB Synced Successfully!"
+          
+          curl -s -X POST "https://api.telegram.org/bot$TG_BOT_TOKEN/sendMessage" \
+            -d "chat_id=$TG_CHAT_ID" \
+            -d "text=$MESSAGE"
