@@ -8311,5 +8311,144 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_292696",
+        "type": "series",
+        "title": "The First Jasmine",
+        "poster": "https://image.tmdb.org/t/p/w500/ygvVoUa6S88aT3vPMi1WVUt2meo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gxkcHgZJfyGZOtVPdfGOtFnmwHT.jpg",
+        "rating": 8.4,
+        "release_date": "2026-06-09",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Bai Lu",
+                "image": "https://image.tmdb.org/t/p/w185/aRcUVDRO2wewQe0NXJ0RfzSgvUa.jpg"
+            },
+            {
+                "name": "Ryan Cheng",
+                "image": "https://image.tmdb.org/t/p/w185/mN45mgpV6TkttOt7zOIGv2u3H0S.jpg"
+            },
+            {
+                "name": "Cai Zhengjie",
+                "image": "https://image.tmdb.org/t/p/w185/OZa34UkyKFagosTj0cVii8cdWk.jpg"
+            },
+            {
+                "name": "Yang Shuyi",
+                "image": "https://image.tmdb.org/t/p/w185/1SnErruYA5W2aCIyMuWZwmPv18u.jpg"
+            },
+            {
+                "name": "Lin Muran",
+                "image": "https://image.tmdb.org/t/p/w185/218NMOOwEZCbVVmPJr1MCaE92Os.jpg"
+            }
+        ],
+        "details": "Eldest daughter Ye Li marries the crippled Prince Mo Xiuyao, while her sister Ye Ying weds Prince Mo Jinglei the same day. A descendant of Lishan, Ye Li secretly seeks revenge on those who wronged her clan. Suspected by her husband, who also hides a revenge plan, the couple gradually become allies. Meanwhile, Prince Jinglei plots to seize the throne. In the end, Ye Li and Mo Xiuyao join forces to defeat their enemies and restore peace to the empire.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/10/35e5e0e868e5d00a6c5b9412f390c1db-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1198994",
+        "type": "movie",
+        "title": "Send Help",
+        "poster": "https://image.tmdb.org/t/p/w500/zbJWVHOtj3ljBzWgL1P8pxP03Up.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bpp58yHuQmpt6xwggI63mVRw7po.jpg",
+        "rating": 7.0,
+        "release_date": "2026-01-22",
+        "runtime": "113 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Rachel McAdams",
+                "image": "https://image.tmdb.org/t/p/w185/2DPh6KoNg0p57vvGc6N468zr3ct.jpg"
+            },
+            {
+                "name": "Dylan O'Brien",
+                "image": "https://image.tmdb.org/t/p/w185/xN3GdvIlqsR838gDoblhPH0numP.jpg"
+            },
+            {
+                "name": "Edyll Ismail",
+                "image": "https://image.tmdb.org/t/p/w185/lCpAsh5kViYm6tx7lKyIyeefScd.jpg"
+            },
+            {
+                "name": "Dennis Haysbert",
+                "image": "https://image.tmdb.org/t/p/w185/lcnjaw2CFN6q9eaes1jTYrUB0rb.jpg"
+            },
+            {
+                "name": "Xavier Samuel",
+                "image": "https://image.tmdb.org/t/p/w185/gHvKqCXfpzaGp46gqsy9MVDfmSf.jpg"
+            }
+        ],
+        "details": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/16/2cbe97e63596b61725246fa38bf64304-ld.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_86423",
+        "type": "series",
+        "title": "Locke & Key",
+        "poster": "https://image.tmdb.org/t/p/w500/zuxGfRKziGHPogipnEXXykdDmyT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nYxqUQaYGUv3pgMfe9BQ2WtUMQu.jpg",
+        "rating": 7.7,
+        "release_date": "2020-02-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Darby Stanchfield",
+                "image": "https://image.tmdb.org/t/p/w185/toyuuYQtwaEYlOxLFMxf2YoIjXG.jpg"
+            },
+            {
+                "name": "Connor Jessup",
+                "image": "https://image.tmdb.org/t/p/w185/uVhhVxdK0uUcawfEE3Jp2YYKFRv.jpg"
+            },
+            {
+                "name": "Emilia Jones",
+                "image": "https://image.tmdb.org/t/p/w185/xHzb3lgOAwTl2NoGtc3mmY0u8ii.jpg"
+            },
+            {
+                "name": "Jackson Robert Scott",
+                "image": "https://image.tmdb.org/t/p/w185/lIKAFo9w4ejU1I7LfkU81LWQ0gr.jpg"
+            },
+            {
+                "name": "Kevin Durand",
+                "image": "https://image.tmdb.org/t/p/w185/hINvryvce5tpod6kTnUg9ZTH8wg.jpg"
+            }
+        ],
+        "details": "After their dad's murder, three siblings move with their mom to his ancestral estate, where they discover magical keys that unlock powers — and secrets.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/263d09784cba03bdff88935578f22498-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
