@@ -1,0 +1,16 @@
+{
+  "name": "Movieplex BD",
+  "short_name": "MovieplexBD",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0c0f1d",
+  "theme-color": "#0c0f1d",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
