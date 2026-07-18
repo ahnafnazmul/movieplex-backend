@@ -31,7 +31,7 @@
         
         /* 🔄 3D BACKGROUND CAROUSEL ENGINE - ADJUSTED HEIGHT FOR GAP REDUCTION */
         .carousel-container-fixed { position: relative; width: 100%; height: 260px; overflow: visible; background-color: #060814; margin-top: 16px; }
-        @media (min-width: 768px) { .carousel-container-fixed { height: 360px; margin-top: 24px; } }
+        @media (min-width: 768px) { .carousel-container-fixed { height: 320px; margin-top: 24px; } }
         
         .carousel-viewport { position: absolute; top: 0; left: 0; width: 100%; height: 100%; perspective: 1400px; overflow: visible; z-index: 10; }
         .carousel-wheel-wrapper { position: relative; width: 100%; height: 100%; display: flex; justify-content: center; items: center; }
@@ -162,8 +162,8 @@
             <div class="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-[#0c0f1d] to-transparent pointer-events-none z-30"></div>
         </div>
 
-        <!-- ⚡ DYNAMIC GRID LAYOUT WITH NEGATIVE MARGIN TO ELIMINATE CAROUSEL GAP -->
-        <div class="pl-4 md:pl-12 space-y-7 -mt-12 md:-mt-24 relative z-40 bg-[#0c0f1d] pt-2 pb-4">
+        <!-- ⚡ DYNAMIC GRID LAYOUT WITH BALANCED SPECIFIED GAPS -->
+<div class="pl-4 md:pl-12 space-y-7 md:-mt-16 relative z-40 bg-[#0c0f1d] pt-2 pb-4">
             
             <!-- Row 1: Bangla -->
             <div class="space-y-2.5" id="section-bangla">
