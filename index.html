@@ -29,9 +29,9 @@
         .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
         .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
         
-        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - TIGHT SPACING MECHANISM */
-        .carousel-container-fixed { position: relative; width: 100%; height: 340px; overflow: visible; background-color: #060814; margin-top: 0px; }
-        @media (min-width: 768px) { .carousel-container-fixed { height: 460px; } }
+        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - TIGHT RELATIVE POSITIONING */
+        .carousel-container-fixed { position: relative; width: 100%; height: 320px; overflow: visible; background-color: #060814; }
+        @media (min-width: 768px) { .carousel-container-fixed { height: 440px; } }
         
         .carousel-viewport { position: absolute; top: 0; left: 0; width: 100%; height: 100%; perspective: 1400px; overflow: visible; z-index: 10; }
         .carousel-wheel-wrapper { position: relative; width: 100%; height: 100%; display: flex; justify-content: center; items: center; }
@@ -72,8 +72,12 @@
         .movie-card { transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border: 1px solid rgba(255,255,255,0.03); }
         .movie-card:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
 
-        /* ⚠️ IMAGE-BASED PWA OBLIGATORY MARKETING & COPYRIGHT SHIELD MODAL SYSTEM ELEMENT */
+        /* ⚠️ FIXED POPUP OVERLAY ELEMENT */
         #legal-shield-modal { display: none; }
+        
+        /* 📱 RESPONSIVE MEDIA FOR METAPANE (SHOW ON DESKTOP MODE & LARGE SCREENS) */
+        #wheel-meta-pane { display: none; }
+        @media (min-width: 1024px) { #wheel-meta-pane { display: block; } }
     </style>
     
     <script>
@@ -107,18 +111,18 @@
         });
     </script>
 </head>
-<body class="relative min-h-screen pb-[120px] md:pb-[100px]">
+<body class="relative min-h-screen pb-[100px]">
 
-    <!-- ⚠️ PWA BRAND-SPECIFIED OBLIGATORY IMAGE-BASED DISCLAIMER POPUP PORTAL -->
-    <div id="legal-shield-modal" class="fixed inset-0 z-[100] bg-black/70 backdrop-blur-xl flex flex-col items-center justify-center p-6 select-none">
-        <div class="relative max-w-full sm:max-w-[480px] md:max-w-[550px] flex flex-col items-center">
+    <!-- ⚠️ PWA BRAND-SPECIFIED OBLIGATORY MARKETING & COPYRIGHT SHIELD MODAL PORTAL -->
+    <div id="legal-shield-modal" class="fixed inset-0 z-[100] bg-black/85 backdrop-blur-xl flex flex-col items-center justify-center p-4 select-none">
+        <div class="relative max-w-full sm:max-w-[420px] md:max-w-[480px] flex flex-col items-center">
             
-            <!-- 📷 Direct Image Injection Layer from Github Repository Base -->
-            <img src="disclaimer.png" alt="Disclaimer Notice" class="w-full h-auto object-contain max-h-[75vh] drop-shadow-[0_25px_50px_rgba(0,0,0,0.8)] rounded-2xl">
+            <!-- 📷 Image Injection Point Target - Explicitly Bound to desclaimer.png -->
+            <img src="desclaimer.png" alt="Disclaimer Notice" class="w-full h-auto object-contain max-h-[75vh] rounded-2xl shadow-[0_25px_60px_rgba(0,0,0,0.8)] border border-white/5">
             
-            <!-- ⏱️ Dynamic Floating Closing Pill Engine Block Mounted Cleanly Directly Below The Image Layout -->
-            <div class="mt-5">
-                <span id="shield-timer-text" class="bg-slate-950 text-[#eab308] text-[10px] md:text-[11px] font-black px-6 py-2.5 rounded-full tracking-widest uppercase shadow-[0_10px_25px_rgba(0,0,0,0.5)] border border-white/10">
+            <!-- ⏱️ Closing timer pill below image layout -->
+            <div class="mt-4">
+                <span id="shield-timer-text" class="bg-slate-950 text-[#eab308] text-[10px] md:text-[11px] font-black px-6 py-2.5 rounded-full tracking-widest uppercase shadow-xl border border-white/10">
                     Closing in 5s
                 </span>
             </div>
@@ -138,7 +142,8 @@
     <!-- VIEW A: HOME VIEW -->
     <div id="home-view-container" class="block">
         <div class="carousel-container-fixed">
-            <div class="absolute top-12 left-6 md:left-12 max-w-sm md:max-w-md space-y-4 text-left hidden lg:block z-30 pointer-events-auto" id="wheel-meta-pane">
+            <!-- Metadata Area Layer -->
+            <div class="absolute top-12 left-6 md:left-12 max-w-sm md:max-w-md space-y-4 text-left z-30 pointer-events-auto" id="wheel-meta-pane">
                 <span class="bg-yellow-500 text-black text-[9px] font-black uppercase px-2.5 py-1 rounded tracking-widest shadow shadow-yellow-500/10">Spotlight</span>
                 <h2 id="wheel-title" class="text-2xl md:text-4xl font-black text-white tracking-tight leading-none drop-shadow-md">Loading...</h2>
                 <div class="flex items-center space-x-4 text-xs font-bold text-gray-400">
@@ -158,7 +163,7 @@
         </div>
 
         <!-- ⚡ DYNAMIC GRID LAYOUT WITH BALANCED SPECIFIED GAPS -->
-        <div class="pl-4 md:pl-12 space-y-7 -mt-16 md:-mt-20 relative z-40 bg-gradient-to-b from-transparent via-[#0c0f1d] to-[#0c0f1d] pt-2 pb-4">
+        <div class="pl-4 md:pl-12 space-y-7 mt-4 relative z-40 bg-[#0c0f1d] pt-2 pb-4">
             
             <!-- Row 1: Bangla -->
             <div class="space-y-2.5" id="section-bangla">
@@ -332,33 +337,22 @@
         </div>
     </div>
 
-    <!-- 🔒 🧱 100% FLUID FULL-WIDTH RESPONSIVE HUD PANEL (NO HARDCODED WIDTH) -->
-    <div class="fixed bottom-0 left-0 w-full z-50 bg-[#060814]/95 backdrop-blur-md border-t border-white/10 shadow-[0_-10px_25px_rgba(0,0,0,0.95)] px-4 md:px-12 py-1.5 space-y-1 select-none">
-        <div class="w-full flex justify-between items-center text-[10px] md:text-[11.5px] font-bold tracking-tight">
-            <div class="flex items-center space-x-2 text-gray-400">
-                <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
-                <p>Active Users:<span id="count-active" class="text-white font-extrabold ml-1">--</span></p>
-                <span class="text-gray-800 font-light mx-1">|</span>
-                <p class="hidden sm:inline">24H Dynamic Visitors:<span id="count-total" class="text-white font-extrabold ml-1">--</span></p>
-                <p class="inline sm:hidden">24hr:<span id="count-total-mobile" class="text-white font-extrabold ml-1">--</span></p>
-            </div>
-            <div class="flex items-center space-x-2 text-gray-400">
-                <p>Recent Additions:<span id="real-stats-recent" class="text-yellow-500 font-black ml-1">04</span></p>
-                <span class="text-gray-800 font-light mx-1">|</span>
-                <p>24hr Index:<span id="real-stats-24h" class="text-white font-black ml-1">17</span></p>
-                <span class="text-gray-800 font-light mx-1">|</span>
-                <p>Processing Status:<span id="fake-stats-process" class="text-emerald-500 font-black ml-1">05</span></p>
-            </div>
+    <!-- 🔒 🧱 ORIGINAL SINGLE-LINE HUD PANEL WITH DYNAMIC FLUID SPACER EDGE (NO ADDED TEXT OVERLAP FIX) -->
+    <div class="fixed bottom-0 left-0 w-full z-50 bg-[#060814]/95 backdrop-blur-md border-t border-white/10 shadow-[0_-10px_25px_rgba(0,0,0,0.95)] px-4 md:px-12 py-3 select-none flex justify-between items-center text-[10px] md:text-[11px] font-bold tracking-widest uppercase text-gray-400">
+        <div class="flex items-center space-x-2">
+            <span class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
+            <p>Active: <span id="count-active" class="text-white font-extrabold ml-0.5">--</span></p>
+            <span class="text-gray-800 mx-1 font-light">|</span>
+            <p>24hr: <span id="count-total" class="text-white font-extrabold ml-0.5">--</span></p>
         </div>
-        
-        <div class="w-full flex justify-between items-center text-[8.5px] md:text-[10px] font-bold pt-1 border-t border-white/5">
-            <div class="text-left text-gray-500 font-medium truncate max-w-[70%]">
-                <span class="text-red-500 font-black uppercase mr-1">Disclaimer:</span>
-                <span class="font-light text-gray-400">Index aggregated structural properties strictly linked from public internet sources.</span>
-            </div>
-            <div class="text-right text-yellow-500 font-black tracking-wider text-[8px] md:text-[9.5px]">
-                DEVELOPED BY @NAZMULSBLOG
-            </div>
+        <div class="flex items-center space-x-2 text-right">
+            <p>Recent: <span id="real-stats-recent" class="text-yellow-500 font-black ml-0.5">04</span></p>
+            <span class="text-gray-800 mx-1 font-light">|</span>
+            <p>24hr: <span id="real-stats-24h" class="text-white font-black ml-0.5">17</span></p>
+            <span class="text-gray-800 mx-1 font-light">|</span>
+            <p>Processing: <span id="fake-stats-process" class="text-emerald-500 font-black ml-0.5">05</span></p>
+            <span class="text-gray-800 mx-1 font-light hidden sm:inline">|</span>
+            <p class="hidden sm:inline text-yellow-500 font-black">Developed by @Nazmulsblog</p>
         </div>
     </div>
 
@@ -381,7 +375,6 @@
             const totalPool = Math.floor(Math.random() * (1500 - 700 + 1)) + 700;
             document.getElementById('count-active').innerText = activePool;
             document.getElementById('count-total').innerText = totalPool;
-            document.getElementById('count-total-mobile').innerText = totalPool;
         }
 
         function processRealDatabaseStatistics() {
