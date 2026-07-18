@@ -8450,5 +8450,173 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_328020",
+        "type": "series",
+        "title": "Craving My Brother's Best Friend",
+        "poster": "https://image.tmdb.org/t/p/w500/64C350aOsLwsAQdS8JGkoM80cKo.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-04-21",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English"
+        ],
+        "cast": [],
+        "details": "A woman accidentally sends a steamy fanfiction to her older brother' best friend, who becomes her new roommate. He's her longtime secret crush and off-limits. As they live together, tension builds between forbidden attraction and loyalty.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/8412f6b5f03e2bbb6f6cfbd4164fe429.mp4?sign=0a3680d0a8f45688de8c5f52d259f553&t=1784379216"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=4243034716575fd12b50125c46c2ba1d&t=1784379216"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_259669",
+        "type": "series",
+        "title": "Olympo",
+        "poster": "https://image.tmdb.org/t/p/w500/2X06R82PG2HVZl6h7YeXXT11EEP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fWOagGfFtMm70U8BtWPlVRW6efu.jpg",
+        "rating": 7.7,
+        "release_date": "2025-06-20",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Clara Galle",
+                "image": "https://image.tmdb.org/t/p/w185/ipZQNX8KECqeCHoD4dmbb883lzP.jpg"
+            },
+            {
+                "name": "Nuno Gallego",
+                "image": "https://image.tmdb.org/t/p/w185/9yIFgpbIJPL0qvrgZi02H7Fuvz4.jpg"
+            },
+            {
+                "name": "Nira Osahia",
+                "image": "https://image.tmdb.org/t/p/w185/aLVaThiHnpSEElZHkECL5zYxmVi.jpg"
+            },
+            {
+                "name": "Agustín Della Corte",
+                "image": "https://image.tmdb.org/t/p/w185/ygQLhugo6elCnAoWMkHpCnp2qRj.jpg"
+            },
+            {
+                "name": "María Romanillos",
+                "image": "https://image.tmdb.org/t/p/w185/sjFIhCetynIKYorwNWiU5gebsP7.jpg"
+            }
+        ],
+        "details": "When a swimmer collapses at a high-performance sports center, Amaia investigates the extreme risks her fellow athletes are taking to feed their ambition.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/22/a2bd94821b2f94e3c42f7f8dbb94a49b-sd.mp4"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_548531",
+        "type": "movie",
+        "title": "One More Try: My Husband's Lover the Concert",
+        "poster": "https://image.tmdb.org/t/p/w500/cd6TiUNyuj7MmxMGoqNhqYtaB9w.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rWFRTa5Fe6EBqpsnbudZT6tgRWi.jpg",
+        "rating": 8.7,
+        "release_date": "2013-10-20",
+        "runtime": "96 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Music",
+            "TV Movie"
+        ],
+        "cast": [
+            {
+                "name": "Carla Abellana",
+                "image": "https://image.tmdb.org/t/p/w185/q5Q1tp7OGn2rLc5sOUuTjMPrH1v.jpg"
+            },
+            {
+                "name": "Dennis Trillo",
+                "image": "https://image.tmdb.org/t/p/w185/eB0re4fSCt3h19fjp0dchJCQYuF.jpg"
+            },
+            {
+                "name": "Tom Rodriguez",
+                "image": "https://image.tmdb.org/t/p/w185/6Wo3bKcZMRDqJzjTSHlDb1bYYfO.jpg"
+            },
+            {
+                "name": "Kuh Ledesma",
+                "image": ""
+            },
+            {
+                "name": "Roi Vinzon",
+                "image": "https://image.tmdb.org/t/p/w185/z2rt6CjsJAC8ooH7KktWSlq36vc.jpg"
+            }
+        ],
+        "details": "The farewell concert of Philippine TV’s most controversial series.  A thank you to the show’s fans and loyal viewers, My Husband's Lover's cast find themselves performing against musical backdrop, recreating the emotions evoked by the series.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#hxbr5"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_433150",
+        "type": "movie",
+        "title": "The Invisible Boy: Second Generation",
+        "poster": "https://image.tmdb.org/t/p/w500/oi6CgVTaDQAuCRbQqXjevlpa8kk.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1dxeDO4MNAYey6wPD0IspSTm7tu.jpg",
+        "rating": 6.4,
+        "release_date": "2018-01-04",
+        "runtime": "100 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Action",
+            "Adventure",
+            "Comedy",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Ludovico Girardello",
+                "image": "https://image.tmdb.org/t/p/w185/afRi71TTOG8VrVAEWBNJh7P7VIN.jpg"
+            },
+            {
+                "name": "Kseniya Rappoport",
+                "image": "https://image.tmdb.org/t/p/w185/i2BEeoC4EcMSwDqZR88TDnXvB3n.jpg"
+            },
+            {
+                "name": "Galatea Bellugi",
+                "image": "https://image.tmdb.org/t/p/w185/l583mGk85A9tFkTCothEelPuxWU.jpg"
+            },
+            {
+                "name": "Ivan Franěk",
+                "image": "https://image.tmdb.org/t/p/w185/lzv69BsRg5dc83q5bLntXHEaEJo.jpg"
+            },
+            {
+                "name": "Dario Cantarelli",
+                "image": "https://image.tmdb.org/t/p/w185/qIA5IzMYZOgq3r3RomeMqoo5c5v.jpg"
+            }
+        ],
+        "details": "Three years later Michele (The Invisible boy) meets his mother and his twin sister. Both have stories and superpowers but their intentions may not be what Michele thinks.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#tlory"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
