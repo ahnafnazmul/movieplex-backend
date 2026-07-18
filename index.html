@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Movieplex BD - Ultimate OTT Hub</title>
+    
+    <!-- 📱 PWA & APPLE MOBILE APP CAPABLE INTEGRATION LAYER -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="MovieplexBD">
+    <meta name="theme-color" content="#0c0f1d">
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="logo.png">
+    <link rel="shortcut icon" href="logo.png">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;700;800;900&display=swap" rel="stylesheet">
     <style>
@@ -56,45 +66,78 @@
         .movie-card { transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border: 1px solid rgba(255,255,255,0.03); }
         .movie-card:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
 
-        /* ⚠️ HIGH-END SPECIFIED LAYOUT SHIELD POP-UP COMPONENT ENGINE */
-        #legal-shield-modal { display: none; animation: modalSystemFade 0.35s cubic-bezier(0.16, 1, 0.3, 1); }
-        .shield-plastic-triangle { filter: drop-shadow(0px 8px 16px rgba(0,0,0,0.3)); }
-        @keyframes modalSystemFade { from { opacity: 0; } to { opacity: 1; } }
+        /* ⚠️ HIGH-END REFERENCE PLASTIC SHIELD MODAL SYSTEM ELEMENT */
+        #legal-shield-modal { display: none; }
+        .plastic-triangle-shadow { filter: drop-shadow(0px 6px 12px rgba(0,0,0,0.4)); }
     </style>
+    
+    <script>
+        /* ⏳ INSTANTLOAD MATRIX: EXECUTED IMMEDIATELY AT TOP PARSING STAGE */
+        document.addEventListener("DOMContentLoaded", function() {
+            try {
+                if (sessionStorage.getItem('movieplex_shield_viewed') === 'true') {
+                    return;
+                }
+            } catch(e) {}
+
+            const modal = document.getElementById('legal-shield-modal');
+            if(modal) {
+                modal.style.display = 'flex';
+                let secondsLeft = 5;
+                const timerContainer = document.getElementById('shield-timer-text');
+                
+                const countdownInterval = setInterval(() => {
+                    secondsLeft--;
+                    if(secondsLeft > 0) {
+                        if(timerContainer) timerContainer.innerText = `Closing in ${secondsLeft}s`;
+                    } else {
+                        clearInterval(countdownInterval);
+                        try { sessionStorage.setItem('movieplex_shield_viewed', 'true'); } catch(e) {}
+                        modal.style.transition = 'opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
+                        modal.style.opacity = '0';
+                        setTimeout(() => modal.remove(), 300); 
+                    }
+                }, 1000);
+            }
+        });
+    </script>
 </head>
 <body class="relative min-h-screen pb-[120px] md:pb-[100px]">
 
-    <!-- ⚠️ PREMIUM BRAND-SPECIFIED OBLIGATORY MARKETING & COPYRIGHT PROTECTION PORTAL -->
-    <div id="legal-shield-modal" class="fixed inset-0 z-[100] bg-[#eab308]/20 backdrop-blur-3xl flex items-center justify-center p-6 select-none">
-        <!-- Main Red Notification Board Tag Frame (Bounded cleanly with clear space insulation on all directions) -->
-        <div class="bg-gradient-to-b from-[#e11d48] to-[#be123c] w-full max-w-[370px] sm:max-w-[390px] rounded-[32px] p-6 md:p-7 shadow-[0_30px_70px_rgba(0,0,0,0.8)] text-center border-t border-white/20 relative flex flex-col items-center">
+    <!-- ⚠️ PWA BRAND-SPECIFIED OBLIGATORY MARKETING & COPYRIGHT SHIELD MODAL PORTAL -->
+    <div id="legal-shield-modal" class="fixed inset-0 z-[100] bg-[#eab308]/5 backdrop-blur-xl flex items-center justify-center p-6 select-none">
+        <!-- Main Vertical Notice Board Red Badge Frame (Surrounded cleanly by isolated screen space boundaries) -->
+        <div class="bg-gradient-to-b from-[#e11d48] to-[#be123c] w-full max-w-[340px] sm:max-w-[365px] rounded-[32px] px-6 py-7 shadow-[0_30px_70px_rgba(0,0,0,0.85)] text-center border-t border-white/20 relative flex flex-col items-center">
             
-            <!-- 1. The Core Geometric 3D Attention Triangle Icon -->
-            <div class="shield-plastic-triangle bg-white w-16 h-14 rounded-xl flex items-center justify-center relative mb-4 mt-2 border-b-4 border-gray-300">
-                <!-- Inner Red Warning Frame Accents -->
-                <div class="w-12 h-10 border-[3.5px] border-[#dc2626] rounded-md flex items-center justify-center font-black text-2xl text-[#dc2626]">!</div>
+            <!-- 1. Geometric 3D Attention Triangle Icon (Replicated exactly to the plastic sample reference) -->
+            <div class="plastic-triangle-shadow bg-white w-[72px] h-[62px] rounded-2xl flex items-center justify-center relative mb-4 mt-1 border-b-[5px] border-slate-300">
+                <svg class="w-14 h-12 text-[#dc2626]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                    <line x1="12" y1="9" x2="12" y2="13" stroke-width="3.5"></line>
+                    <line x1="12" y1="17" x2="12.01" y2="17" stroke-width="4"></line>
+                </svg>
             </div>
 
-            <!-- 2. Header Status Line (Stark Flat Bold Heavy Print Typeface) -->
-            <h2 class="text-3xl sm:text-4xl font-black tracking-widest text-white uppercase text-center mb-5">DISCLAIMER</h2>
+            <!-- 2. Header Status Title Block (Straight Ultra-Density Black Font Declaration) -->
+            <h2 class="text-3xl sm:text-[38px] font-black tracking-wider text-white uppercase text-center mb-6 leading-none">DISCLAIMER</h2>
             
-            <!-- 3. Overlapping Mid Charcoal Floating Box (Holds the White Slogan locked into exactly 4 lines) -->
-            <div class="bg-slate-900/95 w-full rounded-2xl px-4 py-4 shadow-inner border border-white/5 my-2 flex items-center justify-center">
-                <p class="text-white font-black text-[13px] sm:text-[14px] leading-relaxed tracking-wide text-center max-w-[320px]">
+            <!-- 3. Overlapping Mid Charcoal Box Element (Horizontally expanded outward past the red baseline container) -->
+            <div class="bg-slate-900/95 w-[calc(100%+40px)] rounded-2xl px-5 py-4.5 shadow-[0_15px_30px_rgba(0,0,0,0.5)] border border-white/5 my-2 flex items-center justify-center relative z-10">
+                <p class="text-white font-black text-[13px] sm:text-[14px] leading-relaxed tracking-wide text-center max-w-[310px]">
                     Keeping family entertainment in mind, we strictly block adult content from our feature feeds. Enjoy a 100% premium, ad-free streaming experience with no clickbaits on our platform.
                 </p>
             </div>
             
-            <!-- 4. Lower Logo Space Layout (Houses the Dark High-Opacity Copyright Disclaimer text) -->
-            <div class="mt-5 max-w-[310px]">
+            <!-- 4. Lower Content Frame (Houses the localized dark clear print copyright protection layout) -->
+            <div class="mt-6 max-w-[290px]">
                 <p class="text-slate-950/80 font-bold text-[10.5px] sm:text-[11px] leading-relaxed tracking-normal text-center">
                     We do not upload or host any video content. All materials displayed here are publicly available on the internet. Movieplex BD is strictly a showcase platform providing ratings, details, and independent reviews.
                 </p>
             </div>
 
-            <!-- 5. Tightly Clamped Mini Counter Chip Anchor (Clean, no trailing punctuation) -->
-            <div class="mt-6 mb-1">
-                <span id="shield-timer-text" class="bg-slate-950 text-[#eab308] text-[9.5px] font-black px-4 py-1.5 rounded-full tracking-wider uppercase shadow-lg">
+            <!-- 5. Tightly Bound Dynamic Closing Pill Engine Component -->
+            <div class="mt-6 mb-0.5">
+                <span id="shield-timer-text" class="bg-slate-950 text-[#eab308] text-[9.5px] font-black px-5 py-2 rounded-full tracking-widest uppercase shadow-xl border border-white/5">
                     Closing in 5s
                 </span>
             </div>
@@ -307,11 +350,9 @@
         </div>
     </div>
 
-    <!-- 🔒 🧱 ULTRA-COMPACT MOBILE-RESPONSIVE SINGLE-LINE HUD PANEL -->
+    <!-- 🔒 🧱 MOBILE-RESPONSIVE COMPACT SINGLE-LINE HUD PANEL -->
     <div class="fixed bottom-0 left-0 w-full z-50 bg-[#060814]/95 backdrop-blur-md border-t border-white/10 shadow-[0_-10px_25px_rgba(0,0,0,0.95)] px-3 py-1.5 space-y-1 select-none">
-        <!-- Core Matrix Layout Grid Configured to Secure Space Collision Preventions -->
         <div class="max-w-[700px] mx-auto flex justify-between items-center text-[9px] sm:text-[10.5px] font-bold tracking-tight px-1">
-            <!-- Left Data Packet (Zero-Padding Compact Integration) -->
             <div class="flex items-center space-x-1 sm:space-x-1.5 text-gray-400">
                 <span class="w-1 h-1 rounded-full bg-green-500 animate-pulse"></span>
                 <p>Active:<span id="count-active" class="text-white font-extrabold ml-0.5">--</span></p>
@@ -319,7 +360,6 @@
                 <p class="hidden sm:inline">24H Visitors:<span id="count-total" class="text-white font-extrabold ml-0.5">--</span></p>
                 <p class="inline sm:hidden">24hr:<span id="count-total-mobile" class="text-white font-extrabold ml-0.5">--</span></p>
             </div>
-            <!-- Right Data Packet (Tightened 1-Line Component Stream Updates) -->
             <div class="flex items-center space-x-1 sm:space-x-1.5 text-gray-400 text-[8.5px] sm:text-[10px]">
                 <p>Recent:<span id="real-stats-recent" class="text-yellow-500 font-black ml-0.5">04</span></p>
                 <span class="text-gray-800 text-[8px]">|</span>
@@ -329,7 +369,6 @@
             </div>
         </div>
         
-        <!-- Identity & Structural Brand Subline -->
         <div class="max-w-[700px] mx-auto flex justify-between items-center text-[8px] sm:text-[9px] font-bold pt-1 border-t border-white/5 px-1">
             <div class="text-left text-gray-500 font-medium truncate max-w-[65%]">
                 <span class="text-red-500 font-black uppercase mr-0.5">Disclaimer:</span>
@@ -354,35 +393,6 @@
         let activePlayerSrc = "";
         let currentViewingMovieObj = null;
         let tmdbCastsBackup = [];
-
-        /* ⏳ OBLIGATORY SHIELD ENGINE ENGINE (ONE VISIT PER SESSION RUN MATRIX LOCK) */
-        function runObligatoryShieldTimer() {
-            try {
-                if (sessionStorage.getItem('movieplex_shield_viewed') === 'true') {
-                    document.getElementById('legal-shield-modal').remove();
-                    return;
-                }
-            } catch(e) {}
-
-            const modal = document.getElementById('legal-shield-modal');
-            modal.style.display = 'flex';
-
-            let secondsLeft = 5;
-            const timerContainer = document.getElementById('shield-timer-text');
-            
-            const countdownInterval = setInterval(() => {
-                secondsLeft--;
-                if(secondsLeft > 0) {
-                    timerContainer.innerText = `Closing in ${secondsLeft}`;
-                } else {
-                    clearInterval(countdownInterval);
-                    try { sessionStorage.setItem('movieplex_shield_viewed', 'true'); } catch(e) {}
-                    modal.style.transition = 'opacity 0.4s ease-out';
-                    modal.style.opacity = '0';
-                    setTimeout(() => modal.remove(), 400); 
-                }
-            }, 1000);
-        }
 
         function initTrafficCounters() {
             const activePool = Math.floor(Math.random() * (240 - 70 + 1)) + 70;
@@ -416,7 +426,7 @@
                     document.getElementById('fake-stats-process').innerText = pool[Math.floor(Math.random() * pool.length)];
                 }, 10 * 60 * 1000);
 
-            } catch(e) { console.error("Stats failover structural bypass active."); }
+            } catch(e) { console.error("Stats system structural loop wrap complete."); }
         }
 
         function cleanTitle(title) {
@@ -468,7 +478,6 @@
 
         async function initMovieplex() {
             initTrafficCounters();
-            runObligatoryShieldTimer();
             try {
                 const response = await fetch(API_URL);
                 globalMoviesData = await response.json();
@@ -489,7 +498,7 @@
                 build3DPosterWheel();
                 populateGenreDropdown();
                 processRealDatabaseStatistics();
-            } catch (e) { console.error("System engine protective wrap loaded."); }
+            } catch (e) { console.error("System structural layer verification active."); }
         }
 
         function build3DPosterWheel() {
@@ -536,7 +545,7 @@
                     const movie = safeItems[wheelIndex];
                     if(movie) {
                         document.getElementById('wheel-title').innerText = cleanTitle(movie.title);
-                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy premium clean stream optimizations flawlessly.";
+                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy clean layout stream enhancements smoothly.";
                         document.getElementById('wheel-year').innerText = extractSafeYear(movie);
                         document.getElementById('wheel-rating').innerText = `⭐ ${movie.rating}`;
                         document.getElementById('wheel-views').innerText = `Views: ${movie.views.toLocaleString()}`;
@@ -684,7 +693,7 @@
             const grid = document.getElementById('see-more-grid');
             grid.innerHTML = '';
             if(filteredResult.length === 0) {
-                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No matching signatures discovered.</span>`;
+                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No structural entries matching metadata found.</span>`;
                 return;
             }
             filteredResult.forEach(movie => {
@@ -738,7 +747,7 @@
             document.getElementById('details-year').innerText = extractSafeYear(movie);
             document.getElementById('details-rating').innerText = `⭐ ${movie.rating}`;
             document.getElementById('details-views').innerText = `Views: ${movie.views.toLocaleString()}`;
-            document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis rendering complete.";
+            document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis parsing verified.";
             document.getElementById('details-meta-audio').innerText = movie.detectedAudio;
             document.getElementById('details-video-iframe').src = "";
             
@@ -911,7 +920,7 @@
                 
                 const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query));
                 if(filtered.length === 0) {
-                    grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-6">No matching entries discovered.</span>`;
+                    grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-6">No matching database index matching title discovered.</span>`;
                     return;
                 }
                 filtered.forEach(movie => {
