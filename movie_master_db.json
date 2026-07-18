@@ -9879,7 +9879,8 @@
         "categories": [
             "Movies",
             "Hindi",
-            "Thriller"
+            "Thriller",
+            "Bangla"
         ],
         "cast": [
             {
@@ -12994,7 +12995,8 @@
             "Hindi",
             "Sci-Fi & Fantasy",
             "Drama",
-            "Action & Adventure"
+            "Action & Adventure",
+            "Bangla"
         ],
         "cast": [
             {
@@ -16925,7 +16927,8 @@
             "Hindi",
             "Drama",
             "Action",
-            "Romance"
+            "Romance",
+            "Bangla"
         ],
         "cast": [
             {
@@ -18932,7 +18935,8 @@
             "Hindi",
             "Action",
             "Adventure",
-            "Fantasy"
+            "Fantasy",
+            "Bangla"
         ],
         "cast": [
             {
@@ -27448,6 +27452,3740 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/23/433ea86875badc7983bac3e04ff1338a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1372676",
+        "type": "movie",
+        "title": "Aarii",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/tdSnkXDA6CMF40aq4CGkyf7GWzp.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2025-04-25",
+        "runtime": "133 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Moushumi Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/2ebWx8egKmrAsRPHOegEY6rwGaf.jpg"
+            },
+            {
+                "name": "Yash Daasguptaa",
+                "image": "https://image.tmdb.org/t/p/w185/mvwGvJWzFyUwRpZm5bIqLPOOtK4.jpg"
+            },
+            {
+                "name": "Nusrat Jahan",
+                "image": "https://image.tmdb.org/t/p/w185/jIhr2Ookz1qba79Mn00q44L5VH7.jpg"
+            },
+            {
+                "name": "Debraj Bhattacharya",
+                "image": "https://image.tmdb.org/t/p/w185/AtDQqAbIlejI8l9NvBXqpAns2fI.jpg"
+            },
+            {
+                "name": "Kamaleswar Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/dIjtjax4v73M2icNDmK2WJO6oeL.jpg"
+            }
+        ],
+        "details": "Jaya Sen's life falls apart after her husband's death, leaving her battling illness and a deteriorating mind. Her son, Joy, sacrifices his dreams to care for her. Their world takes a hopeful turn when Aditi, a city writer, enters their lives. However, their peace is threatened by the sinister Trilok Halder, whose dark ambitions aim to destroy their happiness once again. As danger looms, Joy fights desperately to protect his mother and restore their lost peace.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/30/7559064d63347e6691260c64f9b70228-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/30/7559064d63347e6691260c64f9b70228-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1156976",
+        "type": "movie",
+        "title": "Grihapravesh",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=lmyoV40DrnI",
+        "poster": "https://image.tmdb.org/t/p/w500/8mRBuaEPaix3AAtPZdsH7IszYHP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pczt6HbCAinr0rYoCspN1yzCgLy.jpg",
+        "rating": 0.0,
+        "release_date": "2025-06-13",
+        "runtime": "151 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama",
+            "Family",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Subhashree Ganguly",
+                "image": "https://image.tmdb.org/t/p/w185/uA0c9gZNiwAG83t6K4TzR6JqGWA.jpg"
+            },
+            {
+                "name": "Jeetu Kamal",
+                "image": "https://image.tmdb.org/t/p/w185/nYMyd6pS4EtW5wog4T9qS49lPfu.jpg"
+            },
+            {
+                "name": "Kaushik Ganguly",
+                "image": "https://image.tmdb.org/t/p/w185/serCnOhT87g86Ow0X5zkX3GfEzK.jpg"
+            },
+            {
+                "name": "Sohini Sengupta",
+                "image": "https://image.tmdb.org/t/p/w185/c0cFqhQulPcuyS3Fo67aUe3ZBdL.jpg"
+            },
+            {
+                "name": "Rudranil Ghosh",
+                "image": "https://image.tmdb.org/t/p/w185/iwDM4gz1gLutxlMnAKyJqZUwAbv.jpg"
+            }
+        ],
+        "details": "In a fading North Calcutta Rajbari, Titli clings to routine after her husband Shaon vanishes. As Durga Puja nears, Megh arrives, an unexpected guest who brings warmth and a painful revel of thought. Amid rituals and memories, unspoken grief surfaces, stirring buried emotions, silent longing, and the ache of unfinished stories.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/16/40b64095010a8ef3d208a52169b2c484-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/16/40b64095010a8ef3d208a52169b2c484-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_579234",
+        "type": "movie",
+        "title": "Romeo Vs Juliet",
+        "release_year": 2015,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/8UpPht8N1NcXI2Zv2L4qc1gV4Xx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/i3pgbZRhyoAiKdalcMpC255q6j5.jpg",
+        "rating": 0.0,
+        "release_date": "2015-01-23",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [
+            {
+                "name": "Ankush Hazra",
+                "image": "https://image.tmdb.org/t/p/w185/qcb4giudEEIt5xltfAQezvSHoSD.jpg"
+            },
+            {
+                "name": "Mahiya Mahi",
+                "image": "https://image.tmdb.org/t/p/w185/8Ohl18ACGJVSslUkUsbp1qzKAJT.jpg"
+            },
+            {
+                "name": "Tulika Basu",
+                "image": "https://image.tmdb.org/t/p/w185/hMPWBTDexZVAdMMO3i70qj9gehi.jpg"
+            },
+            {
+                "name": "Supriyo Dutta",
+                "image": "https://image.tmdb.org/t/p/w185/e5pQ2fPQWcFJLaPXSvWTMatuBoQ.jpg"
+            },
+            {
+                "name": "Joey Debroy",
+                "image": "https://image.tmdb.org/t/p/w185/9lPr3oGNc9QhIfzqMc34lM30eqy.jpg"
+            }
+        ],
+        "details": "Romeo is an unruly youth in his local village. He goes to London after seeing his dream girl on Facebook to win her heart.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/04/28/7676e835c44c23eea3af8e28511325cf-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/04/28/7676e835c44c23eea3af8e28511325cf-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_328064",
+        "type": "series",
+        "title": "Choddobeshi",
+        "release_year": 2026,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/hXhgwtG3nMxWwKzfx4TIvNoLY01.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tOGKzDMpD3ljaV4aaj4Lfx8aRVR.jpg",
+        "rating": 8.0,
+        "release_date": "2026-07-10",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Parambrata Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/f0vKFvgiyBvdgiXOFKpnnb6AfbG.jpg"
+            },
+            {
+                "name": "Ritabhari Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/tgjHh3R04pGdu55fCnVCbQgS51m.jpg"
+            },
+            {
+                "name": "June Maliah",
+                "image": "https://image.tmdb.org/t/p/w185/gtBYjc3cMGCPAkdUsfhEezBaqYw.jpg"
+            },
+            {
+                "name": "Bharat Kaul",
+                "image": "https://image.tmdb.org/t/p/w185/bLzpsswwQu2tgLTjTai0KZHcXRs.jpg"
+            },
+            {
+                "name": "Paayel Sarkar",
+                "image": "https://image.tmdb.org/t/p/w185/8iBG7lmi3Cgc18leMHQrJq5DTJ0.jpg"
+            }
+        ],
+        "details": "Brocke detective Aditya Majumder is struggling to save both his career and his failing marrage when he's hired to project legendary action Mandakini, who services a series of deadly \"accidents.\" As he digs deeper, buried family secretes, grayed and tetrayal turn every hair into a facet.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/13/3e43cfd041d0c20ced00101d6ace14dd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/13/3e43cfd041d0c20ced00101d6ace14dd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1402731",
+        "type": "movie",
+        "title": "Ondhokarer Gaan",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=XubMP3jp3Ec",
+        "poster": "https://image.tmdb.org/t/p/w500/5zlHKvMt5iwhtSRXy1td7n4WAwW.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5DZX1cNaqc5GLGkY7V9NvXIMGVV.jpg",
+        "rating": 7.0,
+        "release_date": "2025-01-08",
+        "runtime": "97 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Mosharraf Karim",
+                "image": "https://image.tmdb.org/t/p/w185/6cGP2k6wblQqwyfGdPWyFDWr0wT.jpg"
+            },
+            {
+                "name": "Zakia Bari Mamo",
+                "image": "https://image.tmdb.org/t/p/w185/ccYOrBbt6SRlNRHnyErnlngHHWw.jpg"
+            },
+            {
+                "name": "Shahnaz Sumi",
+                "image": "https://image.tmdb.org/t/p/w185/A7lYhaV3Hywx87z25qeksKdnYjc.jpg"
+            },
+            {
+                "name": "Abul Hayat",
+                "image": "https://image.tmdb.org/t/p/w185/k4gvcB31puk2I05kDlsErszxeOf.jpg"
+            },
+            {
+                "name": "Monira Mithu",
+                "image": "https://image.tmdb.org/t/p/w185/pvXEIsR5OWbYDO1XAbZYcn1EwXl.jpg"
+            }
+        ],
+        "details": "The story revolves around a humble village family and explores the complexities of their relationships. Mukul, in search of work in the city, falls in love with another woman and becomes determined to marry her.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/01/10/8899b36116fa8b8511703a71831c98f8-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/01/10/8899b36116fa8b8511703a71831c98f8-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391272",
+        "type": "movie",
+        "title": "Adv. Achinta Aich  S1-S2",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Adv. Achinta Aich  S1-S2",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/22/e157c846a0306bc017089fcb2025f3aa-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/22/e157c846a0306bc017089fcb2025f3aa-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391275",
+        "type": "movie",
+        "title": "Charitraheen  S1-S3",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Charitraheen  S1-S3",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/01ec1350b458b57f301b2b236e8cc5c2-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/01ec1350b458b57f301b2b236e8cc5c2-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_557987",
+        "type": "movie",
+        "title": "Premi",
+        "release_year": 2004,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/1aRSijXctfzHpRUxjEpGFv1FxO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4PE4jHtI28Y6kJ8X4AHYv73lBhG.jpg",
+        "rating": 0.0,
+        "release_date": "2004-01-01",
+        "runtime": "130 min",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [
+            {
+                "name": "Jeet",
+                "image": "https://image.tmdb.org/t/p/w185/8wYsUGPFL3O6x4txWkSsEOlFSVa.jpg"
+            },
+            {
+                "name": "Jisshu Sengupta",
+                "image": "https://image.tmdb.org/t/p/w185/6Ha4p2iQOHpnKC1uB4NKJ53kHRi.jpg"
+            },
+            {
+                "name": "Chandana Sarma",
+                "image": ""
+            },
+            {
+                "name": "Subhasish Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/x3JdBisoYsT1c0CJKRmVOkCozgF.jpg"
+            },
+            {
+                "name": "Monu Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/eapBO4iEO4DiFTozDCpCWFP6fGL.jpg"
+            }
+        ],
+        "details": "Rahul and Sumit are best friend and are footballers by profession. To save Rahul from an accident Sumit injuries his leg and becomes unable to play football. Rahul makes a promise to Sumit that he could fulfill Sumit's dreams by becoming a great football player. One day Rahul meets Puja in a taxi and falls in love at first sight. Puja lives with her grandmother and grandfather. Meanwhile Puja also meets Sumit, whom she admires for his strength grit even being an invalid. Puja and her friends go to Goa and there they are joined by Rahul & his friends who had come there for a football match. Both Puja & Rahul becomes friend. But Puja is getting married to somebody else. Puja's marriage is canceled as somebody accuses Puja as having an affair with Rahul. Puja's grandfather cannot bear this shock & dies. This makes Puja misunderstand & hate Rahul. Rahul tries to help Puja secretly. Whenever she lands in any kind of trouble Rahul helps her and & even steals money from his father to help ...",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/20/37148971e9c51d21c36b984f7d8662ce-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/20/37148971e9c51d21c36b984f7d8662ce-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/premi-2004-bengali-web-dl-480p-720p-1080p-x264-400mb-1-2gb-3gb-download-watch-online//Premi.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_64888",
+        "type": "series",
+        "title": "Redrum",
+        "release_year": 2013,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/26e6hA3Ltq1y9h5FhE8ioDpyiCU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lTBz43p5EkemQnqEFc9HIKbT6j4.jpg",
+        "rating": 6.4,
+        "release_date": "2013-01-15",
+        "runtime": "22 min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Crime",
+            "Documentary"
+        ],
+        "cast": [
+            {
+                "name": "D.C. Goode",
+                "image": "https://image.tmdb.org/t/p/w185/aR4MDPNu1amKNqc3LEPY64XZolA.jpg"
+            }
+        ],
+        "details": "When it comes to murder, no detective starts their search at the beginning of the crime. Rather, a murder investigation always begins with the body, after the deed is done. It is up to the police to piece together the story, moving backwards in time until they arrive at the root of the crime. In REDRUM, viewers follow the backwards tale of murder from false motives and mistaken witnesses to conversations taken completely out of context, until the truth finally comes out at the very end.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/86cf1c2621cb90bf86dac3122a464ad6-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/86cf1c2621cb90bf86dac3122a464ad6-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/redrum-2022-bengali-web-dl-480p-720p-1080p-x264-400mb-1-2gb-2-4gb-esub-download-watch-online//Redrum.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391288",
+        "type": "movie",
+        "title": "Rahasya Romancha Series  S1-S3",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Rahasya Romancha Series  S1-S3",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/2afe256684d92ddeb5f107040dff4a4a-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/2afe256684d92ddeb5f107040dff4a4a-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1416820",
+        "type": "movie",
+        "title": "Killbill Society",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=TLZN1Hwr_oY",
+        "poster": "https://image.tmdb.org/t/p/w500/uWsUaoTZy0YwNRGxw2JNRrSXOue.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/aDbJRXY8AdVMoD6ITBXsyQy6rD.jpg",
+        "rating": 0.0,
+        "release_date": "2025-04-11",
+        "runtime": "130 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Koushani Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/mDb3Hoyov6riPn4VNOeO3YP6zPr.jpg"
+            },
+            {
+                "name": "Parambrata Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/f0vKFvgiyBvdgiXOFKpnnb6AfbG.jpg"
+            },
+            {
+                "name": "Biswanath Basu",
+                "image": "https://image.tmdb.org/t/p/w185/2du8ue0P7ewiy5YzIPsCUYxVc9x.jpg"
+            },
+            {
+                "name": "Sandipta Sen",
+                "image": "https://image.tmdb.org/t/p/w185/nVf8h280Yya2Wz39qcYnxopJLrF.jpg"
+            },
+            {
+                "name": "Arijita Mukhopadhyay",
+                "image": ""
+            }
+        ],
+        "details": "As Ananda Kar returns, now as Mrityunjay Kar, truth and destiny collide in a journey of love, healing, and purpose. With its iconic music and unexpected twists, Killbill Society is set to redefine `existence` through its compelling story.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/15/ff4b7f8211ef31abd16a9a5d98a0c95c-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/15/ff4b7f8211ef31abd16a9a5d98a0c95c-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_95392",
+        "type": "series",
+        "title": "Best Mistake",
+        "release_year": 2019,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/7vp5DxbL6lqSuo9lqzNPWe71rm4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gYLZsLqk2n6asF7PoFBmsCLhnEx.jpg",
+        "rating": 4.6,
+        "release_date": "2019-07-25",
+        "runtime": "10 min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Lee Eun-jae",
+                "image": "https://image.tmdb.org/t/p/w185/ggclRiFuMd08Ay098hhC0krK9yt.jpg"
+            },
+            {
+                "name": "Kang Yul",
+                "image": "https://image.tmdb.org/t/p/w185/8ixYgBhjRVoLPzZZD74L5vZa2fo.jpg"
+            },
+            {
+                "name": "Yoon Jun-won",
+                "image": "https://image.tmdb.org/t/p/w185/u3D6GhSLvSoBAVb2K8cbnTqrsZ9.jpg"
+            },
+            {
+                "name": "Park E-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/g4eYIi3DiNkYYYhY0RUtox5QG5d.jpg"
+            },
+            {
+                "name": "Lee Jung-jun",
+                "image": "https://image.tmdb.org/t/p/w185/6s6dcghCl8rjvJ1TzxQt58fH9GV.jpg"
+            }
+        ],
+        "details": "The story focuses on Yun Doo, a studious, normal girl. An old partner won't stop bothering her through messages, so she makes up that she has a boyfriend and posts a random photo of a guy. That picture turns out to be from Hyun Ho, one of the most popular and rebellious of the school. It's a school drama, with several romances in sight.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/08/05/826325696840240f9b53f1d200af663f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/08/05/826325696840240f9b53f1d200af663f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1232855",
+        "type": "movie",
+        "title": "Osomoy",
+        "release_year": 2024,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=OqRg43lXjPM",
+        "poster": "https://image.tmdb.org/t/p/w500/7aFtathzhnqWJpdlDaJWV37eUfS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/m9s9rWlhDyqaGkbYeQ9JOoqhPlm.jpg",
+        "rating": 8.7,
+        "release_date": "2024-01-18",
+        "runtime": "161 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Tasnia Farin",
+                "image": "https://image.tmdb.org/t/p/w185/597KyUGLmv0q6MG3lRqgjvdtHGE.jpg"
+            },
+            {
+                "name": "Intekhab Dinar",
+                "image": "https://image.tmdb.org/t/p/w185/stdfywGwXON2MqaCIWRBvnOlNiJ.jpg"
+            },
+            {
+                "name": "Iresh Zaker",
+                "image": "https://image.tmdb.org/t/p/w185/vx4WLoVlVEaCVclQdKteMYCHo2z.jpg"
+            },
+            {
+                "name": "Sharaf Ahmed Zibon",
+                "image": "https://image.tmdb.org/t/p/w185/641foXye8TMWZKHrRwTfHy2Ocp5.jpg"
+            },
+            {
+                "name": "Ziaul Hoque Polash",
+                "image": "https://image.tmdb.org/t/p/w185/tP9hRhjIDTUTBRYjQWl1PXQoY8v.jpg"
+            }
+        ],
+        "details": "Caught between her middle-class background and her rich university friends, Urbi navigates a world of wealth and privilege. But as she chases her dreams, she falls into a life-changing chaos, paying a high price for her ambitions.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/393abfdedb1b5016594b92324b0d592f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/393abfdedb1b5016594b92324b0d592f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/osomoy-2024-bengali-bongobd-web-dl-480p-720p-1080p-x264-500mb-1-5gb-4gb-download-watch-online//Osomoy.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_850161",
+        "type": "movie",
+        "title": "Ramarao On Duty",
+        "release_year": 2022,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/snChpyepTGL6BUDeXNuRwDGZOmM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jGspqU8fvG35zyeQnOjFytfkuZ.jpg",
+        "rating": 5.5,
+        "release_date": "2022-07-29",
+        "runtime": "150 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ravi Teja",
+                "image": "https://image.tmdb.org/t/p/w185/5a9g645O30Qzhe3VFjvkhjnNfm2.jpg"
+            },
+            {
+                "name": "Divyansha Kaushik",
+                "image": "https://image.tmdb.org/t/p/w185/kdVc2CbIgnFzf8IusP1Hk6aP1i0.jpg"
+            },
+            {
+                "name": "Rajisha Vijayan",
+                "image": "https://image.tmdb.org/t/p/w185/u5Oq0XHQeHeZLg0NbPZCyCo3Uc6.jpg"
+            },
+            {
+                "name": "Venu Thottempudi",
+                "image": "https://image.tmdb.org/t/p/w185/aqyK4ftAxsDPAAYJrUHXMImsJWu.jpg"
+            },
+            {
+                "name": "Rahul Ramakrishna",
+                "image": "https://image.tmdb.org/t/p/w185/jsRbEXcUgR8zniBb3UTGOqrtxV9.jpg"
+            }
+        ],
+        "details": "Ramarao, a mandal revenue officer who was formerly removed from the position of deputy collector, is posted in Chittoor in the year 1995 and he decides to find out about a few unsolved murders in his area. He learns from his own investigation that an illegal smuggling ring is responsible for the deaths. Can Ramarao stop the smugglers?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/05/27/3864161d0d232e66e3ae561c7ddc5e9c-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/05/27/3864161d0d232e66e3ae561c7ddc5e9c-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1400304",
+        "type": "movie",
+        "title": "Ghumpori",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/6YgcY5b4CKepMb1OofzzF0ao2Ha.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jqJ8SgHP2bKNAkErJ8aLrNEFhq6.jpg",
+        "rating": 8.5,
+        "release_date": "2025-02-20",
+        "runtime": "113 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Romance",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Pritom Hasan",
+                "image": "https://image.tmdb.org/t/p/w185/kZzFPM2Hj5pIpgAsc8xBy0R5JTj.jpg"
+            },
+            {
+                "name": "Tanjin Tisha",
+                "image": "https://image.tmdb.org/t/p/w185/6Kaws6jN7WKFpQcrZe4W7XfDGAA.jpg"
+            },
+            {
+                "name": "Parsha Mahjabeen",
+                "image": "https://image.tmdb.org/t/p/w185/urKW1FKAOsqGRvGvM6hfJBrgCAx.jpg"
+            },
+            {
+                "name": "Deepa Khandakar",
+                "image": "https://image.tmdb.org/t/p/w185/H5cxmuNg7XlDY77nMx6rmpyfcI.jpg"
+            },
+            {
+                "name": "Mili Basher",
+                "image": "https://image.tmdb.org/t/p/w185/4Dpij30zSojOceXminylbuWcQVW.jpg"
+            }
+        ],
+        "details": "Intern doctor Usha finds her beloved Megh, who had been her tutor five years ago. Megh disappeared from Usha's life without leaving any clues. Now, Megh has set up a beautiful family in a hospital cabin with Jyoti, who is in a coma. In this surreal relationship between Megh and Jyoti, Usha enters with her lingering feelings from the past toward Megh.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/02/26/2807a40125ca449b89ffc5fac3fc36bd-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/02/26/2807a40125ca449b89ffc5fac3fc36bd-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1055288",
+        "type": "movie",
+        "title": "Surongo",
+        "release_year": 2023,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/q5OshR7S6ZKWvPr5lqIh5hfUxo2.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rLXWYOpR0D1NhB81U6fC9aGKlZh.jpg",
+        "rating": 6.8,
+        "release_date": "2023-06-29",
+        "runtime": "158 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Mystery",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Afran Nisho",
+                "image": "https://image.tmdb.org/t/p/w185/2b46ZeQbUt4Rzy1Ti4DJsps6aiQ.jpg"
+            },
+            {
+                "name": "Tama Mirza",
+                "image": "https://image.tmdb.org/t/p/w185/iQ48EaJGlpCMH4ZZ8neMLIeOgXW.jpg"
+            },
+            {
+                "name": "Mostafa Monwar",
+                "image": "https://image.tmdb.org/t/p/w185/pQ7hUTR4LAeYhQIgQbhyYQopA79.jpg"
+            },
+            {
+                "name": "Shahiduzzaman Selim",
+                "image": "https://image.tmdb.org/t/p/w185/2O6yfkpnBMxp1Q5CS649N310KPf.jpg"
+            },
+            {
+                "name": "Monir Ahmed Shakeel",
+                "image": ""
+            }
+        ],
+        "details": "Moyna and Masud's marriage takes a tumultuous turn when their differing desires clash. While Masud leaves for Malaysia, Moyna seeks comfort in the arms of another man. Can they start afresh?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/6ce80616fafb10467cbb82e194660543-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/6ce80616fafb10467cbb82e194660543-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/surongo-2023//Surongo.mp4-tran-audio-channel",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391326",
+        "type": "movie",
+        "title": "Maharani  S1-S3",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Maharani  S1-S3",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/0b63d1ab98b94fd70e28642cf647b599-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/0b63d1ab98b94fd70e28642cf647b599-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391328",
+        "type": "movie",
+        "title": "Bachelor Point S1-S5",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Bachelor Point S1-S5",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/16/c7fd219dd00aff6b52ad0b228d35bf36-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/16/c7fd219dd00aff6b52ad0b228d35bf36-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=OU8PyoWWUYE_480p.mp4/season-5/episode-85-r360P",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=OU8PyoWWUYE_1080p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=OU8PyoWWUYE_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=pWX6FYEgrdg_480p.mp4/season-5/episode-84-r360P",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=pWX6FYEgrdg_1080p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=pWX6FYEgrdg_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=ejwe9R1tEPE_480p.mp4/season-5/episode-83-r360P",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=ejwe9R1tEPE_1080p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_519267",
+        "type": "movie",
+        "title": "Bolo Dugga Maiki",
+        "release_year": 2017,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=nAJgfGfODRo",
+        "poster": "https://image.tmdb.org/t/p/w500/jPVujvxG8d1vFQsprpBuBGC17A6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oo71Bdf6LoAMNTdxecarxxcXrTY.jpg",
+        "rating": 8.0,
+        "release_date": "2017-09-22",
+        "runtime": "154 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Romance",
+            "Comedy",
+            "Family",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ankush Hazra",
+                "image": "https://image.tmdb.org/t/p/w185/qcb4giudEEIt5xltfAQezvSHoSD.jpg"
+            },
+            {
+                "name": "Nusrat Jahan",
+                "image": "https://image.tmdb.org/t/p/w185/jIhr2Ookz1qba79Mn00q44L5VH7.jpg"
+            },
+            {
+                "name": "Paran Banerjee",
+                "image": "https://image.tmdb.org/t/p/w185/6uTLTB7cUMeCjYC1eWFownDOBKW.jpg"
+            },
+            {
+                "name": "Rajdeep Ghosh",
+                "image": "https://image.tmdb.org/t/p/w185/hiPilp8ZKMC2SuSuJkWDHo5lFXX.jpg"
+            },
+            {
+                "name": "Rajatabha Dutta",
+                "image": "https://image.tmdb.org/t/p/w185/8ukhcXEule4DROSsd4MtXaVoQnt.jpg"
+            }
+        ],
+        "details": "Bolo Dugga Maiki is an entertaining movie about Samya who always leads his life as a liar. However, when he meets a gorgeous girl in a train, Uma, his life changes in the blessings of Ma Durga.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/cae8a76e499abba0a660125e3dcd17f3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/cae8a76e499abba0a660125e3dcd17f3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_553594",
+        "type": "movie",
+        "title": "Manojder Adbhut Bari",
+        "release_year": 2018,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=yQiM49cHsQE",
+        "poster": "https://image.tmdb.org/t/p/w500/nBNp8vGxTl7IPpGRPtgH1P92GuH.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qK1sWci5lWHzUZ8HDZHCX8WHumJ.jpg",
+        "rating": 6.7,
+        "release_date": "2018-10-12",
+        "runtime": "117 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Comedy",
+            "Fantasy",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Abir Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/bXirXzEH2ggdto8QAH4xum8y9E8.jpg"
+            },
+            {
+                "name": "Soumitra Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/pjomXVYzHd62IuduDc9UVS82sBb.jpg"
+            },
+            {
+                "name": "Bratya Basu",
+                "image": "https://image.tmdb.org/t/p/w185/rIPEwYvbtYgP3Iza2kPZDvlUrmD.jpg"
+            },
+            {
+                "name": "Silajit Majumder",
+                "image": "https://image.tmdb.org/t/p/w185/s8e69hUGIvgD9RweQ10dCjBlCwS.jpg"
+            },
+            {
+                "name": "Sohag Sen",
+                "image": "https://image.tmdb.org/t/p/w185/jMHnkh6Qeytvg0mf0GNrVrZUT5k.jpg"
+            }
+        ],
+        "details": "A young boy Manoj, who lives among the chaos and weirdness of his joint family, where the musician uncle feels suicidal after singing a wrong music note and a teacher who won't remember his education if he sits straight. Then there is the great-grandmother who is wreaking havoc around the house. Set in a small town in West Bengal, the story takes an interesting turn when Manoj's cow runs away and at the same time there is a group of vicious dacoits who are planning to rob the King. How things fall back into place is a story filled with drama and action and lots of laughter.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/b5dae2d006998ae4c31325024d4d389f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/b5dae2d006998ae4c31325024d4d389f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_294231",
+        "type": "series",
+        "title": "Batashey Gungun",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=CGOSQfCOKFg",
+        "poster": "https://image.tmdb.org/t/p/w500/w0KK8r2cQRkVaqUVXSoXKZktMFV.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iqlcFgFGp9i1LaRwsLmp6MX9trA.jpg",
+        "rating": 0.0,
+        "release_date": "2025-06-20",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Mystery",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Suhotra Mukhopadhyay",
+                "image": "https://image.tmdb.org/t/p/w185/u48CUsvq6URJBcRRqRnCP2AIikk.jpg"
+            },
+            {
+                "name": "Srijla Guha",
+                "image": "https://image.tmdb.org/t/p/w185/9FXyCW0gc82utyFC52ojrEnPnyk.jpg"
+            },
+            {
+                "name": "Manali Dey",
+                "image": "https://image.tmdb.org/t/p/w185/ha0sEiid4UnDuhboDYD0l2apkI7.jpg"
+            },
+            {
+                "name": "Durbar Sharma",
+                "image": "https://image.tmdb.org/t/p/w185/beLJKsLSstLbbsNUNzamGQBIB4E.jpg"
+            },
+            {
+                "name": "Silajit Majumder",
+                "image": "https://image.tmdb.org/t/p/w185/s8e69hUGIvgD9RweQ10dCjBlCwS.jpg"
+            }
+        ],
+        "details": "Love, obsession, and deception collide when Pallabi’s desire for Arindam, her married professor, spirals out of control. As her obsession deepens, Arindam fights to save his marriage to Mithila. But when emotions turn explosive, no one escapes the storm unharmed.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/23/aa8e01d9847b4f8804c110dfd8549530-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/23/aa8e01d9847b4f8804c110dfd8549530-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391339",
+        "type": "movie",
+        "title": "Byomkesh  S2-S8",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Byomkesh  S2-S8",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/a1c905fdab10834e18d9be5a9e464dd3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/a1c905fdab10834e18d9be5a9e464dd3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391341",
+        "type": "movie",
+        "title": "9 Hours Created by Krish Jagarlamudi",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: 9 Hours Created by Krish Jagarlamudi",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/5d13024f5e51f088b0668c565b28b556-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/5d13024f5e51f088b0668c565b28b556-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1277112",
+        "type": "movie",
+        "title": "Dear Maloti",
+        "release_year": 2024,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=Z-zlMuL6qsY",
+        "poster": "https://image.tmdb.org/t/p/w500/6KAcyx6Xa8Fx6RZp9PbNdD22xvk.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3yD1M7VHl0L0ZU4CAnONCzfUVve.jpg",
+        "rating": 9.0,
+        "release_date": "2024-12-20",
+        "runtime": "119 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Mehazabien Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/h9R6YMph4wFiY8scrK25zNmPQDh.jpg"
+            },
+            {
+                "name": "Rizvi Rizu Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/b9Z0T5GIXTJcv1qNP8GZ1bqSt9P.jpg"
+            },
+            {
+                "name": "Shahjahan Samrat",
+                "image": ""
+            },
+            {
+                "name": "Azad Abul Kalam",
+                "image": "https://image.tmdb.org/t/p/w185/3byuPu02ZeXkiLk7mwvufvIPSAz.jpg"
+            },
+            {
+                "name": "Nader Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/fPjcKk35UDsvb12tdPa6rhlA8Al.jpg"
+            }
+        ],
+        "details": "In the quiet simplicity of their lives, seven-months pregnant Maloti Rani and sanitary shop salesman Polash Das find solace and love, despite their ongoing hardship. Maloti's world shatters when a mall blast claims her husband Polash in Dhaka, Bangladesh. Unsure of her unborn child's future, she battles her in-laws and society, fighting to prove Polash's accidental death.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/02/26/5d802dfb61272b9a9f75da5435a0a545-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/02/26/5d802dfb61272b9a9f75da5435a0a545-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_135687",
+        "type": "series",
+        "title": "User Not Found",
+        "release_year": 2021,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=tCY34EuEs2o",
+        "poster": "https://image.tmdb.org/t/p/w500/gISqQ0MCws5shoCjmQWun5YbRLM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/j0vgg9HTxVB5QqT0g5JPLsasfIc.jpg",
+        "rating": 3.8,
+        "release_date": "2021-12-03",
+        "runtime": "14 min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Bae Jin-young",
+                "image": "https://image.tmdb.org/t/p/w185/vkLtH5kBL9m0FFD68yAovAvS78H.jpg"
+            },
+            {
+                "name": "Shin So-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/rxfA1oXUMLInmfgN4ORkgcgWgt1.jpg"
+            },
+            {
+                "name": "Ahn Se-min",
+                "image": "https://image.tmdb.org/t/p/w185/uMSelihWJ1bnf0wZDmfIPMTtZ8a.jpg"
+            },
+            {
+                "name": "Lee Jong-hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/3BvmQzthbtopaWoBk9G5yKSNgU6.jpg"
+            },
+            {
+                "name": "Lee Seung-gyu",
+                "image": "https://image.tmdb.org/t/p/w185/wQRbqJdTargXqwUDooW7Bfw7gY5.jpg"
+            }
+        ],
+        "details": "A romance drama about two female high school students who happen to share the same name. When they both transfer to a new school at the same time, hoping to use the opportunity to turn their lives around, they forge a secret contract to swap identities. Shin Yi Joon is the most popular student at his high school. Although he seems tough and aloof on the outside, Shin Yi Joon is actually a huge softie on the inside—and far from getting into fights with other students, he even has a hard time saying no to other people.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/10/13/233dd397bb77a1dfdd023b6d3009ceb4-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/10/13/233dd397bb77a1dfdd023b6d3009ceb4-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1324842",
+        "type": "movie",
+        "title": "Lucky the Superstar",
+        "release_year": 2026,
+        "original_language": "ta",
+        "video_trailer": "https://www.youtube.com/watch?v=JwPvl7zUlUE",
+        "poster": "https://image.tmdb.org/t/p/w500/fb5ao0wON2Dq3atOy3rikyL8IsP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cg2ioY2B4LpnpaYfzSExvmGqy1c.jpg",
+        "rating": 2.3,
+        "release_date": "2026-02-20",
+        "runtime": "123 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "G. V. Prakash Kumar",
+                "image": "https://image.tmdb.org/t/p/w185/ArX3l6CdNo0sGI8b6PFYveR9Azm.jpg"
+            },
+            {
+                "name": "Anaswara Rajan",
+                "image": "https://image.tmdb.org/t/p/w185/zWy5AjnXf7sm60X5PVa0mWDaFsp.jpg"
+            },
+            {
+                "name": "Meghna Sumesh",
+                "image": ""
+            },
+            {
+                "name": "Subbu Panchu",
+                "image": "https://image.tmdb.org/t/p/w185/jxGqgwuOoV5ZwvV1vIr4eoKENod.jpg"
+            },
+            {
+                "name": "Devadarshini",
+                "image": "https://image.tmdb.org/t/p/w185/gSq4nM6z82LfI4yjL116P1RDkb0.jpg"
+            }
+        ],
+        "details": "A stray puppy's adventure transforms lives: helping a child heal, bringing a family together, and causing political mayhem while finding her way home.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/20/3fae3eea16d0b2b8e6c19673ed54f301-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/20/3fae3eea16d0b2b8e6c19673ed54f301-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_74547",
+        "type": "series",
+        "title": "Lifeline",
+        "release_year": 2017,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/hSOGzV7NBKxcg6WxmzKVZmCApvf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sP7MZUCuz9WKUHo5yfPwvScasw5.jpg",
+        "rating": 6.8,
+        "release_date": "2017-10-11",
+        "runtime": "25 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Zach Gilford",
+                "image": "https://image.tmdb.org/t/p/w185/z7PA2poYtjl9KSy4S0IgW6d5Y9.jpg"
+            },
+            {
+                "name": "Ali Yuman",
+                "image": "https://image.tmdb.org/t/p/w185/lniZiXRJtlJTJ4uPKgTUzLCkr6g.jpg"
+            },
+            {
+                "name": "Sydney Park",
+                "image": "https://image.tmdb.org/t/p/w185/6Gr0aT1Hux2P3KM35IXdXbXZABk.jpg"
+            },
+            {
+                "name": "Usman Ally",
+                "image": "https://image.tmdb.org/t/p/w185/y3LstAfszCiatWQoFVfOX0hzfvW.jpg"
+            }
+        ],
+        "details": "What if you could use time travel to save your life? Welcome to \"LIFELINE,\" the new YouTube Red Original Series about the Lifeline insurance agency, whose specially trained agents jump forward in time to prevent the deaths of their clients.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/30/3ebe610b3afef1d3246e9b798af57dbc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/30/3ebe610b3afef1d3246e9b798af57dbc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1167049",
+        "type": "movie",
+        "title": "Last Defenders of Monogamy",
+        "release_year": 2024,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=t0wSBgjp9mo",
+        "poster": "https://image.tmdb.org/t/p/w500/6ph7z1aq8FT4yVjdSRmR6he0KCr.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4c5v795yqgrY5ly5ZVVtsdA8LCq.jpg",
+        "rating": 3.8,
+        "release_date": "2024-04-10",
+        "runtime": "84 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Romance",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Chanchal Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/46ebiphxjeUP4T1JCGp6G4DAyQL.jpg"
+            },
+            {
+                "name": "Xefer Rahman",
+                "image": "https://image.tmdb.org/t/p/w185/73I4pGyqJuSpeGnvf7QucVHwnAJ.jpg"
+            },
+            {
+                "name": "Samina Husain Prema",
+                "image": ""
+            },
+            {
+                "name": "Shoishob Roddur Shuddho",
+                "image": "https://image.tmdb.org/t/p/w185/4P1kb5jh56OYkIgmqdgJIP0pWCR.jpg"
+            },
+            {
+                "name": "Prottoyee Prothoma Rai",
+                "image": ""
+            }
+        ],
+        "details": "Shafkat is a happily married man with wife and two children, who claims himself is a firm believer of monogamous philosophy. His philosophy and instincts faces tough conflict when a young copywriter, Lamia, joins his office.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/24/c4936aca5dacbb3a0c01a5b214e9c9d9-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/24/c4936aca5dacbb3a0c01a5b214e9c9d9-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_84830",
+        "type": "series",
+        "title": "Japani Toy",
+        "release_year": 2018,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/64Q2HKPYLgVzu8YXMLgd26FhKKR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mDBSTfbRKAlbP9A4Knl3UJy7rye.jpg",
+        "rating": 6.5,
+        "release_date": "2018-05-12",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kaushiki Guha",
+                "image": ""
+            },
+            {
+                "name": "Rajdeep Gupta",
+                "image": "https://image.tmdb.org/t/p/w185/zVin1MPujH5VddA5SfcfkaCcW5s.jpg"
+            },
+            {
+                "name": "Ishaa Saha",
+                "image": "https://image.tmdb.org/t/p/w185/yraJcxJehzK1ZSbj7scwmPiciCK.jpg"
+            }
+        ],
+        "details": "What happens when you want to open a sex toy shop in Kolkata? Dildo Kumar has a gift for the lonely people of Kolkata - a Japani doll. No commitment, no emotion: just pure, unlimited fun!",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/22/3b7de9d346356bce4cb1ea13d431990f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/22/3b7de9d346356bce4cb1ea13d431990f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_302632",
+        "type": "movie",
+        "title": "Chotushkone",
+        "release_year": 2014,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=9uNrGCBIgo0",
+        "poster": "https://image.tmdb.org/t/p/w500/6NhorrHcB3GYDqgYiXQmDDQnZtu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gs46ZfgipHdPjxHXG8CNFCagdCn.jpg",
+        "rating": 7.3,
+        "release_date": "2014-09-26",
+        "runtime": "148 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Thriller",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Parambrata Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/f0vKFvgiyBvdgiXOFKpnnb6AfbG.jpg"
+            },
+            {
+                "name": "Aparna Sen",
+                "image": "https://image.tmdb.org/t/p/w185/zAyctze9LUC51ujXJvZ6x9uZHSG.jpg"
+            },
+            {
+                "name": "Goutam Ghose",
+                "image": "https://image.tmdb.org/t/p/w185/fhWVf0QMFnuInxCD0VPl2HibTny.jpg"
+            },
+            {
+                "name": "Chiranjeet Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/i8T8PbO5O9GycoNI61ndkfB8HZG.jpg"
+            },
+            {
+                "name": "Paayel Sarkar",
+                "image": "https://image.tmdb.org/t/p/w185/8iBG7lmi3Cgc18leMHQrJq5DTJ0.jpg"
+            }
+        ],
+        "details": "Four famous directors and old friends are reunited together by an unknown producer to make a film. They have to make four short story in this film with one common theme: Death.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/04/28/d5948b28da91cd6629c9013cd9cf85e3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/04/28/d5948b28da91cd6629c9013cd9cf85e3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391388",
+        "type": "movie",
+        "title": "Kathmandu Connection  S1-S2",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Kathmandu Connection  S1-S2",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/10/f599a1d1685d2268c596fd6d8510df3d-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/10/f599a1d1685d2268c596fd6d8510df3d-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_673711",
+        "type": "movie",
+        "title": "Jamai Badal",
+        "release_year": 2019,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=cc-JsGg_vnQ",
+        "poster": "https://image.tmdb.org/t/p/w500/ckbt1I1ut29CWSMGMBkdPPhFlzg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lEjljrTxpHXTab7ZglDi8TPBKyQ.jpg",
+        "rating": 5.0,
+        "release_date": "2019-01-18",
+        "runtime": "135 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Soham Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/i6i7IeRKGSog2kWVbFuKnCiy47Q.jpg"
+            },
+            {
+                "name": "Hiran Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/8CNbmlpOM2FA9V05T7aR2t3OQtE.jpg"
+            },
+            {
+                "name": "Koushani Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/mDb3Hoyov6riPn4VNOeO3YP6zPr.jpg"
+            },
+            {
+                "name": "Paayel Sarkar",
+                "image": "https://image.tmdb.org/t/p/w185/8iBG7lmi3Cgc18leMHQrJq5DTJ0.jpg"
+            },
+            {
+                "name": "Bharat Kaul",
+                "image": "https://image.tmdb.org/t/p/w185/bLzpsswwQu2tgLTjTai0KZHcXRs.jpg"
+            }
+        ],
+        "details": "This is the love story of Krish, son of Advocate Gourisankar Chakladar. Gourisankar has two sons, Harisankar and Krish. Harisankar is an advocate like his father but the younger son Krish is very casual in life, doesn't like working even though his father has given him a factory to handle.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/fa0bbc73f706f47f7e3fd91d7184ab77-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/fa0bbc73f706f47f7e3fd91d7184ab77-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_714121",
+        "type": "movie",
+        "title": "Minister Fatakesto",
+        "release_year": 2007,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/uvjIzMPyVMJViCB7qIXFAhDTp84.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cS9JehH39B2Uroa3CkZT7wY99x2.jpg",
+        "rating": 8.5,
+        "release_date": "2007-06-08",
+        "runtime": "136 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Mithun Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/4z8c5YAe0TCkEZNHXWlKxNTD8sV.jpg"
+            },
+            {
+                "name": "Soumitra Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/pjomXVYzHd62IuduDc9UVS82sBb.jpg"
+            },
+            {
+                "name": "Koel Mallick",
+                "image": "https://image.tmdb.org/t/p/w185/1IsGhoL0kHVvw9v1z2mXaYAmEU9.jpg"
+            },
+            {
+                "name": "Dipankar Dey",
+                "image": "https://image.tmdb.org/t/p/w185/oBnPbSpD8TTEWHlCElrXJ9V1DdT.jpg"
+            },
+            {
+                "name": "Locket Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/eGyAVGo2nrs0TZJjZvlVMQk9B3r.jpg"
+            }
+        ],
+        "details": "With 4000 Cores loss in Finance Department,Minister Fatakesto vows to take Finance Ministry and recover the loss in seven days time.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/a3f1e1873a0a10f827b8b43b7e863e06-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/a3f1e1873a0a10f827b8b43b7e863e06-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1306056",
+        "type": "movie",
+        "title": "Female 4",
+        "release_year": 2024,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=AOz08cZd9rY",
+        "poster": "https://image.tmdb.org/t/p/w500/3eHuoExFwYlwzoCeTfs3MMO6u9w.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8le0iBTehEyLjuvlpvc4f8HKs7b.jpg",
+        "rating": 0.0,
+        "release_date": "2024-06-17",
+        "runtime": "80 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Chashi Alam",
+                "image": "https://image.tmdb.org/t/p/w185/uoVbCRpVKBtRz5hfB7yBIfuaT3N.jpg"
+            },
+            {
+                "name": "Marzuk Russell",
+                "image": "https://image.tmdb.org/t/p/w185/xrCw5WO5YeCzEIWgRguUQDaXC5D.jpg"
+            },
+            {
+                "name": "Mohammad Saidur Rahman Pavel",
+                "image": "https://image.tmdb.org/t/p/w185/wIT8gym4Jzl0uY6KtPoXMFbMLUw.jpg"
+            },
+            {
+                "name": "Ziaul Hoque Polash",
+                "image": "https://image.tmdb.org/t/p/w185/tP9hRhjIDTUTBRYjQWl1PXQoY8v.jpg"
+            },
+            {
+                "name": "Sharaf Ahmed Zibon",
+                "image": "https://image.tmdb.org/t/p/w185/641foXye8TMWZKHrRwTfHy2Ocp5.jpg"
+            }
+        ],
+        "details": "In a peaceful battery goli, where everyone took an oath not to fight amongst themselves, chaos ensues as another Female hops into the scene.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/de929d2a446e25e1f792c0935f78f756-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/de929d2a446e25e1f792c0935f78f756-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/11/02/d763482e8eef3aebd3489a4cd3e02853-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391425",
+        "type": "movie",
+        "title": "Chokro  S1-S2",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Chokro  S1-S2",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/23/817caa7099609c8c300aea8ba0928b5f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/23/817caa7099609c8c300aea8ba0928b5f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_258427",
+        "type": "series",
+        "title": "Freedom at Midnight",
+        "release_year": 2024,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=Pc3Qhwoi8-Y",
+        "poster": "https://image.tmdb.org/t/p/w500/gCId3CjVHGePMYtu1pYzhZDXtEc.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tRiE07p2RbK88Fua4Zx6WOkaxRm.jpg",
+        "rating": 8.2,
+        "release_date": "2024-11-15",
+        "runtime": "45 min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Drama",
+            "War & Politics"
+        ],
+        "cast": [
+            {
+                "name": "Sidhant Gupta",
+                "image": "https://image.tmdb.org/t/p/w185/yZhQVBwIQChwwa7SUyqYl76KEGC.jpg"
+            },
+            {
+                "name": "Chirag Vohra",
+                "image": "https://image.tmdb.org/t/p/w185/AoOQWaYS45dIWLpGrlxn4CTGcNh.jpg"
+            },
+            {
+                "name": "Rajendra Chawla",
+                "image": "https://image.tmdb.org/t/p/w185/rwldmP0tneEflAVgOaQsYmvTZju.jpg"
+            },
+            {
+                "name": "Arif Zakaria",
+                "image": "https://image.tmdb.org/t/p/w185/fQx14DwQV2Z2p25t4bogVn9A2c.jpg"
+            },
+            {
+                "name": "Ira Dubey",
+                "image": "https://image.tmdb.org/t/p/w185/wWhx6gaN6SyogwcAR1LsuT69lOo.jpg"
+            }
+        ],
+        "details": "Freedom at Midnight is the electrifying story of India's struggle for independence. Based on the bestselling book of the same name, it recounts the partition of India and Pakistan, and the religious and socio-political dynamics of the era.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/18/15c7ed0e7fcbe41796f9dda731f32e8d-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/18/15c7ed0e7fcbe41796f9dda731f32e8d-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391433",
+        "type": "movie",
+        "title": "Eken Babu  S1-S9",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Eken Babu  S1-S9",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/22/206d5ce1eb5f74729d2d0139bdbec6da-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/22/206d5ce1eb5f74729d2d0139bdbec6da-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_245673",
+        "type": "series",
+        "title": "Vera Maari Love Story",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/sjSLx4aTpjlQQw9hRrzaCclorfl.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2024-02-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "Bangla"
+        ],
+        "cast": [
+            {
+                "name": "Kannadhasan",
+                "image": ""
+            },
+            {
+                "name": "Soundariya Nanjundan",
+                "image": "https://image.tmdb.org/t/p/w185/yayoUNbTbHEOzF0QuM9SUWoiIvj.jpg"
+            },
+            {
+                "name": "Pappu",
+                "image": "https://image.tmdb.org/t/p/w185/bApPvrhO2xTg89xGIPYhIWPx7N6.jpg"
+            },
+            {
+                "name": "Indraja Shankar",
+                "image": "https://image.tmdb.org/t/p/w185/xSUpMxrrgNNGSeq7cpGAi6JLu3Y.jpg"
+            },
+            {
+                "name": "Vikram Arul Vidyapathi",
+                "image": ""
+            }
+        ],
+        "details": "Vera Maari Love Story, Ramya's sudden ghosting leaves Sathya heartbroken. Learning that her father plans to marry her off to someone else, Sathya fears losing her forever. With unwavering loyalty, his friends Shyama, Maari, Keshavan, Leena, and Naalu Joram step in. Inspired by Tamil cinema, they devise hilarious schemes to halt Ramya's wedding. Despite their comedic efforts, things go awry. Yet, their bond remains unbreakable. The question remains: Will they halt Ramya's marriage? Will love conquer all in the end?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/15/519d3ba8c47f667fe55a84dbd6a4b007-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/15/519d3ba8c47f667fe55a84dbd6a4b007-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_507412",
+        "type": "movie",
+        "title": "Dard",
+        "release_year": 1981,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/remeHHwxn9sxNT9tBvt3Fam1gZO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ew5g4K6UiGWzc9K3GIS9ZaROgmm.jpg",
+        "rating": 8.0,
+        "release_date": "1981-08-14",
+        "runtime": "129 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Crime",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Rajesh Khanna",
+                "image": "https://image.tmdb.org/t/p/w185/e32HlV5NRNKeEh654OKgMQJfU2r.jpg"
+            },
+            {
+                "name": "Hema Malini",
+                "image": "https://image.tmdb.org/t/p/w185/dfNRjtvbxisRSBDhCoUMuEFyY3V.jpg"
+            },
+            {
+                "name": "Poonam Dhillon",
+                "image": "https://image.tmdb.org/t/p/w185/dDgjh51Q1Si6hWvmdMInBhj1hFK.jpg"
+            },
+            {
+                "name": "Om Shivpuri",
+                "image": "https://image.tmdb.org/t/p/w185/sTfUqYGDjfNoGCXySG9PuFNsQKa.jpg"
+            },
+            {
+                "name": "Pinchoo Kapoor",
+                "image": "https://image.tmdb.org/t/p/w185/9LmDkz3UwVIik4LAWiFCk5fo988.jpg"
+            }
+        ],
+        "details": "Prosecuting Attorney Seema proceeds with the criminal prosecution of Deepak Srivastav, who is accused of Murder. She submits to the Judge to not be fooled by the innocent looks and the silence of the accused, as she will prove that the accused was in fact a cold-blooded murderer who killed a Courtesan by the name of Munnibai. Deepak gets life imprisonment punishment,Seema later has been told the truth in her absence,complicated by the fact that Seema was in love with the accused about three-years ago.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/31/f52883b6850d9aa9799eac53d1cecc17-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/31/f52883b6850d9aa9799eac53d1cecc17-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/02/15/fee053030cd86fc8173baa7605f3e4f3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/02/15/fee053030cd86fc8173baa7605f3e4f3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/02/15/fee053030cd86fc8173baa7605f3e4f3-xld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_228979",
+        "type": "movie",
+        "title": "Toofan",
+        "release_year": 1989,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/fvWYIGtwbYBdjsjl5fLsMVcbPLP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dwUNaC9P0ji1LzaxhrhOglexIjL.jpg",
+        "rating": 6.1,
+        "release_date": "1989-08-10",
+        "runtime": "174 min",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [
+            {
+                "name": "Amitabh Bachchan",
+                "image": "https://image.tmdb.org/t/p/w185/u69PvpWqGkywSm0YjFiw77j9eqS.jpg"
+            },
+            {
+                "name": "Meenakshi Sheshadri",
+                "image": "https://image.tmdb.org/t/p/w185/4gJUemgCehzXBE0V1USlgpjjDgA.jpg"
+            },
+            {
+                "name": "Amrita Singh",
+                "image": "https://image.tmdb.org/t/p/w185/yzGYLwPUvn5ksdisC0L4bQiLTNj.jpg"
+            },
+            {
+                "name": "Farooq Shaikh",
+                "image": "https://image.tmdb.org/t/p/w185/kyFjIskG6dscyH02aiAGbNqz6YD.jpg"
+            },
+            {
+                "name": "Zarina Wahab",
+                "image": "https://image.tmdb.org/t/p/w185/nY28L0JFjTlpIWdwt9qxO1p2HNn.jpg"
+            }
+        ],
+        "details": "Two brothers (Toofan and Shyam) are separated at birth by their father, a police inspector. One grows up to be a magician, and the other, the legendary Toofan, hero of the poor. His father was falsely accused of stealing millions in gold and Toofan is on a mission to clear his father's name from the police records.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/19/e7146ce40a1fd27ad6e6d7897d6c8e01-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/19/e7146ce40a1fd27ad6e6d7897d6c8e01-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1240463",
+        "type": "movie",
+        "title": "Kacher Manush Dure Thuiya",
+        "release_year": 2024,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=qr7iNwGbm_0",
+        "poster": "https://image.tmdb.org/t/p/w500/ftcDry2KkYDkuZNjhkRQmDTudTl.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/s8V0zRZXDgO0r7H1SspJNX7G87H.jpg",
+        "rating": 7.1,
+        "release_date": "2024-02-22",
+        "runtime": "144 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Romance",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Pritom Hasan",
+                "image": "https://image.tmdb.org/t/p/w185/kZzFPM2Hj5pIpgAsc8xBy0R5JTj.jpg"
+            },
+            {
+                "name": "Tasnia Farin",
+                "image": "https://image.tmdb.org/t/p/w185/597KyUGLmv0q6MG3lRqgjvdtHGE.jpg"
+            },
+            {
+                "name": "Rupanty Akid",
+                "image": "https://image.tmdb.org/t/p/w185/j2fSFJMmy8ryqPAGNe8Xkn2A9Ct.jpg"
+            },
+            {
+                "name": "Samapti Mashuk",
+                "image": ""
+            },
+            {
+                "name": "Khalilur Rahman Kadery",
+                "image": ""
+            }
+        ],
+        "details": "A Tale of Touch. ‘Kacher Manush Dure Thuiya’: is a story of going away for the needs of life, and returning to the stirring of feelings. This long-distance relationship saga unveils the poignant struggles of lovers separated by thousands of miles – a narrative steeped in the complexities of distance, evoking doubt, mistrust, anger, and resentment, ultimately culminating in separation. It's a poignant portrayal of the profound longing for physical closeness, encapsulated in the simple yet profound act of a hug, bridging the chasm between distant hearts.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/083df12a9a5a740d8f9de438b8f51a4c-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/083df12a9a5a740d8f9de438b8f51a4c-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1175416",
+        "type": "movie",
+        "title": "Pokkhirajer Dim",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=dpqxLosiYgM",
+        "poster": "https://image.tmdb.org/t/p/w500/4XYKIVJ4lkXqOAX9LKy4QTPTzRf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jCVKj8DcClwYDsIMCFzdPJrFujC.jpg",
+        "rating": 0.0,
+        "release_date": "2025-06-13",
+        "runtime": "131 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Fantasy",
+            "Adventure",
+            "Science Fiction",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Mahabrata Basu",
+                "image": "https://image.tmdb.org/t/p/w185/qBQyIRTqmBiQMKLJw6WzLT1MZ83.jpg"
+            },
+            {
+                "name": "Anirban Bhattacharya",
+                "image": "https://image.tmdb.org/t/p/w185/9eph0DtlBImkdJdOaDopzCmx4E8.jpg"
+            },
+            {
+                "name": "Anumegha Banerjee",
+                "image": "https://image.tmdb.org/t/p/w185/jBb2D4OR71iHfCvfSLC1Z66hZZ5.jpg"
+            },
+            {
+                "name": "Shyamal Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/uoqubeY08id2Z27szEaCtHsfoSt.jpg"
+            },
+            {
+                "name": "Debesh Roy Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/etIPohwQPE2EmrznudYbAyn0tYv.jpg"
+            }
+        ],
+        "details": "A student finds a mysterious stone at a temple and turns to his quirky teacher for help, unleashing supernatural forces that change their lives.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/17/3ca045ea860540c6052f943a7d783b91-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/17/3ca045ea860540c6052f943a7d783b91-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1542995",
+        "type": "movie",
+        "title": "Bonolota Express",
+        "release_year": 2026,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=ZTZUaHsfR8o",
+        "poster": "https://image.tmdb.org/t/p/w500/h6nITbbSobZ0EwU6Dcw6LGZOZYA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wUlvM4v5FUjM2omyld9ULVHONZA.jpg",
+        "rating": 8.4,
+        "release_date": "2026-03-21",
+        "runtime": "153 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Comedy",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Mosharraf Karim",
+                "image": "https://image.tmdb.org/t/p/w185/6cGP2k6wblQqwyfGdPWyFDWr0wT.jpg"
+            },
+            {
+                "name": "Chanchal Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/46ebiphxjeUP4T1JCGp6G4DAyQL.jpg"
+            },
+            {
+                "name": "Sariful Razz",
+                "image": "https://image.tmdb.org/t/p/w185/nRlFXqXAfG4yGYvSxZ9OqoXahuB.jpg"
+            },
+            {
+                "name": "Sabila Nur",
+                "image": "https://image.tmdb.org/t/p/w185/7xhYs2NQjQcNt1PChhK9FqbCWFr.jpg"
+            },
+            {
+                "name": "Shamol Mawla",
+                "image": "https://image.tmdb.org/t/p/w185/81iEoLRLEcEezeyY2DjYTlOwGHB.jpg"
+            }
+        ],
+        "details": "On a foggy winter journey, the Bonolota Express carries strangers burdened by secrets whose lives begin to collide within the train’s confined corridors. As the night unfolds, personal and political crises erupt, exposing hidden grief, moral decay, and moments of unexpected compassion amid chaos and revolt. By dawn, the train moves on, leaving its passengers irrevocably changed by a single journey where illusions collapse and human truths emerge.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/13/49268e4418e674cf0ad47fcf9d890dd4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/13/49268e4418e674cf0ad47fcf9d890dd4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_46286",
+        "type": "series",
+        "title": "Ink Master",
+        "release_year": 2012,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/y2qHivDbnmndHGw3iNhw1LPZIpM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kJspjzlXblGQTcjka5vhclbz6Rb.jpg",
+        "rating": 7.8,
+        "release_date": "2012-01-17",
+        "runtime": "42 min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Reality"
+        ],
+        "cast": [],
+        "details": "A group of the country's most creative and skilled tattoo artists compete for a hundred thousand dollars and the title of Ink Master. The stakes couldn't be higher with \"living canvasses\" donating their skin to be permanently marked in this adrenalized competition elimination.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/12/12/ccaa4987d8ef76e7efbfe09e33416cc8-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/12/12/ccaa4987d8ef76e7efbfe09e33416cc8-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391492",
+        "type": "movie",
+        "title": "Dupur Thakurpo  S1-S3",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Dupur Thakurpo  S1-S3",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/5b143606283862216fa7dc41fff4ac2c-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/5b143606283862216fa7dc41fff4ac2c-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1440143",
+        "type": "movie",
+        "title": "Amalnama",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=olE52QfvU2A",
+        "poster": "https://image.tmdb.org/t/p/w500/sfuIWgHDJIR7uuU791hWwGhcU6m.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/osWru1ACFPHvN79mqvWuRF3AMPx.jpg",
+        "rating": 7.0,
+        "release_date": "2025-03-13",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Zahid Hasan",
+                "image": "https://image.tmdb.org/t/p/w185/tIMZ3fc0uttC7qEfIeSZsdOOJGB.jpg"
+            },
+            {
+                "name": "Tama Mirza",
+                "image": "https://image.tmdb.org/t/p/w185/iQ48EaJGlpCMH4ZZ8neMLIeOgXW.jpg"
+            },
+            {
+                "name": "Kamruzzaman Kamu",
+                "image": "https://image.tmdb.org/t/p/w185/cs9dEU398k8kaQzAsitNb6LgkjP.jpg"
+            },
+            {
+                "name": "Gazi Rakayet",
+                "image": "https://image.tmdb.org/t/p/w185/wUJfkHRcFgv2bvZd1g4VdmtDSW2.jpg"
+            },
+            {
+                "name": "Sarika Sabrin",
+                "image": "https://image.tmdb.org/t/p/w185/53ySUlfgheJD4BInoQSE8ewQKK9.jpg"
+            }
+        ],
+        "details": "Hasan has left behind his dark past to lead a happy family life with his wife and two daughters. One night, posing as law enforcement officers, a group abruptly takes him from his home, casting a shroud of dreadful uncertainty over the entire family.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/03/14/160dabc976fb5977bc16ccf213bcf59f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/03/14/160dabc976fb5977bc16ccf213bcf59f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_224654",
+        "type": "series",
+        "title": "Saas, Bahu Aur Flamingo",
+        "release_year": 2023,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/6r18hrbrPRPknqqSFxahX4JU99E.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jN9oN4hRZWG5C8qsnq0NTzLaJTk.jpg",
+        "rating": 7.2,
+        "release_date": "2023-05-05",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "Hindi",
+            "Drama",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Dimple Kapadia",
+                "image": "https://image.tmdb.org/t/p/w185/nZoVs8drMLefoBN7PZ49slHuJe7.jpg"
+            },
+            {
+                "name": "Radhikka Madan",
+                "image": "https://image.tmdb.org/t/p/w185/xX6h0GMgJ1jLJdA5lHrFwZcjEIz.jpg"
+            },
+            {
+                "name": "Isha Talwar",
+                "image": "https://image.tmdb.org/t/p/w185/dVRrb9aLf6s1XmtIkpSbzuMl0Uv.jpg"
+            },
+            {
+                "name": "Angira Dhar",
+                "image": "https://image.tmdb.org/t/p/w185/hE7Im4q3EU07k1Rbf3slpd2K9qr.jpg"
+            },
+            {
+                "name": "Varun Mitra",
+                "image": "https://image.tmdb.org/t/p/w185/8uAnoiWerrB30G6NHNScWP3ZDpY.jpg"
+            }
+        ],
+        "details": "Savitri, the matriarch of a massive cartel in the lawless Borderlands, opens up a battle for succession to find her heir in a murky world of drugs and violence.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/11/0fcad806086c47814e7a48e9d0b76f1a-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/11/0fcad806086c47814e7a48e9d0b76f1a-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1146534",
+        "type": "movie",
+        "title": "Punorjonmo: Antim Porbo",
+        "release_year": 2023,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=oCkmnptIojQ",
+        "poster": "https://image.tmdb.org/t/p/w500/8aTYwGPKoxo4RNJL8pTfjGbuA07.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rPs8VNKajLJXt9cYNvNMATqeoTz.jpg",
+        "rating": 6.0,
+        "release_date": "2023-06-30",
+        "runtime": "139 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Crime",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Afran Nisho",
+                "image": "https://image.tmdb.org/t/p/w185/2b46ZeQbUt4Rzy1Ti4DJsps6aiQ.jpg"
+            },
+            {
+                "name": "Mehazabien Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/h9R6YMph4wFiY8scrK25zNmPQDh.jpg"
+            },
+            {
+                "name": "Khairul Basar",
+                "image": "https://image.tmdb.org/t/p/w185/tviQwFUBqNmh6JQxFI98T8sXOy2.jpg"
+            },
+            {
+                "name": "Quazi Nawshaba Ahmed",
+                "image": "https://image.tmdb.org/t/p/w185/8yza4B1o1LVEwoTj9ceZf5TOKI7.jpg"
+            },
+            {
+                "name": "Shahed Ali",
+                "image": "https://image.tmdb.org/t/p/w185/ctKTY2XklFEtrB768F7W9y0OKqz.jpg"
+            }
+        ],
+        "details": "With the tide against mastermind Rafsan Haq ever increasing, He has to make his plan against the police and all players very carefully. Now, What is he truly seeking is a big mystery.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/59396728450b42a9eb131abcd2cf92d5-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/59396728450b42a9eb131abcd2cf92d5-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1287157",
+        "type": "movie",
+        "title": "Oporichito",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/iK4cINaEhUIUHKEoBlH3QhZlXu4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hOEQlHUqQhR347VDII5puMqxFUH.jpg",
+        "rating": 0.0,
+        "release_date": "2025-01-10",
+        "runtime": "127 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Thriller",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Ritwick Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/dLF3tHNCmBpDO5aUkLDRJkL5vqI.jpg"
+            },
+            {
+                "name": "Anirban Chakrabarti",
+                "image": "https://image.tmdb.org/t/p/w185/uhanQnzgk3leLGdE5tAeiRgtX9g.jpg"
+            },
+            {
+                "name": "Ishaa Saha",
+                "image": "https://image.tmdb.org/t/p/w185/yraJcxJehzK1ZSbj7scwmPiciCK.jpg"
+            },
+            {
+                "name": "Shaheb Bhattacherjee",
+                "image": "https://image.tmdb.org/t/p/w185/cC6Fs0yPHlibprPa4G5LUaKPshh.jpg"
+            },
+            {
+                "name": "Kamaleswar Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/dIjtjax4v73M2icNDmK2WJO6oeL.jpg"
+            }
+        ],
+        "details": "After an accident a man has lost his memory. However, he feels a conspiracy is brewing around him. His suspicion grows and he can’t even trust his colleagues, friends, and even police officers.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/20/aa530c53f7f956260edb58654065c206-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/20/aa530c53f7f956260edb58654065c206-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_4238",
+        "type": "series",
+        "title": "The King of Queens",
+        "release_year": 1998,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/vXs300Yvjy4Kr0iHgBtajHkYbAt.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xF4zSVyrOBO60Lwu2wDN0dBjEgk.jpg",
+        "rating": 7.1,
+        "release_date": "1998-09-21",
+        "runtime": "25 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kevin James",
+                "image": "https://image.tmdb.org/t/p/w185/3WPW5duZyQcjveefxwLULgIyhM0.jpg"
+            },
+            {
+                "name": "Leah Remini",
+                "image": "https://image.tmdb.org/t/p/w185/19QpURecs6wDY9G46AmT7JnTchS.jpg"
+            },
+            {
+                "name": "Jerry Stiller",
+                "image": "https://image.tmdb.org/t/p/w185/eGymLHTpIyxKyBjACsNTpEof6y4.jpg"
+            },
+            {
+                "name": "Victor Williams",
+                "image": "https://image.tmdb.org/t/p/w185/9mfByCnBR3JUoBJnHI6CNrHGpk1.jpg"
+            },
+            {
+                "name": "Patton Oswalt",
+                "image": "https://image.tmdb.org/t/p/w185/ljQvjbPmcIAl205Lb2Mu4CW8WO7.jpg"
+            }
+        ],
+        "details": "Life’s good for deliveryman Doug Heffernan, until his newly widowed father-in-law, Arthur, moves in with him and his wife Carrie. Doug is no longer the king of his domain, and instead of having a big screen television in his recently renovated basement, he now has a crazy old man.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/12/b4d1384947ac95089cfac52fcc8c5999-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/12/b4d1384947ac95089cfac52fcc8c5999-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1380838",
+        "type": "movie",
+        "title": "Jhor",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/aRYuhSUiRLP6ZYK891OQNxCzsOm.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2025-09-05",
+        "runtime": "137 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Thriller",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Bonny Sengupta",
+                "image": "https://image.tmdb.org/t/p/w185/pvnnIoGiOJf4JbiS7iKG1nXXpe1.jpg"
+            },
+            {
+                "name": "Saurav Das",
+                "image": "https://image.tmdb.org/t/p/w185/pmWYgVDeSGiPFiU1eevF7ilWq8b.jpg"
+            },
+            {
+                "name": "Amrita Saha",
+                "image": ""
+            },
+            {
+                "name": "Leeza Goswami",
+                "image": "https://image.tmdb.org/t/p/w185/ePevHKrxsT9nTlJ6IXHGhoAhO0m.jpg"
+            },
+            {
+                "name": "Rajatabha Dutta",
+                "image": "https://image.tmdb.org/t/p/w185/8ukhcXEule4DROSsd4MtXaVoQnt.jpg"
+            }
+        ],
+        "details": "Jhor follows Michael, a suspended officer, on a mission to find two missing girls after his student Jane is mysteriously injured. As he uncovers hidden truths, the search reveals a dark side of society masked by light.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/12/97f8272b2a63f45db6bceaa99dc7bb31-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/12/97f8272b2a63f45db6bceaa99dc7bb31-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1306845",
+        "type": "movie",
+        "title": "Jaat",
+        "release_year": 2025,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/guTflsCTgLNqTbpHTi9gJANk1Rf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/A5ajQPdmA4P87vTpOXmFetA14fx.jpg",
+        "rating": 6.2,
+        "release_date": "2025-04-10",
+        "runtime": "153 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Crime",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Sunny Deol",
+                "image": "https://image.tmdb.org/t/p/w185/w9RenJriQVys2k5fa9ojkXpYMwO.jpg"
+            },
+            {
+                "name": "Randeep Hooda",
+                "image": "https://image.tmdb.org/t/p/w185/6Raio06bsLalCe4XDsknXxfDamV.jpg"
+            },
+            {
+                "name": "Saiyami Kher",
+                "image": "https://image.tmdb.org/t/p/w185/vdnJuFv8WUgBvaLBb6dDXlDkEma.jpg"
+            },
+            {
+                "name": "Regina Cassandra",
+                "image": "https://image.tmdb.org/t/p/w185/n3eiWhFQ3oFU1zWwEPsMR3rptjS.jpg"
+            },
+            {
+                "name": "Vineet Kumar Singh",
+                "image": "https://image.tmdb.org/t/p/w185/8mDoHcQQ82f7FYK8B22VK9DLkLA.jpg"
+            }
+        ],
+        "details": "A mysterious stranger journeys to a remote town controlled by a callous crime lord, with one violent mission — restoring justice to its people.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/03/31/001b9170898c6f7bf47a8a173ec8dc2e-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/03/31/001b9170898c6f7bf47a8a173ec8dc2e-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1351989",
+        "type": "movie",
+        "title": "Ekti Khola Janala",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=NQeBizs8aJw",
+        "poster": "https://image.tmdb.org/t/p/w500/cq4eaXmy2f8P7ftxAdxJdclQavT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bxlQRtLTosnksfNtDlCqT9FQR87.jpg",
+        "rating": 0.0,
+        "release_date": "2024-09-04",
+        "runtime": "51 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Tasnia Farin",
+                "image": "https://image.tmdb.org/t/p/w185/597KyUGLmv0q6MG3lRqgjvdtHGE.jpg"
+            },
+            {
+                "name": "Sallha Khanam Nadia",
+                "image": "https://image.tmdb.org/t/p/w185/2pYkaRFjT6gHke0FXoJn6Dz2jmq.jpg"
+            }
+        ],
+        "details": "The psychological thriller revolves around a series of nurse murders in the Keshobpur area, spreading terror among locals. The film explores who is selectively killing nurses and why.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/6a106e471688167b90e1bca8f5644640-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/27/6a106e471688167b90e1bca8f5644640-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_385305",
+        "type": "movie",
+        "title": "24×36",
+        "release_year": 2016,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=zR-WPcRrVR4",
+        "poster": "https://image.tmdb.org/t/p/w500/3pGFlpDBsLv0p6KPQLl53HVTbJp.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/u5ujPn3pyJnOur3EH43Sqn44Azw.jpg",
+        "rating": 6.8,
+        "release_date": "2016-03-05",
+        "runtime": "81 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Documentary"
+        ],
+        "cast": [
+            {
+                "name": "Paul Ainsworth",
+                "image": "https://image.tmdb.org/t/p/w185/fcBpZYX4iTNa1eZhmV2r4M6NKOx.jpg"
+            },
+            {
+                "name": "Dave Alexander",
+                "image": ""
+            },
+            {
+                "name": "Sharm Murugiah",
+                "image": ""
+            },
+            {
+                "name": "Tracie Ching",
+                "image": ""
+            },
+            {
+                "name": "Matthew Chojnacki",
+                "image": ""
+            }
+        ],
+        "details": "A documentary exploring the birth, death and resurrection of illustrated movie poster art. Through interviews with a number of key art personalities from the 70s and 80s, as well as many modern, alternative poster artists, “Twenty-Four by Thirty-Six” aims to answer the question: What happened to the illustrated movie poster? Where did it disappear to, and why? In the mid 2000s, filling the void left behind by Hollywood’s abandonment of illustrated movie posters, independent artists and galleries began selling limited edition, screenprinted posters — a movement that has quickly exploded into a booming industry with prints selling out online in seconds, inspiring Hollywood studios to take notice of illustration in movie posters once more.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/29/13e750e89325e31a87c26fc632a7ef45-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/29/13e750e89325e31a87c26fc632a7ef45-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_543646",
+        "type": "movie",
+        "title": "Shonar Pahar",
+        "release_year": 2018,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=jM8vM7rOaZw",
+        "poster": "https://image.tmdb.org/t/p/w500/m2ghZsnUp4M6pnrK40TMIlR1dqG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mzPeXqnZN4pOCLhFNMJx9oQcfux.jpg",
+        "rating": 8.0,
+        "release_date": "2018-07-06",
+        "runtime": "139 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Tanuja Samarth",
+                "image": "https://image.tmdb.org/t/p/w185/sAJoBoJssvzKodISaDYfk7nMhO4.jpg"
+            },
+            {
+                "name": "Srijato Banerjee",
+                "image": ""
+            },
+            {
+                "name": "Parambrata Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/f0vKFvgiyBvdgiXOFKpnnb6AfbG.jpg"
+            },
+            {
+                "name": "Soumitra Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/pjomXVYzHd62IuduDc9UVS82sBb.jpg"
+            },
+            {
+                "name": "Arunima Ghosh",
+                "image": "https://image.tmdb.org/t/p/w185/gllGDvW7Pu9qn0gRoVoG3i8R458.jpg"
+            }
+        ],
+        "details": "An older woman's unique friendship with a young boy inspires her to examine the strained relationship she shares with her married son.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/fbaa25974fc9b1b2801cc59c977ae104-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/13/fbaa25974fc9b1b2801cc59c977ae104-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1040048",
+        "type": "movie",
+        "title": "Saralakkho Holmes",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/1pkcjPJBjAZzt9VSeNFZFZFRVBR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8p6M2T7769pduaJCDt9McR6uGCW.jpg",
+        "rating": 0.0,
+        "release_date": "2025-08-29",
+        "runtime": "133 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Mystery",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Rishav Basu",
+                "image": "https://image.tmdb.org/t/p/w185/vw3ddyvxpEq8eswkkIqRiMJgpsD.jpg"
+            },
+            {
+                "name": "Arna Mukhopadhyay",
+                "image": "https://image.tmdb.org/t/p/w185/klHColHUhUXFDn9FuNvK1QHOqwq.jpg"
+            },
+            {
+                "name": "Rajnandini Paul",
+                "image": "https://image.tmdb.org/t/p/w185/abFHLHXglhbPQOWYROQwDa1dynm.jpg"
+            },
+            {
+                "name": "Shataf Figar",
+                "image": "https://image.tmdb.org/t/p/w185/sgQskf2R4c7302nNj5CG1invLsC.jpg"
+            },
+            {
+                "name": "Gaurav Chakrabarty",
+                "image": "https://image.tmdb.org/t/p/w185/yKgfGe8OkB5tqCWyPaQqA317NUm.jpg"
+            }
+        ],
+        "details": "A young Bengali detective in London delves into a century-old legend of a deadly hound, uncovering dark secrets and unexpected suspects in a race to solve the mystery before it claims another life.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/01/bcd3f9181199c0591b11fe4198ba598e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/01/bcd3f9181199c0591b11fe4198ba598e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_778023",
+        "type": "movie",
+        "title": "Hullor",
+        "release_year": 2020,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=UjUZBfZ547Y",
+        "poster": "https://image.tmdb.org/t/p/w500/2U4MwgNi3LAA1MZv7hHOCize25D.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bqC1BxpbBXNgzhaMYKvxqMCDjUj.jpg",
+        "rating": 0.0,
+        "release_date": "2020-02-06",
+        "runtime": "125 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Soham Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/i6i7IeRKGSog2kWVbFuKnCiy47Q.jpg"
+            },
+            {
+                "name": "Om Sahani",
+                "image": "https://image.tmdb.org/t/p/w185/vpB3iV2Gzza2qgguwjIIcFmEqKm.jpg"
+            },
+            {
+                "name": "Srabanti Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/vsKbZ211D55d8aDmSZSzUeQo5qB.jpg"
+            },
+            {
+                "name": "Darshana Banik",
+                "image": "https://image.tmdb.org/t/p/w185/gbsTRXGd4rbthYq62LfkzONdevx.jpg"
+            },
+            {
+                "name": "Biswanath Basu",
+                "image": "https://image.tmdb.org/t/p/w185/2du8ue0P7ewiy5YzIPsCUYxVc9x.jpg"
+            }
+        ],
+        "details": "Based on the age-old concept of North and south Kolkata, Hullor is a comedy drama, that revolves around two couples and one shop. One from North Kolkata and another from South Kolkata. Add in an astrologer intent on cheating people and a devotee seeking to build a temple and the resulting melange will keep you in splits right till the end.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/10/109cbd7752db9e1c681cd11c3532b572-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/10/109cbd7752db9e1c681cd11c3532b572-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_200738",
+        "type": "movie",
+        "title": "Jekhane Bhooter Bhoy",
+        "release_year": 2012,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/2Br2RIqiVlJYYLlSrCYYgvEoNnF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/udYvQDKDLiD9xssRDHN635veD6F.jpg",
+        "rating": 6.2,
+        "release_date": "2012-12-20",
+        "runtime": "100 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Adventure",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Paran Banerjee",
+                "image": "https://image.tmdb.org/t/p/w185/6uTLTB7cUMeCjYC1eWFownDOBKW.jpg"
+            },
+            {
+                "name": "Abir Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/bXirXzEH2ggdto8QAH4xum8y9E8.jpg"
+            },
+            {
+                "name": "Saswata Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/cVJVLDy7BNzIbFMcJBPOWeN0Kb.jpg"
+            },
+            {
+                "name": "Dwijen Banerjee",
+                "image": "https://image.tmdb.org/t/p/w185/qpJ9FKyg3YKq0wUlGrJR6tJQMgi.jpg"
+            },
+            {
+                "name": "Biswajit Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/ojhY03OYjfGfdauuQAB13nM0HIK.jpg"
+            }
+        ],
+        "details": "Sandip Ray's next where 4 ghost stories are spun together in a comical twist surrounding unusual events.The film is a collection of four short films based on four Bengali short stories- Sharadindu Bandyopadhyay's - Bhut Bhabishyat, Satyajit Ray's- Brown Saheber Bari, Anath Babur Bhoy and Lucknow-er Duel.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/1f8ae396e21f6ed048b12fbdb506c8ee-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/1f8ae396e21f6ed048b12fbdb506c8ee-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_259546",
+        "type": "series",
+        "title": "Brinda",
+        "release_year": 2024,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=DnD4VVc7qOw",
+        "poster": "https://image.tmdb.org/t/p/w500/d0bn8tRAOcfV8kqXu4lzQzTjAvs.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zWEwStQoDBS2H7oGkbKwpEUpQqk.jpg",
+        "rating": 7.2,
+        "release_date": "2024-08-02",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Crime",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Trisha Krishnan",
+                "image": "https://image.tmdb.org/t/p/w185/8YkgaUlTshiDWHymBOEXZ948Yyn.jpg"
+            },
+            {
+                "name": "Indrajith Sukumaran",
+                "image": "https://image.tmdb.org/t/p/w185/32YxjXVmgkPCVKUQAkNqWUGbBIl.jpg"
+            },
+            {
+                "name": "Ravindra Vijay",
+                "image": "https://image.tmdb.org/t/p/w185/2mw4VbANE3QtI9dzQXdrG74RizL.jpg"
+            },
+            {
+                "name": "Jayaprakash",
+                "image": "https://image.tmdb.org/t/p/w185/eyYfMqy7NsED7SYrAzaso9ZjLT5.jpg"
+            },
+            {
+                "name": "Aamani",
+                "image": "https://image.tmdb.org/t/p/w185/pitQe6OOFey0uzv2rmwljb4lJmr.jpg"
+            }
+        ],
+        "details": "Young, socially awkward yet morally grounded SI cadet Brinda stumbles upon a brutal murder with a chilling modus operandi. As the killer slips through her grasp, she faces personal and bureaucratic turmoil, but the hardest challenge is the moral reckoning that could define her career and conscience. Will Brinda uphold justice, or lose herself in the chaos closer to home?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/06/74b68500f8b83d63f756f5e7c26095e7-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/06/74b68500f8b83d63f756f5e7c26095e7-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391583",
+        "type": "movie",
+        "title": "Nikosh Chhaya  S1-S2",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Nikosh Chhaya  S1-S2",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/31/6f46336b231864782f4763532bd3bfd7-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/31/6f46336b231864782f4763532bd3bfd7-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_277265",
+        "type": "series",
+        "title": "Bhog",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=nT-kPVe8KSc",
+        "poster": "https://image.tmdb.org/t/p/w500/3XhvlhvwMHfRmQYaCMZynZjpNUo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/l8dmP9nHoUqg10zU5V5H7wiVB99.jpg",
+        "rating": 8.0,
+        "release_date": "2025-05-01",
+        "runtime": "22 min",
+        "categories": [
+            "Web Series",
+            "Bangla",
+            "Mystery",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Anirban Bhattacharya",
+                "image": "https://image.tmdb.org/t/p/w185/9eph0DtlBImkdJdOaDopzCmx4E8.jpg"
+            },
+            {
+                "name": "Parno Mittra",
+                "image": "https://image.tmdb.org/t/p/w185/q6WYaq2kqNgitwvgQOOAv9QMt7P.jpg"
+            },
+            {
+                "name": "Rajatabha Dutta",
+                "image": "https://image.tmdb.org/t/p/w185/8ukhcXEule4DROSsd4MtXaVoQnt.jpg"
+            },
+            {
+                "name": "Sudipa Basu",
+                "image": "https://image.tmdb.org/t/p/w185/agCdsDuCXawREuIKifswmKyvQMq.jpg"
+            },
+            {
+                "name": "Subhasish Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/x3JdBisoYsT1c0CJKRmVOkCozgF.jpg"
+            }
+        ],
+        "details": "Atin brings home an enigmatic brass statue of a deity, oblivious to its sinister past. As his obsession grows, only Damri, a mysterious outcast, seems to be able to pacify the Goddess. However, with each offering made, a more malevolent force commences its awakening.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/06/98b750a109a103b2a6678b21dd543e8b-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/06/98b750a109a103b2a6678b21dd543e8b-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1007240",
+        "type": "movie",
+        "title": "Antarjal",
+        "release_year": 2023,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=kS5QrMhMsbk",
+        "poster": "https://image.tmdb.org/t/p/w500/pjwg9XkL22GZ2XQdfMvcAofLE1O.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/c4ntH1BMZJKiZpgRpeutxINzTDJ.jpg",
+        "rating": 4.0,
+        "release_date": "2023-09-22",
+        "runtime": "147 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Siam Ahmed",
+                "image": "https://image.tmdb.org/t/p/w185/4gSLuSAkUMnjv0nRRgUjOGSo2YU.jpg"
+            },
+            {
+                "name": "Sunerah Binte Kamal",
+                "image": "https://image.tmdb.org/t/p/w185/L111ffXC7xn0gRB8auzMiTGdrt.jpg"
+            },
+            {
+                "name": "Bidya Sinha Saha Mim",
+                "image": "https://image.tmdb.org/t/p/w185/hNYH8zcMAfOAuHMb25M23FxxNla.jpg"
+            },
+            {
+                "name": "ABM Sumon",
+                "image": "https://image.tmdb.org/t/p/w185/bC7mqhqlNgnDuybqiR4OV93TZQG.jpg"
+            },
+            {
+                "name": "Rawnak Hasan",
+                "image": "https://image.tmdb.org/t/p/w185/m4WaJ8hCCxIdD6Oiow7NppMrk0N.jpg"
+            }
+        ],
+        "details": "Few of the country's major cyber networks are under attack by a ruthless group of International cyber criminals. Three young minds come forward and join the country's cyber security division to fight the attack. But they get indulged in bigger trouble as they now have to face more evil forces from both the country and abroad.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/20/96cf98144f565e18f910b2da28d276b0-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/20/96cf98144f565e18f910b2da28d276b0-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/antarjal-2023-bengali-toffee-web-dl-480p-720p-1080p-x264-500mb-1-3gb-2-8gb-download-watch-online//Antarjal.mp4-r360P",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/antarjal-2023-bengali-toffee-web-dl-480p-720p-1080p-x264-500mb-1-3gb-2-8gb-download-watch-online//Antarjal.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1032048",
+        "type": "movie",
+        "title": "Priyotoma",
+        "release_year": 2023,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=oy7FY3k3TJc",
+        "poster": "https://image.tmdb.org/t/p/w500/bbVlVUS5KAO0XLKhSr5oNbbRXbG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vvYE5UJ8llqJLYrfEdRgud1Duol.jpg",
+        "rating": 6.0,
+        "release_date": "2023-06-29",
+        "runtime": "142 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Action",
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Shakib Khan",
+                "image": "https://image.tmdb.org/t/p/w185/pmJvt5SBS1AwJqMSx6Ix8VtdKqQ.jpg"
+            },
+            {
+                "name": "Idhika Paul",
+                "image": "https://image.tmdb.org/t/p/w185/9ESB0o596aFeSmAtsQieuuVGqXw.jpg"
+            },
+            {
+                "name": "Shahiduzzaman Selim",
+                "image": "https://image.tmdb.org/t/p/w185/2O6yfkpnBMxp1Q5CS649N310KPf.jpg"
+            },
+            {
+                "name": "Lutfur Rahman George",
+                "image": "https://image.tmdb.org/t/p/w185/sSVW9aBUKWoN7rNzI7A7i4Kzljc.jpg"
+            },
+            {
+                "name": "Kazi Hayat",
+                "image": "https://image.tmdb.org/t/p/w185/kd4VPx2StCVzBWmrCD5e2luDqWM.jpg"
+            }
+        ],
+        "details": "Shumon finds himself entangled in the arms of a politician's silly daughter, an encounter that would forever alter the course of his existence. Her sudden demise leaves an indelible mark on Shumon's life, shattering his world and leaving him forever transformed.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/07/04/ba51d7cfefc54502c53f57d52fe72028-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/07/04/ba51d7cfefc54502c53f57d52fe72028-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/priyotoma-2023-bioscope//Priyotoma.mp4-r360P",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/priyotoma-2023-bioscope//Priyotoma.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391599",
+        "type": "movie",
+        "title": "22 Shey Shraban",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: 22 Shey Shraban",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/f16e30b614378bea7d24d4f54cea4dcf-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/f16e30b614378bea7d24d4f54cea4dcf-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391603",
+        "type": "movie",
+        "title": "Lojja  S1-S2",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Lojja  S1-S2",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/22/edf428df1db82712ef9f07d78f0c6060-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/22/edf428df1db82712ef9f07d78f0c6060-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391607",
+        "type": "movie",
+        "title": "Rajkumar",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Rajkumar",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/13/3098b5c57a90d074fb71165a93458a08-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/13/3098b5c57a90d074fb71165a93458a08-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1228679",
+        "type": "movie",
+        "title": "Shotyi Bole Shotyi Kichhu Nei",
+        "release_year": 2025,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/18x3IysVfm0IRE4PtMKvy9CwFIa.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oH8POgYEWAHACwyIXcAtPjvoHgd.jpg",
+        "rating": 8.0,
+        "release_date": "2025-01-23",
+        "runtime": "120 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kaushik Ganguly",
+                "image": "https://image.tmdb.org/t/p/w185/serCnOhT87g86Ow0X5zkX3GfEzK.jpg"
+            },
+            {
+                "name": "Parambrata Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/f0vKFvgiyBvdgiXOFKpnnb6AfbG.jpg"
+            },
+            {
+                "name": "Kaushik Sen",
+                "image": "https://image.tmdb.org/t/p/w185/vf3jNiqYZlWte3siw3vlQMzn5rD.jpg"
+            },
+            {
+                "name": "Ritwick Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/dLF3tHNCmBpDO5aUkLDRJkL5vqI.jpg"
+            },
+            {
+                "name": "Sauraseni Maitra",
+                "image": "https://image.tmdb.org/t/p/w185/gJlQHzgIgpfRcRZTYvULORZe0zZ.jpg"
+            }
+        ],
+        "details": "Twelve jury members debate fiercely over a murder trial. Only one juror is convinced that the convict is not guilty of the crime and he tries to convince the rest that the boy is innocent.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/18/7e32a3b43c652accd06bc199d3cd9de8-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/18/7e32a3b43c652accd06bc199d3cd9de8-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_972823",
+        "type": "movie",
+        "title": "Aaro Ek Prithibi",
+        "release_year": 2023,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/3vjUmWKk5s308ZQs0G0zt3zIw2u.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fGLpaRbILFIO8Ba4kCvSaBteSJV.jpg",
+        "rating": 0.0,
+        "release_date": "2023-02-03",
+        "runtime": "122 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Tasnia Farin",
+                "image": "https://image.tmdb.org/t/p/w185/597KyUGLmv0q6MG3lRqgjvdtHGE.jpg"
+            },
+            {
+                "name": "Kaushik Ganguly",
+                "image": "https://image.tmdb.org/t/p/w185/serCnOhT87g86Ow0X5zkX3GfEzK.jpg"
+            },
+            {
+                "name": "Anindita Bose",
+                "image": "https://image.tmdb.org/t/p/w185/6RhJc5wTzmYKTq9DMTRIvraJ7Kg.jpg"
+            },
+            {
+                "name": "Shaheb Bhattacherjee",
+                "image": "https://image.tmdb.org/t/p/w185/cC6Fs0yPHlibprPa4G5LUaKPshh.jpg"
+            },
+            {
+                "name": "Soumitra Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/2LCtO1LQcTOEUfLcccTHiMvSpR5.jpg"
+            }
+        ],
+        "details": "Pratiksha, 27, arrives in London three months after her marriage and shortly finds herself entrapped in a vortex of lies, deceit and danger. If she does not get out of the mess, everything in her life is at risk. She meets Ayesha.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/1d9c42e68d540f8ac4dcb335e6961b4b-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/1d9c42e68d540f8ac4dcb335e6961b4b-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "moviebox_fallback_1784391618",
+        "type": "movie",
+        "title": "Montu Pilot  S1-S3",
+        "release_year": 2026,
+        "original_language": "unk",
+        "video_trailer": "",
+        "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&w=500",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026-01-01",
+        "runtime": "N/A",
+        "categories": [
+            "Movies",
+            "Bangla"
+        ],
+        "cast": [],
+        "details": "Premium content streamed from Moviebox: Montu Pilot  S1-S3",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/10/72a81d989bdc528e813112dcfeca9940-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/10/72a81d989bdc528e813112dcfeca9940-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_845857",
+        "type": "movie",
+        "title": "Ekannoborti",
+        "release_year": 2021,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/kM4xzE0kSxWjgiQPd9kBoI7pXBf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zWOuGlzeiMFfzJVIF9AOlrtIfst.jpg",
+        "rating": 0.0,
+        "release_date": "2021-11-19",
+        "runtime": "133 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Family",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Sauraseni Maitra",
+                "image": "https://image.tmdb.org/t/p/w185/gJlQHzgIgpfRcRZTYvULORZe0zZ.jpg"
+            },
+            {
+                "name": "Ananya Sen",
+                "image": "https://image.tmdb.org/t/p/w185/3CywgjpIIGVQPnfc5qZvlHBAyzi.jpg"
+            },
+            {
+                "name": "Aparajita Adhya",
+                "image": "https://image.tmdb.org/t/p/w185/aZ9kI3oc5YU0bEwDEVbMDHUOHVc.jpg"
+            },
+            {
+                "name": "Alokananda Roy",
+                "image": "https://image.tmdb.org/t/p/w185/4LzlF9MSIl55F4GZASepatntvnT.jpg"
+            },
+            {
+                "name": "Biswanath Basu",
+                "image": "https://image.tmdb.org/t/p/w185/2du8ue0P7ewiy5YzIPsCUYxVc9x.jpg"
+            }
+        ],
+        "details": "Banerjee family is reunited for their household Durga Pujo but as the festivities ensue, the once empty and silent Banerjee home is filled with festive chaos.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/09e1b417aedd0dd0d2668460ec7c5b4d-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/11/09e1b417aedd0dd0d2668460ec7c5b4d-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://mlsbd.shop/ekannoborti-2021-bengali-web-dl-480p-720p-1080p-x264-400mb-700mb-download-watch-online//Ekannoborti.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "mlsbd.shop"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_566914",
+        "type": "movie",
+        "title": "F2: Fun and Frustration",
+        "release_year": 2019,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=XttQbFKkeHQ",
+        "poster": "https://image.tmdb.org/t/p/w500/cuIiSZSPr7ioJJM5N0WZqSYLnJF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sHYfo3zwrhcU8dybk0IwM8Qck9p.jpg",
+        "rating": 5.5,
+        "release_date": "2019-01-12",
+        "runtime": "148 min",
+        "categories": [
+            "Movies",
+            "Bangla",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Venkatesh",
+                "image": "https://image.tmdb.org/t/p/w185/t5PWjy177ZTUM6wdjaVjqp5FLJq.jpg"
+            },
+            {
+                "name": "Varun Tej",
+                "image": "https://image.tmdb.org/t/p/w185/2N9LTqRxLpeCCyNTYUpnVBhZiZU.jpg"
+            },
+            {
+                "name": "Tamannaah Bhatia",
+                "image": "https://image.tmdb.org/t/p/w185/t4WYoKiFAyO1Rhjv7O03EKmJHp4.jpg"
+            },
+            {
+                "name": "Mehreen Pirzada",
+                "image": "https://image.tmdb.org/t/p/w185/7OipqIxWW831VPTmx6g5g2YoyeO.jpg"
+            },
+            {
+                "name": "Rajendra Prasad",
+                "image": "https://image.tmdb.org/t/p/w185/zh6QJ85g5KbpkjL5fgqlOGddn5C.jpg"
+            }
+        ],
+        "details": "After Venky, Varun also gets married thinking he can keep the wife in control but both of them gets frustrated with the marital life which generates fun.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/04/28/4332577f9c2bb66476d813219ffa80ff-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/04/28/4332577f9c2bb66476d813219ffa80ff-sd.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
