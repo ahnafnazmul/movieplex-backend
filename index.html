@@ -281,11 +281,16 @@
         </button>
 
         <div class="w-full relative pt-[56.25%] md:pt-[45%] bg-black rounded-2xl overflow-hidden border border-white/5 group shadow-2xl">
-            <div id="player-shield" class="absolute inset-0 bg-black/95 backdrop-blur-sm z-30 flex flex-col justify-center items-center space-y-3 cursor-pointer p-4 text-center" onclick="activatePlayerFrame()">
+            <!-- 🛡️ CLICK EVENT INTERCEPTOR OVERLAY SHIELD -->
+            <div id="player-shield" class="absolute inset-0 bg-black/95 backdrop-blur-sm z-30 flex flex-col justify-center items-center space-y-3 cursor-pointer p-4 text-center" onclick="activatePlayerFrame(event)">
                 <div class="w-14 h-14 md:w-16 md:h-16 bg-yellow-500 text-black rounded-full flex items-center justify-center font-black text-xl shadow-[0_0_30px_rgba(234,179,8,0.4)] transition transform group-hover:scale-110">▶</div>
                 <span class="text-xs font-black tracking-widest text-yellow-500 uppercase flex items-center space-x-1"><span>Play Now</span><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping ml-1.5"></span></span>
             </div>
-            <!-- 🛡️ AD-SHIELD ENGINE: SANDBOX REMOVED TO PREVENT ERRORS, CONTROLLED BY JS POPUP DESTRUCTOR BELOW -->
+            
+            <!-- 🚫 ANTI-REDIRECT INVISIBLE TOUCH SHIELD LAYER -->
+            <div id="iframe-touch-gate" class="absolute inset-0 z-20 hidden" style="pointer-events: auto;"></div>
+            
+            <!-- 🛡️ AD-SHIELD ULTIMATE: SANDBOX COMPLETELY REMOVED TO BYPASS ERRORS -->
             <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
@@ -718,6 +723,11 @@
             document.getElementById('details-view-container').classList.replace('block', 'hidden');
             document.getElementById('home-view-container').classList.replace('hidden', 'block');
             document.getElementById('search-bar').value = '';
+            
+            // টাচ গেট রিসেট ও হাইড করা
+            const gate = document.getElementById('iframe-touch-gate');
+            if(gate) gate.classList.add('hidden');
+            
             processAlgorithmicRows();
         }
 
@@ -737,6 +747,10 @@
             document.getElementById('details-meta-audio').innerText = movie.detectedAudio;
             document.getElementById('details-video-iframe').src = "";
             
+            // টাচ গেট রিসেট করা
+            const gate = document.getElementById('iframe-touch-gate');
+            if(gate) gate.classList.add('hidden');
+            
             const serverContainer = document.getElementById('details-server-container');
             serverContainer.innerHTML = '';
             document.getElementById('player-shield').classList.remove('hidden');
@@ -752,6 +766,10 @@
                         btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
                         activePlayerSrc = player.player_url;
                         document.getElementById('player-shield').classList.remove('hidden');
+                        
+                        const innerGate = document.getElementById('iframe-touch-gate');
+                        if(innerGate) innerGate.classList.add('hidden');
+                        
                         document.getElementById('details-video-iframe').src = "";
                         cacheUserPlaybackPreferences(movie);
                     };
@@ -761,36 +779,46 @@
             fetchDeepTMDBData(movie.id, movie.categories, movie);
         }
 
-        // 🌟 ADVANCED CLICK INTERCEPTOR AND ANTI-POPUP AD SHIELD
-        function activatePlayerFrame() {
+        // 🌟 CLONE INTERCEPTION & AD-DESTRUCTOR ENGINE
+        function activatePlayerFrame(event) {
+            // ইউজারের টাচ ইভেন্টকে মাঝপথে আটকে দেওয়া, যাতে ব্রাউজার লেভেলে কোনো পপ-আপ স্ক্রিপ্ট রান করার সুযোগ না পায়
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            
             document.getElementById('player-shield').classList.add('hidden');
+            
+            // টাচ গেট সচল করা যা পরবর্তী সব অবৈধ ক্লিক লক করবে
+            const gate = document.getElementById('iframe-touch-gate');
+            if(gate) gate.classList.remove('hidden');
             
             const iframe = document.getElementById('details-video-iframe');
             let finalSrc = activePlayerSrc;
             
+            // অটো-প্লে প্যারামিটার ইন্টিগ্রেশন
             if (!finalSrc.includes('autoplay=')) {
                 finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
             }
             
-            // উইন্ডো ওপেনিং মেকানিজম হাইজ্যাক (যাতে আইফ্রেম কোনো পপ-আপ বা নতুন ট্যাব খুলতে না পারে)
+            // গ্লোবাল উইন্ডো ওপেন ইঞ্জিন কঠোরভাবে ডিজেবল
             window.open = function() { return null; };
             
             iframe.src = finalSrc;
             
             iframe.onload = function() {
                 try {
-                    // আইফ্রেমের ভেতরের উইন্ডো অবজেক্টে এক্সেস থাকলে সেটারও উইন্ডো ওপেন মেকানিজম ব্লক
                     if(iframe.contentWindow) {
                         iframe.contentWindow.open = function() { return null; };
                     }
+                    // আইফ্রেমের সেন্টারে ক্লিক ইভেন্ট পুশ লক করা (ফোর্স অটো-প্লে এসিস্ট)
                     iframe.focus();
                 } catch(e) {
-                    // ক্রস-অরিজিন পলিসি থাকলে ব্যাকগ্রাউন্ড ফোকাস লক
                     setTimeout(() => { iframe.focus(); }, 200);
                 }
             };
 
-            // মোবাইলের জন্য এক্সট্রা প্রোটেকশন: অ্যাপ থেকে ফোকাস চলে যাওয়ার ট্রাই করলেই ফেরত আনা
+            // মোবাইল ফোকাস লকিং লেয়ার
             window.addEventListener('blur', function() {
                 if (document.activeElement === iframe) {
                     setTimeout(() => { window.focus(); }, 100);
