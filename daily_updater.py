@@ -22,12 +22,7 @@ BANNED_WORDS = ['fifa', 'world cup', 'ipl', 'wwe', 'live tv', 'sports', 'camrip'
 
 # রিপোর্ট ট্র্যাকিং ডিকশনারি
 report_log = {
-    "site_status": {
-        "Moviebox": "❌",
-        "Banglaplex": "❌",
-        "Movielink BD": "❌",
-        "Rtally": "❌"
-    },
+    "site_status": {"Moviebox": "❌", "Banglaplex": "❌", "Movielink BD": "❌", "Rtally": "❌"},
     "added_count": 0,
     "merged_count": 0,
     "content_names": [],
@@ -38,24 +33,18 @@ def send_telegram_report():
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         print("⚠️ Telegram credentials missing. Skipping report.")
         return
-    
     total_added = report_log['added_count'] + report_log['merged_count']
-    
     msg = f"Hello Boss, This Is Your Admin,\nReporting Scheduled Update:\n\n"
     msg += f"Moviebox {report_log['site_status']['Moviebox']}\n"
     msg += f"Banglaplex {report_log['site_status']['Banglaplex']}\n"
     msg += f"Movielink BD {report_log['site_status']['Movielink BD']}\n"
     msg += f"Rtally {report_log['site_status']['Rtally']}\n\n"
-    
-    msg += f"Content Added: {total_added} Totals after Merging.\n"
-    
+    msg += f"Content Processed/Updated: {total_added} Totals.\n"
     if report_log['content_names']:
         msg += "Contents Name:\n"
         for idx, name in enumerate(report_log['content_names'][:40], 1):
             msg += f"{idx}. {name}\n"
-            
     msg += f"\nTotal Contents In Database is: {report_log['total_db']} Now."
-        
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     try:
         requests.post(url, json={"chat_id": TELEGRAM_CHAT_ID, "text": msg})
@@ -77,9 +66,14 @@ def save_db(data):
 def is_banned(title):
     return any(w in title.lower() for w in BANNED_WORDS)
 
+def extract_domain(url):
+    match = re.search(r'https?://([^/]+)', url)
+    return match.group(1) if match else "unknown"
+
 def get_tmdb_max_info(title):
     if not TMDB_API_KEY: return None
-    clean_title = re.sub(r'\(.*?\)|\[.*?\]|hindi|bengali|s01|s02|season|episode|complete', '', title, flags=re.IGNORECASE).strip()
+    # উন্নত টাইটেল ক্লিনিং জঞ্জাল কিওয়ার্ড সহ
+    clean_title = re.sub(r'\(.*?\)|\[.*?\]|hindi|bengali|s01|s02|season|episode|complete|web-dl|1080p|720p|bluray|hdtc|x264|x265|dual audio|dual-audio', '', title, flags=re.IGNORECASE).strip()
     try:
         search_url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_API_KEY}&query={clean_title}&language=en-US"
         res = requests.get(search_url, timeout=10).json()
@@ -89,7 +83,7 @@ def get_tmdb_max_info(title):
             tmdb_id = top.get('id')
             if top.get('adult') == True: return "ADULT_REJECT"
             
-            detail_url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}?api_key={TMDB_API_KEY}&append_to_response=credits"
+            detail_url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}?api_key={TMDB_API_KEY}&append_to_response=credits,videos"
             detail = requests.get(detail_url, timeout=10).json()
             if detail.get('adult') == True: return "ADULT_REJECT"
             
@@ -99,41 +93,67 @@ def get_tmdb_max_info(title):
             cast = [{"name": c['name'], "image": f"https://image.tmdb.org/t/p/w185{c['profile_path']}" if c.get('profile_path') else ""} for c in detail.get('credits', {}).get('cast', [])[:5]]
             runtime = detail.get('runtime') or (detail.get('episode_run_time', [0])[0] if detail.get('episode_run_time') else "N/A")
             
+            # ট্রেইলার কালেকশন লজিক
+            trailer_url = ""
+            videos = detail.get('videos', {}).get('results', [])
+            for v in videos:
+                if v.get('site') == 'YouTube' and v.get('type') == 'Trailer':
+                    trailer_url = f"https://www.youtube.com/watch?v={v.get('key')}"
+                    break
+            
+            # রিলিজ ইয়ার আইসোলেশন
+            rel_date = detail.get('release_date') or detail.get('first_air_date', '2026')
+            release_year = int(rel_date.split('-')[0]) if '-' in rel_date else 2026
+            
             type_formatted = "series" if media_type == "tv" else "movie"
-            
-            # 🔄 🧠 ডাইনামিক স্মার্ট ল্যাঙ্গুয়েজ ক্যাটাগরি ফিল্টারিং ইনজেকশন 
             title_lower = title.lower()
-            categories = []
-            
-            # কন্টেন্ট টাইপ নির্ধারণ (Movie বা Web Series)
-            if type_formatted == "series":
-                categories.append("Web Series")
-            else:
-                categories.append("Movies")
+            categories = ["Web Series" if type_formatted == "series" else "Movies"]
 
-            # নিখুঁত ল্যাঙ্গুয়েজ আইসোলেশন রুলস (মুভি এবং সিরিজ দুটোর জন্যই)
             if "bangla" in title_lower or "bengali" in title_lower or "natok" in title_lower:
                 categories.append("Bangla")
             elif "hindi" in title_lower or "dual audio" in title_lower or "dual-audio" in title_lower:
                 categories.append("Hindi")
             else:
-                # যদি টাইটেলে বাংলা বা হিন্দি কি-ওয়ার্ড না থাকে তবে সেটি পিওর ইংলিশ কন্টেন্ট
                 categories.append("English")
 
-            # এরপর TMDB থেকে আসা জনরাগুলোও ফিউচার মেটাডেটার জন্য ব্যাকআপ হিসেবে রেখে দেওয়া হলো
             for g in genres:
-                if g not in categories:
-                    categories.append(g)
+                if g not in categories: categories.append(g)
             
             return {
                 "id": f"{media_type}_{tmdb_id}", "type": type_formatted, "title": top.get('title') or top.get('name'),
+                "release_year": release_year, "original_language": detail.get('original_language', 'en'),
+                "video_trailer": trailer_url,
                 "poster": f"https://image.tmdb.org/t/p/w500{detail.get('poster_path')}" if detail.get('poster_path') else "",
                 "backdrop": f"https://image.tmdb.org/t/p/w1280{detail.get('backdrop_path')}" if detail.get('backdrop_path') else "",
-                "rating": round(detail.get('vote_average', 7.0), 1), "release_date": detail.get('release_date') or detail.get('first_air_date', '2026'),
+                "rating": round(detail.get('vote_average', 7.0), 1), "release_date": rel_date,
                 "runtime": f"{runtime} min", "categories": categories, "cast": cast, "details": detail.get('overview', 'Premium OTT content.'), "players": []
             }
     except: pass
     return None
+
+def merge_player_links(db_dict, m_id, new_players, tmdb_data, source_site):
+    if m_id in db_dict:
+        # ক্যাটাগরি মার্জ
+        for cat in tmdb_data['categories']:
+            if cat not in db_dict[m_id]['categories']:
+                db_dict[m_id]['categories'].append(cat)
+        
+        # ইউনিক প্লেয়ার লিংক ভ্যালিডেশন এবং ইনজেকশন
+        existing_urls = [p['player_url'] for p in db_dict[m_id]['players']]
+        added = False
+        for p in new_players:
+            if p['player_url'] not in existing_urls:
+                db_dict[m_id]['players'].append(p)
+                added = True
+        if added:
+            report_log['merged_count'] += 1
+            if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
+    else:
+        tmdb_data['players'] = new_players
+        tmdb_data['_source_site'] = source_site
+        db_dict[m_id] = tmdb_data
+        report_log['added_count'] += 1
+        if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
 
 # ================= Source 1: Moviebox =================
 def scrape_moviebox(db_dict):
@@ -165,20 +185,19 @@ def scrape_moviebox(db_dict):
                     if script.string:
                         cdn_links = re.findall(r'(https?://[^\s"\']+\.(?:mp4|m3u8)[^\s"\']*)', script.string)
                         for link in cdn_links:
-                            if link not in [s['player_url'] for s in stream_urls]:
-                                stream_urls.append({"server_name": "MovieBox Premium", "player_url": link})
+                            stream_urls.append({
+                                "server_name": "MovieBox Premium", 
+                                "player_url": link,
+                                "source_site": "themoviebox",
+                                "source_domain": extract_domain(link)
+                            })
                 
                 if not stream_urls: continue
                 tmdb_data = get_tmdb_max_info(title)
                 if not tmdb_data or tmdb_data in ["ADULT_REJECT", "ANIME_REJECT"]: continue
                 
-                m_id = tmdb_data['id']
-                if m_id not in db_dict:
-                    tmdb_data['players'] = stream_urls
-                    tmdb_data['_source_site'] = "themoviebox"
-                    db_dict[m_id] = tmdb_data
-                    report_log['added_count'] += 1
-                    if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
+                # এবার মুভিবক্সের জন্যও প্লেয়ার মার্জিং ইঞ্জিন কাজ করবে
+                merge_player_links(db_dict, tmdb_data['id'], stream_urls, tmdb_data, "themoviebox")
             except: pass
         report_log['site_status']['Moviebox'] = "✅"
     except Exception as e: print(f"Moviebox Error: {e}")
@@ -200,34 +219,22 @@ def scrape_banglaplex(db_dict):
                 title = soup.title.text.split('|')[0].split('-')[0].strip() if soup.title else f.split('/')[-1]
                 if is_banned(title): continue
                 
-                players = [{"server_name": "Banglaplex Stream", "player_url": iframe.get('src')} for iframe in soup.find_all('iframe') if iframe.get('src') and ('plextream' in iframe.get('src') or 'embed' in iframe.get('src'))]
-                if not players: continue
+                players = []
+                for iframe in soup.find_all('iframe'):
+                    src = iframe.get('src')
+                    if src and ('plextream' in src or 'embed' in src or 'turbovid' in src):
+                        players.append({
+                            "server_name": "Banglaplex Stream", 
+                            "player_url": src,
+                            "source_site": "banglaplex",
+                            "source_domain": extract_domain(src)
+                        })
                 
+                if not players: continue
                 tmdb_data = get_tmdb_max_info(title)
                 if not tmdb_data or tmdb_data in ["ADULT_REJECT", "ANIME_REJECT"]: continue
                 
-                m_id = tmdb_data['id']
-                if m_id in db_dict:
-                    # ফাইল মার্জ হলেও নতুন ল্যাঙ্গুয়েজ ট্যাগ আপডেট করে রাখা হচ্ছে
-                    for cat in tmdb_data['categories']:
-                        if cat not in db_dict[m_id]['categories']:
-                            db_dict[m_id]['categories'].append(cat)
-                            
-                    existing_urls = [p['player_url'] for p in db_dict[m_id]['players']]
-                    added = False
-                    for p in players:
-                        if p['player_url'] not in existing_urls: 
-                            db_dict[m_id]['players'].append(p)
-                            added = True
-                    if added: 
-                        report_log['merged_count'] += 1
-                        if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
-                else:
-                    tmdb_data['players'] = players
-                    tmdb_data['_source_site'] = "banglaplex"
-                    db_dict[m_id] = tmdb_data
-                    report_log['added_count'] += 1
-                    if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
+                merge_player_links(db_dict, tmdb_data['id'], players, tmdb_data, "banglaplex")
             except: pass
         report_log['site_status']['Banglaplex'] = "✅"
     except Exception as e: print(f"Banglaplex Error: {e}")
@@ -250,35 +257,20 @@ def scrape_mlbd(db_dict):
                 
                 players = []
                 for a in soup.find_all('a', href=True):
-                    if 'download' in a.text.lower():
+                    if 'download' in a.text.lower() or 'play' in a.text.lower():
                         href = a['href'] if a['href'].startswith('http') else URL_MLBD.rstrip('/') + '/' + a['href'].lstrip('/')
-                        players.append({"server_name": f"MLBD {a.text.strip()[:4]}", "player_url": href})
+                        players.append({
+                            "server_name": f"MLBD {a.text.strip()[:6]}", 
+                            "player_url": href,
+                            "source_site": "movielinkbd",
+                            "source_domain": extract_domain(href)
+                        })
                 
                 if not players: continue
                 tmdb_data = get_tmdb_max_info(title)
                 if not tmdb_data or tmdb_data in ["ADULT_REJECT", "ANIME_REJECT"]: continue
                 
-                m_id = tmdb_data['id']
-                if m_id in db_dict:
-                    for cat in tmdb_data['categories']:
-                        if cat not in db_dict[m_id]['categories']:
-                            db_dict[m_id]['categories'].append(cat)
-                            
-                    existing_urls = [p['player_url'] for p in db_dict[m_id]['players']]
-                    added = False
-                    for p in players:
-                        if p['player_url'] not in existing_urls: 
-                            db_dict[m_id]['players'].append(p)
-                            added = True
-                    if added:
-                        report_log['merged_count'] += 1
-                        if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
-                else:
-                    tmdb_data['players'] = players
-                    tmdb_data['_source_site'] = "movielinkbd"
-                    db_dict[m_id] = tmdb_data
-                    report_log['added_count'] += 1
-                    if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
+                merge_player_links(db_dict, tmdb_data['id'], players, tmdb_data, "movielinkbd")
             except: pass
         report_log['site_status']['Movielink BD'] = "✅"
     except Exception as e: print(f"MLBD Error: {e}")
@@ -300,40 +292,29 @@ def scrape_rtally(db_dict):
                 title = soup.title.text.split('|')[0].strip() if soup.title else f.split('/')[-1]
                 if is_banned(title): continue
                 
-                players = [{"server_name": "Rtally Stream", "player_url": iframe.get('src')} for iframe in soup.find_all('iframe') if iframe.get('src') and ('plextream' in iframe.get('src') or 'embed' in iframe.get('src'))]
-                if not players: continue
+                players = []
+                for iframe in soup.find_all('iframe'):
+                    src = iframe.get('src')
+                    if src and ('plextream' in src or 'embed' in src or 'turbovid' in src):
+                        players.append({
+                            "server_name": "Rtally Stream", 
+                            "player_url": src,
+                            "source_site": "rtally",
+                            "source_domain": extract_domain(src)
+                        })
                 
+                if not players: continue
                 tmdb_data = get_tmdb_max_info(title)
                 if not tmdb_data or tmdb_data in ["ADULT_REJECT", "ANIME_REJECT"]: continue
                 
-                m_id = tmdb_data['id']
-                if m_id in db_dict:
-                    for cat in tmdb_data['categories']:
-                        if cat not in db_dict[m_id]['categories']:
-                            db_dict[m_id]['categories'].append(cat)
-                            
-                    existing_urls = [p['player_url'] for p in db_dict[m_id]['players']]
-                    added = False
-                    for p in players:
-                        if p['player_url'] not in existing_urls: 
-                            db_dict[m_id]['players'].append(p)
-                            added = True
-                    if added:
-                        report_log['merged_count'] += 1
-                        if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
-                else:
-                    tmdb_data['players'] = players
-                    tmdb_data['_source_site'] = "rtally"
-                    db_dict[m_id] = tmdb_data
-                    report_log['added_count'] += 1
-                    if tmdb_data['title'] not in report_log['content_names']: report_log['content_names'].append(tmdb_data['title'])
+                merge_player_links(db_dict, tmdb_data['id'], players, tmdb_data, "rtally")
             except: pass
         report_log['site_status']['Rtally'] = "✅"
     except Exception as e: print(f"Rtally Error: {e}")
 
 # ================= Main Execution =================
 if __name__ == '__main__':
-    print("🚀 Initiating Full Daily Scanner Engine...")
+    print("🚀 Initiating Full Daily Scanner Engine with Smart Merging...")
     existing_db = load_db()
     db_dict = {item['id']: item for item in existing_db}
     
