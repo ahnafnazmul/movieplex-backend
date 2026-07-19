@@ -4759,7 +4759,9 @@
         "runtime": "N/A min",
         "categories": [
             "Action & Adventure",
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -4937,7 +4939,9 @@
         "runtime": "50 min",
         "categories": [
             "Soap",
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -31990,5 +31994,225 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_301507",
+        "type": "series",
+        "title": "Heated Rivalry",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=ADi1iextoUM",
+        "poster": "https://image.tmdb.org/t/p/w500/3YCKbtAkYWCMDLHvkUjGhG7eWoS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iS76c29IrS3lKI2X5CFySguiAWU.jpg",
+        "rating": 8.8,
+        "release_date": "2025-11-28",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Hudson Williams",
+                "image": "https://image.tmdb.org/t/p/w185/qahFJFc6RFExOlf0lDeHau0iEol.jpg"
+            },
+            {
+                "name": "Connor Storrie",
+                "image": "https://image.tmdb.org/t/p/w185/ApBEzGlTz7sM839eT4vMQV3xmdg.jpg"
+            },
+            {
+                "name": "François Arnaud",
+                "image": "https://image.tmdb.org/t/p/w185/2aPDGUGRcrBYmrQLc8AklEqp7xI.jpg"
+            }
+        ],
+        "details": "Two of the biggest stars in Major League Hockey are bound by ambition, rivalry, and a magnetic pull neither of them fully understands. What begins as a secret fling between two fresh faced rookies evolves into a years-long journey of love, denial, and self-discovery. Over the next eight years, as they chase glory on the ice, they struggle to navigate their feelings for each other. Torn between the sport they live for and the love they can’t ignore, they must decide if there’s room in their fiercely competitive world for something as fragile – and powerful – as real love.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/6b0f1192448b0812fbf60b9980e75e2b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/6b0f1192448b0812fbf60b9980e75e2b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_303143",
+        "type": "series",
+        "title": "My Royal Nemesis",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=efj9rk9mCeo",
+        "poster": "https://image.tmdb.org/t/p/w500/rYLQbyIvbEd0lF84iXrx7CbPcBB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/p1ntnKJwn1URGv1xpU6NN33Y11O.jpg",
+        "rating": 8.8,
+        "release_date": "2026-05-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Lim Ji-yeon",
+                "image": "https://image.tmdb.org/t/p/w185/gAwwi5fBxCKLnrP9bjOQFtMUs6j.jpg"
+            },
+            {
+                "name": "Heo Nam-jun",
+                "image": "https://image.tmdb.org/t/p/w185/17NPgo2g3X6kjLaz9nx2qKFH9.jpg"
+            },
+            {
+                "name": "Jang Seung-jo",
+                "image": "https://image.tmdb.org/t/p/w185/3HWGHh4Zazo4rEjQNz1B7KEJ9Cd.jpg"
+            },
+            {
+                "name": "Kim Min-seok",
+                "image": "https://image.tmdb.org/t/p/w185/oZNJCOMEqFPzN4xSSGulE62gUMZ.jpg"
+            },
+            {
+                "name": "Lee Se-hee",
+                "image": "https://image.tmdb.org/t/p/w185/hM71J3P6KzcXBa1KXTTLLgxfpEM.jpg"
+            }
+        ],
+        "details": "A Joseon-era villain doomed to die opens her eyes in modern-day Seoul — where a ruthless chaebol heir may be her last chance to rewrite her fate.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/d77d4007b8d1907007354aa3a742bee2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/d77d4007b8d1907007354aa3a742bee2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1367642",
+        "type": "movie",
+        "title": "Reminders of Him",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=i36Zw32GfRQ",
+        "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5rxEnsgriw8z065q51lrvPKYmCL.jpg",
+        "rating": 7.8,
+        "release_date": "2026-03-11",
+        "runtime": "114 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Maika Monroe",
+                "image": "https://image.tmdb.org/t/p/w185/ir4tct8MyI8cCzufEiLZ3McuUQN.jpg"
+            },
+            {
+                "name": "Tyriq Withers",
+                "image": "https://image.tmdb.org/t/p/w185/ilDZHfT8mlXWlvLCaWDhL0OlLSh.jpg"
+            },
+            {
+                "name": "Rudy Pankow",
+                "image": "https://image.tmdb.org/t/p/w185/204FlvdJL9mLRkJP1tuJpg01Ml8.jpg"
+            },
+            {
+                "name": "Bradley Whitford",
+                "image": "https://image.tmdb.org/t/p/w185/oeDv2qZWTxELLaNtOIoeG72leNY.jpg"
+            },
+            {
+                "name": "Lauren Graham",
+                "image": "https://image.tmdb.org/t/p/w185/3leQVZnthAZwngH7HAD6T7qfsVu.jpg"
+            }
+        ],
+        "details": "When Diem's custodial grandparents adamantly refuse Kenna's attempts to see her daughter, Kenna discovers unexpected compassion, and then something truer and deeper, with former NFL player and local bar owner Ledger. As their secret romance develops, so do the dangers for both of them, leading Kenna toward heartbreak and, ultimately, the hope for a second chance.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/27/6d84ab25cfc2c3f2b2963f42a1a6c411-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/27/6d84ab25cfc2c3f2b2963f42a1a6c411-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_247718",
+        "type": "series",
+        "title": "MobLand",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=qKGgw7Ob5f4",
+        "poster": "https://image.tmdb.org/t/p/w500/abeH7n5pcuQcwYcTxG6DTZvXLP1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
+        "rating": 8.4,
+        "release_date": "2025-03-30",
+        "runtime": "52 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Tom Hardy",
+                "image": "https://image.tmdb.org/t/p/w185/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+            },
+            {
+                "name": "Pierce Brosnan",
+                "image": "https://image.tmdb.org/t/p/w185/dzXVwwJLPwiZeXOnf7YxorqVEEM.jpg"
+            },
+            {
+                "name": "Paddy Considine",
+                "image": "https://image.tmdb.org/t/p/w185/uIKOm4w2wtUegxratSHj2KPFF7i.jpg"
+            },
+            {
+                "name": "Joanne Froggatt",
+                "image": "https://image.tmdb.org/t/p/w185/eL6B9OTjeRALm5uUfMmy74Wu9Sr.jpg"
+            },
+            {
+                "name": "Lara Pulver",
+                "image": "https://image.tmdb.org/t/p/w185/uacMDTL4YnuJD6frGF35CHLFh43.jpg"
+            }
+        ],
+        "details": "Two mob families clash in a war that threatens to topple empires and lives.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/09/49eaca39ba4c815e58ffef815e211767-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/09/49eaca39ba4c815e58ffef815e211767-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
