@@ -15,13 +15,16 @@
     <link rel="manifest" href="manifest.json">
     
     <!-- Explicit Icon Mappings for Apple, Android & Mobile Bookmarks -->
-    <link class="apple-touch-icon" href="logo.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="logo.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="logo.png">
     <link rel="shortcut icon" type="image/png" href="logo.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- 🎬 PREMIUM OTT PLAYER MODULE INTEGRATION LAYER -->
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
     <style>
         body { background-color: #0c0f1d; color: #ffffff; font-family: 'Inter', sans-serif; overflow-x: hidden; -webkit-tap-highlight-color: transparent; }
         .scroller { scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
@@ -78,6 +81,12 @@
         /* 📱 RESPONSIVE MEDIA FOR METAPANE (SHOW ON DESKTOP MODE & LARGE SCREENS) */
         #wheel-meta-pane { display: none; }
         @media (min-width: 1024px) { #wheel-meta-pane { display: block; } }
+
+        /* Plyr OTT Native UI Custom Override Styling */
+        .plyr--video { border-radius: 16px; background: #000; }
+        .plyr__control--overlaid { background: rgba(234, 179, 8, 0.9) !important; color: #000 !important; }
+        .plyr--video .plyr__control:hover { background: #eab308 !important; color: #000 !important; }
+        .plyr__controls { background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)) !important; }
     </style>
     
     <script>
@@ -290,8 +299,18 @@
             <!-- 🚫 ANTI-REDIRECT INVISIBLE TOUCH SHIELD LAYER -->
             <div id="iframe-touch-gate" class="absolute inset-0 z-20 hidden" style="pointer-events: auto;"></div>
             
-            <!-- 🛡️ AD-SHIELD ULTIMATE: SANDBOX COMPLETELY REMOVED TO BYPASS ERRORS -->
-            <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- ⚡ MOVIEPLEX HYBRID PLAYER CORE ENGINE ENGINE -->
+            <!-- Native Plyr Video Container (Priority 1) -->
+            <div id="native-player-container" class="absolute inset-0 w-full h-full z-10 hidden">
+                <video id="details-native-video" class="w-full h-full" controls crossorigin playsinline></video>
+                <!-- 🔎 DEBUG SOURCE LIGHT MARK PIL -->
+                <div id="debug-source-tag" class="absolute top-3 left-3 bg-black/80 text-[8px] tracking-widest uppercase font-black px-2 py-1 rounded border border-white/15 text-yellow-500 z-40 pointer-events-none select-none opacity-40 hover:opacity-100 transition">
+                    SOURCE: UNKNOWN
+                </div>
+            </div>
+
+            <!-- Fallback Core Iframe (Priority 2 & CAM/Fallback Links) -->
+            <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10 hidden" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
 
         <div class="w-full bg-gradient-to-r from-yellow-500/10 via-amber-500/5 to-transparent p-3 rounded-xl border border-yellow-500/20 shadow-[0_0_15px_rgba(234,179,8,0.05)] flex flex-col sm:flex-row items-center justify-between gap-3">
@@ -376,8 +395,12 @@
     <script>
         const API_URL = 'movie_master_db.json';
         const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6';
+        // গিটহাব রেপোর প্লাগইন জেসন সোর্স ট্র্যাক ম্যাপিং লিংক
+        const GITHUB_EXT_JSON = "https://raw.githubusercontent.com/ahnafnazmul/movieplexbd-extensions/main/plugins.json";
+        
         let globalMoviesData = [];
         let streamguideData = [];
+        let githubPluginDomains = {}; // গিটহাব প্লাগইন থেকে লোড হওয়া কনফিগ
         let sortedRowsData = { bangla: [], newRelease: [], recentRelease: [], topRated: [], trending: [], allContents: [] };
         let allGenresCollected = new Set();
         let wheelIndex = 0;
@@ -385,6 +408,11 @@
         let activePlayerSrc = "";
         let currentViewingMovieObj = null;
         let tmdbCastsBackup = [];
+        
+        // গ্লোবাল ওটিটি প্লেয়ার ভ্যারিয়েবল ট্র্যাকিং
+        let plyrInstance = null;
+        let currentSortedServers = []; // অটো-র‍্যাংকড বা সর্টেড সার্ভার এরে
+        let selectedServerObj = null;  // বর্তমানে একটিভ থাকা নির্দিষ্ট সার্ভার ডাটা অবজেক্ট
 
         function initTrafficCounters() {
             const activePool = Math.floor(Math.random() * (240 - 70 + 1)) + 70;
@@ -470,6 +498,12 @@
         async function initMovieplex() {
             initTrafficCounters();
             try {
+                // গিটহাব প্লাগইন ডোমেন ফাইল ব্যাকগ্রাউন্ডে প্রি-ফেচ করা
+                try {
+                    const extRes = await fetch(GITHUB_EXT_JSON);
+                    if(extRes.ok) githubPluginDomains = await extRes.json();
+                } catch(err) { console.error("Plugin domain sync tracking bypassed."); }
+
                 const response = await fetch(API_URL);
                 globalMoviesData = await response.json();
                 
@@ -724,13 +758,22 @@
             document.getElementById('home-view-container').classList.replace('hidden', 'block');
             document.getElementById('search-bar').value = '';
             
-            // টাচ গেট রিসেট ও হাইড করা
             const gate = document.getElementById('iframe-touch-gate');
             if(gate) gate.classList.add('hidden');
+            
+            // প্লেয়ার রিসেট মেকানিজম
+            if(plyrInstance) {
+                plyrInstance.destroy();
+                plyrInstance = null;
+            }
+            document.getElementById('details-video-iframe').src = "";
+            document.getElementById('details-video-iframe').classList.add('hidden');
+            document.getElementById('native-player-container').classList.add('hidden');
             
             processAlgorithmicRows();
         }
 
+        // 🧠 AUTOMATED MULTI-SOURCE RANKING & RESOLVER ENGINE (PLUGIN vs JSON vs FALLBACK)
         async function openDetailsPage(movie) {
             currentViewingMovieObj = movie;
             tmdbCastsBackup = [];
@@ -745,9 +788,13 @@
             document.getElementById('details-views').innerText = `Views: ${movie.views.toLocaleString()}`;
             document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis parsing verified.";
             document.getElementById('details-meta-audio').innerText = movie.detectedAudio;
-            document.getElementById('details-video-iframe').src = "";
             
-            // টাচ গেট রিসেট করা
+            // প্লেয়ার লেয়ার রি-ইনিশিয়ালাইজ
+            document.getElementById('details-video-iframe').src = "";
+            document.getElementById('details-video-iframe').classList.add('hidden');
+            document.getElementById('native-player-container').classList.add('hidden');
+            if(plyrInstance) { plyrInstance.destroy(); plyrInstance = null; }
+            
             const gate = document.getElementById('iframe-touch-gate');
             if(gate) gate.classList.add('hidden');
             
@@ -755,70 +802,172 @@
             serverContainer.innerHTML = '';
             document.getElementById('player-shield').classList.remove('hidden');
 
-            if (movie.players && movie.players.length > 0) {
-                activePlayerSrc = movie.players[0].player_url;
-                movie.players.forEach((player, index) => {
-                    const btn = document.createElement('button');
-                    btn.className = `px-4 py-1.5 rounded-lg text-[11px] font-black uppercase transition ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800'}`;
-                    btn.innerText = `Server ${index + 1}`;
-                    btn.onclick = function() {
-                        Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase');
-                        btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
-                        activePlayerSrc = player.player_url;
-                        document.getElementById('player-shield').classList.remove('hidden');
-                        
-                        const innerGate = document.getElementById('iframe-touch-gate');
-                        if(innerGate) innerGate.classList.add('hidden');
-                        
-                        document.getElementById('details-video-iframe').src = "";
-                        cacheUserPlaybackPreferences(movie);
-                    };
-                    serverContainer.appendChild(btn);
+            currentSortedServers = [];
+
+            // ১. গিটহাব প্লাগইন সোর্স প্রিপারেশন (Priority 1)
+            // মুভিপ্লেক্সবিডি প্লাগইন ডাইনামিক রিমোট কি-ম্যাপিং লজিক
+            if (githubPluginDomains && Object.keys(githubPluginDomains).length > 0) {
+                Object.keys(githubPluginDomains).forEach((key, kIdx) => {
+                    const targetBase = githubPluginDomains[key];
+                    // প্লাগইন এক্সট্র্যাক্টরের জন্য এপিআই বা ডিরেক্ট স্ট্রিম নোড পুশ
+                    currentSortedServers.push({
+                        label: `Server Premium ${kIdx + 1}`,
+                        tag: "PLUGIN",
+                        type: "direct",
+                        url: `${targetBase}/hls/stream_${movie.id}.m3u8`, // প্লাগইন স্ট্রিম ফর্ম্যাট
+                        rank: 1
+                    });
                 });
             }
+
+            // ২. লোকাল ডাটাবেজের প্লেয়ার ইউআরএল অ্যানালাইসিস (Priority 2 & 3)
+            if (movie.players && movie.players.length > 0) {
+                movie.players.forEach((player, index) => {
+                    const pUrl = player.player_url;
+                    const isGoodJson = pUrl.includes('rpmvid') || pUrl.includes('xcloud') || pUrl.includes('plextream');
+                    
+                    currentSortedServers.push({
+                        label: `Server HD ${index + 1}`,
+                        tag: isGoodJson ? "JSON_GOOD" : "FALLBACK",
+                        type: (pUrl.includes('.m3u8') || pUrl.includes('.mp4')) ? "direct" : "iframe",
+                        url: pUrl,
+                        rank: isGoodJson ? 2 : 3
+                    });
+                });
+            }
+
+            // আলটিমেট র‍্যাংকিং সর্টিং মেকানিজম (কম র‍্যাংক আগে বসবে)
+            currentSortedServers.sort((a, b) => a.rank - b.rank);
+
+            // ডিফোল্ট চুজেন সোর্স (সবার উপরের র‍্যাংকটি অটো-লোডের জন্য সিলেক্টেড)
+            if(currentSortedServers.length > 0) {
+                selectedServerObj = currentSortedServers[0];
+                activePlayerSrc = selectedServerObj.url;
+            }
+
+            // প্লেয়ারের নিচে সার্ভার বাটন জেনারেট করা (ডিজাইন অপরিবর্তিত)
+            currentSortedServers.forEach((server, index) => {
+                const btn = document.createElement('button');
+                btn.className = `px-4 py-1.5 rounded-lg text-[11px] font-black uppercase transition ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800'}`;
+                // বাটনের নামের পাশে সিক্রেট ডেবুট ট্যাগ রিডিং
+                btn.innerText = `${server.label} [${server.tag}]`;
+                
+                btn.onclick = function() {
+                    Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase');
+                    btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
+                    
+                    selectedServerObj = server;
+                    activePlayerSrc = server.url;
+                    
+                    document.getElementById('player-shield').classList.remove('hidden');
+                    document.getElementById('details-video-iframe').classList.add('hidden');
+                    document.getElementById('native-player-container').classList.add('hidden');
+                    document.getElementById('details-video-iframe').src = "";
+                    if(plyrInstance) { plyrInstance.destroy(); plyrInstance = null; }
+                    
+                    const innerGate = document.getElementById('iframe-touch-gate');
+                    if(innerGate) innerGate.classList.add('hidden');
+                    
+                    cacheUserPlaybackPreferences(movie);
+                };
+                serverContainer.appendChild(btn);
+            });
+
             fetchDeepTMDBData(movie.id, movie.categories, movie);
         }
 
-        // 🌟 CLONE INTERCEPTION & AD-DESTRUCTOR ENGINE
-        function activatePlayerFrame(event) {
-            // ইউজারের টাচ ইভেন্টকে মাঝপথে আটকে দেওয়া, যাতে ব্রাউজার লেভেলে কোনো পপ-আপ স্ক্রিপ্ট রান করার সুযোগ না পায়
+        // 🌟 CLONE INTERCEPTION & HIGH-PERFORMANCE NATIVE PLAYER EXECUTER
+        async function activatePlayerFrame(event) {
             if (event) {
                 event.preventDefault();
                 event.stopPropagation();
             }
             
             document.getElementById('player-shield').classList.add('hidden');
-            
-            // টাচ গেট সচল করা যা পরবর্তী সব অবৈধ ক্লিক লক করবে
             const gate = document.getElementById('iframe-touch-gate');
             if(gate) gate.classList.remove('hidden');
             
             const iframe = document.getElementById('details-video-iframe');
+            const nativeContainer = document.getElementById('native-player-container');
+            const videoElement = document.getElementById('details-native-video');
+            const debugTag = document.getElementById('debug-source-tag');
+            
             let finalSrc = activePlayerSrc;
             
-            // অটো-প্লে প্যারামিটার ইন্টিগ্রেশন
-            if (!finalSrc.includes('autoplay=')) {
-                finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
+            // স্ক্রিন ওয়াটারমার্কে ডেবুট ট্যাগ বসানো
+            if(selectedServerObj) {
+                debugTag.innerText = `SOURCE: ${selectedServerObj.tag}`;
             }
-            
-            // গ্লোবাল উইন্ডো ওপেন ইঞ্জিন কঠোরভাবে ডিজেবল
-            window.open = function() { return null; };
-            
-            iframe.src = finalSrc;
-            
-            iframe.onload = function() {
-                try {
-                    if(iframe.contentWindow) {
-                        iframe.contentWindow.open = function() { return null; };
-                    }
-                    // আইফ্রেমের সেন্টারে ক্লিক ইভেন্ট পুশ লক করা (ফোর্স অটো-প্লে এসিস্ট)
-                    iframe.focus();
-                } catch(e) {
-                    setTimeout(() => { iframe.focus(); }, 200);
-                }
-            };
 
-            // মোবাইল ফোকাস লকিং লেয়ার
+            window.open = function() { return null; };
+
+            // হাইব্রিড মেকানিজম ফায়ার: ডিরেক্ট সোর্স নাকি আইফ্রেম চেক
+            if(selectedServerObj && selectedServerObj.type === "direct") {
+                // প্লাগইন বা জেসনের ডিরেক্ট ফাইল লোড লজিক
+                iframe.classList.add('hidden');
+                nativeContainer.classList.remove('hidden');
+                
+                if(plyrInstance) { plyrInstance.destroy(); plyrInstance = null; }
+                
+                // গিটহাব প্লাগইন সোর্সের ক্ষেত্রে লাইভ লিংক এপিআই ভ্যালিডেশন চেক (Graceful Fallback)
+                if(selectedServerObj.tag === "PLUGIN") {
+                    try {
+                        const pingCheck = await fetch(finalSrc, { method: 'HEAD' });
+                        if(!pingCheck.ok) throw new Error("Plugin source link expired or down.");
+                    } catch(err) {
+                        console.warn("⚠️ PLUGIN URL check failed! Auto-switching to Fallback Iframe.");
+                        // অটোমেটিক আইফ্রেম সার্ভার খুঁজে বের করে লোড করা
+                        const fallbackServer = currentSortedServers.find(s => s.tag === "FALLBACK" || s.tag === "JSON_GOOD");
+                        if(fallbackServer) {
+                            selectedServerObj = fallbackServer;
+                            activePlayerSrc = fallbackServer.url;
+                            debugTag.innerText = `SOURCE: ${fallbackServer.tag} (FALLBACK Switched)`;
+                            finalSrc = fallbackServer.url;
+                        }
+                    }
+                }
+
+                // যদি প্লাগইন ফেল মারার পর সুইচড সার্ভারটি আইফ্রেম টাইপ হয়
+                if(selectedServerObj.type === "iframe") {
+                    nativeContainer.classList.add('hidden');
+                    iframe.classList.remove('hidden');
+                    if (!finalSrc.includes('autoplay=')) finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
+                    iframe.src = finalSrc;
+                } else {
+                    // সফল ডিরেক্ট স্ট্রিমিং সোর্স লোড (.m3u8 / .mp4)
+                    if (Hls.isSupported() && finalSrc.includes('m3u8')) {
+                        const hls = new Hls({ maxMaxBufferLength: 30, enableWorker: true });
+                        hls.loadSource(finalSrc);
+                        hls.attachMedia(videoElement);
+                    } else {
+                        videoElement.src = finalSrc;
+                    }
+                    
+                    plyrInstance = new Plyr(videoElement, {
+                        controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'fullscreen'],
+                        tooltips: { controls: true, seek: true }
+                    });
+                    plyrInstance.play();
+                }
+
+            } else {
+                // Priority 3: ট্র্যাডিশনাল থার্ড-পার্টি রেগুলার আইফ্রেম লোড
+                nativeContainer.classList.add('hidden');
+                iframe.classList.remove('hidden');
+                
+                if (!finalSrc.includes('autoplay=')) {
+                    finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
+                }
+                iframe.src = finalSrc;
+                
+                iframe.onload = function() {
+                    try {
+                        if(iframe.contentWindow) iframe.contentWindow.open = function() { return null; };
+                        iframe.focus();
+                    } catch(e) { setTimeout(() => { iframe.focus(); }, 200); }
+                };
+            }
+
             window.addEventListener('blur', function() {
                 if (document.activeElement === iframe) {
                     setTimeout(() => { window.focus(); }, 100);
