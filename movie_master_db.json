@@ -4295,7 +4295,9 @@
         "runtime": "111 min",
         "categories": [
             "Action",
-            "Thriller"
+            "Thriller",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -4635,7 +4637,9 @@
         "categories": [
             "Crime",
             "Drama",
-            "Mystery"
+            "Mystery",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -4844,7 +4848,9 @@
         "categories": [
             "Sci-Fi & Fantasy",
             "Mystery",
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -31779,5 +31785,210 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_281231",
+        "type": "series",
+        "title": "The Epoch of Miyu",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/krmceRNN7beRCoYTVi8l86gF9vj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/prYJ8pqjylUAyY8PukxPp1WoMg5.jpg",
+        "rating": 9.0,
+        "release_date": "2026-04-13",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Wallace Chung Hon-Leung",
+                "image": "https://image.tmdb.org/t/p/w185/mDJQSyCQdPW2lJDbY46udu0161n.jpg"
+            },
+            {
+                "name": "Zhu Zhu",
+                "image": "https://image.tmdb.org/t/p/w185/rg8OPxvu2xc1Y6YA0paaOBrCX2z.jpg"
+            },
+            {
+                "name": "Li Meng",
+                "image": "https://image.tmdb.org/t/p/w185/uMOoic1tyHlzFFG4NdCsiDXZKE1.jpg"
+            },
+            {
+                "name": "Jing Chao",
+                "image": "https://image.tmdb.org/t/p/w185/6dsz8k3gcXPWRYBpszQyldmT8b.jpg"
+            },
+            {
+                "name": "Ren Bin",
+                "image": "https://image.tmdb.org/t/p/w185/1Xf1fCJmkd9leRlc7DCkyV7rjbI.jpg"
+            }
+        ],
+        "details": "Xu Miyu’s perfect marriage shatters on her 10th anniversary, prompting her to rediscover herself and choose divorce. Starting over as a hotel cleaner at Purong Hotel, she crosses paths with Ji Feng, the hotel’s new GM and her former acquaintance. As they face workplace challenges together, love blossoms, and they transform Purong Hotel into a rising city landmark.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/14/9ecdb5374771796f35ea31d710b11505-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/14/9ecdb5374771796f35ea31d710b11505-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_259837",
+        "type": "series",
+        "title": "The WONDERfools",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=rVoc4WQVMCc",
+        "poster": "https://image.tmdb.org/t/p/w500/jj7AYkz2OLRDL1wfJmjTXyWQ5I4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/810mXC0xkxXVtoKIPGGVgO9PuLh.jpg",
+        "rating": 8.9,
+        "release_date": "2026-05-15",
+        "runtime": "80 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Comedy",
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Park Eun-bin",
+                "image": "https://image.tmdb.org/t/p/w185/2PqeVq0KV1pEUgeeSquk2ljfMR0.jpg"
+            },
+            {
+                "name": "Cha Eun-woo",
+                "image": "https://image.tmdb.org/t/p/w185/kZUO2s2ZsBRYZ8acu0wMzlGHpRS.jpg"
+            },
+            {
+                "name": "Choi Dae-hoon",
+                "image": "https://image.tmdb.org/t/p/w185/lxNU9yOR8C9ovqilVMQrXStoc96.jpg"
+            },
+            {
+                "name": "Im Sung-jae",
+                "image": "https://image.tmdb.org/t/p/w185/ncRZs8msrPP3oS8KbZsvsXeq4VJ.jpg"
+            },
+            {
+                "name": "Kim Hae-sook",
+                "image": "https://image.tmdb.org/t/p/w185/dt5bmKeG7qbvDwHrxFZFxiGc9fZ.jpg"
+            }
+        ],
+        "details": "A goofy group of townies stumbles into superpowers and fights rising evil as doomsday panic grows in this wild, turn-of-the-century action comedy.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/13/c57ae8325cd8cacb795ecf4f220c3862-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/13/c57ae8325cd8cacb795ecf4f220c3862-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1398655",
+        "type": "movie",
+        "title": "Blue Film",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=oZI8G4lfbgc",
+        "poster": "https://image.tmdb.org/t/p/w500/7yqMtaRMPgntGcDtYySv7XfTsDB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/u1HfYLIzWZWpeTJENxWao69DUiz.jpg",
+        "rating": 7.5,
+        "release_date": "2026-05-08",
+        "runtime": "85 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Reed Birney",
+                "image": "https://image.tmdb.org/t/p/w185/dfLgNLUt6Xs2MJJTi6B1iWdXjU6.jpg"
+            },
+            {
+                "name": "Kieron Moore",
+                "image": "https://image.tmdb.org/t/p/w185/pp6CZg6lMz0T21lDoAxoKsEKsFl.jpg"
+            }
+        ],
+        "details": "Drawn by the promise of easy money and anonymous sex, queer camboy Aaron Eagle is shocked to discover a personal connection with the mysterious stranger who has paid for his company. Over the course of one night, the two men engage in a war of words and emotions as they wrestle with the impact of a tainted and shared past.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a5cf1ecad13c",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_382437",
+        "type": "movie",
+        "title": "Terror Birds",
+        "release_year": 2016,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=nJssSXuxFtw",
+        "poster": "https://image.tmdb.org/t/p/w500/k1PKCpRZRCy0ECWJjJEpR4joyXP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6s98I3dvhGUjlWJpCMqvzI6UfcM.jpg",
+        "rating": 4.6,
+        "release_date": "2016-03-08",
+        "runtime": "90 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Jessica Lee Keller",
+                "image": "https://image.tmdb.org/t/p/w185/yFaLkqqo8SqG68drWdcacodZVn4.jpg"
+            },
+            {
+                "name": "Lindsey Sporrer",
+                "image": "https://image.tmdb.org/t/p/w185/912aJtLfluefZvTI7JlGgNUuE1o.jpg"
+            },
+            {
+                "name": "Greg Evigan",
+                "image": "https://image.tmdb.org/t/p/w185/3ZldhsU7EkUJrpBVXmoykDzCbq3.jpg"
+            },
+            {
+                "name": "Leslie Easterbrook",
+                "image": "https://image.tmdb.org/t/p/w185/cgivmDAMFWTMGKGr12Z0HjEcBgN.jpg"
+            },
+            {
+                "name": "Dillon Cavitt",
+                "image": ""
+            }
+        ],
+        "details": "When Maddy Stern discovers her father has gone missing during a routine birdwatching excursion, she and her college pals trek out into the wilderness to find him, only to end up in a wealthy scientist's desolate ranch aviary, where they encounter a pair of giant, hungry terror birds believed to be extinct for centuries.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#hxw8x",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
