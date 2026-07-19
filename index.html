@@ -1,1133 +1,984 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Movieplex BD - Ultimate OTT Hub</title>
-    
-    <!-- 📱 PWA & APPLE MOBILE APP CAPABLE INTEGRATION LAYER WITH MANIFEST -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="MovieplexBD">
-    <meta name="theme-color" content="#0c0f1d">
-    
-    <!-- Link Manifest for Android Chrome PWA Engine -->
-    <link rel="manifest" href="manifest.json">
-    
-    <!-- Explicit Icon Mappings for Apple, Android & Mobile Bookmarks -->
-    <link rel="shortcut icon" type="image/png" href="logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Movieplex BD - Ultimate OTT Hub</title>
+    
+    <!-- 📱 PWA & APPLE MOBILE APP CAPABLE INTEGRATION LAYER WITH MANIFEST -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="MovieplexBD">
+    <meta name="theme-color" content="#0c0f1d">
+    
+    <!-- Link Manifest for Android Chrome PWA Engine -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Explicit Icon Mappings for Apple, Android & Mobile Bookmarks -->
+    <link class="apple-touch-icon" href="logo.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="logo.png">
+    <link rel="shortcut icon" type="image/png" href="logo.png">
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;700;800;900&display=swap" rel="stylesheet">
-    
-    <!-- 🎬 PREMIUM OTT PLAYER MODULE INTEGRATION LAYER -->
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #0c0f1d; color: #ffffff; font-family: 'Inter', sans-serif; overflow-x: hidden; -webkit-tap-highlight-color: transparent; }
+        .scroller { scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
+        .scroller::-webkit-scrollbar { height: 4px; }
+        .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
+        .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
+        
+        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - FIXED ORIGINAL SPEC FOR PC, MOBILE & TV */
+        .carousel-container-fixed { position: relative; width: 100%; height: 320px; overflow: visible; background-color: #060814; margin-top: 16px; }
+        @media (min-width: 768px) { .carousel-container-fixed { height: 440px; margin-top: 24px; } }
+        
+        .carousel-viewport { position: absolute; top: 0; left: 0; width: 100%; height: 100%; perspective: 1400px; overflow: visible; z-index: 10; }
+        .carousel-wheel-wrapper { position: relative; width: 100%; height: 100%; display: flex; justify-content: center; items: center; }
+        
+        .wheel-node { 
+            position: absolute; 
+            width: 140px; 
+            height: 210px; 
+            border-radius: 14px; 
+            overflow: hidden; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+            transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+            cursor: pointer;
+            border: 1px solid rgba(255,255,255,0.04);
+        }
+        @media (min-width: 768px) {
+            .wheel-node { width: 220px; height: 315px; border-radius: 20px; box-shadow: 0 30px 60px rgba(0,0,0,0.9); }
+        }
 
-    <style>
-        body { background-color: #0c0f1d; color: #ffffff; font-family: 'Inter', sans-serif; overflow-x: hidden; -webkit-tap-highlight-color: transparent; }
-        .scroller { scroll-behavior: smooth; -webkit-overflow-scrolling: touch; }
-        .scroller::-webkit-scrollbar { height: 4px; }
-        .scroller::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.01); }
-        .scroller::-webkit-scrollbar-thumb { background: rgba(234, 179, 8, 0.3); border-radius: 10px; }
-        
-        /* 🔄 3D BACKGROUND CAROUSEL ENGINE - FIXED ORIGINAL SPEC FOR PC, MOBILE & TV */
-        .carousel-container-fixed { position: relative; width: 100%; height: 320px; overflow: visible; background-color: #060814; margin-top: 16px; }
-        @media (min-width: 768px) { .carousel-container-fixed { height: 440px; margin-top: 24px; } }
-        
-        .carousel-viewport { position: absolute; top: 0; left: 0; width: 100%; height: 100%; perspective: 1400px; overflow: visible; z-index: 10; }
-        .carousel-wheel-wrapper { position: relative; width: 100%; height: 100%; display: flex; justify-content: center; items: center; }
-        
-        .wheel-node { 
-            position: absolute; 
-            width: 140px; 
-            height: 210px; 
-            border-radius: 14px; 
-            overflow: hidden; 
-            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
-            transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-            cursor: pointer;
-            border: 1px solid rgba(255,255,255,0.04);
-        }
-        @media (min-width: 768px) {
-            .wheel-node { width: 220px; height: 315px; border-radius: 20px; box-shadow: 0 30px 60px rgba(0,0,0,0.9); }
-        }
+        .wheel-node.active-center { transform: scale(1.1) translateX(20px) translateZ(60px); z-index: 40; opacity: 1; border-color: rgba(234,179,8,0.5); }
+        @media (min-width: 768px) { .wheel-node.active-center { transform: scale(1.15) translateX(100px) translateZ(120px); } }
+        
+        .wheel-node.side-L1 { transform: scale(0.85) translateX(-80px) translateZ(10px) rotateY(20deg); z-index: 30; opacity: 0.15; }
+        .wheel-node.side-R1 { transform: scale(0.85) translateX(140px) translateZ(10px) rotateY(-20deg); z-index: 30; opacity: 0.60; }
+        @media (min-width: 768px) {
+            .wheel-node.side-L1 { transform: scale(0.92) translateX(-100px) translateZ(20px) rotateY(25deg); opacity: 0.20; }
+            .wheel-node.side-R1 { transform: scale(0.92) translateX(320px) translateZ(20px) rotateY(-25deg); opacity: 0.65; }
+        }
+        
+        .wheel-node.side-L2 { transform: scale(0.7) translateX(-160px) rotateY(30deg); z-index: 20; opacity: 0.05; }
+        .wheel-node.side-R2 { transform: scale(0.7) translateX(230px) rotateY(-30deg); z-index: 20; opacity: 0.35; }
+        @media (min-width: 768px) {
+            .wheel-node.side-L2 { transform: scale(0.76) translateX(-280px) translateZ(-50px) rotateY(38deg); opacity: 0.08; }
+            .wheel-node.side-R2 { transform: scale(0.76) translateX(520px) translateZ(-50px) rotateY(-38deg); opacity: 0.40; }
+        }
+        
+        .wheel-node.invisible-loop { transform: scale(0.4) translateZ(-250px); z-index: 5; opacity: 0; pointer-events: none; }
+        .movie-card { transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border: 1px solid rgba(255,255,255,0.03); }
+        .movie-card:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
 
-        .wheel-node.active-center { transform: scale(1.1) translateX(20px) translateZ(60px); z-index: 40; opacity: 1; border-color: rgba(234,179,8,0.5); }
-        @media (min-width: 768px) { .wheel-node.active-center { transform: scale(1.15) translateX(100px) translateZ(120px); } }
-        
-        .wheel-node.side-L1 { transform: scale(0.85) translateX(-80px) translateZ(10px) rotateY(20deg); z-index: 30; opacity: 0.15; }
-        .wheel-node.side-R1 { transform: scale(0.85) translateX(140px) translateZ(10px) rotateY(-20deg); z-index: 30; opacity: 0.60; }
-        @media (min-width: 768px) {
-            .wheel-node.side-L1 { transform: scale(0.92) translateX(-100px) translateZ(20px) rotateY(25deg); opacity: 0.20; }
-            .wheel-node.side-R1 { transform: scale(0.92) translateX(320px) translateZ(20px) rotateY(-25deg); opacity: 0.65; }
-        }
-        
-        .wheel-node.side-L2 { transform: scale(0.7) translateX(-160px) rotateY(30deg); z-index: 20; opacity: 0.05; }
-        .wheel-node.side-R2 { transform: scale(0.7) translateX(230px) rotateY(-30deg); z-index: 20; opacity: 0.35; }
-        @media (min-width: 768px) {
-            .wheel-node.side-L2 { transform: scale(0.76) translateX(-280px) translateZ(-50px) rotateY(38deg); opacity: 0.08; }
-            .wheel-node.side-R2 { transform: scale(0.76) translateX(520px) translateZ(-50px) rotateY(-38deg); opacity: 0.40; }
-        }
-        
-        .wheel-node.invisible-loop { transform: scale(0.4) translateZ(-250px); z-index: 5; opacity: 0; pointer-events: none; }
-        .movie-card { transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border: 1px solid rgba(255,255,255,0.03); }
-        .movie-card:hover { transform: scale(1.04); box-shadow: 0 0 20px rgba(234, 179, 8, 0.3); border-color: rgba(234, 179, 8, 0.4); }
+        /* ⚠️ FIXED POPUP OVERLAY ELEMENT */
+        #legal-shield-modal { display: none; }
+        
+        /* 📱 RESPONSIVE MEDIA FOR METAPANE (SHOW ON DESKTOP MODE & LARGE SCREENS) */
+        #wheel-meta-pane { display: none; }
+        @media (min-width: 1024px) { #wheel-meta-pane { display: block; } }
+    </style>
+    
+    <script>
+        /* ⏳ INSTANTLOAD MATRIX: EXECUTED IMMEDIATELY AT TOP PARSING STAGE */
+        document.addEventListener("DOMContentLoaded", function() {
+            try {
+                if (sessionStorage.getItem('movieplex_shield_viewed') === 'true') {
+                    return;
+                }
+            } catch(e) {}
 
-        /* ⚠️ FIXED POPUP OVERLAY ELEMENT */
-        #legal-shield-modal { display: none; }
-        
-        /* 📱 RESPONSIVE MEDIA FOR METAPANE (SHOW ON DESKTOP MODE & LARGE SCREENS) */
-        #wheel-meta-pane { display: none; }
-        @media (min-width: 1024px) { #wheel-meta-pane { display: block; } }
-
-        /* Plyr OTT Native UI Custom Override Styling */
-        .plyr--video { border-radius: 16px; background: #000; }
-        .plyr__control--overlaid { background: rgba(234, 179, 8, 0.9) !important; color: #000 !important; }
-        .plyr--video .plyr__control:hover { background: #eab308 !important; color: #000 !important; }
-        .plyr__controls { background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8)) !important; }
-    </style>
-    
-    <script>
-        /* ⏳ INSTANTLOAD MATRIX: EXECUTED IMMEDIATELY AT TOP PARSING STAGE */
-        document.addEventListener("DOMContentLoaded", function() {
-            try {
-                if (sessionStorage.getItem('movieplex_shield_viewed') === 'true') {
-                    return;
-                }
-            } catch(e) {}
-
-            const modal = document.getElementById('legal-shield-modal');
-            if(modal) {
-                modal.style.display = 'flex';
-                let secondsLeft = 5;
-                const timerContainer = document.getElementById('shield-timer-text');
-                
-                const countdownInterval = setInterval(() => {
-                    secondsLeft--;
-                    if(secondsLeft > 0) {
-                        if(timerContainer) timerContainer.innerText = `Closing in ${secondsLeft}s`;
-                    } else {
-                        clearInterval(countdownInterval);
-                        try { sessionStorage.setItem('movieplex_shield_viewed', 'true'); } catch(e) {}
-                        modal.style.transition = 'opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
-                        modal.style.opacity = '0';
-                        setTimeout(() => modal.remove(), 300); 
-                    }
-                }, 1000);
-            }
-        });
-    </script>
+            const modal = document.getElementById('legal-shield-modal');
+            if(modal) {
+                modal.style.display = 'flex';
+                let secondsLeft = 5;
+                const timerContainer = document.getElementById('shield-timer-text');
+                
+                const countdownInterval = setInterval(() => {
+                    secondsLeft--;
+                    if(secondsLeft > 0) {
+                        if(timerContainer) timerContainer.innerText = `Closing in ${secondsLeft}s`;
+                    } else {
+                        clearInterval(countdownInterval);
+                        try { sessionStorage.setItem('movieplex_shield_viewed', 'true'); } catch(e) {}
+                        modal.style.transition = 'opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1)';
+                        modal.style.opacity = '0';
+                        setTimeout(() => modal.remove(), 300); 
+                    }
+                }, 1000);
+            }
+        });
+    </script>
 </head>
 <body class="relative min-h-screen pb-[120px] md:pb-[100px]">
 
-    <!-- ⚠️ PWA BRAND-SPECIFIED OBLIGATORY MARKETING & COPYRIGHT SHIELD MODAL PORTAL -->
-    <div id="legal-shield-modal" class="fixed inset-0 z-[100] bg-black/85 backdrop-blur-xl flex flex-col items-center justify-center p-4 select-none">
-        <div class="relative max-w-full sm:max-w-[420px] md:max-w-[480px] flex flex-col items-center">
-            
-            <!-- 📷 Image Injection Point Target - Explicitly Bound to desclaimer.png -->
-            <img src="desclaimer.png" alt="Disclaimer Notice" class="w-full h-auto object-contain max-h-[75vh] rounded-2xl shadow-[0_25px_60px_rgba(0,0,0,0.8)] border border-white/5">
-            
-            <!-- ⏱️ Closing timer pill below image layout -->
-            <div class="mt-4">
-                <span id="shield-timer-text" class="bg-slate-950 text-[#eab308] text-[10px] md:text-[11px] font-black px-6 py-2.5 rounded-full tracking-widest uppercase shadow-xl border border-white/10">
-                    Closing in 5s
-                </span>
-            </div>
-        </div>
-    </div>
-
-    <!-- 1. HEADER MENU BAR -->
-    <header class="w-full bg-[#060814]/95 backdrop-blur-md border-b border-white/5 sticky top-0 z-50 px-4 md:px-12 py-3 flex items-center justify-between shadow-xl">
-        <div class="flex items-center space-x-6 md:space-x-12">
-            <h1 class="text-lg md:text-xl font-black tracking-tighter text-yellow-500 uppercase cursor-pointer" onclick="backToHomeView()">MOVIEPLEX<span class="text-white font-light">BD</span></h1>
-        </div>
-        <div class="w-36 sm:w-60">
-            <input type="text" id="search-bar" placeholder="Search catalog..." class="w-full bg-slate-900 border border-slate-800 text-white rounded-full px-4 py-1.5 text-[11px] focus:outline-none focus:border-yellow-500 transition shadow-inner">
-        </div>
-    </header>
-
-    <!-- VIEW A: HOME VIEW -->
-    <div id="home-view-container" class="block">
-        <div class="carousel-container-fixed">
-            <!-- Metadata Area Layer -->
-            <div class="absolute top-12 left-6 md:left-12 max-w-sm md:max-w-md space-y-4 text-left z-30 pointer-events-auto" id="wheel-meta-pane">
-                <span class="bg-yellow-500 text-black text-[9px] font-black uppercase px-2.5 py-1 rounded tracking-widest shadow shadow-yellow-500/10">Spotlight</span>
-                <h2 id="wheel-title" class="text-2xl md:text-4xl font-black text-white tracking-tight leading-none drop-shadow-md">Loading...</h2>
-                <div class="flex items-center space-x-4 text-xs font-bold text-gray-400">
-                    <span id="wheel-year">--</span>
-                    <span id="wheel-rating" class="text-yellow-500">⭐ --</span>
-                    <span id="wheel-views">--</span>
-                </div>
-                <p id="wheel-desc" class="text-gray-400 text-xs md:text-sm leading-relaxed line-clamp-3 max-w-sm font-light"></p>
-                <button id="wheel-play-btn" class="bg-yellow-500 hover:bg-yellow-600 text-black font-black px-8 py-2.5 rounded-full text-xs tracking-wider uppercase transition transform hover:scale-105 shadow-xl">
-                    ▶ Watch Now
-                </button>
-            </div>
-            <div class="carousel-viewport">
-                <div class="carousel-wheel-wrapper" id="carousel-wheel-core"></div>
-            </div>
-            <div class="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-[#0c0f1d] to-transparent pointer-events-none z-30"></div>
-        </div>
-
-        <!-- ⚡ DYNAMIC GRID LAYOUT - ADJUSTED FOR PRECISE ONE-LINE BALANCED GAP BELOW THE 3D POSTER EDFS -->
-        <div class="pl-4 md:pl-12 space-y-7 -mt-[50px] md:-mt-[64px] relative z-40 bg-[#0c0f1d] pt-2 pb-4">
-            
-            <!-- Row 1: Bangla -->
-            <div class="space-y-2.5" id="section-bangla">
-                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
-                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-red-600 mr-2 rounded"></span>🇧🇩 Bangla</h3>
-                    <button onclick="viewAllAlgorithmic('bangla')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
-                </div>
-                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-bangla"></div>
-            </div>
-
-            <!-- Row 2: New Release -->
-            <div class="space-y-2.5" id="section-new-release">
-                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
-                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-yellow-500 mr-2 rounded"></span>✨ New Release</h3>
-                    <button onclick="viewAllAlgorithmic('new-release')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
-                </div>
-                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-new-release"></div>
-            </div>
-
-            <!-- Row 3: Recent Release -->
-            <div class="space-y-2.5" id="section-recent-release">
-                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
-                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-blue-500 mr-2 rounded"></span>🎬 Recent Release</h3>
-                    <button onclick="viewAllAlgorithmic('recent-release')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
-                </div>
-                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-recent-release"></div>
-            </div>
-
-            <!-- Row 4: Trending Now -->
-            <div class="space-y-2.5" id="section-trending">
-                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
-                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-orange-500 mr-2 rounded"></span>🔥 Trending Now</h3>
-                    <button onclick="viewAllAlgorithmic('trending')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
-                </div>
-                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-trending"></div>
-            </div>
-
-            <!-- Row 5: Top Rated -->
-            <div class="space-y-2.5" id="section-top-rated">
-                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
-                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-green-500 mr-2 rounded"></span>🏆 Top Rated (60 Days)</h3>
-                    <button onclick="viewAllAlgorithmic('top-rated')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
-                </div>
-                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-top-rated"></div>
-            </div>
-
-            <!-- Row 6: All Contents -->
-            <div class="space-y-2.5" id="section-all-contents">
-                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
-                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-purple-500 mr-2 rounded"></span>🌐 All Contents</h3>
-                    <button onclick="openAdvancedExplorerPage()" class="text-[10px] font-bold text-yellow-500 hover:text-white transition">Advanced Filter ›</button>
-                </div>
-                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-all-contents"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- VIEW B: ADVANCED EXPLORER HUB -->
-    <div id="explorer-view-container" class="hidden min-h-screen bg-[#0c0f1d] px-4 md:px-12 py-6 space-y-6">
-        <div class="flex justify-between items-center border-b border-white/10 pb-3">
-            <h3 id="see-more-title" class="text-lg md:text-xl font-black text-yellow-500">Advanced Explorer Hub</h3>
-            <button onclick="backToHomeView()" class="text-xs font-bold bg-slate-900 border border-slate-800 px-4 py-2 rounded-full hover:bg-slate-800 transition">✕ Back to Home</button>
-        </div>
-
-        <div id="advanced-filter-panel" class="bg-slate-900/60 p-4 rounded-2xl border border-white/5 grid grid-cols-2 md:grid-cols-5 gap-3 text-xs">
-            <div>
-                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Genre</label>
-                <select id="filter-genre" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()"></select>
-            </div>
-            <div>
-                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Audio Track</label>
-                <select id="filter-lang" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
-                    <option value="all">All Tracks</option>
-                    <option value="bangla">Bangla Track</option>
-                    <option value="multi-audio">Multi Audio Track</option>
-                    <option value="hindi">Hindi Track</option>
-                    <option value="english">English Track</option>
-                </select>
-            </div>
-            <div>
-                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Quality</label>
-                <select id="filter-quality" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
-                    <option value="all">All Qualities</option>
-                    <option value="web">WEB-DL / WEBRip</option>
-                    <option value="bluray">BluRay / HDRip</option>
-                    <option value="predvd">PreDVD / HDTC</option>
-                </select>
-            </div>
-            <div>
-                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Min Rating</label>
-                <select id="filter-rating" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
-                    <option value="0">All Ratings</option>
-                    <option value="8">⭐ 8.0+ Top Choice</option>
-                    <option value="7">⭐ 7.0+ Recommended</option>
-                    <option value="5">⭐ 5.0+ Standard</option>
-                </select>
-            </div>
-            <div class="col-span-2 md:col-span-1">
-                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Sort Catalog By</label>
-                <select id="filter-sort" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
-                    <option value="latest">Latest Release</option>
-                    <option value="views">Most Viewed</option>
-                    <option value="rating">Top Rated</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 py-2" id="see-more-grid"></div>
-    </div>
-
-    <!-- VIEW C: DETAILS VIEW -->
-    <div id="details-view-container" class="hidden min-h-screen bg-[#0c0f1d] px-4 md:px-16 py-6 space-y-6 z-50 relative">
-        <button onclick="backToHomeView()" class="bg-slate-900 hover:bg-slate-800 text-white border border-slate-800 px-4 py-1.5 rounded-full text-xs font-bold transition flex items-center shadow-lg">
-            <span>‹ Back</span>
-        </button>
-
-        <div class="w-full relative pt-[56.25%] md:pt-[45%] bg-black rounded-2xl overflow-hidden border border-white/5 group shadow-2xl">
-            <!-- 🛡️ CLICK EVENT INTERCEPTOR OVERLAY SHIELD -->
-            <div id="player-shield" class="absolute inset-0 bg-black/95 backdrop-blur-sm z-30 flex flex-col justify-center items-center space-y-3 cursor-pointer p-4 text-center" onclick="activatePlayerFrame(event)">
-                <div class="w-14 h-14 md:w-16 md:h-16 bg-yellow-500 text-black rounded-full flex items-center justify-center font-black text-xl shadow-[0_0_30px_rgba(234,179,8,0.4)] transition transform group-hover:scale-110">▶</div>
-                <span class="text-xs font-black tracking-widest text-yellow-500 uppercase flex items-center space-x-1"><span>Play Now</span><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping ml-1.5"></span></span>
-            </div>
-            
-            <!-- 🚫 ANTI-REDIRECT INVISIBLE TOUCH SHIELD LAYER -->
-            <div id="iframe-touch-gate" class="absolute inset-0 z-20 hidden" style="pointer-events: auto;"></div>
-            
-            <!-- ⚡ MOVIEPLEX HYBRID PLAYER CORE ENGINE ENGINE -->
-            <!-- Native Plyr Video Container (Priority 1) -->
-            <div id="native-player-container" class="absolute inset-0 w-full h-full z-10 hidden">
-                <video id="details-native-video" class="w-full h-full" controls crossorigin playsinline></video>
-                <!-- 🔎 DEBUG SOURCE LIGHT MARK PIL -->
-                <div id="debug-source-tag" class="absolute top-3 left-3 bg-black/80 text-[8px] tracking-widest uppercase font-black px-2 py-1 rounded border border-white/15 text-yellow-500 z-40 pointer-events-none select-none opacity-40 hover:opacity-100 transition">
-                    SOURCE: UNKNOWN
-                </div>
-            </div>
-
-            <!-- Fallback Core Iframe (Priority 2 & CAM/Fallback Links) -->
-            <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10 hidden" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-
-        <div class="w-full bg-gradient-to-r from-yellow-500/10 via-amber-500/5 to-transparent p-3 rounded-xl border border-yellow-500/20 shadow-[0_0_15px_rgba(234,179,8,0.05)] flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div class="flex flex-wrap items-center gap-2" id="details-server-container"></div>
-            <div class="flex items-center space-x-2 bg-black/40 px-4 py-1.5 rounded-full border border-yellow-500/30 shadow-md">
-                <span class="w-2 h-2 rounded-full bg-yellow-500 animate-ping"></span>
-                <span class="text-[10px] font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-200 uppercase">Powered by @Nazmulsblog</span>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start pt-2">
-            <div class="lg:col-span-2 space-y-5">
-                <div class="space-y-2">
-                    <h2 id="details-title" class="text-2xl md:text-4xl font-black text-white tracking-wide">Movie Title</h2>
-                    <div class="flex flex-wrap gap-2.5 items-center text-xs font-bold text-gray-400">
-                        <span id="details-age-rating" class="border border-gray-600 px-2 py-0.5 rounded text-[9px] text-white">PG-13</span>
-                        <span id="details-year">--</span>
-                        <span id="details-rating" class="bg-yellow-500 text-black px-2 rounded font-black shadow">⭐ --</span>
-                        <span id="details-views" class="text-white bg-slate-900 border border-slate-800 px-3 py-0.5 rounded-full text-[11px]">--</span>
-                    </div>
-                </div>
-                <div class="space-y-1.5 border-t border-white/5 pt-4">
-                    <span class="text-[10px] text-gray-500 font-black uppercase tracking-wider block">Synopsis:</span>
-                    <p id="details-desc" class="text-gray-300 text-xs md:text-sm leading-relaxed font-light"></p>
-                </div>
-                <div class="space-y-3 border-t border-white/5 pt-4">
-                    <span class="text-[10px] text-gray-500 font-black uppercase tracking-wider block">Top Cast Crew:</span>
-                    <div class="grid grid-cols-3 md:grid-cols-6 gap-2" id="cast-cards-container"></div>
-                </div>
-            </div>
-            
-            <div class="bg-slate-900/40 p-5 rounded-2xl border border-white/5 space-y-4">
-                <div class="space-y-1">
-                    <span class="text-[10px] text-gray-500 font-bold uppercase tracking-wider block">Official Genres:</span>
-                    <div class="flex flex-wrap gap-1.5 pt-1" id="details-genres-box"></div>
-                </div>
-                <div class="grid grid-cols-2 gap-3 text-[11px] border-t border-white/5 pt-3">
-                    <div><span class="text-[9px] text-gray-500 block uppercase font-bold">Status</span><span id="details-meta-status" class="text-gray-200 font-bold">Released</span></div>
-                    <div><span class="text-[9px] text-gray-500 block uppercase font-bold">Industry / Country</span><span id="details-meta-country" class="text-gray-200 font-bold">--</span></div>
-                    <div><span class="text-[9px] text-gray-500 block uppercase font-bold">Audio Track</span><span id="details-meta-audio" class="text-yellow-500 font-extrabold">Scanning...</span></div>
-                    <div><span class="text-[9px] text-gray-500 block uppercase font-bold">Runtime</span><span id="details-meta-runtime" class="text-gray-200 font-bold">--</span></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="space-y-4 border-t border-white/5 pt-6">
-            <h3 class="text-xs md:text-sm font-bold text-gray-200">✨ Recommended Content For You</h3>
-            <div class="flex space-x-3 overflow-x-auto scroller py-2" id="grid-similar-content"></div>
-        </div>
-    </div>
-
-    <!-- 🔒 🧱 ORIGINAL DUAL-ROW HUD PANEL WITH FLEXIBLE RESPONSIVE MATRIX LAYER -->
-    <div class="fixed bottom-0 left-0 w-full z-50 bg-[#060814]/95 backdrop-blur-md border-t border-white/10 shadow-[0_-10px_25px_rgba(0,0,0,0.95)] px-4 md:px-12 py-2.5 space-y-1 select-none">
-        <div class="w-full flex justify-between items-center text-[9px] md:text-[10.5px] font-bold tracking-tight text-gray-400 uppercase">
-            <div class="flex items-center space-x-1.5">
-                <span class="w-1 h-1 rounded-full bg-green-500 animate-pulse"></span>
-                <p>ACTIVE: <span id="count-active" class="text-white font-extrabold ml-0.5">--</span></p>
-                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
-                <p>24HR: <span id="count-total" class="text-white font-extrabold ml-0.5">--</span></p>
-            </div>
-            <div class="flex items-center space-x-1.5 text-right text-[8.5px] md:text-[10px]">
-                <p>RECENT: <span id="real-stats-recent" class="text-yellow-500 font-black ml-0.5">04</span></p>
-                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
-                <p>24HR: <span id="real-stats-24h" class="text-white font-black ml-0.5">17</span></p>
-                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
-                <p>PROCESSING: <span id="fake-stats-process" class="text-emerald-500 font-black ml-0.5">05</span></p>
-            </div>
-        </div>
-        
-        <div class="w-full flex justify-between items-center text-[8px] md:text-[9px] font-bold pt-1 border-t border-white/5">
-            <div class="text-left text-gray-500 font-medium truncate max-w-[65%]">
-                <span class="text-red-500 font-black uppercase mr-0.5">DISCLAIMER:</span>
-                <span class="font-light text-gray-400">Aggregated from public internet sources.</span>
-            </div>
-            <div class="text-right text-yellow-500 font-black tracking-wider text-[7.5px] md:text-[8.5px]">
-                DEVELOPED BY @NAZMULSBLOG
-            </div>
-        </div>
-    </div>
-
-    <!-- JAVASCRIPT CORE ENGINE -->
-    <script>
-        const API_URL = 'movie_master_db.json';
-        const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6';
-        // গিটহাব রেপোর প্লাগইন জেসন সোর্স ট্র্যাক ম্যাপিং লিংক
-        const GITHUB_EXT_JSON = "https://raw.githubusercontent.com/ahnafnazmul/movieplexbd-extensions/main/plugins.json";
-        
-        let globalMoviesData = [];
-        let streamguideData = [];
-        let githubPluginDomains = {}; // গিটহাব প্লাগইন থেকে লোড হওয়া কনফিগ
-        let sortedRowsData = { bangla: [], newRelease: [], recentRelease: [], topRated: [], trending: [], allContents: [] };
-        let allGenresCollected = new Set();
-        let wheelIndex = 0;
-        let wheelTimer = null;
-        let activePlayerSrc = "";
-        let currentViewingMovieObj = null;
-        let tmdbCastsBackup = [];
-        
-        // গ্লোবাল ওটিটি প্লেয়ার ভ্যারিয়েবল ট্র্যাকিং
-        let plyrInstance = null;
-        let currentSortedServers = []; // অটো-র‍্যাংকড বা সর্টেড সার্ভার এরে
-        let selectedServerObj = null;  // বর্তমানে একটিভ থাকা নির্দিষ্ট সার্ভার ডাটা অবজেক্ট
-
-        function initTrafficCounters() {
-            const activePool = Math.floor(Math.random() * (240 - 70 + 1)) + 70;
-            const totalPool = Math.floor(Math.random() * (1500 - 700 + 1)) + 700;
-            document.getElementById('count-active').innerText = activePool;
-            document.getElementById('count-total').innerText = totalPool;
-        }
-
-        function processRealDatabaseStatistics() {
-            try {
-                const nowUnix = Math.floor(Date.now() / 1000);
-                const oneDaySeconds = 24 * 60 * 60;
-                
-                let matchesLast24H = 0;
-                let matchesRecent = 0;
-
-                globalMoviesData.forEach(m => {
-                    if(m.timestamp) {
-                        const diff = nowUnix - m.timestamp;
-                        if(diff > 0 && diff <= oneDaySeconds) matchesLast24H++;
-                        if(diff > 0 && diff <= (oneDaySeconds * 3)) matchesRecent++;
-                    }
-                });
-
-                document.getElementById('real-stats-24h').innerText = matchesLast24H > 0 ? String(matchesLast24H).padStart(2, '0') : "17";
-                document.getElementById('real-stats-recent').innerText = matchesRecent > 0 ? String(Math.ceil(matchesRecent / 4)).padStart(2, '0') : "04";
-                
-                setInterval(() => {
-                    const pool = ["02", "04", "05", "03", "06"];
-                    document.getElementById('fake-stats-process').innerText = pool[Math.floor(Math.random() * pool.length)];
-                }, 10 * 60 * 1000);
-
-            } catch(e) { console.error("Stats loop wrapped."); }
-        }
-
-        function cleanTitle(title) {
-            return title.replace(/\(.*?\)|\[.*?\]/g, '').replace(/hindi|bengali|bongoBD|hoichoi|web-dl|web|s01|s02|complete|nf/gi, '').trim();
-        }
-
-        function hasBengaliCharacters(str) {
-            return /[\u0980-\u09FF]/.test(str);
-        }
-
-        function isAdultContentFlagged(movie) {
-            const blacklistKeywords = ['18+', 'adult', 'erotic', 'threesome', 'ullu', 'kooku', 'primeplay', 'hotshots', 'gandii baat', 'sex', 'desikahaniya'];
-            const targetId = movie.id ? movie.id.toLowerCase() : '';
-            const targetTitle = movie.title ? movie.title.toLowerCase() : '';
-            
-            let playerUrl = "";
-            if (movie.players && movie.players.length > 0) playerUrl = movie.players[0].player_url.toLowerCase();
-
-            let categoriesStr = "";
-            if(movie.categories) categoriesStr = movie.categories.join(' ').toLowerCase();
-
-            return blacklistKeywords.some(keyword => (targetId + " " + targetTitle + " " + playerUrl + " " + categoriesStr).includes(keyword));
-        }
-
-        function detectAdvancedAudioTracks(movie) {
-            let playerUrl = "";
-            if (movie.players && movie.players.length > 0) playerUrl = movie.players[0].player_url.toLowerCase();
-            
-            const scanPool = playerUrl + " " + (movie.id ? movie.id.toLowerCase() : '') + " " + (movie.title ? movie.title.toLowerCase() : '');
-            let detectionList = [];
-            if (scanPool.includes('bengali') || scanPool.includes('bangla') || hasBengaliCharacters(movie.title)) detectionList.push('Bangla');
-            if (scanPool.includes('hindi')) detectionList.push('Hindi');
-            if (scanPool.includes('tamil')) detectionList.push('Tamil');
-            if (scanPool.includes('english') || scanPool.includes('eng')) detectionList.push('English');
-
-            if (scanPool.includes('dual') || scanPool.includes('multi') || scanPool.includes('dual-audio') || detectionList.length > 1) {
-                if (detectionList.length <= 1) return "Multi Audio: English, Hindi";
-                return `Multi Audio: ${detectionList.join(', ')}`;
-            }
-            if (detectionList.length === 1) return `Audio: ${detectionList[0]}`;
-            return "Audio: English";
-        }
-
-        function extractSafeYear(movie) {
-            if (movie.release_year && movie.release_year !== 'undefined') return movie.release_year;
-            if (movie.year && movie.year !== 'undefined') return movie.year;
-            return '----';
-        }
-
-        async function initMovieplex() {
-            initTrafficCounters();
-            try {
-                // গিটহাব প্লাগইন ডোমেন ফাইল ব্যাকগ্রাউন্ডে প্রি-ফেচ করা
-                try {
-                    const extRes = await fetch(GITHUB_EXT_JSON);
-                    if(extRes.ok) githubPluginDomains = await extRes.json();
-                } catch(err) { console.error("Plugin domain sync tracking bypassed."); }
-
-                const response = await fetch(API_URL);
-                globalMoviesData = await response.json();
-                
-                globalMoviesData = globalMoviesData.map(m => {
-                    if(!m.views || m.views === 150) m.views = Math.floor(Math.random() * 500) + 160;
-                    if(!m.rating || m.rating === 0) m.rating = 7.0;
-                    m.detectedAudio = detectAdvancedAudioTracks(m);
-                    return m;
-                });
-
-                try {
-                    const sgRes = await fetch('https://raw.githubusercontent.com/ahnafnazmul/STREAMguide-BD/main/data.json');
-                    streamguideData = await sgRes.json();
-                } catch(e) {}
-
-                processAlgorithmicRows();
-                build3DPosterWheel();
-                populateGenreDropdown();
-                processRealDatabaseStatistics();
-            } catch (e) { console.error("Verification system online."); }
-        }
-
-        function build3DPosterWheel() {
-            const wrapper = document.getElementById('carousel-wheel-core');
-            wrapper.innerHTML = '';
-            if(globalMoviesData.length === 0) return;
-
-            const safeSpotlightItems = globalMoviesData.filter(m => !isAdultContentFlagged(m)).slice(0, 10);
-            
-            safeSpotlightItems.forEach((movie, index) => {
-                const node = document.createElement('div');
-                node.className = "wheel-node invisible-loop";
-                node.setAttribute('data-index', index);
-                node.innerHTML = `<img src="${movie.poster}" class="w-full h-full object-cover rounded-xl md:rounded-2xl">`;
-                node.onclick = () => {
-                    if(index === wheelIndex) openDetailsPage(movie);
-                    else { wheelIndex = index; rotateWheelLogic(safeSpotlightItems); }
-                };
-                wrapper.appendChild(node);
-            });
-
-            rotateWheelLogic(safeSpotlightItems);
-            if(wheelTimer) clearInterval(wheelTimer);
-            wheelTimer = setInterval(() => {
-                wheelIndex = (wheelIndex + 1) % safeSpotlightItems.length;
-                rotateWheelLogic(safeSpotlightItems);
-            }, 7000);
-        }
-
-        function rotateWheelLogic(safeItems) {
-            const nodes = document.querySelectorAll('.wheel-node');
-            if(nodes.length === 0) return;
-            const total = nodes.length;
-
-            nodes.forEach(node => {
-                const idx = parseInt(node.getAttribute('data-index'));
-                let diff = idx - wheelIndex;
-                if (diff < -total / 2) diff += total;
-                if (diff > total / 2) diff -= total;
-
-                node.className = "wheel-node invisible-loop";
-                if (diff === 0) {
-                    node.className = "wheel-node active-center";
-                    const movie = safeItems[wheelIndex];
-                    if(movie) {
-                        document.getElementById('wheel-title').innerText = cleanTitle(movie.title);
-                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy clean layout stream enhancements smoothly.";
-                        document.getElementById('wheel-year').innerText = extractSafeYear(movie);
-                        document.getElementById('wheel-rating').innerText = `⭐ ${movie.rating}`;
-                        document.getElementById('wheel-views').innerText = `Views: ${movie.views.toLocaleString()}`;
-                        document.getElementById('wheel-play-btn').onclick = () => openDetailsPage(movie);
-                    }
-                }
-                else if (diff === -1) node.className = "wheel-node side-L1";
-                else if (diff === 1) node.className = "wheel-node side-R1";
-                else if (diff === -2) node.className = "wheel-node side-L2";
-                else if (diff === 2) node.className = "wheel-node side-R2";
-            });
-        }
-
-        function processAlgorithmicRows() {
-            const cleanGlobalDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m));
-            let globalBanglaMatchedList = [];
-
-            cleanGlobalDataset.forEach(m => {
-                if (m.detectedAudio.includes('Bangla')) globalBanglaMatchedList.push(m);
-            });
-
-            const allowedPlatforms = ['chorki', 'bongo', 'hoichoi', 'deepto', 'bioscope', 'binge', 'beinge', 'iscreen', 'tofee', 'toffee', 'utshob'];
-            let rawBanglaItems = streamguideData.filter(m => m.p && allowedPlatforms.includes(m.p.toLowerCase()));
-            
-            rawBanglaItems.forEach(sg => {
-                let matchedMovie = cleanGlobalDataset.find(m => cleanTitle(m.title).toLowerCase() === cleanTitle(sg.t).toLowerCase());
-                if(!matchedMovie && sg.url) {
-                    let parts = sg.url.split('/').filter(Boolean);
-                    let slug = parts.pop(); 
-                    if(slug) {
-                        slug = slug.replace(/-/g, ' ').toLowerCase();
-                        matchedMovie = cleanGlobalDataset.find(m => m.id.toLowerCase().replace(/_/g, ' ').includes(slug));
-                    }
-                }
-                if (matchedMovie && !globalBanglaMatchedList.some(item => item.id === matchedMovie.id)) {
-                    globalBanglaMatchedList.push(matchedMovie);
-                }
-            });
-
-            sortedRowsData.bangla = globalBanglaMatchedList.sort((a,b) => (b.timestamp || 0) - (a.timestamp || 0));
-            const chronologicalList = [...cleanGlobalDataset].reverse();
-
-            sortedRowsData.newRelease = chronologicalList.slice(0, 20);
-            sortedRowsData.recentRelease = chronologicalList.slice(20, 50);
-            sortedRowsData.trending = [...cleanGlobalDataset].sort((a,b) => b.views - a.views).slice(0, 15);
-
-            const cutoffDate = new Date();
-            cutoffDate.setDate(cutoffDate.getDate() - 60);
-            sortedRowsData.topRated = cleanGlobalDataset.filter(m => {
-                if(!m.timestamp) return false;
-                return new Date(m.timestamp * 1000) >= cutoffDate;
-            }).sort((a, b) => b.rating - a.rating);
-
-            sortedRowsData.allContents = [...cleanGlobalDataset];
-
-            renderRow('grid-bangla', sortedRowsData.bangla);
-            renderRow('grid-new-release', sortedRowsData.newRelease);
-            renderRow('grid-recent-release', sortedRowsData.recentRelease);
-            renderRow('grid-trending', sortedRowsData.trending);
-            renderRow('grid-top-rated', sortedRowsData.topRated);
-            renderRow('grid-all-contents', sortedRowsData.allContents);
-        }
-
-        function renderRow(targetId, dataset) {
-            const container = document.getElementById(targetId);
-            container.innerHTML = '';
-            dataset.forEach(movie => container.appendChild(createMovieCard(movie)));
-        }
-
-        function createMovieCard(movie) {
-            const div = document.createElement('div');
-            div.className = "movie-card min-w-[110px] sm:min-w-[155px] bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl flex-shrink-0 group";
-            div.innerHTML = `
-                <div class="relative w-full pt-[142%] bg-slate-950">
-                    <img src="${movie.poster}" alt="${movie.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-103 transition duration-500" loading="lazy">
-                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/90 to-transparent p-2 md:p-2.5 pt-8">
-                        <h4 class="text-[10px] sm:text-[11px] font-bold truncate text-gray-100 group-hover:text-yellow-500 transition">${cleanTitle(movie.title)}</h4>
-                        <div class="flex justify-between items-center mt-0.5 text-[8px] sm:text-[9px] text-gray-400 font-bold">
-                            <span>${extractSafeYear(movie)}</span>
-                            <span class="text-yellow-500">⭐ ${movie.rating}</span>
-                        </div>
-                    </div>
-                </div>
-            `;
-            div.onclick = () => openDetailsPage(movie);
-            return div;
-        }
-
-        function populateGenreDropdown() {
-            globalMoviesData.forEach(m => {
-                if(m.categories) m.categories.forEach(cat => {
-                    if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio", "Multi Audio"].includes(cat)) allGenresCollected.add(cat);
-                });
-            });
-            const select = document.getElementById('filter-genre');
-            select.innerHTML = '<option value="all">All Genres</option>';
-            allGenresCollected.forEach(genre => select.innerHTML += `<option value="${genre}">${genre}</option>`);
-        }
-
-        function openAdvancedExplorerPage() {
-            document.getElementById('home-view-container').classList.replace('block', 'hidden');
-            document.getElementById('details-view-container').classList.replace('block', 'hidden');
-            document.getElementById('explorer-view-container').classList.replace('hidden', 'block');
-            document.getElementById('advanced-filter-panel').classList.remove('hidden');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-            document.getElementById('see-more-title').innerText = "🌐 All Contents Master Catalog";
-            applyAdvancedFiltersEngine();
-        }
-
-        function applyAdvancedFiltersEngine() {
-            const targetGenre = document.getElementById('filter-genre').value;
-            const targetAudio = document.getElementById('filter-lang').value;
-            const targetQuality = document.getElementById('filter-quality').value;
-            const targetMinRating = parseFloat(document.getElementById('filter-rating').value);
-            const targetSort = document.getElementById('filter-sort').value;
-
-            let filteredResult = [...globalMoviesData];
-
-            if(targetGenre !== 'all') filteredResult = filteredResult.filter(m => m.categories && m.categories.includes(targetGenre));
-            if(targetAudio !== 'all') {
-                filteredResult = filteredResult.filter(m => {
-                    const track = m.detectedAudio;
-                    if(targetAudio === 'bangla') return track.includes('Bangla');
-                    if(targetAudio === 'multi-audio') return track.includes('Multi');
-                    if(targetAudio === 'hindi') return track.includes('Hindi');
-                    if(targetAudio === 'english') return track.includes('English');
-                    return true;
-                });
-            }
-            if(targetQuality !== 'all') {
-                filteredResult = filteredResult.filter(m => {
-                    const str = ((m.id || "") + " " + (m.title || "")).toLowerCase();
-                    if(targetQuality === 'web') return str.includes('web');
-                    if(targetQuality === 'bluray') return str.includes('bluray') || str.includes('hdrip');
-                    if(targetQuality === 'predvd') return str.includes('predvd') || str.includes('hdtc') || str.includes('cam');
-                    return true;
-                });
-            }
-            if(targetMinRating > 0) filteredResult = filteredResult.filter(m => m.rating >= targetMinRating);
-
-            if(targetSort === 'latest') filteredResult.sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
-            else if(targetSort === 'views') filteredResult.sort((a, b) => b.views - a.views);
-            else if(targetSort === 'rating') filteredResult.sort((a, b) => b.rating - a.rating);
-
-            const grid = document.getElementById('see-more-grid');
-            grid.innerHTML = '';
-            if(filteredResult.length === 0) {
-                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No structural entries matching metadata found.</span>`;
-                return;
-            }
-            filteredResult.forEach(movie => {
-                const card = createMovieCard(movie);
-                card.className = "movie-card bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl w-full group";
-                grid.appendChild(card);
-            });
-        }
-
-        function viewAllAlgorithmic(type) {
-            document.getElementById('home-view-container').classList.replace('block', 'hidden');
-            document.getElementById('details-view-container').classList.replace('block', 'hidden');
-            document.getElementById('explorer-view-container').classList.replace('hidden', 'block');
-            document.getElementById('advanced-filter-panel').classList.add('hidden'); 
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-
-            let list = []; let text = "";
-            if(type === 'bangla') { list = sortedRowsData.bangla; text = "Bangla"; }
-            else if(type === 'new-release') { list = sortedRowsData.newRelease; text = "New Release"; }
-            else if(type === 'recent-release') { list = sortedRowsData.recentRelease; text = "Recent Release"; }
-            else if(type === 'trending') { list = sortedRowsData.trending; text = "Trending Now"; }
-            else if(type === 'top-rated') { list = sortedRowsData.topRated; text = "Top Rated"; }
-
-            document.getElementById('see-more-title').innerText = `🔥 ${text} Rows Explorer`;
-            const grid = document.getElementById('see-more-grid'); 
-            grid.innerHTML = '';
-            list.forEach(movie => {
-                const card = createMovieCard(movie);
-                card.className = "movie-card bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl w-full group";
-                grid.appendChild(card);
-            });
-        }
-
-        function backToHomeView() {
-            document.getElementById('explorer-view-container').classList.replace('block', 'hidden');
-            document.getElementById('details-view-container').classList.replace('block', 'hidden');
-            document.getElementById('home-view-container').classList.replace('hidden', 'block');
-            document.getElementById('search-bar').value = '';
-            
-            const gate = document.getElementById('iframe-touch-gate');
-            if(gate) gate.classList.add('hidden');
-            
-            // প্লেয়ার রিসেট মেকানিজম
-            if(plyrInstance) {
-                plyrInstance.destroy();
-                plyrInstance = null;
-            }
-            document.getElementById('details-video-iframe').src = "";
-            document.getElementById('details-video-iframe').classList.add('hidden');
-            document.getElementById('native-player-container').classList.add('hidden');
-            
-            processAlgorithmicRows();
-        }
-
-        // 🧠 AUTOMATED MULTI-SOURCE RANKING & RESOLVER ENGINE (PLUGIN vs JSON vs FALLBACK)
-        async function openDetailsPage(movie) {
-            currentViewingMovieObj = movie;
-            tmdbCastsBackup = [];
-            document.getElementById('home-view-container').classList.replace('block', 'hidden');
-            document.getElementById('explorer-view-container').classList.replace('block', 'hidden');
-            document.getElementById('details-view-container').classList.replace('hidden', 'block');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-
-            document.getElementById('details-title').innerText = cleanTitle(movie.title);
-            document.getElementById('details-year').innerText = extractSafeYear(movie);
-            document.getElementById('details-rating').innerText = `⭐ ${movie.rating}`;
-            document.getElementById('details-views').innerText = `Views: ${movie.views.toLocaleString()}`;
-            document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis parsing verified.";
-            document.getElementById('details-meta-audio').innerText = movie.detectedAudio;
-            
-            // প্লেয়ার লেয়ার রি-ইনিশিয়ালাইজ
-            document.getElementById('details-video-iframe').src = "";
-            document.getElementById('details-video-iframe').classList.add('hidden');
-            document.getElementById('native-player-container').classList.add('hidden');
-            if(plyrInstance) { plyrInstance.destroy(); plyrInstance = null; }
-            
-            const gate = document.getElementById('iframe-touch-gate');
-            if(gate) gate.classList.add('hidden');
-            
-            const serverContainer = document.getElementById('details-server-container');
-            serverContainer.innerHTML = '';
-            document.getElementById('player-shield').classList.remove('hidden');
-
-            currentSortedServers = [];
-
-            // ১. গিটহাব প্লাগইন সোর্স প্রিপারেশন (Priority 1)
-            // মুভিপ্লেক্সবিডি প্লাগইন ডাইনামিক রিমোট কি-ম্যাপিং লজিক
-            if (githubPluginDomains && Object.keys(githubPluginDomains).length > 0) {
-                Object.keys(githubPluginDomains).forEach((key, kIdx) => {
-                    const targetBase = githubPluginDomains[key];
-                    // প্লাগইন এক্সট্র্যাক্টরের জন্য এপিআই বা ডিরেক্ট স্ট্রিম নোড পুশ
-                    currentSortedServers.push({
-                        label: `Server Premium ${kIdx + 1}`,
-                        tag: "PLUGIN",
-                        type: "direct",
-                        url: `${targetBase}/hls/stream_${movie.id}.m3u8`, // প্লাগইন স্ট্রিম ফর্ম্যাট
-                        rank: 1
-                    });
-                });
-            }
-
-            // ২. লোকাল ডাটাবেজের প্লেয়ার ইউআরএল অ্যানালাইসিস (Priority 2 & 3)
-            if (movie.players && movie.players.length > 0) {
-                movie.players.forEach((player, index) => {
-                    const pUrl = player.player_url;
-                    const isGoodJson = pUrl.includes('rpmvid') || pUrl.includes('xcloud') || pUrl.includes('plextream');
-                    
-                    currentSortedServers.push({
-                        label: `Server HD ${index + 1}`,
-                        tag: isGoodJson ? "JSON_GOOD" : "FALLBACK",
-                        type: (pUrl.includes('.m3u8') || pUrl.includes('.mp4')) ? "direct" : "iframe",
-                        url: pUrl,
-                        rank: isGoodJson ? 2 : 3
-                    });
-                });
-            }
-
-            // আলটিমেট র‍্যাংকিং সর্টিং মেকানিজম (কম র‍্যাংক আগে বসবে)
-            currentSortedServers.sort((a, b) => a.rank - b.rank);
-
-            // ডিফোল্ট চুজেন সোর্স (সবার উপরের র‍্যাংকটি অটো-লোডের জন্য সিলেক্টেড)
-            if(currentSortedServers.length > 0) {
-                selectedServerObj = currentSortedServers[0];
-                activePlayerSrc = selectedServerObj.url;
-            }
-
-            // প্লেয়ারের নিচে সার্ভার বাটন জেনারেট করা (ডিজাইন অপরিবর্তিত)
-            currentSortedServers.forEach((server, index) => {
-                const btn = document.createElement('button');
-                btn.className = `px-4 py-1.5 rounded-lg text-[11px] font-black uppercase transition ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800'}`;
-                // বাটনের নামের পাশে সিক্রেট ডেবুট ট্যাগ রিডিং
-                btn.innerText = `${server.label} [${server.tag}]`;
-                
-                btn.onclick = function() {
-                    Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase');
-                    btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
-                    
-                    selectedServerObj = server;
-                    activePlayerSrc = server.url;
-                    
-                    document.getElementById('player-shield').classList.remove('hidden');
-                    document.getElementById('details-video-iframe').classList.add('hidden');
-                    document.getElementById('native-player-container').classList.add('hidden');
-                    document.getElementById('details-video-iframe').src = "";
-                    if(plyrInstance) { plyrInstance.destroy(); plyrInstance = null; }
-                    
-                    const innerGate = document.getElementById('iframe-touch-gate');
-                    if(innerGate) innerGate.classList.add('hidden');
-                    
-                    cacheUserPlaybackPreferences(movie);
-                };
-                serverContainer.appendChild(btn);
-            });
-
-            fetchDeepTMDBData(movie.id, movie.categories, movie);
-        }
-
-        // 🌟 CLONE INTERCEPTION & HIGH-PERFORMANCE NATIVE PLAYER EXECUTER
-        async function activatePlayerFrame(event) {
-            if (event) {
-                event.preventDefault();
-                event.stopPropagation();
-            }
-            
-            document.getElementById('player-shield').classList.add('hidden');
-            const gate = document.getElementById('iframe-touch-gate');
-            if(gate) gate.classList.remove('hidden');
-            
-            const iframe = document.getElementById('details-video-iframe');
-            const nativeContainer = document.getElementById('native-player-container');
-            const videoElement = document.getElementById('details-native-video');
-            const debugTag = document.getElementById('debug-source-tag');
-            
-            let finalSrc = activePlayerSrc;
-            
-            // স্ক্রিন ওয়াটারমার্কে ডেবুট ট্যাগ বসানো
-            if(selectedServerObj) {
-                debugTag.innerText = `SOURCE: ${selectedServerObj.tag}`;
-            }
-
-            window.open = function() { return null; };
-
-            // হাইব্রিড মেকানিজম ফায়ার: ডিরেক্ট সোর্স নাকি আইফ্রেম চেক
-            if(selectedServerObj && selectedServerObj.type === "direct") {
-                // প্লাগইন বা জেসনের ডিরেক্ট ফাইল লোড লজিক
-                iframe.classList.add('hidden');
-                nativeContainer.classList.remove('hidden');
-                
-                if(plyrInstance) { plyrInstance.destroy(); plyrInstance = null; }
-                
-                // গিটহাব প্লাগইন সোর্সের ক্ষেত্রে লাইভ লিংক এপিআই ভ্যালিডেশন চেক (Graceful Fallback)
-                if(selectedServerObj.tag === "PLUGIN") {
-                    try {
-                        const pingCheck = await fetch(finalSrc, { method: 'HEAD' });
-                        if(!pingCheck.ok) throw new Error("Plugin source link expired or down.");
-                    } catch(err) {
-                        console.warn("⚠️ PLUGIN URL check failed! Auto-switching to Fallback Iframe.");
-                        // অটোমেটিক আইফ্রেম সার্ভার খুঁজে বের করে লোড করা
-                        const fallbackServer = currentSortedServers.find(s => s.tag === "FALLBACK" || s.tag === "JSON_GOOD");
-                        if(fallbackServer) {
-                            selectedServerObj = fallbackServer;
-                            activePlayerSrc = fallbackServer.url;
-                            debugTag.innerText = `SOURCE: ${fallbackServer.tag} (FALLBACK Switched)`;
-                            finalSrc = fallbackServer.url;
-                        }
-                    }
-                }
-
-                // যদি প্লাগইন ফেল মারার পর সুইচড সার্ভারটি আইফ্রেম টাইপ হয়
-                if(selectedServerObj.type === "iframe") {
-                    nativeContainer.classList.add('hidden');
-                    iframe.classList.remove('hidden');
-                    if (!finalSrc.includes('autoplay=')) finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
-                    iframe.src = finalSrc;
-                } else {
-                    // সফল ডিরেক্ট স্ট্রিমিং সোর্স লোড (.m3u8 / .mp4)
-                    if (Hls.isSupported() && finalSrc.includes('m3u8')) {
-                        const hls = new Hls({ maxMaxBufferLength: 30, enableWorker: true });
-                        hls.loadSource(finalSrc);
-                        hls.attachMedia(videoElement);
-                    } else {
-                        videoElement.src = finalSrc;
-                    }
-                    
-                    plyrInstance = new Plyr(videoElement, {
-                        controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'fullscreen'],
-                        tooltips: { controls: true, seek: true }
-                    });
-                    plyrInstance.play();
-                }
-
-            } else {
-                // Priority 3: ট্র্যাডিশনাল থার্ড-পার্টি রেগুলার আইফ্রেম লোড
-                nativeContainer.classList.add('hidden');
-                iframe.classList.remove('hidden');
-                
-                if (!finalSrc.includes('autoplay=')) {
-                    finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
-                }
-                iframe.src = finalSrc;
-                
-                iframe.onload = function() {
-                    try {
-                        if(iframe.contentWindow) iframe.contentWindow.open = function() { return null; };
-                        iframe.focus();
-                    } catch(e) { setTimeout(() => { iframe.focus(); }, 200); }
-                };
-            }
-
-            window.addEventListener('blur', function() {
-                if (document.activeElement === iframe) {
-                    setTimeout(() => { window.focus(); }, 100);
-                }
-            });
-
-            if(currentViewingMovieObj) cacheUserPlaybackPreferences(currentViewingMovieObj);
-        }
-
-        function cacheUserPlaybackPreferences(movie) {
-            try {
-                let history = JSON.parse(localStorage.getItem('mp_genre_history')) || [];
-                if(movie.categories) {
-                    movie.categories.forEach(cat => {
-                        if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio", "Multi Audio"].includes(cat)) history.push(cat);
-                    });
-                }
-                if(history.length > 40) history = history.slice(-40);
-                localStorage.setItem('mp_genre_history', JSON.stringify(history));
-            } catch(e) {}
-        }
-
-        async function fetchDeepTMDBData(tmdbIdStr, localCategories, currentMovie) {
-            const castContainer = document.getElementById('cast-cards-container');
-            const genreContainer = document.getElementById('details-genres-box');
-            castContainer.innerHTML = ''; genreContainer.innerHTML = '';
-            document.getElementById('details-meta-country').innerText = "--";
-            document.getElementById('details-meta-runtime').innerText = "--";
-
-            const restrictedGenreKeywords = [
-                'movies', 'web series', 'bangla', 'bengali', 'hindi', 'english', 'tamil', 
-                'dual audio', 'multi audio', 'new release', 'recent release', 'recent', 
-                'trending', 'trending now', 'top rated'
-            ];
-
-            if(localCategories) {
-                localCategories.forEach(cat => {
-                    const normalizedCat = cat.toLowerCase().trim();
-                    if(!restrictedGenreKeywords.includes(normalizedCat)) {
-                        const span = document.createElement('span');
-                        span.className = "bg-slate-900 border border-slate-800 text-yellow-500 text-[9px] font-black px-2.5 py-0.5 rounded-full uppercase";
-                        span.innerText = cat;
-                        genreContainer.appendChild(span);
-                    }
-                });
-            }
-
-            if(!tmdbIdStr || !tmdbIdStr.includes('_')) {
-                renderAdvancedRecommendedContent(currentMovie, []);
-                return;
-            }
-            const parts = tmdbIdStr.split('_');
-            const url = `https://api.themoviedb.org/3/${parts[0]}/${parts[1]}?api_key=${TMDB_KEY}&append_to_response=credits`;
-            
-            try {
-                const response = await fetch(url);
-                const res = await response.json();
-                if(res.overview) document.getElementById('details-desc').innerText = res.overview;
-                if(res.runtime) document.getElementById('details-meta-runtime').innerText = `${res.runtime} min`;
-                if(res.production_countries && res.production_countries.length > 0) document.getElementById('details-meta-country').innerText = res.production_countries.map(c => c.name).join(', ');
-
-                let apiGenreNames = [];
-                if(res.genres) {
-                    res.genres.forEach(g => {
-                        const normalizedGName = g.name.toLowerCase().trim();
-                        if(!restrictedGenreKeywords.includes(normalizedGName)) {
-                            apiGenreNames.push(g.name);
-                            const existingSpans = Array.from(genreContainer.querySelectorAll('span')).map(s => s.innerText.toLowerCase());
-                            if(!existingSpans.includes(normalizedGName)) {
-                                const span = document.createElement('span');
-                                span.className = "bg-slate-900 border border-slate-800 text-yellow-500 text-[9px] font-black px-2.5 py-0.5 rounded-full uppercase";
-                                span.innerText = g.name; 
-                                genreContainer.appendChild(span);
-                            }
-                        }
-                    });
-                }
-                const casts = res.credits?.cast?.slice(0, 6) || [];
-                casts.forEach(c => {
-                    tmdbCastsBackup.push(c.name.toLowerCase());
-                    const profile = c.profile_path ? `https://image.tmdb.org/t/p/w185${c.profile_path}` : 'https://via.placeholder.com/150x200?text=Actor';
-                    const div = document.createElement('div');
-                    div.className = "bg-slate-950 rounded-lg p-1 text-center border border-white/5";
-                    div.innerHTML = `<img src="${profile}" class="w-full h-12 object-cover rounded mb-0.5"><h5 class="text-[8px] text-gray-300 truncate font-bold">${c.name}</h5>`;
-                    castContainer.appendChild(div);
-                });
-                renderAdvancedRecommendedContent(currentMovie, apiGenreNames);
-            } catch(e) { renderAdvancedRecommendedContent(currentMovie, []); }
-        }
-
-        function renderAdvancedRecommendedContent(currentMovie, tmdbGenres) {
-            try {
-                const container = document.getElementById('grid-similar-content');
-                container.innerHTML = '';
-                const cleanDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m) && m.id !== currentMovie.id);
-                let userHistoryGenres = [];
-                try { userHistoryGenres = JSON.parse(localStorage.getItem('mp_genre_history')) || []; } catch(e){}
-
-                let scoredCollection = [];
-                let currentTitleCleaned = cleanTitle(currentMovie.title).toLowerCase();
-                let franchiseKeywords = currentTitleCleaned.split(' ').filter(word => word.length > 3 && !['chapter', 'part', 'movie', 'season', 'the', 'return'].includes(word));
-
-                cleanDataset.forEach(movie => {
-                    let score = 0;
-                    let loopTitleCleaned = cleanTitle(movie.title).toLowerCase();
-
-                    if(franchiseKeywords.some(keyword => loopTitleCleaned.includes(keyword))) score += 50;
-                    if(movie.categories) {
-                        movie.categories.forEach(cat => { if(userHistoryGenres.includes(cat)) score += 10; });
-                    }
-                    if(movie.categories && tmdbGenres && tmdbGenres.length > 0) {
-                        movie.categories.forEach(cat => { if(tmdbGenres.includes(cat)) score += 15; });
-                    }
-                    if(movie.details && tmdbCastsBackup && tmdbCastsBackup.length > 0) {
-                        let summary = movie.details.toLowerCase();
-                        tmdbCastsBackup.forEach(actor => { if(summary.includes(actor)) score += 8; });
-                    }
-                    if(movie.detectedAudio === currentMovie.detectedAudio) score += 4;
-
-                    scoredCollection.push({ movie: movie, score: score });
-                });
-
-                scoredCollection.sort((a, b) => b.score - a.score);
-                let finalRecommendedNodes = scoredCollection.slice(0, 12).map(item => item.movie);
-                
-                if(!finalRecommendedNodes || finalRecommendedNodes.length < 5) {
-                    let fillers = cleanDataset.filter(m => !finalRecommendedNodes.some(f => f.id === m.id)).slice(0, 10);
-                    finalRecommendedNodes = [...finalRecommendedNodes, ...fillers];
-                }
-                finalRecommendedNodes.slice(0, 10).forEach(movie => container.appendChild(createMovieCard(movie)));
-            } catch(e) {
-                const container = document.getElementById('grid-similar-content');
-                globalMoviesData.filter(m => !isAdultContentFlagged(m) && m.id !== currentMovie.id).slice(0, 10).forEach(m => container.appendChild(createMovieCard(m)));
-            }
-        }
-
-        document.getElementById('search-bar').addEventListener('input', function(e) {
-            const query = e.target.value.toLowerCase().trim();
-            if(query.length > 0) {
-                document.getElementById('home-view-container').classList.replace('block', 'hidden');
-                document.getElementById('details-view-container').classList.replace('block', 'hidden');
-                document.getElementById('explorer-view-container').classList.replace('hidden', 'block');
-                document.getElementById('advanced-filter-panel').classList.add('hidden');
-                document.getElementById('see-more-title').innerText = `🔍 Search Results for "${query}"`;
-                const grid = document.getElementById('see-more-grid'); grid.innerHTML = '';
-                
-                const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query));
-                if(filtered.length === 0) {
-                    grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-6">No matching database index discovered.</span>`;
-                    return;
-                }
-                filtered.forEach(movie => {
-                    const card = createMovieCard(movie);
-                    card.className = "movie-card bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl w-full group";
-                    grid.appendChild(card);
-                });
-            } else { backToHomeView(); }
-        });
-
-        document.addEventListener("DOMContentLoaded", initMovieplex);
-    </script>
+    <!-- ⚠️ PWA BRAND-SPECIFIED OBLIGATORY MARKETING & COPYRIGHT SHIELD MODAL PORTAL -->
+    <div id="legal-shield-modal" class="fixed inset-0 z-[100] bg-black/85 backdrop-blur-xl flex flex-col items-center justify-center p-4 select-none">
+        <div class="relative max-w-full sm:max-w-[420px] md:max-w-[480px] flex flex-col items-center">
+            
+            <!-- 📷 Image Injection Point Target - Explicitly Bound to desclaimer.png -->
+            <img src="desclaimer.png" alt="Disclaimer Notice" class="w-full h-auto object-contain max-h-[75vh] rounded-2xl shadow-[0_25px_60px_rgba(0,0,0,0.8)] border border-white/5">
+            
+            <!-- ⏱️ Closing timer pill below image layout -->
+            <div class="mt-4">
+                <span id="shield-timer-text" class="bg-slate-950 text-[#eab308] text-[10px] md:text-[11px] font-black px-6 py-2.5 rounded-full tracking-widest uppercase shadow-xl border border-white/10">
+                    Closing in 5s
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 1. HEADER MENU BAR -->
+    <header class="w-full bg-[#060814]/95 backdrop-blur-md border-b border-white/5 sticky top-0 z-50 px-4 md:px-12 py-3 flex items-center justify-between shadow-xl">
+        <div class="flex items-center space-x-6 md:space-x-12">
+            <h1 class="text-lg md:text-xl font-black tracking-tighter text-yellow-500 uppercase cursor-pointer" onclick="backToHomeView()">MOVIEPLEX<span class="text-white font-light">BD</span></h1>
+        </div>
+        <div class="w-36 sm:w-60">
+            <input type="text" id="search-bar" placeholder="Search catalog..." class="w-full bg-slate-900 border border-slate-800 text-white rounded-full px-4 py-1.5 text-[11px] focus:outline-none focus:border-yellow-500 transition shadow-inner">
+        </div>
+    </header>
+
+    <!-- VIEW A: HOME VIEW -->
+    <div id="home-view-container" class="block">
+        <div class="carousel-container-fixed">
+            <!-- Metadata Area Layer -->
+            <div class="absolute top-12 left-6 md:left-12 max-w-sm md:max-w-md space-y-4 text-left z-30 pointer-events-auto" id="wheel-meta-pane">
+                <span class="bg-yellow-500 text-black text-[9px] font-black uppercase px-2.5 py-1 rounded tracking-widest shadow shadow-yellow-500/10">Spotlight</span>
+                <h2 id="wheel-title" class="text-2xl md:text-4xl font-black text-white tracking-tight leading-none drop-shadow-md">Loading...</h2>
+                <div class="flex items-center space-x-4 text-xs font-bold text-gray-400">
+                    <span id="wheel-year">--</span>
+                    <span id="wheel-rating" class="text-yellow-500">⭐ --</span>
+                    <span id="wheel-views">--</span>
+                </div>
+                <p id="wheel-desc" class="text-gray-400 text-xs md:text-sm leading-relaxed line-clamp-3 max-w-sm font-light"></p>
+                <button id="wheel-play-btn" class="bg-yellow-500 hover:bg-yellow-600 text-black font-black px-8 py-2.5 rounded-full text-xs tracking-wider uppercase transition transform hover:scale-105 shadow-xl">
+                    ▶ Watch Now
+                </button>
+            </div>
+            <div class="carousel-viewport">
+                <div class="carousel-wheel-wrapper" id="carousel-wheel-core"></div>
+            </div>
+            <div class="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-[#0c0f1d] to-transparent pointer-events-none z-30"></div>
+        </div>
+
+        <!-- ⚡ DYNAMIC GRID LAYOUT - ADJUSTED FOR PRECISE ONE-LINE BALANCED GAP BELOW THE 3D POSTER EDFS -->
+        <div class="pl-4 md:pl-12 space-y-7 -mt-[50px] md:-mt-[64px] relative z-40 bg-[#0c0f1d] pt-2 pb-4">
+            
+            <!-- Row 1: Bangla -->
+            <div class="space-y-2.5" id="section-bangla">
+                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
+                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-red-600 mr-2 rounded"></span>🇧🇩 Bangla</h3>
+                    <button onclick="viewAllAlgorithmic('bangla')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
+                </div>
+                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-bangla"></div>
+            </div>
+
+            <!-- Row 2: New Release -->
+            <div class="space-y-2.5" id="section-new-release">
+                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
+                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-yellow-500 mr-2 rounded"></span>✨ New Release</h3>
+                    <button onclick="viewAllAlgorithmic('new-release')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
+                </div>
+                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-new-release"></div>
+            </div>
+
+            <!-- Row 3: Recent Release -->
+            <div class="space-y-2.5" id="section-recent-release">
+                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
+                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-blue-500 mr-2 rounded"></span>🎬 Recent Release</h3>
+                    <button onclick="viewAllAlgorithmic('recent-release')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
+                </div>
+                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-recent-release"></div>
+            </div>
+
+            <!-- Row 4: Trending Now -->
+            <div class="space-y-2.5" id="section-trending">
+                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
+                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-orange-500 mr-2 rounded"></span>🔥 Trending Now</h3>
+                    <button onclick="viewAllAlgorithmic('trending')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
+                </div>
+                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-trending"></div>
+            </div>
+
+            <!-- Row 5: Top Rated -->
+            <div class="space-y-2.5" id="section-top-rated">
+                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
+                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-green-500 mr-2 rounded"></span>🏆 Top Rated (60 Days)</h3>
+                    <button onclick="viewAllAlgorithmic('top-rated')" class="text-[10px] font-bold text-gray-400 hover:text-white transition">See All ›</button>
+                </div>
+                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-top-rated"></div>
+            </div>
+
+            <!-- Row 6: All Contents -->
+            <div class="space-y-2.5" id="section-all-contents">
+                <div class="flex justify-between items-center border-b border-white/5 pb-1 pr-4 md:pr-12">
+                    <h3 class="text-xs md:text-sm font-extrabold text-gray-200 flex items-center"><span class="w-1 h-3.5 bg-purple-500 mr-2 rounded"></span>🌐 All Contents</h3>
+                    <button onclick="openAdvancedExplorerPage()" class="text-[10px] font-bold text-yellow-500 hover:text-white transition">Advanced Filter ›</button>
+                </div>
+                <div class="flex space-x-3 overflow-x-auto scroller py-1.5 px-0.5" id="grid-all-contents"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VIEW B: ADVANCED EXPLORER HUB -->
+    <div id="explorer-view-container" class="hidden min-h-screen bg-[#0c0f1d] px-4 md:px-12 py-6 space-y-6">
+        <div class="flex justify-between items-center border-b border-white/10 pb-3">
+            <h3 id="see-more-title" class="text-lg md:text-xl font-black text-yellow-500">Advanced Explorer Hub</h3>
+            <button onclick="backToHomeView()" class="text-xs font-bold bg-slate-900 border border-slate-800 px-4 py-2 rounded-full hover:bg-slate-800 transition">✕ Back to Home</button>
+        </div>
+
+        <div id="advanced-filter-panel" class="bg-slate-900/60 p-4 rounded-2xl border border-white/5 grid grid-cols-2 md:grid-cols-5 gap-3 text-xs">
+            <div>
+                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Genre</label>
+                <select id="filter-genre" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()"></select>
+            </div>
+            <div>
+                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Audio Track</label>
+                <select id="filter-lang" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
+                    <option value="all">All Tracks</option>
+                    <option value="bangla">Bangla Track</option>
+                    <option value="multi-audio">Multi Audio Track</option>
+                    <option value="hindi">Hindi Track</option>
+                    <option value="english">English Track</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Quality</label>
+                <select id="filter-quality" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
+                    <option value="all">All Qualities</option>
+                    <option value="web">WEB-DL / WEBRip</option>
+                    <option value="bluray">BluRay / HDRip</option>
+                    <option value="predvd">PreDVD / HDTC</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Min Rating</label>
+                <select id="filter-rating" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
+                    <option value="0">All Ratings</option>
+                    <option value="8">⭐ 8.0+ Top Choice</option>
+                    <option value="7">⭐ 7.0+ Recommended</option>
+                    <option value="5">⭐ 5.0+ Standard</option>
+                </select>
+            </div>
+            <div class="col-span-2 md:col-span-1">
+                <label class="block text-gray-500 font-bold mb-1 uppercase text-[9px]">Sort Catalog By</label>
+                <select id="filter-sort" class="w-full bg-slate-950 border border-slate-800 text-gray-200 rounded-lg p-2 focus:outline-none focus:border-yellow-500" onchange="applyAdvancedFiltersEngine()">
+                    <option value="latest">Latest Release</option>
+                    <option value="views">Most Viewed</option>
+                    <option value="rating">Top Rated</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 py-2" id="see-more-grid"></div>
+    </div>
+
+    <!-- VIEW C: DETAILS VIEW -->
+    <div id="details-view-container" class="hidden min-h-screen bg-[#0c0f1d] px-4 md:px-16 py-6 space-y-6 z-50 relative">
+        <button onclick="backToHomeView()" class="bg-slate-900 hover:bg-slate-800 text-white border border-slate-800 px-4 py-1.5 rounded-full text-xs font-bold transition flex items-center shadow-lg">
+            <span>‹ Back</span>
+        </button>
+
+        <div class="w-full relative pt-[56.25%] md:pt-[45%] bg-black rounded-2xl overflow-hidden border border-white/5 group shadow-2xl">
+            <!-- 🛡️ CLICK EVENT INTERCEPTOR OVERLAY SHIELD -->
+            <div id="player-shield" class="absolute inset-0 bg-black/95 backdrop-blur-sm z-30 flex flex-col justify-center items-center space-y-3 cursor-pointer p-4 text-center" onclick="activatePlayerFrame(event)">
+                <div class="w-14 h-14 md:w-16 md:h-16 bg-yellow-500 text-black rounded-full flex items-center justify-center font-black text-xl shadow-[0_0_30px_rgba(234,179,8,0.4)] transition transform group-hover:scale-110">▶</div>
+                <span class="text-xs font-black tracking-widest text-yellow-500 uppercase flex items-center space-x-1"><span>Play Now</span><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping ml-1.5"></span></span>
+            </div>
+            
+            <!-- 🚫 ANTI-REDIRECT INVISIBLE TOUCH SHIELD LAYER -->
+            <div id="iframe-touch-gate" class="absolute inset-0 z-20 hidden" style="pointer-events: auto;"></div>
+            
+            <!-- 🛡️ AD-SHIELD ULTIMATE: SANDBOX COMPLETELY REMOVED TO BYPASS ERRORS -->
+            <iframe id="details-video-iframe" src="" class="absolute inset-0 w-full h-full border-0 z-10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="w-full bg-gradient-to-r from-yellow-500/10 via-amber-500/5 to-transparent p-3 rounded-xl border border-yellow-500/20 shadow-[0_0_15px_rgba(234,179,8,0.05)] flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div class="flex flex-wrap items-center gap-2" id="details-server-container"></div>
+            <div class="flex items-center space-x-2 bg-black/40 px-4 py-1.5 rounded-full border border-yellow-500/30 shadow-md">
+                <span class="w-2 h-2 rounded-full bg-yellow-500 animate-ping"></span>
+                <span class="text-[10px] font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-200 uppercase">Powered by @Nazmulsblog</span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start pt-2">
+            <div class="lg:col-span-2 space-y-5">
+                <div class="space-y-2">
+                    <h2 id="details-title" class="text-2xl md:text-4xl font-black text-white tracking-wide">Movie Title</h2>
+                    <div class="flex flex-wrap gap-2.5 items-center text-xs font-bold text-gray-400">
+                        <span id="details-age-rating" class="border border-gray-600 px-2 py-0.5 rounded text-[9px] text-white">PG-13</span>
+                        <span id="details-year">--</span>
+                        <span id="details-rating" class="bg-yellow-500 text-black px-2 rounded font-black shadow">⭐ --</span>
+                        <span id="details-views" class="text-white bg-slate-900 border border-slate-800 px-3 py-0.5 rounded-full text-[11px]">--</span>
+                    </div>
+                </div>
+                <div class="space-y-1.5 border-t border-white/5 pt-4">
+                    <span class="text-[10px] text-gray-500 font-black uppercase tracking-wider block">Synopsis:</span>
+                    <p id="details-desc" class="text-gray-300 text-xs md:text-sm leading-relaxed font-light"></p>
+                </div>
+                <div class="space-y-3 border-t border-white/5 pt-4">
+                    <span class="text-[10px] text-gray-500 font-black uppercase tracking-wider block">Top Cast Crew:</span>
+                    <div class="grid grid-cols-3 md:grid-cols-6 gap-2" id="cast-cards-container"></div>
+                </div>
+            </div>
+            
+            <div class="bg-slate-900/40 p-5 rounded-2xl border border-white/5 space-y-4">
+                <div class="space-y-1">
+                    <span class="text-[10px] text-gray-500 font-bold uppercase tracking-wider block">Official Genres:</span>
+                    <div class="flex flex-wrap gap-1.5 pt-1" id="details-genres-box"></div>
+                </div>
+                <div class="grid grid-cols-2 gap-3 text-[11px] border-t border-white/5 pt-3">
+                    <div><span class="text-[9px] text-gray-500 block uppercase font-bold">Status</span><span id="details-meta-status" class="text-gray-200 font-bold">Released</span></div>
+                    <div><span class="text-[9px] text-gray-500 block uppercase font-bold">Industry / Country</span><span id="details-meta-country" class="text-gray-200 font-bold">--</span></div>
+                    <div><span class="text-[9px] text-gray-500 block uppercase font-bold">Audio Track</span><span id="details-meta-audio" class="text-yellow-500 font-extrabold">Scanning...</span></div>
+                    <div><span class="text-[9px] text-gray-500 block uppercase font-bold">Runtime</span><span id="details-meta-runtime" class="text-gray-200 font-bold">--</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-y-4 border-t border-white/5 pt-6">
+            <h3 class="text-xs md:text-sm font-bold text-gray-200">✨ Recommended Content For You</h3>
+            <div class="flex space-x-3 overflow-x-auto scroller py-2" id="grid-similar-content"></div>
+        </div>
+    </div>
+
+    <!-- 🔒 🧱 ORIGINAL DUAL-ROW HUD PANEL WITH FLEXIBLE RESPONSIVE MATRIX LAYER -->
+    <div class="fixed bottom-0 left-0 w-full z-50 bg-[#060814]/95 backdrop-blur-md border-t border-white/10 shadow-[0_-10px_25px_rgba(0,0,0,0.95)] px-4 md:px-12 py-2.5 space-y-1 select-none">
+        <div class="w-full flex justify-between items-center text-[9px] md:text-[10.5px] font-bold tracking-tight text-gray-400 uppercase">
+            <div class="flex items-center space-x-1.5">
+                <span class="w-1 h-1 rounded-full bg-green-500 animate-pulse"></span>
+                <p>ACTIVE: <span id="count-active" class="text-white font-extrabold ml-0.5">--</span></p>
+                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
+                <p>24HR: <span id="count-total" class="text-white font-extrabold ml-0.5">--</span></p>
+            </div>
+            <div class="flex items-center space-x-1.5 text-right text-[8.5px] md:text-[10px]">
+                <p>RECENT: <span id="real-stats-recent" class="text-yellow-500 font-black ml-0.5">04</span></p>
+                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
+                <p>24HR: <span id="real-stats-24h" class="text-white font-black ml-0.5">17</span></p>
+                <span class="text-gray-800 text-[8px] mx-0.5">|</span>
+                <p>PROCESSING: <span id="fake-stats-process" class="text-emerald-500 font-black ml-0.5">05</span></p>
+            </div>
+        </div>
+        
+        <div class="w-full flex justify-between items-center text-[8px] md:text-[9px] font-bold pt-1 border-t border-white/5">
+            <div class="text-left text-gray-500 font-medium truncate max-w-[65%]">
+                <span class="text-red-500 font-black uppercase mr-0.5">DISCLAIMER:</span>
+                <span class="font-light text-gray-400">Aggregated from public internet sources.</span>
+            </div>
+            <div class="text-right text-yellow-500 font-black tracking-wider text-[7.5px] md:text-[8.5px]">
+                DEVELOPED BY @NAZMULSBLOG
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT CORE ENGINE -->
+    <script>
+        const API_URL = 'movie_master_db.json';
+        const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6';
+        let globalMoviesData = [];
+        let streamguideData = [];
+        let sortedRowsData = { bangla: [], newRelease: [], recentRelease: [], topRated: [], trending: [], allContents: [] };
+        let allGenresCollected = new Set();
+        let wheelIndex = 0;
+        let wheelTimer = null;
+        let activePlayerSrc = "";
+        let currentViewingMovieObj = null;
+        let tmdbCastsBackup = [];
+
+        function initTrafficCounters() {
+            const activePool = Math.floor(Math.random() * (240 - 70 + 1)) + 70;
+            const totalPool = Math.floor(Math.random() * (1500 - 700 + 1)) + 700;
+            document.getElementById('count-active').innerText = activePool;
+            document.getElementById('count-total').innerText = totalPool;
+        }
+
+        function processRealDatabaseStatistics() {
+            try {
+                const nowUnix = Math.floor(Date.now() / 1000);
+                const oneDaySeconds = 24 * 60 * 60;
+                
+                let matchesLast24H = 0;
+                let matchesRecent = 0;
+
+                globalMoviesData.forEach(m => {
+                    if(m.timestamp) {
+                        const diff = nowUnix - m.timestamp;
+                        if(diff > 0 && diff <= oneDaySeconds) matchesLast24H++;
+                        if(diff > 0 && diff <= (oneDaySeconds * 3)) matchesRecent++;
+                    }
+                });
+
+                document.getElementById('real-stats-24h').innerText = matchesLast24H > 0 ? String(matchesLast24H).padStart(2, '0') : "17";
+                document.getElementById('real-stats-recent').innerText = matchesRecent > 0 ? String(Math.ceil(matchesRecent / 4)).padStart(2, '0') : "04";
+                
+                setInterval(() => {
+                    const pool = ["02", "04", "05", "03", "06"];
+                    document.getElementById('fake-stats-process').innerText = pool[Math.floor(Math.random() * pool.length)];
+                }, 10 * 60 * 1000);
+
+            } catch(e) { console.error("Stats loop wrapped."); }
+        }
+
+        function cleanTitle(title) {
+            return title.replace(/\(.*?\)|\[.*?\]/g, '').replace(/hindi|bengali|bongoBD|hoichoi|web-dl|web|s01|s02|complete|nf/gi, '').trim();
+        }
+
+        function hasBengaliCharacters(str) {
+            return /[\u0980-\u09FF]/.test(str);
+        }
+
+        function isAdultContentFlagged(movie) {
+            const blacklistKeywords = ['18+', 'adult', 'erotic', 'threesome', 'ullu', 'kooku', 'primeplay', 'hotshots', 'gandii baat', 'sex', 'desikahaniya'];
+            const targetId = movie.id ? movie.id.toLowerCase() : '';
+            const targetTitle = movie.title ? movie.title.toLowerCase() : '';
+            
+            let playerUrl = "";
+            if (movie.players && movie.players.length > 0) playerUrl = movie.players[0].player_url.toLowerCase();
+
+            let categoriesStr = "";
+            if(movie.categories) categoriesStr = movie.categories.join(' ').toLowerCase();
+
+            return blacklistKeywords.some(keyword => (targetId + " " + targetTitle + " " + playerUrl + " " + categoriesStr).includes(keyword));
+        }
+
+        function detectAdvancedAudioTracks(movie) {
+            let playerUrl = "";
+            if (movie.players && movie.players.length > 0) playerUrl = movie.players[0].player_url.toLowerCase();
+            
+            const scanPool = playerUrl + " " + (movie.id ? movie.id.toLowerCase() : '') + " " + (movie.title ? movie.title.toLowerCase() : '');
+            let detectionList = [];
+            if (scanPool.includes('bengali') || scanPool.includes('bangla') || hasBengaliCharacters(movie.title)) detectionList.push('Bangla');
+            if (scanPool.includes('hindi')) detectionList.push('Hindi');
+            if (scanPool.includes('tamil')) detectionList.push('Tamil');
+            if (scanPool.includes('english') || scanPool.includes('eng')) detectionList.push('English');
+
+            if (scanPool.includes('dual') || scanPool.includes('multi') || scanPool.includes('dual-audio') || detectionList.length > 1) {
+                if (detectionList.length <= 1) return "Multi Audio: English, Hindi";
+                return `Multi Audio: ${detectionList.join(', ')}`;
+            }
+            if (detectionList.length === 1) return `Audio: ${detectionList[0]}`;
+            return "Audio: English";
+        }
+
+        function extractSafeYear(movie) {
+            if (movie.release_year && movie.release_year !== 'undefined') return movie.release_year;
+            if (movie.year && movie.year !== 'undefined') return movie.year;
+            return '----';
+        }
+
+        async function initMovieplex() {
+            initTrafficCounters();
+            try {
+                const response = await fetch(API_URL);
+                globalMoviesData = await response.json();
+                
+                globalMoviesData = globalMoviesData.map(m => {
+                    if(!m.views || m.views === 150) m.views = Math.floor(Math.random() * 500) + 160;
+                    if(!m.rating || m.rating === 0) m.rating = 7.0;
+                    m.detectedAudio = detectAdvancedAudioTracks(m);
+                    return m;
+                });
+
+                try {
+                    const sgRes = await fetch('https://raw.githubusercontent.com/ahnafnazmul/STREAMguide-BD/main/data.json');
+                    streamguideData = await sgRes.json();
+                } catch(e) {}
+
+                processAlgorithmicRows();
+                build3DPosterWheel();
+                populateGenreDropdown();
+                processRealDatabaseStatistics();
+            } catch (e) { console.error("Verification system online."); }
+        }
+
+        function build3DPosterWheel() {
+            const wrapper = document.getElementById('carousel-wheel-core');
+            wrapper.innerHTML = '';
+            if(globalMoviesData.length === 0) return;
+
+            const safeSpotlightItems = globalMoviesData.filter(m => !isAdultContentFlagged(m)).slice(0, 10);
+            
+            safeSpotlightItems.forEach((movie, index) => {
+                const node = document.createElement('div');
+                node.className = "wheel-node invisible-loop";
+                node.setAttribute('data-index', index);
+                node.innerHTML = `<img src="${movie.poster}" class="w-full h-full object-cover rounded-xl md:rounded-2xl">`;
+                node.onclick = () => {
+                    if(index === wheelIndex) openDetailsPage(movie);
+                    else { wheelIndex = index; rotateWheelLogic(safeSpotlightItems); }
+                };
+                wrapper.appendChild(node);
+            });
+
+            rotateWheelLogic(safeSpotlightItems);
+            if(wheelTimer) clearInterval(wheelTimer);
+            wheelTimer = setInterval(() => {
+                wheelIndex = (wheelIndex + 1) % safeSpotlightItems.length;
+                rotateWheelLogic(safeSpotlightItems);
+            }, 7000);
+        }
+
+        function rotateWheelLogic(safeItems) {
+            const nodes = document.querySelectorAll('.wheel-node');
+            if(nodes.length === 0) return;
+            const total = nodes.length;
+
+            nodes.forEach(node => {
+                const idx = parseInt(node.getAttribute('data-index'));
+                let diff = idx - wheelIndex;
+                if (diff < -total / 2) diff += total;
+                if (diff > total / 2) diff -= total;
+
+                node.className = "wheel-node invisible-loop";
+                if (diff === 0) {
+                    node.className = "wheel-node active-center";
+                    const movie = safeItems[wheelIndex];
+                    if(movie) {
+                        document.getElementById('wheel-title').innerText = cleanTitle(movie.title);
+                        document.getElementById('wheel-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Enjoy clean layout stream enhancements smoothly.";
+                        document.getElementById('wheel-year').innerText = extractSafeYear(movie);
+                        document.getElementById('wheel-rating').innerText = `⭐ ${movie.rating}`;
+                        document.getElementById('wheel-views').innerText = `Views: ${movie.views.toLocaleString()}`;
+                        document.getElementById('wheel-play-btn').onclick = () => openDetailsPage(movie);
+                    }
+                }
+                else if (diff === -1) node.className = "wheel-node side-L1";
+                else if (diff === 1) node.className = "wheel-node side-R1";
+                else if (diff === -2) node.className = "wheel-node side-L2";
+                else if (diff === 2) node.className = "wheel-node side-R2";
+            });
+        }
+
+        function processAlgorithmicRows() {
+            const cleanGlobalDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m));
+            let globalBanglaMatchedList = [];
+
+            cleanGlobalDataset.forEach(m => {
+                if (m.detectedAudio.includes('Bangla')) globalBanglaMatchedList.push(m);
+            });
+
+            const allowedPlatforms = ['chorki', 'bongo', 'hoichoi', 'deepto', 'bioscope', 'binge', 'beinge', 'iscreen', 'tofee', 'toffee', 'utshob'];
+            let rawBanglaItems = streamguideData.filter(m => m.p && allowedPlatforms.includes(m.p.toLowerCase()));
+            
+            rawBanglaItems.forEach(sg => {
+                let matchedMovie = cleanGlobalDataset.find(m => cleanTitle(m.title).toLowerCase() === cleanTitle(sg.t).toLowerCase());
+                if(!matchedMovie && sg.url) {
+                    let parts = sg.url.split('/').filter(Boolean);
+                    let slug = parts.pop(); 
+                    if(slug) {
+                        slug = slug.replace(/-/g, ' ').toLowerCase();
+                        matchedMovie = cleanGlobalDataset.find(m => m.id.toLowerCase().replace(/_/g, ' ').includes(slug));
+                    }
+                }
+                if (matchedMovie && !globalBanglaMatchedList.some(item => item.id === matchedMovie.id)) {
+                    globalBanglaMatchedList.push(matchedMovie);
+                }
+            });
+
+            sortedRowsData.bangla = globalBanglaMatchedList.sort((a,b) => (b.timestamp || 0) - (a.timestamp || 0));
+            const chronologicalList = [...cleanGlobalDataset].reverse();
+
+            sortedRowsData.newRelease = chronologicalList.slice(0, 20);
+            sortedRowsData.recentRelease = chronologicalList.slice(20, 50);
+            sortedRowsData.trending = [...cleanGlobalDataset].sort((a,b) => b.views - a.views).slice(0, 15);
+
+            const cutoffDate = new Date();
+            cutoffDate.setDate(cutoffDate.getDate() - 60);
+            sortedRowsData.topRated = cleanGlobalDataset.filter(m => {
+                if(!m.timestamp) return false;
+                return new Date(m.timestamp * 1000) >= cutoffDate;
+            }).sort((a, b) => b.rating - a.rating);
+
+            sortedRowsData.allContents = [...cleanGlobalDataset];
+
+            renderRow('grid-bangla', sortedRowsData.bangla);
+            renderRow('grid-new-release', sortedRowsData.newRelease);
+            renderRow('grid-recent-release', sortedRowsData.recentRelease);
+            renderRow('grid-trending', sortedRowsData.trending);
+            renderRow('grid-top-rated', sortedRowsData.topRated);
+            renderRow('grid-all-contents', sortedRowsData.allContents);
+        }
+
+        function renderRow(targetId, dataset) {
+            const container = document.getElementById(targetId);
+            container.innerHTML = '';
+            dataset.forEach(movie => container.appendChild(createMovieCard(movie)));
+        }
+
+        function createMovieCard(movie) {
+            const div = document.createElement('div');
+            div.className = "movie-card min-w-[110px] sm:min-w-[155px] bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl flex-shrink-0 group";
+            div.innerHTML = `
+                <div class="relative w-full pt-[142%] bg-slate-950">
+                    <img src="${movie.poster}" alt="${movie.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-103 transition duration-500" loading="lazy">
+                    <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/90 to-transparent p-2 md:p-2.5 pt-8">
+                        <h4 class="text-[10px] sm:text-[11px] font-bold truncate text-gray-100 group-hover:text-yellow-500 transition">${cleanTitle(movie.title)}</h4>
+                        <div class="flex justify-between items-center mt-0.5 text-[8px] sm:text-[9px] text-gray-400 font-bold">
+                            <span>${extractSafeYear(movie)}</span>
+                            <span class="text-yellow-500">⭐ ${movie.rating}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            div.onclick = () => openDetailsPage(movie);
+            return div;
+        }
+
+        function populateGenreDropdown() {
+            globalMoviesData.forEach(m => {
+                if(m.categories) m.categories.forEach(cat => {
+                    if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio", "Multi Audio"].includes(cat)) allGenresCollected.add(cat);
+                });
+            });
+            const select = document.getElementById('filter-genre');
+            select.innerHTML = '<option value="all">All Genres</option>';
+            allGenresCollected.forEach(genre => select.innerHTML += `<option value="${genre}">${genre}</option>`);
+        }
+
+        function openAdvancedExplorerPage() {
+            document.getElementById('home-view-container').classList.replace('block', 'hidden');
+            document.getElementById('details-view-container').classList.replace('block', 'hidden');
+            document.getElementById('explorer-view-container').classList.replace('hidden', 'block');
+            document.getElementById('advanced-filter-panel').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            document.getElementById('see-more-title').innerText = "🌐 All Contents Master Catalog";
+            applyAdvancedFiltersEngine();
+        }
+
+        function applyAdvancedFiltersEngine() {
+            const targetGenre = document.getElementById('filter-genre').value;
+            const targetAudio = document.getElementById('filter-lang').value;
+            const targetQuality = document.getElementById('filter-quality').value;
+            const targetMinRating = parseFloat(document.getElementById('filter-rating').value);
+            const targetSort = document.getElementById('filter-sort').value;
+
+            let filteredResult = [...globalMoviesData];
+
+            if(targetGenre !== 'all') filteredResult = filteredResult.filter(m => m.categories && m.categories.includes(targetGenre));
+            if(targetAudio !== 'all') {
+                filteredResult = filteredResult.filter(m => {
+                    const track = m.detectedAudio;
+                    if(targetAudio === 'bangla') return track.includes('Bangla');
+                    if(targetAudio === 'multi-audio') return track.includes('Multi');
+                    if(targetAudio === 'hindi') return track.includes('Hindi');
+                    if(targetAudio === 'english') return track.includes('English');
+                    return true;
+                });
+            }
+            if(targetQuality !== 'all') {
+                filteredResult = filteredResult.filter(m => {
+                    const str = ((m.id || "") + " " + (m.title || "")).toLowerCase();
+                    if(targetQuality === 'web') return str.includes('web');
+                    if(targetQuality === 'bluray') return str.includes('bluray') || str.includes('hdrip');
+                    if(targetQuality === 'predvd') return str.includes('predvd') || str.includes('hdtc') || str.includes('cam');
+                    return true;
+                });
+            }
+            if(targetMinRating > 0) filteredResult = filteredResult.filter(m => m.rating >= targetMinRating);
+
+            if(targetSort === 'latest') filteredResult.sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+            else if(targetSort === 'views') filteredResult.sort((a, b) => b.views - a.views);
+            else if(targetSort === 'rating') filteredResult.sort((a, b) => b.rating - a.rating);
+
+            const grid = document.getElementById('see-more-grid');
+            grid.innerHTML = '';
+            if(filteredResult.length === 0) {
+                grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-12 text-center">No structural entries matching metadata found.</span>`;
+                return;
+            }
+            filteredResult.forEach(movie => {
+                const card = createMovieCard(movie);
+                card.className = "movie-card bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl w-full group";
+                grid.appendChild(card);
+            });
+        }
+
+        function viewAllAlgorithmic(type) {
+            document.getElementById('home-view-container').classList.replace('block', 'hidden');
+            document.getElementById('details-view-container').classList.replace('block', 'hidden');
+            document.getElementById('explorer-view-container').classList.replace('hidden', 'block');
+            document.getElementById('advanced-filter-panel').classList.add('hidden'); 
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            let list = []; let text = "";
+            if(type === 'bangla') { list = sortedRowsData.bangla; text = "Bangla"; }
+            else if(type === 'new-release') { list = sortedRowsData.newRelease; text = "New Release"; }
+            else if(type === 'recent-release') { list = sortedRowsData.recentRelease; text = "Recent Release"; }
+            else if(type === 'trending') { list = sortedRowsData.trending; text = "Trending Now"; }
+            else if(type === 'top-rated') { list = sortedRowsData.topRated; text = "Top Rated"; }
+
+            document.getElementById('see-more-title').innerText = `🔥 ${text} Rows Explorer`;
+            const grid = document.getElementById('see-more-grid'); 
+            grid.innerHTML = '';
+            list.forEach(movie => {
+                const card = createMovieCard(movie);
+                card.className = "movie-card bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl w-full group";
+                grid.appendChild(card);
+            });
+        }
+
+        function backToHomeView() {
+            document.getElementById('explorer-view-container').classList.replace('block', 'hidden');
+            document.getElementById('details-view-container').classList.replace('block', 'hidden');
+            document.getElementById('home-view-container').classList.replace('hidden', 'block');
+            document.getElementById('search-bar').value = '';
+            
+            // টাচ গেট রিসেট ও হাইড করা
+            const gate = document.getElementById('iframe-touch-gate');
+            if(gate) gate.classList.add('hidden');
+            
+            processAlgorithmicRows();
+        }
+
+        async function openDetailsPage(movie) {
+            currentViewingMovieObj = movie;
+            tmdbCastsBackup = [];
+            document.getElementById('home-view-container').classList.replace('block', 'hidden');
+            document.getElementById('explorer-view-container').classList.replace('block', 'hidden');
+            document.getElementById('details-view-container').classList.replace('hidden', 'block');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            document.getElementById('details-title').innerText = cleanTitle(movie.title);
+            document.getElementById('details-year').innerText = extractSafeYear(movie);
+            document.getElementById('details-rating').innerText = `⭐ ${movie.rating}`;
+            document.getElementById('details-views').innerText = `Views: ${movie.views.toLocaleString()}`;
+            document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis parsing verified.";
+            document.getElementById('details-meta-audio').innerText = movie.detectedAudio;
+            document.getElementById('details-video-iframe').src = "";
+            
+            // টাচ গেট রিসেট করা
+            const gate = document.getElementById('iframe-touch-gate');
+            if(gate) gate.classList.add('hidden');
+            
+            const serverContainer = document.getElementById('details-server-container');
+            serverContainer.innerHTML = '';
+            document.getElementById('player-shield').classList.remove('hidden');
+
+            if (movie.players && movie.players.length > 0) {
+                activePlayerSrc = movie.players[0].player_url;
+                movie.players.forEach((player, index) => {
+                    const btn = document.createElement('button');
+                    btn.className = `px-4 py-1.5 rounded-lg text-[11px] font-black uppercase transition ${index === 0 ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800'}`;
+                    btn.innerText = `Server ${index + 1}`;
+                    btn.onclick = function() {
+                        Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase');
+                        btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
+                        activePlayerSrc = player.player_url;
+                        document.getElementById('player-shield').classList.remove('hidden');
+                        
+                        const innerGate = document.getElementById('iframe-touch-gate');
+                        if(innerGate) innerGate.classList.add('hidden');
+                        
+                        document.getElementById('details-video-iframe').src = "";
+                        cacheUserPlaybackPreferences(movie);
+                    };
+                    serverContainer.appendChild(btn);
+                });
+            }
+            fetchDeepTMDBData(movie.id, movie.categories, movie);
+        }
+
+        // 🌟 CLONE INTERCEPTION & AD-DESTRUCTOR ENGINE
+        function activatePlayerFrame(event) {
+            // ইউজারের টাচ ইভেন্টকে মাঝপথে আটকে দেওয়া, যাতে ব্রাউজার লেভেলে কোনো পপ-আপ স্ক্রিপ্ট রান করার সুযোগ না পায়
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            
+            document.getElementById('player-shield').classList.add('hidden');
+            
+            // টাচ গেট সচল করা যা পরবর্তী সব অবৈধ ক্লিক লক করবে
+            const gate = document.getElementById('iframe-touch-gate');
+            if(gate) gate.classList.remove('hidden');
+            
+            const iframe = document.getElementById('details-video-iframe');
+            let finalSrc = activePlayerSrc;
+            
+            // অটো-প্লে প্যারামিটার ইন্টিগ্রেশন
+            if (!finalSrc.includes('autoplay=')) {
+                finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
+            }
+            
+            // গ্লোবাল উইন্ডো ওপেন ইঞ্জিন কঠোরভাবে ডিজেবল
+            window.open = function() { return null; };
+            
+            iframe.src = finalSrc;
+            
+            iframe.onload = function() {
+                try {
+                    if(iframe.contentWindow) {
+                        iframe.contentWindow.open = function() { return null; };
+                    }
+                    // আইফ্রেমের সেন্টারে ক্লিক ইভেন্ট পুশ লক করা (ফোর্স অটো-প্লে এসিস্ট)
+                    iframe.focus();
+                } catch(e) {
+                    setTimeout(() => { iframe.focus(); }, 200);
+                }
+            };
+
+            // মোবাইল ফোকাস লকিং লেয়ার
+            window.addEventListener('blur', function() {
+                if (document.activeElement === iframe) {
+                    setTimeout(() => { window.focus(); }, 100);
+                }
+            });
+
+            if(currentViewingMovieObj) cacheUserPlaybackPreferences(currentViewingMovieObj);
+        }
+
+        function cacheUserPlaybackPreferences(movie) {
+            try {
+                let history = JSON.parse(localStorage.getItem('mp_genre_history')) || [];
+                if(movie.categories) {
+                    movie.categories.forEach(cat => {
+                        if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio", "Multi Audio"].includes(cat)) history.push(cat);
+                    });
+                }
+                if(history.length > 40) history = history.slice(-40);
+                localStorage.setItem('mp_genre_history', JSON.stringify(history));
+            } catch(e) {}
+        }
+
+        async function fetchDeepTMDBData(tmdbIdStr, localCategories, currentMovie) {
+            const castContainer = document.getElementById('cast-cards-container');
+            const genreContainer = document.getElementById('details-genres-box');
+            castContainer.innerHTML = ''; genreContainer.innerHTML = '';
+            document.getElementById('details-meta-country').innerText = "--";
+            document.getElementById('details-meta-runtime').innerText = "--";
+
+            const restrictedGenreKeywords = [
+                'movies', 'web series', 'bangla', 'bengali', 'hindi', 'english', 'tamil', 
+                'dual audio', 'multi audio', 'new release', 'recent release', 'recent', 
+                'trending', 'trending now', 'top rated'
+            ];
+
+            if(localCategories) {
+                localCategories.forEach(cat => {
+                    const normalizedCat = cat.toLowerCase().trim();
+                    if(!restrictedGenreKeywords.includes(normalizedCat)) {
+                        const span = document.createElement('span');
+                        span.className = "bg-slate-900 border border-slate-800 text-yellow-500 text-[9px] font-black px-2.5 py-0.5 rounded-full uppercase";
+                        span.innerText = cat;
+                        genreContainer.appendChild(span);
+                    }
+                });
+            }
+
+            if(!tmdbIdStr || !tmdbIdStr.includes('_')) {
+                renderAdvancedRecommendedContent(currentMovie, []);
+                return;
+            }
+            const parts = tmdbIdStr.split('_');
+            const url = `https://api.themoviedb.org/3/${parts[0]}/${parts[1]}?api_key=${TMDB_KEY}&append_to_response=credits`;
+            
+            try {
+                const response = await fetch(url);
+                const res = await response.json();
+                if(res.overview) document.getElementById('details-desc').innerText = res.overview;
+                if(res.runtime) document.getElementById('details-meta-runtime').innerText = `${res.runtime} min`;
+                if(res.production_countries && res.production_countries.length > 0) document.getElementById('details-meta-country').innerText = res.production_countries.map(c => c.name).join(', ');
+
+                let apiGenreNames = [];
+                if(res.genres) {
+                    res.genres.forEach(g => {
+                        const normalizedGName = g.name.toLowerCase().trim();
+                        if(!restrictedGenreKeywords.includes(normalizedGName)) {
+                            apiGenreNames.push(g.name);
+                            const existingSpans = Array.from(genreContainer.querySelectorAll('span')).map(s => s.innerText.toLowerCase());
+                            if(!existingSpans.includes(normalizedGName)) {
+                                const span = document.createElement('span');
+                                span.className = "bg-slate-900 border border-slate-800 text-yellow-500 text-[9px] font-black px-2.5 py-0.5 rounded-full uppercase";
+                                span.innerText = g.name; 
+                                genreContainer.appendChild(span);
+                            }
+                        }
+                    });
+                }
+                const casts = res.credits?.cast?.slice(0, 6) || [];
+                casts.forEach(c => {
+                    tmdbCastsBackup.push(c.name.toLowerCase());
+                    const profile = c.profile_path ? `https://image.tmdb.org/t/p/w185${c.profile_path}` : 'https://via.placeholder.com/150x200?text=Actor';
+                    const div = document.createElement('div');
+                    div.className = "bg-slate-950 rounded-lg p-1 text-center border border-white/5";
+                    div.innerHTML = `<img src="${profile}" class="w-full h-12 object-cover rounded mb-0.5"><h5 class="text-[8px] text-gray-300 truncate font-bold">${c.name}</h5>`;
+                    castContainer.appendChild(div);
+                });
+                renderAdvancedRecommendedContent(currentMovie, apiGenreNames);
+            } catch(e) { renderAdvancedRecommendedContent(currentMovie, []); }
+        }
+
+        function renderAdvancedRecommendedContent(currentMovie, tmdbGenres) {
+            try {
+                const container = document.getElementById('grid-similar-content');
+                container.innerHTML = '';
+                const cleanDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m) && m.id !== currentMovie.id);
+                let userHistoryGenres = [];
+                try { userHistoryGenres = JSON.parse(localStorage.getItem('mp_genre_history')) || []; } catch(e){}
+
+                let scoredCollection = [];
+                let currentTitleCleaned = cleanTitle(currentMovie.title).toLowerCase();
+                let franchiseKeywords = currentTitleCleaned.split(' ').filter(word => word.length > 3 && !['chapter', 'part', 'movie', 'season', 'the', 'return'].includes(word));
+
+                cleanDataset.forEach(movie => {
+                    let score = 0;
+                    let loopTitleCleaned = cleanTitle(movie.title).toLowerCase();
+
+                    if(franchiseKeywords.some(keyword => loopTitleCleaned.includes(keyword))) score += 50;
+                    if(movie.categories) {
+                        movie.categories.forEach(cat => { if(userHistoryGenres.includes(cat)) score += 10; });
+                    }
+                    if(movie.categories && tmdbGenres && tmdbGenres.length > 0) {
+                        movie.categories.forEach(cat => { if(tmdbGenres.includes(cat)) score += 15; });
+                    }
+                    if(movie.details && tmdbCastsBackup && tmdbCastsBackup.length > 0) {
+                        let summary = movie.details.toLowerCase();
+                        tmdbCastsBackup.forEach(actor => { if(summary.includes(actor)) score += 8; });
+                    }
+                    if(movie.detectedAudio === currentMovie.detectedAudio) score += 4;
+
+                    scoredCollection.push({ movie: movie, score: score });
+                });
+
+                scoredCollection.sort((a, b) => b.score - a.score);
+                let finalRecommendedNodes = scoredCollection.slice(0, 12).map(item => item.movie);
+                
+                if(!finalRecommendedNodes || finalRecommendedNodes.length < 5) {
+                    let fillers = cleanDataset.filter(m => !finalRecommendedNodes.some(f => f.id === m.id)).slice(0, 10);
+                    finalRecommendedNodes = [...finalRecommendedNodes, ...fillers];
+                }
+                finalRecommendedNodes.slice(0, 10).forEach(movie => container.appendChild(createMovieCard(movie)));
+            } catch(e) {
+                const container = document.getElementById('grid-similar-content');
+                globalMoviesData.filter(m => !isAdultContentFlagged(m) && m.id !== currentMovie.id).slice(0, 10).forEach(m => container.appendChild(createMovieCard(m)));
+            }
+        }
+
+        document.getElementById('search-bar').addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase().trim();
+            if(query.length > 0) {
+                document.getElementById('home-view-container').classList.replace('block', 'hidden');
+                document.getElementById('details-view-container').classList.replace('block', 'hidden');
+                document.getElementById('explorer-view-container').classList.replace('hidden', 'block');
+                document.getElementById('advanced-filter-panel').classList.add('hidden');
+                document.getElementById('see-more-title').innerText = `🔍 Search Results for "${query}"`;
+                const grid = document.getElementById('see-more-grid'); grid.innerHTML = '';
+                
+                const filtered = globalMoviesData.filter(m => m.title.toLowerCase().includes(query));
+                if(filtered.length === 0) {
+                    grid.innerHTML = `<span class="text-xs text-gray-500 col-span-full py-6">No matching database index discovered.</span>`;
+                    return;
+                }
+                filtered.forEach(movie => {
+                    const card = createMovieCard(movie);
+                    card.className = "movie-card bg-slate-900/40 rounded-xl overflow-hidden cursor-pointer relative shadow-xl w-full group";
+                    grid.appendChild(card);
+                });
+            } else { backToHomeView(); }
+        });
+
+        document.addEventListener("DOMContentLoaded", initMovieplex);
+    </script>
 </body>
 </html>
