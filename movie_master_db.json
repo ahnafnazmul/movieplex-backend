@@ -8557,6 +8557,18 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=4243034716575fd12b50125c46c2ba1d&t=1784379216"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/8412f6b5f03e2bbb6f6cfbd4164fe429.mp4?sign=674f208af4f8142a0a9cd95b51772bcf&t=1784437415",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=22ec5c14445e72632b7fad93dec20d75&t=1784437415",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -31360,6 +31372,119 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/21/642c5aa0608691f66d99ca0f95e7b862-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_292107",
+        "type": "series",
+        "title": "Painter of the Night",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/7KbDzA6K1R1wISpRO1UFrqwUt72.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/c2R67S7dkSEIx3zliojlK2quVZu.jpg",
+        "rating": 8.0,
+        "release_date": "2026-05-28",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kim Kang-jae",
+                "image": "https://image.tmdb.org/t/p/w185/xKsJOjkZWmY9bM5JBoyjxA8VCJv.jpg"
+            },
+            {
+                "name": "Ji Min-seo",
+                "image": "https://image.tmdb.org/t/p/w185/1ghqpEo9wanKQ9ybyN8OkhwZjnG.jpg"
+            },
+            {
+                "name": "Jung Hae-kyun",
+                "image": "https://image.tmdb.org/t/p/w185/7aQvZovyPuVGVrvc694ThJVYeMK.jpg"
+            },
+            {
+                "name": "Hwang Dong-hee",
+                "image": "https://image.tmdb.org/t/p/w185/2NBv9LkThP05PZQWKnNDao0Qq5h.jpg"
+            },
+            {
+                "name": "Lee Jin-hwan",
+                "image": "https://image.tmdb.org/t/p/w185/rd8SxZ8kdlB6Pc0pheE7lpkesPP.jpg"
+            }
+        ],
+        "details": "A young artist who creates homoerotic scenes finds himself entangled in a complicated relationship with a nobleman who has an obsessive interest in both his artwork and himself.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/15/09e696e6c7c97af0a81f9513ef8880b5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/15/09e696e6c7c97af0a81f9513ef8880b5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1305781",
+        "type": "movie",
+        "title": "Blades of the Guardians",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=7jkL4-uYriY",
+        "poster": "https://image.tmdb.org/t/p/w500/R84km7PJ0frFSNPmvIjG6LV1kg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wHwoA0K8GO5vTcOSro8viyfxf6m.jpg",
+        "rating": 7.1,
+        "release_date": "2026-02-17",
+        "runtime": "126 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Wu Jing",
+                "image": "https://image.tmdb.org/t/p/w185/cFuATO6PnffJXtsYF7BRqhCXlwe.jpg"
+            },
+            {
+                "name": "Nicholas Tse Ting-Fung",
+                "image": "https://image.tmdb.org/t/p/w185/2oqpaOhEoKLdM4dePxOHJrI45n.jpg"
+            },
+            {
+                "name": "Chen Lijun",
+                "image": "https://image.tmdb.org/t/p/w185/wD9Y9ZXtaUI8ISJW3Q1YgJy3Gkk.jpg"
+            },
+            {
+                "name": "Yu Shi",
+                "image": "https://image.tmdb.org/t/p/w185/xIzHhuScL4wbm2zmHxtnfpBFqcs.jpg"
+            },
+            {
+                "name": "Sun Yizhou",
+                "image": "https://image.tmdb.org/t/p/w185/7LrjgcfjklPW6AyC4sxaNx6z089.jpg"
+            }
+        ],
+        "details": "Dao Ma, the \"second most wanted fugitive,\" is entrusted by his benefactor, the chief of Mo family clan, to take on a mysterious escort mission-escorting the \"most wanted fugitive\" to Chang'an.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/12/c7b70451b85b30cf59d9985d91209c3c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/12/c7b70451b85b30cf59d9985d91209c3c-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
