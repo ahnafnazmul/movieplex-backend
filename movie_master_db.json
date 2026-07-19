@@ -4513,7 +4513,9 @@
         "release_date": "2026-01-22",
         "runtime": "N/A min",
         "categories": [
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -5113,7 +5115,8 @@
             "Romance",
             "Thriller",
             "Movies",
-            "Hindi"
+            "Hindi",
+            "English"
         ],
         "cast": [
             {
@@ -5887,7 +5890,9 @@
         "runtime": "45 min",
         "categories": [
             "Drama",
-            "Mystery"
+            "Mystery",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -31608,5 +31613,171 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_287641",
+        "type": "series",
+        "title": "Dazzling",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/5UgLISE15oNSDzCcIgLIXvlIWxx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tUa9PJj8Rtre15W9XAaryFoctJZ.jpg",
+        "rating": 7.5,
+        "release_date": "2026-05-27",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Guan Xiaotong",
+                "image": "https://image.tmdb.org/t/p/w185/b48jZXCEzBLMHZoTuAHLMXayWqE.jpg"
+            },
+            {
+                "name": "Li Yunrui",
+                "image": "https://image.tmdb.org/t/p/w185/lmWu3qwmdwGv9qmcS3vbjj5Bkao.jpg"
+            },
+            {
+                "name": "Gao Lu",
+                "image": "https://image.tmdb.org/t/p/w185/q4ubJjkZoHV48CKc8FOZD3KZHXa.jpg"
+            },
+            {
+                "name": "Nina Paw Hei-Ching",
+                "image": "https://image.tmdb.org/t/p/w185/wQFuXG8F4LIMcO2vtH5IxBGE5wx.jpg"
+            }
+        ],
+        "details": "After a family emergency, Qing Ye returned to her hometown in her senior year of high school. Finding it difficult to adjust after spending most of her life in a bustling city, Qing Ye vows to leave as soon as she gets a chance. But when she meets Xing Wu, a local teen who's struggling with school, she resolves to help him graduate. Gradually, Xing Wu and Qing Ye grow closer to each other, despite their different personalities and priorities in life. Upon graduating high school, Qing Ye moves away for university, but ends up returning years later – and so does Xing Wu, who still has feelings for Qing Ye. Will this second chance give them a chance to finally realize their feelings for each other?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/27/4a96392f934973244aab93d057d040c2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/27/4a96392f934973244aab93d057d040c2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_92782",
+        "type": "series",
+        "title": "Ms. Marvel",
+        "release_year": 2022,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=m9EX0f6V11Y",
+        "poster": "https://image.tmdb.org/t/p/w500/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mfcLUWASJghU8MTNK38eYktfE83.jpg",
+        "rating": 6.3,
+        "release_date": "2022-06-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy",
+            "Action & Adventure",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Iman Vellani",
+                "image": "https://image.tmdb.org/t/p/w185/oBpOjLAH8heYNNJZN1Z5jVQhAKC.jpg"
+            },
+            {
+                "name": "Matt Lintz",
+                "image": "https://image.tmdb.org/t/p/w185/oeOU0Hdwt6UCIiRILU1plMAq7VA.jpg"
+            },
+            {
+                "name": "Yasmeen Fletcher",
+                "image": "https://image.tmdb.org/t/p/w185/dlFwMUnYiO4TqdlnDjA7cHEfWoh.jpg"
+            },
+            {
+                "name": "Zenobia Shroff",
+                "image": "https://image.tmdb.org/t/p/w185/fwU2vIUq9W9eXRKxx9r3papdOkS.jpg"
+            },
+            {
+                "name": "Mohan Kapur",
+                "image": "https://image.tmdb.org/t/p/w185/lL0J5DBOwN1pwLCvuo7uQ0ApjF.jpg"
+            }
+        ],
+        "details": "A great student, avid gamer, and voracious fan-fic scribe, Kamala Khan has a special affinity for superheroes, particularly Captain Marvel. However, she struggles to fit in at home and at school — that is, until she gets superpowers like the heroes she’s always looked up to. Life is easier with superpowers, right?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/12/12/75931bac2e2c455ab1c6717a79837359-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/12/12/75931bac2e2c455ab1c6717a79837359-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1430077",
+        "type": "movie",
+        "title": "Hokum",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=qU_i5e48KzQ",
+        "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qY7zVZ7liULhfRoXg4c9Xl83LcR.jpg",
+        "rating": 6.9,
+        "release_date": "2026-04-29",
+        "runtime": "108 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Adam Scott",
+                "image": "https://image.tmdb.org/t/p/w185/b82C29R6fGiPoqIglQ4lzS6q2YX.jpg"
+            },
+            {
+                "name": "Peter Coonan",
+                "image": "https://image.tmdb.org/t/p/w185/4CIPj53v871Gwwyean91BhXesfW.jpg"
+            },
+            {
+                "name": "David Wilmot",
+                "image": "https://image.tmdb.org/t/p/w185/epb46N0iJyAmSOguMdFn6qQGSsy.jpg"
+            },
+            {
+                "name": "Florence Ordesh",
+                "image": "https://image.tmdb.org/t/p/w185/vOSd53O4QOjZUl9U8LIP84lrvGk.jpg"
+            },
+            {
+                "name": "Will O'Connell",
+                "image": "https://image.tmdb.org/t/p/w185/9aQlrstSFoKQdsCigFWQibyfZhW.jpg"
+            }
+        ],
+        "details": "When novelist Ohm Bauman retreats to a remote inn to scatter his parents' ashes, he is consumed by tales of a witch haunting the honeymoon suite. Disturbing visions and a shocking disappearance forces him to confront dark corners of his past.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/28/6a0d6b68a55f4f88957778c631976c7a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/28/6a0d6b68a55f4f88957778c631976c7a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
