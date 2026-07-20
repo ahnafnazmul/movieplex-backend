@@ -7119,6 +7119,18 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://rtally.embedseek.com/#bhb9r"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/13/5c1f57d944c0fc8467e8e8ef9903d2c8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/13/5c1f57d944c0fc8467e8e8ef9903d2c8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "rtally"
@@ -32829,5 +32841,222 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1292415",
+        "type": "movie",
+        "title": "Beast",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=yJN2mJ4uOas",
+        "poster": "https://image.tmdb.org/t/p/w500/7NrvUI3vnW8H3rD7ExKcTL7KRcQ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vmdt6nUXYX4mM0Ahcvh4bgHOjUt.jpg",
+        "rating": 6.2,
+        "release_date": "2026-04-10",
+        "runtime": "115 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Daniel MacPherson",
+                "image": "https://image.tmdb.org/t/p/w185/aBvJnrSlzXeU8K3glUa6XQ6nbuK.jpg"
+            },
+            {
+                "name": "Luke Hemsworth",
+                "image": "https://image.tmdb.org/t/p/w185/djq5j4VVUxpnCvrTnqaax4n3pqD.jpg"
+            },
+            {
+                "name": "Russell Crowe",
+                "image": "https://image.tmdb.org/t/p/w185/uxiXuVH4vNWrKlJMVVPG1sxAJFe.jpg"
+            },
+            {
+                "name": "Mojean Aria",
+                "image": "https://image.tmdb.org/t/p/w185/v5W5lpuAWSDVMokU0RKGkHDT2rj.jpg"
+            },
+            {
+                "name": "Kelly Gale",
+                "image": "https://image.tmdb.org/t/p/w185/bU9w5FITuN7TUa9VxFH3whhXFkP.jpg"
+            }
+        ],
+        "details": "MMA legend Patton James, now a commercial fisherman, is pulled back into the cage when his brother is in danger. Reuniting with his old coach Sammy, he commits to one final fight in one championship against the brutal champion Xavier Grau.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/30/a07bd584fb4af53ecc3b81ea7b0a91e9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/03/30/a07bd584fb4af53ecc3b81ea7b0a91e9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1523145",
+        "type": "movie",
+        "title": "Your Heart Will Be Broken",
+        "release_year": 2026,
+        "original_language": "ru",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/7wIBfBl2gejt6xHxNSK0reVIm7E.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1x9e0qWonw634NhIsRdvnneeqvN.jpg",
+        "rating": 7.1,
+        "release_date": "2026-03-26",
+        "runtime": "134 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Daniel Vegas",
+                "image": "https://image.tmdb.org/t/p/w185/t9AFZX1rpTt59npITX2GY3JgySd.jpg"
+            },
+            {
+                "name": "Veronika Zhuravleva",
+                "image": "https://image.tmdb.org/t/p/w185/bvlry6DeiYkm0onAZhonlpl4J7.jpg"
+            },
+            {
+                "name": "Ivan Trushin",
+                "image": "https://image.tmdb.org/t/p/w185/8DWSEUJnxlr7kTP0O8iOSnsqbcs.jpg"
+            },
+            {
+                "name": "Maksim Saprykin",
+                "image": "https://image.tmdb.org/t/p/w185/u6c2wEvtqhXHyYRqd2LXKsyHr5a.jpg"
+            },
+            {
+                "name": "Alya Mayer",
+                "image": ""
+            }
+        ],
+        "details": "High school student Polina is saved from bullying at her new school and makes a deal with the main bully Bars: he must pretend to be her boyfriend and protect her, and she must do everything he says. During this game, the couple develops real feelings, but her family and classmates have reasons to separate the lovers.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/18/02a6e56503c67418ff368d07dc6d7340-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/18/02a6e56503c67418ff368d07dc6d7340-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_299365",
+        "type": "series",
+        "title": "Reborn Rookie",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=C1Dipc12CtY",
+        "poster": "https://image.tmdb.org/t/p/w500/kPHv37XVpyWCsae3gtHujw1wPyW.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nxOsQE8UrifZpQ9hcZ7xjMHEbmn.jpg",
+        "rating": 8.2,
+        "release_date": "2026-05-30",
+        "runtime": "60 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Lee Jun-young",
+                "image": "https://image.tmdb.org/t/p/w185/zH8kiGox6n3FD82MKEhUq79X6gj.jpg"
+            },
+            {
+                "name": "Son Hyun-joo",
+                "image": "https://image.tmdb.org/t/p/w185/pOpqydpiDrXvd9ynZEt8GQl6yJD.jpg"
+            },
+            {
+                "name": "Lee Ju-myoung",
+                "image": "https://image.tmdb.org/t/p/w185/3QpMVrG7fQH0QIfvlc5LczKGTW7.jpg"
+            },
+            {
+                "name": "Jeon Hye-jin",
+                "image": "https://image.tmdb.org/t/p/w185/7PliJIOzUei41vyE9FaIWvFMNzC.jpg"
+            },
+            {
+                "name": "Jin Goo",
+                "image": "https://image.tmdb.org/t/p/w185/jL0bhHE8vIEomP1Zdz3a0ryXXgk.jpg"
+            }
+        ],
+        "details": "After a powerful conglomerate chairman is betrayed by his children and wakes up in the body of a young soccer player, he uses his business genius and athletic physique to seek ultimate revenge against his family.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/3cd5ba3db57d9943f86d2d9330488b80-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/3cd5ba3db57d9943f86d2d9330488b80-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_235685",
+        "type": "series",
+        "title": "The Pendragon Cycle: Rise of the Merlin",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=RkmT-kZIHNU",
+        "poster": "https://image.tmdb.org/t/p/w500/jJfk8NXauN4UgFQ1qn9lFzEk7ib.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lDmFwAaHL1kXnAfZeUTieAdUTko.jpg",
+        "rating": 7.5,
+        "release_date": "2026-01-22",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy",
+            "Action & Adventure",
+            "Family",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Tom Sharp",
+                "image": "https://image.tmdb.org/t/p/w185/hdG7WkimU65SJhD9V3kC2UIveps.jpg"
+            },
+            {
+                "name": "Rose Reid",
+                "image": "https://image.tmdb.org/t/p/w185/mtYxHu4GC3Imdf0jwF5OOy8Sv0T.jpg"
+            }
+        ],
+        "details": "Merlin, the immortal son of the bard Taliesin and Atlantean Princess Charis, is followed through his tragic upbringing, descent into madness, and shocking disappearance, leading to the legend that surrounds him. Set before King Arthur's birth, Merlin, assumed dead or a myth, reemerges in sub-Roman Britain to unite the fractured kingdoms under threat from Saxon invaders.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/24/363d5f56b1aac3ecbd83759dde0134c0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/24/363d5f56b1aac3ecbd83759dde0134c0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
