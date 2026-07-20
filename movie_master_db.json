@@ -3844,7 +3844,9 @@
         "release_date": "2021-12-26",
         "runtime": "43 min",
         "categories": [
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -5591,7 +5593,9 @@
         "categories": [
             "Drama",
             "Comedy",
-            "Crime"
+            "Crime",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -5681,7 +5685,9 @@
         "release_date": "2026-06-27",
         "runtime": "N/A min",
         "categories": [
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -5770,7 +5776,9 @@
         "release_date": "2026-06-10",
         "runtime": "N/A min",
         "categories": [
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -5860,7 +5868,9 @@
         "categories": [
             "Action",
             "Crime",
-            "Thriller"
+            "Thriller",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -32355,6 +32365,64 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/19/7b5f0450e26b301c7f473243e6216a39-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_278113",
+        "type": "series",
+        "title": "Gold Land",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=DvBcZSAReF0",
+        "poster": "https://image.tmdb.org/t/p/w500/qhbwTTeSnIGctR4CEmHc9RQBwtT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kuLhcTkriaiXYYdKGS9yt0AX4F4.jpg",
+        "rating": 7.9,
+        "release_date": "2026-04-29",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Park Bo-young",
+                "image": "https://image.tmdb.org/t/p/w185/x1LNh8i8XmO3oqNYzRslzYj1VoZ.jpg"
+            },
+            {
+                "name": "Kim Sung-cheol",
+                "image": "https://image.tmdb.org/t/p/w185/nR9r7iBvuLJJYvIxqbyzpWtsO6q.jpg"
+            },
+            {
+                "name": "Lee Hyun-wook",
+                "image": "https://image.tmdb.org/t/p/w185/hU8tF6BsZdhDWtQk7rItZ4CiJwR.jpg"
+            },
+            {
+                "name": "Lee Kwang-soo",
+                "image": "https://image.tmdb.org/t/p/w185/eqjZXCV4EutnoVxZwOveK6Nl5W9.jpg"
+            },
+            {
+                "name": "Kim Hie-won",
+                "image": "https://image.tmdb.org/t/p/w185/sDCxskfmmNidOjV2LwsWh9dAVbN.jpg"
+            }
+        ],
+        "details": "A young woman working as an airport security agent accidentally comes into possession of a smuggling ring’s gold bars. Caught in a chaotic whirlwind of greed and betrayal among various parties vying for the gold, she becomes consumed by the desire to claim it all for herself.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/250c4129816deb8c317613859648626a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/250c4129816deb8c317613859648626a-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
