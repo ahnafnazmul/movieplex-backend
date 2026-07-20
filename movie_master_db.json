@@ -4606,7 +4606,9 @@
         "release_date": "2003-11-03",
         "runtime": "60 min",
         "categories": [
-            "Reality"
+            "Reality",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -32602,5 +32604,230 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1301421",
+        "type": "movie",
+        "title": "The Sheep Detectives",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=826SRt1CFbg",
+        "poster": "https://image.tmdb.org/t/p/w500/mGWOmj2jHFol3kOGNv1EhbSDDE1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/a8uQvrplTkhGJQog6GZ6CqF8An6.jpg",
+        "rating": 7.9,
+        "release_date": "2026-04-30",
+        "runtime": "114 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Family",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Hugh Jackman",
+                "image": "https://image.tmdb.org/t/p/w185/4Xujtewxqt6aU0Y81tsS9gkjizk.jpg"
+            },
+            {
+                "name": "Nicholas Braun",
+                "image": "https://image.tmdb.org/t/p/w185/b2I6bZptuld3pjlVkYIy4DtMKGg.jpg"
+            },
+            {
+                "name": "Nicholas Galitzine",
+                "image": "https://image.tmdb.org/t/p/w185/hG4rH7eBMs117746bBOd8fUa4PA.jpg"
+            },
+            {
+                "name": "Molly Gordon",
+                "image": "https://image.tmdb.org/t/p/w185/5sMIadZ0CIL7IUCJHnqO4ZFsdEM.jpg"
+            },
+            {
+                "name": "Julia Louis-Dreyfus",
+                "image": "https://image.tmdb.org/t/p/w185/iEfHQNrVbVFesDPjdySom9nqsFg.jpg"
+            }
+        ],
+        "details": "George Hardy is a shepherd who reads detective novels to his beloved sheep every night, assuming they can't possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/27/17aad8dfbb04d677d0ec96b9ea8ad7a7-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/27/17aad8dfbb04d677d0ec96b9ea8ad7a7-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1473505",
+        "type": "movie",
+        "title": "Kill Trip",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Ay_sd39xtBo",
+        "poster": "https://image.tmdb.org/t/p/w500/qHEXW63p1NcuoyCGQHDroi4HV9V.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9NkPCbhywlcINLUKQOGNHNp1ALk.jpg",
+        "rating": 7.5,
+        "release_date": "2026-07-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Tate Christensen",
+                "image": ""
+            },
+            {
+                "name": "Diletta Guglielmi",
+                "image": "https://image.tmdb.org/t/p/w185/fwXzwgfdElehXvkNKXv7RjjbuMl.jpg"
+            },
+            {
+                "name": "Stelio Savante",
+                "image": "https://image.tmdb.org/t/p/w185/8c7Zzo91E4Jy8yWIgtwGvgdN4Si.jpg"
+            },
+            {
+                "name": "Corin Nemec",
+                "image": "https://image.tmdb.org/t/p/w185/vndALqWdbdM4IMMU6CTmOCMjzEA.jpg"
+            },
+            {
+                "name": "Brian Latimer",
+                "image": "https://image.tmdb.org/t/p/w185/1RhN9DNJbaS52tKYhMMIUBxIH9G.jpg"
+            }
+        ],
+        "details": "On the way to a Texas music festival, a group of friends catches a ride with a magnetic van driver. But when people start vanishing, the real headliner becomes survival.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/09/15d60a2930a4ecf7e44119c4abd74763-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/09/15d60a2930a4ecf7e44119c4abd74763-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_246412",
+        "type": "series",
+        "title": "The Copenhagen Test",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=cfTcNb104NI",
+        "poster": "https://image.tmdb.org/t/p/w500/iAjcpCceLixP5k9lRw1y4fhsLwV.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mRVPTh5JpzvXNtgNXppKROOdrzd.jpg",
+        "rating": 6.5,
+        "release_date": "2025-12-27",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Mystery",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Simu Liu",
+                "image": "https://image.tmdb.org/t/p/w185/cCx2OghLj9KN73oyRZe92i2p3Ih.jpg"
+            },
+            {
+                "name": "Melissa Barrera",
+                "image": "https://image.tmdb.org/t/p/w185/j1RnDn9Db2kwnvxw67yEoaB7RyQ.jpg"
+            },
+            {
+                "name": "Sinclair Daniel",
+                "image": "https://image.tmdb.org/t/p/w185/xwozf5a01naJlGo8Arsp7oudhkl.jpg"
+            },
+            {
+                "name": "Brian d'Arcy James",
+                "image": "https://image.tmdb.org/t/p/w185/2Gz3b0A20Vrq7aadGfjZekdgGFK.jpg"
+            },
+            {
+                "name": "Mark O'Brien",
+                "image": "https://image.tmdb.org/t/p/w185/8ckgltvlife4BBJcBpHEQWXfQ9p.jpg"
+            }
+        ],
+        "details": "When an analyst discovers his eyes and ears have been hacked, he's drawn into a controlled world designed by his agency to draw out their enemies.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/14/1fa1ca804a6f744a3e1b42e1fc9039f2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/14/1fa1ca804a6f744a3e1b42e1fc9039f2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1318621",
+        "type": "movie",
+        "title": "Descendants: Wicked Wonderland",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=0Gg7x3xBqBU",
+        "poster": "https://image.tmdb.org/t/p/w500/xdhLAADGSse8KCrsDLBuM5b68Cg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/idRLKyu43mRhMWNjzd6FiEromNI.jpg",
+        "rating": 7.6,
+        "release_date": "2026-07-16",
+        "runtime": "98 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Family",
+            "TV Movie"
+        ],
+        "cast": [
+            {
+                "name": "Kylie Cantrall",
+                "image": "https://image.tmdb.org/t/p/w185/A2onyG1HcYgcmKrxZKSX80g9eY0.jpg"
+            },
+            {
+                "name": "Malia Baker",
+                "image": "https://image.tmdb.org/t/p/w185/sHaoKRA4VGmmd8b4fTEwrBr9x3m.jpg"
+            },
+            {
+                "name": "Liamani Segura",
+                "image": "https://image.tmdb.org/t/p/w185/jqjmZQwrYQNj9QModC9HoEfF3N2.jpg"
+            },
+            {
+                "name": "Rita Ora",
+                "image": "https://image.tmdb.org/t/p/w185/tti3t4tDPt0LgSfY2vBsR5rofn0.jpg"
+            },
+            {
+                "name": "Brandy Norwood",
+                "image": "https://image.tmdb.org/t/p/w185/ie1IH8LQI3aGzke4FoYRbcdHv88.jpg"
+            }
+        ],
+        "details": "Now that the Queen of Hearts is nice and Cinderella is safe, things seem perfect for Red and Chloe… But little do they know that changing the past created a new villain — Maddox Hatter. When Maddox captures the Queen of Hearts, Red and Chloe must work alongside Red’s new sister Pink, Luisa Madrigal’s son Luis, and Maddox’s son Max to save her and Wonderland.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a5e2e12a5172",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
