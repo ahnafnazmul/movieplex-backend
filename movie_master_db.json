@@ -4126,7 +4126,9 @@
         "runtime": "96 min",
         "categories": [
             "Comedy",
-            "Horror"
+            "Horror",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -33221,5 +33223,176 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1587964",
+        "type": "movie",
+        "title": "They Fight",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=o9r5xmGthFY",
+        "poster": "https://image.tmdb.org/t/p/w500/46X9sBM0L4z2y6AkFKxpH4X8O77.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/h6BWd6mU6o1KqZDrVaAldmvboCX.jpg",
+        "rating": 1.0,
+        "release_date": "2026-06-08",
+        "runtime": "95 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "André Holland",
+                "image": "https://image.tmdb.org/t/p/w185/riYqFOgYLYH4Hw8p2JYTw5lXGDE.jpg"
+            },
+            {
+                "name": "Samira Wiley",
+                "image": "https://image.tmdb.org/t/p/w185/m45A0hYcpnGckwxqs7j0I6Sp2Dj.jpg"
+            },
+            {
+                "name": "Wendell Pierce",
+                "image": "https://image.tmdb.org/t/p/w185/r6yKahL6Z8l9aUX5qvWxTmWl8Nm.jpg"
+            },
+            {
+                "name": "Toussaint Francois Battiste",
+                "image": ""
+            },
+            {
+                "name": "Anthony B. Jenkins",
+                "image": "https://image.tmdb.org/t/p/w185/v0hZpeChlytBx0MwUhkKoeFpedF.jpg"
+            }
+        ],
+        "details": "Reformed ex-convict Walt Manigan returns home to rebuild his family with the love of his life, Ketta. His path leads him to a boxing gym inside a D.C. youth recreation center about to be closed. There, he works under the wise coach Slim to mentor a group of boys to train for the junior national boxing tournament, all leading to a showdown between best friends Quincey and Peanut as they battle for a spot on the U.S. Junior Olympic Team.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/c169e72cfba78461da4e453b4319368c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/c169e72cfba78461da4e453b4319368c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_298610",
+        "type": "series",
+        "title": "Spooky in Love",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=gFvycajlifg",
+        "poster": "https://image.tmdb.org/t/p/w500/acVOH8Pr5LEZ7WKZCbzwNuHVr9x.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/w7Q53AmbEvrbpR2nRE8qBHJcbi2.jpg",
+        "rating": 9.2,
+        "release_date": "2026-07-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Park Eun-bin",
+                "image": "https://image.tmdb.org/t/p/w185/2PqeVq0KV1pEUgeeSquk2ljfMR0.jpg"
+            },
+            {
+                "name": "Yang Se-jong",
+                "image": "https://image.tmdb.org/t/p/w185/zQQixC3LXRvvbiecDFbNGIKe5Nc.jpg"
+            },
+            {
+                "name": "Ong Seong-wu",
+                "image": "https://image.tmdb.org/t/p/w185/wkEE49MqC6oCeTC3YqMfmM0FOmt.jpg"
+            },
+            {
+                "name": "Jo Hye-joo",
+                "image": "https://image.tmdb.org/t/p/w185/7nBMavFQSdTK6ARlNgKaeCmYZ89.jpg"
+            },
+            {
+                "name": "Kim Do-wan",
+                "image": "https://image.tmdb.org/t/p/w185/p9RDV2mcjgH7J6M2qT9NaTSQPYs.jpg"
+            }
+        ],
+        "details": "When a ghost-seeing heir and an ace prosecutor learn that a single touch makes them a strangely effective duo, they team up to crack unsolved murders.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/13/dbddb161a7f7bfe7848f422fa7d6e57e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/13/dbddb161a7f7bfe7848f422fa7d6e57e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_289271",
+        "type": "series",
+        "title": "Ashes to Crown",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=P2BMhVUhSh4",
+        "poster": "https://image.tmdb.org/t/p/w500/avupwPQBoIp8ahCaIYIQfT1N6ps.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rDj8Fxusr25YTUxm3WuQWcmkCbr.jpg",
+        "rating": 7.6,
+        "release_date": "2026-06-02",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Chen Duling",
+                "image": "https://image.tmdb.org/t/p/w185/awVbnhkLiGuv6h6axIb5oNgRJGT.jpg"
+            },
+            {
+                "name": "Zhou Yiran",
+                "image": "https://image.tmdb.org/t/p/w185/3KU8cdAC94SuyqwEfnyLQ7FA2h6.jpg"
+            },
+            {
+                "name": "Tang Xiaotian",
+                "image": "https://image.tmdb.org/t/p/w185/84NlC4nbZqwUJXH0tSNw9O6o3Um.jpg"
+            },
+            {
+                "name": "Wang Ruichang",
+                "image": "https://image.tmdb.org/t/p/w185/92c3MXEXFYCbej3qDAaSQEL20y6.jpg"
+            },
+            {
+                "name": "Wu Shile",
+                "image": "https://image.tmdb.org/t/p/w185/jg2afWBPGfR5WZrIf3fIZXfQhRW.jpg"
+            }
+        ],
+        "details": "The general's daughter, Chu Zhao, refuses to accept her fate as nothing more than a pawn to be sacrificed in Xiao Xun's rise to power. Taking matters into her own hands, she fights her way out with the help of Xie Yanlai, protecting the emperor's grandson as he makes his way to the emperor's presence. Through a tense standoff in the imperial court, she helps the young prince secure the throne, cutting off Xiao Xun's path to power. But with a new emperor comes new crises. The realm is torn by internal strife and foreign threats. Working alongside Xie Yanlai, Chu Zhao navigates the treacherous currents of the court, leads troops into battle, and ultimately rewrites her own destiny, sparing the people of the State of Chu from the ravages of war.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/33b748c1bdb448d6d5349fd3d090b1d7-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/33b748c1bdb448d6d5349fd3d090b1d7-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
