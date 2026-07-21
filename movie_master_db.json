@@ -5827,7 +5827,9 @@
         "categories": [
             "Action & Adventure",
             "Crime",
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -33058,5 +33060,166 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_287011",
+        "type": "series",
+        "title": "Sold Out on You",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=LhfSS7-RhVE",
+        "poster": "https://image.tmdb.org/t/p/w500/bcnneY1DWQzmwfvsuhGGnwv9KYD.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dL5mViE22ZHnhrUU9wlklzIU4Iy.jpg",
+        "rating": 8.5,
+        "release_date": "2026-04-22",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ahn Hyo-seop",
+                "image": "https://image.tmdb.org/t/p/w185/oLS5jvS5cZ7SaXNctA8VYXPp6ax.jpg"
+            },
+            {
+                "name": "Chae Won-bin",
+                "image": "https://image.tmdb.org/t/p/w185/f3FqHQgS3tImIfDwjYbDpaQMcei.jpg"
+            },
+            {
+                "name": "Kim Bum",
+                "image": "https://image.tmdb.org/t/p/w185/sMYFAFG6yxhqUNIJzcDK1kGbfPq.jpg"
+            },
+            {
+                "name": "Yoon Byung-hee",
+                "image": "https://image.tmdb.org/t/p/w185/77HOYpL0BI6BN4kaTYUMNIlnLM0.jpg"
+            },
+            {
+                "name": "Goh Doo-shim",
+                "image": "https://image.tmdb.org/t/p/w185/kp93ShpiupK6A9c0eLyQVmFHt2m.jpg"
+            }
+        ],
+        "details": "A work-obsessed cosmetics CEO and a top home-shopping host struggling with insomnia cross paths, and through an unexpected romance, begin to heal the emptiness in their lives.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/dc1aa51ad83cd59e6a8530ca481b51da-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/dc1aa51ad83cd59e6a8530ca481b51da-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1544326",
+        "type": "movie",
+        "title": "Nooru Sami",
+        "release_year": 2026,
+        "original_language": "ta",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/r9mX5R4jsrospJlWrOE8WqzktnH.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/h4j6jcnQDCepz2dzLmWaoRPveEo.jpg",
+        "rating": 0.0,
+        "release_date": "2026-06-19",
+        "runtime": "131 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Swasika",
+                "image": "https://image.tmdb.org/t/p/w185/7LWxyKwGH5S1ZwEEjlbBcDUJKk8.jpg"
+            },
+            {
+                "name": "Vijay Antony",
+                "image": "https://image.tmdb.org/t/p/w185/e8iZK9GFjDAHWKOQGCcfHWuZFxD.jpg"
+            },
+            {
+                "name": "Lijomol Jose",
+                "image": "https://image.tmdb.org/t/p/w185/vXFBgF6NMON7L4RzZ6B35lOVYOu.jpg"
+            },
+            {
+                "name": "Ajay Dhisan",
+                "image": "https://image.tmdb.org/t/p/w185/uKP66JzkWkj3w67IoYHZN5xRGjq.jpg"
+            },
+            {
+                "name": "Kavya Anil",
+                "image": "https://image.tmdb.org/t/p/w185/xDWp5KQtKrgnwYGLY4H6eXabqKW.jpg"
+            }
+        ],
+        "details": "Selvi, a widowed mother, devotes her life to raising her two sons in a conservative village. Years later, unfulfilled life comes back into focus, challenging deep-rooted traditions. As family and society strongly oppose change, Selvi must choose between societal expectations and her own happiness.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a5e77a26f7e7",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_611698",
+        "type": "movie",
+        "title": "A Writer's Odyssey",
+        "release_year": 2021,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=7Khk9dSEZnA",
+        "poster": "https://image.tmdb.org/t/p/w500/7hEhhmAF8Tr7g95fkbuxDpeR27b.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tkuVd1LYyltRdiWO50kJ5lc4J9V.jpg",
+        "rating": 7.1,
+        "release_date": "2021-02-12",
+        "runtime": "130 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Lei Jiayin",
+                "image": "https://image.tmdb.org/t/p/w185/wjDzXeAycQj01k40oXigRgJCPRr.jpg"
+            },
+            {
+                "name": "Yang Mi",
+                "image": "https://image.tmdb.org/t/p/w185/x5EsYXKH2Kdc6QPYhoaSoAsnsjw.jpg"
+            },
+            {
+                "name": "Dong Zijian",
+                "image": "https://image.tmdb.org/t/p/w185/cSaRGUAjFWsfYakGTfCuRghIkhW.jpg"
+            },
+            {
+                "name": "Yu Hewei",
+                "image": "https://image.tmdb.org/t/p/w185/rtHbXVr0NUWYkV1vqCCdhgyyNXG.jpg"
+            },
+            {
+                "name": "Guo Jingfei",
+                "image": "https://image.tmdb.org/t/p/w185/xNyi4uOHKAqCgW7JhV5MPn5BG88.jpg"
+            }
+        ],
+        "details": "Lu Kongwen is the author of a fantasy novel series following a heroic teenager, also named Kongwen, on a quest to end the tyrannical rule of Lord Redmane, under the guidance of a Black Armor. But through a strange twist of fate, the fantasy world of the novel begins to impact life in the real world, leading Guan Ning to accept a mission from Tu Ling to kill the author.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#5qy1s",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
