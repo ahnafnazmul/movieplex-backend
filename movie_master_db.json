@@ -3801,7 +3801,9 @@
         "runtime": "N/A min",
         "categories": [
             "Drama",
-            "Comedy"
+            "Comedy",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -4388,7 +4390,9 @@
         "release_date": "2026-06-26",
         "runtime": "N/A min",
         "categories": [
-            "Drama"
+            "Drama",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -33935,5 +33939,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1122573",
+        "type": "movie",
+        "title": "In the Grey",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=nufP15iN4GE",
+        "poster": "https://image.tmdb.org/t/p/w500/dQgIcW6Th08kMRf2HBoYWoFE6OD.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qcIKxhqGMIj8uujsSoSMZWr8QqU.jpg",
+        "rating": 7.5,
+        "release_date": "2026-05-13",
+        "runtime": "97 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Henry Cavill",
+                "image": "https://image.tmdb.org/t/p/w185/kN3A5oLgtKYAxa9lAkpsIGYKYVo.jpg"
+            },
+            {
+                "name": "Jake Gyllenhaal",
+                "image": "https://image.tmdb.org/t/p/w185/ct2Gh2sJSxd4yaMrSsqSt1HpIC3.jpg"
+            },
+            {
+                "name": "Eiza González",
+                "image": "https://image.tmdb.org/t/p/w185/v8CnaoJqdPwkQhJeGwgJDnESOd6.jpg"
+            },
+            {
+                "name": "Carlos Bardem",
+                "image": "https://image.tmdb.org/t/p/w185/4eVSnaYe4O06BNZjuw8UHnWaqB5.jpg"
+            },
+            {
+                "name": "Michael Vu",
+                "image": "https://image.tmdb.org/t/p/w185/rHtIIqQvViPHovSJkDzDegBU6nb.jpg"
+            }
+        ],
+        "details": "A covert team of elite operatives are living in the shadows. When a ruthless despot steals a billion-dollar fortune, they're sent to take it back—an impossible heist that erupts into a deadly game of strategy, deception and survival.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/13/b781fc5cd1c1fc06b93800eb64312a37-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/13/b781fc5cd1c1fc06b93800eb64312a37-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
