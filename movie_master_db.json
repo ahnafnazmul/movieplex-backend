@@ -4347,7 +4347,9 @@
         "runtime": "107 min",
         "categories": [
             "Drama",
-            "Comedy"
+            "Comedy",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -4436,7 +4438,9 @@
         "runtime": "30 min",
         "categories": [
             "Drama",
-            "Action & Adventure"
+            "Action & Adventure",
+            "Web Series",
+            "English"
         ],
         "cast": [
             {
@@ -34243,5 +34247,120 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_315007",
+        "type": "series",
+        "title": "Love In Sync",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=hs2d7Uc1abY",
+        "poster": "https://image.tmdb.org/t/p/w500/iLf17aFCx2ESajFp1oyb03fmzNp.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/2p8SssGsphxOELypa5GREVTblwj.jpg",
+        "rating": 10.0,
+        "release_date": "2026-07-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "L",
+                "image": "https://image.tmdb.org/t/p/w185/iOL7wp1qvjfvAUnHVGMUNnIRZaY.jpg"
+            },
+            {
+                "name": "Kang Min-ah",
+                "image": "https://image.tmdb.org/t/p/w185/d30O1oCuCFLM5ky7tIGH4QtuuzP.jpg"
+            },
+            {
+                "name": "Kwon So-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/9yxcuyPco86r76lu8Ga3HCgsvNX.jpg"
+            },
+            {
+                "name": "Sin Woo-gyeom",
+                "image": "https://image.tmdb.org/t/p/w185/sOJFQ6TH9PezjDHYQkmKFKVuhj.jpg"
+            },
+            {
+                "name": "Cha Min-jee",
+                "image": "https://image.tmdb.org/t/p/w185/qNqzj4YjZ8JjjsxN5oZuIWIjk8h.jpg"
+            }
+        ],
+        "details": "A former top actress who has lost her ability to feel and a psychological counselor who feels too much are brought together through a mysterious ability to share emotions. As she begins to rediscover emotions through him, and he learns to manage the overwhelming weight of empathy through her, the two gradually heal each other in unexpected ways.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/be4f4294c924967a7061376ec47bf7cb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/be4f4294c924967a7061376ec47bf7cb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1431804",
+        "type": "movie",
+        "title": "40 Dates and 40 Nights",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Egk_FWQgW4w",
+        "poster": "https://image.tmdb.org/t/p/w500/lWEhjO801M52CY5Gx6OAwZZ6m7o.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dgleeErFcEHEacYabCTDwr1zAl2.jpg",
+        "rating": 6.1,
+        "release_date": "2026-06-16",
+        "runtime": "101 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Bailee Madison",
+                "image": "https://image.tmdb.org/t/p/w185/ltGpL7Yub5XshzWfUb8XJbsIDMT.jpg"
+            },
+            {
+                "name": "Joel Courtney",
+                "image": "https://image.tmdb.org/t/p/w185/XvlAlEedqATZcPoZcQh3cxXOA7.jpg"
+            },
+            {
+                "name": "Annie Potts",
+                "image": "https://image.tmdb.org/t/p/w185/nugPVN28qOhOIoHawrDJ6fIfrxR.jpg"
+            },
+            {
+                "name": "Jai Rodriguez",
+                "image": "https://image.tmdb.org/t/p/w185/xwLm4PUXjrcxGW9fUT6T77YVyTk.jpg"
+            },
+            {
+                "name": "Jack Schumacher",
+                "image": "https://image.tmdb.org/t/p/w185/pMRUZPW4vnzSqC86A0jElpXHkD9.jpg"
+            }
+        ],
+        "details": "Burned out on dating and ready to quit, Leah accepts her grandma's outrageous challenge: 40 dates in 40 nights for a full year of rent. From awkward dinners to unexpected sparks, she discovers the biggest obstacle to love might just be herself.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/12/2b2abf40561e0f2dc814dd4784cffbb3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/12/2b2abf40561e0f2dc814dd4784cffbb3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
