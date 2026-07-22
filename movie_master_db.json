@@ -5396,6 +5396,18 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://rtally.embedseek.com/#5qcjs"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/25/6a65428036f79932ee41628b7fb1fb2f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/25/6a65428036f79932ee41628b7fb1fb2f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "themoviebox"
