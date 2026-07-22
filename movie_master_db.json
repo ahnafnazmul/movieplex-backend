@@ -4575,7 +4575,9 @@
         "runtime": "116 min",
         "categories": [
             "Comedy",
-            "Romance"
+            "Romance",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -34427,5 +34429,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_278605",
+        "type": "series",
+        "title": "Archives: The Nanyang Mystery",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=xFGbOozzWIE",
+        "poster": "https://image.tmdb.org/t/p/w500/nb3bRhhopMxZYLMKIVilKV6PgqN.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ipdLdmrjqR3hpCUGGSyr03dHdqC.jpg",
+        "rating": 7.0,
+        "release_date": "2026-06-11",
+        "runtime": "42 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Zhang Xincheng",
+                "image": "https://image.tmdb.org/t/p/w185/mpCVPsEvnMUkmMd1IN1xsBJpk7r.jpg"
+            },
+            {
+                "name": "Ding Yuxi",
+                "image": "https://image.tmdb.org/t/p/w185/ellcOuCs2mo1Oh9zO2Qhb0OoZ4d.jpg"
+            },
+            {
+                "name": "Jiang Peiyao",
+                "image": "https://image.tmdb.org/t/p/w185/dPXXxRNpU8r1V0vpFpEmdIspkPU.jpg"
+            },
+            {
+                "name": "Fu Dalong",
+                "image": "https://image.tmdb.org/t/p/w185/6vHvAaAC4smHCudMkcFMocYWAhe.jpg"
+            },
+            {
+                "name": "Liu Lingzi",
+                "image": "https://image.tmdb.org/t/p/w185/qJP23ZWnyVHyX58kEH6MmS3uHZl.jpg"
+            }
+        ],
+        "details": "In the early days of the Republic of China, a mysterious murder at sea draws Zhang Haiyan and his partner into an investigation that quickly spirals into a dangerous conspiracy. What begins as a search for truth aboard the massive ship Nan'an becomes a fight for survival in a world of intrigue and betrayal.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/12/efaf225cd03d413c51bf067d7f114f2a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/12/efaf225cd03d413c51bf067d7f114f2a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
