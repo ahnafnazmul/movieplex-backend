@@ -34595,5 +34595,228 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_198004",
+        "type": "series",
+        "title": "King the Land",
+        "release_year": 2023,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=AGF16szMOmo",
+        "poster": "https://image.tmdb.org/t/p/w500/tW8BMRCYSe6nySvZ749pzc31x2m.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rHiz6GHA2bUPEtTDZvhbTmzlNm6.jpg",
+        "rating": 8.2,
+        "release_date": "2023-06-17",
+        "runtime": "71 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Lee Jun-ho",
+                "image": "https://image.tmdb.org/t/p/w185/DJYwG0eWdCoxvqWhLsnJNKQlMR.jpg"
+            },
+            {
+                "name": "Yoona",
+                "image": "https://image.tmdb.org/t/p/w185/JzAuAv17bWkLxVtfi9YJvQJhZl.jpg"
+            },
+            {
+                "name": "Go Won-hee",
+                "image": "https://image.tmdb.org/t/p/w185/iHGHhIe4keVyxzUKNB0skR1wfGW.jpg"
+            },
+            {
+                "name": "Kim Ga-eun",
+                "image": "https://image.tmdb.org/t/p/w185/x5xv6LcBvMWj5sGFDs5mOkFXwow.jpg"
+            },
+            {
+                "name": "Ahn Se-ha",
+                "image": "https://image.tmdb.org/t/p/w185/ah6E27lc3UJrLPLArSEsgY4GXCu.jpg"
+            }
+        ],
+        "details": "Amid a tense inheritance fight, a charming heir clashes with his hardworking employee who's known for her irresistible smile — which he cannot stand.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/07/17/37157c396b51ab16bd31b01f060f4e3b-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/07/17/37157c396b51ab16bd31b01f060f4e3b-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1481343",
+        "type": "movie",
+        "title": "The Devil's Mouth",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=2bp4Viru6Xc",
+        "poster": "https://image.tmdb.org/t/p/w500/lH8k9uCWYn2b2gsYleqYBDPbWa8.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/w8z3ThhLehGPJuAShostzeKxJvK.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-29",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Kathryn Newton",
+                "image": "https://image.tmdb.org/t/p/w185/1jRMjb3gvulT74tiIkWbz2xJEsc.jpg"
+            },
+            {
+                "name": "Lana Condor",
+                "image": "https://image.tmdb.org/t/p/w185/vWn27Fk2GLwH7o9fBG9hBWZI6OR.jpg"
+            },
+            {
+                "name": "Gavin Casalegno",
+                "image": "https://image.tmdb.org/t/p/w185/snYCYm31OniXr024HUcomunYpjV.jpg"
+            },
+            {
+                "name": "Nico Hiraga",
+                "image": "https://image.tmdb.org/t/p/w185/yd1Hx3C7BTevy3zvyGXUwtwvSft.jpg"
+            },
+            {
+                "name": "Tommi Rose",
+                "image": "https://image.tmdb.org/t/p/w185/ffwnOrSD0D35pRaYjpwsAZB2deQ.jpg"
+            }
+        ],
+        "details": "A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/23/abfda9026bba3b649f7df526ce013693-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/23/abfda9026bba3b649f7df526ce013693-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_285143",
+        "type": "series",
+        "title": "Road to Success",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=abAtk97SRRk",
+        "poster": "https://image.tmdb.org/t/p/w500/diN90alZRe6hJyxd55dzTuYoIq6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6EpiUiXNmCjZT62e2pLpyaiqB8K.jpg",
+        "rating": 8.3,
+        "release_date": "2026-07-05",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Yu Shuxin",
+                "image": "https://image.tmdb.org/t/p/w185/xQ2Bur9AEy0IX3qHMvLbr7tmTyD.jpg"
+            },
+            {
+                "name": "Chen Jingke",
+                "image": "https://image.tmdb.org/t/p/w185/yqGeMSEZVJlxAvh9k6JFo6jhrUT.jpg"
+            },
+            {
+                "name": "Victor Ma",
+                "image": "https://image.tmdb.org/t/p/w185/2sYCc2SrVkOHRIxMvS5fLmNSlwy.jpg"
+            },
+            {
+                "name": "Chloe Xie",
+                "image": "https://image.tmdb.org/t/p/w185/g3noJhO69w5ReAUnLcIiZ4YAXjR.jpg"
+            }
+        ],
+        "details": "When Lin Wanxing returns to her hometown and takes a job at a local high school, she’s unexpectedly tasked with reviving its long-disbanded soccer team. With help from her mysterious tenant, former coach Wang Fa, they work to rebuild the team, guide the students toward their dreams, and face the shadows of their own pasts along the way.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/05/5a6768603cf31f3e605e60afeadc3309-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/05/5a6768603cf31f3e605e60afeadc3309-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_287009",
+        "type": "series",
+        "title": "Doctor on the Edge",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=z0KOkYokloM",
+        "poster": "https://image.tmdb.org/t/p/w500/zwEYhe03vN1rbjF8Bsf9Dng0W8e.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vllHmrJ2pKSjRlqOVY9SYWXcbeo.jpg",
+        "rating": 8.4,
+        "release_date": "2026-06-01",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Lee Jae-wook",
+                "image": "https://image.tmdb.org/t/p/w185/rGGgDCNlbTwENUXXlBD3g9bJDQj.jpg"
+            },
+            {
+                "name": "Shin Ye-eun",
+                "image": "https://image.tmdb.org/t/p/w185/dGJRM6rEdk9NLdryDUg172XK5ip.jpg"
+            },
+            {
+                "name": "Hong Min-gi",
+                "image": "https://image.tmdb.org/t/p/w185/dzVsNHfyq0iBEYVRIJqHKx466yA.jpg"
+            },
+            {
+                "name": "Lee Soo-kyung",
+                "image": "https://image.tmdb.org/t/p/w185/5an5tKfx3U2UUEN5uck2W1KfZS.jpg"
+            },
+            {
+                "name": "Kim Yoon-woo",
+                "image": "https://image.tmdb.org/t/p/w185/rOzQPM9ufU59fuHA9vBgLAhQvjv.jpg"
+            }
+        ],
+        "details": "In South Korea, military service is mandatory for all men. But a select few—like privileged medical students—can serve as public health doctors instead. This is the story of those privileged few. Do Ji-ui, a plastic surgeon, is assigned to Pyeondong-do, an isolated island no one wants to go to. From the very first day, ominous signs begin to appear. Can he survive a full year on this hellish island and make it out alive—or will the island break him before he can hold the line?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/ef2b700a8812db92993e22b36c086944-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/ef2b700a8812db92993e22b36c086944-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
