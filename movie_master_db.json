@@ -35108,5 +35108,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_279471",
+        "type": "series",
+        "title": "Malcolm in the Middle: Life's Still Unfair",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=ABol0H2n_rc",
+        "poster": "https://image.tmdb.org/t/p/w500/4uXAZRYtcMfoX2XtY1gcUxLHhjj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uekZzyLReK777QKO9xKwiPOelCQ.jpg",
+        "rating": 8.1,
+        "release_date": "2026-04-10",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Bryan Cranston",
+                "image": "https://image.tmdb.org/t/p/w185/npIIZJGSrcJIJ6yHdmbqO6Jzo5I.jpg"
+            },
+            {
+                "name": "Justin Berfield",
+                "image": "https://image.tmdb.org/t/p/w185/1FRN8DKGUcCSLwQlZaIpwJkk5jT.jpg"
+            },
+            {
+                "name": "Christopher Masterson",
+                "image": "https://image.tmdb.org/t/p/w185/vDpW40I1UMul7j4ZwGylPuWHteC.jpg"
+            },
+            {
+                "name": "Keeley Karsten",
+                "image": "https://image.tmdb.org/t/p/w185/tlnhUFQbmR4YVi9w4uJfCUopI0Q.jpg"
+            },
+            {
+                "name": "Vaughan Murrae",
+                "image": "https://image.tmdb.org/t/p/w185/dQePLBgqV2eRjzPeQy2s8Am55zB.jpg"
+            }
+        ],
+        "details": "After shielding himself and his daughter from his family for over a decade, Malcolm is dragged back into their orbit when Hal and Lois demand his presence at their 40th anniversary party.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/5d7815a54c1b1d6c15a198b52c70f948-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/5d7815a54c1b1d6c15a198b52c70f948-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
