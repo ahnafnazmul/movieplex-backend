@@ -6107,6 +6107,12 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2024/01/21/4aa5c88aae32ba002b976ebcfb6d2e4e-sd.mp4"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a620b340bd76",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -34887,5 +34893,220 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_291392",
+        "type": "series",
+        "title": "Love For You",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/6mVIY9Y1g4nmhCIeU6mWaa5Kk1w.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zldji8QZ3HdoosmtUIf59YmDoxZ.jpg",
+        "rating": 8.7,
+        "release_date": "2026-07-05",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Song Weilong",
+                "image": "https://image.tmdb.org/t/p/w185/91EBpDeOvBRQ4Kh6p15LQwWshdR.jpg"
+            },
+            {
+                "name": "Zhang Jingyi",
+                "image": "https://image.tmdb.org/t/p/w185/yWGNWknWP8pJmfLr3o0AMz5QTzi.jpg"
+            },
+            {
+                "name": "Liang Jingkang",
+                "image": "https://image.tmdb.org/t/p/w185/jUWaJovGOZOdk2IbZGmZ0GeyVRH.jpg"
+            },
+            {
+                "name": "He Ruixian",
+                "image": "https://image.tmdb.org/t/p/w185/i5ZjOyhbtZumfdqUo27obFagoBo.jpg"
+            },
+            {
+                "name": "Zhou Tie",
+                "image": "https://image.tmdb.org/t/p/w185/seQy59u4pwmFAIFETB1ZqxVneZn.jpg"
+            }
+        ],
+        "details": "In the 1990s, teenagers Chen Yi and Miao Jing met due to their parents, initially getting off to a rocky start. However, Miao Jing's kindness eventually softens Chen Yi's attitude towards her. Chen Yi and Miao Jing's relationship deepens after Chen Yi's father dies and Miao Jing's mother disappears, leaving the two to rely only on each other. Miao Jing eventually confesses her feelings for Chen Yi, but he pushes her away after he gets tangled up as a crime witness, urging her to leave their city. Years later, Chen Yi runs a billiards hall in their hometown, while Miao Jing returns for a work assignment. But when Chen Yi suspects that Miao Jing's boss is involved in smuggling, he vows to protect her – and stay by her side.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/05/01e250327331d10d2a9a40ab8b4069f9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/05/01e250327331d10d2a9a40ab8b4069f9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_295558",
+        "type": "series",
+        "title": "Key to the Phoenix Heart",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/44ixm38SHC5HAbuaD7Mq2dakWk9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xbMj9yV2UWjPcQUPkbDLDLJnB9q.jpg",
+        "rating": 8.0,
+        "release_date": "2026-07-11",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Hou Minghao",
+                "image": "https://image.tmdb.org/t/p/w185/mhu2D7aWA49izHguvxx3tH9LsJX.jpg"
+            },
+            {
+                "name": "Ai Mi",
+                "image": "https://image.tmdb.org/t/p/w185/uiKBA66FDdYU4E2KJD0XUYWIsGl.jpg"
+            },
+            {
+                "name": "Riley Wang",
+                "image": "https://image.tmdb.org/t/p/w185/lzzvRyyltnsExIrsWhm6DCPMz62.jpg"
+            },
+            {
+                "name": "Ma Qiuyuan",
+                "image": "https://image.tmdb.org/t/p/w185/3DHCYG1jPIC62Y0gunfaXTncP8J.jpg"
+            },
+            {
+                "name": "Merxat",
+                "image": "https://image.tmdb.org/t/p/w185/y7lTmzX6rWBlMBfF6zep0FFDV9Y.jpg"
+            }
+        ],
+        "details": "The evil general forcefully marries the money-grubbing fake heiress who is obsessed with mechanical arts. From a contractual couple to exposing each other's true identities in a life-and-death situation, their mutual love and hatred intensify. They uncover court conspiracies, shatter deadly chaos, and safeguard the peace of the nation.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/11/6e4929c6c662308eea4c90b850c92b74-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/11/6e4929c6c662308eea4c90b850c92b74-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1630409",
+        "type": "movie",
+        "title": "The Debt Collector",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "https://www.youtube.com/watch?v=U9vJ2Z4SFQI",
+        "poster": "https://image.tmdb.org/t/p/w500/qADBUb5ybrkRVGZEFF8Z4RuOwys.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5Va6qlwvpneo0XLzGFlvgYH5ncP.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-20",
+        "runtime": "134 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Nadech Kugimiya",
+                "image": "https://image.tmdb.org/t/p/w185/w58HrktpHZ7UVGY5SKoJxFkitCy.jpg"
+            },
+            {
+                "name": "Pittaya Saechua",
+                "image": "https://image.tmdb.org/t/p/w185/kQXUQhTwHYIjXjea15xSpTLdaAC.jpg"
+            },
+            {
+                "name": "Chaiwat Thongsaeng",
+                "image": "https://image.tmdb.org/t/p/w185/SIsrlRnL6hU7P2QILxbyUGVeJB.jpg"
+            },
+            {
+                "name": "Nuanprang Treechit",
+                "image": ""
+            },
+            {
+                "name": "Jonathan Holman",
+                "image": "https://image.tmdb.org/t/p/w185/bPzzGKQE5Q04h5yq7quQeFz9e3W.jpg"
+            }
+        ],
+        "details": "Haunted by guilt after prison, a former debt collector races against a terminal illness, returning to his old world to avenge loan shark victims.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#xylsd",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1620682",
+        "type": "movie",
+        "title": "Love in Slow Motion",
+        "release_year": 2026,
+        "original_language": "ar",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/31x1VCgNfTiPBR3xtYBocagHLry.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rivKhEJWZirF7UtnCnaN44YaJ69.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-23",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Nour Al-Ghandour",
+                "image": "https://image.tmdb.org/t/p/w185/fM3zwd5GOQzSW2n5EYx026jGW7U.jpg"
+            },
+            {
+                "name": "Ali Kakule",
+                "image": "https://image.tmdb.org/t/p/w185/265QihorXYicVuPdgd2TlGjt9UF.jpg"
+            },
+            {
+                "name": "Fatma Al Sherif",
+                "image": "https://image.tmdb.org/t/p/w185/2rei2lWaoUxdxsHlyi0FoDRb9zl.jpg"
+            },
+            {
+                "name": "Shoug Al-Hadi",
+                "image": "https://image.tmdb.org/t/p/w185/8UGdH16YEjhaFnmXAgbPgUS6PiU.jpg"
+            },
+            {
+                "name": "Noha Nabil",
+                "image": ""
+            }
+        ],
+        "details": "When Haya's best friend Jawad gets engaged, her chronically-single world unravels — because who knew true love could be hiding in the friend zone?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#e6nqe",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
