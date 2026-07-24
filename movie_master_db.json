@@ -35288,5 +35288,135 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1659155",
+        "type": "movie",
+        "title": "The Truthers",
+        "release_year": 2026,
+        "original_language": "es",
+        "video_trailer": "https://www.youtube.com/watch?v=IvL0oT13djs",
+        "poster": "https://image.tmdb.org/t/p/w500/ltuAheARdaUHbaS8lX1ZPrNOXe5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/2kQ71k6dq7DVNYuYY9ylNvRFKTv.jpg",
+        "rating": 5.0,
+        "release_date": "2026-07-24",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Jose Coronado",
+                "image": "https://image.tmdb.org/t/p/w185/9xo68HzH8n78Xv6gMzKK7XnjtHd.jpg"
+            },
+            {
+                "name": "Stéphanie Magnin",
+                "image": "https://image.tmdb.org/t/p/w185/fPDyHTbQMS2hn6LVBNIZjeemCOc.jpg"
+            },
+            {
+                "name": "Fanny Gautier",
+                "image": "https://image.tmdb.org/t/p/w185/2QEVaSaNvJIlWLvZOubtS2d710u.jpg"
+            },
+            {
+                "name": "Alberto Olmo",
+                "image": "https://image.tmdb.org/t/p/w185/bYzbEYm5QvxywhUTWXhF7d2fEnm.jpg"
+            },
+            {
+                "name": "Israel Ruiz",
+                "image": "https://image.tmdb.org/t/p/w185/58kPAUPdmbtAshlBaUQ1uLKRlnH.jpg"
+            }
+        ],
+        "details": "After her mother's sudden death, Ruth returns to her hometown and reunites with her father, whose odd behavior makes her question what really happened.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#5r9ro",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_74277",
+        "type": "series",
+        "title": "Document 72 Hours",
+        "release_year": 2006,
+        "original_language": "ja",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/iQO83tdISeenWmtG3wp6EteuGfZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kq9cFwaFzhJjl2UEsoQVHFBw3C8.jpg",
+        "rating": 8.7,
+        "release_date": "2006-10-03",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Documentary"
+        ],
+        "cast": [],
+        "details": "An unusual documentary series that delves into human dramas through chance encounters with ordinary people at selected spots. Filmed over 72 hours in a single location, the show captures glimpses into people's lives as they open up and share their stories.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#1gk96",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_60796",
+        "type": "series",
+        "title": "Stalker",
+        "release_year": 2014,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=TxQa9tnsoKc",
+        "poster": "https://image.tmdb.org/t/p/w500/pHw8OgL3U7Ys8D8hlbOnlgH7ExM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6K7ufYt6v4Ww2LfPXkVtYE27FGP.jpg",
+        "rating": 6.7,
+        "release_date": "2014-10-01",
+        "runtime": "42 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Dylan McDermott",
+                "image": "https://image.tmdb.org/t/p/w185/3i69RNLuL7KOD9pCmHQYruhcOdn.jpg"
+            },
+            {
+                "name": "Mariana Klaveno",
+                "image": "https://image.tmdb.org/t/p/w185/2N9hFJScGwq5vU6wDcQEH2g6ng0.jpg"
+            },
+            {
+                "name": "Maggie Q",
+                "image": "https://image.tmdb.org/t/p/w185/1Z0A8axunWqZrskGkfANv6W5qCl.jpg"
+            },
+            {
+                "name": "Victor Rasuk",
+                "image": "https://image.tmdb.org/t/p/w185/1vh2Yzp9bhmaxLfpNCrO7DVoURd.jpg"
+            },
+            {
+                "name": "Elisabeth Röhm",
+                "image": "https://image.tmdb.org/t/p/w185/hIlBBZD2Rou4to1OauI799jV1UH.jpg"
+            }
+        ],
+        "details": "A pair of detectives investigate stalkers in Los Angeles.\n\nStrong and focused, Lt. Beth Davis is an expert in the field of repeated harassment, driven by personal experience of being a victim. She heads the LAPD's Threat Assessment Unit, which investigates cases of stalking -- including voyeurism, cyberharassment and romantic fixation. The history of recent transfer Jack Larsen -- whose personality and questionable behavior have been an issue in the past -- may help him in his assignment to her team. Her other detectives are young but eager Ben Caldwell and deceptively intelligent Janice Lawrence. Together they try to stop situations from spinning out of control -- and to keep their personal obsessions at bay.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#vo8us",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
