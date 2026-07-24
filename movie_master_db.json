@@ -35231,5 +35231,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_262388",
+        "type": "series",
+        "title": "M.I.A.",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=6QZfHbpEUpI",
+        "poster": "https://image.tmdb.org/t/p/w500/uvocuo6mgQTtNa7O6a3MQoTfuh4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wqjhAWmqHrIIn4PdchGCuEgPksw.jpg",
+        "rating": 8.5,
+        "release_date": "2026-05-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Shannon Gisela",
+                "image": "https://image.tmdb.org/t/p/w185/2KKRtfMRoaBmpB1FBEXMgnYOIoN.jpg"
+            },
+            {
+                "name": "Brittany Adebumola",
+                "image": "https://image.tmdb.org/t/p/w185/3S77bc5ZULcQ1hZumUKKGoDDxyH.jpg"
+            },
+            {
+                "name": "Dylan Jackson",
+                "image": "https://image.tmdb.org/t/p/w185/hd9lOufC8AYWE6QwiZBGENdNBda.jpg"
+            },
+            {
+                "name": "Alberto Guerra",
+                "image": "https://image.tmdb.org/t/p/w185/aqckvbjXVGeFlx27FJevoby9WBM.jpg"
+            },
+            {
+                "name": "Cary Elwes",
+                "image": "https://image.tmdb.org/t/p/w185/9UszBdQJ9PmyBydIeIBxlStozhW.jpg"
+            }
+        ],
+        "details": "Restless in the Florida Keys, Etta Tiger Jonze dreams of a life in Miami's glittering, sub-tropical kingdom. When her family's drug-running business shatters in tragedy, however, Etta embarks on a dangerous journey through Miami's neon-lit underbelly that will define who she is and what she's ultimately capable of.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/28/04aa978692ab52ee3175050d22108b9a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/28/04aa978692ab52ee3175050d22108b9a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
