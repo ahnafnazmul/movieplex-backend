@@ -35623,5 +35623,63 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1424435",
+        "type": "movie",
+        "title": "Wings of Dread",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=9AhPB0dgito",
+        "poster": "https://image.tmdb.org/t/p/w500/iCnTJwkAMwIvaZgwpPHJJHfV0Er.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/m0joYYat6anzyIaJ6B4CQnTMjti.jpg",
+        "rating": 6.4,
+        "release_date": "2026-07-03",
+        "runtime": "87 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Ashton Chen",
+                "image": "https://image.tmdb.org/t/p/w185/v4WAFHLVHkEO3Rvcq6lMxI5Bfhl.jpg"
+            },
+            {
+                "name": "Iko Uwais",
+                "image": "https://image.tmdb.org/t/p/w185/9WngJ2lOCy3UczLv3L2JRZvX0UM.jpg"
+            },
+            {
+                "name": "Qu Jingjing",
+                "image": "https://image.tmdb.org/t/p/w185/bVUWwqam6mGzFndmEYFJa31TVZU.jpg"
+            },
+            {
+                "name": "Nita Hsia Jo-Yen",
+                "image": "https://image.tmdb.org/t/p/w185/lwrHEhClNqpCX5TBWecbDkspqDf.jpg"
+            },
+            {
+                "name": "Hong Shuang",
+                "image": "https://image.tmdb.org/t/p/w185/oBnSLS9gHhys53aY7ydh7pOqyjQ.jpg"
+            }
+        ],
+        "details": "Air police officer Gu Chaoyang encounters a hijacking crisis on his flight back to China. With his extremely high professional ethics, he fights desperately to stop the hijacker, and a life-and-death struggle that takes place at an altitude of ten thousand meters begins.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/06/1cb4da266bc0773d53f13575764e232f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/06/1cb4da266bc0773d53f13575764e232f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
