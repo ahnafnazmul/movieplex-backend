@@ -35364,6 +35364,18 @@
                 "player_url": "https://rtally.embedseek.com/#1gk96",
                 "source_site": "rtally",
                 "source_domain": "rtally.embedseek.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/e543666c7e0b84294a4904835e9de02e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/e543666c7e0b84294a4904835e9de02e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "rtally"
@@ -35517,6 +35529,97 @@
                 "player_url": "https://turbovidhls.com/t/6a6346d486847",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1682974",
+        "type": "movie",
+        "title": "The India Story",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/xxWm1jf8CdRi9sUB3a19en8YHfF.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-07-24",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Kajal Aggarwal",
+                "image": "https://image.tmdb.org/t/p/w185/wDzYjnDRNzyigCPBEwc9gf1hZ0Q.jpg"
+            },
+            {
+                "name": "Shreyas Talpade",
+                "image": "https://image.tmdb.org/t/p/w185/rKORFoIrI4GlcIfzzyVwCQNL9no.jpg"
+            },
+            {
+                "name": "Murali Sharma",
+                "image": "https://image.tmdb.org/t/p/w185/8m4L7L9lK4Z2YK4Jg97pMbA0Le5.jpg"
+            },
+            {
+                "name": "Manish Wadhwa",
+                "image": "https://image.tmdb.org/t/p/w185/dtYKUHR1kZuOBX2Ud2mEhpnTS3x.jpg"
+            },
+            {
+                "name": "Sham Mashalkar",
+                "image": ""
+            }
+        ],
+        "details": "A community confronts the devastating impact of pesticide contamination as industrial negligence threatens public health. The fight for accountability exposes systemic failures in regulatory oversight and corporate responsibility.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a638520a0018",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_206010",
+        "type": "series",
+        "title": "Kleo",
+        "release_year": 2022,
+        "original_language": "de",
+        "video_trailer": "https://www.youtube.com/watch?v=Zd3k7BOlJpE",
+        "poster": "https://image.tmdb.org/t/p/w500/hs72cJXRYay3kuZaEiHB0EYhQtJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qFI0A4aAV2uXIlKVzlMDjN0nweE.jpg",
+        "rating": 7.1,
+        "release_date": "2022-08-19",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Jella Haase",
+                "image": "https://image.tmdb.org/t/p/w185/kwbw9Q4Cnk1Oiwz8ktIQXgECLTx.jpg"
+            },
+            {
+                "name": "Dimitrij Schaad",
+                "image": "https://image.tmdb.org/t/p/w185/A0A0YXZ8yqJkhhQWqq6rUuOzlsC.jpg"
+            }
+        ],
+        "details": "After the fall of the Berlin Wall, a former East German spy resolves to find out who betrayed her and why — and use her lethal skills to exact revenge.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#lq9xm",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
             }
         ],
         "_source_site": "rtally"
