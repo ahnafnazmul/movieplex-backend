@@ -35681,5 +35681,215 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_318431",
+        "type": "series",
+        "title": "My Idol, My Debut",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/fybKGbIemO8uzZL7Ssax7c2lfyT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zIQJQOgiVoa4FGwvVdO4y5vzJPc.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Q",
+                "image": "https://image.tmdb.org/t/p/w185/jlIJK13GeigFtZmVRbyGv3dfgVz.jpg"
+            },
+            {
+                "name": "Hwang Ji-ah",
+                "image": "https://image.tmdb.org/t/p/w185/U2fktGabDOTbEk7h1O9N4Qknqu.jpg"
+            },
+            {
+                "name": "Lee Jin-hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/7DofbP2zbXlbM1OOg0wmmCHdEz.jpg"
+            },
+            {
+                "name": "Lee Jin-kyu",
+                "image": "https://image.tmdb.org/t/p/w185/gURdBDMxqzfzIpRsrki7xiw4QFJ.jpg"
+            },
+            {
+                "name": "Lee Ho-hyeon",
+                "image": "https://image.tmdb.org/t/p/w185/l4hdZHzFmMfEOwfeWmlhg4o9Wg4.jpg"
+            }
+        ],
+        "details": "A coming-of-age story about a devoted fan who time-slips eight years into the past to save their favorite idol from a tragic accident. While trying to change fate by preventing his debut, the fan ends up becoming an idol trainee themselves.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/20/ff98d9f9d9ef07cbf5da936e893614fc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/20/ff98d9f9d9ef07cbf5da936e893614fc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_223386",
+        "type": "series",
+        "title": "Man on Fire",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=YqpIKFUrLrk",
+        "poster": "https://image.tmdb.org/t/p/w500/9cZzmT8rhBXbZ1QFBPs3ggABYB3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dMCfHJRnAZfKoPTjYyZk2QCL8au.jpg",
+        "rating": 7.5,
+        "release_date": "2026-04-30",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Yahya Abdul-Mateen II",
+                "image": "https://image.tmdb.org/t/p/w185/79VdVjUoiYGcgjOT9UmE5XIpoZM.jpg"
+            },
+            {
+                "name": "Billie Boullet",
+                "image": "https://image.tmdb.org/t/p/w185/2T18NEAVoU8cWWpAtaI6fTrdolX.jpg"
+            },
+            {
+                "name": "Scoot McNairy",
+                "image": "https://image.tmdb.org/t/p/w185/oP2LJEqupxVZ2XdEW1lN5Q5LF3M.jpg"
+            },
+            {
+                "name": "Alice Braga",
+                "image": "https://image.tmdb.org/t/p/w185/d9JdgvUiqyWuGQLmozNfGZOpIBz.jpg"
+            }
+        ],
+        "details": "Haunted by his past and hunted by his enemies, a Special Forces veteran fights to keep a teenage girl alive on the deadly streets of Rio de Janeiro.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/01/05ae2d6cf58eddf5d7603bba84aa0bdb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/01/05ae2d6cf58eddf5d7603bba84aa0bdb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_10022",
+        "type": "series",
+        "title": "Daddio",
+        "release_year": 2000,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "",
+        "backdrop": "",
+        "rating": 5.5,
+        "release_date": "2000-03-23",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Michael Chiklis",
+                "image": "https://image.tmdb.org/t/p/w185/pAkKjbzxP6Z6Y5zAGpwmWQo1iji.jpg"
+            },
+            {
+                "name": "Anita Barone",
+                "image": "https://image.tmdb.org/t/p/w185/iVwAzaBCx3VykhJnSZIjpCD7Bxl.jpg"
+            },
+            {
+                "name": "Amy Wilson",
+                "image": ""
+            },
+            {
+                "name": "Kevin Crowley",
+                "image": "https://image.tmdb.org/t/p/w185/uRVsf1zx3EUA8nTpoEWkWNDyuKX.jpg"
+            },
+            {
+                "name": "Suzy Nakamura",
+                "image": "https://image.tmdb.org/t/p/w185/AkPYH6DKr0Bhv9kA2PTSGjpi11P.jpg"
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a63b2717b861",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_241350",
+        "type": "series",
+        "title": "The Best Friend",
+        "release_year": 1999,
+        "original_language": "ja",
+        "video_trailer": "",
+        "poster": "",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "1999-10-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ai Kato",
+                "image": "https://image.tmdb.org/t/p/w185/xOWPX3ejKjQJUGfqLy56CPY6YxE.jpg"
+            },
+            {
+                "name": "Ryuichi Ohura",
+                "image": "https://image.tmdb.org/t/p/w185/8sF510GiCpKqFB90EB8XzAQefIY.jpg"
+            },
+            {
+                "name": "Ai Maeda",
+                "image": "https://image.tmdb.org/t/p/w185/sHlbk4g55AUiAsox7sgK2mzrVmf.jpg"
+            },
+            {
+                "name": "Kenji Sakaguchi",
+                "image": "https://image.tmdb.org/t/p/w185/8WeK5QRP25q3EnCbS4ZcbFKQRp7.jpg"
+            },
+            {
+                "name": "Rika Furukawa",
+                "image": ""
+            }
+        ],
+        "details": "After graduating Seto Kyoka travels to Tokyo to fulfill her dream of becoming a singer. In Tokyo, she meets a famous producer. Will Kyoka be able to fulfill her dream...?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#6cyvr",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
