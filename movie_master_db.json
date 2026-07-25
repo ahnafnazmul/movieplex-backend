@@ -32901,6 +32901,18 @@
                 "player_url": "https://turbovidhls.com/t/6a5e2e12a5172",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/30/1b3bbd6fb3cc0ab985d15116a9633fa1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/30/1b3bbd6fb3cc0ab985d15116a9633fa1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "rtally"
@@ -36006,5 +36018,109 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_678466",
+        "type": "movie",
+        "title": "Garuda Gamana Vrishabha Vahana",
+        "release_year": 2021,
+        "original_language": "kn",
+        "video_trailer": "https://www.youtube.com/watch?v=BnuDHJcSd0Q",
+        "poster": "https://image.tmdb.org/t/p/w500/5jWfzHXvqLllbsVL7bvV1UVTq8s.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kNghJfQyWCXYIot7y5HTmQCml7v.jpg",
+        "rating": 7.6,
+        "release_date": "2021-11-19",
+        "runtime": "151 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Raj B Shetty",
+                "image": "https://image.tmdb.org/t/p/w185/vlNvrGhaYzmRxhkd4GOKFNfSkHY.jpg"
+            },
+            {
+                "name": "Rishab Shetty",
+                "image": "https://image.tmdb.org/t/p/w185/eRaOUg2B02XH1l6P4juGzaPDr3u.jpg"
+            },
+            {
+                "name": "Gopalkrishna Deshpande",
+                "image": ""
+            },
+            {
+                "name": "Deepak Rai Panaje",
+                "image": "https://image.tmdb.org/t/p/w185/sKDSBchwG85XdhUulFzDVsxopIz.jpg"
+            },
+            {
+                "name": "Prakash Tuminadu",
+                "image": ""
+            }
+        ],
+        "details": "Shiva and Hari, two friends who are polar opposites in demeanour, are the terror in Mangaladevi. What happens when ego, ambition and jealousy creeps in between their strong friendship?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a64c6af928ce",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_929727",
+        "type": "movie",
+        "title": "Taan",
+        "release_year": 2022,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=N4m3qNCGohw",
+        "poster": "https://image.tmdb.org/t/p/w500/pjMatsdYacm8Hl0LeCJuGxjEKAY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zxND73Mgy5tvQ4lRNiLicvsu3Lc.jpg",
+        "rating": 5.0,
+        "release_date": "2022-01-27",
+        "runtime": "105 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Romance",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Siam Ahmed",
+                "image": "https://image.tmdb.org/t/p/w185/4gSLuSAkUMnjv0nRRgUjOGSo2YU.jpg"
+            },
+            {
+                "name": "Shohel Mondol",
+                "image": "https://image.tmdb.org/t/p/w185/rXaQptajZQMGqCrurkUddv8KKR9.jpg"
+            },
+            {
+                "name": "Shobnom Bubly",
+                "image": "https://image.tmdb.org/t/p/w185/AssjPyYhlquZTk1j01c6F3ZnkIn.jpg"
+            },
+            {
+                "name": "Neelanjona Neela",
+                "image": "https://image.tmdb.org/t/p/w185/gqPcBmGPIe4T8GHVbIWg72PMnrU.jpg"
+            },
+            {
+                "name": "Farzana Chobi",
+                "image": "https://image.tmdb.org/t/p/w185/4q7TVqlu8PdJZQq03hQpPFERV1a.jpg"
+            }
+        ],
+        "details": "Rashed and Abani- Two lovers living the life as they dreamt. But fate plays a tragic turn when a past mistake transforms into vengeance. Could Rashed and Abani survive this storm and make it to the end?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a64c0b259612",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
