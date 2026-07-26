@@ -869,12 +869,16 @@
             fetchDeepTMDBData(movie.id, movie.categories, movie);
         }
 
-        // 🌟 CLONE INTERCEPTION & PREMIUM NATIVE MULTI-QUALITY ENGINE
+        // 🌟 100% AD-FREE BLOCKED EVENT INTERCEPTOR ENGINE
         function activatePlayerFrame(event) {
             if (event) {
                 event.preventDefault();
                 event.stopPropagation();
+                event.stopImmediatePropagation();
             }
+            
+            // 🛑 কঠোর নিরাপত্তা: ভিডিও চালুর মুহূর্তে যেকোনো নতুন উইন্ডো বা পপ-আপ রিকোয়েস্ট চিরতরে ব্লক
+            window.open = function() { return null; };
             
             if (!activeSelectedSource) return;
 
