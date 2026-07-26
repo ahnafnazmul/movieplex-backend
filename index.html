@@ -900,26 +900,30 @@
 
                 if (movieboxNodes.length > 0) {
                     movieboxNodes.forEach(node => {
+                        const proxiedUrl = `/api/proxy?url=${encodeURIComponent(node.url)}`;
                         plyrSources.push({
-                            src: node.url,
+                            src: proxiedUrl,
                             type: node.url.includes('m3u8') ? 'application/x-mpegURL' : 'video/mp4',
                             size: parseInt(node.quality) || 1080
                         });
                     });
                 } else {
+                    const proxiedUrl = `/api/proxy?url=${encodeURIComponent(activeSelectedSource.url)}`;
                     plyrSources.push({
-                        src: activeSelectedSource.url,
+                        src: proxiedUrl,
                         type: activeSelectedSource.url.includes('m3u8') ? 'application/x-mpegURL' : 'video/mp4',
                         size: 1080
                     });
                 }
 
+                const initialPlayUrl = plyrSources[0].src;
+
                 if (Hls.isSupported() && activeSelectedSource.url.includes('m3u8')) {
                     const hls = new Hls({ maxMaxBufferLength: 30, enableWorker: true });
-                    hls.loadSource(activeSelectedSource.url);
+                    hls.loadSource(initialPlayUrl);
                     hls.attachMedia(videoElement);
                 } else {
-                    videoElement.src = activeSelectedSource.url;
+                    videoElement.src = initialPlayUrl;
                 }
                 
                 globalPlyrInstance = new Plyr(videoElement, {
@@ -963,13 +967,14 @@
                 const videoElement = document.getElementById('native-video-player');
                 const currentTime = globalPlyrInstance.currentTime;
                 const isPlaying = globalPlyrInstance.playing;
+                const proxiedUrl = `/api/proxy?url=${encodeURIComponent(targetTrack.url)}`;
 
                 if (Hls.isSupported() && targetTrack.url.includes('m3u8')) {
                     const hls = new Hls();
-                    hls.loadSource(targetTrack.url);
+                    hls.loadSource(proxiedUrl);
                     hls.attachMedia(videoElement);
                 } else {
-                    videoElement.src = targetTrack.url;
+                    videoElement.src = proxiedUrl;
                 }
 
                 globalPlyrInstance.once('ready', () => {
