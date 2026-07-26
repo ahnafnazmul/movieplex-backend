@@ -36180,5 +36180,61 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1727780",
+        "type": "movie",
+        "title": "Borderline",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=ORHBgSvX_24",
+        "poster": "https://image.tmdb.org/t/p/w500/sAA2mjpYJFAKydtzG4P4aHC4mZk.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/t5iMyppJhIdjPQDAWIWoilO5iYf.jpg",
+        "rating": 7.7,
+        "release_date": "2026-07-17",
+        "runtime": "94 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Marissa Arguijo",
+                "image": ""
+            },
+            {
+                "name": "Michael-Eoin Stanney",
+                "image": "https://image.tmdb.org/t/p/w185/ybgdmLiPWu0P9RH1lgGBR49d0Rt.jpg"
+            },
+            {
+                "name": "Marcus Jean Pirae",
+                "image": "https://image.tmdb.org/t/p/w185/4XD78iRQJpx0uTQRg98Dfzgyb69.jpg"
+            },
+            {
+                "name": "Dominic Hernandez",
+                "image": ""
+            },
+            {
+                "name": "Nigel Vonas",
+                "image": "https://image.tmdb.org/t/p/w185/hhFFUHGXU8kSDjvJZPEVFCVsagz.jpg"
+            }
+        ],
+        "details": "Convinced they are our secret saviors, rogue U.S. operatives abduct Mexican gang members and seed them across major American cities, unleashing criminal chaos, swaying voters by playing on nativist prejudices, and forcing law enforcement into a race to expose the plot as the escalating carnage threatens democracy itself.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/18/f8b187229a5cbba7fe09479aa6983066-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/18/f8b187229a5cbba7fe09479aa6983066-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
