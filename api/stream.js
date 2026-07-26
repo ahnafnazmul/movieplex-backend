@@ -11,12 +11,12 @@ const HOST_POOL = [
 let currentHostIdx = 0;
 let runtimeToken = null;
 
+// ভার্সেল ডেটাসেন্টার লুকাতে আরও উন্নত র্যান্ডম এশিয়ান আইপি জেনারেটর
 function generateSpoofedIp() {
-    const prefixes = ["103.241", "49.36", "117.195", "106.198", "122.162", "157.32", "182.70", "103.58", "27.60", "59.90"];
+    const prefixes = ["103.241.130", "49.36.45", "117.195.88", "106.198.12", "122.162.90", "27.60.11", "103.58.40"];
     const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
-    return `${prefix}.${Math.floor(Math.random() * 253) + 1}.${Math.floor(Math.random() * 253) + 1}`;
+    return `${prefix}.${Math.floor(Math.random() * 250) + 2}`;
 }
-const spoofedIp = generateSpoofedIp();
 
 function generateXClientToken(ts) {
     const reversedTs = ts.toString().split('').reverse().join('');
@@ -42,39 +42,55 @@ function generateSignature(method, fullUrl, body = '', ts) {
 
 function getHeaders(method, fullUrl, body = '') {
     const ts = Date.now();
+    const currentIp = generateSpoofedIp();
     const headers = {
         'User-Agent': 'com.community.oneroom/50020045 (Linux; U; Android 13; en_US; Redmi Build/TQ2A.230405.003; Cronet/135.0.7012.3)',
-        'Accept': 'application/json', 'Content-Type': 'application/json', 'Connection': 'keep-alive',
-        'X-Client-Token': generateXClientToken(ts), 'x-tr-signature': generateSignature(method, fullUrl, body ? JSON.stringify(body) : '', ts),
+        'Accept': 'application/json', 
+        'Content-Type': 'application/json', 
+        'Connection': 'keep-alive',
+        'X-Client-Token': generateXClientToken(ts), 
+        'x-tr-signature': generateSignature(method, fullUrl, body ? JSON.stringify(body) : '', ts),
         'X-Client-Info': `{"package_name":"com.community.oneroom","version_name":"3.0.03.0529.03","version_code":50020045,"os":"android","os_version":"13","device_id":"5c7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c","brand":"Redmi","model":"23078RKD5C","net":"NETWORK_WIFI","region":"BD","timezone":"Asia/Dhaka"}`,
-        'X-Client-Status': '0', 'X-Forwarded-For': spoofedIp
+        'X-Client-Status': '0',
+        // ভার্সেল প্রক্সি বাইপাস করার জন্য ৩ লেভেলের আইপি মাস্কিং হেডার
+        'X-Forwarded-For': currentIp,
+        'Client-Ip': currentIp,
+        'X-Real-Ip': currentIp
     };
     if (runtimeToken) headers['Authorization'] = `Bearer ${runtimeToken}`;
     return headers;
 }
 
 async function makeRequest(method, path, body = null) {
+    let lastError = "";
     for (let i = 0; i < HOST_POOL.length; i++) {
         const idx = (currentHostIdx + i) % HOST_POOL.length;
         const url = `${HOST_POOL[idx]}${path}`;
         try {
             const headers = getHeaders(method, url, body);
-            const res = method === 'POST' ? await axios.post(url, body, { headers, timeout: 8000 }) : await axios.get(url, { headers, timeout: 8000 });
+            const res = method === 'POST' ? 
+                await axios.post(url, body, { headers, timeout: 9000 }) : 
+                await axios.get(url, { headers, timeout: 9000 });
+                
             if (res.headers['x-user']) {
                 const token = JSON.parse(res.headers['x-user']).token;
                 if (token) runtimeToken = token;
             }
-            if (res.status === 403 || res.data?.code === 403) continue;
+            if (res.status === 403 || res.data?.code === 403 || res.data?.code === 401) {
+                lastError = `Host ${HOST_POOL[idx]} returned auth/permission error.`;
+                continue;
+            }
             currentHostIdx = idx;
             return res.data;
-        } catch (err) { continue; }
+        } catch (err) { 
+            lastError = err.message;
+            continue; 
+        }
     }
-    throw new Error("All MovieBox API hosts rejected the request.");
+    throw new Error(`MovieBox API Connection Failed. Detail: ${lastError}`);
 }
 
-// এই অংশটি ভার্সেল হ্যান্ডলারের জন্য স্পেশাল
 module.exports = async (req, res) => {
-    // CORS পলিসি সেট করা (যাতে আপনার ফ্রন্টএন্ড থেকে সহজে ডেটা আনা যায়)
     res.setHeader('Access-Control-Allow-Credentials', true);
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
@@ -98,7 +114,7 @@ module.exports = async (req, res) => {
         let firstMovie = results.find(r => r.topicType === "SUBJECT" && r.subjects?.length > 0)?.subjects[0];
 
         if (!firstMovie) {
-            return res.status(404).json({ error: "No movie found." });
+            return res.status(404).json({ error: `No movie found for query: ${movieName}` });
         }
 
         const subjectId = firstMovie.subjectId || firstMovie.id;
