@@ -85,6 +85,7 @@
 
         /* 🎬 OTT Native Video Layer Config overrides */
         .plyr--video { height: 100% !important; width: 100% !important; background: transparent !important; }
+        .plyr__controls { border-radius: 0 0 12px 12px; }
     </style>
     
     <script>
@@ -294,7 +295,7 @@
             <!-- 🚫 ANTI-REDIRECT INVISIBLE TOUCH SHIELD LAYER -->
             <div id="iframe-touch-gate" class="absolute inset-0 z-20 hidden" style="pointer-events: none;"></div>
             
-            <!-- 📦 HYBRID PLAYBACK NODE LAYER -->
+            <!-- 📦 HYBRID PLAYBACK NODE LAYER (Plyr Multi-Quality Premium Container) -->
             <div id="native-player-wrapper" class="absolute inset-0 w-full h-full z-10 hidden bg-black">
                 <video id="native-video-player" class="w-full h-full object-cover" controls crossorigin playsinline></video>
             </div>
@@ -388,8 +389,8 @@
         const API_URL = 'movie_master_db.json';
         const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6';
         
-        // 🔗 ক্লাউডফ্লেয়ার ওয়ার্কারের ফাইনাল এপিআই প্রক্সি লিংক গেটওয়ে
-        const CLOUDFLARE_WORKER_API = "https://floral-sun-4fd6.ahnaf-nazmul.workers.dev/";
+        // 🔗 ভার্সেল ব্যাকএন্ড এপিআই গেটওয়ে
+        const CLOUDFLARE_WORKER_API = "/api/stream";
         
         let globalMoviesData = [];
         let streamguideData = [];
@@ -759,7 +760,7 @@
             processAlgorithmicRows();
         }
 
-        // ⚡ ASYNC STREAM BRIDGE: FETCHING AND RESOLVING DYNAMIC LADDER VIA WORKER PROXY
+        // ⚡ ASYNC STREAM BRIDGE: FETCHING MOVIEBOX API WITH HIGH-ACCURACY PRESETS
         async function openDetailsPage(movie) {
             currentViewingMovieObj = movie;
             tmdbCastsBackup = [];
@@ -768,12 +769,16 @@
             document.getElementById('details-view-container').classList.replace('hidden', 'block');
             window.scrollTo({ top: 0, behavior: 'smooth' });
 
-            document.getElementById('details-title').innerText = cleanTitle(movie.title);
-            document.getElementById('details-year').innerText = extractSafeYear(movie);
+            const cleanMovieName = cleanTitle(movie.title);
+            const releaseYear = extractSafeYear(movie);
+            const audioTrack = movie.detectedAudio || 'English';
+
+            document.getElementById('details-title').innerText = cleanMovieName;
+            document.getElementById('details-year').innerText = releaseYear;
             document.getElementById('details-rating').innerText = `⭐ ${movie.rating}`;
             document.getElementById('details-views').innerText = `Views: ${movie.views.toLocaleString()}`;
             document.getElementById('details-desc').innerText = (movie.details && movie.details !== "No summary available.") ? movie.details : "Synopsis parsing verified.";
-            document.getElementById('details-meta-audio').innerText = movie.detectedAudio;
+            document.getElementById('details-meta-audio').innerText = audioTrack;
             
             document.getElementById('native-player-wrapper').classList.add('hidden');
             document.getElementById('details-video-iframe').classList.add('hidden');
@@ -786,47 +791,58 @@
             }
 
             currentResolvedSources = [];
-            let directOttUrl = "";
+            let movieboxStreamData = null;
             let apiFetchSuccess = false;
 
-            // 1. Priority 1: Cloudflare Secure OTT Extraction Gateway Hook
+            // 🎯 HIGH ACCURACY SEARCH PARAMETER (NAME + YEAR + AUDIO)
+            const searchQuery = `${cleanMovieName} ${releaseYear} ${audioTrack}`.trim();
+
+            // 1. Priority 1: Fetching premium streams from Vercel API Endpoint
             try {
-                const apiRes = await fetch(`${CLOUDFLARE_WORKER_API}?id=${encodeURIComponent(movie.id)}`);
+                const apiRes = await fetch(`${CLOUDFLARE_WORKER_API}?q=${encodeURIComponent(searchQuery)}`);
                 if (apiRes.ok) {
                     const apiJson = await apiRes.json();
-                    if (apiJson.success && apiJson.stream_url) {
-                        directOttUrl = apiJson.stream_url;
+                    if (apiJson && (apiJson.stream_url || apiJson.qualities)) {
+                        movieboxStreamData = apiJson;
                         apiFetchSuccess = true;
                     }
                 }
-            } catch(e) { console.error("Cloudflare Worker secure extraction bypassed."); }
+            } catch(e) { console.error("Moviebox core extraction bypassed."); }
             
-            currentResolvedSources.push({
-                name: "Server 1 (Plugin - OTT)",
-                url: directOttUrl,
-                type: "direct",
-                priority: 1,
-                tag: apiFetchSuccess ? "PLUGIN" : "PLUGIN_OFFLINE"
-            });
+            if (apiFetchSuccess && movieboxStreamData) {
+                if (movieboxStreamData.qualities) {
+                    // Injecting premium quality parameters into active array
+                    Object.keys(movieboxStreamData.qualities).forEach((quality) => {
+                        currentResolvedSources.push({
+                            name: `Moviebox Premium (${quality})`,
+                            url: movieboxStreamData.qualities[quality],
+                            type: "direct",
+                            priority: quality === '1080p' ? 1 : quality === '720p' ? 2 : 3,
+                            tag: "MOVIEBOX",
+                            quality: quality
+                        });
+                    });
+                } else if (movieboxStreamData.stream_url) {
+                    currentResolvedSources.push({
+                        name: "Moviebox Premium (Auto)",
+                        url: movieboxStreamData.stream_url,
+                        type: "direct",
+                        priority: 1,
+                        tag: "MOVIEBOX",
+                        quality: "Auto"
+                    });
+                }
+            }
 
-            // 2. Priority 2: JSON Premium Streaming Link Hook (Simulated Layer)
-            currentResolvedSources.push({
-                name: "Server 2 (JSON - Premium)",
-                url: "https://bpx.rpmvid.site/hls/secure.m3u8", 
-                type: "direct",
-                priority: 2,
-                tag: "JSON_GOOD"
-            });
-
-            // 3. Priority 3: Standard Native Scraped Iframes Fallback Core Injection
+            // 2. Priority 2: Standard Backup Scraped Iframes Fallback Core Injection from data.json
             if (movie.players && movie.players.length > 0) {
                 movie.players.forEach((player, idx) => {
                     currentResolvedSources.push({
-                        name: `Server ${idx + 3} (Fallback - Player)`,
+                        name: `Server ${idx + 1} (Backup Iframe)`,
                         url: player.player_url,
                         type: "iframe",
-                        priority: idx + 3,
-                        tag: "FALLBACK"
+                        priority: idx + 10,
+                        tag: "IFRAME_BACKUP"
                     });
                 });
             }
@@ -835,8 +851,7 @@
             currentResolvedSources.sort((a, b) => a.priority - b.priority);
             
             // Auto-fallback configuration setup logic
-            activeSelectedSource = currentResolvedSources.find(src => src.url !== "" && src.tag === "PLUGIN") || 
-                                   currentResolvedSources.find(src => src.tag === "JSON_GOOD") || 
+            activeSelectedSource = currentResolvedSources.find(src => src.tag === "MOVIEBOX") || 
                                    currentResolvedSources.find(src => src.type === "iframe");
 
             // Render Server Switches on UI seamlessly matching template specifications
@@ -847,7 +862,7 @@
                 const btn = document.createElement('button');
                 const isActive = activeSelectedSource && activeSelectedSource.priority === src.priority;
                 btn.className = `px-4 py-1.5 rounded-lg text-[11px] font-black uppercase transition ${isActive ? 'bg-yellow-500 text-black shadow-lg' : 'bg-slate-900 text-gray-400 border border-slate-800'}`;
-                btn.innerText = `${src.name} [${src.tag}]`;
+                btn.innerText = src.name;
                 
                 btn.onclick = function() {
                     Array.from(serverContainer.children).forEach(b => b.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase');
@@ -877,7 +892,7 @@
             fetchDeepTMDBData(movie.id, movie.categories, movie);
         }
 
-        // 🌟 CLONE INTERCEPTION & NATIVE OTT DESTRUCTOR ENGINE UPDATE
+        // 🌟 CLONE INTERCEPTION & PREMIUM NATIVE MULTI-QUALITY ENGINE
         function activatePlayerFrame(event) {
             if (event) {
                 event.preventDefault();
@@ -886,7 +901,6 @@
             
             document.getElementById('player-shield').classList.add('hidden');
             console.log(`%c [MovieplexBD Engine] Routing Source -> Tag: ${activeSelectedSource.tag}`, "background: #eab308; color: #000; padding: 5px; font-weight: bold; border-radius: 4px;");
-            document.title = `[${activeSelectedSource.tag}] Movieplex BD`;
 
             const iframe = document.getElementById('details-video-iframe');
             const nativeWrapper = document.getElementById('native-player-wrapper');
@@ -894,7 +908,7 @@
             const gate = document.getElementById('iframe-touch-gate');
 
             if (activeSelectedSource.type === "direct" && activeSelectedSource.url) {
-                // Execute Native Plyr streaming layer context injection
+                // Execute Premium Plyr Layer with Option Selector Switch
                 iframe.classList.add('hidden');
                 iframe.src = "";
                 if(gate) {
@@ -903,6 +917,26 @@
                 }
                 
                 nativeWrapper.classList.remove('hidden');
+
+                // Build Plyr Sources structure mapping for Quality Control Toggle
+                let plyrSources = [];
+                const movieboxNodes = currentResolvedSources.filter(src => src.tag === "MOVIEBOX");
+
+                if (movieboxNodes.length > 1) {
+                    movieboxNodes.forEach(node => {
+                        plyrSources.push({
+                            src: node.url,
+                            type: node.url.includes('m3u8') ? 'application/x-mpegURL' : 'video/mp4',
+                            size: parseInt(node.quality) || 1080
+                        });
+                    });
+                } else {
+                    plyrSources.push({
+                        src: activeSelectedSource.url,
+                        type: activeSelectedSource.url.includes('m3u8') ? 'application/x-mpegURL' : 'video/mp4',
+                        size: 1080
+                    });
+                }
 
                 if (Hls.isSupported() && activeSelectedSource.url.includes('m3u8')) {
                     const hls = new Hls({ maxMaxBufferLength: 30, enableWorker: true });
@@ -914,19 +948,25 @@
                 
                 globalPlyrInstance = new Plyr(videoElement, {
                     controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'pip', 'fullscreen'],
-                    autoplay: true
+                    autoplay: true,
+                    quality: {
+                        default: plyrSources[0].size,
+                        options: plyrSources.map(s => s.size),
+                        forced: true,
+                        onChange: (e) => updateQualityStreamTrack(e)
+                    }
                 });
                 
                 globalPlyrInstance.on('ready', () => { globalPlyrInstance.play(); });
                 
-                // Fallback catch parameters sequence if stream returns breakdown state
+                // Fallback catch parameter sequencing if direct stream returns breakdown state
                 videoElement.onerror = function() {
                     console.log("Direct direct engine failure caught. Shifting layout to fallback system.");
                     triggerEmergencyFallbackRouting();
                 };
 
             } else {
-                // Execute secure fallback sandboxed iframe mechanics
+                // Execute backup sandboxed iframe mechanism seamlessly
                 if(globalPlyrInstance) {
                     globalPlyrInstance.destroy();
                     globalPlyrInstance = null;
@@ -938,7 +978,7 @@
                 
                 if(gate) {
                     gate.classList.add('hidden'); 
-                    gate.style.pointerEvents = 'none'; // Lock released to ensure smooth ad-free fallback
+                    gate.style.pointerEvents = 'none';
                 }
                 
                 let finalSrc = activeSelectedSource.url || "";
@@ -964,13 +1004,35 @@
             if(currentViewingMovieObj) cacheUserPreferences(currentViewingMovieObj);
         }
 
+        function updateQualityStreamTrack(newSize) {
+            const targetTrack = currentResolvedSources.find(src => src.tag === "MOVIEBOX" && parseInt(src.quality) === newSize);
+            if (targetTrack && globalPlyrInstance) {
+                const videoElement = document.getElementById('native-video-player');
+                const currentTime = globalPlyrInstance.currentTime;
+                const isPlaying = globalPlyrInstance.playing;
+
+                if (Hls.isSupported() && targetTrack.url.includes('m3u8')) {
+                    const hls = new Hls();
+                    hls.loadSource(targetTrack.url);
+                    hls.attachMedia(videoElement);
+                } else {
+                    videoElement.src = targetTrack.url;
+                }
+
+                globalPlyrInstance.once('ready', () => {
+                    globalPlyrInstance.currentTime = currentTime;
+                    if (isPlaying) globalPlyrInstance.play();
+                });
+            }
+        }
+
         function triggerEmergencyFallbackRouting() {
             const fallbackNode = currentResolvedSources.find(src => src.type === "iframe");
             if (fallbackNode) {
                 activeSelectedSource = fallbackNode;
                 const serverContainer = document.getElementById('details-server-container');
                 Array.from(serverContainer.children).forEach((btn) => {
-                    if(btn.innerText.includes(fallbackNode.tag)) {
+                    if(btn.innerText.includes("Backup")) {
                         btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
                     } else {
                         btn.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
