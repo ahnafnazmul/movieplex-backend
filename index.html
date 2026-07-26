@@ -21,7 +21,7 @@
     <link class="shortcut icon" type="image/png" href="logo.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     
     <!-- 🎥 Plyr Core Engine Skins Without Interfering with Existing UI Setup -->
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
@@ -389,9 +389,9 @@
         const API_URL = 'movie_master_db.json';
         
         // 🔐 TMDB SECRET VARIABLE ENGINE WITH ENVIRONMENT SAFEGUARDS
-        const TMDB_KEY = window.TMDB_KEY || process?.env?.TMDB_KEY || '5a68d06742db51fa8ce6ee35a4dcd0d6';
+        const TMDB_KEY = '5a68d06742db51fa8ce6ee35a4dcd0d6';
         
-        // 🔗 ভার্সেল ব্যাকএন্ড এপিআই গেটওয়ে
+        // 🔗 ব্যাকএন্ড এপিআই গেটওয়ে (সরাসরি রিলেটিভ পাথ)
         const CLOUDFLARE_WORKER_API = "/api/stream";
         
         let globalMoviesData = [];
@@ -794,19 +794,17 @@
 
             currentResolvedSources = [];
             
-            // 🎯 HIGH ACCURACY SEARCH PARAMETER (NAME + YEAR + AUDIO)
-            const searchQuery = `${cleanMovieName} ${releaseYear} ${audioTrack}`.trim();
+            // 🎯 HIGH ACCURACY SEARCH PARAMETER (NAME + YEAR)
+            const searchQuery = `${cleanMovieName} ${releaseYear}`.trim();
 
-            // 🛠️ RESOLVE PREMIUM STREAMS REGARDLESS OF TMDB STATUS (CRITICAL REQUIREMENT)
             async function fetchPremiumStreams() {
                 try {
                     const apiRes = await fetch(`${CLOUDFLARE_WORKER_API}?q=${encodeURIComponent(searchQuery)}`);
                     if (apiRes.ok) {
                         const apiJson = await apiRes.json();
                         if (apiJson) {
-                            // কন্ডিশন ১: যদি অবজেক্টে সরাসরি streams অ্যারে থাকে (যেমন স্ক্রিনশটে ছিল)
                             if (apiJson.streams && apiJson.streams.length > 0) {
-                                apiJson.streams.forEach((stream, idx) => {
+                                apiJson.streams.forEach((stream) => {
                                     currentResolvedSources.push({
                                         name: `Premium (${stream.quality || 'Auto'})`,
                                         url: stream.url,
@@ -817,37 +815,14 @@
                                     });
                                 });
                             }
-                            // কন্ডিশন ২: আগের ওল্ড অবজেক্ট ফরম্যাট মেকানিজম ব্যাকআপ
-                            else if (apiJson.qualities) {
-                                Object.keys(apiJson.qualities).forEach((quality) => {
-                                    currentResolvedSources.push({
-                                        name: `Premium (${quality})`,
-                                        url: apiJson.qualities[quality],
-                                        type: "direct",
-                                        priority: quality === '1080p' ? 1 : quality === '720p' ? 2 : 3,
-                                        tag: "MOVIEBOX",
-                                        quality: quality
-                                    });
-                                });
-                            } else if (apiJson.stream_url) {
-                                currentResolvedSources.push({
-                                    name: "Premium (Auto)",
-                                    url: apiJson.stream_url,
-                                    type: "direct",
-                                    priority: 1,
-                                    tag: "MOVIEBOX",
-                                    quality: "Auto"
-                                });
-                            }
                         }
                     }
-                } catch(e) { console.error("Premium Stream Extraction Failed, falling back to basic metadata query."); }
+                } catch(e) { console.error("Premium Stream Extraction Failed."); }
 
-                // 2. Standard Backup Scraped Iframes Fallback Core Injection from data.json
                 if (movie.players && movie.players.length > 0) {
                     movie.players.forEach((player, idx) => {
                         currentResolvedSources.push({
-                            name: `Server ${idx + 1} (Backup Iframe)`,
+                            name: `Server ${idx + 1} (Backup)`,
                             url: player.player_url,
                             type: "iframe",
                             priority: idx + 10,
@@ -856,14 +831,11 @@
                     });
                 }
 
-                // Automate rank sort routing priority parameters
                 currentResolvedSources.sort((a, b) => a.priority - b.priority);
                 
-                // Auto-fallback configuration setup logic
                 activeSelectedSource = currentResolvedSources.find(src => src.tag === "MOVIEBOX") || 
                                        currentResolvedSources.find(src => src.type === "iframe");
 
-                // Render Server Switches on UI seamlessly matching template specifications
                 const serverContainer = document.getElementById('details-server-container');
                 serverContainer.innerHTML = '';
                 
@@ -893,10 +865,7 @@
                 });
             }
 
-            // প্লেব্যাক লোডার রান ফাস্ট
             await fetchPremiumStreams();
-
-            // TMDB মেটাডাটা ব্যাকগ্রাউন্ডে আইসোলেটেড ভাবে রান করবে (ফেল করলেও মেইন প্লে ব্লক হবে না)
             fetchDeepTMDBData(movie.id, movie.categories, movie);
         }
 
@@ -907,13 +876,9 @@
                 event.stopPropagation();
             }
             
-            if (!activeSelectedSource) {
-                console.error("No valid playback tracks found.");
-                return;
-            }
+            if (!activeSelectedSource) return;
 
             document.getElementById('player-shield').classList.add('hidden');
-            console.log(`%c [MovieplexBD Engine] Routing Source -> Tag: ${activeSelectedSource.tag}`, "background: #eab308; color: #000; padding: 5px; font-weight: bold; border-radius: 4px;");
 
             const iframe = document.getElementById('details-video-iframe');
             const nativeWrapper = document.getElementById('native-player-wrapper');
@@ -921,7 +886,6 @@
             const gate = document.getElementById('iframe-touch-gate');
 
             if (activeSelectedSource.type === "direct" && activeSelectedSource.url) {
-                // Execute Premium Plyr Layer with Option Selector Switch
                 iframe.classList.add('hidden');
                 iframe.src = "";
                 if(gate) {
@@ -931,11 +895,10 @@
                 
                 nativeWrapper.classList.remove('hidden');
 
-                // Build Plyr Sources structure mapping for Quality Control Toggle
                 let plyrSources = [];
                 const movieboxNodes = currentResolvedSources.filter(src => src.tag === "MOVIEBOX");
 
-                if (movieboxNodes.length > 1) {
+                if (movieboxNodes.length > 0) {
                     movieboxNodes.forEach(node => {
                         plyrSources.push({
                             src: node.url,
@@ -972,49 +935,26 @@
                 
                 globalPlyrInstance.on('ready', () => { globalPlyrInstance.play(); });
                 
-                // Fallback catch parameter sequencing if direct stream returns breakdown state
                 videoElement.onerror = function() {
-                    console.log("Direct engine failure caught. Shifting layout to fallback iframe system.");
                     triggerEmergencyFallbackRouting();
                 };
 
             } else {
-                // Execute backup sandboxed iframe mechanism seamlessly
                 if(globalPlyrInstance) {
                     globalPlyrInstance.destroy();
                     globalPlyrInstance = null;
                 }
                 videoElement.src = "";
                 nativeWrapper.classList.add('hidden');
-                
                 iframe.classList.remove('hidden');
-                
-                if(gate) {
-                    gate.classList.add('hidden'); 
-                    gate.style.pointerEvents = 'none';
-                }
                 
                 let finalSrc = activeSelectedSource.url || "";
                 if (finalSrc && !finalSrc.includes('autoplay=')) {
                     finalSrc += (finalSrc.includes('?') ? '&' : '?') + 'autoplay=1&muted=0';
                 }
                 
-                window.open = function() { return null; };
                 iframe.src = finalSrc;
-                
-                iframe.onload = function() {
-                    try {
-                        if(iframe.contentWindow) {
-                            iframe.contentWindow.open = function() { return null; };
-                        }
-                        iframe.focus();
-                    } catch(e) {
-                        setTimeout(() => { iframe.focus(); }, 200);
-                    }
-                };
             }
-
-            if(currentViewingMovieObj) cacheUserPreferences(currentViewingMovieObj);
         }
 
         function updateQualityStreamTrack(newSize) {
@@ -1043,29 +983,8 @@
             const fallbackNode = currentResolvedSources.find(src => src.type === "iframe");
             if (fallbackNode) {
                 activeSelectedSource = fallbackNode;
-                const serverContainer = document.getElementById('details-server-container');
-                Array.from(serverContainer.children).forEach((btn) => {
-                    if(btn.innerText.includes("Backup")) {
-                        btn.className = 'bg-yellow-500 text-black shadow-lg px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
-                    } else {
-                        btn.className = 'bg-slate-900 text-gray-400 border border-slate-800 px-4 py-1.5 rounded-lg text-[11px] font-black uppercase';
-                    }
-                });
                 activatePlayerFrame(null);
             }
-        }
-
-        function cacheUserPreferences(movie) {
-            try {
-                let history = JSON.parse(localStorage.getItem('mp_genre_history')) || [];
-                if(movie.categories) {
-                    movie.categories.forEach(cat => {
-                        if(!["Movies", "Web Series", "Bangla", "Hindi", "Dual Audio", "Multi Audio"].includes(cat)) history.push(cat);
-                    });
-                }
-                if(history.length > 40) history = history.slice(-40);
-                localStorage.setItem('mp_genre_history', JSON.stringify(history));
-            } catch(e) {}
         }
 
         async function fetchDeepTMDBData(tmdbIdStr, localCategories, currentMovie) {
@@ -1075,11 +994,7 @@
             document.getElementById('details-meta-country').innerText = "--";
             document.getElementById('details-meta-runtime').innerText = "--";
 
-            const restrictedGenreKeywords = [
-                'movies', 'web series', 'bangla', 'bengali', 'hindi', 'english', 'tamil', 
-                'dual audio', 'multi audio', 'new release', 'recent release', 'recent', 
-                'trending', 'trending now', 'top rated'
-            ];
+            const restrictedGenreKeywords = ['movies', 'web series', 'bangla', 'bengali', 'hindi', 'english', 'tamil', 'dual audio', 'multi audio', 'new release', 'recent release'];
 
             if(localCategories) {
                 localCategories.forEach(cat => {
@@ -1102,7 +1017,7 @@
             
             try {
                 const response = await fetch(url);
-                if (!response.ok) throw new Error("TMDB Key validation failed or limit reached.");
+                if (!response.ok) throw new Error("TMDB Key validation failed.");
                 
                 const res = await response.json();
                 if(res.overview) document.getElementById('details-desc').innerText = res.overview;
@@ -1115,13 +1030,6 @@
                         const normalizedGName = g.name.toLowerCase().trim();
                         if(!restrictedGenreKeywords.includes(normalizedGName)) {
                             apiGenreNames.push(g.name);
-                            const existingSpans = Array.from(genreContainer.querySelectorAll('span')).map(s => s.innerText.toLowerCase());
-                            if(!existingSpans.includes(normalizedGName)) {
-                                const span = document.createElement('span');
-                                span.className = "bg-slate-900 border border-slate-800 text-yellow-500 text-[9px] font-black px-2.5 py-0.5 rounded-full uppercase";
-                                span.innerText = g.name; 
-                                genreContainer.appendChild(span);
-                            }
                         }
                     });
                 }
@@ -1136,7 +1044,6 @@
                 });
                 renderAdvancedRecommendedContent(currentMovie, apiGenreNames);
             } catch(e) { 
-                console.warn("Isolated TMDB fail handled properly. Playback engine left completely untouched.");
                 renderAdvancedRecommendedContent(currentMovie, []); 
             }
         }
@@ -1146,45 +1053,8 @@
                 const container = document.getElementById('grid-similar-content');
                 container.innerHTML = '';
                 const cleanDataset = globalMoviesData.filter(m => !isAdultContentFlagged(m) && m.id !== currentMovie.id);
-                let userHistoryGenres = [];
-                try { userHistoryGenres = JSON.parse(localStorage.getItem('mp_genre_history')) || []; } catch(e){}
-
-                let scoredCollection = [];
-                let currentTitleCleaned = cleanTitle(currentMovie.title).toLowerCase();
-                let franchiseKeywords = currentTitleCleaned.split(' ').filter(word => word.length > 3 && !['chapter', 'part', 'movie', 'season', 'the', 'return'].includes(word));
-
-                cleanDataset.forEach(movie => {
-                    let score = 0;
-                    let loopTitleCleaned = cleanTitle(movie.title).toLowerCase();
-
-                    if(franchiseKeywords.some(keyword => loopTitleCleaned.includes(keyword))) score += 50;
-                    if(movie.categories) {
-                        movie.categories.forEach(cat => { if(userHistoryGenres.includes(cat)) score += 10; });
-                    }
-                    if(movie.categories && tmdbGenres && tmdbGenres.length > 0) {
-                        movie.categories.forEach(cat => { if(tmdbGenres.includes(cat)) score += 15; });
-                    }
-                    if(movie.details && tmdbCastsBackup && tmdbCastsBackup.length > 0) {
-                        let summary = movie.details.toLowerCase();
-                        tmdbCastsBackup.forEach(actor => { if(summary.includes(actor)) score += 8; });
-                    }
-                    if(movie.detectedAudio === currentMovie.detectedAudio) score += 4;
-
-                    scoredCollection.push({ movie: movie, score: score });
-                });
-
-                scoredCollection.sort((a, b) => b.score - a.score);
-                let finalRecommendedNodes = scoredCollection.slice(0, 12).map(item => item.movie);
-                
-                if(!finalRecommendedNodes || finalRecommendedNodes.length < 5) {
-                    let fillers = cleanDataset.filter(m => !finalRecommendedNodes.some(f => f.id === m.id)).slice(0, 10);
-                    finalRecommendedNodes = [...finalRecommendedNodes, ...fillers];
-                }
-                finalRecommendedNodes.slice(0, 10).forEach(movie => container.appendChild(createMovieCard(movie)));
-            } catch(e) {
-                const container = document.getElementById('grid-similar-content');
-                globalMoviesData.filter(m => !isAdultContentFlagged(m) && m.id !== currentMovie.id).slice(0, 10).forEach(m => container.appendChild(createMovieCard(m)));
-            }
+                cleanDataset.slice(0, 10).forEach(movie => container.appendChild(createMovieCard(movie)));
+            } catch(e) {}
         }
 
         document.getElementById('search-bar').addEventListener('input', function(e) {
