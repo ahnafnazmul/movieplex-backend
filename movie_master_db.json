@@ -36320,5 +36320,210 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_322055",
+        "type": "series",
+        "title": "The Prosecutor's Proposal",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=xapCq6U68Uw",
+        "poster": "https://image.tmdb.org/t/p/w500/lK6DrnFecG0AsA8O5UqEYOrOArd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/feISh3qoREwIPWbSaLqqumbmh7m.jpg",
+        "rating": 6.3,
+        "release_date": "2026-06-25",
+        "runtime": "30 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Park Si-woo",
+                "image": "https://image.tmdb.org/t/p/w185/iNM5bCfVa5d5SxQhLoOLzju6JUb.jpg"
+            },
+            {
+                "name": "Yoon Do-gun",
+                "image": "https://image.tmdb.org/t/p/w185/u6VgTrxxtr193r8odNPcJYWuNVU.jpg"
+            },
+            {
+                "name": "Kim Jung-tae",
+                "image": "https://image.tmdb.org/t/p/w185/y9RajVMc6njAdDi6hhASgbdFUaX.jpg"
+            },
+            {
+                "name": "Cho Min-gyu",
+                "image": "https://image.tmdb.org/t/p/w185/6NDQMPvdlezPtR2mihX3kPjrfEO.jpg"
+            },
+            {
+                "name": "Seo Han-gyeol",
+                "image": "https://image.tmdb.org/t/p/w185/bDQ8JOa9fDt2OfXmstKsA8jprKv.jpg"
+            }
+        ],
+        "details": "A victim’s son and a killer’s son reunite as a prosecutor and investigator, fighting systemic corruption while becoming each other's salvation.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/29/5b0b6450bd80424a9e46ce47f3dc9a6b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/29/5b0b6450bd80424a9e46ce47f3dc9a6b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1128505",
+        "type": "movie",
+        "title": "My Dead Friend Zoe",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=RnnLG2Bps74",
+        "poster": "https://image.tmdb.org/t/p/w500/bRoDBpwGU5UW03hQMExN2l92Q93.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/umx11EgTkJJNe8a5TrhLrNOgN9t.jpg",
+        "rating": 6.3,
+        "release_date": "2024-03-09",
+        "runtime": "103 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "War",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Sonequa Martin-Green",
+                "image": "https://image.tmdb.org/t/p/w185/xhxKESzX3R47VXLIN3lCHYHHaY7.jpg"
+            },
+            {
+                "name": "Natalie Morales",
+                "image": "https://image.tmdb.org/t/p/w185/4azsKjgJ18l0EiJBwtuHklnKH1t.jpg"
+            },
+            {
+                "name": "Ed Harris",
+                "image": "https://image.tmdb.org/t/p/w185/kUbUA70WPiosPT4kBJMWtGk0ASd.jpg"
+            },
+            {
+                "name": "Morgan Freeman",
+                "image": "https://image.tmdb.org/t/p/w185/905k0RFzH0Kd6gx8oSxRdnr6FL.jpg"
+            },
+            {
+                "name": "Utkarsh Ambudkar",
+                "image": "https://image.tmdb.org/t/p/w185/vUW5bFrkjWikNFzh5B6F11r5C3X.jpg"
+            }
+        ],
+        "details": "Merit, a U.S. Army veteran suffering from PTSD, is repeatedly tortured by visions of her deceased friend and company buddy Zoe. After her Afghanistan service in 2016, she attends group therapy until Dale, her grandfather and former Lieutenant Colonel, is recently diagnosed with Alzheimer's. Merit steps up to his aide, and discovers more about herself and her family, while also gaining the courage to put her metaphorical demons to rest.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#t58bq",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_45388",
+        "type": "series",
+        "title": "Missing",
+        "release_year": 2003,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Ek3gvaXB8hU",
+        "poster": "https://image.tmdb.org/t/p/w500/5RdCx8fplh39dYh3YkwI7x3zSda.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/q3d36UDKGDoq4m2SR9uQwOMpVYs.jpg",
+        "rating": 6.9,
+        "release_date": "2003-08-02",
+        "runtime": "45 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama",
+            "Mystery",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Caterina Scorsone",
+                "image": "https://image.tmdb.org/t/p/w185/eLexGfeg4SyY9anPyNoh8hzKATD.jpg"
+            },
+            {
+                "name": "Vivica A. Fox",
+                "image": "https://image.tmdb.org/t/p/w185/wj77CCErWt1H0GNqYwCFNYulH7g.jpg"
+            },
+            {
+                "name": "Mark Consuelos",
+                "image": "https://image.tmdb.org/t/p/w185/wz06awHQuxEwRiYgFl6f1iGLbJC.jpg"
+            }
+        ],
+        "details": "Jess Mastriani was a normal person who only wanted to take over her parents' restaurant in Indiana. But that changed when she was hit by lightning. After that she began seeing visions of missing people. Jess decides to use her newfound ability to be a consultant to the FBI, helping locate missing individuals. Eventually, she is hired by the bureau full-time and trained to become an agent, but her by-the-book nature sometimes clashes with the personality of her partner. Jess and her colleagues work out of the FBI's Washington, D.C., office.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#pthmk",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1720201",
+        "type": "movie",
+        "title": "Dulhaniya Le Aaeegi",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=Tw1je1iQs4s",
+        "poster": "https://image.tmdb.org/t/p/w500/kQBgp1eYyQVs4nKtd8lrLva2JcQ.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-07-24",
+        "runtime": "127 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Khushali Kumar",
+                "image": "https://image.tmdb.org/t/p/w185/joLa1EultXBjN10XxIt3B1ydzFA.jpg"
+            },
+            {
+                "name": "Mahesh Manjrekar",
+                "image": "https://image.tmdb.org/t/p/w185/4lFytre6m4SruIUpUIoyNjsMo7F.jpg"
+            },
+            {
+                "name": "Piyush Mishra",
+                "image": "https://image.tmdb.org/t/p/w185/2nDekGUGEjPJ6Kymme0wp55emwl.jpg"
+            },
+            {
+                "name": "Omkar Kapoor",
+                "image": "https://image.tmdb.org/t/p/w185/nYTBaL5dtRazSkSrf4wJ535UZy2.jpg"
+            },
+            {
+                "name": "Snehill Dixit Mehra",
+                "image": "https://image.tmdb.org/t/p/w185/oj1keot5UHBA6l64WSTUK8y1eoz.jpg"
+            }
+        ],
+        "details": "A big Fat Indian wedding goes wrong .",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a66d1ad26c77",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
