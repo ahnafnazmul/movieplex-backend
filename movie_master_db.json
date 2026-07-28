@@ -5535,7 +5535,9 @@
         "categories": [
             "Horror",
             "Mystery",
-            "Science Fiction"
+            "Science Fiction",
+            "Movies",
+            "English"
         ],
         "cast": [
             {
@@ -36752,6 +36754,57 @@
                 "player_url": "https://turbovidhls.com/t/6a67b99d3cfae",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1241624",
+        "type": "movie",
+        "title": "Ghost Train",
+        "release_year": 2025,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=TkT5bDkufU0",
+        "poster": "https://image.tmdb.org/t/p/w500/rOTXYy5ScOHdaC2YMQowVwQex5s.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3oHIkNt8dM6gH4IDKG5W121OT2T.jpg",
+        "rating": 7.4,
+        "release_date": "2025-07-09",
+        "runtime": "95 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Joo Hyun-young",
+                "image": "https://image.tmdb.org/t/p/w185/mOI26FtPFBfFn49MikjfaY4a3NU.jpg"
+            },
+            {
+                "name": "Jeon Bae-soo",
+                "image": "https://image.tmdb.org/t/p/w185/7EhOO3xFN5FvEJwl0b0Eudab5bI.jpg"
+            },
+            {
+                "name": "Choi Bo-min",
+                "image": "https://image.tmdb.org/t/p/w185/laTpaA8945fK5jXflVKGIgqB2QM.jpg"
+            },
+            {
+                "name": "Kim Ji-in",
+                "image": "https://image.tmdb.org/t/p/w185/cGDRP8fxJ1RF5lNpPTHPl1qOhqp.jpg"
+            },
+            {
+                "name": "Kim Woo-kyum",
+                "image": "https://image.tmdb.org/t/p/w185/uMtxEQV0s8y0VEKXjrlNfoJHrr4.jpg"
+            }
+        ],
+        "details": "Da-kyung, a horror YouTuber desperate for views, uploads a video about the eerie urban legends surrounding Gwanglim Station—the site of the highest number of missing person cases in the country. The video goes viral overnight. Despite everyone's warnings, Da-kyung's thirst for views only grows stronger. But as she digs deeper, she uncovers a shocking secret behind the station…",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#8fdco",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
             }
         ],
         "_source_site": "rtally"
