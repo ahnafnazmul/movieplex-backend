@@ -36595,5 +36595,165 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_310326",
+        "type": "series",
+        "title": "Love on the Menu",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/pGEz6J7GFT0LXGBd6ZSHvJtTsAS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4bIELFjQ8sHCwJrnYfq2hlGYSkm.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-25",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Family",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ha Seok-jin",
+                "image": "https://image.tmdb.org/t/p/w185/wOt0QKqeZH4p3NV7dVyXSywgjMg.jpg"
+            },
+            {
+                "name": "Hani",
+                "image": "https://image.tmdb.org/t/p/w185/6TZ49EFsCbA9eD1Y4BO9T0Ejpbr.jpg"
+            },
+            {
+                "name": "Park You-na",
+                "image": "https://image.tmdb.org/t/p/w185/6MawaOrDuD5R40ufBf0uDU0Wq0p.jpg"
+            },
+            {
+                "name": "Bae Jung-nam",
+                "image": "https://image.tmdb.org/t/p/w185/m4DnODpzR5850HZZTnNQyPwyhQQ.jpg"
+            },
+            {
+                "name": "Min Jin-woong",
+                "image": "https://image.tmdb.org/t/p/w185/svq2ZuZLSj6wKg6DvMRKP4IpHta.jpg"
+            }
+        ],
+        "details": "Some sacrificed love for the sake of family. Others walked away from their families to protect the ones they loved. And some, believing they were acting out of love, only left deeper wounds behind. Years of misunderstanding and conflict have driven them apart, but an unexpected bond and reunion bring them face-to-face once again. As lost love, tangled family ties, and the true feelings they have long kept hidden begin to surface, even the coldest hearts slowly begin to heal. Through love, forgiveness, and the courage to understand one another, they discover what it truly means to be a family. Can the scattered pieces of a family finally find their way back to one warm table?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/26/2d5d71acd4acf9a5910b657939370cd6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/26/2d5d71acd4acf9a5910b657939370cd6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_109091",
+        "type": "movie",
+        "title": "The Counselor",
+        "release_year": 2013,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=sitiAk4WLQ8",
+        "poster": "https://image.tmdb.org/t/p/w500/aNiLkGnzVb5CorZHKk16w9S4COt.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mJaIjahqXpWtDVMMLQr81yRNniG.jpg",
+        "rating": 5.3,
+        "release_date": "2013-10-25",
+        "runtime": "117 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Michael Fassbender",
+                "image": "https://image.tmdb.org/t/p/w185/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg"
+            },
+            {
+                "name": "Penélope Cruz",
+                "image": "https://image.tmdb.org/t/p/w185/n5SFgmvJSENQt8poE4qYacUnKOi.jpg"
+            },
+            {
+                "name": "Cameron Diaz",
+                "image": "https://image.tmdb.org/t/p/w185/tTpQSKwdLrR6xBGHCqg8VcVQZzH.jpg"
+            },
+            {
+                "name": "Javier Bardem",
+                "image": "https://image.tmdb.org/t/p/w185/zfRID0jx8DKBluPGU9xtk9sZWUt.jpg"
+            },
+            {
+                "name": "Brad Pitt",
+                "image": "https://image.tmdb.org/t/p/w185/cckcYc2v0yh1tc9QjRelptcOBko.jpg"
+            }
+        ],
+        "details": "A lawyer finds himself in far over his head when he attempts to get involved in drug trafficking.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a67cc7510f0d",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_11235",
+        "type": "movie",
+        "title": "Local Hero",
+        "release_year": 1983,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=VCFhg6Q6gXU",
+        "poster": "https://image.tmdb.org/t/p/w500/jqxD0H9a1rg5bXftsm6gsNOjt4n.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tfiFC0pw1ccJFBkYkhP9uWeQ1S1.jpg",
+        "rating": 6.8,
+        "release_date": "1983-02-17",
+        "runtime": "111 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Burt Lancaster",
+                "image": "https://image.tmdb.org/t/p/w185/hQBgFAdk1BrSum7LN4B67m3gj0U.jpg"
+            },
+            {
+                "name": "Peter Riegert",
+                "image": "https://image.tmdb.org/t/p/w185/yPgaRZBMVy9eoNNuiPIm0wzG9sD.jpg"
+            },
+            {
+                "name": "Denis Lawson",
+                "image": "https://image.tmdb.org/t/p/w185/pBIFnfsfEMw6TawHzcwVPTfEsFz.jpg"
+            },
+            {
+                "name": "Fulton Mackay",
+                "image": "https://image.tmdb.org/t/p/w185/15bVmdEfeFytXSmnACWZIe2yzLi.jpg"
+            },
+            {
+                "name": "Peter Capaldi",
+                "image": "https://image.tmdb.org/t/p/w185/r5bEXZBOSA89SZvv4jjqa4iSgst.jpg"
+            }
+        ],
+        "details": "An American oil company sends a man to Scotland to buy up an entire village where they want to build a refinery. But things don't go as expected.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a67b99d3cfae",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
