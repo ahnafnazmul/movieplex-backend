@@ -8697,6 +8697,18 @@
                 "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=43d951cb98ba2a1f774477e84d774ac6&t=1785073008",
                 "source_site": "themoviebox",
                 "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/8412f6b5f03e2bbb6f6cfbd4164fe429.mp4?sign=b2cdd174a2764d41ee72f7205fb66626&t=1785339172",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=6016e861faa9cdd8bf8a11927aa450c5&t=1785339172",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -37615,5 +37627,63 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_245026",
+        "type": "series",
+        "title": "Wizards Beyond Waverly Place",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=M_3dQ6ofXwI",
+        "poster": "https://image.tmdb.org/t/p/w500/zekFfF9ch0yjfKPiyOQW7v4T03Y.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ore4E3D1qfTH1Ollf4UDhzW3PtG.jpg",
+        "rating": 8.9,
+        "release_date": "2024-10-29",
+        "runtime": "24 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Sci-Fi & Fantasy",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Janice LeAnn Brown",
+                "image": "https://image.tmdb.org/t/p/w185/7lTiuUJ5XoMMVQaSuuHf0mWeEy5.jpg"
+            },
+            {
+                "name": "Alkaio Thiele",
+                "image": "https://image.tmdb.org/t/p/w185/umGJFRItwlF6cejtv9Xglzxk4Vl.jpg"
+            },
+            {
+                "name": "Max Matenko",
+                "image": "https://image.tmdb.org/t/p/w185/hQPrzI9XohrsyfVe8c7aHj5Unus.jpg"
+            },
+            {
+                "name": "Taylor Cora",
+                "image": "https://image.tmdb.org/t/p/w185/jgoN5sy9Kb0lkc6kDDFV0UKBgyo.jpg"
+            },
+            {
+                "name": "Mimi Gianopulos",
+                "image": "https://image.tmdb.org/t/p/w185/1uIioPyiGp4XeOjbeJt9Yswf6rA.jpg"
+            }
+        ],
+        "details": "Justin Russo has chosen to lead a normal, mortal life with his family, Giada, Roman and Milo. But when Justin's sister Alex brings Billie to his home seeking help, Justin realizes he must dust off his magical skills to mentor the wizard-in-training while also juggling his everyday responsibilities — and safeguarding the future of the Wizard World.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/24/19e75a4ebb0f2ee8d38ac55efcd04c13-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/24/19e75a4ebb0f2ee8d38ac55efcd04c13-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
