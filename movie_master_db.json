@@ -37189,5 +37189,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_196322",
+        "type": "series",
+        "title": "Dark Matter",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=j6ucGt_Xp14",
+        "poster": "https://image.tmdb.org/t/p/w500/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wFEAy4xRes1eeclsu7Z73Vzz7ET.jpg",
+        "rating": 7.7,
+        "release_date": "2024-05-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Joel Edgerton",
+                "image": "https://image.tmdb.org/t/p/w185/r2TTDZ8cG5wrZqx7Drz1M95S9z3.jpg"
+            },
+            {
+                "name": "Jennifer Connelly",
+                "image": "https://image.tmdb.org/t/p/w185/wdmcJagSRJ65AuJ4IUCzuHAdvgy.jpg"
+            },
+            {
+                "name": "Alice Braga",
+                "image": "https://image.tmdb.org/t/p/w185/d9JdgvUiqyWuGQLmozNfGZOpIBz.jpg"
+            },
+            {
+                "name": "Jimmi Simpson",
+                "image": "https://image.tmdb.org/t/p/w185/gerE8VqXfFyAs3QhbUlwEuZllKq.jpg"
+            },
+            {
+                "name": "Dayo Okeniyi",
+                "image": "https://image.tmdb.org/t/p/w185/8m4ZIuzVBDjFbJFLXebc4iwv27o.jpg"
+            }
+        ],
+        "details": "Jason Dessen is abducted into an alternate version of his life. To get back to his true family, he embarks on a harrowing journey to save them from the most terrifying foe imaginable: himself.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/04/30/24647a2cb11ba9ed9da991edaed92df9-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/04/30/24647a2cb11ba9ed9da991edaed92df9-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
