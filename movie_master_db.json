@@ -36972,5 +36972,222 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_220074",
+        "type": "series",
+        "title": "Flex X Cop",
+        "release_year": 2024,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/2eWH2RDxpbIfEs17BpJTQhcOqRs.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nOGPxfYqd0f3oeFGGinpDOP68MQ.jpg",
+        "rating": 8.0,
+        "release_date": "2024-01-26",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime",
+            "Mystery",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Ahn Bo-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/2pNNCnjI1TwxjyP3Y4cJln1wOKE.jpg"
+            },
+            {
+                "name": "Jung Eun-chae",
+                "image": "https://image.tmdb.org/t/p/w185/cw3Ia40hTP1SfGj0Qw9pqRaNill.jpg"
+            },
+            {
+                "name": "Kang Sang-jun",
+                "image": "https://image.tmdb.org/t/p/w185/ntVm8JzE6eXvfDsvDOY9hQQbEmP.jpg"
+            },
+            {
+                "name": "Kim Shin-bi",
+                "image": "https://image.tmdb.org/t/p/w185/or6KtPM9qvgBuiXsNImpCUBjMit.jpg"
+            },
+            {
+                "name": "Jeong Ga-hee",
+                "image": "https://image.tmdb.org/t/p/w185/4W8uhfX4Gpy4R4vuBORa0B6izpL.jpg"
+            }
+        ],
+        "details": "A chaebol cop joins forces with a gritty detective to take down criminals with a touch of wealth and a whole lot of wit.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/02/27/69055201aeb921d214209dc92bb7a14e-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/02/27/69055201aeb921d214209dc92bb7a14e-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_298168",
+        "type": "series",
+        "title": "The Shards",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=cPPQbTl3u7M",
+        "poster": "https://image.tmdb.org/t/p/w500/876V23IJpddyLcO1wvJUdSft585.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vTzfZ55Qp1GP3uKGSMlsLEYrn6.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-05",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Igby Rigney",
+                "image": "https://image.tmdb.org/t/p/w185/fky5xTDneWgX6stcDK4QLEFI3Qv.jpg"
+            },
+            {
+                "name": "Kaia Gerber",
+                "image": "https://image.tmdb.org/t/p/w185/wO3y1JaO32GhqTVE7AE3ABkz1o7.jpg"
+            },
+            {
+                "name": "Homer Gere",
+                "image": "https://image.tmdb.org/t/p/w185/bZAfJ2GbeCCYGEDDz25hPBdqMHD.jpg"
+            },
+            {
+                "name": "Hayes Warner",
+                "image": "https://image.tmdb.org/t/p/w185/53jrzoTL9ZiDVMrrYtvcF93fEyW.jpg"
+            },
+            {
+                "name": "Graham Campbell",
+                "image": "https://image.tmdb.org/t/p/w185/km4WcqbKnh6kPZATLQ2D88uvMbx.jpg"
+            }
+        ],
+        "details": "Set in Los Angeles in 1981, the story follows a 17-year-old version of Bret Easton Ellis during his final year at the elite Buckley prep school. Upending his world is the arrival of a mysterious new student, Robert Mallory, whose unsettling presence coincides with the activities of a serial killer known as The Trawler.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/27/dbeb14d8bd8dba1f9736c29ea53da452-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/27/dbeb14d8bd8dba1f9736c29ea53da452-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1738850",
+        "type": "movie",
+        "title": "Indrajaal",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=lfUleFltLtg",
+        "poster": "https://image.tmdb.org/t/p/w500/wWFj7rADHNLID1Zho4hbBQYa0O6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uxgUn8p1p3EDXTcCunEZKdIyQJK.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-24",
+        "runtime": "136 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Fantasy",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Mahesh Nikam",
+                "image": ""
+            },
+            {
+                "name": "Shanaya Tripathi",
+                "image": ""
+            },
+            {
+                "name": "Yashraj Dimbale",
+                "image": ""
+            },
+            {
+                "name": "Namdeo Murkute",
+                "image": ""
+            },
+            {
+                "name": "Kira Dane",
+                "image": ""
+            }
+        ],
+        "details": "A legendary treasure hidden during colonial times reappears every 12 years during a solar eclipse. Treasure hunters race to find it but become caught in an ancient prophecy, leading to a gripping tale of ambition and survival.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a690e6cc0027",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_534993",
+        "type": "movie",
+        "title": "Petta",
+        "release_year": 2019,
+        "original_language": "ta",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/icrS7HzjT9DsionJLSnYFfjR9rW.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/801qjbpZvN0nXpEDMqqtZLQurhW.jpg",
+        "rating": 7.2,
+        "release_date": "2019-01-10",
+        "runtime": "172 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Rajinikanth",
+                "image": "https://image.tmdb.org/t/p/w185/cQBcrXqcQPfXOQfNfgO3slJM2xi.jpg"
+            },
+            {
+                "name": "Nawazuddin Siddiqui",
+                "image": "https://image.tmdb.org/t/p/w185/w1eXF7T60QlEC2gNfr99J3n8CgX.jpg"
+            },
+            {
+                "name": "Vijay Sethupathi",
+                "image": "https://image.tmdb.org/t/p/w185/7fragn88rli7iKZLT3aRubtBxml.jpg"
+            },
+            {
+                "name": "Sananth",
+                "image": "https://image.tmdb.org/t/p/w185/ffs9RHdkMB1SuUjk8VEqvIjMf0f.jpg"
+            },
+            {
+                "name": "M. Sasikumar",
+                "image": "https://image.tmdb.org/t/p/w185/5MQxfBQIKhewDt5KHxtazBK8jPM.jpg"
+            }
+        ],
+        "details": "A hostel warden becomes the target of a dreaded politician and his gangster son, but little do they realise that it is they who should fear him.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a68e78534815",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
