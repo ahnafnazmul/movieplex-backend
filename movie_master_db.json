@@ -37246,5 +37246,119 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_291496",
+        "type": "series",
+        "title": "Our Sticky Love",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=Wndx_3B0lgc",
+        "poster": "https://image.tmdb.org/t/p/w500/tSZ4aFpTGc8Oj52SuzPUUZ7WKL0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oUOytQ13F1vVKXK8cYCYB5Pt5ez.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Jung Hae-in",
+                "image": "https://image.tmdb.org/t/p/w185/7ZMUHR2q0XTWMxuqijWSVfWQv14.jpg"
+            },
+            {
+                "name": "Ahn Ha-young",
+                "image": "https://image.tmdb.org/t/p/w185/a4BwdtRS1VjzARuqmCV2JWQUf43.jpg"
+            },
+            {
+                "name": "Heo Sung-tae",
+                "image": "https://image.tmdb.org/t/p/w185/j65kOkZ8RjGVuwNHjuIVbSD49tB.jpg"
+            },
+            {
+                "name": "Jeon Bae-soo",
+                "image": "https://image.tmdb.org/t/p/w185/7EhOO3xFN5FvEJwl0b0Eudab5bI.jpg"
+            },
+            {
+                "name": "Seo Jeong-yeon",
+                "image": "https://image.tmdb.org/t/p/w185/za1tTtSULKsZPN0u1oTs2Iival0.jpg"
+            }
+        ],
+        "details": "An ambitious prosecutor loses her memory and moves in with a boxing coach who claims to be her boyfriend. Can this sticky situation turn into real love?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/27/e510edb81b01620eb1013be1d7d9bb82-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/27/e510edb81b01620eb1013be1d7d9bb82-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_226749",
+        "type": "series",
+        "title": "The Librarians: The Next Chapter",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=EF7iDtf-ukk",
+        "poster": "https://image.tmdb.org/t/p/w500/w2PhnfYgY1yjxnUc1M4Jp5CjXvD.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7vonjNjQ272lz0rJYM31K8V7b2m.jpg",
+        "rating": 6.5,
+        "release_date": "2025-05-25",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Callum McGowan",
+                "image": "https://image.tmdb.org/t/p/w185/ttNwGzeFMaXW5ePk0EbPK3GaGdJ.jpg"
+            },
+            {
+                "name": "Jessica Green",
+                "image": "https://image.tmdb.org/t/p/w185/4JSodEaThdJfbJVYOdW6IvWLQZ6.jpg"
+            },
+            {
+                "name": "Olivia Morris",
+                "image": "https://image.tmdb.org/t/p/w185/iAzUTXzFWwEkRx6Ygudqnx4DmtW.jpg"
+            },
+            {
+                "name": "Bluey Robinson",
+                "image": "https://image.tmdb.org/t/p/w185/wd7yL00Y4IJ47hqfawc88d4veB6.jpg"
+            },
+            {
+                "name": "Caroline Loncq",
+                "image": "https://image.tmdb.org/t/p/w185/4wAnrUiJLTZEsJsJJmk8qYJxbmo.jpg"
+            }
+        ],
+        "details": "A Librarian from the past time travels to the present and finds himself stuck here. When he returns to his castle, which is now a museum, he inadvertently releases magic across the continent. He is given a new team to help him clean up the mess he made, forming a new team of Librarians.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/25/4bdf416fe42147956b98df75fdb787f1-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/25/4bdf416fe42147956b98df75fdb787f1-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
