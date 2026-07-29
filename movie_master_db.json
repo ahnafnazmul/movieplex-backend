@@ -37685,5 +37685,217 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_319037",
+        "type": "series",
+        "title": "A Winter Sun Wakes the Wind in Spring Hills' Dream",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/scklOeyOFJYQehCm3hrssdYIISd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/s9Eg3PUfBbGi6AFFjT07hTuMhpd.jpg",
+        "rating": 0.0,
+        "release_date": "2026-06-12",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kuma",
+                "image": "https://image.tmdb.org/t/p/w185/bfjIP4Q4hj7u6tZrr2aMtoB6ToY.jpg"
+            },
+            {
+                "name": "Liu Jingyu",
+                "image": "https://image.tmdb.org/t/p/w185/7RWy4LaIJKvr8GllgAIELVnTYm1.jpg"
+            },
+            {
+                "name": "Guo Zongxu",
+                "image": "https://image.tmdb.org/t/p/w185/7naNASEGTk7zQ8J8rkOGTb8dMpv.jpg"
+            },
+            {
+                "name": "He Jiakai",
+                "image": "https://image.tmdb.org/t/p/w185/6tLJWuFLbqFGjGMX7t4Of9qLmdi.jpg"
+            },
+            {
+                "name": "Hu Yichen",
+                "image": "https://image.tmdb.org/t/p/w185/z1WwG5Xdbho3d0joTehPxQkWtWv.jpg"
+            }
+        ],
+        "details": "Seeking refuge in the mountains, a famous actor falls for a tea farmer, where love blooms between two vastly different worlds.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/15/fc80f69598fd4979a128e6f12d97c3aa-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/15/fc80f69598fd4979a128e6f12d97c3aa-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1033462",
+        "type": "movie",
+        "title": "Bureau 749",
+        "release_year": 2024,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/flykCMw22y6yv8vKnBjmsW3pneo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lf8IZ86ajGpgbuyHCZrXUeAMmvy.jpg",
+        "rating": 6.4,
+        "release_date": "2024-10-01",
+        "runtime": "123 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Adventure",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Karry Wang",
+                "image": "https://image.tmdb.org/t/p/w185/gl1ibG6gEDy0XKAkSDbzEieDZq0.jpg"
+            },
+            {
+                "name": "Miao Miao",
+                "image": "https://image.tmdb.org/t/p/w185/cKlYo2zrAmkPTPPzDYlOdvr6SFl.jpg"
+            },
+            {
+                "name": "Ryan Zheng Kai",
+                "image": "https://image.tmdb.org/t/p/w185/wHUCaZAe8KkpXs6sXmPUr9B6C82.jpg"
+            },
+            {
+                "name": "Ren Min",
+                "image": "https://image.tmdb.org/t/p/w185/3PKeDlZVW3b3R0dBjfqvxtHOXRn.jpg"
+            },
+            {
+                "name": "Xin Baiqing",
+                "image": "https://image.tmdb.org/t/p/w185/tuecnWeqbJhDtb4bwhqoKY6WFTi.jpg"
+            }
+        ],
+        "details": "A traumatized young man with physical abnormalities is forced to join a mysterious bureau to confront a disaster spreading across the earth caused by an unknown creature. He embarks on an adventure uncovering mysteries about his life.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6a47221add8",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_850837",
+        "type": "movie",
+        "title": "Blurr",
+        "release_year": 2022,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=KNjBhoxNpvw",
+        "poster": "https://image.tmdb.org/t/p/w500/yGKE9MVoxeLNR18VLYKDszE7jye.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yV7DN5rCEzIbH7aCen6FIgdHbGO.jpg",
+        "rating": 4.5,
+        "release_date": "2022-12-09",
+        "runtime": "126 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Taapsee Pannu",
+                "image": "https://image.tmdb.org/t/p/w185/43e24aeOC8AZITo6ShaKKG9aV0Y.jpg"
+            },
+            {
+                "name": "Gulshan Devaiah",
+                "image": "https://image.tmdb.org/t/p/w185/6fOS4P9KiPFvIuLyvIUfMyXiF29.jpg"
+            },
+            {
+                "name": "Abhilash Thapliyal",
+                "image": "https://image.tmdb.org/t/p/w185/ioiEmkDWfPIdIuRD68zG6bJgHpq.jpg"
+            },
+            {
+                "name": "Krutika Desai Khan",
+                "image": ""
+            },
+            {
+                "name": "Sumit Nijhawan",
+                "image": ""
+            }
+        ],
+        "details": "With progressive blindness setting in, Gayatri has to find answers to her twin sister's unlikely death. As the lines of reality keep getting blurred, is she ready to look the truth in the eye?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6a3d8c1e152",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_264085",
+        "type": "movie",
+        "title": "Bhoothnath Returns",
+        "release_year": 2014,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/zMC0kbfcBSxVOAsFXxw9Pg1NBJ8.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lukrFYF52mjYrECoDpTidp4g20l.jpg",
+        "rating": 6.3,
+        "release_date": "2014-04-11",
+        "runtime": "152 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Amitabh Bachchan",
+                "image": "https://image.tmdb.org/t/p/w185/u69PvpWqGkywSm0YjFiw77j9eqS.jpg"
+            },
+            {
+                "name": "Parth Bhalerao",
+                "image": "https://image.tmdb.org/t/p/w185/sTvCupBWsWeUMWIikedZ1crpNvn.jpg"
+            },
+            {
+                "name": "Boman Irani",
+                "image": "https://image.tmdb.org/t/p/w185/5J7GiiNar9bg9rGYeA2L30JXE2W.jpg"
+            },
+            {
+                "name": "Usha Jadhav",
+                "image": "https://image.tmdb.org/t/p/w185/js0naolaRllcEH9NETtMQJt90PG.jpg"
+            },
+            {
+                "name": "Sanjay Mishra",
+                "image": "https://image.tmdb.org/t/p/w185/4MGKohKGU4v9SoXcQKCcC4e4Bpi.jpg"
+            }
+        ],
+        "details": "Boothnath vows to redeem himself when spirits tease him, and searches for a child to terrify. He befriends Akhrot, a slum kid, and helps him take on the country's most powerful politician.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6a3d8d8e723",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
