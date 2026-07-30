@@ -8709,6 +8709,18 @@
                 "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=6016e861faa9cdd8bf8a11927aa450c5&t=1785339172",
                 "source_site": "themoviebox",
                 "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/8412f6b5f03e2bbb6f6cfbd4164fe429.mp4?sign=2bf7fe77d8fd34184f9ddaad9b6b4ad1&t=1785390254",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=9f986efc83e0ab60bf883ba4b5967d6c&t=1785390254",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -37894,6 +37906,270 @@
                 "player_url": "https://turbovidhls.com/t/6a6a3d8d8e723",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_860508",
+        "type": "movie",
+        "title": "The Whisper Man",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=ZHRR-1CKYIQ",
+        "poster": "https://image.tmdb.org/t/p/w500/6UqflU8Qqkz7Dq4swJPqs0ZJjY4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uauoVKKCkNA9iWjgJCL8TdSfLf5.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-28",
+        "runtime": "111 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Robert De Niro",
+                "image": "https://image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+            },
+            {
+                "name": "Michelle Monaghan",
+                "image": "https://image.tmdb.org/t/p/w185/uK1qhSzKd9gkDh3p1H5e2PWMYyH.jpg"
+            },
+            {
+                "name": "Adam Scott",
+                "image": "https://image.tmdb.org/t/p/w185/b82C29R6fGiPoqIglQ4lzS6q2YX.jpg"
+            },
+            {
+                "name": "Hamish Linklater",
+                "image": "https://image.tmdb.org/t/p/w185/AnpxdQjBk3v2OQTgyyb9EuUxAow.jpg"
+            },
+            {
+                "name": "Owen Teague",
+                "image": "https://image.tmdb.org/t/p/w185/tgCkGE0LIggyjMmgSwHhpZAkfJs.jpg"
+            }
+        ],
+        "details": "When his young son vanishes, a widower enlists help from his estranged father, a retired detective who put away the serial killer now linked to the case.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/27/bc147e65a288529997758d466ae04505-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/27/bc147e65a288529997758d466ae04505-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1458215",
+        "type": "movie",
+        "title": "The Gentleman Thief",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=0LB3yWX1R8Y",
+        "poster": "https://image.tmdb.org/t/p/w500/oMutDMODnbCZf46w0dK4wncQmDB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/aayQcCebqLmkTZdILp9JVcFiIRL.jpg",
+        "rating": 5.9,
+        "release_date": "2026-07-31",
+        "runtime": "97 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "John Travolta",
+                "image": "https://image.tmdb.org/t/p/w185/ap8eEYfBKTLixmVVpRlq4NslDD5.jpg"
+            },
+            {
+                "name": "Lukas Haas",
+                "image": "https://image.tmdb.org/t/p/w185/6LNGu3o2aBiYNTDkbXMDIGyQtBh.jpg"
+            },
+            {
+                "name": "Natali Yura",
+                "image": "https://image.tmdb.org/t/p/w185/hu0yDZwdHZyv24BAyJzrfq2hjPr.jpg"
+            },
+            {
+                "name": "Emily Skinner",
+                "image": "https://image.tmdb.org/t/p/w185/8yUD1mq0nspMy1bYPV4rQRTvLmF.jpg"
+            },
+            {
+                "name": "Sam Asghari",
+                "image": "https://image.tmdb.org/t/p/w185/d8YGlwclB355weFnKoKDEz9VXRI.jpg"
+            }
+        ],
+        "details": "A retired master thief is forced to protect his reckless brother from harm when a daring yacht heist worth 100 million dollars culminates in a complex and dangerous web of intrigue and deceit. As tensions mount and old enemies from the past resurface, he faces a life-or-death struggle. To survive, he must draw upon all the skills, experience, and cunning tricks that once made him the best in his field. As the stakes rise, a compelling story of loyalty, betrayal, and the will to survive unfolds.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/09/df1685ff8b7a3e4b9be5bc5a7f3f39d2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/09/df1685ff8b7a3e4b9be5bc5a7f3f39d2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_307081",
+        "type": "movie",
+        "title": "Southpaw",
+        "release_year": 2015,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Mh2ebPxhoLs",
+        "poster": "https://image.tmdb.org/t/p/w500/kSQ49Fi3NVTqGGXILmxV2T2pdkG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zT9iYKMtmU82Jo44WbiuMOW7jRi.jpg",
+        "rating": 7.4,
+        "release_date": "2015-07-22",
+        "runtime": "123 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Jake Gyllenhaal",
+                "image": "https://image.tmdb.org/t/p/w185/ct2Gh2sJSxd4yaMrSsqSt1HpIC3.jpg"
+            },
+            {
+                "name": "Rachel McAdams",
+                "image": "https://image.tmdb.org/t/p/w185/2DPh6KoNg0p57vvGc6N468zr3ct.jpg"
+            },
+            {
+                "name": "Forest Whitaker",
+                "image": "https://image.tmdb.org/t/p/w185/4w7l5JUwnwFNBy7J93ZwYN1nihm.jpg"
+            },
+            {
+                "name": "Oona Laurence",
+                "image": "https://image.tmdb.org/t/p/w185/6t5lhsDen23VcVU5ssP71mdS1TI.jpg"
+            },
+            {
+                "name": "50 Cent",
+                "image": "https://image.tmdb.org/t/p/w185/7VfwFIwBxy7qBUErosWRDQOovl9.jpg"
+            }
+        ],
+        "details": "Billy \"The Great\" Hope, the reigning junior middleweight boxing champion, has an impressive career, a loving wife and daughter, and a lavish lifestyle. However, when tragedy strikes, Billy hits rock bottom, losing his family, his house and his manager. He soon finds an unlikely savior in Tick Willis, a former fighter who trains the city's toughest amateur boxers. With his future on the line, Hope fights to reclaim the trust of those he loves the most.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6a7989abf50",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_88055",
+        "type": "series",
+        "title": "Servant",
+        "release_year": 2019,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=N1cOR0sRRIw",
+        "poster": "https://image.tmdb.org/t/p/w500/plsSSobmPSSz4hm8vYMXeIVkJJP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7nsRpSCYcDGLcDmFAISHC8zMQ0D.jpg",
+        "rating": 7.5,
+        "release_date": "2019-11-28",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Lauren Ambrose",
+                "image": "https://image.tmdb.org/t/p/w185/67oLiPwWKhy0zqdfm6NX9cXD5is.jpg"
+            },
+            {
+                "name": "Toby Kebbell",
+                "image": "https://image.tmdb.org/t/p/w185/mlYytYJvoEHmhDH2enLtES1098Q.jpg"
+            },
+            {
+                "name": "Nell Tiger Free",
+                "image": "https://image.tmdb.org/t/p/w185/k7uTKVieOXp32U4OpfMDUnCiQhi.jpg"
+            },
+            {
+                "name": "Rupert Grint",
+                "image": "https://image.tmdb.org/t/p/w185/q2KZZ0ltTEl7Sf8volNFV1JDEP4.jpg"
+            }
+        ],
+        "details": "A Philadelphia couple are in mourning after an unspeakable tragedy creates a rift in their marriage and opens the door for a mysterious force to enter their home.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6a6efbeacb4",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_668393",
+        "type": "movie",
+        "title": "Naan Sirithal",
+        "release_year": 2020,
+        "original_language": "ta",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/zLV0a7Mod9kyzvRluRi5dWP2An5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dGzp2A24k3FZYysIsa7lHEDl26R.jpg",
+        "rating": 5.7,
+        "release_date": "2020-02-14",
+        "runtime": "138 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "HipHop Tamizha Adhi",
+                "image": "https://image.tmdb.org/t/p/w185/k2oEkE6Du42QpDn8Ss6dphr5nll.jpg"
+            },
+            {
+                "name": "Iswarya Menon",
+                "image": "https://image.tmdb.org/t/p/w185/gg25ZW46VBmvxplzJfWmCajcocf.jpg"
+            },
+            {
+                "name": "K. S. Ravikumar",
+                "image": "https://image.tmdb.org/t/p/w185/8dUdM3sFvL4aXnDtLJJCkDMNEbo.jpg"
+            },
+            {
+                "name": "Pandiarajan",
+                "image": "https://image.tmdb.org/t/p/w185/3h5prTq5zNecUqr3Z9dcepypxdy.jpg"
+            },
+            {
+                "name": "Vijay Kumar",
+                "image": "https://image.tmdb.org/t/p/w185/8UbpBDaSkWlCBPCEBqjEsLyhuX9.jpg"
+            }
+        ],
+        "details": "A man suffers from a condition where he laughs uncontrollably under stressful conditions and it causes a lot of trouble for him until he seeks a strong solution for it.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#o9nl9",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
             }
         ],
         "_source_site": "rtally"
