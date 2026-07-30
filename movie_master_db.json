@@ -38281,5 +38281,63 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1284186",
+        "type": "movie",
+        "title": "Sacrifice",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/o4iceiahzncK2yMnG6lnb4JSheq.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3kYnfR6PN20bD4zshZfGza6jA6f.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-20",
+        "runtime": "103 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Adventure",
+            "Comedy",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Chris Evans",
+                "image": "https://image.tmdb.org/t/p/w185/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+            },
+            {
+                "name": "Anya Taylor-Joy",
+                "image": "https://image.tmdb.org/t/p/w185/qYNofOjlRke2MlJVihmJmEdQI4v.jpg"
+            },
+            {
+                "name": "Vincent Cassel",
+                "image": "https://image.tmdb.org/t/p/w185/ivUQfhn5olOmR5hthN8C8GThBV4.jpg"
+            },
+            {
+                "name": "Salma Hayek Pinault",
+                "image": "https://image.tmdb.org/t/p/w185/1qfYF7NGRObmeKR7IVXUFVIC0CN.jpg"
+            },
+            {
+                "name": "John Malkovich",
+                "image": "https://image.tmdb.org/t/p/w185/7GoOdGNc4ra1L0F5nJTkmIB37iu.jpg"
+            }
+        ],
+        "details": "During a star-studded charity gala brimming with celebrities, billionaires and empty speeches, a movie star in the midst of an existential crisis is taken hostage by a radical warrior and her devoted followers. As the night descends into chaos, both an inward journey and an outward adventure ensue, where the line between performance and belief, salvation and sacrifice, begins to blur.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/ab83c5a06fbc76e0dc04d9b650b32141-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/ab83c5a06fbc76e0dc04d9b650b32141-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
