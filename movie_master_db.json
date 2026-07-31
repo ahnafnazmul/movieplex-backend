@@ -5672,6 +5672,12 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/10/2866d5adfe6b401866d3fd4db29a5abc-ld.mp4"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6c8a96b5ec1",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -38874,6 +38880,56 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://turbovidhls.com/t/6a6c77ed068a3",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_59053",
+        "type": "movie",
+        "title": "The Raffle",
+        "release_year": 1991,
+        "original_language": "it",
+        "video_trailer": "https://www.youtube.com/watch?v=o4Kxx63iBJM",
+        "poster": "https://image.tmdb.org/t/p/w500/2Jc60w8ZemDMYqyJUStcQKy6syi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xGhwfRxTsP9VhDSNsfHqBcRvWKY.jpg",
+        "rating": 6.9,
+        "release_date": "1991-11-15",
+        "runtime": "93 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Monica Bellucci",
+                "image": "https://image.tmdb.org/t/p/w185/7g3k3u2gZpE7XU8GRYwHDuN1jlM.jpg"
+            },
+            {
+                "name": "Giulio Scarpati",
+                "image": "https://image.tmdb.org/t/p/w185/gkmQ6MfyIdoDhcDAi2JPECQMCcX.jpg"
+            },
+            {
+                "name": "Massimo Ghini",
+                "image": "https://image.tmdb.org/t/p/w185/iSpdphEZopzvu3816YsiFhhKwRb.jpg"
+            },
+            {
+                "name": "Paolo Busiri Vici D'Arcevia",
+                "image": ""
+            },
+            {
+                "name": "Elena Cantarone",
+                "image": "https://image.tmdb.org/t/p/w185/lAgjaPrSiGbUZtYKdahu2ZwVosM.jpg"
+            }
+        ],
+        "details": "Struggling with a financial crisis, a good-looking widow decides to put herself up for grabs. However, going through with it becomes almost impossible with a new love and the legal system thrown into the mix.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6c87a9acf19",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
             }
