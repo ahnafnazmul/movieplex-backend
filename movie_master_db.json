@@ -38935,5 +38935,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_880067",
+        "type": "movie",
+        "title": "Strung",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=DT_i0aq-vPs",
+        "poster": "https://image.tmdb.org/t/p/w500/lWdpUOhnJ8uWWO1G1vbyUsCliov.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3yQV8aUxMYeSCVF6R5Q6xcaMZsl.jpg",
+        "rating": 7.7,
+        "release_date": "2026-06-18",
+        "runtime": "119 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Mystery",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Chlöe Bailey",
+                "image": "https://image.tmdb.org/t/p/w185/mZxukGTNv2FEZxWvnLGgBRpyMwr.jpg"
+            },
+            {
+                "name": "Lynn Whitfield",
+                "image": "https://image.tmdb.org/t/p/w185/wXSwJplyOgANJKTRvOAsvqURbP0.jpg"
+            },
+            {
+                "name": "Lucien Laviscount",
+                "image": "https://image.tmdb.org/t/p/w185/3GndTFV0wMGDwocS4rP5Z194uYu.jpg"
+            },
+            {
+                "name": "Anna Diop",
+                "image": "https://image.tmdb.org/t/p/w185/1QcuJHVyLXZNnuwmNuqL9Lon4kq.jpg"
+            },
+            {
+                "name": "Romy Woods",
+                "image": "https://image.tmdb.org/t/p/w185/iAhPozomfubmB8CIndqXFSxNQwu.jpg"
+            }
+        ],
+        "details": "A talented violinist's prestigious new role as a music tutor for an enigmatic, elite family spirals into a psychological battle for her safety and sanity.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/16/2ab003e599727fc646b85f99b5aaaf5f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/16/2ab003e599727fc646b85f99b5aaaf5f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
