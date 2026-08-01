@@ -39044,5 +39044,108 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_285736",
+        "type": "movie",
+        "title": "Vikramadithyan",
+        "release_year": 2014,
+        "original_language": "ml",
+        "video_trailer": "https://www.youtube.com/watch?v=mUCWhRnBb7s",
+        "poster": "https://image.tmdb.org/t/p/w500/zEjeB4sG92U3ZyJtChtSl5cyb7H.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nbUOtAYjXRjI3bIRYflIWh5bEnT.jpg",
+        "rating": 6.6,
+        "release_date": "2014-07-25",
+        "runtime": "143 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Dulquer Salmaan",
+                "image": "https://image.tmdb.org/t/p/w185/8AT3qDRakZQSZ6HVj7sQFUzN07N.jpg"
+            },
+            {
+                "name": "Unni Mukundan",
+                "image": "https://image.tmdb.org/t/p/w185/7Pn9GASysyTG6ZnPhsuRq4ESArC.jpg"
+            },
+            {
+                "name": "Namitha Pramod",
+                "image": "https://image.tmdb.org/t/p/w185/oxtXPalseOc0G3aNiWVJICddbcu.jpg"
+            },
+            {
+                "name": "Anoop Menon",
+                "image": "https://image.tmdb.org/t/p/w185/bQTaoXeuG0Mf3GbwATsfdNFwzKN.jpg"
+            },
+            {
+                "name": "Lenaa",
+                "image": "https://image.tmdb.org/t/p/w185/1qugxYSQRahuBfk8Nh6g3Qq2MAS.jpg"
+            }
+        ],
+        "details": "The lives of two boys - one the son of a cop and the other the son of a thief.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6e0e2d9513d",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_796207",
+        "type": "movie",
+        "title": "Dobaaraa",
+        "release_year": 2022,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=AeTsMFbmK14",
+        "poster": "https://image.tmdb.org/t/p/w500/l0Ayozn8O69UEjDvXnT5noIgUJp.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vA9N4eI19uBGE5HOhHxl9kJr5Ph.jpg",
+        "rating": 5.2,
+        "release_date": "2022-08-19",
+        "runtime": "135 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Mystery",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Taapsee Pannu",
+                "image": "https://image.tmdb.org/t/p/w185/43e24aeOC8AZITo6ShaKKG9aV0Y.jpg"
+            },
+            {
+                "name": "Pavail Gulati",
+                "image": "https://image.tmdb.org/t/p/w185/xXvbAiEJoshH6SX8AycDpangjrX.jpg"
+            },
+            {
+                "name": "Aarrian Sawant",
+                "image": ""
+            },
+            {
+                "name": "Rahul Bhat",
+                "image": "https://image.tmdb.org/t/p/w185/nE6Rgkbqvu67kHeX20qmmhhkohY.jpg"
+            },
+            {
+                "name": "Saswata Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/cVJVLDy7BNzIbFMcJBPOWeN0Kb.jpg"
+            }
+        ],
+        "details": "In the 1990s, during a wild thunderstorm night, 12-year-old Anay dies in a road accident shortly after he sees his next-door neighbor committing a crime. Twenty-five years later, in a strange turn of events, on an identical stormy night, Antara finds herself in front of a TV set through which she attempts to save Anay’s life but her good deed causes a disturbing chain of unexpected consequences.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6e0e2f1f210",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
