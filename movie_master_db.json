@@ -38994,5 +38994,55 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_239388",
+        "type": "series",
+        "title": "Ladies in Black",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=0XzOQi6BXAE",
+        "poster": "https://image.tmdb.org/t/p/w500/2a0T4JDzGfmtRbVkbDrOqTrxFUd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5XGwvGT4k4f6nUpGppYxOnIhEWn.jpg",
+        "rating": 3.2,
+        "release_date": "2024-06-16",
+        "runtime": "48 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Debi Mazar",
+                "image": "https://image.tmdb.org/t/p/w185/cU3LhqOjXzOqpGCSDFj5otlZreu.jpg"
+            },
+            {
+                "name": "Jessica De Gouw",
+                "image": "https://image.tmdb.org/t/p/w185/pu09eASIUzHPJZMfHPkpFqDZ2RR.jpg"
+            },
+            {
+                "name": "Clare Hughes",
+                "image": "https://image.tmdb.org/t/p/w185/n9u2WdMKD10ZsH7nnhNPkU4nqZb.jpg"
+            },
+            {
+                "name": "Azizi Donnelly",
+                "image": "https://image.tmdb.org/t/p/w185/cr98igd3B7xkESho3c6xxap0P94.jpg"
+            },
+            {
+                "name": "Miranda Otto",
+                "image": "https://image.tmdb.org/t/p/w185/szME1IBVTLgiKrO5D5wvOGnvUDW.jpg"
+            }
+        ],
+        "details": "Sydney, 1961. The women who work in Goodes ladieswear face tumultuous lives navigating societal shifts and personal challenges amidst the fashion transformation of the sixties.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#btq5t",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
