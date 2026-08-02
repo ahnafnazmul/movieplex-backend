@@ -39147,5 +39147,63 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_316294",
+        "type": "series",
+        "title": "Payback",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/616HQHGVqEh0ZbQIRdyjIBQfqhU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4L9sftGH7oQ1bpB0aQHERwyfDVd.jpg",
+        "rating": 8.4,
+        "release_date": "2026-05-30",
+        "runtime": "70 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Thanakorn Wichanukhor",
+                "image": "https://image.tmdb.org/t/p/w185/zFuaOHaZg0aO1PgCDBx19g85ej8.jpg"
+            },
+            {
+                "name": "Jarukit Kaewmoonrueang",
+                "image": "https://image.tmdb.org/t/p/w185/Ac36AQYxetVne8cyohJ22RL4DQI.jpg"
+            },
+            {
+                "name": "Paramee Thesdaroon",
+                "image": "https://image.tmdb.org/t/p/w185/yUDF5VMYzYOcHPSNQbPw03hzYCx.jpg"
+            },
+            {
+                "name": "Thanawat Shinawatra",
+                "image": "https://image.tmdb.org/t/p/w185/5fpjGQvmO0RyHKklOxyCvm2tH1H.jpg"
+            },
+            {
+                "name": "Jirapat Uttamanan",
+                "image": "https://image.tmdb.org/t/p/w185/q2pClc6VVrrdE0klvCf1Gql3kBb.jpg"
+            }
+        ],
+        "details": "A grieving debt collector enters the entertainment world for revenge, only to fall into a dangerous attraction with a powerful executive.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/30/3f3c01b66b2efaba1425c2721951c728-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/30/3f3c01b66b2efaba1425c2721951c728-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
