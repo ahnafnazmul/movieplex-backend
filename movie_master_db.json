@@ -39205,5 +39205,157 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1545486",
+        "type": "movie",
+        "title": "Unmadham",
+        "release_year": 2026,
+        "original_language": "ml",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/6AIMHBUY6PCHVYASWZ0GcTA9Kph.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-07-31",
+        "runtime": "141 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Kunchacko Boban",
+                "image": "https://image.tmdb.org/t/p/w185/1jdbIaYOBuhPNGS8XCqlzMsb0SV.jpg"
+            },
+            {
+                "name": "Lijomol Jose",
+                "image": "https://image.tmdb.org/t/p/w185/vXFBgF6NMON7L4RzZ6B35lOVYOu.jpg"
+            },
+            {
+                "name": "Raina Radhakrishnan",
+                "image": ""
+            },
+            {
+                "name": "Gokulan",
+                "image": "https://image.tmdb.org/t/p/w185/y36ZVFg40z8XKo7nhpZkC6N0S4N.jpg"
+            },
+            {
+                "name": "Vigneshwar Suresh",
+                "image": ""
+            }
+        ],
+        "details": "A police constable reopens a long-forgotten case and experiences an unsettling world.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6f1d566c8ab",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1410937",
+        "type": "movie",
+        "title": "Balan - The Boy",
+        "release_year": 2026,
+        "original_language": "ml",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/boKxdR9tgXfkazf6yWgiDdleBy0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cb4b4K3E2jBGaSjkuIkZHJHmoWG.jpg",
+        "rating": 7.8,
+        "release_date": "2026-06-19",
+        "runtime": "140 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Adhisheshan K R",
+                "image": ""
+            },
+            {
+                "name": "Muhammed Zinaan",
+                "image": ""
+            },
+            {
+                "name": "Farzana Palathingal",
+                "image": ""
+            },
+            {
+                "name": "Tovino Thomas",
+                "image": "https://image.tmdb.org/t/p/w185/5JjhHzqPIowouatvKEpzwb9bGRO.jpg"
+            },
+            {
+                "name": "Lal Jr.",
+                "image": "https://image.tmdb.org/t/p/w185/2QoAFcXlCwZNlYy6gTr3S2GY39o.jpg"
+            }
+        ],
+        "details": "A teenage boy searches for his missing mother following a turbulent childhood and her subsequent disappearance, exploring his search for closure and the truth about his past.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6f179113c74",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_196024",
+        "type": "movie",
+        "title": "The Keeper of Lost Causes",
+        "release_year": 2013,
+        "original_language": "da",
+        "video_trailer": "https://www.youtube.com/watch?v=68sO1s9Hy70",
+        "poster": "https://image.tmdb.org/t/p/w500/eYnZnDAnWNPrImvznLm7SUQQvAj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sdGy4hbcDil1vp0Wrw7UIHbJH5F.jpg",
+        "rating": 7.0,
+        "release_date": "2013-10-03",
+        "runtime": "93 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Mystery",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Nikolaj Lie Kaas",
+                "image": "https://image.tmdb.org/t/p/w185/aU7YfSyQxxOwiNyXuaW0YRgpYyg.jpg"
+            },
+            {
+                "name": "Fares Fares",
+                "image": "https://image.tmdb.org/t/p/w185/rLk2uAENs1cNyWFy039fErxNpLj.jpg"
+            },
+            {
+                "name": "Sonja Richter",
+                "image": "https://image.tmdb.org/t/p/w185/wxVFkwfMBJ3YkQQWWB5fQjx4zfu.jpg"
+            },
+            {
+                "name": "Mikkel Boe Følsgaard",
+                "image": "https://image.tmdb.org/t/p/w185/oKC5KLsbj0npfRJA3j9nEIMglmg.jpg"
+            },
+            {
+                "name": "Søren Pilmark",
+                "image": "https://image.tmdb.org/t/p/w185/u1J6ERVpf0FqV6AtbrDiIeGsum7.jpg"
+            }
+        ],
+        "details": "Denmark, 2013. Police officers Carl Mørck and Hafez el-Assad, sole members of Department Q, which is focused on closing cold cases, investigate the disappearance of politician Merete Lynggaard, vanished when she and her brother were traveling aboard a ferry five years ago.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a6f1459c8213",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
