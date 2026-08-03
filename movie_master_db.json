@@ -39845,5 +39845,56 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1213243",
+        "type": "movie",
+        "title": "Toxic",
+        "release_year": 2026,
+        "original_language": "kn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/fJBAfLiNfovSAb6KjkIndpF3Sm7.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tBRSSfgqOAq7YlG8udcoJIBm2FG.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-15",
+        "runtime": "195 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Yash",
+                "image": "https://image.tmdb.org/t/p/w185/ixHvgN8hGh8YgWd3j9RqUATvBiy.jpg"
+            },
+            {
+                "name": "Kiara Advani",
+                "image": "https://image.tmdb.org/t/p/w185/wSQ5jtrb48MxgeIUj43cXPXhCnN.jpg"
+            },
+            {
+                "name": "Huma Qureshi",
+                "image": "https://image.tmdb.org/t/p/w185/j4RI7eoSqbWTK6hkCNO9wN78dMM.jpg"
+            },
+            {
+                "name": "Nayanthara",
+                "image": "https://image.tmdb.org/t/p/w185/sYUzvjsSsqeOgBblSzda6ZwwbEa.jpg"
+            },
+            {
+                "name": "Tara Sutaria",
+                "image": "https://image.tmdb.org/t/p/w185/eNUEGt4Z2I8Ni4km4a7IYlZCcME.jpg"
+            }
+        ],
+        "details": "As Portuguese rule crumbles in Goa, Raya rises through betrayal and bloodshed to claim the city’s underworld, only to learn that power always demands a price.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://www.youtube.com/embed/wya96yCsZZY",
+                "source_site": "rtally",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
