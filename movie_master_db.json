@@ -7285,6 +7285,12 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/29/6e3d4f7a12cecb5ac082288e11ad3a90-ld.mp4"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a4ba14da5a7e",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -39510,6 +39516,113 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://turbovidhls.com/t/6a6f9dcd787b0",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1564614",
+        "type": "movie",
+        "title": "Leviticus",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=WXuK0vlFxII",
+        "poster": "https://image.tmdb.org/t/p/w500/gnAsZvBygplNpp8PtjoTEYv3VPB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7y8zWGEjs7tresw4Hzkkf4TdkcL.jpg",
+        "rating": 6.3,
+        "release_date": "2026-06-17",
+        "runtime": "88 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Joe Bird",
+                "image": "https://image.tmdb.org/t/p/w185/4Ww8UFYqf8nL4TUsm4kL0BwM5mL.jpg"
+            },
+            {
+                "name": "Stacy Clausen",
+                "image": "https://image.tmdb.org/t/p/w185/8zwuEGXi26Yg9FQ29MntI5tWRk2.jpg"
+            },
+            {
+                "name": "Mia Wasikowska",
+                "image": "https://image.tmdb.org/t/p/w185/xOYlAZsLwFZ0gNHLnt1Hzuo2yqN.jpg"
+            },
+            {
+                "name": "Nicholas Hope",
+                "image": "https://image.tmdb.org/t/p/w185/jwl6mahxUgnLvaCfmKiQLN9M2f6.jpg"
+            },
+            {
+                "name": "Tyallah Bullock",
+                "image": "https://image.tmdb.org/t/p/w185/ae680Po4jGoAS3fUebpYKfQvjvn.jpg"
+            }
+        ],
+        "details": "Two teenage boys must escape a violent entity that takes the form of the person they desire most — each other.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/16/bf7c97efc10c034982b909821699065d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/16/bf7c97efc10c034982b909821699065d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1283636",
+        "type": "movie",
+        "title": "Find Your Friends",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=pT5y7-WwD8M",
+        "poster": "https://image.tmdb.org/t/p/w500/uFdpiH5zh8wMnOckYtwvVDM0SDE.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vGVWjxlWRzevTG5R7E2HziDjueA.jpg",
+        "rating": 4.4,
+        "release_date": "2025-07-18",
+        "runtime": "92 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Helena Howard",
+                "image": "https://image.tmdb.org/t/p/w185/pbjQTgmc2WjnfyWCG3aIqXMMl82.jpg"
+            },
+            {
+                "name": "Bella Thorne",
+                "image": "https://image.tmdb.org/t/p/w185/lgz1eArGmzrN8pDbFhRnoXxC7c4.jpg"
+            },
+            {
+                "name": "Zión Moreno",
+                "image": "https://image.tmdb.org/t/p/w185/hh1MYhL2BV1rJsh7x9s2Y3I1cVI.jpg"
+            },
+            {
+                "name": "Chloe Cherry",
+                "image": "https://image.tmdb.org/t/p/w185/czDZr2NO24E6aGGeb7PnLhJRiQR.jpg"
+            },
+            {
+                "name": "Sophia Ali",
+                "image": "https://image.tmdb.org/t/p/w185/45B39NY2LEYewNUiWtvFb7LrDct.jpg"
+            }
+        ],
+        "details": "A sinister spin on twenty-something party culture, revealing the darkness beneath the carefree facade. What starts as a wild girls trip turns dangerous when hostile locals escalate tensions and Amber's past trauma surfaces. As the group fractures under toxic dynamics, their fun getaway transforms into a revenge-fueled nightmare.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a4ba14da5a7e",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
             }
