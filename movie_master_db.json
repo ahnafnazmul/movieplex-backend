@@ -8766,6 +8766,18 @@
                 "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=12ae14a4108f38db0adfb3876bc9f184&t=1785840811",
                 "source_site": "themoviebox",
                 "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/8412f6b5f03e2bbb6f6cfbd4164fe429.mp4?sign=c57ad0393b76752c63ba30ebfce3aeae&t=1785872359",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=d0895b622fdf73c4c87fd268fd2b0c01&t=1785872359",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -40309,5 +40321,149 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_294095",
+        "type": "series",
+        "title": "A Bona Fide Killer",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/e9ziA4Y6md4Ytr62r5y9vRdv4ll.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/22xRAaDSNIwOqFhFDXWp5IMnQPT.jpg",
+        "rating": 8.0,
+        "release_date": "2026-07-31",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Action & Adventure",
+            "Mystery",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Gong Hyo-jin",
+                "image": "https://image.tmdb.org/t/p/w185/u2ZDHJOHRkgzY0dpaORitoZjF4F.jpg"
+            },
+            {
+                "name": "Jung Jun-won",
+                "image": "https://image.tmdb.org/t/p/w185/iuVXuY4kyP3IP14aivYGMqZv0gF.jpg"
+            },
+            {
+                "name": "Lee Sang-yi",
+                "image": "https://image.tmdb.org/t/p/w185/4OSOux7D8ZIbNsA7eINSwmHM9nb.jpg"
+            },
+            {
+                "name": "Sung Dong-il",
+                "image": "https://image.tmdb.org/t/p/w185/9VLRIvOyQSHkpJaeaBcmHzcEUQn.jpg"
+            },
+            {
+                "name": "Moo Jin-sung",
+                "image": "https://image.tmdb.org/t/p/w185/4q6G7ols81nkXRuY5F2gebhFTfY.jpg"
+            }
+        ],
+        "details": "A seemingly ordinary working mother secretly lives as a legendary sniper who delivers justice where the law fails. After returning from a three-year hiatus, she must balance protecting her family with eliminating dangerous criminals, all while a determined journalist and a relentless detective close in on her hidden identity.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/31/a22fe4c67b620a0ac3f2a31c2ad7cecd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/31/a22fe4c67b620a0ac3f2a31c2ad7cecd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_284822",
+        "type": "series",
+        "title": "Your Third",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/3fWNGnik0kRoOwx8SyvPgLLRnSJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9k5nVVRHQJUqUkCi1kZ13XH3vy1.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-26",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kornthas Rujeerattanavorapan",
+                "image": "https://image.tmdb.org/t/p/w185/wAjTWJ5qf3ES2IhzbWdSWOZPv2o.jpg"
+            },
+            {
+                "name": "Natasit Uareksit",
+                "image": "https://image.tmdb.org/t/p/w185/pZhOUfw30dZj3Ox8zepO2y4ZRHZ.jpg"
+            },
+            {
+                "name": "Thanakrit Chiamchunya",
+                "image": "https://image.tmdb.org/t/p/w185/lzgEnL7JU230GTzSQxDstctxrBe.jpg"
+            },
+            {
+                "name": "Jassada Janmano",
+                "image": "https://image.tmdb.org/t/p/w185/mTFj5zKBtyQ1xDc2zf1EQi1nyGo.jpg"
+            },
+            {
+                "name": "Tadsapon Wiwitawan",
+                "image": "https://image.tmdb.org/t/p/w185/aMssS3vxIlq2ZoHZSPmm4drr8xl.jpg"
+            }
+        ],
+        "details": "A secretary sent to retrieve his boss’s runaway brother falls for the heartbroken man he’s meant to bring home.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/29/f413434940176fa3a50104c7aedc3415-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/29/f413434940176fa3a50104c7aedc3415-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1359426",
+        "type": "movie",
+        "title": "Mother Island (Part 1)",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2024-09-02",
+        "runtime": "15 min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "a mother and two children transforming lockdown into a fantasy shipwreck",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a71bb25abca3",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
