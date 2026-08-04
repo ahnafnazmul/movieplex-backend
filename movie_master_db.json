@@ -40217,5 +40217,97 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_207333",
+        "type": "series",
+        "title": "One Hundred Years of Solitude",
+        "release_year": 2024,
+        "original_language": "es",
+        "video_trailer": "https://www.youtube.com/watch?v=4oQeQR1DEjw",
+        "poster": "https://image.tmdb.org/t/p/w500/fvEhTiNg2ICs0wXTGKuKoIGhLGe.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5mcc7J07f680Q88xeLClf5SIZtt.jpg",
+        "rating": 7.9,
+        "release_date": "2024-12-11",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [],
+        "details": "In the mythical town Macondo, seven generations of the Buendía family navigate love, oblivion and the inescapability of their past — and their fate.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/25/19e298b1fe94def5224eca136f857cea-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/25/19e298b1fe94def5224eca136f857cea-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_295599",
+        "type": "series",
+        "title": "Royal Betrothal",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/31nFRRsQQnCti8TiBuiEgNKYaZp.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qa3HJLBxhQQgCbaqdhtYea0Hygk.jpg",
+        "rating": 9.7,
+        "release_date": "2026-07-28",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Wu Jinyan",
+                "image": "https://image.tmdb.org/t/p/w185/f3TigKaQis7ciGJpovK9J7QGXIx.jpg"
+            },
+            {
+                "name": "Chen Zheyuan",
+                "image": "https://image.tmdb.org/t/p/w185/uOEqq05ghCxZXn7w92nriHu0T5A.jpg"
+            },
+            {
+                "name": "Liang Yongqi",
+                "image": "https://image.tmdb.org/t/p/w185/qMTdWNBc5pzPyMDp7SMr6g8YzX2.jpg"
+            },
+            {
+                "name": "Zhao Zhaoyi",
+                "image": "https://image.tmdb.org/t/p/w185/vt1I3W8fAwCV88tdscfXwkvvMLT.jpg"
+            },
+            {
+                "name": "Zhang Nan",
+                "image": "https://image.tmdb.org/t/p/w185/fSazbVPJyAxjXAUllce5hhcAZoa.jpg"
+            }
+        ],
+        "details": "Rescued from the brink of death a decade ago, Meng Tinghui has transformed from a nameless survivor into the Daping Dynasty’s first female scholar to enter the prestigious Hanlin Academy. Known for her sharp wit and cunning nature, she has spent years navigating the treacherous waters of the imperial court. While her peers see only a ruthless official, she harbors a secret devotion to the man who saved her – Emperor Ying Gua. Tinghui is intent on helping Ying Gua become the greatest ruler in history, no matter what it takes. But amidst the power struggles and political schemes, Meng Tinghui remains blind to the one truth that could change everything: the Emperor’s heart has belonged to her all along.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/29/b56ea8627f8d1feced1092571b216681-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/29/b56ea8627f8d1feced1092571b216681-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
