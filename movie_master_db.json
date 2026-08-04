@@ -8742,6 +8742,18 @@
                 "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=9f986efc83e0ab60bf883ba4b5967d6c&t=1785390254",
                 "source_site": "themoviebox",
                 "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/8412f6b5f03e2bbb6f6cfbd4164fe429.mp4?sign=030c35d0553fe421ddadc1f3e5ad41e8&t=1785830550",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=3b31935b8ed8b03d5447510df52ddf1d&t=1785830550",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -39992,6 +40004,102 @@
                 "player_url": "https://rtally.embedseek.com/#wjpqy",
                 "source_site": "rtally",
                 "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_614905",
+        "type": "movie",
+        "title": "Bhoot Chaturdashi",
+        "release_year": 2019,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=m-TZotqO-GQ",
+        "poster": "https://image.tmdb.org/t/p/w500/xTMsO3gUO3JXtQwkbtFwMIEPZdO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sMAy15QAsfj5l1maZIGc4ISw7g1.jpg",
+        "rating": 4.7,
+        "release_date": "2019-05-17",
+        "runtime": "98 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Aryann Bhowmick",
+                "image": "https://image.tmdb.org/t/p/w185/u2p8Shsd6nqt1VxjcojjsImwDXK.jpg"
+            },
+            {
+                "name": "Ena Saha",
+                "image": "https://image.tmdb.org/t/p/w185/ni3DdK5cTJ3IK5zwKVebzE24U5c.jpg"
+            },
+            {
+                "name": "Soumendra Bhattacharya",
+                "image": "https://image.tmdb.org/t/p/w185/9aZqWzPA5xGRncUk4Tlei1aHrYl.jpg"
+            },
+            {
+                "name": "Deepsheta Mitra",
+                "image": "https://image.tmdb.org/t/p/w185/mGMlawfAeOUGbP5jEkfG5OvnvUt.jpg"
+            },
+            {
+                "name": "Mrinmoy Adhikari",
+                "image": ""
+            }
+        ],
+        "details": "A Bengali horror film about four friends in a haunted house, where a scary folklore is waiting to come alive for them. Frights ensue when four young filmmakers attempt to shoot a documentary at an abandoned house.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7198d3769c8",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_936656",
+        "type": "movie",
+        "title": "Kantatar - Barbed Wire",
+        "release_year": 2006,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/gzx9Me6CfltRLqv2UR0TdhBvgrz.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2006-01-26",
+        "runtime": "119 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Rudranil Ghosh",
+                "image": "https://image.tmdb.org/t/p/w185/iwDM4gz1gLutxlMnAKyJqZUwAbv.jpg"
+            },
+            {
+                "name": "Sreelekha Mitra",
+                "image": "https://image.tmdb.org/t/p/w185/sNnKNd0qyDtvOE6QbWPPCevbl6G.jpg"
+            },
+            {
+                "name": "Sudip Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/lADlnnpEnQqurLBZddUZRdzyM0z.jpg"
+            },
+            {
+                "name": "Pradip Bhattacharya",
+                "image": ""
+            }
+        ],
+        "details": "Kantatar (Barbed Wire) revolves around the journey of Sudha (Sreelekha Mitra), a socio-political-love drama, Kantatar centers on an illegal immigrant's search for identity and her effort to survive sake and in search of an identity, moves from one man to another and from one religion to another. The sudden threat of cross border terrorism entirely changes the socio-political situation in a remote village close to the frontier, the army rolls into town, and the drastic changes take their toll on inter-personal relationships as they are marred by suspicion, competition and fear. Sudha takes refuge in a temporary weather camp just outside the village.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a719810a9183",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
             }
         ],
         "_source_site": "rtally"
