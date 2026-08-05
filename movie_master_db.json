@@ -40465,5 +40465,253 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_228421",
+        "type": "series",
+        "title": "Average Joe",
+        "release_year": 2023,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=YWitM3oDDBI",
+        "poster": "https://image.tmdb.org/t/p/w500/jsLYlsWA3CsE7V1owlSqfU9QzVG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/l2E1zRep7sM73aCJ4YTuLPxid5H.jpg",
+        "rating": 7.4,
+        "release_date": "2023-06-26",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Crime"
+        ],
+        "cast": [],
+        "details": "Blue-collar plumber, Joe Washington, discovers his recently deceased father lived a secret, second life and stole millions of dollars from dangerous people just before he died. Now those people think Joe knows where it is. A bloody and violent confrontation triggers a chain of events that force Joe and his close-knit circle of family and friends out of their very average and mundane lives into a life-or-death race against time to find the truth and the millions.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/07/17/044c190290d26a6a36a3801a4783920a-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/07/17/044c190290d26a6a36a3801a4783920a-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1307118",
+        "type": "movie",
+        "title": "Soulm8te",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=DF9I1wLlXbk",
+        "poster": "https://image.tmdb.org/t/p/w500/bNErActDctl6cdUGw9pnjSCmyhQ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ebcOSaZLxdCMHDjJJQzx5PiEyzl.jpg",
+        "rating": 6.4,
+        "release_date": "2026-07-31",
+        "runtime": "99 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "David Rysdahl",
+                "image": "https://image.tmdb.org/t/p/w185/yYTsO3nH4ikZJ3K2XTgQASEOWiU.jpg"
+            },
+            {
+                "name": "Lily Sullivan",
+                "image": "https://image.tmdb.org/t/p/w185/sLjxpxV2JX8k3k9VWoIPrzqlh5J.jpg"
+            },
+            {
+                "name": "Claudia Doumit",
+                "image": "https://image.tmdb.org/t/p/w185/6iTmyg2krMDgQheiu8FnxtApKh0.jpg"
+            },
+            {
+                "name": "Arty Froushan",
+                "image": "https://image.tmdb.org/t/p/w185/zYNvzONSgyfnC4efHXh6zcrVj4d.jpg"
+            },
+            {
+                "name": "Elijah Isaiah Cook",
+                "image": "https://image.tmdb.org/t/p/w185/gfDhACaR28m16GV5aM8csVHMzoO.jpg"
+            }
+        ],
+        "details": "After a ruthless tech giant acquires a small robotics company, a grieving engineer is tasked with testing their new AI companion. But when he attempts to reprogram her to be a truly sentient soulmate, she develops needs of her own—unleashing a relentless spree of precision-engineered mayhem.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/01/3316a18928c70bccd482ff30b0c1c4e8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/01/3316a18928c70bccd482ff30b0c1c4e8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_46975",
+        "type": "series",
+        "title": "Crossing Lines",
+        "release_year": 2013,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=OXcAL93SVBs",
+        "poster": "https://image.tmdb.org/t/p/w500/ow8RQrZJUQfOeR5alsj9OAXoxic.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/46CHPlDDTRNyMuSMQ64FS4nUrtM.jpg",
+        "rating": 6.7,
+        "release_date": "2013-08-22",
+        "runtime": "44 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Tom Wlaschiha",
+                "image": "https://image.tmdb.org/t/p/w185/3Qbdm6f7AFAImiRU1TTwQ5AtHMQ.jpg"
+            },
+            {
+                "name": "Donald Sutherland",
+                "image": "https://image.tmdb.org/t/p/w185/yM8WO2BYqFvgQXAvf4CIuCYnY4j.jpg"
+            },
+            {
+                "name": "Lara Rossi",
+                "image": "https://image.tmdb.org/t/p/w185/vjaf98Q2ZtFObKV28crg1PspaXn.jpg"
+            },
+            {
+                "name": "Elizabeth Mitchell",
+                "image": "https://image.tmdb.org/t/p/w185/tpagVmiCbOQ8CPiRxF5MuZGfZGV.jpg"
+            },
+            {
+                "name": "Goran Višnjić",
+                "image": "https://image.tmdb.org/t/p/w185/2jFpq46QPjCbRmmGYdW9WSVC47W.jpg"
+            }
+        ],
+        "details": "Through globalization, many countries have been opened and barriers removed to ensure easy trade, travel and cultural diversity. However, this openness has given opportunities to criminals looking to exploit the system and ultimately threaten our global safety. As Europe has become a \"safe house\" for criminals eluding law enforcers, a special kind of law enforcement team is needed to handle specific ongoing crimes on a global level. \"Crossing Lines\" is the story of one such team, made up of five international cops, headed by Captain Daniel. The team - comprised of individuals who have little in common - must learn to live and work under the most dangerous and potentially deadly conditions. Housed in an unused storage section underneath the ICC, this mismatched team faces bureaucratic, jurisdictional and cultural obstacles while traversing continents in pursuit of justice.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#hkhyh",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1180831",
+        "type": "movie",
+        "title": "Troll 2",
+        "release_year": 2025,
+        "original_language": "no",
+        "video_trailer": "https://www.youtube.com/watch?v=Hzk4ovnGOyw",
+        "poster": "https://image.tmdb.org/t/p/w500/p6xAExLNFbHcLfvSuvLPoM8aqZU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lZYMXx74pWmbj5Q5jp1QaMvmuuR.jpg",
+        "rating": 6.4,
+        "release_date": "2025-11-30",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Fantasy",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Ine Marie Wilmann",
+                "image": "https://image.tmdb.org/t/p/w185/6uQlF0RdwLGaWezFsn9429HE6zu.jpg"
+            },
+            {
+                "name": "Kim S. Falck-Jørgensen",
+                "image": "https://image.tmdb.org/t/p/w185/pMwD3F5ANWQNF9UU3KivLt2EgFa.jpg"
+            },
+            {
+                "name": "Mads Sjøgård Pettersen",
+                "image": "https://image.tmdb.org/t/p/w185/6Wg9OBxrmySrzxMLKJgE6vZ2TBN.jpg"
+            },
+            {
+                "name": "Sara Khorami",
+                "image": "https://image.tmdb.org/t/p/w185/jh49k9oVAVGdApgSCiRyJmrAgoG.jpg"
+            },
+            {
+                "name": "Karoline Viktoria Sletteng Garvang",
+                "image": "https://image.tmdb.org/t/p/w185/qPblgtDrg3x5307POA6Tp4lWtv1.jpg"
+            }
+        ],
+        "details": "When a dangerous new troll unleashes devastation across their homeland, Nora, Andreas and Major Kris embark on their most perilous mission yet.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#nona1",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_39793",
+        "type": "series",
+        "title": "Call the Midwife",
+        "release_year": 2012,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=aVfdZevxf_o",
+        "poster": "https://image.tmdb.org/t/p/w500/b1p0nL00x563ACkcmGNIRP4ZnkA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/a600KQ3DdQUQl5LewN5imbL0BaF.jpg",
+        "rating": 7.5,
+        "release_date": "2012-01-15",
+        "runtime": "52 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Vanessa Redgrave",
+                "image": "https://image.tmdb.org/t/p/w185/hBsjc7cW1DA0V6APwe3A7ESH3Lv.jpg"
+            },
+            {
+                "name": "Helen George",
+                "image": "https://image.tmdb.org/t/p/w185/7fPIzYzoGt4DuJfSygnujiutdjU.jpg"
+            },
+            {
+                "name": "Jenny Agutter",
+                "image": "https://image.tmdb.org/t/p/w185/hxroyCTMk54hesfCRo4g6Jwc8dT.jpg"
+            },
+            {
+                "name": "Judy Parfitt",
+                "image": "https://image.tmdb.org/t/p/w185/c0kgdslVSweFnUqJDn7Yyu6mi24.jpg"
+            },
+            {
+                "name": "Cliff Parisi",
+                "image": "https://image.tmdb.org/t/p/w185/ixHBFFaagltuif2aY6fQJ5dLRjD.jpg"
+            }
+        ],
+        "details": "Drama following the lives of a group of midwives working in the poverty-stricken East End of London during the 1950s, based on the best-selling memoirs of Jennifer Worth.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#o9o3m",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
