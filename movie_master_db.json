@@ -41061,5 +41061,115 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_273977",
+        "type": "series",
+        "title": "The Art of Sarah",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=aPNZNcBIWNw",
+        "poster": "https://image.tmdb.org/t/p/w500/8hZqZB4DAC1Ebzbk80zc0H80SNa.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uLYp6qxGNzDlDtBOAlDbfcf4QgO.jpg",
+        "rating": 7.4,
+        "release_date": "2026-02-13",
+        "runtime": "45 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Mystery",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Shin Hae-sun",
+                "image": "https://image.tmdb.org/t/p/w185/cuCFjBn3SpWyhIfBy9TupzvTrmp.jpg"
+            },
+            {
+                "name": "Lee Jun-hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/zXo037qPJhdSvyhAjGCNoT0TcCF.jpg"
+            },
+            {
+                "name": "Park Bo-kyung",
+                "image": "https://image.tmdb.org/t/p/w185/mHM4Zf1Knw6MdPrTsyfzrCckyaV.jpg"
+            },
+            {
+                "name": "Jung Da-bin",
+                "image": "https://image.tmdb.org/t/p/w185/nE6AZgKofgr3CzdA48nsRPuqLU3.jpg"
+            },
+            {
+                "name": "Shin Hyeon-seung",
+                "image": "https://image.tmdb.org/t/p/w185/5xkCNtJIJqozc0pitsgC38rukSc.jpg"
+            }
+        ],
+        "details": "A body found in the middle of town. A luxe label on the rise. A detective tests every stitch of a woman's story that keeps changing. What really happened?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/14/c636d069b80d301f9740366a4d2cf051-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/14/c636d069b80d301f9740366a4d2cf051-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1263532",
+        "type": "movie",
+        "title": "Beast Race",
+        "release_year": 2026,
+        "original_language": "pt",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/mwmfEqWXZG6HmAUuN5SjO8s7UNV.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1zhpeLzqEi8bmaBiMZUg0D13eDt.jpg",
+        "rating": 0.0,
+        "release_date": "2026-03-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Matheus Abreu",
+                "image": "https://image.tmdb.org/t/p/w185/puXvuXPGn0xAZhvbszAU7lFS6AA.jpg"
+            },
+            {
+                "name": "Rodrigo Santoro",
+                "image": "https://image.tmdb.org/t/p/w185/d3MaF9SPHDn2PMYHuqdnO0Csik6.jpg"
+            },
+            {
+                "name": "Isis Valverde",
+                "image": "https://image.tmdb.org/t/p/w185/3QYulTU0dLFvp0zetmaBcXS4RK7.jpg"
+            },
+            {
+                "name": "Bruno Gagliasso",
+                "image": "https://image.tmdb.org/t/p/w185/6TDn2PK9mF2uUKI64rcvq42Yf5R.jpg"
+            },
+            {
+                "name": "Grazi Massafera",
+                "image": "https://image.tmdb.org/t/p/w185/zywWoTxzzaKwHbT0wQyvwH6kgy8.jpg"
+            }
+        ],
+        "details": "Inspired by the illegal universe of the Brazilian animal lottery, a fearless young man must win a deadly race to save his sister in a dystopian future where each animal in the game is now represented by a runner vying for a prize.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#ng8be",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
