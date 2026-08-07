@@ -41326,5 +41326,55 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1728056",
+        "type": "movie",
+        "title": "Big Chicken: A Fast Food Conspiracy",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=7sGkQM6TyQU",
+        "poster": "https://image.tmdb.org/t/p/w500/vNvkzG9HpVbnAPqAgkDJBzYi8be.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/d4p2sqbxC2AYkuyxT7tRBSsP4IM.jpg",
+        "rating": 4.3,
+        "release_date": "2026-08-05",
+        "runtime": "96 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Documentary"
+        ],
+        "cast": [
+            {
+                "name": "Mo Gilligan",
+                "image": "https://image.tmdb.org/t/p/w185/b66tPXwjJ5ZsrJyU2Ww29Uci7tQ.jpg"
+            },
+            {
+                "name": "Marcus Collins",
+                "image": ""
+            },
+            {
+                "name": "Enam Abood",
+                "image": ""
+            },
+            {
+                "name": "Alice Driver",
+                "image": ""
+            },
+            {
+                "name": "David Ajao",
+                "image": "https://image.tmdb.org/t/p/w185/uVjPOmV08tuI9syhTo8GGxrSKoU.jpg"
+            }
+        ],
+        "details": "In a bold 28-day experiment, comedian Mo Gilligan tours the UK and US on a fried chicken diet to uncover the impact of the craving — and industry behind it.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#t3w9c",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
