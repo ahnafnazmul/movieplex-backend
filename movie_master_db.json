@@ -41005,5 +41005,61 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_314404",
+        "type": "series",
+        "title": "High School Boy",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/hMpInGHQCFTlMBFjy3w1VEGZQcP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5E86nAgiqey80CEtMNSxRJduXVd.jpg",
+        "rating": 5.3,
+        "release_date": "2026-02-04",
+        "runtime": "2 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Han Se-jin",
+                "image": "https://image.tmdb.org/t/p/w185/alAUQ1nwXKQrfUV1hpj0hfZRuYH.jpg"
+            },
+            {
+                "name": "Lee Jung-hoon",
+                "image": "https://image.tmdb.org/t/p/w185/8WPxsp70dCWbvuuzLbnikZYZh7X.jpg"
+            },
+            {
+                "name": "이상화",
+                "image": "https://image.tmdb.org/t/p/w185/tdEnCAVlJsOuSEa8bP4Bo1Hl8sC.jpg"
+            },
+            {
+                "name": "Lee Dong-ju",
+                "image": "https://image.tmdb.org/t/p/w185/k1PlrxAArh76ntlO7XqPOiJYLxg.jpg"
+            },
+            {
+                "name": "Choi Dong-ho",
+                "image": "https://image.tmdb.org/t/p/w185/y5I5CZHpbDWwRFQ10HtW60Xf8Vg.jpg"
+            }
+        ],
+        "details": "Hong Il Tak, the bottom of Daemun Boy's High School, must survive by befriending the strongest guy.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/03/9eb20308b7ca2a24fdd5f0f1098a0974-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/03/9eb20308b7ca2a24fdd5f0f1098a0974-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
