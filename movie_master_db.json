@@ -8780,6 +8780,18 @@
                 "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=d0895b622fdf73c4c87fd268fd2b0c01&t=1785872359",
                 "source_site": "themoviebox",
                 "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/8412f6b5f03e2bbb6f6cfbd4164fe429.mp4?sign=1d641e7dc4b30f3fce5ff4f5ae05f3bf&t=1786059830",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/c0371b6d8517817069976217597f8bc2.mp4?sign=2169cbfeb3abc332225ddad9ff5fd7fc&t=1786059830",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -40863,6 +40875,131 @@
                 "player_url": "https://turbovidhls.com/t/6a7301369ba84",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1493400",
+        "type": "movie",
+        "title": "Camp Rock 3",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=02-RDIZ5Rdw",
+        "poster": "https://image.tmdb.org/t/p/w500/1w2SIg1TiqqvXSmDsqj104m2UGM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jIU5tUicaKXKKOmziCdstBCiG1z.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-13",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Music",
+            "Comedy",
+            "Drama",
+            "TV Movie"
+        ],
+        "cast": [
+            {
+                "name": "Liamani Segura",
+                "image": "https://image.tmdb.org/t/p/w185/fc1tzenQN341Bncv8ShXQfkR8SY.jpg"
+            },
+            {
+                "name": "Malachi Barton",
+                "image": "https://image.tmdb.org/t/p/w185/lmV6ParCZkniV1OQO71xxfjFjaG.jpg"
+            },
+            {
+                "name": "Lumi Pollack",
+                "image": "https://image.tmdb.org/t/p/w185/ngKlo2wJ54OMDFgX3cpFEdsTvfi.jpg"
+            },
+            {
+                "name": "Hudson Stone",
+                "image": "https://image.tmdb.org/t/p/w185/q7cpKCtm50jPnlYESislWb1H8Gr.jpg"
+            },
+            {
+                "name": "Casey Trotter",
+                "image": "https://image.tmdb.org/t/p/w185/xVCdT8ww3iuU8bPYG548GKK5Z8S.jpg"
+            }
+        ],
+        "details": "When Connect 3 loses their opening act for a major reunion tour, they return to their beloved Camp Rock to discover the next big thing. As campers vie for the chance to open for their favorite band, tensions rise and friendships are tested - leading to unexpected alliances, revelations, and romances.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/06/b2eee5769a5039e312a96ccdc9345b1c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/06/b2eee5769a5039e312a96ccdc9345b1c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1744681",
+        "type": "movie",
+        "title": "M.R.P - Neekentha Naakentha",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#6tw5p",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_439426",
+        "type": "movie",
+        "title": "Heart Beat 3D",
+        "release_year": 2010,
+        "original_language": "cs",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/q8Htk2IUMmJOqH7G7V9aZmvaErJ.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2010-12-16",
+        "runtime": "65 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Jan Budař",
+                "image": "https://image.tmdb.org/t/p/w185/2oQBS4isjpRFaxoz0YsbhYQxQAU.jpg"
+            },
+            {
+                "name": "Karel Roden",
+                "image": "https://image.tmdb.org/t/p/w185/zfxaI9n2kjlDyJUpSFvawQGV1Hg.jpg"
+            }
+        ],
+        "details": "A visual dreamscape of Prague streets, a hallucinatory vision of a world from the operating table for robotic heart surgeries, collaged together with the stories narrated by the mysterious Dr. B, who is a gifted surgeon at the centre of a conspiracy and a criminal ring trafficking in human parts, especially hearts. Because that’s where the world has ended up – humans thirsting for endless lives and shadowy businessmen and dealmakers taking advantage of this hunger. Set to original music by Němec’s student and fellow filmmaker Petr Marek and his band Midi Lidi, the rich soundscape of the film creates a distinct counterpart to the freewheeling visuals shot digitally in 3D. The former Czech president Václav Havel makes an appearance in the film recalling a script he wrote in the 1960s with Němec, his distant cousin, which the present film utilises as a reflecting surface.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#xzceh",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
             }
         ],
         "_source_site": "rtally"
