@@ -41376,5 +41376,113 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_964849",
+        "type": "movie",
+        "title": "Nightborn",
+        "release_year": 2026,
+        "original_language": "fi",
+        "video_trailer": "https://www.youtube.com/watch?v=dWePsu_Kd9c",
+        "poster": "https://image.tmdb.org/t/p/w500/ddMt3IAgEHE0SWBjm97jR8gKx9B.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jVeYae744cR2ogx9ShQ3qXOcRiZ.jpg",
+        "rating": 6.3,
+        "release_date": "2026-07-01",
+        "runtime": "92 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Rupert Grint",
+                "image": "https://image.tmdb.org/t/p/w185/q2KZZ0ltTEl7Sf8volNFV1JDEP4.jpg"
+            },
+            {
+                "name": "Seidi Haarla",
+                "image": "https://image.tmdb.org/t/p/w185/o2D0bPFPpiUSWRvpmBxwuRd5hGk.jpg"
+            },
+            {
+                "name": "Pamela Tola",
+                "image": "https://image.tmdb.org/t/p/w185/q9WTI0X1j1IAZKSIHkTd7kXpBRn.jpg"
+            },
+            {
+                "name": "Pirkko Saisio",
+                "image": "https://image.tmdb.org/t/p/w185/vGioze117HDNe4pvp5b124UrU60.jpg"
+            },
+            {
+                "name": "Rebecca Lacey",
+                "image": "https://image.tmdb.org/t/p/w185/5ml7gmrTVKnBcyah8W8mcnPwSPO.jpg"
+            }
+        ],
+        "details": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/06/a6f3b8870b8636fabceeb5fe3e0acb78-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/06/a6f3b8870b8636fabceeb5fe3e0acb78-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_59967",
+        "type": "movie",
+        "title": "Looper",
+        "release_year": 2012,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=4Kn-MmuK3BI",
+        "poster": "https://image.tmdb.org/t/p/w500/sNjL6SqErDBE8OUZlrDLkexfsCj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4GPCnwvTbsDleH5QIOyDLMsK8a2.jpg",
+        "rating": 6.9,
+        "release_date": "2012-09-26",
+        "runtime": "118 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Joseph Gordon-Levitt",
+                "image": "https://image.tmdb.org/t/p/w185/z2FA8js799xqtfiFjBTicFYdfk.jpg"
+            },
+            {
+                "name": "Bruce Willis",
+                "image": "https://image.tmdb.org/t/p/w185/w3aXr1e7gQCn8MSp1vW4sXHn99P.jpg"
+            },
+            {
+                "name": "Emily Blunt",
+                "image": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+            },
+            {
+                "name": "Paul Dano",
+                "image": "https://image.tmdb.org/t/p/w185/gOD5bO0hKnzzJm7sJeGeEJjfBBw.jpg"
+            },
+            {
+                "name": "Noah Segan",
+                "image": "https://image.tmdb.org/t/p/w185/j1mjH6uOZlKaiQ18U4SaTnmnjMl.jpg"
+            }
+        ],
+        "details": "In the year 2044, time travel has not yet been invented but in 30 years it will have been. When the mob wants to get rid of someone, they will send their target into the past where a looper, a hired gun, like Joe is waiting to mop up. Joe is getting rich and life is good until the day the mob decides to close the loop, sending back Joe's future self for assassination.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#hlwh3",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
