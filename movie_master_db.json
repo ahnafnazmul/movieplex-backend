@@ -41484,5 +41484,63 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1404304",
+        "type": "movie",
+        "title": "The Isolate Thief",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=jSwHRzmEhBI",
+        "poster": "https://image.tmdb.org/t/p/w500/gmmCh2BvTKp0YGT2FYG0eOQJELi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mwqxKmbW6ssqa5CKHrgocqbkL0C.jpg",
+        "rating": 7.2,
+        "release_date": "2026-07-10",
+        "runtime": "95 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Western",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Mackenzie Foy",
+                "image": "https://image.tmdb.org/t/p/w185/wzH60SrqWp2XMkBfLgdBhx5EJ82.jpg"
+            },
+            {
+                "name": "Odeya Rush",
+                "image": "https://image.tmdb.org/t/p/w185/Rfd4IFoCWeMtizbjEkebkRnUlW.jpg"
+            },
+            {
+                "name": "Sean Bean",
+                "image": "https://image.tmdb.org/t/p/w185/kTjiABk3TJ3yI0Cto5RsvyT6V3o.jpg"
+            },
+            {
+                "name": "Joe Pantoliano",
+                "image": "https://image.tmdb.org/t/p/w185/3OHUI3nX4SYGGItDk3xqeIvWtIf.jpg"
+            },
+            {
+                "name": "Jack Kesy",
+                "image": "https://image.tmdb.org/t/p/w185/lQ8nUYK6InbCFk2TWNnXjjvG9IY.jpg"
+            }
+        ],
+        "details": "A young woman struggles to conceal the gold she stole from a group of violent outlaws who have seized control of her remote outpost.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/10/92c2495cfe04f0f46393a9e27d6d4d94-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/10/92c2495cfe04f0f46393a9e27d6d4d94-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
