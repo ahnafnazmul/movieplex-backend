@@ -37162,7 +37162,8 @@
         "categories": [
             "Web Series",
             "English",
-            "Drama"
+            "Drama",
+            "Mystery"
         ],
         "cast": [
             {
@@ -41897,6 +41898,111 @@
                 "player_url": "https://turbovidhls.com/t/6a7831bde1851",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_148265",
+        "type": "movie",
+        "title": "Eega",
+        "release_year": 2012,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=b-XZtmVhN4U",
+        "poster": "https://image.tmdb.org/t/p/w500/pX7fn4EZrg2YFlV4GNMIfHDOQZ6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fuCfQ0D2HtNa7kRLFDkPWl87Zs9.jpg",
+        "rating": 7.1,
+        "release_date": "2012-07-05",
+        "runtime": "145 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Action",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Sudeepa",
+                "image": "https://image.tmdb.org/t/p/w185/8c5TYgGwbkcQkvC3ZlTU41OfYBN.jpg"
+            },
+            {
+                "name": "Samantha Ruth Prabhu",
+                "image": "https://image.tmdb.org/t/p/w185/zYhIHLwCYraQG7tgkvxUsrIg1Do.jpg"
+            },
+            {
+                "name": "Nani",
+                "image": "https://image.tmdb.org/t/p/w185/jfOH4sUWs3VXuGUlo0VLMYNRBQ4.jpg"
+            },
+            {
+                "name": "Adithya Menon",
+                "image": "https://image.tmdb.org/t/p/w185/5cmnhtj6npxjKQ8SwqopNfnHBYD.jpg"
+            },
+            {
+                "name": "Thagubothu Ramesh",
+                "image": "https://image.tmdb.org/t/p/w185/1D510DdV5c4CnWkzl13zIwAshZQ.jpg"
+            }
+        ],
+        "details": "Nani is a flower decorator, madly in love with his neighbor Bindhu. He gets killed by the baddie, Sudeep, a powerful businessman. Nani comes back as a housefly to get his revenge.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7876beb33c8",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_766",
+        "type": "movie",
+        "title": "Army of Darkness",
+        "release_year": 1992,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=UHZQEtG8xYo",
+        "poster": "https://image.tmdb.org/t/p/w500/xsgTuAtR2zSH8Umg3jWZcZjlDpe.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5RPXs9g0sZ9Woo4pNLxdXdge7tc.jpg",
+        "rating": 7.3,
+        "release_date": "1992-10-31",
+        "runtime": "81 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Horror",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Bruce Campbell",
+                "image": "https://image.tmdb.org/t/p/w185/p9335ljr7luOWsfwZSOlsIzFJKE.jpg"
+            },
+            {
+                "name": "Embeth Davidtz",
+                "image": "https://image.tmdb.org/t/p/w185/nwsdu9lOsKJ5v9RwOCc7kAiuxSO.jpg"
+            },
+            {
+                "name": "Marcus Gilbert",
+                "image": "https://image.tmdb.org/t/p/w185/h3djDOkNHLwep1fwbGbEhT5c6dz.jpg"
+            },
+            {
+                "name": "Ian Abercrombie",
+                "image": "https://image.tmdb.org/t/p/w185/fKAYk2Fp5GzKizw4wlUgNPIt136.jpg"
+            },
+            {
+                "name": "Richard Grove",
+                "image": "https://image.tmdb.org/t/p/w185/pOSH0srTIRdDuJUEq5xkdAJyfud.jpg"
+            }
+        ],
+        "details": "Ash, a handsome, shotgun-toting, chainsaw-armed department store clerk, is time warped backwards into England's Dark Ages, where he romances a beauty and faces legions of the undead.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#i8169",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
             }
         ],
         "_source_site": "rtally"
