@@ -41542,5 +41542,106 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1745352",
+        "type": "movie",
+        "title": "Paramapadha Sopanam",
+        "release_year": 2025,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=y3zccn77ksk",
+        "poster": "https://image.tmdb.org/t/p/w500/y1SlMiY354kg9YFYktWKeRyrXSF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/icCSykcxiGMHVx8pEgbTnHqjJsT.jpg",
+        "rating": 0.0,
+        "release_date": "2025-07-11",
+        "runtime": "106 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Arjun Ambati",
+                "image": "https://image.tmdb.org/t/p/w185/jMfoM6xSgiaOrsp5pwPeX1PH5BU.jpg"
+            },
+            {
+                "name": "Jenifer Emmanuel John",
+                "image": "https://image.tmdb.org/t/p/w185/gxsrmGMqf7zb1zLgqH6CeHopUpH.jpg"
+            },
+            {
+                "name": "Jyothi",
+                "image": ""
+            },
+            {
+                "name": "Namrita Malla",
+                "image": ""
+            },
+            {
+                "name": "Pilla Prasad",
+                "image": ""
+            }
+        ],
+        "details": "Sarpanch, VRO, and medical officer-begin to meet brutal ends, each shrouded in secrecy.Police investigation reveals thirty fingerprints on bodies of deceased, but only one fingerprint is found on the last victim, creating a complex puzzle.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#t3fet",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1610840",
+        "type": "movie",
+        "title": "Godari Gattupaina",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=fuwCjRfDUFI",
+        "poster": "https://image.tmdb.org/t/p/w500/jVENga0uWeOM3vc7KtLhieBwNRy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1KeaFgD2u9kEpsP2xs1kXS9cTPQ.jpg",
+        "rating": 5.6,
+        "release_date": "2026-05-08",
+        "runtime": "148 min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [
+            {
+                "name": "Sumanth Prabhas",
+                "image": "https://image.tmdb.org/t/p/w185/hQpDUzdNhXxAah0oJifXCZscp5O.jpg"
+            },
+            {
+                "name": "Nidhi Pradeep",
+                "image": "https://image.tmdb.org/t/p/w185/utOtK4WdI67rUCuLPkWXtXnI55G.jpg"
+            },
+            {
+                "name": "Jagapati Babu",
+                "image": "https://image.tmdb.org/t/p/w185/bm72k6FmDxhxtZsl1xvxoz88Hkm.jpg"
+            },
+            {
+                "name": "Rajkumar Kasireddy",
+                "image": "https://image.tmdb.org/t/p/w185/u7kPoGR1d3Xuo633V4hIBdhiLdm.jpg"
+            },
+            {
+                "name": "Nellore Sudharshan",
+                "image": "https://image.tmdb.org/t/p/w185/8kpem5ZHfy90DYyYE9QamqrE6eb.jpg"
+            }
+        ],
+        "details": "In the picturesque Godavari villages, a kind-hearted auto driver and a spirited college girl fall in love, but their bond is tested by her father's expectations and unforeseen challenges.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#pu8yb",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
