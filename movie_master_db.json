@@ -41743,5 +41743,162 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1236295",
+        "type": "movie",
+        "title": "Planetquake",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=5ex-InzaHvQ",
+        "poster": "https://image.tmdb.org/t/p/w500/5szPceoDBlWf5T1LEJSY0WRX3BM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/au7H9GPpefI5zgw7xvMhpgxt0gR.jpg",
+        "rating": 4.7,
+        "release_date": "2024-01-26",
+        "runtime": "85 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Action",
+            "Drama",
+            "Fantasy",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Erica Duke",
+                "image": "https://image.tmdb.org/t/p/w185/14LVo30I7lonRERZFneBhTqV6pe.jpg"
+            },
+            {
+                "name": "Michael Paré",
+                "image": "https://image.tmdb.org/t/p/w185/jxrXW8OL6hwJgtJgePdMO5yHuAM.jpg"
+            },
+            {
+                "name": "Phillip Andre Botello",
+                "image": "https://image.tmdb.org/t/p/w185/wzLtwcPc8VGYwBqeHl9d7gMVixL.jpg"
+            },
+            {
+                "name": "Candace Kita",
+                "image": "https://image.tmdb.org/t/p/w185/j3vOnfgtjGjGZohJWr80IsmZavg.jpg"
+            },
+            {
+                "name": "Anthony Jensen",
+                "image": "https://image.tmdb.org/t/p/w185/4BWRrZ6F2wi99kWJlPSq0wJaKcJ.jpg"
+            }
+        ],
+        "details": "A tectonic shift deep below the Mariana Trench causes a series of ever escalating earthquakes. If a team of leading seismologists fails to stop the disaster, the events will break apart the Earth, resulting in billions of casualties. Finally, someone’s paying attention to our leading seismologists.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#hlyzy",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1592679",
+        "type": "movie",
+        "title": "Oh..! Sukumari",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/jTJ7ML9wtt4AGaJHCNxFqwU4MJI.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sbQTtNk3d2qpHWF35GfG28mAiKP.jpg",
+        "rating": 4.0,
+        "release_date": "2026-07-17",
+        "runtime": "145 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Romance",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Thiruveer Reddy",
+                "image": "https://image.tmdb.org/t/p/w185/sakymVVw0AWnGR7TzgaF1rFeWm5.jpg"
+            },
+            {
+                "name": "Aishwarya Rajesh",
+                "image": "https://image.tmdb.org/t/p/w185/9xChl6zSGT9Svx5jghZg1yrW47w.jpg"
+            },
+            {
+                "name": "Jhansi",
+                "image": "https://image.tmdb.org/t/p/w185/rOgVPpJWfgrYnkzzD9aZB5TQYus.jpg"
+            },
+            {
+                "name": "Vishnu Oi",
+                "image": "https://image.tmdb.org/t/p/w185/A46W2WAH9T0HK8YkbQZiZAyOaES.jpg"
+            },
+            {
+                "name": "Anjaiah Milkuri",
+                "image": ""
+            }
+        ],
+        "details": "Follows an aspiring politician who falls in love with Sukumari, a beautiful and soft-natured woman, while her father conceals a secret that threatens their relationship.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a783c4acf011",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_795729",
+        "type": "movie",
+        "title": "Nizhal",
+        "release_year": 2021,
+        "original_language": "ml",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/uGKbgLN4dc8BoxDGsM6kU9RglSV.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iF4GIfMX3EwsyapDZnHwKqGgSQZ.jpg",
+        "rating": 5.5,
+        "release_date": "2021-04-09",
+        "runtime": "118 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Mystery",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Kunchacko Boban",
+                "image": "https://image.tmdb.org/t/p/w185/1jdbIaYOBuhPNGS8XCqlzMsb0SV.jpg"
+            },
+            {
+                "name": "Nayanthara",
+                "image": "https://image.tmdb.org/t/p/w185/sYUzvjsSsqeOgBblSzda6ZwwbEa.jpg"
+            },
+            {
+                "name": "Saiju Kurup",
+                "image": "https://image.tmdb.org/t/p/w185/4NMeGiBEBjkmBcX5PStRHFOcrOu.jpg"
+            },
+            {
+                "name": "Izin Hash",
+                "image": ""
+            },
+            {
+                "name": "Shersha Sherief",
+                "image": "https://image.tmdb.org/t/p/w185/ausSEfxEXMXTqaE0uxyZaUORBjH.jpg"
+            }
+        ],
+        "details": "A First class judicial Magistrate comes across an 8 year old boy-Nithin & his murder stories. Do they have real life connection?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7831bde1851",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
