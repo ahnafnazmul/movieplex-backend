@@ -42059,5 +42059,172 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_327273",
+        "type": "series",
+        "title": "The Four of Us",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=lO1lMPzh4Zs",
+        "poster": "",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-06-29",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Soap",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "S'Dumo Mtshali",
+                "image": "https://image.tmdb.org/t/p/w185/u9IOLd6L7ae9SrFWWtz4wR7AblP.jpg"
+            },
+            {
+                "name": "Thembinkosi Mthembu",
+                "image": "https://image.tmdb.org/t/p/w185/kLqDK1zoiSe246dgZocezBHOsjh.jpg"
+            },
+            {
+                "name": "Kealeboga Masango",
+                "image": ""
+            },
+            {
+                "name": "Sindi Dlathu",
+                "image": ""
+            },
+            {
+                "name": "Sibongile Nojila",
+                "image": ""
+            }
+        ],
+        "details": "The Four of Us is a South African telenovela which is a family drama centred on the influential Dhlomo family in which old wounds, power struggles and long-held resentments threaten to tear the family apart. After their father's death, siblings Bobbi and Busani Dhlomo battle for wealth, power and control of their family legacy.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/30/660cfe20f87b49d07c62e2a135516251-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/30/660cfe20f87b49d07c62e2a135516251-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_289116",
+        "type": "series",
+        "title": "Genius Girlfriend",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=AukOst2Wtbw",
+        "poster": "https://image.tmdb.org/t/p/w500/hhLJ33MIiQKuvdJ6FNcZZQIBng4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tWhf5jkrMr9fInmW3VG6ZHhRLOP.jpg",
+        "rating": 9.0,
+        "release_date": "2026-08-02",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Tian Xiwei",
+                "image": "https://image.tmdb.org/t/p/w185/naWkDov1oPHYGUCbYPxMXJhwQMl.jpg"
+            },
+            {
+                "name": "Hu Yitian",
+                "image": "https://image.tmdb.org/t/p/w185/3TdSv9FWbImvJO65I2z8GEcU791.jpg"
+            },
+            {
+                "name": "Lai Weiming",
+                "image": "https://image.tmdb.org/t/p/w185/zZIs8U7rDL3GSj1Tvs9c3gXNa9L.jpg"
+            },
+            {
+                "name": "Li Jiaqi",
+                "image": "https://image.tmdb.org/t/p/w185/irRmvwQmWDaKJ270nZSSdSYGyrt.jpg"
+            },
+            {
+                "name": "Xia Haoran",
+                "image": "https://image.tmdb.org/t/p/w185/c2Wj7zXGQWiNlSrvWViNrhLjEnJ.jpg"
+            }
+        ],
+        "details": "A genius girl and her childhood sweetheart navigate life's challenges from campus to marriage in this heartwarming coming-of-age story filled with wit, warmth and youthful passion.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/02/24f52af41e6bead149f1d9dbb4da953c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/02/24f52af41e6bead149f1d9dbb4da953c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_429415",
+        "type": "movie",
+        "title": "Extinction",
+        "release_year": 2018,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=-ePDPGXkvlw",
+        "poster": "https://image.tmdb.org/t/p/w500/qjnNdjrZIdi7d316SjjkgEjJRSg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mPNGcX1j5SFeDETkvcJA9POaNx8.jpg",
+        "rating": 6.1,
+        "release_date": "2018-07-15",
+        "runtime": "96 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Michael Peña",
+                "image": "https://image.tmdb.org/t/p/w185/afs4PCiwn8LR93a10drULLVeVLo.jpg"
+            },
+            {
+                "name": "Lizzy Caplan",
+                "image": "https://image.tmdb.org/t/p/w185/cHs9pPpjcEMpWrGmrAYAn0QOE78.jpg"
+            },
+            {
+                "name": "Israel Broussard",
+                "image": "https://image.tmdb.org/t/p/w185/7HmcvPVEkzKncyn2KKaX3AX0Yc0.jpg"
+            },
+            {
+                "name": "Mike Colter",
+                "image": "https://image.tmdb.org/t/p/w185/9LG9AzoY2ak6M2kwhKlGkLOUUot.jpg"
+            },
+            {
+                "name": "Lex Shrapnel",
+                "image": "https://image.tmdb.org/t/p/w185/yO3DCrc8aOO8orKGn1QcuGHbIFv.jpg"
+            }
+        ],
+        "details": "A chief mechanic at a factory, haunted by apocalyptic nightmares, becomes a hero when Earth is invaded by a mysterious army bent on destruction.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#sixdk",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
