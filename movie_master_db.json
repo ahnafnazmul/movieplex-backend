@@ -42226,5 +42226,216 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_296140",
+        "type": "series",
+        "title": "My Bias, My Boss",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/A4Y4xlDHS4xi2WI9265vRyIYLoo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eBD46F44qKGPZiRLffO4q3JF8Hc.jpg",
+        "rating": 6.5,
+        "release_date": "2026-08-03",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kang Hoon",
+                "image": "https://image.tmdb.org/t/p/w185/dg2FTdGkacJLyLP8PlsE3Oz93fO.jpg"
+            },
+            {
+                "name": "Kim Hye-jun",
+                "image": "https://image.tmdb.org/t/p/w185/9ptrnFQm0uBBogrHLmRb91usDo0.jpg"
+            },
+            {
+                "name": "Cha Woo-min",
+                "image": "https://image.tmdb.org/t/p/w185/z8Lz0Opnl4i7Aj8b7jC4qYP01xJ.jpg"
+            },
+            {
+                "name": "Yuna",
+                "image": "https://image.tmdb.org/t/p/w185/9vjd24lq9Q2aSzd4QtY3nhLH5HB.jpg"
+            },
+            {
+                "name": "Chun Woo-jin",
+                "image": "https://image.tmdb.org/t/p/w185/xDUeZ0jePwGW66hHs49Wnlu92rF.jpg"
+            }
+        ],
+        "details": "A dedicated fangirl lands a job at a fashion company, only to discover it was co-founded by her ultimate idol. Determined to remain professional, she hides her identity, but is quickly thrown off course by the company's workaholic CEO. As secret unrequited feelings and hidden personal struggles entangle the trio, she finds herself torn between her lifelong obsession and an unexpected new connection.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/03/b7a0fcb6534a413f7fdb43ae2bbbc112-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/03/b7a0fcb6534a413f7fdb43ae2bbbc112-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1290703",
+        "type": "movie",
+        "title": "Oru Durooha Saahacharyathil",
+        "release_year": 2026,
+        "original_language": "ml",
+        "video_trailer": "https://www.youtube.com/watch?v=Pss0rqdpySM",
+        "poster": "https://image.tmdb.org/t/p/w500/m5QAeVHpqSedMEvIpbUle6aUn5q.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ypAZ45yFGfGpGGHyaLFUhE8psMS.jpg",
+        "rating": 5.8,
+        "release_date": "2026-04-15",
+        "runtime": "135 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Kunchacko Boban",
+                "image": "https://image.tmdb.org/t/p/w185/1jdbIaYOBuhPNGS8XCqlzMsb0SV.jpg"
+            },
+            {
+                "name": "Dileesh Pothan",
+                "image": "https://image.tmdb.org/t/p/w185/mXCnvBbRynOYOE3aqGostSvCZ0N.jpg"
+            },
+            {
+                "name": "Sajin Gopu",
+                "image": "https://image.tmdb.org/t/p/w185/l8kpWfPvD7Gzp2LgvRSWVRsrxWd.jpg"
+            },
+            {
+                "name": "Chidambaram",
+                "image": "https://image.tmdb.org/t/p/w185/fwRYox7fTSVurHJJnsAQCUJ7Jzt.jpg"
+            },
+            {
+                "name": "Jaffer Idukki",
+                "image": "https://image.tmdb.org/t/p/w185/6kkv7LDD0NIGFTKZyrgGH5KGZpR.jpg"
+            }
+        ],
+        "details": "Humble health care worker Sethu lives a quiet life caring for his sick brother — until a mysterious armed fugitive seeks refuge in his home.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a79ef594d6d0",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_310421",
+        "type": "movie",
+        "title": "Namma Veettu Pillai",
+        "release_year": 2019,
+        "original_language": "ta",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/4v4lArw7kpFBmipcJYghFpP1WHx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/a9Voe1NZtWL2dNE4rLW8q1TzaJU.jpg",
+        "rating": 5.4,
+        "release_date": "2019-09-27",
+        "runtime": "153 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Sivakarthikeyan",
+                "image": "https://image.tmdb.org/t/p/w185/jgy9y3V8QqZmu5r8sMxrGCzXuyp.jpg"
+            },
+            {
+                "name": "Aishwarya Rajesh",
+                "image": "https://image.tmdb.org/t/p/w185/9xChl6zSGT9Svx5jghZg1yrW47w.jpg"
+            },
+            {
+                "name": "Samuthirakani",
+                "image": "https://image.tmdb.org/t/p/w185/hicCPOdDfSRCEYkeb9g53FOY19A.jpg"
+            },
+            {
+                "name": "Anu Emmanuel",
+                "image": "https://image.tmdb.org/t/p/w185/cJP0PC9O76QLD9pVY2JuCJUcYbT.jpg"
+            },
+            {
+                "name": "Natarajan Subramaniam",
+                "image": "https://image.tmdb.org/t/p/w185/1sKmgVKSw8qJUzBTJGvL45wlDss.jpg"
+            }
+        ],
+        "details": "Arumpon wants his sister to get married into a good family, but is forced to accept her marriage to a local goon, with whom he is at loggerheads. Will the brother-sister relationship survive?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#i8qdy",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1155281",
+        "type": "movie",
+        "title": "Creation of the Gods II: Demon Force",
+        "release_year": 2025,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=GR1LszelGoU",
+        "poster": "https://image.tmdb.org/t/p/w500/dfUCs5HNtGu4fofh83uiE2Qcy3v.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yujcZMkNKtNXPvRGyTA3e3VCrbx.jpg",
+        "rating": 6.5,
+        "release_date": "2025-01-29",
+        "runtime": "145 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Fantasy",
+            "War"
+        ],
+        "cast": [
+            {
+                "name": "Huang Bo",
+                "image": "https://image.tmdb.org/t/p/w185/3IlDYUAzLu9KozU6mjn6WTjJUsy.jpg"
+            },
+            {
+                "name": "Yu Shi",
+                "image": "https://image.tmdb.org/t/p/w185/xIzHhuScL4wbm2zmHxtnfpBFqcs.jpg"
+            },
+            {
+                "name": "Nashi",
+                "image": "https://image.tmdb.org/t/p/w185/i2oD8NEMmCSXDVtJq0bxOF0cJ4V.jpg"
+            },
+            {
+                "name": "Chen Muchi",
+                "image": "https://image.tmdb.org/t/p/w185/cu7k1HTLpNNNKZ2WdxVIUGXiPVF.jpg"
+            },
+            {
+                "name": "Kris Phillips",
+                "image": "https://image.tmdb.org/t/p/w185/gh6dlF5SkVKfNrRaHVseBwiTbUA.jpg"
+            }
+        ],
+        "details": "Taishi Wen Zhong led the army of Shang Dynasty including Deng Chanyu and four generals of the Mo Family to Xiqi. With the help of Kunlun immortals such as Jiang Ziya, Ji Fa led the army and civilians of Xiqi to defend their homeland.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#si88h",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
