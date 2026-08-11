@@ -39670,7 +39670,8 @@
         "categories": [
             "Movies",
             "English",
-            "Thriller"
+            "Thriller",
+            "Crime"
         ],
         "cast": [
             {
@@ -42437,5 +42438,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_949838",
+        "type": "movie",
+        "title": "72 HOURS",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=N-J-HR3quc4",
+        "poster": "https://image.tmdb.org/t/p/w500/9Bu1PW2R1XayqRqnl0aDOgMcrdS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hL5EIk48251OXlbIbRJq3yaBHk8.jpg",
+        "rating": 6.8,
+        "release_date": "2026-07-20",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Kevin Hart",
+                "image": "https://image.tmdb.org/t/p/w185/byiNydUlM6oP8diA7WMvYbNM7a1.jpg"
+            },
+            {
+                "name": "Marcello Hernández",
+                "image": "https://image.tmdb.org/t/p/w185/1HwInMPGpJ9Ne2eHe1Zirk6IDSN.jpg"
+            },
+            {
+                "name": "Mason Gooding",
+                "image": "https://image.tmdb.org/t/p/w185/bmlry1xqBzNgv8Chm783ss93Cvg.jpg"
+            },
+            {
+                "name": "Kam Patterson",
+                "image": "https://image.tmdb.org/t/p/w185/tosIntCEGwZNC3tvpUXJq39GY1q.jpg"
+            },
+            {
+                "name": "Ben Marshall",
+                "image": "https://image.tmdb.org/t/p/w185/kLUG2GlueUOoSrKHlqhuS3yUnDc.jpg"
+            }
+        ],
+        "details": "To save his career, a 40-year-old ad exec joins a crew of twentysomethings for a wild Miami bachelor party after they mistakenly add him to a group chat.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/e543666c7e0b84294a4904835e9de02e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/e543666c7e0b84294a4904835e9de02e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
