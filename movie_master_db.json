@@ -42775,5 +42775,160 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_6795",
+        "type": "movie",
+        "title": "Zathura: A Space Adventure",
+        "release_year": 2005,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=hxrF-X1yn6Q",
+        "poster": "https://image.tmdb.org/t/p/w500/gDb5BW2NLqZ9cvg9nyzkZVvmgze.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/s9Bn7Mx4U9cWOR1WdFZjU1DTAkh.jpg",
+        "rating": 6.5,
+        "release_date": "2005-11-06",
+        "runtime": "101 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Adventure",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Josh Hutcherson",
+                "image": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg"
+            },
+            {
+                "name": "Jonah Bobo",
+                "image": "https://image.tmdb.org/t/p/w185/AnPqW5BW52X2nrAUcv9oQnK8xPu.jpg"
+            },
+            {
+                "name": "Dax Shepard",
+                "image": "https://image.tmdb.org/t/p/w185/aaUGRjfghjgysn5grVdm8kyYN4V.jpg"
+            },
+            {
+                "name": "Kristen Stewart",
+                "image": "https://image.tmdb.org/t/p/w185/xldswdQ1VnpcOf2wZMPguZ3avgO.jpg"
+            },
+            {
+                "name": "Tim Robbins",
+                "image": "https://image.tmdb.org/t/p/w185/3FfJMIVwXgsIXbAT8ECBSZJAncR.jpg"
+            }
+        ],
+        "details": "After their father is called into work, two young boys, Walter and Danny, are left in the care of their teenage sister, Lisa, and told they must stay inside. Walter and Danny, who anticipate a boring day, are shocked when they begin playing Zathura, a space-themed board game, which they realize has mystical powers when their house is shot into space. With the help of an astronaut, the boys attempt to return home.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#mjgpm",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_82682",
+        "type": "movie",
+        "title": "Gangster Squad",
+        "release_year": 2013,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=LlbN5cQKZik",
+        "poster": "https://image.tmdb.org/t/p/w500/wAuQNTBFBu2yXZsX6yLhUPiwTlW.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cdd4S09XxLLvp6IRN4PQamPAXL6.jpg",
+        "rating": 6.4,
+        "release_date": "2013-01-09",
+        "runtime": "113 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Drama",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Josh Brolin",
+                "image": "https://image.tmdb.org/t/p/w185/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+            },
+            {
+                "name": "Ryan Gosling",
+                "image": "https://image.tmdb.org/t/p/w185/lyUyVARQKhGxaxy0FbPJCQRpiaW.jpg"
+            },
+            {
+                "name": "Sean Penn",
+                "image": "https://image.tmdb.org/t/p/w185/9glqNTVpFpdN1nFklKaHPUyCwR6.jpg"
+            },
+            {
+                "name": "Nick Nolte",
+                "image": "https://image.tmdb.org/t/p/w185/jpYzFBi6zfn8CHVaXmqgiOTas4V.jpg"
+            },
+            {
+                "name": "Emma Stone",
+                "image": "https://image.tmdb.org/t/p/w185/cZ8a3QvAnj2cgcgVL6g4XaqPzpL.jpg"
+            }
+        ],
+        "details": "Los Angeles, 1949. Ruthless, Brooklyn-born mob king Mickey Cohen runs the show in this town, reaping the ill-gotten gains from the drugs, the guns, the prostitutes and — if he has his way — every wire bet placed west of Chicago. And he does it all with the protection of not only his own paid goons, but also the police and the politicians who are under his control. It’s enough to intimidate even the bravest, street-hardened cop… except, perhaps, for the small, secret crew of LAPD outsiders led by Sgt. John O’Mara and Jerry Wooters who come together to try to tear Cohen’s world apart.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#vewer",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1208271",
+        "type": "movie",
+        "title": "Wrangler",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/k580gLw5GJLBBfFSp2DrMfrziwF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sBvJ5otyjgBl5xr1myPeTLUJiP5.jpg",
+        "rating": 7.0,
+        "release_date": "2026-05-13",
+        "runtime": "107 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Choi Seung-yoon",
+                "image": "https://image.tmdb.org/t/p/w185/28IQxLWNHj8zNImytSxiD2O4vM3.jpg"
+            },
+            {
+                "name": "Kim Seung-hwa",
+                "image": "https://image.tmdb.org/t/p/w185/91knHdIjOhaBp6A6lA9oE2TESWR.jpg"
+            },
+            {
+                "name": "Oh Jung-hwan",
+                "image": "https://image.tmdb.org/t/p/w185/fXPGLVUq6hozSN6BxZDVqPtp8lH.jpg"
+            },
+            {
+                "name": "Joo Ye-rin",
+                "image": "https://image.tmdb.org/t/p/w185/uuBddtwzbsLvECgQgekvKS5vuMl.jpg"
+            },
+            {
+                "name": "Kim Dha-sol",
+                "image": ""
+            }
+        ],
+        "details": "Hayoung, a successful dog trainer, is visited by her sister, Sora, who has a criminal record for murder. As Sora's bizarre behavior unsettles the training center and Hayoung's daily routine, buried truths and repressed desires start to rise to the surface.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#woe6c",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
