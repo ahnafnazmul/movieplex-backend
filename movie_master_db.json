@@ -42559,5 +42559,118 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1594914",
+        "type": "movie",
+        "title": "Lucky Strike",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=vtEnjikCXyA",
+        "poster": "https://image.tmdb.org/t/p/w500/kzRAd7mj39ZY3FGNrDdZjqx56tn.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1ebY06Gc1eUZcCoO7IoD4tWCFxm.jpg",
+        "rating": 7.6,
+        "release_date": "2026-06-26",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "War"
+        ],
+        "cast": [
+            {
+                "name": "Scott Eastwood",
+                "image": "https://image.tmdb.org/t/p/w185/tKJEy1bFNxvIj7sivsB7Us2ThmY.jpg"
+            },
+            {
+                "name": "Colin Hanks",
+                "image": "https://image.tmdb.org/t/p/w185/iljyDSiJRcwJL8QXQZ2WTyU1wh5.jpg"
+            },
+            {
+                "name": "Aunjanue Ellis-Taylor",
+                "image": "https://image.tmdb.org/t/p/w185/e54DfgDyS67xdtomYODFule6Ofa.jpg"
+            },
+            {
+                "name": "Taylor John Smith",
+                "image": "https://image.tmdb.org/t/p/w185/6dXZRf8ePa1oxQN9a5hFGEjDoI0.jpg"
+            },
+            {
+                "name": "Lorne MacFadyen",
+                "image": "https://image.tmdb.org/t/p/w185/y1cdclslL2nNkFw5RVj64iAHIIb.jpg"
+            }
+        ],
+        "details": "A wounded American soldier fights to survive behind enemy lines during WWII's Battle of the Bulge against the Germans, relying on his instinct, spy craft and a hand-radio to evade capture and find his way back to his unit.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/16/4cd4c0da6cb88ef3ea922baa801c2291-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/16/4cd4c0da6cb88ef3ea922baa801c2291-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_329635",
+        "type": "series",
+        "title": "Play Me",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/d9kY1DVjUnZKTwz6mVSxZZlpkGO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fDZRLsPMeo5OKuc1DSJbUCG46NX.jpg",
+        "rating": 8.0,
+        "release_date": "2026-07-31",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Yang Hong-seok",
+                "image": "https://image.tmdb.org/t/p/w185/xUkcaCJw8IlU9PdVLhpZbyVqPUZ.jpg"
+            },
+            {
+                "name": "Park Seong-hyeon",
+                "image": "https://image.tmdb.org/t/p/w185/4GMNef1XfZtiDIV2Evp0npd0X6Z.jpg"
+            },
+            {
+                "name": "Shin Yong-seok",
+                "image": "https://image.tmdb.org/t/p/w185/nlFfd6ve0mnE6zGARjaFg2uUsXh.jpg"
+            },
+            {
+                "name": "Shin Jun-seop",
+                "image": "https://image.tmdb.org/t/p/w185/jitXiUMKwexUYYbtRPOn4vgGWMA.jpg"
+            },
+            {
+                "name": "Ha Yo-seop",
+                "image": "https://image.tmdb.org/t/p/w185/ygN5nPlA9zZYGYxpVdUE8CbH5XV.jpg"
+            }
+        ],
+        "details": "The top star Jung Yihyun, who started as a child actor, decides to quit the entertainment industry due to his mother's sudden death. Kang Jaewon, a part-time worker who lives from hand to mouth, has to temporarily give up his actor dream due to real-life pressures. The two, who had a falling-out in high school due to a misunderstanding, reunite years later because of a musical. Through portraying the characters, they rediscover love.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/10/6e3b624fda24e9ab96109c99690d6d01-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/10/6e3b624fda24e9ab96109c99690d6d01-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
