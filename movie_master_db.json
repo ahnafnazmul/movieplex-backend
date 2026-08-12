@@ -42672,5 +42672,108 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1308767",
+        "type": "movie",
+        "title": "Young Washington",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=LJek-kc384w",
+        "poster": "https://image.tmdb.org/t/p/w500/6CdoTKnRQHJkjRGxTefFGkPQplB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mj3RFamNUleZB94zMWgGnJkQCAH.jpg",
+        "rating": 7.9,
+        "release_date": "2026-07-02",
+        "runtime": "121 min",
+        "categories": [
+            "Movies",
+            "English",
+            "History",
+            "War",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "William Franklyn-Miller",
+                "image": "https://image.tmdb.org/t/p/w185/zRTfdQgLk6yy9m6DQjX72qJ0MRs.jpg"
+            },
+            {
+                "name": "Ben Kingsley",
+                "image": "https://image.tmdb.org/t/p/w185/k3Dmu49B2akwDvgqy52MOxznI59.jpg"
+            },
+            {
+                "name": "Mary-Louise Parker",
+                "image": "https://image.tmdb.org/t/p/w185/ljaNmBF31BbOvrrawms7vCsIqBP.jpg"
+            },
+            {
+                "name": "Leo Hanna",
+                "image": "https://image.tmdb.org/t/p/w185/td9z5ch8GqtGBLRexvNMNCaNyVx.jpg"
+            },
+            {
+                "name": "Mia Rodgers",
+                "image": "https://image.tmdb.org/t/p/w185/6KtudVDOmmwAO4TtPjq0TYyy91O.jpg"
+            }
+        ],
+        "details": "Before he led a nation, George Washington was a young soldier thrown into a global conflict. With alliances crumbling and war closing in, he must choose who to trust and confront the leader he's becoming.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#1mncw",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1465557",
+        "type": "movie",
+        "title": "Our Hero, Balthazar",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=vL4AuYMtr9c",
+        "poster": "https://image.tmdb.org/t/p/w500/mxVTarvl5OLoU9YWIYygby6R0KI.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wcXcAI1S9N9DG7SvjNTGGCxVlsF.jpg",
+        "rating": 6.8,
+        "release_date": "2026-03-27",
+        "runtime": "96 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Jaeden Martell",
+                "image": "https://image.tmdb.org/t/p/w185/oR7ZJsOHMNFzM1HeugV4a4qCMSF.jpg"
+            },
+            {
+                "name": "Asa Butterfield",
+                "image": "https://image.tmdb.org/t/p/w185/1IoQIesuvI9o1IpYZqdjBWvKhRf.jpg"
+            },
+            {
+                "name": "Chris Bauer",
+                "image": "https://image.tmdb.org/t/p/w185/1AjdNxbVmy6azlOxIfnCX5OruEA.jpg"
+            },
+            {
+                "name": "Pippa Knowles",
+                "image": "https://image.tmdb.org/t/p/w185/oGN3N1SNesHRlGwgiss5bgZVuLw.jpg"
+            },
+            {
+                "name": "Danny McCarthy",
+                "image": "https://image.tmdb.org/t/p/w185/jTYHl6SGo6hrHrezVCNHvEr4a5g.jpg"
+            }
+        ],
+        "details": "Eager to impress his activist crush, a wealthy New York teenager follows an online connection to Texas, where he's convinced he can stop an act of extreme violence.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#epol8",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
