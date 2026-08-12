@@ -42930,5 +42930,157 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1628071",
+        "type": "movie",
+        "title": "Ip Man: Kung Fu Legend",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=cqlZSRvH7BU",
+        "poster": "https://image.tmdb.org/t/p/w500/m3Low6jJrKXHSYFpXNkmYsG1Q6I.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6HBbzW5D7StUBRi0yO6ZEq9rNB5.jpg",
+        "rating": 5.5,
+        "release_date": "2026-07-22",
+        "runtime": "94 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Philip Condron",
+                "image": ""
+            },
+            {
+                "name": "Dennis To Yu-Hang",
+                "image": "https://image.tmdb.org/t/p/w185/xQ4wrXt4L5u9A9yfkN4s8RzPuOJ.jpg"
+            },
+            {
+                "name": "Steven Dasz",
+                "image": "https://image.tmdb.org/t/p/w185/AeNDnKWIvnPPeeaec7skalmEKoK.jpg"
+            },
+            {
+                "name": "Lee Yiu-King",
+                "image": "https://image.tmdb.org/t/p/w185/cxT0uwf96a31jUp0bvF6uDZLsVO.jpg"
+            },
+            {
+                "name": "Yan Yanlong",
+                "image": ""
+            }
+        ],
+        "details": "In 1950s Hong Kong, British merchants and Chinese triads have joined forces to expand their territory, forcibly demolishing factories without regard for public welfare. This move draws fierce opposition from Ip Man, standing up for the workers, he faces pressure from all sides. Framed for murder, he is sent to prison. Within the prison walls, the triads set multiple deadly traps. Can Ip Man overcome these trials, escape the danger, and clear his name?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7cb57cbcc5c",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_29437",
+        "type": "movie",
+        "title": "Rabid",
+        "release_year": 1977,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Fr4ZLdhoQRY",
+        "poster": "https://image.tmdb.org/t/p/w500/gIsuIWnvDozlQP4ya6OZEXqDecj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7ICl9c70ntA61ayFhlfmwtLzSqt.jpg",
+        "rating": 6.3,
+        "release_date": "1977-04-08",
+        "runtime": "91 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Marilyn Chambers",
+                "image": "https://image.tmdb.org/t/p/w185/ilY4leBaqMiMAhDjaOsa8GkS4I7.jpg"
+            },
+            {
+                "name": "Terri Hanauer",
+                "image": "https://image.tmdb.org/t/p/w185/7lLuiUa95pQpJa3WdR391vNtptX.jpg"
+            },
+            {
+                "name": "Frank Moore",
+                "image": "https://image.tmdb.org/t/p/w185/wmoFReXcsChtXf7NyJU45naxTY.jpg"
+            },
+            {
+                "name": "Joe Silver",
+                "image": "https://image.tmdb.org/t/p/w185/A0vk5ZnczujRSV2s0M0t3iUCySM.jpg"
+            },
+            {
+                "name": "Howard Ryshpan",
+                "image": "https://image.tmdb.org/t/p/w185/103bjS1qYYE8NaEV97aPqcZMKLe.jpg"
+            }
+        ],
+        "details": "A young woman develops a taste for human blood after experimental plastic surgery, and her victims turn into bloodthirsty zombies, leading into a city-wide epidemic.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#siczn",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_4612",
+        "type": "movie",
+        "title": "Absolon",
+        "release_year": 2003,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=f6OgVzEs0O0",
+        "poster": "https://image.tmdb.org/t/p/w500/pLhakprIzI0nXDpwwgJ04XiYcFM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/a1NQ6RVB56vtMAsX3jx7cwO2BC8.jpg",
+        "rating": 4.1,
+        "release_date": "2003-03-10",
+        "runtime": "96 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Christopher Lambert",
+                "image": "https://image.tmdb.org/t/p/w185/nWcAHW2ZN4cP3VPWYH9WJCvhFvt.jpg"
+            },
+            {
+                "name": "Lou Diamond Phillips",
+                "image": "https://image.tmdb.org/t/p/w185/yqGZwaGe8XgoxfO7zmx7weGBaXZ.jpg"
+            },
+            {
+                "name": "Kelly Brook",
+                "image": "https://image.tmdb.org/t/p/w185/thpym3DdghHl8UGiwypFjBWKQuA.jpg"
+            },
+            {
+                "name": "Ron Perlman",
+                "image": "https://image.tmdb.org/t/p/w185/nfky6J9ueey1gMdWMNU9k9YdfGP.jpg"
+            },
+            {
+                "name": "Roberta Angelica",
+                "image": ""
+            }
+        ],
+        "details": "In the near future, a virus has infected everyone on the planet, and Absolon is a drug that everyone must take to stay alive. One corporation controls the drug. Murchison is the leader of this firm. A scientist who was researching the virus is found murdered, and Norman Scott is the policeman who investigates the crime.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#xzdgb",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
