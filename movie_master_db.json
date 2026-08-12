@@ -42495,5 +42495,69 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_27966",
+        "type": "movie",
+        "title": "King of the Underworld",
+        "release_year": 1939,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/j3UhHLF1qgIWL8GLDJBKiCIkUDi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oc6dDot0ueGbDdfXRtuKcPlTHuM.jpg",
+        "rating": 6.4,
+        "release_date": "1939-01-14",
+        "runtime": "67 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Humphrey Bogart",
+                "image": "https://image.tmdb.org/t/p/w185/4pk2VbOb2td7iBZyir6Ji46HH4N.jpg"
+            },
+            {
+                "name": "Kay Francis",
+                "image": "https://image.tmdb.org/t/p/w185/ruacUsZjH6sbKuFPPLXVKwpixsF.jpg"
+            },
+            {
+                "name": "James Stephenson",
+                "image": "https://image.tmdb.org/t/p/w185/zVMYn8Vo2nXK4dPCjpwleGoC970.jpg"
+            },
+            {
+                "name": "John Eldredge",
+                "image": "https://image.tmdb.org/t/p/w185/4h1JgoOD9sHGYvRa6SNw4twxdIv.jpg"
+            },
+            {
+                "name": "Jessie Busley",
+                "image": "https://image.tmdb.org/t/p/w185/7Vm99Q7Gqr77A0OFTl86tSeJnOw.jpg"
+            }
+        ],
+        "details": "Physician Carole Nelson, suspected of having ties to notorious gangster Joe Gurney, must prove her innocence or the Medical Board will revoke her license. When Gurney seeks her out for treatment after being shot, it could be the break Nelson needs. Now she has a chance to use her medical know-how to outwit Gurney and his goons and reestablish her professional reputation.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=11fed361338319ef038e725e228d348e&t=1786510131",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=3f95a4e712b643b0506f4575250f6321&t=1786510185",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=e1dea662c51d6dbdf628dfad21d361bf&t=1786510156",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
