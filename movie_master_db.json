@@ -43458,5 +43458,52 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1741768",
+        "type": "movie",
+        "title": "Nibba Nibbi",
+        "release_year": 2026,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/4Mbi8MAvBYYTUtxYFCmVDdsq1Pv.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-08-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Rishav Basu",
+                "image": "https://image.tmdb.org/t/p/w185/vw3ddyvxpEq8eswkkIqRiMJgpsD.jpg"
+            },
+            {
+                "name": "Sauraseni Maitra",
+                "image": "https://image.tmdb.org/t/p/w185/gJlQHzgIgpfRcRZTYvULORZe0zZ.jpg"
+            },
+            {
+                "name": "Shantilal Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/lDLFY9vQ8VtYxQgX4YQgkW9pI6R.jpg"
+            },
+            {
+                "name": "Shankar Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/s7qwlr95FTZEiYdLsFNFecL9t0z.jpg"
+            }
+        ],
+        "details": "Limitless love, or a reckless adventure?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7e0e65d611b",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
