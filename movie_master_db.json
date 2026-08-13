@@ -39722,7 +39722,8 @@
             "Web Series",
             "English",
             "Crime",
-            "Comedy"
+            "Comedy",
+            "Drama"
         ],
         "cast": [
             {
@@ -43304,6 +43305,156 @@
                 "player_url": "https://turbovidhls.com/t/6a7d9d37214fa",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_222766",
+        "type": "series",
+        "title": "The Day of the Jackal",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=EUb_04MdnMI",
+        "poster": "https://image.tmdb.org/t/p/w500/tYLecM3WSEjlkKhkGiH5G68Dprm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/enVrO8TRkdT8dmYXTfI4sEjR5Kp.jpg",
+        "rating": 8.2,
+        "release_date": "2024-11-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Action & Adventure",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Eddie Redmayne",
+                "image": "https://image.tmdb.org/t/p/w185/fSvG7qzoBBnJUmgtIuMgrK3EQPN.jpg"
+            },
+            {
+                "name": "Lashana Lynch",
+                "image": "https://image.tmdb.org/t/p/w185/ypNxRag9uJ5nzPAN2um3amQK340.jpg"
+            },
+            {
+                "name": "Eleanor Matsuura",
+                "image": "https://image.tmdb.org/t/p/w185/8PTKH2LHXVxoxPm4kULlQ0OdwTg.jpg"
+            },
+            {
+                "name": "Chukwudi Iwuji",
+                "image": "https://image.tmdb.org/t/p/w185/5JILtFNmAmA8T4gRQrO5sn8krDv.jpg"
+            },
+            {
+                "name": "Úrsula Corberó",
+                "image": "https://image.tmdb.org/t/p/w185/cmH8Z459tw9YkR61QfxlCSlZw9P.jpg"
+            }
+        ],
+        "details": "An unrivalled and highly elusive lone assassin, the Jackal, makes his living carrying out hits for the highest fee. But following his latest kill, he meets his match in a tenacious British intelligence officer who starts to track down the Jackal in a thrilling cat-and-mouse chase across Europe, leaving destruction in its wake.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/11/21067b4bb9ac78140a022bd3b38244bf-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/09/11/21067b4bb9ac78140a022bd3b38244bf-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1688935",
+        "type": "movie",
+        "title": "Oye Bhole Oye 2",
+        "release_year": 2026,
+        "original_language": "pa",
+        "video_trailer": "https://www.youtube.com/watch?v=tyG9hgWzD6k",
+        "poster": "https://image.tmdb.org/t/p/w500/ftGotnuSroCGI2R0EgzwMX3tmAt.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hX6jtlcsyGR5LMOP4Q26LREiUlf.jpg",
+        "rating": 0.0,
+        "release_date": "2026-06-12",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Jagjeet Sandhu",
+                "image": "https://image.tmdb.org/t/p/w185/3aehzXHbFu12c3H6Gq6tlPrhgm9.jpg"
+            },
+            {
+                "name": "Dheeraj Kumar",
+                "image": "https://image.tmdb.org/t/p/w185/7MXenYvyRUD3xHzG77UsNGDusMI.jpg"
+            },
+            {
+                "name": "Amrit Amby",
+                "image": ""
+            },
+            {
+                "name": "Rupinder Rupi",
+                "image": "https://image.tmdb.org/t/p/w185/3LXAbtJtC7yzCbwPxkQkbnherWD.jpg"
+            },
+            {
+                "name": "Jaz Deol",
+                "image": ""
+            }
+        ],
+        "details": "A simple village boy refuses to sell his land when a powerful company offers big money, even as his own family gives in. As he stands alone, his fight turns from a personal struggle into a larger battle to protect his roots and expose the truth behind the project.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7de8e073fe7",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7de66a8d2fe",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_330320",
+        "type": "series",
+        "title": "Conversations with a Killer: The Charles Manson Tapes",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=7_LOFaPmVDg",
+        "poster": "https://image.tmdb.org/t/p/w500/8yyWUZjItJEO5dpKyCE8IghET9i.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yRuUGw1zFd3IyayCwHv8gInDVeT.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-12",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Documentary"
+        ],
+        "cast": [
+            {
+                "name": "Charles Manson",
+                "image": "https://image.tmdb.org/t/p/w185/fPBUj4MVR7x2FG2F296otdhxDJC.jpg"
+            }
+        ],
+        "details": "Tracing Charles Manson's rise as a cult leader, the 1969 murders, and his trial, using unreleased prison recordings, interviews, and archival footage.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#thutp",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
             }
         ],
         "_source_site": "rtally"
