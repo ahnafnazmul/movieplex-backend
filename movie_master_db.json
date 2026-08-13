@@ -43082,5 +43082,107 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_11249",
+        "type": "movie",
+        "title": "Seed of Chucky",
+        "release_year": 2004,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=U18RvBCCGEg",
+        "poster": "https://image.tmdb.org/t/p/w500/vd9K93gQ9whMKjXzADZanxWpIXM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eZOt0qAmxwCXyJHLgEIEKdjQVM8.jpg",
+        "rating": 5.5,
+        "release_date": "2004-11-12",
+        "runtime": "86 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Brad Dourif",
+                "image": "https://image.tmdb.org/t/p/w185/ex7AmuHM3owhUetYZAyOmN1ehWS.jpg"
+            },
+            {
+                "name": "Jennifer Tilly",
+                "image": "https://image.tmdb.org/t/p/w185/9vYoYF385cVq9oDO3pDpXihP4vz.jpg"
+            },
+            {
+                "name": "Billy Boyd",
+                "image": "https://image.tmdb.org/t/p/w185/jluumxuDr7rm2f97NFf9LydBdaZ.jpg"
+            },
+            {
+                "name": "Redman",
+                "image": "https://image.tmdb.org/t/p/w185/kdHkOC3ebLZDSecOrQF9XsXTNjb.jpg"
+            },
+            {
+                "name": "Hannah Spearritt",
+                "image": "https://image.tmdb.org/t/p/w185/2RCwvSXDElYkDevVgg0bAUSLLyO.jpg"
+            }
+        ],
+        "details": "This time around, Chucky and his homicidal honey, Tiffany, are brought back to life by their orphan offspring, Glen. Then the horror goes Hollywood as Chucky unleashes his own brand of murderous mayhem!",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#pupc6",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1065834",
+        "type": "movie",
+        "title": "Kattalan",
+        "release_year": 2026,
+        "original_language": "ml",
+        "video_trailer": "https://www.youtube.com/watch?v=xlTJlHyhCWM",
+        "poster": "https://image.tmdb.org/t/p/w500/53FATyQirV8BuBcrsQMGPvGKgCu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nTimAHDG7PoycFF2afMZVPyOokg.jpg",
+        "rating": 6.8,
+        "release_date": "2026-05-14",
+        "runtime": "119 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Antony Varghese",
+                "image": "https://image.tmdb.org/t/p/w185/dKRa8ghSXw6J1OTcxMziZh3l1jb.jpg"
+            },
+            {
+                "name": "Sunil Varma",
+                "image": "https://image.tmdb.org/t/p/w185/ifmUCkLgpEzbfnRjIw62otrADpI.jpg"
+            },
+            {
+                "name": "Dushara Vijayan",
+                "image": "https://image.tmdb.org/t/p/w185/5C5V9qdYil7LVCp8LqctZCEsu1n.jpg"
+            },
+            {
+                "name": "Jagadish",
+                "image": "https://image.tmdb.org/t/p/w185/ml3XX5bWPIdHUPvqhW2MYYZ8H7Y.jpg"
+            },
+            {
+                "name": "Kabir Duhan Singh",
+                "image": "https://image.tmdb.org/t/p/w185/lAVAxFARP63oTHMYWpwHrWsXPWa.jpg"
+            }
+        ],
+        "details": "Power-hungry forces clash in the Ivory cartel war-a fierce story of control, vengeance, and survival where compassion vanishes and only the ruthless endure.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7d3deba1308",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
