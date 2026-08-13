@@ -43279,5 +43279,33 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1748247",
+        "type": "movie",
+        "title": "Johnny Jumper",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/vD6Q8CPglohe3KFj2DJRUHyp6Ql.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/webN6O1scfrvGjkVX8FuXpH5gl0.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-15",
+        "runtime": "120 min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "The local cops take the services of a Local Cable Boy, a nobody who has the ability to sneak into anyone's house and anonymously keep a track of the neighbourhood.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7d9d37214fa",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
