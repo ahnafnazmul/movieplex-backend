@@ -43184,5 +43184,100 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_326991",
+        "type": "series",
+        "title": "A Trap Called Desire",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/repjdxPyA19x0ghyJFmECTDwGvj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qJeyb3SHzH9B8K6ozayzE6VbmA3.jpg",
+        "rating": 10.0,
+        "release_date": "2026-08-10",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Jang Seo-hee",
+                "image": "https://image.tmdb.org/t/p/w185/zxjXig4bOTxPlCvfNPrcRMA4Ixl.jpg"
+            },
+            {
+                "name": "Jeon Hye-won",
+                "image": "https://image.tmdb.org/t/p/w185/iiLAT4wZ1DtPUPA0l8YH9MeXgQS.jpg"
+            },
+            {
+                "name": "Seol Jung-hwan",
+                "image": "https://image.tmdb.org/t/p/w185/apkNCMOkFAduQHTnvUWq3dJsdvR.jpg"
+            },
+            {
+                "name": "Joo Sae-byeok",
+                "image": "https://image.tmdb.org/t/p/w185/oRYdqlhiweIolHz5A5155bXNEFe.jpg"
+            },
+            {
+                "name": "Yoon Hae-young",
+                "image": "https://image.tmdb.org/t/p/w185/AgrI9Rs2poH9ZUKPCuzILO32V0K.jpg"
+            }
+        ],
+        "details": "Falsely accused of murder, a woman loses everything overnight. Determined to reclaim her stolen life, she uncovers a far-reaching conspiracy as she exposes hidden truths and confronts the powerful figures who sacrificed innocent lives to protect their own ambitions.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/11/a8936a605bbe35979fbaf9c5ddb19db8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/11/a8936a605bbe35979fbaf9c5ddb19db8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_301273",
+        "type": "series",
+        "title": "The Traitors Czech: Uncloaked",
+        "release_year": 2025,
+        "original_language": "cs",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/FqPk0G3QzuJpSHvgxJgplPo5wz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7kAnaq5zqvm2mAIRbDk5XYSS3xi.jpg",
+        "rating": 0.0,
+        "release_date": "2025-09-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English"
+        ],
+        "cast": [
+            {
+                "name": "Daniela Písařovicová",
+                "image": "https://image.tmdb.org/t/p/w185/n8Vl7pEJVtkotU3GF5DIRBLJn2j.jpg"
+            },
+            {
+                "name": "Čestmír Strakatý",
+                "image": ""
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7d9324a095d",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
