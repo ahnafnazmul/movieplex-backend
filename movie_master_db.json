@@ -43933,5 +43933,109 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1240889",
+        "type": "movie",
+        "title": "Teenage Sex and Death at Camp Miasma",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=j9TsiTgYZGw",
+        "poster": "https://image.tmdb.org/t/p/w500/5Cz1EJOKpZ8hqvBNZYF9C2zTB2T.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+        "rating": 7.5,
+        "release_date": "2026-08-06",
+        "runtime": "112 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Horror",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Hannah Einbinder",
+                "image": "https://image.tmdb.org/t/p/w185/iWMeyJAghUYP3zxmOxzcYLU5G8Z.jpg"
+            },
+            {
+                "name": "Gillian Anderson",
+                "image": "https://image.tmdb.org/t/p/w185/3Ny8ZYahb33vpqNEPNCE2IOXPew.jpg"
+            },
+            {
+                "name": "Amanda Fix",
+                "image": "https://image.tmdb.org/t/p/w185/ju3aa2yJL4h5msWcbEryh7cjXOt.jpg"
+            },
+            {
+                "name": "Arthur Conti",
+                "image": "https://image.tmdb.org/t/p/w185/pnO8qBwvLJfN54UaKsy0QQlAc8u.jpg"
+            },
+            {
+                "name": "Eva Victor",
+                "image": "https://image.tmdb.org/t/p/w185/nlEirkGOQPVUVgNzIqEJysnt70q.jpg"
+            }
+        ],
+        "details": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director for resurrection. But when she visits the original's star, a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7f597a992b3",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1101383",
+        "type": "movie",
+        "title": "The End of Oak Street",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=u4tgctWuHc0",
+        "poster": "https://image.tmdb.org/t/p/w500/fYXqpgPmHMphSF2W30GbTeJVIa5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/b9q9VmbXDvJmTziRqkwdEmFdwhr.jpg",
+        "rating": 7.0,
+        "release_date": "2026-08-12",
+        "runtime": "99 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Mystery",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Anne Hathaway",
+                "image": "https://image.tmdb.org/t/p/w185/nbccV2pMoyLTCeg5DQip24Eq0Jp.jpg"
+            },
+            {
+                "name": "Ewan McGregor",
+                "image": "https://image.tmdb.org/t/p/w185/aEmyadfRXTmmR7UW7OXsm5a6smS.jpg"
+            },
+            {
+                "name": "Christian Convery",
+                "image": "https://image.tmdb.org/t/p/w185/tOR2tSrvHPVDltE4jBDEva3GNqY.jpg"
+            },
+            {
+                "name": "Maisy Stella",
+                "image": "https://image.tmdb.org/t/p/w185/dlnP0Yzbr9EEbVg6M0PQVQ7pwUF.jpg"
+            },
+            {
+                "name": "Jordan Alexa Davis",
+                "image": "https://image.tmdb.org/t/p/w185/itz31u3sG9hAlwuFZ6FWz1KhY1R.jpg"
+            }
+        ],
+        "details": "After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7f5862044ac",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
