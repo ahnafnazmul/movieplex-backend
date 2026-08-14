@@ -43505,5 +43505,159 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_126503",
+        "type": "movie",
+        "title": "Devil Woman",
+        "release_year": 1970,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/i7F3Mp606zwVJtE9QkfQDBUqkjH.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6YICMXl6OmTmdiPHrfHMg5okiWg.jpg",
+        "rating": 6.5,
+        "release_date": "1970-03-07",
+        "runtime": "94 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Rosemarie Gil",
+                "image": "https://image.tmdb.org/t/p/w185/s9Vh13VhMjgAaYAEzCUbK0XxWF6.jpg"
+            },
+            {
+                "name": "Tung Li",
+                "image": "https://image.tmdb.org/t/p/w185/8sXGm6qK5hJx4aYTftXk7I8MYd.jpg"
+            },
+            {
+                "name": "Someno Yukio",
+                "image": "https://image.tmdb.org/t/p/w185/jAZXgTp2KVel7nMvK2FrXga3sDw.jpg"
+            },
+            {
+                "name": "Romy Diaz",
+                "image": ""
+            },
+            {
+                "name": "David Yau",
+                "image": ""
+            }
+        ],
+        "details": "A woman is born with the power to control snakes. She uses these powers to seek revenge on the villagers who killed her parents along with the help of a local gang.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#wgyb5",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_347755",
+        "type": "movie",
+        "title": "Wind Walkers",
+        "release_year": 2015,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=VneZmgjLdHI",
+        "poster": "https://image.tmdb.org/t/p/w500/3G8rw9hY9fvqCtFf1jUzww189yO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ogStzqdmoRFadJAFpCDddgGu5lM.jpg",
+        "rating": 5.9,
+        "release_date": "2015-10-16",
+        "runtime": "93 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Glen Powell",
+                "image": "https://image.tmdb.org/t/p/w185/fUnIaJkdgvQTztyR1nLeUceSzly.jpg"
+            },
+            {
+                "name": "Rudy Youngblood",
+                "image": "https://image.tmdb.org/t/p/w185/64HlxkHjgZ8oBxyosonWnSw2e9k.jpg"
+            },
+            {
+                "name": "Zane Holtz",
+                "image": "https://image.tmdb.org/t/p/w185/z5sXU2zOR59A3kfJTgwPObgrPhf.jpg"
+            },
+            {
+                "name": "Johnny Sequoyah",
+                "image": "https://image.tmdb.org/t/p/w185/taFfjOB4lPAx75kJo9yFylKT1ek.jpg"
+            },
+            {
+                "name": "Kiowa Gordon",
+                "image": "https://image.tmdb.org/t/p/w185/yK3u2Rfb02VCb8mL7d76FjhFbiB.jpg"
+            }
+        ],
+        "details": "A group of friends and family descend into the Everglades swamplands for their annual hunting trip only to discover that they are the ones being hunted. A malevolent entity is tracking them and they begin to realise one of their party may be possessed by something brought home from a tour of duty in the Middle East – a demon of war so horrible and deadly they are unaware of its devilish presence. Or are they facing something even more unspeakable, a legendary Native American curse about to unleash its dreadful legacy of thirsting for colonial revenge by claiming more souls?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#iksr6",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_16295",
+        "type": "movie",
+        "title": "Higher Learning",
+        "release_year": 1995,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=R9CZErJ9idU",
+        "poster": "https://image.tmdb.org/t/p/w500/tuud1Blsdwo1KQRdz5UVwjlLAWQ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hV0LwQlPrjSjKXi4vteNEdgxm4d.jpg",
+        "rating": 6.3,
+        "release_date": "1995-01-11",
+        "runtime": "128 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Omar Epps",
+                "image": "https://image.tmdb.org/t/p/w185/iURSiniuHrfOCtjVMAw9HKxJh6z.jpg"
+            },
+            {
+                "name": "Kristy Swanson",
+                "image": "https://image.tmdb.org/t/p/w185/eoEhyZcJ1NMVAKefRh0E5adRMGh.jpg"
+            },
+            {
+                "name": "Michael Rapaport",
+                "image": "https://image.tmdb.org/t/p/w185/nWD2kufgy6lPyFVCPr9A3e7FMMn.jpg"
+            },
+            {
+                "name": "Jennifer Connelly",
+                "image": "https://image.tmdb.org/t/p/w185/wdmcJagSRJ65AuJ4IUCzuHAdvgy.jpg"
+            },
+            {
+                "name": "Ice Cube",
+                "image": "https://image.tmdb.org/t/p/w185/9EghwabQ1wIQT4oN69qtPlzqGn4.jpg"
+            }
+        ],
+        "details": "African-American student Malik is on a track scholarship; academics are not his strong suit, and he goes in thinking that his athletic abilities will earn him a free ride through college. Fudge, a \"professional student\" who has been at Columbus for six years so far, becomes friendly with Malik and challenges his views about race and politics in America.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#lxhzy",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
