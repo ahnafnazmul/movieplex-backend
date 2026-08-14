@@ -43716,5 +43716,222 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_273481",
+        "type": "movie",
+        "title": "Sicario",
+        "release_year": 2015,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Yfhu5JIxnZc",
+        "poster": "https://image.tmdb.org/t/p/w500/lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fKPgObonYgPgCdu88yjV7Hpn7Dp.jpg",
+        "rating": 7.4,
+        "release_date": "2015-09-17",
+        "runtime": "122 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Emily Blunt",
+                "image": "https://image.tmdb.org/t/p/w185/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+            },
+            {
+                "name": "Benicio del Toro",
+                "image": "https://image.tmdb.org/t/p/w185/aYomJWx0B2B8ra6Rmgt8lr0XCrw.jpg"
+            },
+            {
+                "name": "Josh Brolin",
+                "image": "https://image.tmdb.org/t/p/w185/sX2etBbIkxRaCsATyw5ZpOVMPTD.jpg"
+            },
+            {
+                "name": "Victor Garber",
+                "image": "https://image.tmdb.org/t/p/w185/FdhXl8qxsKgj22Ip99SRM9jUx1.jpg"
+            },
+            {
+                "name": "Jon Bernthal",
+                "image": "https://image.tmdb.org/t/p/w185/o0t6EVkJOrFAjESDilZUlf46IbQ.jpg"
+            }
+        ],
+        "details": "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/09/2890e57378b20071a52e29e421a5f308-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/09/2890e57378b20071a52e29e421a5f308-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/09/291e22b255f4ca9c3db73017073e4a14-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1589248",
+        "type": "movie",
+        "title": "My Best Friend, His Girlfriend and Me",
+        "release_year": 2026,
+        "original_language": "de",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/aWLshM7DZECutuQVpMfhDiPZUQC.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oAFBdUTyyJZ7EMImZAdMGuPvt6V.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kostja Ullmann",
+                "image": "https://image.tmdb.org/t/p/w185/mQguH03eznJhsfwpZJZrnWCs5Su.jpg"
+            },
+            {
+                "name": "Janina Uhse",
+                "image": "https://image.tmdb.org/t/p/w185/4hNJMls70kcfEH0mU0csLXbO9nk.jpg"
+            },
+            {
+                "name": "David Kross",
+                "image": "https://image.tmdb.org/t/p/w185/jRFxrLwiroTbGedG9uyXZghgxlX.jpg"
+            },
+            {
+                "name": "Ferdinand Hofer",
+                "image": "https://image.tmdb.org/t/p/w185/9v8fMkN8ECTRpFeXJ9OGB9keGus.jpg"
+            },
+            {
+                "name": "Clara Immel",
+                "image": "https://image.tmdb.org/t/p/w185/baVSJjmc0loXFtRPWGtrM6UPZvW.jpg"
+            }
+        ],
+        "details": "For Olli, one thing is clear: his best friend Matze has obviously been brainwashed by his new girlfriend Rebecca. Her disastrous influence not only jeopardizes their friendship, but above all the trip around the world that Olli and Matze have been planning for years, down to the last detail. So there is only one solution: Rebecca must be stopped! Together with his buddy Schmitti, Olli goes on the offensive. But to everyone's surprise, Rebecca also has a few tricks up her sleeve. The battle is on.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#acpst",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_84915",
+        "type": "series",
+        "title": "Sydney to the Max",
+        "release_year": 2019,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/8fUg9oTNbf0Wlhv4Ww97JAdAhL4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cAXMljCbVw0hruBPJYRoIRKfjDN.jpg",
+        "rating": 7.7,
+        "release_date": "2019-01-25",
+        "runtime": "23 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Ruth Righi",
+                "image": "https://image.tmdb.org/t/p/w185/aWo6ySohpcEJDUYvUzbyCr8DkP1.jpg"
+            },
+            {
+                "name": "Ava Kolker",
+                "image": "https://image.tmdb.org/t/p/w185/9Zu0rhZH0TOmnlR6iZPGoNs8zdb.jpg"
+            },
+            {
+                "name": "Ian Reed Kesler",
+                "image": "https://image.tmdb.org/t/p/w185/7LXeACXi9fz1DlwefkWfeM6ohPR.jpg"
+            },
+            {
+                "name": "Caroline Rhea",
+                "image": "https://image.tmdb.org/t/p/w185/mlZbWfwoGkoGlbDhOscfo9f0jT4.jpg"
+            },
+            {
+                "name": "Jackson Dollinger",
+                "image": "https://image.tmdb.org/t/p/w185/6LhJzweGc7AmLESymjKdmP2EVev.jpg"
+            }
+        ],
+        "details": "Outgoing 13-year-old Sydney is on the fast track to growing up, despite the goodhearted efforts of her protective father, Max. As Sydney attempts to spread her wings and make more decisions for herself, Max does everything he can to rein her in and keep her his little girl. But in so doing, his mother, Judy, is reminded of his own antics at Sydney's age, and the parallels -- illustrated by comical flashback sequences starring a young Max -- are both amusing and enlightening.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#9toas",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1504358",
+        "type": "movie",
+        "title": "Don't Say Good Luck",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=bvWqHSFkO5s",
+        "poster": "https://image.tmdb.org/t/p/w500/w3NNwo7kImaJS7fL6YlBsJx0i6R.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
+        "rating": 5.0,
+        "release_date": "2026-08-14",
+        "runtime": "95 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Music",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Sunny Sandler",
+                "image": "https://image.tmdb.org/t/p/w185/bZqheNbKINcFeVJUtkeBVKeQK8h.jpg"
+            },
+            {
+                "name": "Melanie Lynskey",
+                "image": "https://image.tmdb.org/t/p/w185/kzrWI1sTgnA0H7TCIKzDOUtOW4n.jpg"
+            },
+            {
+                "name": "Max Greenfield",
+                "image": "https://image.tmdb.org/t/p/w185/79w2mSZT8JwYv5ZwjJMDYQbzptE.jpg"
+            },
+            {
+                "name": "Stephanie Beatriz",
+                "image": "https://image.tmdb.org/t/p/w185/7gNPOlsVIdg7QQOv1gRfHjv1Sdb.jpg"
+            },
+            {
+                "name": "Bebe Neuwirth",
+                "image": "https://image.tmdb.org/t/p/w185/yFOdER8Fc07DU6U3kq2PRcbvDR.jpg"
+            }
+        ],
+        "details": "Sophie Birenbaum is ready for the spotlight as the lead in her high school musical — until suddenly she’s living with even more drama at home than on the stage.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://rtally.embedseek.com/#moygo",
+                "source_site": "rtally",
+                "source_domain": "rtally.embedseek.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
