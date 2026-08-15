@@ -44037,5 +44037,100 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_10160",
+        "type": "series",
+        "title": "Big Brother",
+        "release_year": 2000,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/q2TMOpJITXP2sHd6CrBmO7FvYk1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oBUwRT7TbhTeFFTguY1s8RmmJpW.jpg",
+        "rating": 4.8,
+        "release_date": "2000-07-05",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Reality"
+        ],
+        "cast": [
+            {
+                "name": "Julie Chen",
+                "image": "https://image.tmdb.org/t/p/w185/rY6zCYb8VhFnZ7wuxq6OQrQTJMk.jpg"
+            },
+            {
+                "name": "Clayton Halsey",
+                "image": "https://image.tmdb.org/t/p/w185/tS0y9ITEWLsfSabXHTCWkVLUq2Q.jpg"
+            }
+        ],
+        "details": "American version of the reality game show which follows a group of HouseGuests living together 24 hours a day in the \"Big Brother\" house, isolated from the outside world but under constant surveillance with no privacy for three months.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/07/5fcb0451767de0073042cfe36dffb5bd-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/08/07/5fcb0451767de0073042cfe36dffb5bd-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1596260",
+        "type": "movie",
+        "title": "Night Nurse",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=JP8Xj5_6VSE",
+        "poster": "https://image.tmdb.org/t/p/w500/cvj1d5avMYRxK8FVpq07UqLrcbZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dcJFy0rtVZp4LqPw1aqyxa046VP.jpg",
+        "rating": 6.3,
+        "release_date": "2026-07-10",
+        "runtime": "95 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Cemre Paksoy",
+                "image": "https://image.tmdb.org/t/p/w185/yZfcIb5B2oQqTTE22kuTtk9Zous.jpg"
+            },
+            {
+                "name": "Bruce McKenzie",
+                "image": "https://image.tmdb.org/t/p/w185/hzXLV3EzPFVTTgZ8lHves52GIb0.jpg"
+            },
+            {
+                "name": "Eléonore Hendricks",
+                "image": "https://image.tmdb.org/t/p/w185/TR81u29o3jXuaKOd3cAhuCfQM7.jpg"
+            },
+            {
+                "name": "Colleen Rose Trundy",
+                "image": "https://image.tmdb.org/t/p/w185/rncZuJ5Csa2FqGWLXitPOQRmcKU.jpg"
+            },
+            {
+                "name": "Mimi Rogers",
+                "image": "https://image.tmdb.org/t/p/w185/o5G9610OuMuVyubfvXwR7rUPfHg.jpg"
+            }
+        ],
+        "details": "As a series of perverse scam calls unsettles an idyllic retirement community, a starry-eyed nurse becomes entangled with her mysterious patient.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a7f673eef049",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
