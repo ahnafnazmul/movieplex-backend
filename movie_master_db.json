@@ -44189,5 +44189,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_241506",
+        "type": "series",
+        "title": "It's Okay to Not Be Okay",
+        "release_year": 2025,
+        "original_language": "tl",
+        "video_trailer": "https://www.youtube.com/watch?v=KwP3VzowPhE",
+        "poster": "https://image.tmdb.org/t/p/w500/7rQ7E7u0y8VJgnUeDT6oF1J32Gu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dNAp924hXUYxaGxGJRLlB0dvu8e.jpg",
+        "rating": 9.7,
+        "release_date": "2025-07-21",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Anne Curtis",
+                "image": "https://image.tmdb.org/t/p/w185/yjXhBVvPZO7JSqQe7QVswFWVAu0.jpg"
+            },
+            {
+                "name": "Joshua Garcia",
+                "image": "https://image.tmdb.org/t/p/w185/eLKpAquVOKrikYCszkj7QQPEACi.jpg"
+            },
+            {
+                "name": "Carlo Aquino",
+                "image": "https://image.tmdb.org/t/p/w185/zS6iKXz8HKIozguTi3KzN3OUZn1.jpg"
+            },
+            {
+                "name": "Michael De Mesa",
+                "image": "https://image.tmdb.org/t/p/w185/fxeJbcwiYhPGmiDBFPHvpqLqBaI.jpg"
+            },
+            {
+                "name": "Maricel Laxa",
+                "image": "https://image.tmdb.org/t/p/w185/7ipJWfFyvjskPjyvWPh1lUHnVWF.jpg"
+            }
+        ],
+        "details": "An author with severe antisocial tendencies learns to confront her deep emotional wounds when she meets a stranger who challenges her cold facade.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/12/08/1d630ff161d6434b3b91dcf658c72447-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/12/08/1d630ff161d6434b3b91dcf658c72447-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
