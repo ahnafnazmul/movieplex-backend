@@ -44132,5 +44132,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_90180",
+        "type": "series",
+        "title": "Jezabel",
+        "release_year": 2019,
+        "original_language": "pt",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/m5Dh1RXQaDKZd2J0wYjZ3mhQZNo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/urbF2yHByI66zfhpHvWKDoxeZ5m.jpg",
+        "rating": 7.5,
+        "release_date": "2019-04-23",
+        "runtime": "50 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Soap",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Lidi Lisboa",
+                "image": "https://image.tmdb.org/t/p/w185/tF8udXNKK0nMVQY1VPevc0CC89f.jpg"
+            },
+            {
+                "name": "André Bankoff",
+                "image": "https://image.tmdb.org/t/p/w185/9CrdVLHHjARa9BVVhcaQbyBMP4G.jpg"
+            },
+            {
+                "name": "Iano Salomão",
+                "image": "https://image.tmdb.org/t/p/w185/4yCWeVtBpHhjSarKL2clvb0XyWb.jpg"
+            },
+            {
+                "name": "Adriana Birolli",
+                "image": "https://image.tmdb.org/t/p/w185/d1KMQ5jzCIcP9iRQQd7j92r3aes.jpg"
+            },
+            {
+                "name": "Juliana Knust",
+                "image": "https://image.tmdb.org/t/p/w185/k7eAr7abJYEBQ4eqlwe9K0Zq7ft.jpg"
+            }
+        ],
+        "details": "The story of Phoenician princess Jezebel, an idol worshipper who marries King Ahab and uses her beauty and wickedness to try to impose on the Israelite people the worship of her pagan gods.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/11/555dec599d59a9ff9c59b5feb5fb28ad-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/11/555dec599d59a9ff9c59b5feb5fb28ad-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
