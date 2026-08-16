@@ -44246,5 +44246,119 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_296346",
+        "type": "movie",
+        "title": "3 Beauties",
+        "release_year": 2015,
+        "original_language": "es",
+        "video_trailer": "https://www.youtube.com/watch?v=7LEMoFD80_0",
+        "poster": "https://image.tmdb.org/t/p/w500/lU1I2yeRyzWr5FEyrm0PnMpev0C.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ltdrqR7SlF36uJsOhExHFtHCo1m.jpg",
+        "rating": 6.1,
+        "release_date": "2015-01-23",
+        "runtime": "97 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Diana Peñalver Denis",
+                "image": ""
+            },
+            {
+                "name": "Fabiola Arace",
+                "image": ""
+            },
+            {
+                "name": "Josette Vidal Restifo",
+                "image": ""
+            },
+            {
+                "name": "Francisco Denis",
+                "image": "https://image.tmdb.org/t/p/w185/kidgm7ryeUhtgBEfnXeBOVabfvy.jpg"
+            },
+            {
+                "name": "Fabian Moreno",
+                "image": ""
+            }
+        ],
+        "details": "Perla is obsessed with having a beauty queen in the family and she is willing to do whatever it takes to make her dream come true.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/2d7fd4b7b715fdbb2d0d4189266bd984-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/2d7fd4b7b715fdbb2d0d4189266bd984-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_414007",
+        "type": "movie",
+        "title": "La Soledad",
+        "release_year": 2017,
+        "original_language": "es",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/mYqw3BGzOHHXvM5c4P6Ch8JZ4Wp.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/e2BFQ3sDljnUNS68oF5fa2vqicv.jpg",
+        "rating": 6.1,
+        "release_date": "2017-04-20",
+        "runtime": "89 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "José Dolores López",
+                "image": ""
+            },
+            {
+                "name": "Marley Alvillaes López",
+                "image": ""
+            },
+            {
+                "name": "Adrializ López",
+                "image": ""
+            },
+            {
+                "name": "Maria del Carmen Agamez Palomino",
+                "image": ""
+            },
+            {
+                "name": "Jorge Thielen Hedderich",
+                "image": ""
+            }
+        ],
+        "details": "Jose lives with his family in La Soledad, a dilapidated villa located in what used to be one of Caracas' most affluent neighborhoods. After learning that the owners are planning to sell the property, Jose seeks any solution that might keep his young daughter from growing up in the city's crime-sodden slums.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/15/7d4149878b4879228600e93077147801-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/15/7d4149878b4879228600e93077147801-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
