@@ -44360,5 +44360,49 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_227546",
+        "type": "series",
+        "title": "Stories From Afar",
+        "release_year": 1997,
+        "original_language": "cn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/6c6d5LASjOiXJaaSgWHvO0kKkLG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uNsLzgf8Xj5WV91FrnMuDVw9w61.jpg",
+        "rating": 0.0,
+        "release_date": "1997-08-15",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Documentary"
+        ],
+        "cast": [
+            {
+                "name": "Yeung Wing-Cheung",
+                "image": "https://image.tmdb.org/t/p/w185/npqh585cPro0AqqKFVlNjYFwGRV.jpg"
+            },
+            {
+                "name": "Chung King-Fai",
+                "image": "https://image.tmdb.org/t/p/w185/AdhedOfqMOC1wSTY66vNCRAStYR.jpg"
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/2705293b6e3a7657039422776ebe9b87-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/2705293b6e3a7657039422776ebe9b87-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
