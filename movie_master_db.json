@@ -44404,5 +44404,153 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_324965",
+        "type": "series",
+        "title": "The Getaway Heiress Returns",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ncgenabNro71aiGSyUXiHSr52fe.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English"
+        ],
+        "cast": [
+            {
+                "name": "Morgan Tate",
+                "image": ""
+            },
+            {
+                "name": "David Eves",
+                "image": "https://image.tmdb.org/t/p/w185/64bjC5oMsJzdT1nqNqLNmi38ELm.jpg"
+            },
+            {
+                "name": "Mia Grichendler",
+                "image": ""
+            },
+            {
+                "name": "Heather Plank",
+                "image": ""
+            }
+        ],
+        "details": "Her childhood was stolen, will her entire life be stolen too?\n\nAlice was originally the heir of the Damon family,but was kidnapped and abandoned by her uncle,who wanted the family fortune to himself. Alice was then adopted by Lisa. After becoming an adult, Alice ran into her biological parents again,but she's already lost her childhood memories.\n\nLola, Alice's high school friend, not only wants to steal Alice's identity, but also her ex-boyfriend Benjamin, who's still deeply in love with Alice. In order to get Alice out of the picture, Lola had commited to a series of evil plans. Luckily, Alice's biological father, Robben, eventually recognized his daughter, and Alice finally acquired her true identity. The story ends with a happy ending with Alice once again becomes the Damon family's heir and marries Benjamin.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/96ece919a50b186172f94729ac27cb60.mp4?sign=75805ab7033b975294c1e2d951c36ac5&t=1786890507",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/e807e926c0c6c199b33b7ee80e80afa9.mp4?sign=e55594319f5cbd273c323848aa7b4fbd&t=1786890507",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/013351bf81df5c4ff0566619d1c5fccb.mp4?sign=5b6110b76f79fedf41f77c69f4f69198&t=1786890507",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1506833",
+        "type": "movie",
+        "title": "Magudam",
+        "release_year": 2026,
+        "original_language": "ta",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/uPsJfQHRw5QiwQqOoOQWkfBmnhE.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-08-14",
+        "runtime": "184 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Vishal Krishna",
+                "image": "https://image.tmdb.org/t/p/w185/39NsHSvIygBnkUpAB4Wx3A9g4GF.jpg"
+            },
+            {
+                "name": "Anjali",
+                "image": "https://image.tmdb.org/t/p/w185/aTLJCkl6mBXnb5ekKQytd7zTfne.jpg"
+            },
+            {
+                "name": "Dushara Vijayan",
+                "image": "https://image.tmdb.org/t/p/w185/5C5V9qdYil7LVCp8LqctZCEsu1n.jpg"
+            },
+            {
+                "name": "John Vijay",
+                "image": "https://image.tmdb.org/t/p/w185/1H4uUEI32DmZWfTGmWnXyu0BrU7.jpg"
+            },
+            {
+                "name": "Jayaprakash",
+                "image": "https://image.tmdb.org/t/p/w185/eyYfMqy7NsED7SYrAzaso9ZjLT5.jpg"
+            }
+        ],
+        "details": "Peaceful medical representative and shipping harbor worker Linga's life changes because of betrayal and conflict in a coastal community.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a81bef6a2057",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1396778",
+        "type": "movie",
+        "title": "Ayogya 2",
+        "release_year": 2026,
+        "original_language": "kn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/3RBEVNdNPRzslkJN6L1bF6RI8sq.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/erRR4TvuPsKLE6uRwmDx3iM8DZu.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-07",
+        "runtime": "152 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Sathish Ninasam",
+                "image": "https://image.tmdb.org/t/p/w185/3DKUi26TcxE3SReKj7qwnvsrCfO.jpg"
+            },
+            {
+                "name": "Rachita Ram",
+                "image": "https://image.tmdb.org/t/p/w185/yYMsCColotfKj0pC4p1U9hjLOdv.jpg"
+            }
+        ],
+        "details": "Sequel to Ayogya film",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a81bc8760280",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
