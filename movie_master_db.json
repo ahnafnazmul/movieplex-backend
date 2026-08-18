@@ -44886,5 +44886,141 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_290193",
+        "type": "series",
+        "title": "Mousetrap",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=UCTSqqHeMHw",
+        "poster": "https://image.tmdb.org/t/p/w500/2mwgHfOyrFrmvozjFoEXHRdfGhv.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bYtQiIibQzvMeXvLMKVcZ5DlT31.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-28",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ryu Jun-yeol",
+                "image": "https://image.tmdb.org/t/p/w185/ayjkSbxGkeiyE2JvbLlyNPNFxkn.jpg"
+            },
+            {
+                "name": "Sul Kyung-gu",
+                "image": "https://image.tmdb.org/t/p/w185/teD7AMzfNl4qhQO2b6MAWwLtPVn.jpg"
+            },
+            {
+                "name": "Lee Kyoo-hyung",
+                "image": "https://image.tmdb.org/t/p/w185/8F7s9MNKfks21VMTsW8iTc9VK09.jpg"
+            }
+        ],
+        "details": "A reclusive writer wakes to find his identity stolen — and must ally with a ruthless loan shark to reclaim his life from a man known as \"The Rat.\"",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/1d0255c57a2b337c61ccf6c7c50d232f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/1d0255c57a2b337c61ccf6c7c50d232f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_18301",
+        "type": "series",
+        "title": "The Discovery of India",
+        "release_year": 1988,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/eE327cvRMzngQTwMvbTSj6yoo74.jpg",
+        "backdrop": "",
+        "rating": 9.4,
+        "release_date": "1988-01-03",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Documentary",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Roshan Seth",
+                "image": "https://image.tmdb.org/t/p/w185/4TbHkaZxPegaTns250cVXr8F91F.jpg"
+            }
+        ],
+        "details": "Bharat Ek Khoj is a 53-episode Indian historical drama based on the book The Discovery of India by Jawaharlal Nehru, that dramatically unfolds the 5000 year history of India from its beginnings to the coming of independence in 1947. The drama was directed, written and produced by Shyam Benegal with cinematographer V. K. Murthy in 1988 for state-owned Doordarshan. Benegal's regular script collaborator Shama Zaidi also co-wrote the script.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a84780408d1b",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_240614",
+        "type": "movie",
+        "title": "R... Rajkumar",
+        "release_year": 2013,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=KsnHky4wv5w",
+        "poster": "https://image.tmdb.org/t/p/w500/2wURYkClPhuWaZz936eUEWWVzUM.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hTYWMAcmxelrgrvPgotmJ70PJBS.jpg",
+        "rating": 6.1,
+        "release_date": "2013-12-06",
+        "runtime": "146 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Shahid Kapoor",
+                "image": "https://image.tmdb.org/t/p/w185/q5jqLRioZgIVjXpKS8XHx27ScDQ.jpg"
+            },
+            {
+                "name": "Sonakshi Sinha",
+                "image": "https://image.tmdb.org/t/p/w185/7HaI5owaKzOb6Qdtwifp29uhHk2.jpg"
+            },
+            {
+                "name": "Mukul Dev",
+                "image": "https://image.tmdb.org/t/p/w185/lCi90n8qUz0TsHVtfZkX4DRLDA5.jpg"
+            },
+            {
+                "name": "Ashish Vidhyarthi",
+                "image": "https://image.tmdb.org/t/p/w185/iBUUpfHZIfpC5afHrHwcyGTHKQF.jpg"
+            },
+            {
+                "name": "Sonu Sood",
+                "image": "https://image.tmdb.org/t/p/w185/rkgASPKqB0PGYfTkfjFOL6fb1RL.jpg"
+            }
+        ],
+        "details": "Rajkumar, an aimless youth, works for a drug baron and is sent to kill a rival dealer. His life is changed forever when he meets Chanda, and has no idea she is the adopted daughter of the man he is supposed to kill.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8476b16b639",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
