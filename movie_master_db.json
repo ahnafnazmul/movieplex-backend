@@ -45022,5 +45022,147 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_10545",
+        "type": "series",
+        "title": "True Blood",
+        "release_year": 2008,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=3Wk3HSiX-vQ",
+        "poster": "https://image.tmdb.org/t/p/w500/ktEp6fzL4xzCWsSVtrcH8JaQNQy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nGhC6P0lgcrY57NRB9nweu4nWaK.jpg",
+        "rating": 7.6,
+        "release_date": "2008-09-07",
+        "runtime": "60 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Anna Paquin",
+                "image": "https://image.tmdb.org/t/p/w185/5FjBCsn3kujldP8LizoCrc3hsHp.jpg"
+            },
+            {
+                "name": "Stephen Moyer",
+                "image": "https://image.tmdb.org/t/p/w185/rQDODAKYgDGSXAShNHMmGGOJI35.jpg"
+            },
+            {
+                "name": "Alexander Skarsgård",
+                "image": "https://image.tmdb.org/t/p/w185/6VNNddrSrIVgdzhXr4Zg89gmOzY.jpg"
+            },
+            {
+                "name": "Sam Trammell",
+                "image": "https://image.tmdb.org/t/p/w185/nt4uogoUsX3gR3kUcxuEZzsonep.jpg"
+            },
+            {
+                "name": "Ryan Kwanten",
+                "image": "https://image.tmdb.org/t/p/w185/vvbEabUWIeaHMBA2wrUChiLTjch.jpg"
+            }
+        ],
+        "details": "Thanks to a Japanese scientist's invention of synthetic blood, vampires have progressed overnight from legendary monsters to fellow citizens. And while humans have been safely removed from the menu, many remain apprehensive about these creatures \"coming out of the coffin.\" Religious leaders, government officials, and vampire fundamentalists around the world have chosen their sides.  But in the small Louisiana town of Bon Temps, the jury is still out.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/13/cd5be066d9107685d05bd3ccaa320af0-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/13/cd5be066d9107685d05bd3ccaa320af0-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_316001",
+        "type": "series",
+        "title": "Ippon: Hold Me Tight",
+        "release_year": 2025,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/sHWBGVbeejzB1VxsVgPAhgfKEia.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/c5xI5dGGCTT4wqYwUG6BXoLOY2Y.jpg",
+        "rating": 6.0,
+        "release_date": "2025-04-01",
+        "runtime": "2 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Seo Sang-woo",
+                "image": "https://image.tmdb.org/t/p/w185/vt6vdrgfhPDFDmaMQEDemCNC9bf.jpg"
+            },
+            {
+                "name": "Park Hyeon-jun",
+                "image": "https://image.tmdb.org/t/p/w185/5dY9fYqabRdNT4vStEQ3KwgsGqa.jpg"
+            },
+            {
+                "name": "Shin Yoon-seop",
+                "image": "https://image.tmdb.org/t/p/w185/ovaDOLICPXmP5yoZcJjlFwt4dpF.jpg"
+            }
+        ],
+        "details": "A man who dreamed of becoming a national judo representative, Jun U, is defeated in a single match by Min Jae, who appeared like a comet.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/19/bec365d7870c67a717ea48cf58b79657-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/19/bec365d7870c67a717ea48cf58b79657-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_331650",
+        "type": "series",
+        "title": "Umthetho",
+        "release_year": 2026,
+        "original_language": "zu",
+        "video_trailer": "https://www.youtube.com/watch?v=FSDLNYk1xKs",
+        "poster": "https://image.tmdb.org/t/p/w500/xCiH7GBwpkdJMxPESMYo5ika7gW.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/t0NbIFM9auI6Hk2D3S1SzAhmxs1.jpg",
+        "rating": 6.0,
+        "release_date": "2026-08-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [],
+        "details": "To keep their youngest brother alive, a state prosecutor becomes a double agent in her imprisoned older brother's gang.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/14/10ff8392fa1f837acc1a32fc9a8709d1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/14/10ff8392fa1f837acc1a32fc9a8709d1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
