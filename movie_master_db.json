@@ -45536,5 +45536,61 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_313263",
+        "type": "series",
+        "title": "Lost to Light",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/3wHsb2h7bUEu1cOuzn4NzE5mHym.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zi8tREllTsuOvPVQ333uQ4nUy9E.jpg",
+        "rating": 0.0,
+        "release_date": "2026-06-20",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Phemadech Vattanapati",
+                "image": "https://image.tmdb.org/t/p/w185/tc3xNWvoRDwQLf5ZW7jwmiLMIKo.jpg"
+            },
+            {
+                "name": "Ratchanon Khajitpornphun",
+                "image": "https://image.tmdb.org/t/p/w185/c80fQRNecZeUfJQA40GvS25jptV.jpg"
+            },
+            {
+                "name": "Thakrit Phatthanaworakit",
+                "image": "https://image.tmdb.org/t/p/w185/8C9Hs4S2X9nm98voodRxTauvUIJ.jpg"
+            },
+            {
+                "name": "Posan Chaivirach",
+                "image": "https://image.tmdb.org/t/p/w185/oEnmMBtiSgbBtq4IAQPCjoVNkka.jpg"
+            },
+            {
+                "name": "Sunhanut Chaijarearn",
+                "image": "https://image.tmdb.org/t/p/w185/CNoyVML8onf1yEkQTNZihjGJ96.jpg"
+            }
+        ],
+        "details": "An idol group that once dreamed of fame now faces the humiliation of singing children’s songs dressed as mascots. Everyone quits… except Jeng, who chooses to stay by the stubborn Boss Sithian.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/2f557b54e64d6790446cb95b97e5e99f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/24/2f557b54e64d6790446cb95b97e5e99f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
