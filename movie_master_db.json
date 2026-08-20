@@ -7465,7 +7465,8 @@
             "English",
             "Action",
             "Fantasy",
-            "Science Fiction"
+            "Science Fiction",
+            "Hindi"
         ],
         "cast": [
             {
@@ -7494,6 +7495,18 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/30/4045fc8219b0646205fe0ac36d7c595f-ld.mp4"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/04/9f338a042ab8026269d1c34e698991af-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/04/9f338a042ab8026269d1c34e698991af-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -7864,7 +7877,8 @@
             "English",
             "Action & Adventure",
             "Drama",
-            "Comedy"
+            "Comedy",
+            "Hindi"
         ],
         "cast": [
             {
@@ -37381,7 +37395,8 @@
             "Web Series",
             "English",
             "Drama",
-            "Comedy"
+            "Comedy",
+            "Hindi"
         ],
         "cast": [
             {
@@ -38457,7 +38472,8 @@
             "Web Series",
             "English",
             "Mystery",
-            "Drama"
+            "Drama",
+            "Hindi"
         ],
         "cast": [
             {
@@ -38680,7 +38696,8 @@
             "English",
             "Fantasy",
             "Drama",
-            "Thriller"
+            "Thriller",
+            "Hindi"
         ],
         "cast": [
             {
@@ -38711,6 +38728,18 @@
                 "player_url": "https://rtally.embedseek.com/#lrufo",
                 "source_site": "rtally",
                 "source_domain": "rtally.embedseek.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/01/15ae2675c89a14aa1e0b5fda9220ffb3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/01/15ae2675c89a14aa1e0b5fda9220ffb3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "rtally"
@@ -44209,7 +44238,8 @@
             "Web Series",
             "English",
             "Drama",
-            "Comedy"
+            "Comedy",
+            "Hindi"
         ],
         "cast": [
             {
@@ -45159,6 +45189,172 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/14/10ff8392fa1f837acc1a32fc9a8709d1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1249458",
+        "type": "movie",
+        "title": "User Not Found",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/qMsGfLcAsQlzRvDwxY7M468HT9R.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/so5R7vJgmmJaPabZU2IxRcrAni1.jpg",
+        "rating": 7.5,
+        "release_date": "2026-08-13",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "Hindi",
+            "Crime",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Alyssa Chia Ching-Wen",
+                "image": "https://image.tmdb.org/t/p/w185/3xcy2tgo5fLMNBiO5cLCzdUoOI.jpg"
+            },
+            {
+                "name": "White-K",
+                "image": "https://image.tmdb.org/t/p/w185/t7Hi7qYnXPaeehR7K5rbf0hHX0B.jpg"
+            },
+            {
+                "name": "Cao Danni",
+                "image": "https://image.tmdb.org/t/p/w185/dmVuBnTD6Vn21AEGtaqxyVvzMUm.jpg"
+            },
+            {
+                "name": "Sun Meilin",
+                "image": "https://image.tmdb.org/t/p/w185/68Cn9mSrnMSrDRtS1FslJwVjGmx.jpg"
+            }
+        ],
+        "details": "Two men and women with unknown identities, a live online trial in a confined space, and an extreme escape between death and truth",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/10/13/233dd397bb77a1dfdd023b6d3009ceb4-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/10/13/233dd397bb77a1dfdd023b6d3009ceb4-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_309798",
+        "type": "series",
+        "title": "My Brilliant Career",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=WoPbcfUmMYw",
+        "poster": "https://image.tmdb.org/t/p/w500/fhpa8B6USatHybK04XBbPAB6Mlz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5ErhLuuVrxlNa2JiRzXfo0U10uZ.jpg",
+        "rating": 4.6,
+        "release_date": "2026-08-13",
+        "runtime": "45 min",
+        "categories": [
+            "Web Series",
+            "Hindi",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Philippa Northeast",
+                "image": "https://image.tmdb.org/t/p/w185/w9xeqgMjByuTS2FxUuYbrbAcus3.jpg"
+            },
+            {
+                "name": "Christopher Chung",
+                "image": "https://image.tmdb.org/t/p/w185/wV4r6tVjP9Prk2acj7bYTmdtaMF.jpg"
+            },
+            {
+                "name": "Genevieve O'Reilly",
+                "image": "https://image.tmdb.org/t/p/w185/4eOoW1PNBZfxRW0g8RmYH8bL6mq.jpg"
+            },
+            {
+                "name": "Anna Chancellor",
+                "image": "https://image.tmdb.org/t/p/w185/gKU8hHdC45q9WpYy4SeNLEhPwtK.jpg"
+            },
+            {
+                "name": "Kate Mulvany",
+                "image": "https://image.tmdb.org/t/p/w185/y80VZs4JwiXFlTvr5n8Y5Ezr3HS.jpg"
+            }
+        ],
+        "details": "Restless, razor-sharp and refusing to conform, 17-year-old Sybylla Melvyn is dead set on writing her own story in an era that expects her to find a man and settle down.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/27/a61b0523d3d837361c06ffa8479be790-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/27/a61b0523d3d837361c06ffa8479be790-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_284753",
+        "type": "series",
+        "title": "Operation Safed Sagar: The Untold Story of the Kargil War",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qa7OF8e0mkvQgUrI4DqFkBW39s5.jpg",
+        "rating": 6.7,
+        "release_date": "2026-08-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "Hindi",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Siddharth",
+                "image": "https://image.tmdb.org/t/p/w185/9XrTuJp9lnB1rsBPzTaoXdp1ig8.jpg"
+            },
+            {
+                "name": "Jimmy Shergill",
+                "image": "https://image.tmdb.org/t/p/w185/A3fJrhIgM7Q5TGwbQYxYBjNsV37.jpg"
+            },
+            {
+                "name": "Abhay Verma",
+                "image": "https://image.tmdb.org/t/p/w185/cqChBCAbcExnj5aVoyfunKgBAAi.jpg"
+            },
+            {
+                "name": "Manu Rishi Chadha",
+                "image": "https://image.tmdb.org/t/p/w185/p1TKO8kY78V8bNLoNBlRkIrr7TJ.jpg"
+            },
+            {
+                "name": "Vinay Pathak",
+                "image": "https://image.tmdb.org/t/p/w185/nt4MvHjHq5sF1aPrLyFO1YizD8y.jpg"
+            }
+        ],
+        "details": "As the Kargil War erupts between India and Pakistan, the Golden Arrows squadron of the Air Force takes flight on a dangerous mission behind enemy lines.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/04/f834feeb6715f628694880e77aefceef-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/04/f834feeb6715f628694880e77aefceef-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
