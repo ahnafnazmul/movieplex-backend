@@ -45360,5 +45360,61 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_314936",
+        "type": "series",
+        "title": "Don't Be Too Emotional",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/lS4NcIAFf3qCebxQUzFCIQyFgSY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qvsaEJjl3DwBFy7K6lZaicCHL7R.jpg",
+        "rating": 9.0,
+        "release_date": "2026-06-26",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Boonyakait Wongsajaem",
+                "image": "https://image.tmdb.org/t/p/w185/qflKEjinOa71LPQguYrqt0aY4Ku.jpg"
+            },
+            {
+                "name": "Thatpong Rojsangruang",
+                "image": "https://image.tmdb.org/t/p/w185/rujhnbyDnRa2xtmbnrdfiZOn9lr.jpg"
+            },
+            {
+                "name": "Palat Chayutnitiroj",
+                "image": "https://image.tmdb.org/t/p/w185/kTQpEGbDa1WTQNIB7T1tAtaJaRU.jpg"
+            },
+            {
+                "name": "Phattharapon Dejpongwaranon",
+                "image": "https://image.tmdb.org/t/p/w185/dVWr4GhFyQXQW40pAEk9Lz7yUiM.jpg"
+            },
+            {
+                "name": "Tatchapol Thitiapichai",
+                "image": "https://image.tmdb.org/t/p/w185/6I8NShWVZiJHu0R3SH5swASq1f2.jpg"
+            }
+        ],
+        "details": "A football player befriends a mysterious wish-granter whose dangerous gifts hide secrets that draw them closer together.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/29/3b67cc9a4b5cdbfa8662391cfc757acc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/29/3b67cc9a4b5cdbfa8662391cfc757acc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
