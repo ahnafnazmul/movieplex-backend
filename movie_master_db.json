@@ -45702,5 +45702,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_306627",
+        "type": "series",
+        "title": "WEIRDO-101",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/seDyRmffAgFALXHSHrZi3v7A4t6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/omCS0EjH7OgJ8KBnGcxSF5oVKcS.jpg",
+        "rating": 6.0,
+        "release_date": "2026-08-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Dechchart Tasilp",
+                "image": "https://image.tmdb.org/t/p/w185/mIF0ChfEnjEROQN1bi6hUQAwXId.jpg"
+            },
+            {
+                "name": "Suvijak Piyanopharoj",
+                "image": "https://image.tmdb.org/t/p/w185/mORMq9C97AkgWDrBZWzuzGQwm6c.jpg"
+            },
+            {
+                "name": "Ratiphat Luengvoraphan",
+                "image": "https://image.tmdb.org/t/p/w185/9ogpPZ5ZowtLgn8OnwCf7TOs1Ee.jpg"
+            },
+            {
+                "name": "Ochiris Suwanacheep",
+                "image": "https://image.tmdb.org/t/p/w185/hWXwQp24XFtwwx0BX8ISpV55RyR.jpg"
+            },
+            {
+                "name": "Peerakan Teawsuwan",
+                "image": "https://image.tmdb.org/t/p/w185/6fJb64TWppUJMv6DwIIU1hd44uj.jpg"
+            }
+        ],
+        "details": "A lazy judo athlete's life is turned upside down when a socially awkward astronomy genius saves him from trouble and openly pursues him.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/4ae4283a6ffbfebf245a93c55b3c9c61-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/4ae4283a6ffbfebf245a93c55b3c9c61-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
