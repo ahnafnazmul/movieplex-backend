@@ -45604,5 +45604,103 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1751358",
+        "type": "movie",
+        "title": "Forest Guard",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=GiO4mMFEd4A",
+        "poster": "https://image.tmdb.org/t/p/w500/3zvR631lTyhX7wCp5Jr74HerT1I.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/caeq2ONNnuUoV7Hg8GtQHBn1dPg.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-16",
+        "runtime": "126 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Kathir",
+                "image": "https://image.tmdb.org/t/p/w185/cQNlW5ztPIANrUNRos81cxZuZe5.jpg"
+            },
+            {
+                "name": "Shine Tom Chacko",
+                "image": "https://image.tmdb.org/t/p/w185/lIfhgkTK8bgM5jS2R91ZvCxKIwj.jpg"
+            },
+            {
+                "name": "Hakkim Shahjahan",
+                "image": ""
+            },
+            {
+                "name": "Sudhi Koppa",
+                "image": "https://image.tmdb.org/t/p/w185/h1Tvm7G2tuSLef3hCNdBZmBc3pe.jpg"
+            }
+        ],
+        "details": "A secret reunion deep in the forest takes a dangerous turn when hidden agendas and betrayal turn Mithun's night into a fight for survival. But who can he really trust?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a874e83be127",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1665724",
+        "type": "movie",
+        "title": "Shera",
+        "release_year": 2026,
+        "original_language": "pa",
+        "video_trailer": "https://www.youtube.com/watch?v=vgKtHC7Yqk0",
+        "poster": "https://image.tmdb.org/t/p/w500/7qgjO10RA9Jd7ffXbYeqQAwf1WF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8fZyDQqkuD4R8MPiduiKNQ3JYz3.jpg",
+        "rating": 0.0,
+        "release_date": "2026-05-15",
+        "runtime": "145 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Parmish Verma",
+                "image": "https://image.tmdb.org/t/p/w185/bY9F4nbWvJI22jiwvyo7FdtemZ6.jpg"
+            },
+            {
+                "name": "Sonal Chauhan",
+                "image": "https://image.tmdb.org/t/p/w185/6kZGegjH3UNDYEEKJ4OTEZcuKeA.jpg"
+            },
+            {
+                "name": "Yograj Singh",
+                "image": "https://image.tmdb.org/t/p/w185/AqYCK8VDWGDg2d87Qgm8RuwtVXJ.jpg"
+            },
+            {
+                "name": "Manav Vij",
+                "image": "https://image.tmdb.org/t/p/w185/qBGYyDNhHB8Gt2gKQUs0VdsWutJ.jpg"
+            },
+            {
+                "name": "Hashneen Chauhan",
+                "image": ""
+            }
+        ],
+        "details": "A high-energy action drama centered on strength, loyalty, and confrontation. The story unfolds through intense moments and gripping action as the protagonist faces powerful forces and personal challenges.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a874baf4f1a0",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
