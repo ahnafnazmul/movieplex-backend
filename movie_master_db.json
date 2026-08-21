@@ -45867,5 +45867,56 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1291595",
+        "type": "movie",
+        "title": "Insidious: Out of the Further",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=gXjurDkYnEM",
+        "poster": "https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hD8y787ciNWQ2bn396YrSsOIzdN.jpg",
+        "rating": 6.5,
+        "release_date": "2026-08-19",
+        "runtime": "106 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Amelia Eve",
+                "image": "https://image.tmdb.org/t/p/w185/tae6mUhWxNs82IVgWlarxPKbVL8.jpg"
+            },
+            {
+                "name": "Island Austin",
+                "image": "https://image.tmdb.org/t/p/w185/663fMDrygvPYcV4L567iHVzEfXD.jpg"
+            },
+            {
+                "name": "Lin Shaye",
+                "image": "https://image.tmdb.org/t/p/w185/aL87Za52elH81zMiXQn5C7AXAeg.jpg"
+            },
+            {
+                "name": "Sam Spruell",
+                "image": "https://image.tmdb.org/t/p/w185/nTyK3HlqdlJZqjpwTVf4Xo5LkYw.jpg"
+            },
+            {
+                "name": "Brandon Perea",
+                "image": "https://image.tmdb.org/t/p/w185/hEzljVgsho0Uwd8tg7AGB5Uy3Lr.jpg"
+            }
+        ],
+        "details": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a881c292584e",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
