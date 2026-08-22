@@ -6151,7 +6151,8 @@
             "Web Series",
             "English",
             "Drama",
-            "Crime"
+            "Crime",
+            "Mystery"
         ],
         "cast": [
             {
@@ -46028,5 +46029,95 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_299158",
+        "type": "series",
+        "title": "LOVEx3",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/cTbYyfSllAHAqi4j59ap0sTf0rU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ivOu9efPUWfdG9nctdevqEhO5V9.jpg",
+        "rating": 9.0,
+        "release_date": "2026-08-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Krit Ngamtanakijja",
+                "image": "https://image.tmdb.org/t/p/w185/wf6NePOHGIKiO2iM6wJdWNJXKxL.jpg"
+            },
+            {
+                "name": "Pongphop Samranchaiyakorn",
+                "image": "https://image.tmdb.org/t/p/w185/ko2AXEW2h4CM8QzQ2ss8txrgAfa.jpg"
+            },
+            {
+                "name": "Pichitchai Limpakuptathaworn",
+                "image": "https://image.tmdb.org/t/p/w185/uY3FNSRS2oCq8QmNGimYjzmCykF.jpg"
+            },
+            {
+                "name": "Saharat Sirithumkunti",
+                "image": "https://image.tmdb.org/t/p/w185/4WKfqkLt1bPlolfyIoBjNIbAisa.jpg"
+            },
+            {
+                "name": "Deeprompt Soontornsittisopa",
+                "image": "https://image.tmdb.org/t/p/w185/5MyYBoTWeBgu4i3e1LgyndG8Opq.jpg"
+            }
+        ],
+        "details": "Six students navigate secret crushes, old promises, and unexpected heartbreaks when forced to enroll in a mandatory school curriculum about love.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/17/8a54b916de65f496a4f4b7683cce0322-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/17/8a54b916de65f496a4f4b7683cce0322-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "person_6288737",
+        "type": "movie",
+        "title": "The Red Table",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2026",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "Premium OTT content.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/19/a6c7e491710c19177f143d92c84db9da-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/19/a6c7e491710c19177f143d92c84db9da-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
