@@ -46273,5 +46273,57 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1393326",
+        "type": "movie",
+        "title": "Ghost in the Cell",
+        "release_year": 2026,
+        "original_language": "id",
+        "video_trailer": "https://www.youtube.com/watch?v=otL78_pk_A0",
+        "poster": "https://image.tmdb.org/t/p/w500/gF6Ijrq5bixh4qemCuroRwXtbBc.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
+        "rating": 7.5,
+        "release_date": "2026-04-16",
+        "runtime": "106 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Comedy",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Abimana Aryasatya",
+                "image": "https://image.tmdb.org/t/p/w185/b4ncXBTGaiPS6cof11vKeh3DuFj.jpg"
+            },
+            {
+                "name": "Bront Palarae",
+                "image": "https://image.tmdb.org/t/p/w185/wYDz4x7xbGveZ3Zj5kDoSv7irIP.jpg"
+            },
+            {
+                "name": "Dimas Danang",
+                "image": "https://image.tmdb.org/t/p/w185/tDdRwEk68lL3WMKt8iymNrdCgeH.jpg"
+            },
+            {
+                "name": "Endy Arfian",
+                "image": "https://image.tmdb.org/t/p/w185/v9yWVWqD5SeDuU8l8rb71BYmlvI.jpg"
+            },
+            {
+                "name": "Lukman Sardi",
+                "image": "https://image.tmdb.org/t/p/w185/pMZiVVu8k5MzGteRgpNVzMybxLm.jpg"
+            }
+        ],
+        "details": "In a notorious prison, an invisible force begins killing inmates brutally, compelling enemy gangs and corrupt guards to work together as they try to survive the mounting bloodshed.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8aa972cd6c8",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
