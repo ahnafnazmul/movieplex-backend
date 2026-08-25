@@ -46639,5 +46639,109 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_87513",
+        "type": "movie",
+        "title": "Motor City",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=t6RklhKu9os",
+        "poster": "https://image.tmdb.org/t/p/w500/cWAVzTWm9xdc8skHH7h1vreUtcD.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/l7asYmqOad01F2u0oCMM8nQjoEP.jpg",
+        "rating": 6.5,
+        "release_date": "2026-07-23",
+        "runtime": "103 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Alan Ritchson",
+                "image": "https://image.tmdb.org/t/p/w185/92YNEEpCyugkTzPprJwZpvVtvuK.jpg"
+            },
+            {
+                "name": "Shailene Woodley",
+                "image": "https://image.tmdb.org/t/p/w185/tqNlTcDxDFQOQi0GpEtx0lqQyWt.jpg"
+            },
+            {
+                "name": "Ben Foster",
+                "image": "https://image.tmdb.org/t/p/w185/p5FlM9OOStD9I0Nm3GGlhaiAC5r.jpg"
+            },
+            {
+                "name": "Amar Chadha-Patel",
+                "image": "https://image.tmdb.org/t/p/w185/6SZXUfn5A2IzwrWhpBDw99gC4uQ.jpg"
+            },
+            {
+                "name": "Ben McKenzie",
+                "image": "https://image.tmdb.org/t/p/w185/2jlwhOXKakL6gk365u4gPkTtHHi.jpg"
+            }
+        ],
+        "details": "In 1970s Detroit, John Miller falls for a local gangster's girl and lands in prison for a crime he didn't commit. With his life ruined, Miller plots revenge against the man who took his girl away.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8d848144fe1",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1753066",
+        "type": "movie",
+        "title": "Kudiyan Shehar Diyan",
+        "release_year": 2026,
+        "original_language": "pa",
+        "video_trailer": "https://www.youtube.com/watch?v=_4HacLV4fx8",
+        "poster": "https://image.tmdb.org/t/p/w500/V8x1fGYI2hu7ofUrmKJAzRiwvi.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-08-20",
+        "runtime": "108 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Riddhima Kapoor",
+                "image": ""
+            },
+            {
+                "name": "Parveen Bani",
+                "image": ""
+            },
+            {
+                "name": "Arsh Chobar",
+                "image": ""
+            },
+            {
+                "name": "Arsh Hundal",
+                "image": ""
+            },
+            {
+                "name": "Rahul Jaittly",
+                "image": ""
+            }
+        ],
+        "details": "Three ambitious women leave their small towns for the city, chasing successful careers while facing tough choices that threaten their relationships, values, and identities.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8d8483864ba",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
