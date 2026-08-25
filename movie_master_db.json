@@ -33628,6 +33628,18 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/33b748c1bdb448d6d5349fd3d090b1d7-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/23/66216ea7c358e23a96f9a5afd1a14073-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/23/66216ea7c358e23a96f9a5afd1a14073-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -46521,6 +46533,107 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://turbovidhls.com/t/6a8c72000826c",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1649723",
+        "type": "movie",
+        "title": "Judaa",
+        "release_year": 2026,
+        "original_language": "pa",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/1ef01DXcX7Vq4KnrdE8yOJt8vxw.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pSI3P7PYqKimpyzVcBSVVrjpoIm.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-21",
+        "runtime": "130 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Gulab Sidhu",
+                "image": ""
+            },
+            {
+                "name": "Jasmin Bhasin",
+                "image": "https://image.tmdb.org/t/p/w185/3kugH6hRAXPhUrbnkz8MEidr3iA.jpg"
+            },
+            {
+                "name": "Neha Dayal",
+                "image": ""
+            },
+            {
+                "name": "Honey Mattu",
+                "image": "https://image.tmdb.org/t/p/w185/23fDrkmasrMZTBi7unWfklwKNwQ.jpg"
+            },
+            {
+                "name": "Pawan Johal",
+                "image": ""
+            }
+        ],
+        "details": "A young man sacrifices his chance at love to preserve a cherished friendship. When loss reshapes their lives, he carries forward an unfulfilled dream of universal education, keeping alive the memory of the woman who inspired it.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8c9c13db9cc",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_397365",
+        "type": "movie",
+        "title": "Madaari",
+        "release_year": 2016,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=j4s3JmLGLCA",
+        "poster": "https://image.tmdb.org/t/p/w500/rrZhF166gPDzdArYMSh3mPvFjYp.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1jsfeI6vEAp4QGFmSoWbcSQbhbG.jpg",
+        "rating": 7.4,
+        "release_date": "2016-06-10",
+        "runtime": "134 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Irrfan Khan",
+                "image": "https://image.tmdb.org/t/p/w185/qkA9PpWJRw3rNjVkWfNZdwLvRZx.jpg"
+            },
+            {
+                "name": "Jimmy Shergill",
+                "image": "https://image.tmdb.org/t/p/w185/A3fJrhIgM7Q5TGwbQYxYBjNsV37.jpg"
+            },
+            {
+                "name": "Tushar Dalvi",
+                "image": ""
+            },
+            {
+                "name": "Vishesh Bansal",
+                "image": "https://image.tmdb.org/t/p/w185/o7kCGQPIGHxErvetmP8kRnVh0uI.jpg"
+            },
+            {
+                "name": "Kedar Bagaria",
+                "image": ""
+            }
+        ],
+        "details": "A common man kidnaps the son of the Home Minister of India to get answers about the loss of his own son, caused by the illegal acts committed by corrupt government officials.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8c99cde378a",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
             }
