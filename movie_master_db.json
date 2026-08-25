@@ -42614,6 +42614,36 @@
                 "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=e1dea662c51d6dbdf628dfad21d361bf&t=1786510156",
                 "source_site": "themoviebox",
                 "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=c1d5f8658760aa2fdf1e7bb0ff76d6f6&t=1787682678",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=915e405a3c962926b940f083821aabe4&t=1787681964",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=458e1354d317a705fe88763103caab97&t=1787681069",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=aa8eeb1f01d87adba18fbb3085f4dfc1&t=1787683367",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/shortTv/634fb59b1a8a8f8812ee59129491a4da.mp4?sign=9ff91bfc007a0eec3cb94b6f8b22332b&t=1787681557",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -46738,6 +46768,148 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://turbovidhls.com/t/6a8d8483864ba",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_24613",
+        "type": "movie",
+        "title": "Kurbaan",
+        "release_year": 2009,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=vLvGiB2r_po",
+        "poster": "https://image.tmdb.org/t/p/w500/eLG5R5pgVpTMFQbVeGhcUu1xSH1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lj75MIYF4fnnONdkLphFrwZ67DM.jpg",
+        "rating": 5.0,
+        "release_date": "2009-11-20",
+        "runtime": "161 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Drama",
+            "Romance",
+            "Thriller",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Saif Ali Khan",
+                "image": "https://image.tmdb.org/t/p/w185/85uKiFDEcIqzLh0GwqYvecXw4uA.jpg"
+            },
+            {
+                "name": "Kareena Kapoor Khan",
+                "image": "https://image.tmdb.org/t/p/w185/kp9xnwDALUt6nuPBGuJHlvnxGnM.jpg"
+            },
+            {
+                "name": "Vivek Oberoi",
+                "image": "https://image.tmdb.org/t/p/w185/60T3Q8CsxF4kF6RIHZ1yis2Q0wA.jpg"
+            },
+            {
+                "name": "Dia Mirza",
+                "image": "https://image.tmdb.org/t/p/w185/oJSZlMkIGC1Yr8QxdBLliUjPRSd.jpg"
+            },
+            {
+                "name": "Om Puri",
+                "image": "https://image.tmdb.org/t/p/w185/3xENmjr7CA8ACRViHnjOI5jPQUt.jpg"
+            }
+        ],
+        "details": "When a handsome young Indian couple (Saif Ali Khan and Kareena Kapoor) moves into the suburbs to claim their stake in the American dream, they are shocked to discover that they've become enmeshed in a secretive terrorist plot. But as tensions escalate, the bride begins to wonder if her husband has told her everything he knows.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8ddebe28a24",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1630993",
+        "type": "movie",
+        "title": "Fashion Designa",
+        "release_year": 2025,
+        "original_language": "fr",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/tOeGCCm8UZ4kJCbBXljpAh2Lucg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iIqoVUaoTu3iWQYlX4j4Q5QUAso.jpg",
+        "rating": 10.0,
+        "release_date": "2025-09-03",
+        "runtime": "4 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Music"
+        ],
+        "cast": [
+            {
+                "name": "Theodora",
+                "image": "https://image.tmdb.org/t/p/w185/p3UojPyS1yAmtAC0YzLEN4cAoOo.jpg"
+            },
+            {
+                "name": "M.O.G",
+                "image": "https://image.tmdb.org/t/p/w185/efxQ3ADEnwWoYgMqoMEnBDodqTJ.jpg"
+            },
+            {
+                "name": "Elya Lufwa",
+                "image": "https://image.tmdb.org/t/p/w185/zCNfFqQphdtlP1ViSBr3CdHO4DJ.jpg"
+            },
+            {
+                "name": "Chloé Jean-Baptiste",
+                "image": "https://image.tmdb.org/t/p/w185/r81bAg6E2nHBKOslH4LJp0Vafcc.jpg"
+            },
+            {
+                "name": "Jodie Epalle",
+                "image": "https://image.tmdb.org/t/p/w185/bqOhPs45F8e02r43zyrwNAUo79U.jpg"
+            }
+        ],
+        "details": "A getaway from Amsterdam turns into a cosmic trip when Boss Lady and her dobermann break the rules of art and redesign the laws of physics.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8ddc1b78e9d",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_397441",
+        "type": "movie",
+        "title": "Miss Teacher",
+        "release_year": 2016,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/zSe4z9nQau63tCRVNvh77qD0YqL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1quo34QYqT8CxIH62PzVyK6ufos.jpg",
+        "rating": 3.0,
+        "release_date": "2016-03-18",
+        "runtime": "133 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Kamalika Chanda",
+                "image": "https://image.tmdb.org/t/p/w185/5pyVirtsb2Z5xLYFwNptOx0qBSb.jpg"
+            },
+            {
+                "name": "Mushtaq Khan",
+                "image": "https://image.tmdb.org/t/p/w185/xj2fPOfGRiQCFp7V9MUAlshNGZH.jpg"
+            }
+        ],
+        "details": "Rose Dey is the new teacher at the university. She is very attractive and is a nymphomaniac. At the university, Rose meets Tanvesh and an affair begins.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8dda8c42c78",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
             }
