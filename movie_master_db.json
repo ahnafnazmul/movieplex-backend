@@ -46915,5 +46915,55 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1732324",
+        "type": "movie",
+        "title": "Mister Middle Class",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=4NrHIWfX3n8",
+        "poster": "https://image.tmdb.org/t/p/w500/jawa4LKD9PnBgCpVANUhB3SL94I.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iInWVhzCKcGDLwcnhtvbtm9NOps.jpg",
+        "rating": 5.0,
+        "release_date": "2026-07-17",
+        "runtime": "120 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Srikanth",
+                "image": "https://image.tmdb.org/t/p/w185/o10UQ9zvh9cOAUENybde25yrueV.jpg"
+            },
+            {
+                "name": "Laya",
+                "image": "https://image.tmdb.org/t/p/w185/uRj5rqDmmKHtNQLneMzEpaX2dcD.jpg"
+            },
+            {
+                "name": "Rajendra Prasad",
+                "image": "https://image.tmdb.org/t/p/w185/zh6QJ85g5KbpkjL5fgqlOGddn5C.jpg"
+            },
+            {
+                "name": "Vennela Kishore",
+                "image": "https://image.tmdb.org/t/p/w185/8a0mcxMPjD4KR15gyE5QmbDeTub.jpg"
+            },
+            {
+                "name": "Ali",
+                "image": "https://image.tmdb.org/t/p/w185/1z0YbDqP81BD6VxeghJG7vo9Mny.jpg"
+            }
+        ],
+        "details": "A middle-class man's carefully balanced life is turned upside down by unexpected challenges that test his dreams, relationships, and resilience. As he faces one setback after another, he discovers the true meaning of family, perseverance, and self-worth.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8de6d768285",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
