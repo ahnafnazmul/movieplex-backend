@@ -46965,5 +46965,56 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1036081",
+        "type": "movie",
+        "title": "Khalifa: The Ruler",
+        "release_year": 2026,
+        "original_language": "ml",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/cAl7uuRojdxysptYBj9Mg0czGmI.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6Jz7rnnZrSkgs9ySWUxewpcxr7Q.jpg",
+        "rating": 7.0,
+        "release_date": "2026-08-20",
+        "runtime": "157 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Prithviraj Sukumaran",
+                "image": "https://image.tmdb.org/t/p/w185/1xhG42QU8tMQRTDdP1Ed3y9GRvm.jpg"
+            },
+            {
+                "name": "Mohanlal",
+                "image": "https://image.tmdb.org/t/p/w185/wvoBULQimwguAGPOHZ8TDoy7jBJ.jpg"
+            },
+            {
+                "name": "Neil Nitin Mukesh",
+                "image": "https://image.tmdb.org/t/p/w185/7lfd8WfMc2hOXYpCRFwhjiVZ7fl.jpg"
+            },
+            {
+                "name": "Indrans",
+                "image": "https://image.tmdb.org/t/p/w185/vs5Acy2hJ4dWoM3xRGdnFKdVXzw.jpg"
+            },
+            {
+                "name": "Shammi Thilakan",
+                "image": "https://image.tmdb.org/t/p/w185/7lDFgyfGXbQEFFrbnVA24XaYGW.jpg"
+            }
+        ],
+        "details": "Aamir Ali, a notorious gold smuggling kingpin who inherited his multi-million dollar criminal enterprise from a lineage of gangsters, is drawn into a web of vengeance, legacy and power.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a8ed525013fa",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
