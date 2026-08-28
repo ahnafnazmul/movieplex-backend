@@ -47125,5 +47125,228 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_304842",
+        "type": "series",
+        "title": "The Drop: A Snowfall Saga",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/7LElTi7Ys1JMDrxRgWpol1g47Vw.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Gail Bean",
+                "image": "https://image.tmdb.org/t/p/w185/8Ez5A8hoDwTLiWXZ7xSNlJAvCu7.jpg"
+            },
+            {
+                "name": "Isaiah John",
+                "image": "https://image.tmdb.org/t/p/w185/mKCuf0BZFsBUYnSTPTHaUtxmKa0.jpg"
+            },
+            {
+                "name": "Asante Blackk",
+                "image": "https://image.tmdb.org/t/p/w185/mB0FG4VH5HXvjFuZ3W8aJO1bfVu.jpg"
+            },
+            {
+                "name": "Peyton Alex Smith",
+                "image": "https://image.tmdb.org/t/p/w185/AkP5ljWX0zMVG2OUXu4Wk4KDyou.jpg"
+            },
+            {
+                "name": "Simmie Sims III",
+                "image": ""
+            }
+        ],
+        "details": "In 1990s Los Angeles, Wanda and Leon fight to take West Coast rap mainstream while gang wars erupt and record labels move to exploit hip hop culture for their own gain.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/e6ef9b773f46a87466007c364cb64edc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/e6ef9b773f46a87466007c364cb64edc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1712326",
+        "type": "movie",
+        "title": "Land of Wolves",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=597SnN9kOYg",
+        "poster": "https://image.tmdb.org/t/p/w500/znWUESPFa1QlvHii4Zc6d0pUxmH.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/FGjyKdJbrrqABr8x4ZwQLGrmbs.jpg",
+        "rating": 9.0,
+        "release_date": "2026-06-19",
+        "runtime": "100 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "War"
+        ],
+        "cast": [
+            {
+                "name": "James William Clark",
+                "image": ""
+            },
+            {
+                "name": "Matthew Gray",
+                "image": ""
+            },
+            {
+                "name": "Justin Mobley",
+                "image": ""
+            },
+            {
+                "name": "Joe Edward Metcalfe",
+                "image": ""
+            }
+        ],
+        "details": "When a covert rescue mission goes wrong, four former Navy SEALs are captured and thrown into an underground death match. Watched by depraved billionaires, they are forced to fight in a brutal tournament. With no weapons and no way out, the team must rely on their training and unbreakable bond to survive the bloody arena, dismantle the entire operation and reclaim their freedom.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/25/fde5573c4c488dc4d885a11da6181bff-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/25/fde5573c4c488dc4d885a11da6181bff-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_298629",
+        "type": "series",
+        "title": "Halef",
+        "release_year": 2025,
+        "original_language": "tr",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/sFtohbg5nxATLmToPaHdh7qL4d3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kdu0RiwbAGDjwBNoXAb99H1LKgb.jpg",
+        "rating": 7.0,
+        "release_date": "2025-09-18",
+        "runtime": "130 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "İlhan Şen",
+                "image": "https://image.tmdb.org/t/p/w185/hfXuzYYr0QfHsGrI6eu2wrE63jM.jpg"
+            },
+            {
+                "name": "Biran Damla Yılmaz",
+                "image": "https://image.tmdb.org/t/p/w185/uvKPSh4R0p1W0cquABBp41WlsW1.jpg"
+            },
+            {
+                "name": "Onur Bilge",
+                "image": "https://image.tmdb.org/t/p/w185/yuauvO762XJ6pKPc4xJhSEZkyxe.jpg"
+            },
+            {
+                "name": "Veda Yurtsever",
+                "image": "https://image.tmdb.org/t/p/w185/sL6mehnVbf4FX3vwvZa1gvfTljO.jpg"
+            },
+            {
+                "name": "Mazlum Çimen",
+                "image": "https://image.tmdb.org/t/p/w185/sxhLTj0UdZNoTXaNTZrR868EZjq.jpg"
+            }
+        ],
+        "details": "A successful Istanbul surgeon who escaped his traditional Urfa roots is forced to return home when his family demands he assume leadership as agha and marry Yildiz to end a decades-long feud. Already secretly married to Melek, he becomes trapped between two women, two worlds, and a web of family obligations. As buried secrets surface, love, duty, and revenge collide inside a deeply divided and tradition-bound family.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/10/e94397b18d568f9757d39df080e8aca9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/01/10/e94397b18d568f9757d39df080e8aca9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_273207",
+        "type": "series",
+        "title": "Neagley",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=BOzNaa_o9_g",
+        "poster": "https://image.tmdb.org/t/p/w500/1m6CxPAuGv2oHc1ahERrcVWnk2J.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/20ivBYm3H9MbGtRISGdhjydll9L.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Maria Sten",
+                "image": "https://image.tmdb.org/t/p/w185/7QlPWbZRH2ORMmAHKAj0rq54t4A.jpg"
+            },
+            {
+                "name": "Greyston Holt",
+                "image": "https://image.tmdb.org/t/p/w185/OefIUfHekZLHwGVjyZmFauUI5W.jpg"
+            },
+            {
+                "name": "Adeline Rudolph",
+                "image": "https://image.tmdb.org/t/p/w185/sWjjm53MeVrpQH2dxtFD3gfEt3v.jpg"
+            },
+            {
+                "name": "Matthew Del Negro",
+                "image": "https://image.tmdb.org/t/p/w185/h3wcgMRunRmeFhFo16BJpKsqQQC.jpg"
+            },
+            {
+                "name": "Damon Herriman",
+                "image": "https://image.tmdb.org/t/p/w185/hzh9i0BlAEQDAhJxEgkEcBxMlJv.jpg"
+            }
+        ],
+        "details": "Frances Neagley is a private investigator in Chicago. When she learns that a beloved friend from her past has been killed in a suspicious accident, she becomes hell bent on justice. Using everything she's learned from Jack Reacher and her time as a member of the 110 Special Investigators, Neagley puts herself on a dangerous path to uncover a menacing evil.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/a7569c753bd108c1969d5357f17ba574-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/a7569c753bd108c1969d5357f17ba574-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
