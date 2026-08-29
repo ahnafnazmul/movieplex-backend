@@ -47516,5 +47516,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1752138",
+        "type": "movie",
+        "title": "Where is Mr Right",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/nUVHAz3jfWOVqUWRy9QY8gR8I0S.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iz7Wdz1shO4bZcJxYJ3V7LilVlc.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-01",
+        "runtime": "111 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Funke Akindele",
+                "image": "https://image.tmdb.org/t/p/w185/cjV3OUS14Mkbg6GILTZBSO2ovtD.jpg"
+            },
+            {
+                "name": "Bisola Aiyeola",
+                "image": "https://image.tmdb.org/t/p/w185/zPkZOKFY3TW4e6mb2hyN6tnyoPH.jpg"
+            },
+            {
+                "name": "Blossom Chukwujekwu",
+                "image": "https://image.tmdb.org/t/p/w185/w2AvFP8B6px9ILhzxVadxuLeb85.jpg"
+            },
+            {
+                "name": "Nosa Rex",
+                "image": "https://image.tmdb.org/t/p/w185/vc5lHfdBvRYMqdQFWKt8NPRHmgH.jpg"
+            },
+            {
+                "name": "Omowunmi Dada",
+                "image": "https://image.tmdb.org/t/p/w185/kJt41l0rXIWa8z04B3Ib4xRehsr.jpg"
+            }
+        ],
+        "details": "Successful event planner Bunmi longs for love and a family. Drawn into the seemingly perfect marriage of her neighbors, Bridget and Femi.When Bridget introduces her to her charming brother, Dexy, and draws her into a dark secret involving her husband, Bunmi is forced to confront the dangerous illusion of \"perfect love,\" as she is caught in a web of deception where love, illusion and danger collide",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/15/6cee85f3ce206c1a71ac6731ccea6bfd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/15/6cee85f3ce206c1a71ac6731ccea6bfd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
