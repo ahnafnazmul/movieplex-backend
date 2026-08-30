@@ -47697,5 +47697,189 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_198663",
+        "type": "movie",
+        "title": "The Maze Runner",
+        "release_year": 2014,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=3b946aGm0zs",
+        "poster": "https://image.tmdb.org/t/p/w500/ode14q7WtDugFDp78fo9lCsmay9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eTlcNXGv32zkVI7ZDHhfeaKHXKQ.jpg",
+        "rating": 7.2,
+        "release_date": "2014-09-10",
+        "runtime": "113 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Mystery",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Dylan O'Brien",
+                "image": "https://image.tmdb.org/t/p/w185/xN3GdvIlqsR838gDoblhPH0numP.jpg"
+            },
+            {
+                "name": "Kaya Scodelario",
+                "image": "https://image.tmdb.org/t/p/w185/uVp7VarM5GX08hfCEGt63OM5c5c.jpg"
+            },
+            {
+                "name": "Thomas Brodie-Sangster",
+                "image": "https://image.tmdb.org/t/p/w185/tapXeOg3wnezcjm2ENox0lL2b25.jpg"
+            },
+            {
+                "name": "Ki Hong Lee",
+                "image": "https://image.tmdb.org/t/p/w185/Ws4cNaHHX4tNddh7mw4zIBZyPb.jpg"
+            },
+            {
+                "name": "Will Poulter",
+                "image": "https://image.tmdb.org/t/p/w185/9blYMaj79VGC6BHTLmJp3V5S8r3.jpg"
+            }
+        ],
+        "details": "A teenager with no memory of his past finds himself among a group of boys living in a walled enclosure surrounded by a massive, ever-changing maze. As he struggles to adapt to their rules and society, he begins to uncover clues that may lead to escape and the truth behind their confinement.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/ccf3c06c388d6baaff36ed1990c0564b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/ccf3c06c388d6baaff36ed1990c0564b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_221340",
+        "type": "series",
+        "title": "Second Chances",
+        "release_year": 2015,
+        "original_language": "tl",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/A3CqKXPgQduNRcZ0OX99WElfGRi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tNeQNhBpmkEg7zkcbccMWtYXKwB.jpg",
+        "rating": 8.0,
+        "release_date": "2015-01-12",
+        "runtime": "30 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Rafael Rosell",
+                "image": "https://image.tmdb.org/t/p/w185/12X8Hk42VXLkE7v3k4jvHp1WkDG.jpg"
+            },
+            {
+                "name": "Jennylyn Mercado",
+                "image": "https://image.tmdb.org/t/p/w185/kvqg2wagYLNf2et3075rX1oevHo.jpg"
+            },
+            {
+                "name": "Camille Prats",
+                "image": "https://image.tmdb.org/t/p/w185/2YhybZfIyzZ9eHQ4IVbZIIUBHtY.jpg"
+            },
+            {
+                "name": "Raymart Santiago",
+                "image": "https://image.tmdb.org/t/p/w185/9QaN0Tb2E4fUemu0rMDBsVJwhqB.jpg"
+            },
+            {
+                "name": "Chynna Ortaleza",
+                "image": "https://image.tmdb.org/t/p/w185/uWyoxDBCvmdznK4rKybbPgwZ43H.jpg"
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/15/994bd388ee41a36af4b9d5aa2a4c7439-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/15/994bd388ee41a36af4b9d5aa2a4c7439-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=4L1xY-tSOCw_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=4L1xY-tSOCw_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_115",
+        "type": "series",
+        "title": "A Different World",
+        "release_year": 1987,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/v7fuifcJjcqQxAsOjPviupcmFIZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ebTL1Lyvr0LVBrMlhgQp6lqijC6.jpg",
+        "rating": 7.1,
+        "release_date": "1987-09-24",
+        "runtime": "22 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Jasmine Guy",
+                "image": "https://image.tmdb.org/t/p/w185/dSuTS6DE7d8VEpHEoEFcNjNXtsW.jpg"
+            },
+            {
+                "name": "Kadeem Hardison",
+                "image": "https://image.tmdb.org/t/p/w185/swexf3AEacs9Ep2oDcaUyE5XBdj.jpg"
+            },
+            {
+                "name": "Darryl M. Bell",
+                "image": "https://image.tmdb.org/t/p/w185/XwJmdye7UTj256CHUXsJebHsrS.jpg"
+            },
+            {
+                "name": "Cree Summer",
+                "image": "https://image.tmdb.org/t/p/w185/7DRq0zPUUWu55pUbnc2roVnzOJ9.jpg"
+            },
+            {
+                "name": "Charnele Brown",
+                "image": "https://image.tmdb.org/t/p/w185/vSwrBDemCD6Xn0DCgbKRP1zPrPp.jpg"
+            }
+        ],
+        "details": "A Different World is a spin-off series from The Cosby Show and originally centered on Denise Huxtable and the life of students at Hillman College, a fictional mixed but historically black college in the state of Virginia. After Bonet's departure in the first season, the remainder of the series primarily focused more on Southern belle Whitley Gilbert and mathematics whiz Dwayne Wayne. The series frequently depicted members of the major historically black fraternities and sororities.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/5040e7ead840718eaa95baac24264c5e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/5040e7ead840718eaa95baac24264c5e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
