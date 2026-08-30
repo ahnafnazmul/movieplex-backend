@@ -47881,5 +47881,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_291084",
+        "type": "series",
+        "title": "Best Medicine",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=8zxy5q5L2NI",
+        "poster": "https://image.tmdb.org/t/p/w500/gRf2g2iR8j2uMlClrNTaiHbrZ6c.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
+        "rating": 7.2,
+        "release_date": "2026-01-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Josh Charles",
+                "image": "https://image.tmdb.org/t/p/w185/xmFdIoFKVRNUmXaslBlErA3UHfF.jpg"
+            },
+            {
+                "name": "Abigail Spencer",
+                "image": "https://image.tmdb.org/t/p/w185/uf96FDHVoFMwoiP5He4SPLCmwri.jpg"
+            },
+            {
+                "name": "Josh Segarra",
+                "image": "https://image.tmdb.org/t/p/w185/vXhukEBgpI8jmCUCSGcpJCNzXHV.jpg"
+            },
+            {
+                "name": "Cree Cicchino",
+                "image": "https://image.tmdb.org/t/p/w185/2qq7GobF9nS1mAARJj1Dyq0GPFL.jpg"
+            },
+            {
+                "name": "Annie Potts",
+                "image": "https://image.tmdb.org/t/p/w185/nugPVN28qOhOIoHawrDJ6fIfrxR.jpg"
+            }
+        ],
+        "details": "Martin Best is a brilliant surgeon who abruptly leaves his illustrious career in Boston to become the general practitioner in a quaint East Coast fishing village where he spent summers as a child. Unfortunately, Martin's blunt and borderline rude bedside manner rubs the quirky, needy locals the wrong way, and he quickly alienates the town, even though he's all they’ve got.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/24/899d6e57b3866a63da435c02ef00a4fe-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/24/899d6e57b3866a63da435c02ef00a4fe-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
