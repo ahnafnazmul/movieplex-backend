@@ -47940,5 +47940,58 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1215812",
+        "type": "movie",
+        "title": "Karavali",
+        "release_year": 2026,
+        "original_language": "kn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/buxVz5LZQY1QLfFIIZnfe6t2F4I.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tKBoVyOMrL0xp6NtBZEHcxthLfZ.jpg",
+        "rating": 9.0,
+        "release_date": "2026-07-24",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama",
+            "Adventure",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Prajwal Devaraj",
+                "image": "https://image.tmdb.org/t/p/w185/8zmHfxisRn5kkQOPR09z1cm5YmX.jpg"
+            },
+            {
+                "name": "Raj B Shetty",
+                "image": "https://image.tmdb.org/t/p/w185/vlNvrGhaYzmRxhkd4GOKFNfSkHY.jpg"
+            },
+            {
+                "name": "Sampada Hulivana",
+                "image": ""
+            },
+            {
+                "name": "Ramesh Indira",
+                "image": ""
+            },
+            {
+                "name": "Mithra",
+                "image": ""
+            }
+        ],
+        "details": "Karavali is a film that explores the struggles between man and nature, set against the raw, untamed beauty of coastal Karnataka. The story revolves around the world of Kambala, a traditional annual buffalo race, showcasing the unique culture and challenges of the region.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a95762f1d065",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
