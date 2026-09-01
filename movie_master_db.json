@@ -44615,6 +44615,24 @@
                 "player_url": "https://bcdn.hakunaymatata.com/dramabox/013351bf81df5c4ff0566619d1c5fccb.mp4?sign=d24f666dfaaaa3fa3398cf08f127fbe0&t=1787230484",
                 "source_site": "themoviebox",
                 "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/96ece919a50b186172f94729ac27cb60.mp4?sign=dc3d880cdfbe1a0816dacd9eeef77df4&t=1788271132",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/e807e926c0c6c199b33b7ee80e80afa9.mp4?sign=8f0b738e770863d576ff3c90e8c496b0&t=1788271132",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/dramabox/013351bf81df5c4ff0566619d1c5fccb.mp4?sign=5e9cc2fb8779556eee402d88710ef1d0&t=1788271132",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -48223,5 +48241,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1032863",
+        "type": "movie",
+        "title": "The Love Hypothesis",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=xwdamnfS6IM",
+        "poster": "https://image.tmdb.org/t/p/w500/zUaTMxLOuW4wdaFYhRVJbO6W8Sy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/p1Xk8xNHHP1HJx2yGZuREp8Etab.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-23",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Lili Reinhart",
+                "image": "https://image.tmdb.org/t/p/w185/sJcuQAJdIv3mnh9M9p5sQWhWSRN.jpg"
+            },
+            {
+                "name": "Tom Bateman",
+                "image": "https://image.tmdb.org/t/p/w185/tUZ9iJ1Wf60fR0mo8UUwhgz8JrZ.jpg"
+            },
+            {
+                "name": "Rachel Marsh",
+                "image": "https://image.tmdb.org/t/p/w185/6R0pDuQuSf4CEtZHCRnZkqc2EAN.jpg"
+            },
+            {
+                "name": "Nicholas Duvernay",
+                "image": "https://image.tmdb.org/t/p/w185/kJQt4ZiGVbfVrVJQgrPLRYh8vqQ.jpg"
+            },
+            {
+                "name": "Jaboukie Young-White",
+                "image": "https://image.tmdb.org/t/p/w185/8OYI8OqsMUpBZica4lM2odjgVH6.jpg"
+            }
+        ],
+        "details": "Olive Smith, a biology PhD candidate, and Dr. Adam Carlsen, a hotshot professor and well-known tyrant, enter into a fake relationship, seeing each of their carefully calculated theories on love get thrown into chaos.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/2dc26be835cf2bac467562a98056b759-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/2dc26be835cf2bac467562a98056b759-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
