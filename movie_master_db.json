@@ -47993,5 +47993,235 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_323447",
+        "type": "series",
+        "title": "NOUR",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/q4Edk1Hg0cOqS8hxJizucnXwgmQ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sTKBfFYHy1BTT869U6YyhfFxWU5.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-25",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Patthakarn Thanasiriudom",
+                "image": "https://image.tmdb.org/t/p/w185/sJArYMPDL0KfibI3KDfA7KmHG91.jpg"
+            },
+            {
+                "name": "Kitsakorn Kanogtorn",
+                "image": "https://image.tmdb.org/t/p/w185/162N0LbToAx4P1YWdiArFgxGxTg.jpg"
+            },
+            {
+                "name": "Pongsakorn Mettarikanon",
+                "image": "https://image.tmdb.org/t/p/w185/u8NV6FOVRH2Z0XFswpYuX9ZDuXr.jpg"
+            },
+            {
+                "name": "Chawonwat Thongyoo",
+                "image": "https://image.tmdb.org/t/p/w185/mk9xjm7x8NcbxW2E3k6z1ofGOKc.jpg"
+            },
+            {
+                "name": "Peeranat Veeranipitkul",
+                "image": "https://image.tmdb.org/t/p/w185/r0PRBKmMPrWxYc2GJyd1xtJGdHk.jpg"
+            }
+        ],
+        "details": "When bizarre fires expose a multi-generational curse, two police officers uncover buried secrets while love and corruption threaten to consume them.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/27/d31fdcbc4dfe4ac0856fb29bedab4568-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/27/d31fdcbc4dfe4ac0856fb29bedab4568-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_61635",
+        "type": "series",
+        "title": "Remember Me",
+        "release_year": 2014,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=tUOWxURuLUc",
+        "poster": "https://image.tmdb.org/t/p/w500/2YH1gywyt5mGOcM6ar7cgOqKRH2.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/k3v8dyyvnA7aikOdM0jr5rb2toD.jpg",
+        "rating": 6.8,
+        "release_date": "2014-11-23",
+        "runtime": "60 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Michael Palin",
+                "image": "https://image.tmdb.org/t/p/w185/gWz8S2FEUEm1f3LQrN8cSUjnfhu.jpg"
+            },
+            {
+                "name": "Jodie Comer",
+                "image": "https://image.tmdb.org/t/p/w185/AfsBpnfw0E2h8NZK4zkFcOjYlEb.jpg"
+            },
+            {
+                "name": "Mark Addy",
+                "image": "https://image.tmdb.org/t/p/w185/4ao6jitEAxmQDlJheEOKT8lhJI8.jpg"
+            },
+            {
+                "name": "Mina Anwar",
+                "image": "https://image.tmdb.org/t/p/w185/tzADetutPblOzNekn7xWsoNPQhr.jpg"
+            },
+            {
+                "name": "Mayuri Boonham",
+                "image": "https://image.tmdb.org/t/p/w185/rCmjmbjWjjbfgMh1OO7WRhfEmsA.jpg"
+            }
+        ],
+        "details": "Tom Parfitt fakes an injury in order to escape from his monotonous lifestyle and head to a care center. However, upon his arrival, the staff experiences several strange instances, including a murder.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/01/454025fe6f4c56291242f36391efcdbc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/01/454025fe6f4c56291242f36391efcdbc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=aLIWk9gY8lU_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=aLIWk9gY8lU_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1451078",
+        "type": "movie",
+        "title": "Raakaasa",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=TJ5dpuZ1cAk",
+        "poster": "https://image.tmdb.org/t/p/w500/x7zwiuC1HTw5XGZ5JrOwF9uFqRy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hxCJcyDnR964ja5mzExvb8UlHLG.jpg",
+        "rating": 6.2,
+        "release_date": "2026-04-03",
+        "runtime": "130 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Sangeeth Shobhan",
+                "image": "https://image.tmdb.org/t/p/w185/7Vox31bH7XmgPNJzMKGa4uGyjW8.jpg"
+            },
+            {
+                "name": "Nayan Sarika",
+                "image": "https://image.tmdb.org/t/p/w185/zqRsOp8N2XZMDYzNa6lLapWpJzU.jpg"
+            },
+            {
+                "name": "Raadhya",
+                "image": ""
+            },
+            {
+                "name": "Vennela Kishore",
+                "image": "https://image.tmdb.org/t/p/w185/8a0mcxMPjD4KR15gyE5QmbDeTub.jpg"
+            },
+            {
+                "name": "Getup Srinu",
+                "image": "https://image.tmdb.org/t/p/w185/xb2lJ213oU3DS6kMkDuqlf7EFeG.jpg"
+            }
+        ],
+        "details": "Returning home after a decade, an NRI chasing romance inadvertently awakens an ancient darkness long feared by his village. As the threat intensifies, love turns deadly and life hangs in the balance.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a95ee7142921",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1531823",
+        "type": "movie",
+        "title": "Angam Attahasam",
+        "release_year": 2026,
+        "original_language": "ml",
+        "video_trailer": "https://www.youtube.com/watch?v=T9BHzMcAS_Q",
+        "poster": "https://image.tmdb.org/t/p/w500/tloV12eg6pSgA3wrWx6q6dvdY8O.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fC5mSVCH15GTKxreFck37x2FKcO.jpg",
+        "rating": 0.0,
+        "release_date": "2026-05-08",
+        "runtime": "126 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Madhav Suresh",
+                "image": "https://image.tmdb.org/t/p/w185/pnSRt4cZUj5kFVFVYcBrv9PdMOS.jpg"
+            },
+            {
+                "name": "Shine Tom Chacko",
+                "image": "https://image.tmdb.org/t/p/w185/lIfhgkTK8bgM5jS2R91ZvCxKIwj.jpg"
+            },
+            {
+                "name": "Saiju Kurup",
+                "image": "https://image.tmdb.org/t/p/w185/4NMeGiBEBjkmBcX5PStRHFOcrOu.jpg"
+            },
+            {
+                "name": "Maqbool Salmaan",
+                "image": "https://image.tmdb.org/t/p/w185/xSdNoPY9kAMPF0b52DtoPY3CIsD.jpg"
+            },
+            {
+                "name": "Nishad M A",
+                "image": "https://image.tmdb.org/t/p/w185/7GZSxITtjfe3L9stG4C8A2L3B2b.jpg"
+            }
+        ],
+        "details": "Caught in the city's violent underworld, 24-year-old Ajay Chandran struggles between loyalty to his past and the will to survive. As enemies close in and allies betray, he fights to save his soul from the darkness consuming him.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a95ec180209e",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
