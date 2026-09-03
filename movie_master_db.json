@@ -48718,5 +48718,61 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1386315",
+        "type": "movie",
+        "title": "The Runner",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=zz4rsZLcauY",
+        "poster": "https://image.tmdb.org/t/p/w500/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ziXF8wIBguHNCeplNthUlDTCZP8.jpg",
+        "rating": 6.1,
+        "release_date": "2026-09-03",
+        "runtime": "86 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Gal Gadot",
+                "image": "https://image.tmdb.org/t/p/w185/qCJB1ACi5VjtY4ypXuv3hjAvbSu.jpg"
+            },
+            {
+                "name": "Damian Lewis",
+                "image": "https://image.tmdb.org/t/p/w185/puOXtVatFnAxoOmsFO8z7KTfyJW.jpg"
+            },
+            {
+                "name": "Rory Wilmot",
+                "image": "https://image.tmdb.org/t/p/w185/qi56VP9tSU0F0VJ59Aq0yU4nIR9.jpg"
+            },
+            {
+                "name": "Alfred Enoch",
+                "image": "https://image.tmdb.org/t/p/w185/eEVvPHmxRBcEGqtoTujncmwNDhR.jpg"
+            },
+            {
+                "name": "Phoenix Di Sebastiani",
+                "image": "https://image.tmdb.org/t/p/w185/mBkkZ5irQZPsxdcCIPLCvNv5iT8.jpg"
+            }
+        ],
+        "details": "Maia Marten, a brilliant London lawyer, has her life shattered by a single call on her morning run: her son has been taken. To get him back, she must keep running, obey every ruthless command, and trust no one-each second a test of how far a mother will go to save her child.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/ccf3c06c388d6baaff36ed1990c0564b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/ccf3c06c388d6baaff36ed1990c0564b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
