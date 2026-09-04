@@ -49027,5 +49027,218 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_855348",
+        "type": "movie",
+        "title": "The Man of My Dreams",
+        "release_year": 2021,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/lqGSzjdYB6NKPALeGr9Rhuyrwhe.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/e5I1GTkrktIJvLt4euvRqxT5iCx.jpg",
+        "rating": 1.0,
+        "release_date": "2021-08-13",
+        "runtime": "4 min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [
+            {
+                "name": "Henry Bae",
+                "image": ""
+            },
+            {
+                "name": "DJ Reed",
+                "image": ""
+            }
+        ],
+        "details": "Two gorgeous magnetic male lovers traipse around the streets of NYC enmeshed in a dreamy romance.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/02/e3afd42be17eebfc26f63770ba7d54f8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/02/e3afd42be17eebfc26f63770ba7d54f8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=zGqiEDVR0A4_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=zGqiEDVR0A4_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_253941",
+        "type": "series",
+        "title": "The Paper",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=c5v4LJJkvUU",
+        "poster": "https://image.tmdb.org/t/p/w500/ySA5MvhoxTdezNUMe0ifPmhxH4w.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qtMVO0McAXN4IV30SMFAVmXraBL.jpg",
+        "rating": 7.1,
+        "release_date": "2025-09-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Domhnall Gleeson",
+                "image": "https://image.tmdb.org/t/p/w185/a63BgOBKzJ9XPaLFyu7u5Ge3REG.jpg"
+            },
+            {
+                "name": "Sabrina Impacciatore",
+                "image": "https://image.tmdb.org/t/p/w185/6g88MTxghHRPuhwxgnxsttTmFEC.jpg"
+            },
+            {
+                "name": "Chelsea Frei",
+                "image": "https://image.tmdb.org/t/p/w185/pjZlTBba5osblt12xWoMj3YzNrv.jpg"
+            },
+            {
+                "name": "Melvin Gregg",
+                "image": "https://image.tmdb.org/t/p/w185/tIeYOezPPBpUmVuzYO7idcWPuUz.jpg"
+            },
+            {
+                "name": "Gbemisola Ikumelo",
+                "image": "https://image.tmdb.org/t/p/w185/lGaXahYGkiYZT2Olm5HU2Qj54Ng.jpg"
+            }
+        ],
+        "details": "The documentary crew that immortalized Dunder Mifflin's Scranton branch is in search of a new subject when they discover a historic Toledo newspaper, The Truth Teller, and the eager publisher trying to revive it.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/08/22/dc8d1069bce9201daa51b8c1c560d7dd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/08/22/dc8d1069bce9201daa51b8c1c560d7dd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1757305",
+        "type": "movie",
+        "title": "Harudu",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=yzcBo_KBXlQ",
+        "poster": "https://image.tmdb.org/t/p/w500/2C9VFBSIGDcATC96MxHo2P60esl.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/l38oAxVqxIe7LsAU8tuS7cgeKAY.jpg",
+        "rating": 0.0,
+        "release_date": "2026-05-15",
+        "runtime": "130 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Venkat",
+                "image": "https://image.tmdb.org/t/p/w185/5dDtSWDsCQtj0IzzCgurGQ9s9BY.jpg"
+            },
+            {
+                "name": "Hebah Patel",
+                "image": "https://image.tmdb.org/t/p/w185/hZM5aTM75NRQes6lRLkM2eT8Z9X.jpg"
+            },
+            {
+                "name": "Ali",
+                "image": "https://image.tmdb.org/t/p/w185/1z0YbDqP81BD6VxeghJG7vo9Mny.jpg"
+            },
+            {
+                "name": "Saloni Aswani",
+                "image": "https://image.tmdb.org/t/p/w185/gCNy6jJWoQFPgE3df9Tmw2sFKJI.jpg"
+            },
+            {
+                "name": "Sreehari Paila",
+                "image": ""
+            }
+        ],
+        "details": "A thrilling and intense story. A righteous protagonist (DCP Shankar), a cruel antagonist (Varadharaj), a group of unsuspecting thieves who get entangled in a murder case, and the complex web of corruption, revenge, and justice.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a9ae2355dadc",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1485325",
+        "type": "movie",
+        "title": "Angikaaram",
+        "release_year": 2026,
+        "original_language": "ta",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/rRyz56Fubfwmre6F5QiYyIzKmnT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/w5EprlCldSQ5lPTHFmhvXAsb8VB.jpg",
+        "rating": 0.0,
+        "release_date": "2026-06-26",
+        "runtime": "140 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Kotapadi J Rajesh",
+                "image": "https://image.tmdb.org/t/p/w185/4Kfcj0w6H6A2maOn95rFJ1XXgkR.jpg"
+            },
+            {
+                "name": "Sindhoori Vishwanath",
+                "image": "https://image.tmdb.org/t/p/w185/jhgX1zRKOHec0MyxubsmH7gkBuK.jpg"
+            },
+            {
+                "name": "Mansoor Ali Khan",
+                "image": "https://image.tmdb.org/t/p/w185/bXNi9n6Y4dz85xdLnjxquKHleuZ.jpg"
+            },
+            {
+                "name": "Rangaraj Pandey",
+                "image": "https://image.tmdb.org/t/p/w185/v0hWuDkV5N9JJivcntDuLLuowiG.jpg"
+            },
+            {
+                "name": "Viji Venkatesh",
+                "image": "https://image.tmdb.org/t/p/w185/dkqTF8AjIrrsRrXxQL7yZmKCRhR.jpg"
+            }
+        ],
+        "details": "Inspired by true events, this film follows the journey of a man who has had enough, fights for recognition against a system shaped strictly by politics and power.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a9ae64e44f5f",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
