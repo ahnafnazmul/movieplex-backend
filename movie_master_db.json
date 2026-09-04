@@ -48919,5 +48919,113 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1294189",
+        "type": "movie",
+        "title": "The Mongoose",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=aHrMFtt40_Q",
+        "poster": "https://image.tmdb.org/t/p/w500/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-30",
+        "runtime": "99 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Liam Neeson",
+                "image": "https://image.tmdb.org/t/p/w185/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg"
+            },
+            {
+                "name": "Marisa Tomei",
+                "image": "https://image.tmdb.org/t/p/w185/vAQ10fvGfVyuJdMNKVMA4ZkacWL.jpg"
+            },
+            {
+                "name": "Ving Rhames",
+                "image": "https://image.tmdb.org/t/p/w185/tOVDvu1EQP78AwaUw6uh1wN818E.jpg"
+            },
+            {
+                "name": "Michael Chiklis",
+                "image": "https://image.tmdb.org/t/p/w185/pAkKjbzxP6Z6Y5zAGpwmWQo1iji.jpg"
+            },
+            {
+                "name": "Brett Tucker",
+                "image": "https://image.tmdb.org/t/p/w185/6IUQyy2pA8PRXX1MEx088JH6pcu.jpg"
+            }
+        ],
+        "details": "A falsely accused war hero with nothing to lose leads police on an epic televised cross-country car chase, helped by members of his former Special Forces Army battalion and closely monitored by a fascinated public rooting for his safe getaway.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/15/2aea9771742b9f545cb3f7897a6f9521-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/15/2aea9771742b9f545cb3f7897a6f9521-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1378537",
+        "type": "movie",
+        "title": "Mirzapur: The Movie",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/jAt8u6MMIMnExmG6bN02EQyB0KR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fjaR5w0LoRb20LN6DaYxmolWE4p.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-04",
+        "runtime": "197 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Pankaj Tripathi",
+                "image": "https://image.tmdb.org/t/p/w185/f3Vxz0QB7PHeyPcXrfJX14Xkxnu.jpg"
+            },
+            {
+                "name": "Ali Fazal",
+                "image": "https://image.tmdb.org/t/p/w185/lLDmx3RDuMXObASvdFXeUh1GOgd.jpg"
+            },
+            {
+                "name": "Divyendu Sharma",
+                "image": "https://image.tmdb.org/t/p/w185/rGlCCQtOBiNJULfB5w0FXgPPKw0.jpg"
+            },
+            {
+                "name": "Jitendra Kumar",
+                "image": "https://image.tmdb.org/t/p/w185/562Mucw9YaDHUlFBqK5aot3H2lJ.jpg"
+            },
+            {
+                "name": "Ravi Kishan",
+                "image": "https://image.tmdb.org/t/p/w185/rkUTRk0tuA98RepP9jhgcCbhHqy.jpg"
+            }
+        ],
+        "details": "The battle for Mirzapur's throne escalates as old enemies resurface and new threats emerge. Blood debts must be paid while power-hungry contenders fight to control the city's violent underworld.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a9abdd3a5a3b",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
