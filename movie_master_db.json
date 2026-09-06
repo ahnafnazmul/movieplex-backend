@@ -50013,5 +50013,107 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1530121",
+        "type": "movie",
+        "title": "The Girl in the River",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=WKPSSLbnh-E",
+        "poster": "https://image.tmdb.org/t/p/w500/jjTMUmxP3Wu1RRUqvBLGSLcYaee.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8eGdhSaOiGYpybNsGHuJXqNK5JY.jpg",
+        "rating": 7.8,
+        "release_date": "2026-09-04",
+        "runtime": "92 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Maggie Grace",
+                "image": "https://image.tmdb.org/t/p/w185/fEZSGno4ooPgFjuGzE7ogsWEHsh.jpg"
+            },
+            {
+                "name": "Devon Sawa",
+                "image": "https://image.tmdb.org/t/p/w185/yvMbpZ0UFQ1IBwlWm8quCA6fNc5.jpg"
+            },
+            {
+                "name": "Tiffany Haddish",
+                "image": "https://image.tmdb.org/t/p/w185/pvAYqQD4LXavzDkBqCrC4IgVBur.jpg"
+            },
+            {
+                "name": "Ralph Macchio",
+                "image": "https://image.tmdb.org/t/p/w185/AoqqL9UlyPrcTLnpzbQvKXPvXrz.jpg"
+            },
+            {
+                "name": "Cody Lemmon",
+                "image": "https://image.tmdb.org/t/p/w185/gL0RHLB30B0IXLKR1f0Sh507zhl.jpg"
+            }
+        ],
+        "details": "A seasoned criminologist and a young female psychologist are lured to a remote Mississippi town to investigate the murder of a little girl and the disappearance of her twin sister.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a9d39fa35281",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1248230",
+        "type": "movie",
+        "title": "Splash City",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Vrze2vx3avI",
+        "poster": "https://image.tmdb.org/t/p/w500/pOdwaXV1w3vvTn1s7FTvqBQIDp.jpg",
+        "backdrop": "",
+        "rating": 6.0,
+        "release_date": "2026-07-20",
+        "runtime": "100 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "T.J. Atoms",
+                "image": "https://image.tmdb.org/t/p/w185/nHetIndUR52oKlTYGBVhNbous4L.jpg"
+            },
+            {
+                "name": "Reed Shannon",
+                "image": "https://image.tmdb.org/t/p/w185/xPrV7wpwCDPGm8yb0RMAqGo8A6k.jpg"
+            },
+            {
+                "name": "Christopher Ammanuel",
+                "image": ""
+            },
+            {
+                "name": "Zach Sowers",
+                "image": ""
+            },
+            {
+                "name": "Destiny Hernandez",
+                "image": "https://image.tmdb.org/t/p/w185/yyYPD17E4PkxwUhQeGk3IR9IbKY.jpg"
+            }
+        ],
+        "details": "Two brothers on diverging paths struggle to survive amidst the pressures of their community.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a9d3944a1518",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
