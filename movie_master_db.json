@@ -50178,5 +50178,56 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1733512",
+        "type": "movie",
+        "title": "Vadala",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=j6B9rD0XhsY",
+        "poster": "https://image.tmdb.org/t/p/w500/fK8TdIPdyJaaFMHlUV3JEZKFONJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kI21hS25XVMqq65p6lrAqQplWtR.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-17",
+        "runtime": "104 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Jagapati Babu",
+                "image": "https://image.tmdb.org/t/p/w185/bm72k6FmDxhxtZsl1xvxoz88Hkm.jpg"
+            },
+            {
+                "name": "Laya",
+                "image": "https://image.tmdb.org/t/p/w185/uRj5rqDmmKHtNQLneMzEpaX2dcD.jpg"
+            },
+            {
+                "name": "Hrithika Srinivas",
+                "image": ""
+            },
+            {
+                "name": "Srinivas Avasarala",
+                "image": "https://image.tmdb.org/t/p/w185/y7gdtDJqvwPrWKLVmDbE9BtPdOY.jpg"
+            },
+            {
+                "name": "Ravi Varma",
+                "image": "https://image.tmdb.org/t/p/w185/5aBHgnBcIdAkWp9TNAg2DQf4KhJ.jpg"
+            }
+        ],
+        "details": "A seemingly perfect couple's life takes an unsettling turn when an unexpected presence enters their world. What begins as admiration slowly spirals into emotional chaos, blurring the lines between love, attachment, and obsession.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6a9e6103aaa6b",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
