@@ -50229,5 +50229,64 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1618784",
+        "type": "movie",
+        "title": "Fight Against Evil 3",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ivsJigetkc9ziOc6j0FenDilrRA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nkeVH2PCEzs4PjCa8hliAeDjayS.jpg",
+        "rating": 6.6,
+        "release_date": "2026-01-23",
+        "runtime": "100 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Crime",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Xie Miao",
+                "image": "https://image.tmdb.org/t/p/w185/xdXmp28jBrv0r9FwLEKYTC36dnM.jpg"
+            },
+            {
+                "name": "Lin Xiao Jie",
+                "image": "https://image.tmdb.org/t/p/w185/yus3vnVL3y1Pvw3jGpb5vM2IXVl.jpg"
+            },
+            {
+                "name": "Cui Zhijia",
+                "image": "https://image.tmdb.org/t/p/w185/65KXCDl3uauSEy9njxqOxqTvQhG.jpg"
+            },
+            {
+                "name": "Huang Miyi",
+                "image": "https://image.tmdb.org/t/p/w185/NKsQjJRzivNTXILBXPjuSm0HhM.jpg"
+            },
+            {
+                "name": "Philip Ng Wan-Lung",
+                "image": "https://image.tmdb.org/t/p/w185/dUvw7dvUyfAiXhyzGWNV0Gd5ycN.jpg"
+            }
+        ],
+        "details": "Li Hongqi is forced to travel for his wedding but must team up with a local cop to rescue a girl from human traffickers, fighting criminals while racing against his wedding date.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/23/6eb728ba8c838ef1b1ff9be17cfc1482-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/23/6eb728ba8c838ef1b1ff9be17cfc1482-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
