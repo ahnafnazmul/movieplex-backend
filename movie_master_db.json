@@ -32009,7 +32009,8 @@
         "categories": [
             "Movies",
             "English",
-            "Horror"
+            "Horror",
+            "Thriller"
         ],
         "cast": [
             {
@@ -50366,6 +50367,114 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/d015ee2bde7d4cc1b09f0c627f152fa1-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_114479",
+        "type": "series",
+        "title": "The Acolyte",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=6tzur6JrUEA",
+        "poster": "https://image.tmdb.org/t/p/w500/mztdt3y6GBsJR69zHtszFezTCLT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kwronSXO1ogMqHHFvY2eBxfFLdn.jpg",
+        "rating": 5.3,
+        "release_date": "2024-06-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery",
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Amandla Stenberg",
+                "image": "https://image.tmdb.org/t/p/w185/dGqTcwLVoVOqU6Ckp8igV3wD0CW.jpg"
+            },
+            {
+                "name": "Lee Jung-jae",
+                "image": "https://image.tmdb.org/t/p/w185/lx8oiTXL9lIx78KOXlrlvNfoz43.jpg"
+            }
+        ],
+        "details": "A hundred years before the rise of the Empire, the Jedi Order and the Galactic Republic have prospered for centuries without war. During this time, an investigation into a shocking crime spree pits a Jedi Master against a dangerous warrior from his past.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/05/22/3e20c65c3e99a8e5603b7563b3b2b178-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/05/22/3e20c65c3e99a8e5603b7563b3b2b178-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_814889",
+        "type": "movie",
+        "title": "Never Let Go",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=-H3yhfkJBnQ",
+        "poster": "https://image.tmdb.org/t/p/w500/3EpZ2ksjijmdr8BhISP03PYzNFW.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fquVJ2v5NAW96sRfFAw4vXR5zla.jpg",
+        "rating": 6.1,
+        "release_date": "2024-09-18",
+        "runtime": "101 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Halle Berry",
+                "image": "https://image.tmdb.org/t/p/w185/84HRDZodRCuBSpYGSc3ow8WucI4.jpg"
+            },
+            {
+                "name": "Anthony B. Jenkins",
+                "image": "https://image.tmdb.org/t/p/w185/v0hZpeChlytBx0MwUhkKoeFpedF.jpg"
+            },
+            {
+                "name": "William Catlett",
+                "image": "https://image.tmdb.org/t/p/w185/1GzaCfhYEfg2s2lQzlQykijlUY8.jpg"
+            },
+            {
+                "name": "Percy Daggs IV",
+                "image": "https://image.tmdb.org/t/p/w185/dhn9bDGhBSbVKWkzFC86rtg1nHj.jpg"
+            },
+            {
+                "name": "Matthew Kevin Anderson",
+                "image": "https://image.tmdb.org/t/p/w185/lSCwDQjV2qaPapwq5q77aQW2Ndv.jpg"
+            }
+        ],
+        "details": "As an evil takes over the world beyond their front doorstep, the only protection for a mother and her twin sons is their house and their family’s protective bond.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/25/25f08ef4291ec2744866747d48bf25d3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/25/25f08ef4291ec2744866747d48bf25d3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=q5Vg0jUMl-s_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
             }
         ],
         "_source_site": "themoviebox"
