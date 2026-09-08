@@ -49355,6 +49355,18 @@
                 "player_url": "https://turbovidhls.com/t/6a9bc0e6b1b13",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/04/1b616620d0b1c064c607d69ce21b3c56-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/04/1b616620d0b1c064c607d69ce21b3c56-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "rtally"
@@ -50061,6 +50073,18 @@
                 "player_url": "https://turbovidhls.com/t/6a9d39fa35281",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/23/9d0b7cb902f62e499f8018486ce24534-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/23/9d0b7cb902f62e499f8018486ce24534-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "rtally"
@@ -50283,6 +50307,63 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/02/23/6eb728ba8c838ef1b1ff9be17cfc1482-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_239618",
+        "type": "series",
+        "title": "American Hostage",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=B01SUM_ixo0",
+        "poster": "https://image.tmdb.org/t/p/w500/dzoPQ13XrRUGl8Yoz1P66V8rRUy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/t708JUdkHAoZF83f4RjqcIGrJ99.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-20",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Jon Hamm",
+                "image": "https://image.tmdb.org/t/p/w185/mrXE5fZbEDPc7BEE5G21J6qrwzi.jpg"
+            },
+            {
+                "name": "Giovanni Ribisi",
+                "image": "https://image.tmdb.org/t/p/w185/8EAiS9D3YtGOrwNM0OrwmDpWK7s.jpg"
+            },
+            {
+                "name": "Kristoffer Polaha",
+                "image": "https://image.tmdb.org/t/p/w185/u7SIxQzDwzU1av7tJoHG62NzN1Y.jpg"
+            },
+            {
+                "name": "William Jackson Harper",
+                "image": "https://image.tmdb.org/t/p/w185/5Oy037YttIweiqNGaErkalNmH0G.jpg"
+            },
+            {
+                "name": "Mireille Enos",
+                "image": "https://image.tmdb.org/t/p/w185/zza8XezUz4I5Is55H2totMbGLeG.jpg"
+            }
+        ],
+        "details": "Fred Heckman, a beloved Indianapolis radio reporter, is thrust into the middle of a life-or-death crisis when hostage-taker, Tony Kiritsis, demands to be interviewed on his popular radio news program.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/d015ee2bde7d4cc1b09f0c627f152fa1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/d015ee2bde7d4cc1b09f0c627f152fa1-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
