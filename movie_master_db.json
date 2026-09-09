@@ -50746,5 +50746,105 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1288220",
+        "type": "movie",
+        "title": "A Mosquito in the Ear",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=7eMht2v1vzE",
+        "poster": "https://image.tmdb.org/t/p/w500/kiU9L3YUi8IWmsZw8V1YHiwYtqE.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bkUkx4PIDkeIFqrTESS7rnBKDaD.jpg",
+        "rating": 0.0,
+        "release_date": "2026-06-11",
+        "runtime": "90 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Jake Lacy",
+                "image": "https://image.tmdb.org/t/p/w185/qU6n9EaesBGqhNLlj5BecUrb5LW.jpg"
+            },
+            {
+                "name": "Nazanin Boniadi",
+                "image": "https://image.tmdb.org/t/p/w185/ftBadbFBgRZJcWn9YfbPv8Btyg0.jpg"
+            },
+            {
+                "name": "Ruhi Pal",
+                "image": ""
+            },
+            {
+                "name": "Micky Singh",
+                "image": ""
+            },
+            {
+                "name": "Sanya Sagar",
+                "image": "https://image.tmdb.org/t/p/w185/a3qSxlhKsxo2OuneCdOpHgf8wc2.jpg"
+            }
+        ],
+        "details": "Andrew and Daniela travel to Goa, India, to meet their newly adopted 4-year-old daughter, Sarvari, and bring her back to the US. However, their world begins to crumble when Sarvari refuses to leave the orphanage that she calls home behind. The couple’s attempts to welcome their child into her new family and travel back with her prove to be a chaotic challenge that not only tests their patience but also profoundly reshapes their ideas of family, parenthood, and their relationship as a couple.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa123877c8ab",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1425101",
+        "type": "movie",
+        "title": "I'm Not An Actor",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=kW55plqZcFU",
+        "poster": "https://image.tmdb.org/t/p/w500/jbLlCM9aaL6kM2bBLzkBBgR7gpE.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sRtKKNpBDVIM2g1FHZDwHqP1W9e.jpg",
+        "rating": 0.0,
+        "release_date": "2026-05-08",
+        "runtime": "122 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Nawazuddin Siddiqui",
+                "image": "https://image.tmdb.org/t/p/w185/w1eXF7T60QlEC2gNfr99J3n8CgX.jpg"
+            },
+            {
+                "name": "Chitrangada Satarupa",
+                "image": "https://image.tmdb.org/t/p/w185/Agw3G9Zj9Vhor11StN6PRrPE6Jx.jpg"
+            },
+            {
+                "name": "Naveen Kasturia",
+                "image": "https://image.tmdb.org/t/p/w185/arV1swe5vg4e4webYl61h6Zwx4e.jpg"
+            },
+            {
+                "name": "Ayushi Gupta",
+                "image": "https://image.tmdb.org/t/p/w185/wvZXzehHKOixpy2eMciD41fQR2M.jpg"
+            },
+            {
+                "name": "Yasir Iftikhar Khan",
+                "image": ""
+            }
+        ],
+        "details": "A frustrated actor in Mumbai connects with a retired banker in Frankfurt through an online audition and ends up teaching him acting over video calls. Their sessions unfold across two cities, pushing both to confront buried emotions and truths they have long avoided.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa11e03b22f1",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
