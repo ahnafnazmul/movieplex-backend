@@ -50478,5 +50478,273 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_9954",
+        "type": "movie",
+        "title": "The Covenant",
+        "release_year": 2006,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=mNdijA2KlJo",
+        "poster": "https://image.tmdb.org/t/p/w500/r6jbhgqKao3K3in4eftu7gqgMNH.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vn9BFSlvwILE4wPUITi4XDD3fEK.jpg",
+        "rating": 5.6,
+        "release_date": "2006-09-07",
+        "runtime": "97 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Horror",
+            "Adventure",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Chace Crawford",
+                "image": "https://image.tmdb.org/t/p/w185/wz7s1JT3bYi2vd4fWwmLT809cnT.jpg"
+            },
+            {
+                "name": "Taylor Kitsch",
+                "image": "https://image.tmdb.org/t/p/w185/pTFkwvE2URbbftiaofexfolhkH9.jpg"
+            },
+            {
+                "name": "Toby Hemingway",
+                "image": "https://image.tmdb.org/t/p/w185/h4q4JcxfO3kXUFrqLdNfOLOJYaI.jpg"
+            },
+            {
+                "name": "Sebastian Stan",
+                "image": "https://image.tmdb.org/t/p/w185/mLqE91qUnE8fbfMvsXD7BcWJKNK.jpg"
+            },
+            {
+                "name": "Steven Strait",
+                "image": "https://image.tmdb.org/t/p/w185/m7heTGlIKOZJgWrTtY5TS3LaZxS.jpg"
+            }
+        ],
+        "details": "Four young men who belong to a supernatural legacy are forced to battle a fifth power long thought to have died out. Another great force they must contend with is the jealousy and suspicion that threatens to tear them apart.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/12/105a600833189f41bd8fb45af6e2d286-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/12/105a600833189f41bd8fb45af6e2d286-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_333385",
+        "type": "series",
+        "title": "Kwa Baba",
+        "release_year": 2026,
+        "original_language": "zu",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ra26nmtM6T6hwrtGdOmHaVNTwfa.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sBqDzqeXM8ZSP99b5XNp2ngCcIA.jpg",
+        "rating": 0.0,
+        "release_date": "2026-06-01",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Family",
+            "Soap"
+        ],
+        "cast": [
+            {
+                "name": "Vuyo Biyela",
+                "image": "https://image.tmdb.org/t/p/w185/ugc5A825VdgCX9KW89oAngqe6t6.jpg"
+            },
+            {
+                "name": "Rorisang Mohapi-Grootboom",
+                "image": "https://image.tmdb.org/t/p/w185/crSf4TgzklSHobTUgkwU0JJk5Sx.jpg"
+            },
+            {
+                "name": "Lindani Nkosi",
+                "image": "https://image.tmdb.org/t/p/w185/akhyRWU5yraAwbktiEJ4AEXWlM7.jpg"
+            },
+            {
+                "name": "Sparky Xulu",
+                "image": "https://image.tmdb.org/t/p/w185/xVwCSegzKxpUFntz4jzkbbRELQM.jpg"
+            },
+            {
+                "name": "Mpho J. Molepo",
+                "image": "https://image.tmdb.org/t/p/w185/78pEtDvBgYe7K4VgWAAwklnokI6.jpg"
+            }
+        ],
+        "details": "Kwa Baba is a South African telenovela rooted in themes around tradition and passion which follows the story of how far one son is willing to go when love is tested by family expectations, traditions and dealing with the weight of the past.\n\nSet in Msawawa, Diepkloof Ext, the story follows a first born son who must step into leadership, confront his past and honour the legacy left by his father.\n\nAs he learns to love, build a family and lead with courage, he must also take on his role as Inkosana.\n\nAt the centre of the story is Zwelakhe Mkhize, a young, driven businessman who is on the brink of success and ready to settle down with his chosen woman, Bahumi Motaung.\n\nHowever, he quickly discovers that before taking that next step, he must deal with a past traditional obligation tied to his late father's unpaid debt.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/c88d0ca690501fb3aa2eb0469cf3726d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/c88d0ca690501fb3aa2eb0469cf3726d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_317878",
+        "type": "series",
+        "title": "Leader",
+        "release_year": 2026,
+        "original_language": "ur",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/175uM89BxbXRhg9UGiLAhidsOdd.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-03-28",
+        "runtime": "40 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ali Raza",
+                "image": "https://image.tmdb.org/t/p/w185/cvEujKAUCncJLArLZXjl607vSF8.jpg"
+            },
+            {
+                "name": "Kinza Hashmi",
+                "image": "https://image.tmdb.org/t/p/w185/cVbCM2IYvvJ2dXOXK9v5W97GRNP.jpg"
+            },
+            {
+                "name": "Faran Tahir",
+                "image": "https://image.tmdb.org/t/p/w185/dMsD7h6KiZ5dM0f9MegXUOKnqb0.jpg"
+            },
+            {
+                "name": "Ali Safina",
+                "image": "https://image.tmdb.org/t/p/w185/qG93qMc8ulVB5vRHz67ZMremW8p.jpg"
+            }
+        ],
+        "details": "Mansoor, a farmer’s son with a vision to build a just society free from feudal oppression. As he rises within the political landscape of his university, his beliefs are challenged when he falls in love with Rubab, daughter of the very man he stands against. Torn between love and ambition, Mansoor must decide how far he is willing to go for his ideals. Will love weaken his resolve... or redefine his purpose?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa106468388d",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_45001",
+        "type": "movie",
+        "title": "Deewana",
+        "release_year": 1992,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/8liOcHgcghI3aQFxq8QCGKKqQKX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8OFoHybzT7DbXkP1RmcuCjIHDZa.jpg",
+        "rating": 6.8,
+        "release_date": "1992-06-25",
+        "runtime": "163 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Comedy",
+            "Crime",
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Rishi Kapoor",
+                "image": "https://image.tmdb.org/t/p/w185/yQOKkmQaksa3hOi72MbPnrqz77k.jpg"
+            },
+            {
+                "name": "Shah Rukh Khan",
+                "image": "https://image.tmdb.org/t/p/w185/tCEppfUu0g2Luu0rS5VKMoL4eSw.jpg"
+            },
+            {
+                "name": "Divya Bharti",
+                "image": "https://image.tmdb.org/t/p/w185/gTbsHRxIBMNuJhJOtiWvYkPQJAR.jpg"
+            },
+            {
+                "name": "Amrish Puri",
+                "image": "https://image.tmdb.org/t/p/w185/uhMGFS7tuG71LDv2wk9LfZZ4EG6.jpg"
+            },
+            {
+                "name": "Mohnish Behl",
+                "image": "https://image.tmdb.org/t/p/w185/iiDceTPiwHY4y91gdP3OsEHOo7r.jpg"
+            }
+        ],
+        "details": "A singer marries his biggest fan, but his uncle plans to kill him in order to gain his money.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa1041883027",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1433367",
+        "type": "movie",
+        "title": "One Night Only",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=lDsAVq9lo9g",
+        "poster": "https://image.tmdb.org/t/p/w500/9LGEqZvzI7Tsosf8srwEY48rZsD.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mfgNUnFB25BNIwe9iPJ17cUN64S.jpg",
+        "rating": 7.0,
+        "release_date": "2026-07-28",
+        "runtime": "103 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Monica Barbaro",
+                "image": "https://image.tmdb.org/t/p/w185/fcujBTiKyZgJzaDenhv5ryo9SyB.jpg"
+            },
+            {
+                "name": "Callum Turner",
+                "image": "https://image.tmdb.org/t/p/w185/1QqpyYbX6zyyrtlKAJLbKM4B4k9.jpg"
+            },
+            {
+                "name": "Maya Hawke",
+                "image": "https://image.tmdb.org/t/p/w185/r4xI4vhPdkrrGBQrqW4cHf0sTqV.jpg"
+            },
+            {
+                "name": "King Princess",
+                "image": "https://image.tmdb.org/t/p/w185/hQFDqQj5fmprYGOsKZMVRLCPJFd.jpg"
+            },
+            {
+                "name": "Molly Ringwald",
+                "image": "https://image.tmdb.org/t/p/w185/eXRphPiX18t8C3nCoOuxQFNegqP.jpg"
+            }
+        ],
+        "details": "Two love-starved strangers crash into each other on the one night of the year when single people are allowed to have sex.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa06664dbd45",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
