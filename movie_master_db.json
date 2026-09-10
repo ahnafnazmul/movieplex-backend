@@ -50890,5 +50890,108 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1365884",
+        "type": "movie",
+        "title": "Call My Agent! The Movie",
+        "release_year": 2026,
+        "original_language": "fr",
+        "video_trailer": "https://www.youtube.com/watch?v=01PX2jZNW5A",
+        "poster": "https://image.tmdb.org/t/p/w500/p4SvSFIkjCs4y0C7yAcYP9XNmP2.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/blh99dDTXa0Gpiuws2BoVyas8Pp.jpg",
+        "rating": 6.0,
+        "release_date": "2026-08-29",
+        "runtime": "117 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Camille Cottin",
+                "image": "https://image.tmdb.org/t/p/w185/ArBIA46esEk1qMlSwoVPR1SxPvc.jpg"
+            },
+            {
+                "name": "Thibault de Montalembert",
+                "image": "https://image.tmdb.org/t/p/w185/wfPsfqRmuxXlVmZUTfsOXf9nwGA.jpg"
+            },
+            {
+                "name": "Grégory Montel",
+                "image": "https://image.tmdb.org/t/p/w185/nImuHSjUgi8v8CaYp5UAZTHbY0j.jpg"
+            },
+            {
+                "name": "Liliane Rovère",
+                "image": "https://image.tmdb.org/t/p/w185/mo7NTceScg2S8YByd9Nc5jCsdfm.jpg"
+            },
+            {
+                "name": "Fanny Sidney",
+                "image": "https://image.tmdb.org/t/p/w185/vZslkUvialyIejC4CoDnY6WvT4Q.jpg"
+            }
+        ],
+        "details": "Five years after ASK Agency closed, debut director Andréa loses her lead actor just days before filming and reunited with her old team — for better or worse.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa2db6c8bc7b",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_530385",
+        "type": "movie",
+        "title": "Midsommar",
+        "release_year": 2019,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=1Vnghdsjmd0",
+        "poster": "https://image.tmdb.org/t/p/w500/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/aAM3cQmYGjjLQ24m0F0RWfjKQ57.jpg",
+        "rating": 7.1,
+        "release_date": "2019-07-03",
+        "runtime": "147 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Florence Pugh",
+                "image": "https://image.tmdb.org/t/p/w185/1Uvfh7xL4U2evkhs0M3C7BbBYFf.jpg"
+            },
+            {
+                "name": "Jack Reynor",
+                "image": "https://image.tmdb.org/t/p/w185/vbPewOkSGGQl93wgshDlczMqiOk.jpg"
+            },
+            {
+                "name": "William Jackson Harper",
+                "image": "https://image.tmdb.org/t/p/w185/5Oy037YttIweiqNGaErkalNmH0G.jpg"
+            },
+            {
+                "name": "Will Poulter",
+                "image": "https://image.tmdb.org/t/p/w185/9blYMaj79VGC6BHTLmJp3V5S8r3.jpg"
+            },
+            {
+                "name": "Vilhelm Blomgren",
+                "image": "https://image.tmdb.org/t/p/w185/uxfGg0gwEJS6CvY0PMNk90yoO71.jpg"
+            }
+        ],
+        "details": "Several friends travel to Sweden to study as anthropologists a summer festival that is held every ninety years in the remote hometown of one of them. What begins as a dream vacation in a place where the sun never sets, gradually turns into a dark nightmare as the mysterious inhabitants invite them to participate in their disturbing festive activities.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa2db6e10c81",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
