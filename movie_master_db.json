@@ -50846,5 +50846,49 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_317308",
+        "type": "series",
+        "title": "The Missing Piece",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/3BZ6Ikewh53iN8thHmXtZCLQLaJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/iTs5hXdEDA3pI6FabhH6rKkpK7P.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Hou Mingxuan",
+                "image": "https://image.tmdb.org/t/p/w185/mKjFrDD8apXTjVdKsOwOTAwhFT.jpg"
+            },
+            {
+                "name": "Rao Zihao",
+                "image": "https://image.tmdb.org/t/p/w185/taSySJgPyAzM10H9KDi4ZQlDJKh.jpg"
+            }
+        ],
+        "details": "After amnesia erases six months of love, a man agrees to become his former lover’s contract partner, hoping to make him fall again.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/08/42b2625fca1b8a1b7e300821a03bf111-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/08/42b2625fca1b8a1b7e300821a03bf111-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
