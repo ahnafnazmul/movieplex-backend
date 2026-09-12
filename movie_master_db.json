@@ -51168,5 +51168,148 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_68724",
+        "type": "movie",
+        "title": "Elysium",
+        "release_year": 2013,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=oIBtePb-dGY",
+        "poster": "https://image.tmdb.org/t/p/w500/aRjuJuPXHtVs6YegfeeQWXGRs1E.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oo9GyiNKvR4CU1etuYl081UJ1LE.jpg",
+        "rating": 6.5,
+        "release_date": "2013-08-07",
+        "runtime": "109 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Matt Damon",
+                "image": "https://image.tmdb.org/t/p/w185/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg"
+            },
+            {
+                "name": "Jodie Foster",
+                "image": "https://image.tmdb.org/t/p/w185/5emVgsLFlU6SmeBIFsF2Y7aqwtG.jpg"
+            },
+            {
+                "name": "Sharlto Copley",
+                "image": "https://image.tmdb.org/t/p/w185/em89OJJvBRX7kNJJPASmNKQujsC.jpg"
+            },
+            {
+                "name": "Diego Luna",
+                "image": "https://image.tmdb.org/t/p/w185/qwbjcyDN37OHiln4a6P4LP31o7F.jpg"
+            },
+            {
+                "name": "Wagner Moura",
+                "image": "https://image.tmdb.org/t/p/w185/53IbAed4t1dOWxY3iygbRYZBBnm.jpg"
+            }
+        ],
+        "details": "In the year 2159, two classes of people exist: the very wealthy who live on a pristine man-made space station called Elysium, and the rest, who live on an overpopulated, ruined Earth. Secretary Rhodes, a hard line government official, will stop at nothing to enforce anti-immigration laws and preserve the luxurious lifestyle of the citizens of Elysium. That doesn’t stop the people of Earth from trying to get in, by any means they can. When unlucky Max is backed into a corner, he agrees to take on a daunting mission that, if successful, will not only save his life, but could bring equality to these polarized worlds.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa526e04df12",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1608445",
+        "type": "movie",
+        "title": "Tarung: Unforgiven",
+        "release_year": 2026,
+        "original_language": "ms",
+        "video_trailer": "https://www.youtube.com/watch?v=IMPZZXGjRj8",
+        "poster": "https://image.tmdb.org/t/p/w500/v9ZtOlIJ3HS49UMtS4eli3WMenT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dYcd4GlqPQ923Xx6xMBNHoDIJrH.jpg",
+        "rating": 8.2,
+        "release_date": "2026-05-07",
+        "runtime": "100 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Mierul Aiman",
+                "image": "https://image.tmdb.org/t/p/w185/tgU9JBX8bdtSVkqpfq1666Sl67R.jpg"
+            },
+            {
+                "name": "Aedy Ashraf",
+                "image": "https://image.tmdb.org/t/p/w185/m1xoIws0mrJyn9ZREybomAhO3j.jpg"
+            },
+            {
+                "name": "Zul Ariffin",
+                "image": "https://image.tmdb.org/t/p/w185/wlMo5HslLGpZRqCBhYYIzmkKGit.jpg"
+            },
+            {
+                "name": "Bront Palarae",
+                "image": "https://image.tmdb.org/t/p/w185/mk7v78F2QPV1jmwjjo19PONugkR.jpg"
+            },
+            {
+                "name": "Amir Ahnaf",
+                "image": "https://image.tmdb.org/t/p/w185/iOzSNq9rRthJgh6o0PY9kmUoXVJ.jpg"
+            }
+        ],
+        "details": "After unintentionally causing the death of his opponent during a martial arts tournament, Hatta vows to never participate in any fighting tournament again. However, when his only sister becomes seriously ill and requires costly medical treatment, he is offered 'financial assistance' by a head of mobsters in return for Hatta fighting for him in the underworld fighting ring.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa520923c078",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1657783",
+        "type": "movie",
+        "title": "Ponnapurathu Yakshi",
+        "release_year": 2026,
+        "original_language": "ml",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/2cHXC0IoGYc8ECLxCSCCnXOi7sF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uaX6qQjMLQtI262706qCLkj2tfj.jpg",
+        "rating": 1.0,
+        "release_date": "2026-03-19",
+        "runtime": "96 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Boban Alummoodan",
+                "image": "https://image.tmdb.org/t/p/w185/Cj4EVyDQVOgZtcRtqJqtDLMw1Y.jpg"
+            },
+            {
+                "name": "Manju Vijeesh",
+                "image": ""
+            }
+        ],
+        "details": "After moving into a historic estate, a family discovers their young daughter has befriended a vengeful spirit. To save her, the father must unearth a century-old atrocity and confront the ghost with an ancient, sanctified weapon.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa51b7cd32d3",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
