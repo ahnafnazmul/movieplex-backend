@@ -50743,6 +50743,18 @@
                 "player_url": "https://turbovidhls.com/t/6aa06664dbd45",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/28/3aea00b46890c0fdc0d4d2f034e40a76-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/28/3aea00b46890c0fdc0d4d2f034e40a76-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "rtally"
@@ -51050,5 +51062,111 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_298008",
+        "type": "series",
+        "title": "Plastic Beauty",
+        "release_year": 2026,
+        "original_language": "ja",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/6HLl3jgLQmUO0mw2TspFf5jIU3M.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mIjERiWlnDzQWHTcZdtucLmTCeO.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Mayu Matsuoka",
+                "image": "https://image.tmdb.org/t/p/w185/f7Pn68PjbhbsgwdAcQ7mxpkAYPJ.jpg"
+            },
+            {
+                "name": "Riisa Naka",
+                "image": "https://image.tmdb.org/t/p/w185/lQHNZeMCqEK8AJvNb15BFnji7qO.jpg"
+            },
+            {
+                "name": "Shotaro Mamiya",
+                "image": "https://image.tmdb.org/t/p/w185/rTyurOXMTcSyLfjGxLZ1rDedyPt.jpg"
+            },
+            {
+                "name": "Minami Tanaka",
+                "image": "https://image.tmdb.org/t/p/w185/a4owLLPAec6N6cO5UWf8Uq5SsaI.jpg"
+            },
+            {
+                "name": "Hiromi Nagasaku",
+                "image": "https://image.tmdb.org/t/p/w185/l0NR6D6aOaTqqtrgd0VrRg62Us1.jpg"
+            }
+        ],
+        "details": "When a gifted ER surgeon is thrust into cosmetic medicine, her clash with a celebrity doctor exposes the greed and desire beneath the glamour.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/09/bf1167cbeef454caf159ac3dd311674f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/09/bf1167cbeef454caf159ac3dd311674f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1101412",
+        "type": "movie",
+        "title": "Fall 2: Deadpoint",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Krs0VDIjhmE",
+        "poster": "https://image.tmdb.org/t/p/w500/fgSm5ylwiXbIHn8UbUXDjk9RRu4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg",
+        "rating": 6.8,
+        "release_date": "2026-09-01",
+        "runtime": "98 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Harriet Slater",
+                "image": "https://image.tmdb.org/t/p/w185/9BJxdhi4tuiQdgT8bfDuiPipnsx.jpg"
+            },
+            {
+                "name": "Arsema Thomas",
+                "image": "https://image.tmdb.org/t/p/w185/lvzhZIbkWIVLSRHsOICs9o37g2I.jpg"
+            },
+            {
+                "name": "Tom Brittney",
+                "image": "https://image.tmdb.org/t/p/w185/qSe3SuZHVPR5AMOuOAGxLdD6kYv.jpg"
+            },
+            {
+                "name": "Virginia Gardner",
+                "image": "https://image.tmdb.org/t/p/w185/1DnNysK267b0te48KCkUlTKoTzj.jpg"
+            },
+            {
+                "name": "Sahajak Boonthanakit",
+                "image": "https://image.tmdb.org/t/p/w185/a36MI02S0f11bJZjBoxkZTsUDAK.jpg"
+            }
+        ],
+        "details": "On a perilous climb across Thailand's Mount Kwan, two climbers become trapped thousands of feet above the ground, where vertigo-inducing heights, sheer exposure, and impossible odds turn every moment into a fight for survival.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa4f45ecdd54",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
