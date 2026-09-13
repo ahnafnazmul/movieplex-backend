@@ -51476,5 +51476,232 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_699534",
+        "type": "movie",
+        "title": "The Merger",
+        "release_year": 2015,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/hzAui3PdyoP73CF6NMoBIQM9NfV.jpg",
+        "backdrop": "",
+        "rating": 8.0,
+        "release_date": "2015-12-24",
+        "runtime": "43 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Documentary"
+        ],
+        "cast": [
+            {
+                "name": "Rich Eisen",
+                "image": "https://image.tmdb.org/t/p/w185/koQn8cyL3GgdJHvYjMECstCf9Ks.jpg"
+            },
+            {
+                "name": "James Brown",
+                "image": "https://image.tmdb.org/t/p/w185/mNlkAWegSkeLoW3LcuGmyd6Yqez.jpg"
+            },
+            {
+                "name": "Pete Rozelle",
+                "image": "https://image.tmdb.org/t/p/w185/24VJ1ozu7AvieuDGN6XAskF5l24.jpg"
+            },
+            {
+                "name": "Lamar Hunt",
+                "image": ""
+            },
+            {
+                "name": "Tex Schramm",
+                "image": "https://image.tmdb.org/t/p/w185/azMUCh7OO0zx1xAVxLacF0F2KJF.jpg"
+            }
+        ],
+        "details": "The behind the scenes events that led to the 1966 merger of the AFL and the NFL, and the immediate establishment of an \"AFL-NFL World' s Championship of Professional Football\" game (Super Bowl) following the 1966 Football Season.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/05/0b9e425df4639beac2343009f1b69b0b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/05/0b9e425df4639beac2343009f1b69b0b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=Vzg7hNXk7lo_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=Vzg7hNXk7lo_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1137844",
+        "type": "movie",
+        "title": "Mayday",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=om5Un9X720M",
+        "poster": "https://image.tmdb.org/t/p/w500/hVXjX1jLZ1ljFSNGXpjJfbTUOa7.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/g7Ccid5kuD7A8hXWlsQiNfwOxaD.jpg",
+        "rating": 7.9,
+        "release_date": "2026-09-03",
+        "runtime": "111 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Ryan Reynolds",
+                "image": "https://image.tmdb.org/t/p/w185/trzgptffGvAlAT6MEu01fz47cLW.jpg"
+            },
+            {
+                "name": "Kenneth Branagh",
+                "image": "https://image.tmdb.org/t/p/w185/AbCqqFxNi5w3nDUFdQt0DGMFh5H.jpg"
+            },
+            {
+                "name": "Marcin Dorociński",
+                "image": "https://image.tmdb.org/t/p/w185/pyPUnMHxNPKKYxn8PehQJfSbZzO.jpg"
+            },
+            {
+                "name": "Maria Bakalova",
+                "image": "https://image.tmdb.org/t/p/w185/vCz0ycZr1PgJVOAeS29fIiZE8pN.jpg"
+            },
+            {
+                "name": "David Morse",
+                "image": "https://image.tmdb.org/t/p/w185/A6zGbkFjM3uajIakgsSeNTmSKqY.jpg"
+            }
+        ],
+        "details": "When a U.S. Navy pilot on a top-secret mission during the Cold War gets trapped behind enemy lines, his only chance at survival is to form an alliance with an eccentric ex-KGB agent.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/3883d6418ad0efead0dd476c6e8fe4a0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/3883d6418ad0efead0dd476c6e8fe4a0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_62142",
+        "type": "series",
+        "title": "The Returned",
+        "release_year": 2015,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=tdx7cx-1wwU",
+        "poster": "https://image.tmdb.org/t/p/w500/cKp0ZDYGydWxI3v8KS3tY8W9aM7.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dwhwsO7c54ENncuaz3iHN9toT8n.jpg",
+        "rating": 6.8,
+        "release_date": "2015-03-09",
+        "runtime": "43 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Kevin Alejandro",
+                "image": "https://image.tmdb.org/t/p/w185/bh4aQqP7kJzL2Ls9tj5OmhsBlqi.jpg"
+            },
+            {
+                "name": "Mary Elizabeth Winstead",
+                "image": "https://image.tmdb.org/t/p/w185/vQn6IGsClpyhV6KTba9EDqSK7e2.jpg"
+            },
+            {
+                "name": "Agnes Bruckner",
+                "image": "https://image.tmdb.org/t/p/w185/n9bglCZa1Qv9cYbP8f7hg32YciH.jpg"
+            },
+            {
+                "name": "India Ennenga",
+                "image": "https://image.tmdb.org/t/p/w185/ygWLnKAOUrTxzR9VqwEhQ29EbmX.jpg"
+            },
+            {
+                "name": "Sandrine Holt",
+                "image": "https://image.tmdb.org/t/p/w185/qvuH2mRmfG2yIchpsHefprcKYLK.jpg"
+            }
+        ],
+        "details": "A small town that is turned upside down when several local people, who have long been presumed dead, suddenly reappear; their presence creates both positive and negative consequences. As families are reunited, the lives of those who were left behind are challenged both physically and emotionally.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa67b973840e",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_467660",
+        "type": "movie",
+        "title": "Unsane",
+        "release_year": 2018,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=u7KZrt_cHH0",
+        "poster": "https://image.tmdb.org/t/p/w500/wdaUssQhZDOgegkJZx7NfY75HRX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5u0ImRdr8Z6uyDfmSWcThXEb8cl.jpg",
+        "rating": 6.2,
+        "release_date": "2018-03-22",
+        "runtime": "98 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Claire Foy",
+                "image": "https://image.tmdb.org/t/p/w185/4IS02g8RHFOG4YQUSZu8EDu7Oxa.jpg"
+            },
+            {
+                "name": "Joshua Leonard",
+                "image": "https://image.tmdb.org/t/p/w185/druE5TIt3eARRwWFDA0punUBGvs.jpg"
+            },
+            {
+                "name": "Jay Pharoah",
+                "image": "https://image.tmdb.org/t/p/w185/qpCc7SshxYXcgZIjhv8xKWuzEp6.jpg"
+            },
+            {
+                "name": "Juno Temple",
+                "image": "https://image.tmdb.org/t/p/w185/vwCjlWQLQWbmcUT2Lwn9G0O8r2.jpg"
+            },
+            {
+                "name": "Aimee Mullins",
+                "image": "https://image.tmdb.org/t/p/w185/A4H8dBREovAels6YFAw8wrprE8R.jpg"
+            }
+        ],
+        "details": "A woman is involuntarily committed to a mental institution where she is confronted by her greatest fear.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa67b98b321a",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
