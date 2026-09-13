@@ -51756,5 +51756,154 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_202025",
+        "type": "series",
+        "title": "Papa, What is Love?",
+        "release_year": 2022,
+        "original_language": "tl",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/8jqwhNU5ywTHAqfuH6uTrULAvup.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/u32gLtschNEaBvrfyP7VbcgVC7X.jpg",
+        "rating": 9.0,
+        "release_date": "2022-05-14",
+        "runtime": "12 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [],
+        "details": "Rich, a middle-aged widower, hires a young house helper, Tupe. When their working relationship turns into romance, will Rich's son be able to accept it?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/08/793c861d4dc90e329901e001c6303fb3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/08/793c861d4dc90e329901e001c6303fb3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=ORIBBpN7YMs_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=ORIBBpN7YMs_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_516715",
+        "type": "movie",
+        "title": "Kembang Kantil",
+        "release_year": 2018,
+        "original_language": "id",
+        "video_trailer": "https://www.youtube.com/watch?v=KE_c2bBp-Ls",
+        "poster": "https://image.tmdb.org/t/p/w500/aFJroQX988BLRFtvegSyO5q473z.jpg",
+        "backdrop": "",
+        "rating": 5.9,
+        "release_date": "2018-04-19",
+        "runtime": "90 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Irish Bella",
+                "image": "https://image.tmdb.org/t/p/w185/fGQexhVRdU72Nqc4MHgiRIt08bI.jpg"
+            },
+            {
+                "name": "Fadika Royandi",
+                "image": ""
+            },
+            {
+                "name": "Nafa Urbach",
+                "image": "https://image.tmdb.org/t/p/w185/xeG7ta0Bk8su2LzRUZ4FiQX1IGL.jpg"
+            },
+            {
+                "name": "Richelle Skornicki",
+                "image": "https://image.tmdb.org/t/p/w185/m2DnxLvE8qTd9xFOjbRNtleHWsw.jpg"
+            },
+            {
+                "name": "Kevin Kambey",
+                "image": ""
+            }
+        ],
+        "details": "In order to attend the theater performance Alisa (Irish Bella) goes to the house of his brother Anton (Fadika Royandi) and his wife Santi (Nafa Urbach). In the house Alisa meets Tania (Richelle Georgette Skonicki), the adopted daughter of Anton and Siska. Alisa immediately realized the weirdness of Tania's mysterious attitude. Alisa sees Tania eating magnolia flowers in her room. Terrors begin to strike Alisa, until the appearance of a mysterious man Toro (Dorman Borisman) who reminds him not to approach Tania. Encouraged by her curiosity, Alisa begins to find out the origin of Tania. She is accompanied by Aldy (Kevin Kambey), Alisa’s in the theater, to an orphanage. There they meet Novi (Sarwendah) the owner of the orphanage. Novi reveals to the dark past of Tania. Alisa moves to carry out dangerous missions.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa7042ad152a",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1213898",
+        "type": "movie",
+        "title": "Border 2",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/AmrCgmDPEJ6QxllS1rhjYwgO9Wb.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nusKn1Kkjz4NsAKXBswjJVOwMXQ.jpg",
+        "rating": 7.6,
+        "release_date": "2026-01-23",
+        "runtime": "201 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama",
+            "War"
+        ],
+        "cast": [
+            {
+                "name": "Sunny Deol",
+                "image": "https://image.tmdb.org/t/p/w185/w9RenJriQVys2k5fa9ojkXpYMwO.jpg"
+            },
+            {
+                "name": "Varun Dhawan",
+                "image": "https://image.tmdb.org/t/p/w185/gvvXYTpvO0Tu7naCDLL3tInyN2R.jpg"
+            },
+            {
+                "name": "Diljit Dosanjh",
+                "image": "https://image.tmdb.org/t/p/w185/xB57LAMYa1q3CaS0TZjgf4d2OaS.jpg"
+            },
+            {
+                "name": "Ahan Shetty",
+                "image": "https://image.tmdb.org/t/p/w185/obZtTEPF38U7LVUVSLrIx4zUthv.jpg"
+            },
+            {
+                "name": "Mona Singh",
+                "image": "https://image.tmdb.org/t/p/w185/fBl5KYnlKY8HDUqlTs64xbDZtU8.jpg"
+            }
+        ],
+        "details": "Three idealistic soldiers in the Indian army, navy and air force face grueling combat conditions in this film set during the 1971 Indo-Pak war.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa6f360ef060",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
