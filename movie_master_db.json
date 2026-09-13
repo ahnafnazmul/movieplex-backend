@@ -51703,5 +51703,58 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_330975",
+        "type": "series",
+        "title": "New Boyfriend",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/wL75dJ2JiC8c6N0K1qtLILGKNjR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nSi2UYlKcBf972X95AIpoMdxJLt.jpg",
+        "rating": 4.0,
+        "release_date": "2026-08-05",
+        "runtime": "18 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Jiraphart Thanoomas",
+                "image": "https://image.tmdb.org/t/p/w185/jCrt5SlVGxePCyIoTcYQPXoUfpm.jpg"
+            },
+            {
+                "name": "Kreangsak Muangsaen",
+                "image": "https://image.tmdb.org/t/p/w185/wEL5iGr3KmYXxCvhrYBI2Lz1uCQ.jpg"
+            },
+            {
+                "name": "Noratape Nontarat",
+                "image": "https://image.tmdb.org/t/p/w185/ug9DOqsPOwJdjg1Y9wT0xS1Tt7B.jpg"
+            },
+            {
+                "name": "Tinnakorn Puwasakdiwong",
+                "image": "https://image.tmdb.org/t/p/w185/dweXi3uBtuZCuY21RxJtHMfA1km.jpg"
+            }
+        ],
+        "details": "A story about the love and relationships of people in an office, a place that is not only a workplace but also a place where someone's feelings are made clear.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/6ce54992cc5045c00741e6b17f63e0b8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/6ce54992cc5045c00741e6b17f63e0b8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
