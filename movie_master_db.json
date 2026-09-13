@@ -51312,5 +51312,169 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_837852",
+        "type": "movie",
+        "title": "The Western: A Lost TV Special",
+        "release_year": 1958,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/xpDMFgx2FjtL2agnMN1W0RajggX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gvydfg2eFPUQbqtK77vG4BYmdul.jpg",
+        "rating": 0.0,
+        "release_date": "1958-06-08",
+        "runtime": "64 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Documentary"
+        ],
+        "cast": [
+            {
+                "name": "Gene Autry",
+                "image": "https://image.tmdb.org/t/p/w185/tpR8uEfcVmlQA1mQlg4CyljLfMz.jpg"
+            },
+            {
+                "name": "Dave Garroway",
+                "image": "https://image.tmdb.org/t/p/w185/n5ZyyWhcn1D76ocAyk9gsjd97HN.jpg"
+            },
+            {
+                "name": "Big John Hamilton",
+                "image": "https://image.tmdb.org/t/p/w185/dOSJOBU04iDbh3AcwsR0taXElWS.jpg"
+            },
+            {
+                "name": "Chill Wills",
+                "image": "https://image.tmdb.org/t/p/w185/uk1BljEiYkzSd7ihp7SJIpBVI3u.jpg"
+            },
+            {
+                "name": "Walter Brennan",
+                "image": "https://image.tmdb.org/t/p/w185/7hlZ3WbT4JQxeN3fLMongUXNHma.jpg"
+            }
+        ],
+        "details": "A 1958 TV special celebrating westerns featuring John Wayne, John Ford, Gary Cooper, Gene Autry, Gabby Hayes and more.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/d18581ecb635e1fe127a8a0c15280585-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/02/06/ed7353893444841a24251b4b1a36ffc1-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/24/363d5f56b1aac3ecbd83759dde0134c0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/12/13/f6e3d55af641b6c42d1249f0aadc941e-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/14/1fa1ca804a6f744a3e1b42e1fc9039f2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/05/12/15abe61153953e617afadf601ab13764-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/04/02/a2c9a71a35c3411aff37132bbeb677d8-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/10/30cd68688df186542cb904861f21e365-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/01/55b3758c809aa1ccf982836f82893497-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/01/b43be29dfa585284e8d7a5796725c5cc-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/21/ef6d6f975d8e85145a9c75d4379c980b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/10/24/1775ce52d7f4d1a51f54fa372c3859a3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/11/24/a25d083038494c0eef195c401aa08153-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/546d1d81dbb7590b09d3314bf42be0da-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/557714a89e02c39c35b9e21b67ce6716-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/24/98f7c885752efb3e5f63578108221205-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/a336d0cd63d6216405aece6f1b96b105-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/03/19/6a554759f422cb5b7c4d3b64a78c7f3a-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/23/e3ccac46cf9ed7d0945ce4685eabc2f3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/24/94d88c97a1cac69ef540dda485416d91-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
