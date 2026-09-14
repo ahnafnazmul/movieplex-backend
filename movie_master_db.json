@@ -52042,5 +52042,222 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_813418",
+        "type": "movie",
+        "title": "Hot Spot",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=x54MPGBWXA8",
+        "poster": "https://image.tmdb.org/t/p/w500/42egzT6e4CIEdrEo4Xc31DKyGjA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/aRsmRuomE4vIGNUPIGLrp9ojM5a.jpg",
+        "rating": 4.6,
+        "release_date": "2026-08-21",
+        "runtime": "101 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Action",
+            "Crime",
+            "Fantasy",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Andrzej Konopka",
+                "image": "https://image.tmdb.org/t/p/w185/3QoIbqsBXj9Si1kuGOl0YCxM52v.jpg"
+            },
+            {
+                "name": "Noomi Rapace",
+                "image": "https://image.tmdb.org/t/p/w185/m0J6ZqEyNljqF1DXBoC9DcMStHP.jpg"
+            },
+            {
+                "name": "Reika Kirishima",
+                "image": "https://image.tmdb.org/t/p/w185/htxRwdj2L0SxP18PzNIt21m6qEt.jpg"
+            },
+            {
+                "name": "Filippa Kaye",
+                "image": "https://image.tmdb.org/t/p/w185/nv0JSUzDcd6JbJBkdvE6azzLBlL.jpg"
+            },
+            {
+                "name": "George Aurimas Cris",
+                "image": ""
+            }
+        ],
+        "details": "Set in a near future society ruled by sentient A.I., a private eye investigates a murder case only to discover a rebel group capable of undermining the digital overlord. As the detective's identity slowly unravels, his world enters a state of hypnotic meltdown.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/77742bcba5f0a0d0d22288eb3d495691-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/77742bcba5f0a0d0d22288eb3d495691-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_485538",
+        "type": "movie",
+        "title": "A Maid Made Mad",
+        "release_year": 1943,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/jWRUZReQ1zhyvdORuFY9BklJhlV.jpg",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "1943-03-19",
+        "runtime": "17 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Andy Clyde",
+                "image": "https://image.tmdb.org/t/p/w185/a2HSCnMfIpLnLCNr6r4gWM8zR6K.jpg"
+            },
+            {
+                "name": "Barbara Pepper",
+                "image": "https://image.tmdb.org/t/p/w185/1ZKZNxJ8ywkTojU9dImRr6eWdKs.jpg"
+            },
+            {
+                "name": "Gwen Kenyon",
+                "image": "https://image.tmdb.org/t/p/w185/iSLujxPYi8p08E44XVnPvEh76ZC.jpg"
+            },
+            {
+                "name": "Mabel Forrest",
+                "image": "https://image.tmdb.org/t/p/w185/sW6Fjl6FqUNcHRYBm3LIl7SpoWw.jpg"
+            },
+            {
+                "name": "Vernon Dent",
+                "image": "https://image.tmdb.org/t/p/w185/hIZai6jeEnoomMjlJm2bhHSQ15O.jpg"
+            }
+        ],
+        "details": "Andy innocently becomes involved with a female customer; his wife jumps to the wrong conclusion and walks out on him.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/07/66527376cee2e6233995fec69e4c5bbf-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/07/66527376cee2e6233995fec69e4c5bbf-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1604264",
+        "type": "movie",
+        "title": "Rakkasapuradhol",
+        "release_year": 2026,
+        "original_language": "kn",
+        "video_trailer": "https://www.youtube.com/watch?v=dSX_3YWtACY",
+        "poster": "https://image.tmdb.org/t/p/w500/aOGcRUDWdY5XAzZXVtynDS7ZW0A.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pIMic9xzsi2boCtN2UhCglKuFcT.jpg",
+        "rating": 0.0,
+        "release_date": "2026-02-06",
+        "runtime": "127 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Raj B Shetty",
+                "image": "https://image.tmdb.org/t/p/w185/vlNvrGhaYzmRxhkd4GOKFNfSkHY.jpg"
+            },
+            {
+                "name": "Archana Kottige",
+                "image": "https://image.tmdb.org/t/p/w185/oMeRsQGnOVykRMWTsT6o5KB4EGY.jpg"
+            },
+            {
+                "name": "Swathishta Krishnan",
+                "image": "https://image.tmdb.org/t/p/w185/pDgnxMubPzgcIFoELyRRIAjafZf.jpg"
+            },
+            {
+                "name": "B Suresha",
+                "image": ""
+            },
+            {
+                "name": "Salmin Sheriff",
+                "image": ""
+            }
+        ],
+        "details": "Inspector Shiva an alcoholic officer struggling with schizophrenia, is transferred to Rakkasapura, a seemingly quiet village with a low crime rate. Soon The village’s peace is shattered by a series of gruesome murders. Young women are found dead, dressed in bridal finery with their faces charred beyond recognition. Witness as a troubled cop in rural India confronts his own demons while pursuing a complex case that tests his moral boundaries and beliefs.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa85b6073f33",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1641580",
+        "type": "movie",
+        "title": "The Last Assassins",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=rJ-ti9v1y8Y",
+        "poster": "https://image.tmdb.org/t/p/w500/dCEvwyR3XlTos78iHZzPa8a3urg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gRh0ZzVpjVW03AnOQNsO5aSYN9b.jpg",
+        "rating": 5.2,
+        "release_date": "2026-08-11",
+        "runtime": "84 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Athena Park",
+                "image": "https://image.tmdb.org/t/p/w185/z2Oi9YYcAnmEGM3hdFNuY1AM6TW.jpg"
+            },
+            {
+                "name": "Josh Bainbridge",
+                "image": "https://image.tmdb.org/t/p/w185/6DElbUWF8O0kCDXWnxRiUwwO6Ni.jpg"
+            },
+            {
+                "name": "Donno Mitoma",
+                "image": "https://image.tmdb.org/t/p/w185/kX5YNWQwhn6DJc0XAtqqJXvO0hT.jpg"
+            },
+            {
+                "name": "Lora Burke",
+                "image": "https://image.tmdb.org/t/p/w185/hkK47d2DduNisGUYfAXmSFcr97D.jpg"
+            },
+            {
+                "name": "Morgan Bedard",
+                "image": "https://image.tmdb.org/t/p/w185/8hjkAIrTNYLlJsGmKlsq2fwmibv.jpg"
+            }
+        ],
+        "details": "The world lives in a permanent winter and is shrouded in a deadly fog. In the distant future, Nobel must take a young girl to her aunt, whom she has never met, after her father has been killed. He has sworn to protect the members of that family, and few remain. When they arrive at an abandoned laboratory, holograms tell the family’s story. But can the digital world become physical? The young woman may be the solution.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aa850b585f06",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
