@@ -48784,7 +48784,8 @@
         "categories": [
             "Movies",
             "English",
-            "Thriller"
+            "Thriller",
+            "Action"
         ],
         "cast": [
             {
@@ -52312,6 +52313,75 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/b8ec15ac85e228a43eaa6b165c9e7122-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_430608",
+        "type": "movie",
+        "title": "The Price of Love",
+        "release_year": 1995,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/aLJxeZ3f8mPiJveQcCFsWjTuNlC.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/aoeVSU8V5KZoAzfmUVSGLOM2wVh.jpg",
+        "rating": 5.8,
+        "release_date": "1995-11-28",
+        "runtime": "90 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "TV Movie"
+        ],
+        "cast": [
+            {
+                "name": "Peter Facinelli",
+                "image": "https://image.tmdb.org/t/p/w185/mmha3A5INmromiCsN8FBSLScVpZ.jpg"
+            },
+            {
+                "name": "Laurel Holloman",
+                "image": "https://image.tmdb.org/t/p/w185/c9cMysLLh0nWEAqNj3pp9nqq3MC.jpg"
+            },
+            {
+                "name": "Jay R. Ferguson",
+                "image": "https://image.tmdb.org/t/p/w185/jCtInEztDWedF5gp7m29CAnbijM.jpg"
+            },
+            {
+                "name": "Steven Martini",
+                "image": "https://image.tmdb.org/t/p/w185/abNHa9hAM8IJafgS1dE19GIbHQs.jpg"
+            },
+            {
+                "name": "Alexis Cruz",
+                "image": "https://image.tmdb.org/t/p/w185/uHzhMzneDq6CKgYeuo9bnIL41kj.jpg"
+            }
+        ],
+        "details": "16 year old Bret lives with his indifferent father and a stepmother who abhors him. After yet another fight he leaves home. He meets two guys and a girl who are drifting around. He feels attracted to Roxanne and they decide to continue together to LA. Unfortunately Roxanne gets busted by the police, so Bret is on his own again. In LA he meets some nice guys who offer him lodging. However they are involved with (male) prostitution...",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/12/6e533fe801f560452de5c3a78e0a5f3c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/12/6e533fe801f560452de5c3a78e0a5f3c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=5Q9KqcnxQd8_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=5Q9KqcnxQd8_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
             }
         ],
         "_source_site": "themoviebox"
