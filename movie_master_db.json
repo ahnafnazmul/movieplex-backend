@@ -52259,5 +52259,61 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_300507",
+        "type": "series",
+        "title": "Crew Girl",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Xs5qsfqp-tA",
+        "poster": "https://image.tmdb.org/t/p/w500/jkPZW1iHNvlI6077NxSxwITa1tj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lmtTtOjsIBxwKD7LsAD5eeyhq1g.jpg",
+        "rating": 7.9,
+        "release_date": "2026-09-10",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Miku Martineau",
+                "image": "https://image.tmdb.org/t/p/w185/58S1hYHe1TuHgxxaddzCbqxjJNJ.jpg"
+            },
+            {
+                "name": "Jessica Paré",
+                "image": "https://image.tmdb.org/t/p/w185/udvHIbFPW646vDkbnipb82wPUxs.jpg"
+            },
+            {
+                "name": "Samuel Braun",
+                "image": "https://image.tmdb.org/t/p/w185/8nP9SqKpvVgJcw9mgANPdMKHf72.jpg"
+            },
+            {
+                "name": "Kyle Clark",
+                "image": "https://image.tmdb.org/t/p/w185/yFkg5ClOTqc6ca643bOeaUtnDb3.jpg"
+            },
+            {
+                "name": "Thomas Cadrot",
+                "image": "https://image.tmdb.org/t/p/w185/2klFFu6ZSunZPGC51Bg2kSdx7Xg.jpg"
+            }
+        ],
+        "details": "After a family scandal, teen rower Teagan Tao moves to a small town and joins an elite prep school's all-boys crew, sparking rivalry and attraction.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/b8ec15ac85e228a43eaa6b165c9e7122-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/b8ec15ac85e228a43eaa6b165c9e7122-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
