@@ -52479,5 +52479,63 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1765132",
+        "type": "movie",
+        "title": "A Mama Deola Wedding Story",
+        "release_year": 2026,
+        "original_language": "yo",
+        "video_trailer": "https://www.youtube.com/watch?v=_qHnr1-0zB4",
+        "poster": "https://image.tmdb.org/t/p/w500/yfyEXy2qa3HT3umB7u8HtnFqjBl.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-09-04",
+        "runtime": "120 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Folagade Banks",
+                "image": ""
+            },
+            {
+                "name": "Shaffy Bello",
+                "image": "https://image.tmdb.org/t/p/w185/lPZnFa19grkg9ijw22d11mZKvE0.jpg"
+            },
+            {
+                "name": "Toyin Abraham",
+                "image": "https://image.tmdb.org/t/p/w185/7Hmot3IO6qfscUpmHqMiKuxOD7B.jpg"
+            },
+            {
+                "name": "Omowunmi Dada",
+                "image": "https://image.tmdb.org/t/p/w185/kJt41l0rXIWa8z04B3Ib4xRehsr.jpg"
+            },
+            {
+                "name": "Erica Nlewedim",
+                "image": "https://image.tmdb.org/t/p/w185/743ZuyX7CZSq3ohFZKxVeu6e2GX.jpg"
+            }
+        ],
+        "details": "The story follows a fierce matriarch trying to fund her son's dream wedding while facing snobbish in-laws, chaotic wedding events, and a hidden hospital secret.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/04/0333809b930b292aa56c47fb28c876db-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/04/0333809b930b292aa56c47fb28c876db-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
