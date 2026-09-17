@@ -52707,5 +52707,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_15393",
+        "type": "movie",
+        "title": "Play Misty for Me",
+        "release_year": 1971,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=6Y9J7QjN1gg",
+        "poster": "https://image.tmdb.org/t/p/w500/m1rdcRWJ9QAgS5lFkrZN9B6kaKf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1hVYX8rmxkMpifYsTERkUyrz3ay.jpg",
+        "rating": 6.6,
+        "release_date": "1971-10-01",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Clint Eastwood",
+                "image": "https://image.tmdb.org/t/p/w185/8TwdCfeOZH7ucRlfLZ6wObxa7cO.jpg"
+            },
+            {
+                "name": "Jessica Walter",
+                "image": "https://image.tmdb.org/t/p/w185/dR7b2FmJGgjfSpwfz3AZzm6X13O.jpg"
+            },
+            {
+                "name": "Donna Mills",
+                "image": "https://image.tmdb.org/t/p/w185/cl46XxBpdZr4onM3UhRXXrnzqgX.jpg"
+            },
+            {
+                "name": "John Larch",
+                "image": "https://image.tmdb.org/t/p/w185/7vKSk4RnjeUTDgdvmeo98JBj2g2.jpg"
+            },
+            {
+                "name": "Jack Ging",
+                "image": "https://image.tmdb.org/t/p/w185/i7gZLiwbFVcxLpEP8lvudNpdkAs.jpg"
+            }
+        ],
+        "details": "A brief fling between a late-night radio disc jockey and an obsessed female fan takes a frightening turn when another woman enters the picture.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/10/6e3b624fda24e9ab96109c99690d6d01-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/10/6e3b624fda24e9ab96109c99690d6d01-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
