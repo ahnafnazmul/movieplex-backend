@@ -52537,5 +52537,175 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_329223",
+        "type": "movie",
+        "title": "Whatever She Wants",
+        "release_year": 2010,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/eWRVjbODtEGiC24RgCBePR8VPJe.jpg",
+        "backdrop": "",
+        "rating": 6.7,
+        "release_date": "2010-02-02",
+        "runtime": "123 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Vivica A. Fox",
+                "image": "https://image.tmdb.org/t/p/w185/oIzevp0dqjIxqRQ2VoSzjiDCBt.jpg"
+            },
+            {
+                "name": "Boris Kodjoe",
+                "image": "https://image.tmdb.org/t/p/w185/fo6bMq96LUDEatiXlQlMctOMGI3.jpg"
+            },
+            {
+                "name": "Richard Roundtree",
+                "image": "https://image.tmdb.org/t/p/w185/9yZseMTfcRuQYp4Nt0qB7kBdEov.jpg"
+            },
+            {
+                "name": "Elimu Nelson",
+                "image": "https://image.tmdb.org/t/p/w185/bZYN9EhYaNF3H8S3o835ukeFdSB.jpg"
+            },
+            {
+                "name": "Julie Dickens",
+                "image": "https://image.tmdb.org/t/p/w185/2u6no8jUPPGtrZEX9HeKUUOBqmT.jpg"
+            }
+        ],
+        "details": "Whatever She Wants is the story about one woman s determination to rediscover who she really is... Vivian Wolf (Vivica A. Fox) has suffered one heartbreak too many and has no room left for unfulfilling relationships. Now she has come up with the solution to every woman s problem, a private club called Whatever She Wants where men have to qualify to get in.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/10/1fb03a3df603b1aa9c41fd9b6d9428dc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/10/1fb03a3df603b1aa9c41fd9b6d9428dc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=2Dmx8QLUlH4_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=2Dmx8QLUlH4_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1656489",
+        "type": "movie",
+        "title": "Sultana",
+        "release_year": 2026,
+        "original_language": "tr",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/wDebpR4NplIM8EteAGfd51Zdisu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/29XMlo2zt5LTA0YMjA3hubbM942.jpg",
+        "rating": 0.0,
+        "release_date": "2026-04-17",
+        "runtime": "120 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Music"
+        ],
+        "cast": [
+            {
+                "name": "Tuba Büyüküstün",
+                "image": "https://image.tmdb.org/t/p/w185/14QRLZqXAZglMB7Z25uXg6IG3LG.jpg"
+            },
+            {
+                "name": "Derya Pınar Ak",
+                "image": "https://image.tmdb.org/t/p/w185/9PxHCK6FifopvrEgsAnwOrRcxs5.jpg"
+            },
+            {
+                "name": "Seray Kaya",
+                "image": "https://image.tmdb.org/t/p/w185/c2E3RGJSoc9IA0NXrCh4g4GIx4i.jpg"
+            },
+            {
+                "name": "Begüm Akkaya",
+                "image": "https://image.tmdb.org/t/p/w185/5JqzpYhyio17y0ievgDGEDiacBg.jpg"
+            },
+            {
+                "name": "Rojbin Erden",
+                "image": "https://image.tmdb.org/t/p/w185/nRTrcE1UHlPlaztsGvrawMHUN4Q.jpg"
+            }
+        ],
+        "details": "Sultana is a drama set in Istanbul's one and only strip club, telling a story of a women, power, rivalry and solidarity. A new Turkish story where women are not victims in a fairy tale, but warriors learning that the 'handsome prince' is often the real monster- and their only salvation is each other. Meral the long reigning queen of the one and only strip club of Istanbul which is Sultana, takes a talented new Belarusian dancer named Anna under her wing. But she soon realizes she has created a rival powerful enough to replace her, and a ruthless power struggle erupts between the two women.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aab91424796f",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_625499",
+        "type": "movie",
+        "title": "Matchless Hero Fang Shiyu",
+        "release_year": 2019,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/wiYK5H7Ws9GA5iZ1jcl8gFecmMP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xAbw927C9bzfCAjskQHksl56S87.jpg",
+        "rating": 8.5,
+        "release_date": "2019-04-18",
+        "runtime": "82 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Xie Miao",
+                "image": "https://image.tmdb.org/t/p/w185/wMs2w0GsTLStLHTEDyd1FfNhzuv.jpg"
+            },
+            {
+                "name": "Wang Yingying",
+                "image": ""
+            },
+            {
+                "name": "Yu Xinyan",
+                "image": "https://image.tmdb.org/t/p/w185/zezKMPo42ED5U1gYYsf3QEQkmD7.jpg"
+            },
+            {
+                "name": "Zhang Chunzhong",
+                "image": "https://image.tmdb.org/t/p/w185/iw6dzpP1TV1fHOhSbNRkOkS4XJR.jpg"
+            },
+            {
+                "name": "Wang Shengli",
+                "image": "https://image.tmdb.org/t/p/w185/qxgZRO9hAj4rutbZ2beGxJrYHiE.jpg"
+            }
+        ],
+        "details": "Fang Shiyu’s mentor was killed by the traitor, White Brow, and he now must pursue the revenge.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aab9144477f6",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
