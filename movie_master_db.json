@@ -38333,7 +38333,8 @@
         "runtime": "N/A min",
         "categories": [
             "Web Series",
-            "English"
+            "English",
+            "Drama"
         ],
         "cast": [
             {
@@ -48431,6 +48432,12 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/21/8b102f15a4d1e9dab4a21050931aee69-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aad005084ac9",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -52914,5 +52921,113 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1061474",
+        "type": "movie",
+        "title": "Superman",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=MikgqM0LXr4",
+        "poster": "https://image.tmdb.org/t/p/w500/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yRBc6WY3r1Fz5Cjd6DhSvzqunED.jpg",
+        "rating": 7.3,
+        "release_date": "2025-07-09",
+        "runtime": "130 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Adventure",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "David Corenswet",
+                "image": "https://image.tmdb.org/t/p/w185/jWEOTZuV8xN1M2SpEkZQFcyt3tP.jpg"
+            },
+            {
+                "name": "Rachel Brosnahan",
+                "image": "https://image.tmdb.org/t/p/w185/rO0QB7J89EpS4LmPWR2Zg5Qd6vY.jpg"
+            },
+            {
+                "name": "Nicholas Hoult",
+                "image": "https://image.tmdb.org/t/p/w185/pXm8GWTm9eIA8pUGOjvmYjlxamu.jpg"
+            },
+            {
+                "name": "Edi Gathegi",
+                "image": "https://image.tmdb.org/t/p/w185/dt8yMyycDlzxkjhmuuJJ4tXDbp4.jpg"
+            },
+            {
+                "name": "Nathan Fillion",
+                "image": "https://image.tmdb.org/t/p/w185/aW6vCxkUZtwb6iH2Wf88Uq0XNVv.jpg"
+            }
+        ],
+        "details": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/video/2022/11/04/e514ae6b883b8c5affe853fa79c0cbc1-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/video/2022/11/04/e514ae6b883b8c5affe853fa79c0cbc1-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1476682",
+        "type": "movie",
+        "title": "Gail Daughtry and the Celebrity Sex Pass",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=GEbaLieo_Kw",
+        "poster": "https://image.tmdb.org/t/p/w500/98T4bnMjJs71WOVZoeY8edZhfgZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vfcqksiJMpzFJ8Y1cVbSAH6J6rY.jpg",
+        "rating": 6.1,
+        "release_date": "2026-07-09",
+        "runtime": "94 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Zoey Deutch",
+                "image": "https://image.tmdb.org/t/p/w185/cpKcORQx7QquIy1ZZvEy8LEVLr2.jpg"
+            },
+            {
+                "name": "John Slattery",
+                "image": "https://image.tmdb.org/t/p/w185/tm7g84OWD5gQRoyfG4hduBphP1j.jpg"
+            },
+            {
+                "name": "Ken Marino",
+                "image": "https://image.tmdb.org/t/p/w185/7MeXvFGhzBwDm6c7lvdalA3GJYM.jpg"
+            },
+            {
+                "name": "Miles Gutierrez-Riley",
+                "image": "https://image.tmdb.org/t/p/w185/22JmiXEKoIHTKAdZaxOiS5wVHnM.jpg"
+            },
+            {
+                "name": "Ben Wang",
+                "image": "https://image.tmdb.org/t/p/w185/5A6JgNR9nlFVjuzJ1oOXyj2hfJo.jpg"
+            }
+        ],
+        "details": "Small-town Kansas hairdresser Gail Daughtry's fiancé uses his 'celebrity sex pass' on Jennifer Aniston, prompting Gail to travel to LA with her friend Otto to find her own pass, Jon Hamm, to even the score.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aad0a2124ff8",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
