@@ -53353,5 +53353,57 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1741770",
+        "type": "movie",
+        "title": "Karmakhya",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=800-mrhBRyc",
+        "poster": "https://image.tmdb.org/t/p/w500/sGVN0bh4xQtJIHiXFy2JyWVOiMd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/y14fNgZFBx3lkUGydG8yc2n1tQr.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-31",
+        "runtime": "126 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Mystery",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Samaira Sri",
+                "image": ""
+            },
+            {
+                "name": "Samuthirakani",
+                "image": "https://image.tmdb.org/t/p/w185/z8mU71yAUfVLgKWHorsTIsyQwnt.jpg"
+            },
+            {
+                "name": "Abhirami",
+                "image": "https://image.tmdb.org/t/p/w185/fLeOMTryyBPFrz5Wdxv3zBtx3V9.jpg"
+            },
+            {
+                "name": "Saranya Pradeep",
+                "image": "https://image.tmdb.org/t/p/w185/zGdjxXehk4Bashdfq4DpOqnVzc6.jpg"
+            },
+            {
+                "name": "Madhunandan",
+                "image": "https://image.tmdb.org/t/p/w185/mgdaJCVzD5XczMcYQj9xpFbKiiJ.jpg"
+            }
+        ],
+        "details": "A mysterious visit to a grieving family pulls a young woman into a terrifying world of secrets, black magic, and haunting illusions. As disturbing events begin to blur the line between reality and nightmare, Kaamakhya finds herself trapped in a chilling chain of events rooted in a dark past that refuses to stay buried.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aaedd4711e31",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
