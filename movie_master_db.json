@@ -4346,6 +4346,12 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/21/c528381cf546b17c0d50d497bee67205-ld.mp4"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aad98399125c",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -53086,5 +53092,109 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_328570",
+        "type": "series",
+        "title": "Love Penalty",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/3ZQnEdblrloboBjc5xxpam0ZHi4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6wtAdVSwewIiT7jllSjMFjUdBZK.jpg",
+        "rating": 7.0,
+        "release_date": "2026-09-15",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Hong Dong-geon",
+                "image": "https://image.tmdb.org/t/p/w185/pA3RA8L8YtDEjppEke5w6w6jCXv.jpg"
+            },
+            {
+                "name": "이건호",
+                "image": "https://image.tmdb.org/t/p/w185/mvnKJyGTfVmjr7RoptJhGqNznh.jpg"
+            },
+            {
+                "name": "Kim Seong-hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/zfhzVIgNhBIwK1ZwdjNNBojI5sZ.jpg"
+            },
+            {
+                "name": "Yoo Jin-seok",
+                "image": "https://image.tmdb.org/t/p/w185/mUZwypYlh6WBV6aAgzmT8zNVwAO.jpg"
+            }
+        ],
+        "details": "The relationship that began with suspicion became the most dangerous foul. The story of three people that begins the moment they cross the line they should have stopped at.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/17/0cf81a0a30f8c4b6c93d3a707b142f50-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/17/0cf81a0a30f8c4b6c93d3a707b142f50-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1302904",
+        "type": "movie",
+        "title": "Practical Magic 2",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Ho10_4IX1jE",
+        "poster": "https://image.tmdb.org/t/p/w500/ogwQOLbCfncjvBhFb5l0OmQH8KC.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nUcauJ000dFBYkgGpxyxJ5aWEH2.jpg",
+        "rating": 6.0,
+        "release_date": "2026-09-09",
+        "runtime": "130 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Fantasy",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Sandra Bullock",
+                "image": "https://image.tmdb.org/t/p/w185/4rfjISL3Flx16jfiusXoHbpt87X.jpg"
+            },
+            {
+                "name": "Nicole Kidman",
+                "image": "https://image.tmdb.org/t/p/w185/4KSQDodyBtTDMaREYgMdWD1LbH1.jpg"
+            },
+            {
+                "name": "Joey King",
+                "image": "https://image.tmdb.org/t/p/w185/94c69mPYSK9jFsAEu0OKB7Qs684.jpg"
+            },
+            {
+                "name": "Maisie Williams",
+                "image": "https://image.tmdb.org/t/p/w185/zk1rlBVci2fmnFhMezaPpa4kwZF.jpg"
+            },
+            {
+                "name": "Xolo Maridueña",
+                "image": "https://image.tmdb.org/t/p/w185/tJMI7BpjlhHSMpzSz9e1XxygnKd.jpg"
+            }
+        ],
+        "details": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aad9b1439f47",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
