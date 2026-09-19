@@ -53196,5 +53196,106 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_964960",
+        "type": "movie",
+        "title": "The Taste of Things",
+        "release_year": 2023,
+        "original_language": "fr",
+        "video_trailer": "https://www.youtube.com/watch?v=LeI-4eWvqwU",
+        "poster": "https://image.tmdb.org/t/p/w500/pYwK6rg0pmxDxzdtECABUsf49Eu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yDA4vgY6Thi8jflN94kHa05mqjj.jpg",
+        "rating": 7.1,
+        "release_date": "2023-11-08",
+        "runtime": "135 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Benoît Magimel",
+                "image": "https://image.tmdb.org/t/p/w185/pdXiN4doHkWmIF18mDg6pe0RtAv.jpg"
+            },
+            {
+                "name": "Juliette Binoche",
+                "image": "https://image.tmdb.org/t/p/w185/htdZZIroEyJaeHQAUTqokNfkPgl.jpg"
+            },
+            {
+                "name": "Patrick d'Assumçao",
+                "image": "https://image.tmdb.org/t/p/w185/5j87FUF2Lp01gO5e8pD2VHsOE1q.jpg"
+            },
+            {
+                "name": "Emmanuel Salinger",
+                "image": "https://image.tmdb.org/t/p/w185/fc9sL0ZOLOu57Rc6i3qdK14JxTb.jpg"
+            },
+            {
+                "name": "Jan Hammenecker",
+                "image": "https://image.tmdb.org/t/p/w185/1YPkkXR3GK205H7xEWeVvgGEi7x.jpg"
+            }
+        ],
+        "details": "Set in 1889 France, Dodin Bouffant is a chef living with his personal cook and lover Eugénie. They share a long history of gastronomy and love but Eugénie refuses to marry Dodin, so the food lover decides to do something he has never done before: cook for her.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aae5b151e396",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1453317",
+        "type": "movie",
+        "title": "Hari Ka Om",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/lQsZYEkWFyBJePetxewwUevRcul.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fbDG5Z2J6T9ptm806Et2iw9MGlE.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-18",
+        "runtime": "128 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Raghubir Yadav",
+                "image": "https://image.tmdb.org/t/p/w185/khyp4vnuGKVxrtszyB7kSf3vuzw.jpg"
+            },
+            {
+                "name": "Anshuman Jha",
+                "image": "https://image.tmdb.org/t/p/w185/qYUK0PJqNezUHHzp65NJAu9Vtcb.jpg"
+            },
+            {
+                "name": "Soni Razdan",
+                "image": "https://image.tmdb.org/t/p/w185/yOkPrW9Dnut5FqePGz34PdTpF2s.jpg"
+            },
+            {
+                "name": "Ayesha Kapoor",
+                "image": "https://image.tmdb.org/t/p/w185/9adzxCqez08MTCvDL97YK8XTOIc.jpg"
+            },
+            {
+                "name": "Samta Sudiksha",
+                "image": "https://image.tmdb.org/t/p/w185/6XIwc8To5SP0Tt0bXDMzJyvjmA4.jpg"
+            }
+        ],
+        "details": "Hari Prasad and his son Om are separated because of ideological differences. When Hari suffers a heart attack one morning and announces that he is going to die in six days, his wish to take his last breath at Kashi (Varanasi) with his elder son Om sets them on a destined journey to heal their dysfunctional relationship.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aae59ffcefbe",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
