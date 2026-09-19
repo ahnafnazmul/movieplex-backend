@@ -53297,5 +53297,61 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_275102",
+        "type": "series",
+        "title": "The Scandal",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=FeISX5E1uJc",
+        "poster": "https://image.tmdb.org/t/p/w500/pJsIzlTjmx07ilwEkl0cglrMVa1.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uc1p1PEbEMpdIHqnU9TESNC6Jhp.jpg",
+        "rating": 6.0,
+        "release_date": "2026-09-18",
+        "runtime": "55 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Son Ye-jin",
+                "image": "https://image.tmdb.org/t/p/w185/i6fASFvO3mUceZJvipn4RiLHA44.jpg"
+            },
+            {
+                "name": "Ji Chang-wook",
+                "image": "https://image.tmdb.org/t/p/w185/sBmHrO5Tn27Ot5hy0yAKniROmNb.jpg"
+            },
+            {
+                "name": "Nana",
+                "image": "https://image.tmdb.org/t/p/w185/zEjVBD734pLcNQrZESkKTNhKl6z.jpg"
+            },
+            {
+                "name": "Han Seon-hwa",
+                "image": "https://image.tmdb.org/t/p/w185/daP8g9eByOuJnnKUROrKwAGU1Yp.jpg"
+            },
+            {
+                "name": "Shin Youn-ha",
+                "image": "https://image.tmdb.org/t/p/w185/9F8XXBvdziId1BwW1EwZbY8hOiB.jpg"
+            }
+        ],
+        "details": "In Joseon, a secret proposal ignites hidden desires in a gifted noblewoman, a famed lover and an unsuspecting lady caught in their dangerous game.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/5d4139ed3531092da7deaa5279ac22ef-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/5d4139ed3531092da7deaa5279ac22ef-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
