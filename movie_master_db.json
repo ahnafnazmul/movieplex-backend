@@ -53565,5 +53565,114 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1323244",
+        "type": "movie",
+        "title": "Rage of Stars",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=F5bYhuO2Rkg",
+        "poster": "https://image.tmdb.org/t/p/w500/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
+        "rating": 6.6,
+        "release_date": "2026-08-06",
+        "runtime": "106 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Andrea Tivadar",
+                "image": "https://image.tmdb.org/t/p/w185/iYtFxJGcrNmxYTq6rhivdFsotMx.jpg"
+            },
+            {
+                "name": "Jord Knotter",
+                "image": "https://image.tmdb.org/t/p/w185/f0ufZ6YbyWnu36kFg1d2OOjcM2S.jpg"
+            },
+            {
+                "name": "Jack McEvoy",
+                "image": "https://image.tmdb.org/t/p/w185/pmE0tQiPxQT5yI6DZlnnjd8m8nB.jpg"
+            },
+            {
+                "name": "Elijah Rowen",
+                "image": "https://image.tmdb.org/t/p/w185/9aa2UljPdCZlp7meRE4dIzeu4Ej.jpg"
+            },
+            {
+                "name": "Małgorzata Klara",
+                "image": "https://image.tmdb.org/t/p/w185/aOpwXHLkh2KrctgTX7cD7Cs1QN0.jpg"
+            }
+        ],
+        "details": "A story about a woman from the International Special Forces Unit, who has a premonition about the impending end of humanity.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/02/63df754418b1d1eeb55151225029ac0f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/02/63df754418b1d1eeb55151225029ac0f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_2048",
+        "type": "movie",
+        "title": "I, Robot",
+        "release_year": 2004,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=ry1N9lrzt7A",
+        "poster": "https://image.tmdb.org/t/p/w500/efwv6F2lGaghjPpBRSINHtoEiZB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jpFcZH2eyh6gcoxCa637TrGe4bT.jpg",
+        "rating": 7.0,
+        "release_date": "2004-07-15",
+        "runtime": "115 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Science Fiction"
+        ],
+        "cast": [
+            {
+                "name": "Will Smith",
+                "image": "https://image.tmdb.org/t/p/w185/8TlKqbXYgHmmaEoPBJ7djJ8Rxxa.jpg"
+            },
+            {
+                "name": "Bridget Moynahan",
+                "image": "https://image.tmdb.org/t/p/w185/7WuwRCcwtBmJZ64pNsLbwhQCEA4.jpg"
+            },
+            {
+                "name": "Alan Tudyk",
+                "image": "https://image.tmdb.org/t/p/w185/jUuUbPuMGonFT5E2pcs4alfqaCN.jpg"
+            },
+            {
+                "name": "James Cromwell",
+                "image": "https://image.tmdb.org/t/p/w185/vpNQQbM5PtxsYmVm4oh79SGFyUK.jpg"
+            },
+            {
+                "name": "Bruce Greenwood",
+                "image": "https://image.tmdb.org/t/p/w185/AmfylDaijUHq8cHMq002xfkW7Vk.jpg"
+            }
+        ],
+        "details": "In 2035, where robots are commonplace and abide by the three laws of robotics, a technophobic cop investigates an apparent suicide. Suspecting that a robot may be responsible for the death, his investigation leads him to believe that humanity may be in danger.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab005c28e1ef",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
