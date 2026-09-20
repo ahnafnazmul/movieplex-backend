@@ -53461,5 +53461,109 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_109424",
+        "type": "movie",
+        "title": "Captain Phillips",
+        "release_year": 2013,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=TzU3UJuV80w",
+        "poster": "https://image.tmdb.org/t/p/w500/8Td0kkocW6sD3uRpzwfMfkqMWhx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fLrGQzvfhTwn9m7AqlJh65FMFfG.jpg",
+        "rating": 7.5,
+        "release_date": "2013-10-10",
+        "runtime": "134 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Tom Hanks",
+                "image": "https://image.tmdb.org/t/p/w185/oFvZoKI6lvU03n4YoNGAll9rkas.jpg"
+            },
+            {
+                "name": "Barkhad Abdi",
+                "image": "https://image.tmdb.org/t/p/w185/utfeg8GnGyW3aVNcRfhII9RCXB6.jpg"
+            },
+            {
+                "name": "Barkhad Abdirahman",
+                "image": "https://image.tmdb.org/t/p/w185/o5K3tGiClerpgpCOpqFZGJ5cd28.jpg"
+            },
+            {
+                "name": "Faysal  Ahmed",
+                "image": "https://image.tmdb.org/t/p/w185/jrnwwBq4Xq3UADdAb028ddK32eD.jpg"
+            },
+            {
+                "name": "Mahat M. Ali",
+                "image": "https://image.tmdb.org/t/p/w185/lV31hBFhk0YT7ktv7OVMqonA7yz.jpg"
+            }
+        ],
+        "details": "The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aafcfd53a209",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1033774",
+        "type": "movie",
+        "title": "Wish of the Fairy Fish",
+        "release_year": 2023,
+        "original_language": "ru",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/okV0jIBJnkONugxNkkwK5uiABLU.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gPqxXEOuzC7e1yAX4RzELKzxvMJ.jpg",
+        "rating": 7.6,
+        "release_date": "2023-10-26",
+        "runtime": "115 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Adventure",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Nikita Kologrivyy",
+                "image": "https://image.tmdb.org/t/p/w185/gXOZMIhuKM5HjgvPpEcM5uOc0gU.jpg"
+            },
+            {
+                "name": "Mila Ershova",
+                "image": "https://image.tmdb.org/t/p/w185/hT8apUnYK2PEjGQ5VzW6DdlaIa5.jpg"
+            },
+            {
+                "name": "Roman Madyanov",
+                "image": "https://image.tmdb.org/t/p/w185/vJclfjeIrnY1sx9jVLSETLS2LYA.jpg"
+            },
+            {
+                "name": "Alina Alekseeva",
+                "image": "https://image.tmdb.org/t/p/w185/lqxwLy2txYts5cqh7bJSecunvmD.jpg"
+            },
+            {
+                "name": "Yuri Kolokolnikov",
+                "image": "https://image.tmdb.org/t/p/w185/77g4exFoU4FvCWoWVgn6aXR01rA.jpg"
+            }
+        ],
+        "details": "If you go fishing, be prepared to draw the fish of your dreams, the magical Pike, which can grant any three wishes. Only Emelya let two wishes down the drain, and decided to save the third. Therefore, in order to achieve the hand of the royal daughter Anfisa, he will have to act without magical power, on his own. And Pike will help him, who without her skin will appear as an ordinary girl Vasilisa.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aafb53dc48a4",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
