@@ -53674,5 +53674,102 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_294990",
+        "type": "series",
+        "title": "Spring of the Blade",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=RAzoSbzSHd4",
+        "poster": "https://image.tmdb.org/t/p/w500/uRWqHI4R4nOSPpRnbr8JjnpCmgx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qLZQnTiQxkBOid9tVLWC1CmoOcu.jpg",
+        "rating": 9.5,
+        "release_date": "2026-09-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Xu Kai",
+                "image": "https://image.tmdb.org/t/p/w185/wEfatQWa3v9tNtmgr5LOOmFSSJj.jpg"
+            },
+            {
+                "name": "Zhou Ye",
+                "image": "https://image.tmdb.org/t/p/w185/alqSqe6RmhIkZ6eUcjDXS6QTJhS.jpg"
+            }
+        ],
+        "details": "After losing her mother as a child, Xie Qingyuan returns years later to uncover the truth and seek justice. Reuniting with Shen Run, once a fallen youth and now a righteous court official, they join forces to expose corruption and right past wrongs. Through shared dangers and unwavering support, they grow closer, devoting their lives to protecting each other and their people.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/17/5132b5b53ec7a769862531e574024092-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/17/5132b5b53ec7a769862531e574024092-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_575558",
+        "type": "movie",
+        "title": "Bolo Na Tumi Amar",
+        "release_year": 2010,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/bcAW4G3NQFfiOkZToacRHDWofOF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/f4jSjAZfcmtpNYerIT6ZlTIWins.jpg",
+        "rating": 4.0,
+        "release_date": "2010-01-15",
+        "runtime": "160 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Dev",
+                "image": "https://image.tmdb.org/t/p/w185/5mBOEEyenbcHgxwAV0NCGNRHaxY.jpg"
+            },
+            {
+                "name": "Koel Mallick",
+                "image": "https://image.tmdb.org/t/p/w185/1IsGhoL0kHVvw9v1z2mXaYAmEU9.jpg"
+            },
+            {
+                "name": "Tota Roy Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/bwLeiID8R8awnedpDUUSj8DWq9Y.jpg"
+            },
+            {
+                "name": "Sabyasachi Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/aUDwMWkTc4sUiwvX63bh2QAtKVZ.jpg"
+            },
+            {
+                "name": "Bharat Kaul",
+                "image": "https://image.tmdb.org/t/p/w185/bLzpsswwQu2tgLTjTai0KZHcXRs.jpg"
+            }
+        ],
+        "details": "A couple marry in order to save the bride from her father's choice of groom, but they don't actually love each other. It's \"make it work\" time.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab025a6682f7",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
