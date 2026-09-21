@@ -53956,5 +53956,63 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_312585",
+        "type": "series",
+        "title": "The Crow Club",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/yjPlfO23INYLyMWr1yr7rhwJhKO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wPJYkh76gSEECGsN4KTKKLFBkPj.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Natchanon Supravorawong",
+                "image": "https://image.tmdb.org/t/p/w185/koUGZedv2SR3s3LjgJco3QZD8HZ.jpg"
+            },
+            {
+                "name": "Nawaphat Thannamongkhonsawat",
+                "image": "https://image.tmdb.org/t/p/w185/yw7JI2Qx1Lqm87DYwN9gPXaGiix.jpg"
+            },
+            {
+                "name": "Hemmawich Kwanamphaiphan",
+                "image": "https://image.tmdb.org/t/p/w185/1VHmkaTaU1lv3WsLPsXvloLEMle.jpg"
+            },
+            {
+                "name": "Thanapon Aiemkumchai",
+                "image": "https://image.tmdb.org/t/p/w185/jkXSHggxNBKIhPgGLNrYFjrcWDX.jpg"
+            },
+            {
+                "name": "Phachara Thanakulwuttiporn",
+                "image": "https://image.tmdb.org/t/p/w185/oAQnDa1xtGt3C2mnmMAJfKA88LS.jpg"
+            }
+        ],
+        "details": "Four couples form part of the mysterious Crow Club, where supernatural cases and dangerous missions lead to unexpected romantic bonds.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/20/fa4b68a7e6af82f1732c6fe138eed8c0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/20/fa4b68a7e6af82f1732c6fe138eed8c0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
