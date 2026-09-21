@@ -17590,7 +17590,8 @@
             "Hindi",
             "Horror",
             "Thriller",
-            "English"
+            "English",
+            "Adventure"
         ],
         "cast": [
             {
@@ -53766,6 +53767,190 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://turbovidhls.com/t/6ab025a6682f7",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1512010",
+        "type": "movie",
+        "title": "Parasomnia",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=-tYE5KY0dk4",
+        "poster": "https://image.tmdb.org/t/p/w500/hXbKeuO6yIvVpt385E2OLUikKWj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yJKZ7MpvFKRtnusAxNMdweMZK6J.jpg",
+        "rating": 6.3,
+        "release_date": "2025-08-22",
+        "runtime": "85 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Jasmine Mathews",
+                "image": "https://image.tmdb.org/t/p/w185/zxm5F8jUkzbJBOTTzgj2kiuwK8Y.jpg"
+            },
+            {
+                "name": "RJ Brown",
+                "image": "https://image.tmdb.org/t/p/w185/1GFzvLW2GPlkvJRUBwfr1o5FD6.jpg"
+            },
+            {
+                "name": "Sally Stewart",
+                "image": "https://image.tmdb.org/t/p/w185/53qWGe1DZy8nBPD49N5uRPWNNC6.jpg"
+            },
+            {
+                "name": "Stephen Barrington",
+                "image": "https://image.tmdb.org/t/p/w185/sAPVBORoW1tkKqLdBUqgmLCSnv8.jpg"
+            },
+            {
+                "name": "Danny Brown",
+                "image": "https://image.tmdb.org/t/p/w185/9Gzsi98iFWsPqmYTQRzjpKtc773.jpg"
+            }
+        ],
+        "details": "After her friend vanishes, Riley must confront the demon from her night terrors that may have crossed into reality, while facing her own tragic past.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/04/70b6387534d5180074af288149a7c0ed-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/04/70b6387534d5180074af288149a7c0ed-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1465685",
+        "type": "movie",
+        "title": "The Devil Within",
+        "release_year": 2026,
+        "original_language": "es",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/5PwuCJhCSDqpg1LxlfFxdiZiyjv.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5lOl5DuXQF6vI7wySoIDcv3JgHC.jpg",
+        "rating": 5.4,
+        "release_date": "2026-03-06",
+        "runtime": "84 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Tamar Novas",
+                "image": "https://image.tmdb.org/t/p/w185/3MpjB6lxeTUA9EunaV4kAyvOvIG.jpg"
+            },
+            {
+                "name": "Marina Salas",
+                "image": "https://image.tmdb.org/t/p/w185/z8gCkzgavPFd5pW2gsuKvSV5yKk.jpg"
+            },
+            {
+                "name": "Iván Marcos",
+                "image": "https://image.tmdb.org/t/p/w185/f5wADKdAXfuJQKTlNGSaNdMaXnu.jpg"
+            },
+            {
+                "name": "Annick Weerts",
+                "image": "https://image.tmdb.org/t/p/w185/1ffW1vYA6N2EsW10GCJeR9eACrk.jpg"
+            },
+            {
+                "name": "Alban Petit",
+                "image": "https://image.tmdb.org/t/p/w185/x3sT6AAJIaz1GCBwCE64cmYOqbV.jpg"
+            }
+        ],
+        "details": "Spain, 1980s. Philippe is a ten-year-old French boy traveling with his very pregnant mother, Marie, and his father, Tomas, whose plan is to take them home to the village where he grew up and introduce the boy to his Spanish roots. But an unfortunate breakdown leads the family to a scrapyard on the outskirts of a deserted inland town, where they come upon its owners, Alicia and Miguel.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab14123927b4",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1775462",
+        "type": "movie",
+        "title": "Khoonta",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "A woman bound spiritually to a Himalayan river waits for her missing husband, as her village quietly slips into an uncertain future-where faith, memory, and nature begin to reveal truths no one is ready to face.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab13f9edf9d9",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_37799",
+        "type": "movie",
+        "title": "The Social Network",
+        "release_year": 2010,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=rBCNU0XT9GY",
+        "poster": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
+        "rating": 7.4,
+        "release_date": "2010-10-01",
+        "runtime": "121 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Jesse Eisenberg",
+                "image": "https://image.tmdb.org/t/p/w185/2ojZrkt5rdkUi857WSeCatxXdGS.jpg"
+            },
+            {
+                "name": "Andrew Garfield",
+                "image": "https://image.tmdb.org/t/p/w185/beO5YvbTjrr5yy8hW26KVDMSr35.jpg"
+            },
+            {
+                "name": "Armie Hammer",
+                "image": "https://image.tmdb.org/t/p/w185/4Z5nLW2biRjqstDMKqSaeQYAesK.jpg"
+            },
+            {
+                "name": "Justin Timberlake",
+                "image": "https://image.tmdb.org/t/p/w185/6Yk5t9RwkdkAT8Qv45934Eez2CA.jpg"
+            },
+            {
+                "name": "Rooney Mara",
+                "image": "https://image.tmdb.org/t/p/w185/zT6UyHFHEQ9RcKykplWCycKBnoS.jpg"
+            }
+        ],
+        "details": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab13df89f170",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
             }
