@@ -54226,5 +54226,74 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_225867",
+        "type": "series",
+        "title": "Secret Relationship: The teacher is my housemate",
+        "release_year": 2011,
+        "original_language": "ja",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/2hIz4lhMjRQZprAnM0EIUNzqEuO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oBbPXgGcytS8DGLBamNQLZqCakY.jpg",
+        "rating": 6.0,
+        "release_date": "2011-09-10",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kotaro Koizumi",
+                "image": "https://image.tmdb.org/t/p/w185/5BpUwwuH8Q7kZlnF7R6eEcwa3us.jpg"
+            },
+            {
+                "name": "Saki Fukuda",
+                "image": "https://image.tmdb.org/t/p/w185/ylzKnxjR30KUphgCGVIqGKWBGB3.jpg"
+            },
+            {
+                "name": "Eriko Sato",
+                "image": "https://image.tmdb.org/t/p/w185/piDBEccNZT6QBJlFCZefjpEDQi9.jpg"
+            },
+            {
+                "name": "Masanori Ishii",
+                "image": "https://image.tmdb.org/t/p/w185/mvWqmOFLKpSWsRcFfKyiuq8J58W.jpg"
+            },
+            {
+                "name": "Akiyoshi Nakao",
+                "image": "https://image.tmdb.org/t/p/w185/9pjCB8ZmOE2jQhZsWjwpdVz59Yh.jpg"
+            }
+        ],
+        "details": "The story of a high school student whose parents died, leaving her with no other relatives. In order to survive she has been working as a hostess in a cabaret, until the day she met her homeroom teacher there. She ended up losing her job and has no other alternative than to begin to live with her homeroom teacher. These two people exchange a promise and start living a secret life, leading to an odd lifestyle for both of them.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/12/aae5057a1c0e61ee687d6a381733bafb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/12/aae5057a1c0e61ee687d6a381733bafb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=i9xzI3A_jjE_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=i9xzI3A_jjE_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
