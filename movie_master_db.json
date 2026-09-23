@@ -54295,5 +54295,119 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1607127",
+        "type": "movie",
+        "title": "One Last Shot",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=8PAy3i9uU0A",
+        "poster": "https://image.tmdb.org/t/p/w500/niQ4NBh2jqAf1hDZP5m6ReWFAb7.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8giIQcHpxgsPVP6c7aQtHl3txuh.jpg",
+        "rating": 8.1,
+        "release_date": "2026-09-22",
+        "runtime": "97 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Scott Adkins",
+                "image": "https://image.tmdb.org/t/p/w185/9NRr2a1riIn5CWn5McZLJlk4vxR.jpg"
+            },
+            {
+                "name": "Steven Cree",
+                "image": "https://image.tmdb.org/t/p/w185/oH9uSQMJPdFHeVggqvMwheW7nZl.jpg"
+            },
+            {
+                "name": "Hannah Ware",
+                "image": "https://image.tmdb.org/t/p/w185/vQqZkQsGZnikCk0QfJFW7OBuQ07.jpg"
+            },
+            {
+                "name": "Dolph Lundgren",
+                "image": "https://image.tmdb.org/t/p/w185/fB1tOws6Gav0xE8LYlELEb82hJt.jpg"
+            },
+            {
+                "name": "Kane Kosugi",
+                "image": "https://image.tmdb.org/t/p/w185/wqMaPmNgrtqwZDktG0WFeKcqzJx.jpg"
+            }
+        ],
+        "details": "Navy Seal Jake Harris must stop a team of mercenaries, led by his disillusioned former comrade, from disabling the US missile defense network.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/3ddbd4d6d2f79963ee2f104b42c7cc79-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/3ddbd4d6d2f79963ee2f104b42c7cc79-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_21454",
+        "type": "movie",
+        "title": "Kiss of Death",
+        "release_year": 1947,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=VDvh338LUFo",
+        "poster": "https://image.tmdb.org/t/p/w500/3xenZzofvq2rLsCp9R7bTzIHj8t.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/nV8bclTuYEvTKGdZuMWfhjR1vF5.jpg",
+        "rating": 7.1,
+        "release_date": "1947-08-27",
+        "runtime": "99 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Victor Mature",
+                "image": "https://image.tmdb.org/t/p/w185/trTvjfUNOFxYL0Se70ZJMYKUsqS.jpg"
+            },
+            {
+                "name": "Brian Donlevy",
+                "image": "https://image.tmdb.org/t/p/w185/1ScpU7sf6WGlWhHqc0EYlfA4L1d.jpg"
+            },
+            {
+                "name": "Coleen Gray",
+                "image": "https://image.tmdb.org/t/p/w185/9DLWFJofnWiXlzIBVweDRRPed90.jpg"
+            },
+            {
+                "name": "Richard Widmark",
+                "image": "https://image.tmdb.org/t/p/w185/fvR0fQcGTVzmHZUGfPocqT6pRgJ.jpg"
+            },
+            {
+                "name": "Taylor Holmes",
+                "image": "https://image.tmdb.org/t/p/w185/3Ry2FISteIUevnkrEyUnByuIaHy.jpg"
+            }
+        ],
+        "details": "An ex-con trying to go straight must face a crazed criminal out for revenge.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/15/2d9daeab6a86e65d4382f878eb3b7521-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/15/2d9daeab6a86e65d4382f878eb3b7521-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
