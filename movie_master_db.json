@@ -54467,5 +54467,145 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_579283",
+        "type": "movie",
+        "title": "Nagordola",
+        "release_year": 2005,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/cqY8F69Z16qOrFeZCIa35nm6hbQ.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2005-06-15",
+        "runtime": "145 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Roopa Ganguly",
+                "image": "https://image.tmdb.org/t/p/w185/vP534taJlk85GH53ZQ8NOYCtKEW.jpg"
+            },
+            {
+                "name": "Indrani Haldar",
+                "image": "https://image.tmdb.org/t/p/w185/pe2qoDVnMfiiTsx5Baoka5JF3V7.jpg"
+            },
+            {
+                "name": "Samata Das",
+                "image": "https://image.tmdb.org/t/p/w185/aDAbHsF7dRKfD18VxjFsNbKYkcw.jpg"
+            },
+            {
+                "name": "Krishna Kishore Mukhopadhyay",
+                "image": "https://image.tmdb.org/t/p/w185/sc1nq7trRp5Iv3chGRbHLkvtgKA.jpg"
+            },
+            {
+                "name": "Moumita Gupta",
+                "image": "https://image.tmdb.org/t/p/w185/55GxmNaidoYrHxrAFTuWc8hjX0H.jpg"
+            }
+        ],
+        "details": "A dysfunctional family endures chronic illness, unplanned pregnancy, emotional instability, inappropriate affairs, and a host of other issues.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab41d9ec415b",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1242197",
+        "type": "movie",
+        "title": "Beporoya",
+        "release_year": 2026,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/jiL2f1VACWxriLAHyZo6k9n0sl7.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-09-17",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Adrit Roy",
+                "image": "https://image.tmdb.org/t/p/w185/1sbWnPBfoJH34HD7135LcoDlqZZ.jpg"
+            },
+            {
+                "name": "Aryaa Ray",
+                "image": "https://image.tmdb.org/t/p/w185/9dTVfj4JLd3c96DkTaHD3Tbvnog.jpg"
+            }
+        ],
+        "details": "The return of Adrit Roy.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab41a27bebcb",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1647142",
+        "type": "movie",
+        "title": "Mension House Mallesh",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ogAiSE22WPT98qD0W1vfibkqKPS.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/54RLUt3GoWO6vilmC9pOuyh2L0B.jpg",
+        "rating": 5.0,
+        "release_date": "2026-03-06",
+        "runtime": "121 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Maganti Srinath",
+                "image": "https://image.tmdb.org/t/p/w185/yQMTvHK35dP1vs7NZd9AXTfh7fg.jpg"
+            },
+            {
+                "name": "Gayathri Ramana",
+                "image": ""
+            },
+            {
+                "name": "Kamakshi Bhaskarla",
+                "image": "https://image.tmdb.org/t/p/w185/rS6eRKX0ZldriYdZjx6zf8faoHH.jpg"
+            },
+            {
+                "name": "Muralidhar Goud",
+                "image": "https://image.tmdb.org/t/p/w185/3KldPSnn08WhuwoUR9GhZ9OnsI2.jpg"
+            },
+            {
+                "name": "Rajhessh",
+                "image": ""
+            }
+        ],
+        "details": "In a quiet village where gossip spreads faster than the wind, a swaggering young man becomes the talk of the town after his wedding night sparks unexpected rumours. What follows is a hilarious chain of misunderstandings, ego clashes, and small-town chaos. Mension House Mallesh is a lively rural entertainer packed with satire and nonstop laughter.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab4038868310",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
