@@ -54818,5 +54818,119 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_313630",
+        "type": "series",
+        "title": "Eternally Yours",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=y-CDGO9mtJU",
+        "poster": "https://image.tmdb.org/t/p/w500/7Ix6XJM2z8s3vNtywo7Ob7T7gYL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1bmsSexBYKUlkst0TgHZCdf4EvH.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Ed Weeks",
+                "image": "https://image.tmdb.org/t/p/w185/axfAQF3mzQyzqKK5bAppfao312o.jpg"
+            },
+            {
+                "name": "Allegra Edwards",
+                "image": "https://image.tmdb.org/t/p/w185/nF3UoejILNYNmjsyCJKu1mgka5W.jpg"
+            },
+            {
+                "name": "Jaren Lewison",
+                "image": "https://image.tmdb.org/t/p/w185/qMeAcqLHin1jL39GoRgtUt5acJn.jpg"
+            },
+            {
+                "name": "Helen J. Shen",
+                "image": "https://image.tmdb.org/t/p/w185/78gjC8UOesWs56pzlQgZllwTW8R.jpg"
+            },
+            {
+                "name": "Parker Young",
+                "image": "https://image.tmdb.org/t/p/w185/wrBquz08tLT4GpG30JBOvfTVy93.jpg"
+            }
+        ],
+        "details": "Charles and Liz are a charming, married 500-year-old vampire couple whose relationship has survived centuries because, as vampires, divorce isn’t exactly an option. Together, they navigate modern society and their daughter dating a human.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/29/bfec44acfe25620e9db0252865cdd62e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/29/bfec44acfe25620e9db0252865cdd62e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1228834",
+        "type": "movie",
+        "title": "The Fix",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=l5Luvr9TRRc",
+        "poster": "https://image.tmdb.org/t/p/w500/yopXjun3ICFfJci2ukcEzceZjUs.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dJTWIecL2vxsCRl5G0lRhPsfrhc.jpg",
+        "rating": 7.5,
+        "release_date": "2026-09-10",
+        "runtime": "142 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Zachary Levi",
+                "image": "https://image.tmdb.org/t/p/w185/1W8L3kEMMPF9umT3ZGaNIiCYKfZ.jpg"
+            },
+            {
+                "name": "Liam Neeson",
+                "image": "https://image.tmdb.org/t/p/w185/sRLev3wJioBgun3ZoeAUFpkLy0D.jpg"
+            },
+            {
+                "name": "Wes Chatham",
+                "image": "https://image.tmdb.org/t/p/w185/lFoUyX8FZs3XvUWWItCm2ezvAEs.jpg"
+            },
+            {
+                "name": "Titus Welliver",
+                "image": "https://image.tmdb.org/t/p/w185/3hTwn7Maktr6ONq1VvfqyRacjiv.jpg"
+            },
+            {
+                "name": "Navid Negahban",
+                "image": "https://image.tmdb.org/t/p/w185/pWi5tINf4mDvTYbNKZDJPODYKra.jpg"
+            }
+        ],
+        "details": "Disillusioned by the end of the war in Afghanistan, a group of disgraced, war-torn ex-CIA operatives set out to Tehran to take down a life-changing score.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/14/2d2c44ddf6f92db829455fac2132a4f2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/14/2d2c44ddf6f92db829455fac2132a4f2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
