@@ -54607,5 +54607,216 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_259909",
+        "type": "series",
+        "title": "Dexter: Resurrection",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=84o1Q6fB20k",
+        "poster": "https://image.tmdb.org/t/p/w500/8eg1Ka32Mwcs9fBLcJG1iR8CbPo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8J0SjKToFBbg8dKpocVOCsrC77C.jpg",
+        "rating": 8.5,
+        "release_date": "2025-07-13",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Michael C. Hall",
+                "image": "https://image.tmdb.org/t/p/w185/7zUMGoujuev5PUwwv4Gl6ikB50k.jpg"
+            },
+            {
+                "name": "Uma Thurman",
+                "image": "https://image.tmdb.org/t/p/w185/hlYG0MC6im0MHNq1xixxVilfwyR.jpg"
+            },
+            {
+                "name": "Jack Alcott",
+                "image": "https://image.tmdb.org/t/p/w185/65KEuv3LIBEaeIkqhyps6heZ9aa.jpg"
+            },
+            {
+                "name": "Ntare Guma Mbaho Mwine",
+                "image": "https://image.tmdb.org/t/p/w185/nmwMBGmrqVgeAOdWJJJJi9A2l7C.jpg"
+            },
+            {
+                "name": "Kadia Saraf",
+                "image": "https://image.tmdb.org/t/p/w185/lHaOGTMcq4SQeaHxC2BSeAwony9.jpg"
+            }
+        ],
+        "details": "Dexter Morgan awakens from a coma to find Harrison gone without a trace. Realizing the weight of what he put his son through, Dexter sets out for New York City, determined to find him and make things right. But closure won't come easy. When Miami Metro's Angel Batista arrives with questions, Dexter realizes his past is catching up to him fast. As father and son navigate their own darkness in the city that never sleeps, they soon find themselves deeper than they ever imagined - and that the only way out is together.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/22/ffee4e3948575e1f7f95191b6fc369ea-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/22/ffee4e3948575e1f7f95191b6fc369ea-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_726173",
+        "type": "movie",
+        "title": "Debris of Desire",
+        "release_year": 2023,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/z21nOKVvPxsNlHZ1NWAOPhr9xWt.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/yn1bMzXw3IpCwbkxzYUSUl5BxWR.jpg",
+        "rating": 0.0,
+        "release_date": "2023-02-24",
+        "runtime": "101 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Aupee Karim",
+                "image": "https://image.tmdb.org/t/p/w185/67zKMHd4OWEoqND156hLaipRZW4.jpg"
+            },
+            {
+                "name": "Ritwick Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/dLF3tHNCmBpDO5aUkLDRJkL5vqI.jpg"
+            },
+            {
+                "name": "Chandrayee Ghosh",
+                "image": "https://image.tmdb.org/t/p/w185/vdyvAAuykt9GbdNp4KtBKQQcjqb.jpg"
+            },
+            {
+                "name": "Shohel Mondol",
+                "image": "https://image.tmdb.org/t/p/w185/rXaQptajZQMGqCrurkUddv8KKR9.jpg"
+            },
+            {
+                "name": "Amit Saha",
+                "image": "https://image.tmdb.org/t/p/w185/AsIgcMd9mtn9Rkcy5EtbR28X3gy.jpg"
+            }
+        ],
+        "details": "A petty criminal, who loves a whore and wants to run away with her savings, meets a laid-off factory worker who is desperate to stop his wife from working as a housemaid.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab4d6220873d",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_512005",
+        "type": "movie",
+        "title": "Double Feluda",
+        "release_year": 2016,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/9j1C63wiIc1DCZQAj8uOHQytK3K.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6VdjoLYMnmYSQ1Vs5ycbS8AJkvF.jpg",
+        "rating": 8.0,
+        "release_date": "2016-12-16",
+        "runtime": "116 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Mystery",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Sabyasachi Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/aUDwMWkTc4sUiwvX63bh2QAtKVZ.jpg"
+            },
+            {
+                "name": "Shaheb Bhattacherjee",
+                "image": "https://image.tmdb.org/t/p/w185/cC6Fs0yPHlibprPa4G5LUaKPshh.jpg"
+            },
+            {
+                "name": "Bratya Basu",
+                "image": "https://image.tmdb.org/t/p/w185/rIPEwYvbtYgP3Iza2kPZDvlUrmD.jpg"
+            },
+            {
+                "name": "Bhaskar Banerjee",
+                "image": "https://image.tmdb.org/t/p/w185/6R5StmJH2czyIzMGQuMS4iKpwpF.jpg"
+            },
+            {
+                "name": "Saswata Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/cVJVLDy7BNzIbFMcJBPOWeN0Kb.jpg"
+            }
+        ],
+        "details": "The movie consists of two Feluda stories by Satyajit Ray, Samaddar-er-Chabi and Golokdham Rahashya, shown on either half of the film. It was a tribute to the 50-year anniversary of Feluda and a sequel to Royal Bengal Rahashya (2011).",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab4d6250bcce",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_825627",
+        "type": "movie",
+        "title": "Ballygunge Court",
+        "release_year": 2007,
+        "original_language": "bn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/jdpVa6pTMQxaSMgIGqlPAiESDoM.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2007-07-20",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Soumitra Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/pjomXVYzHd62IuduDc9UVS82sBb.jpg"
+            },
+            {
+                "name": "Mithu Chakrabarty",
+                "image": "https://image.tmdb.org/t/p/w185/khvM9MFuLAnsPPX81f3BDF5ZE8v.jpg"
+            },
+            {
+                "name": "Sabyasachi Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/aUDwMWkTc4sUiwvX63bh2QAtKVZ.jpg"
+            },
+            {
+                "name": "Bhaswar Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/agkI0zcFAiknsHJJHTvOckbLqQ1.jpg"
+            },
+            {
+                "name": "Mamata Shankar",
+                "image": "https://image.tmdb.org/t/p/w185/yWavqlUW5oU9VHK5Ocla0wrHBAw.jpg"
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab4d6268ba7a",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
