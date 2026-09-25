@@ -54932,5 +54932,223 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1514682",
+        "type": "movie",
+        "title": "Above & Below",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=18wdUGRPUY4",
+        "poster": "https://image.tmdb.org/t/p/w500/7bOuu1SRALGwsG2fLCTvRkCmQBj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lSd6nEnlaeQkswLLUgHC5gyuXyU.jpg",
+        "rating": 6.1,
+        "release_date": "2026-07-29",
+        "runtime": "95 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Laura Marano",
+                "image": "https://image.tmdb.org/t/p/w185/fpW1Swq6BfAoAw88ZhKf1pssu30.jpg"
+            },
+            {
+                "name": "Christina Ochoa",
+                "image": "https://image.tmdb.org/t/p/w185/msIxEVC8HljvbigzzHVkJFCwuyA.jpg"
+            },
+            {
+                "name": "Mario Tardón",
+                "image": "https://image.tmdb.org/t/p/w185/x2tq4GYBlk4e912IBI2mA4u0BhW.jpg"
+            },
+            {
+                "name": "Antonio Banderas",
+                "image": "https://image.tmdb.org/t/p/w185/n8YlGookYzgD3cmpMP45BYRNIoh.jpg"
+            },
+            {
+                "name": "Ramiro Alonso",
+                "image": "https://image.tmdb.org/t/p/w185/qq2ogOAPi0MPZRUkcWbMMkvO26K.jpg"
+            }
+        ],
+        "details": "A group of friends set off for an unforgettable vacation. What begins as an adventure of partying and diving quickly turns into a nightmare when they are attacked by criminals in open waters.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/21/3b769a5ba02c10a94d38aa5a886ed051-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/21/3b769a5ba02c10a94d38aa5a886ed051-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_286183",
+        "type": "series",
+        "title": "Hollywood Arts",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=IXQP43JjY4Q",
+        "poster": "https://image.tmdb.org/t/p/w500/pJsrA4On2ITOk1rBq9PiaRzU2Q0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-15",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Daniella Monet",
+                "image": "https://image.tmdb.org/t/p/w185/5QW1c5SUch81C5KIpfJgclJ4ct5.jpg"
+            },
+            {
+                "name": "Yvette Nicole Brown",
+                "image": "https://image.tmdb.org/t/p/w185/7cJowCcDPnyXqHJ46GgSNHomUGo.jpg"
+            },
+            {
+                "name": "Alyssa Miles",
+                "image": "https://image.tmdb.org/t/p/w185/tY3NUk8EpXSyyRIdqTRVliwangK.jpg"
+            },
+            {
+                "name": "Emmy Liu-Wang",
+                "image": "https://image.tmdb.org/t/p/w185/2tGqKiwu42XhnUsZDBPXo8LI5l5.jpg"
+            },
+            {
+                "name": "Peyton Jackson",
+                "image": "https://image.tmdb.org/t/p/w185/lS1aBK2F2uTnM7HqejSQsCnYWBo.jpg"
+            }
+        ],
+        "details": "Struggling actress Trina Vega returns to her former high school, Hollywood Arts, as an unqualified substitute teacher, quickly finding herself both clashing with and unexpectedly inspiring a new generation of ambitious and talented students as they learn to find their true path at Hollywood's most elite performing arts school.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/5e8fa3fef9bdea714de1ef270a39befd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/5e8fa3fef9bdea714de1ef270a39befd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1592821",
+        "type": "movie",
+        "title": "Mango Pachcha",
+        "release_year": 2026,
+        "original_language": "kn",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ho0aScFTUy02dy6wA9IqAF9RFTd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jwPFsqMEf9EAz5H6DCB3ECHxcAI.jpg",
+        "rating": 0.0,
+        "release_date": "2026-06-05",
+        "runtime": "95 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Drama",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Sanchith Sanjeev",
+                "image": ""
+            },
+            {
+                "name": "Kaajal Kunder",
+                "image": ""
+            },
+            {
+                "name": "Prashanth Hiremath",
+                "image": ""
+            },
+            {
+                "name": "Mayur Patel",
+                "image": ""
+            },
+            {
+                "name": "Jai Gopinath",
+                "image": ""
+            }
+        ],
+        "details": "Set in Mysuru, a crime drama unfolds across a decade (2001-2011), following a chain of events that builds tension over time. The city's setting plays a key role in reflecting different phases across the years.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab602f056bdb",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1529372",
+        "type": "movie",
+        "title": "Don't Be Shy!",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=SWGSmIdhn2I",
+        "poster": "https://image.tmdb.org/t/p/w500/lBeDq7KmZaQNnnIXgExCAmfLMqT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/xnGBwwD9QjeQeRKzDEVp0cNAEFe.jpg",
+        "rating": 7.0,
+        "release_date": "2026-09-25",
+        "runtime": "149 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Arushi Bajaj",
+                "image": "https://image.tmdb.org/t/p/w185/jLRbwbRmAr4LXvrhtN2bwZ0LbMO.jpg"
+            },
+            {
+                "name": "Ansh Duggal",
+                "image": "https://image.tmdb.org/t/p/w185/2myp9QPNBKexoUqcrqKdkvrmmRL.jpg"
+            },
+            {
+                "name": "Bianca Arora",
+                "image": "https://image.tmdb.org/t/p/w185/20eGNy3ndlhQ0GjBu4113OyC9s.jpg"
+            },
+            {
+                "name": "Piyush Khati",
+                "image": "https://image.tmdb.org/t/p/w185/aqcNXyxGjL5CcCchydGnQyHbdk4.jpg"
+            },
+            {
+                "name": "Kunaal Roy Kapur",
+                "image": "https://image.tmdb.org/t/p/w185/l8EbUNJUbfyKuHIQiXWK91FGyea.jpg"
+            }
+        ],
+        "details": "Quintessential Mean Girl, Shyamili ‘Shy’ Das, finds herself suddenly relegated to Loser-ville when Mayank, her boyfriend of three years, suddenly dumps her. But Shy, all set to get her revenge, finds herself falling into friendship and compassion with someone unexpected… Mayank’s new girlfriend - Tara.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab602f1d5720",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
