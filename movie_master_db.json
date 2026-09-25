@@ -55150,5 +55150,171 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_332507",
+        "type": "series",
+        "title": "The Last Oath",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/6Gt3rbhwfniiZoeORGcuDai5Nar.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zDFiTPF1ox2LLIAjS2qdnUwk7go.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Action & Adventure",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Chen Minghao",
+                "image": "https://image.tmdb.org/t/p/w185/t2pEVg5V720DpbwSvV54hpkENDv.jpg"
+            },
+            {
+                "name": "Chen Liang",
+                "image": "https://image.tmdb.org/t/p/w185/jXc7hJyOwq6jHApBZamCesYYXnV.jpg"
+            },
+            {
+                "name": "Lu Lu",
+                "image": "https://image.tmdb.org/t/p/w185/9SnvXcCpLwkvJAu6QoH4xe8QXgg.jpg"
+            },
+            {
+                "name": "Wang Chaoyang",
+                "image": "https://image.tmdb.org/t/p/w185/9UNnttLbN7TFgVbv0XCgHyy6gtc.jpg"
+            }
+        ],
+        "details": "Immune to a deadly zombie virus, a student forms a forbidden bond with the agent sent to hunt him as they battle corrupt pharmaceutical giants.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/21/c4528c300e5774c964e5fde70a8bb6dd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/21/c4528c300e5774c964e5fde70a8bb6dd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_303630",
+        "type": "series",
+        "title": "Cupertino",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=rEhu8VhNIi4",
+        "poster": "https://image.tmdb.org/t/p/w500/70AhJpOqU2oKyQF2paJA764CSje.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qiolrbrJIgeeULDB9aQjUPFn2yU.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Mike Colter",
+                "image": "https://image.tmdb.org/t/p/w185/9LG9AzoY2ak6M2kwhKlGkLOUUot.jpg"
+            },
+            {
+                "name": "Rachel Keller",
+                "image": "https://image.tmdb.org/t/p/w185/7WPsuYzygjtLbbG97GQksQNi1eG.jpg"
+            },
+            {
+                "name": "Ella Stiller",
+                "image": "https://image.tmdb.org/t/p/w185/zrVtDBIeheeWuc82k6UcxSstXj4.jpg"
+            },
+            {
+                "name": "Nik Dodani",
+                "image": "https://image.tmdb.org/t/p/w185/9bCiUBAuInJi4MMpt7rL1kzKt72.jpg"
+            },
+            {
+                "name": "Busy Philipps",
+                "image": "https://image.tmdb.org/t/p/w185/7yvrZFL9gM4mqRITD5rrVU0mcmM.jpg"
+            }
+        ],
+        "details": "A scrappy lawyer takes on a powerful tech giant in a high-stakes legal battle, navigating the cutthroat world of Silicon Valley while fighting for justice and the little guy's rights.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/21/94b0bf2ee31ff7ba4acd2f14ce6e5f38-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/21/94b0bf2ee31ff7ba4acd2f14ce6e5f38-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_286617",
+        "type": "series",
+        "title": "Tip Toe",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=SWIR5sGTVjM",
+        "poster": "https://image.tmdb.org/t/p/w500/nhOm2TM9iarJmsSMBkX0hHqA58j.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mX5njTGmCl8QGgdoBWiSKmHEy23.jpg",
+        "rating": 6.8,
+        "release_date": "2026-05-31",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Alan Cumming",
+                "image": "https://image.tmdb.org/t/p/w185/axil8ufunARfqyU4ceZNh36fkVQ.jpg"
+            },
+            {
+                "name": "David Morrissey",
+                "image": "https://image.tmdb.org/t/p/w185/gj7ENB9pBobXA3wMfw6uKcWr2GM.jpg"
+            },
+            {
+                "name": "Elizabeth Berrington",
+                "image": "https://image.tmdb.org/t/p/w185/wFz71bIKTlQoa8v1s243TIh5wUm.jpg"
+            },
+            {
+                "name": "Pooky Quesnel",
+                "image": "https://image.tmdb.org/t/p/w185/gULckuxXu4dvOviDGQqySAKfjWL.jpg"
+            },
+            {
+                "name": "Iz Hesketh",
+                "image": "https://image.tmdb.org/t/p/w185/rHXi10bmh880f2huJzgu7sb1q7h.jpg"
+            }
+        ],
+        "details": "An ordinary Manchester suburb becomes a minefield of lies and violence when Leo gives neighbour Clive his spare key.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/1539146561393c5742add328c57bdccb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/1539146561393c5742add328c57bdccb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
