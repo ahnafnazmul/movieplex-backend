@@ -55316,5 +55316,380 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_270509",
+        "type": "movie",
+        "title": "The Good Bad-Man",
+        "release_year": 1916,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/17mj3WppuNYgYRaadHn9a3edgRm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uwfur8U08n8Y36Y1jN24Zmk0MVZ.jpg",
+        "rating": 6.2,
+        "release_date": "1916-04-21",
+        "runtime": "50 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Western"
+        ],
+        "cast": [
+            {
+                "name": "Douglas Fairbanks",
+                "image": "https://image.tmdb.org/t/p/w185/vJcdNOemp7t2SIBtCLS6V3cZ2Mf.jpg"
+            },
+            {
+                "name": "Sam De Grasse",
+                "image": "https://image.tmdb.org/t/p/w185/qiMJezjBhoygL6UDnGxF1wfqBm1.jpg"
+            },
+            {
+                "name": "Pomeroy Cannon",
+                "image": "https://image.tmdb.org/t/p/w185/js5q1tNBPl1UHnkA08wvjTB5RSj.jpg"
+            },
+            {
+                "name": "Joseph Singleton",
+                "image": "https://image.tmdb.org/t/p/w185/ymLpb3sF8yIfuIEMZnUAzKLdgVo.jpg"
+            },
+            {
+                "name": "Bessie Love",
+                "image": "https://image.tmdb.org/t/p/w185/aOt4c5AoO1Zp8W93JTBnl1eEcFk.jpg"
+            }
+        ],
+        "details": "An outlaw calling himself Passin' Through halts his \"evil\" ways long enough to help out some children in difficulty.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/23/607fada6987e186b385e0383012b850d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/23/607fada6987e186b385e0383012b850d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=5GIA0jq4VG8_CMS_720p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=5GIA0jq4VG8_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=5GIA0jq4VG8_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_273247",
+        "type": "series",
+        "title": "The Lowdown",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=cE9bq37W3Qo",
+        "poster": "https://image.tmdb.org/t/p/w500/aPd3Zn6c3iAMwhr79TPTtb6ovzF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/TMfV5xdAEZhzGN9MYXYomuhePz.jpg",
+        "rating": 6.8,
+        "release_date": "2025-09-23",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ethan Hawke",
+                "image": "https://image.tmdb.org/t/p/w185/2LoTr6x0TEM7L5em4kSx1VmGDgG.jpg"
+            }
+        ],
+        "details": "Follow the gritty exploits of citizen journalist Lee Raybon, a self-proclaimed Tulsa \"truthstorian\" whose obsession with the truth is always getting him into trouble.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/d483105c44903989627b09bc6672023c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/01/d483105c44903989627b09bc6672023c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1284046",
+        "type": "movie",
+        "title": "Onslaught",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=AMLCbpM1fRQ",
+        "poster": "https://image.tmdb.org/t/p/w500/cOGtvhc6Ij9KvzM6jZsfQyg0B0O.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+        "rating": 5.9,
+        "release_date": "2026-09-02",
+        "runtime": "92 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Adria Arjona",
+                "image": "https://image.tmdb.org/t/p/w185/gzrI92WZFANIBXOmXl3QGfb8Jak.jpg"
+            },
+            {
+                "name": "Dan Stevens",
+                "image": "https://image.tmdb.org/t/p/w185/fFsgginZKH527o38ZfdDxuzx7Ew.jpg"
+            },
+            {
+                "name": "Eric Wareheim",
+                "image": "https://image.tmdb.org/t/p/w185/x9STTsfrnC7SnuHuRczPFbGi6xp.jpg"
+            },
+            {
+                "name": "Reginald VelJohnson",
+                "image": "https://image.tmdb.org/t/p/w185/78x1ceFIKI8DHfEEj9dg4JrGwPa.jpg"
+            },
+            {
+                "name": "Michael Biehn",
+                "image": "https://image.tmdb.org/t/p/w185/9oFLsADWQm2TvU8XzLIzBbjdMkU.jpg"
+            }
+        ],
+        "details": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/b3c4714123b6e55f473cb7f492bbdd47-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/03/b3c4714123b6e55f473cb7f492bbdd47-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1285815",
+        "type": "movie",
+        "title": "Mahakavya Shri Ramayan Katha – Shri Ram Ki",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/fgaQz1gJDi2ZSPKDVUtc7fGuFk0.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-09-25",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Dev Sharma",
+                "image": ""
+            },
+            {
+                "name": "Anjali Arora",
+                "image": ""
+            },
+            {
+                "name": "Rajneesh Duggal",
+                "image": "https://image.tmdb.org/t/p/w185/70Ym4VWjrApsNWBRX3TVEN9LlYM.jpg"
+            },
+            {
+                "name": "Sheel Verma",
+                "image": ""
+            },
+            {
+                "name": "Nirbhay Wadhwa",
+                "image": "https://image.tmdb.org/t/p/w185/afCinkubLGukUvlal1ll1RSwQ89.jpg"
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab6b9bc55b8f",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1384514",
+        "type": "movie",
+        "title": "The Vvaan",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/v2k82zqPQyuBNZxeu5Fr4LWoKUY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rlOz3ZMwtIyvZB9O4btHASVJjI1.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-25",
+        "runtime": "134 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Sidharth Malhotra",
+                "image": "https://image.tmdb.org/t/p/w185/uFFPFah8J17qYkc6xBq75RIkDmN.jpg"
+            },
+            {
+                "name": "Tamannaah Bhatia",
+                "image": "https://image.tmdb.org/t/p/w185/t4WYoKiFAyO1Rhjv7O03EKmJHp4.jpg"
+            },
+            {
+                "name": "Nimrat Kaur",
+                "image": "https://image.tmdb.org/t/p/w185/7tJoyJygnKOweIlirFCWoOcuSzq.jpg"
+            },
+            {
+                "name": "Maniesh Paul",
+                "image": "https://image.tmdb.org/t/p/w185/pUEKvdgIJSv5TN5moW5qARu3dCk.jpg"
+            },
+            {
+                "name": "Sunil Grover",
+                "image": "https://image.tmdb.org/t/p/w185/ing2HJHnpvl7uzEQpv5M7NP4XK8.jpg"
+            }
+        ],
+        "details": "A rational urban man defies his ancestral forbidden forest and awakens a divine goddess, only to realise that not only do some powers exist beyond logic but he must rise as the village’s only saviour to protect his people from annihilation.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab6b9bdd2745",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1742243",
+        "type": "movie",
+        "title": "Mission D.D.L.J.",
+        "release_year": 2026,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=_EjXXjBO7oc",
+        "poster": "https://image.tmdb.org/t/p/w500/dIP1KlLazmeavTxUCt6Lun4DXu5.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3O3azKG3nP7Jg0ZJYW5uZZ6eImp.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-25",
+        "runtime": "83 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Saad Salmi Naovi",
+                "image": "https://image.tmdb.org/t/p/w185/iYHl3fGJvJFGgdJrPp4765fZNcK.jpg"
+            },
+            {
+                "name": "Labonno Chowdhury",
+                "image": "https://image.tmdb.org/t/p/w185/lMII4IuubEJ8JcsoIWbx8EKH4Dq.jpg"
+            },
+            {
+                "name": "Shawkat Shovon",
+                "image": ""
+            },
+            {
+                "name": "Arman Bin Mahmud",
+                "image": ""
+            },
+            {
+                "name": "Sadia Islam Jui",
+                "image": ""
+            }
+        ],
+        "details": "Diya dreams of a fairy tale love story like Dilwale Dulhaniya Le Jayenge & Dhrubo doesn’t belive in classic love. Eventually life brings them to a point, where they both have to come together & follow the paths.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab6b9bf54d2a",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1107009",
+        "type": "movie",
+        "title": "Nilakanta",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/z4g0yDlh2ApKrcBnTWV0RxbtLiC.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fCkOS9p3Cuki0LxwJ7YOekmi5Xp.jpg",
+        "rating": 0.0,
+        "release_date": "2026-01-02",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [
+            {
+                "name": "Mahendran",
+                "image": "https://image.tmdb.org/t/p/w185/eqv9gaikHJkzrTA78VdWxVcnbyo.jpg"
+            },
+            {
+                "name": "Yashna Muthuluri",
+                "image": "https://image.tmdb.org/t/p/w185/xPjVWO82ONgRpRxV7w1S5jZvUQy.jpg"
+            },
+            {
+                "name": "Neha Pathan",
+                "image": "https://image.tmdb.org/t/p/w185/ex3UZASuHAtQQLoDCWit2kG8jwh.jpg"
+            },
+            {
+                "name": "Sneha Ullal",
+                "image": "https://image.tmdb.org/t/p/w185/dS6AD6WaSsbI79g0LCkUPfwUGCV.jpg"
+            },
+            {
+                "name": "Darbha Appaji Ambarisha",
+                "image": "https://image.tmdb.org/t/p/w185/xloua8ADzktCAq4BVTC6XvLEfjE.jpg"
+            }
+        ],
+        "details": "Saraswathipuram is a Village,where Education is Well Valued.nilakanta Work as a Tailor in That Village.nilakanta is Wise and Good From Childhood, He Believes in Karma but Unfortunately Karma Curses Him, No Matter How Big an Opponent He is,he Fights Bravely for His Life.who is That Rival ?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab6b9c0cdf89",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
