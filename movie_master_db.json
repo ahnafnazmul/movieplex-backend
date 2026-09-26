@@ -38489,6 +38489,18 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/ab83c5a06fbc76e0dc04d9b650b32141-sd.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/24/a09dc845097b18bbc6b3840164429ab9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/24/a09dc845097b18bbc6b3840164429ab9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -55657,7 +55669,8 @@
         "runtime": "N/A min",
         "categories": [
             "Movies",
-            "English"
+            "English",
+            "Action"
         ],
         "cast": [
             {
@@ -55691,5 +55704,235 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_275722",
+        "type": "series",
+        "title": "Vampirina: Teenage Vampire",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=A28sq3j6KAo",
+        "poster": "https://image.tmdb.org/t/p/w500/2o2jksVjFNOhs8NcDuUP6jhR1GP.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/m54fpF9Enq74G3liicywY1CzY2x.jpg",
+        "rating": 7.1,
+        "release_date": "2025-09-12",
+        "runtime": "25 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kenzi Richardson",
+                "image": "https://image.tmdb.org/t/p/w185/jlZWoPz2iXTI1GS7YUOQd2PdFNe.jpg"
+            },
+            {
+                "name": "Jiwon Lee",
+                "image": "https://image.tmdb.org/t/p/w185/4yEHqiKtx97c67klgVfnJuliM5h.jpg"
+            },
+            {
+                "name": "Faith Hedley",
+                "image": "https://image.tmdb.org/t/p/w185/cwTJqvXv99lGtzr5jIz16Sx2zH8.jpg"
+            },
+            {
+                "name": "Shaun Dixon",
+                "image": "https://image.tmdb.org/t/p/w185/ltYinkTJlBli4oHfzhE5orK2zvl.jpg"
+            },
+            {
+                "name": "Milo Maharlika",
+                "image": "https://image.tmdb.org/t/p/w185/aCaitDn8XqSz7eCwwFe2tEI3gg0.jpg"
+            }
+        ],
+        "details": "Follow a tween vampire girl who leaves the safety of Transylvania to attend a performing arts boarding school. Living amongst humans for the first time, she pursues her passion for music while keeping her vampire identity a secret, something that’s made more challenging when her overprotective father charges an overzealous ghost to live with her at the school.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/19/d2a62a6b1e34c4d37046b22cc38e8df3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/09/19/d2a62a6b1e34c4d37046b22cc38e8df3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_256711",
+        "type": "series",
+        "title": "The Rainmaker",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=-__6rI43NyE",
+        "poster": "https://image.tmdb.org/t/p/w500/q8l0lj20amBFi0SBs8NI9yJpaHq.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
+        "rating": 7.7,
+        "release_date": "2025-08-15",
+        "runtime": "43 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Milo Callaghan",
+                "image": "https://image.tmdb.org/t/p/w185/jRPVXcIc3nfRbWPe5NQODVl9N10.jpg"
+            },
+            {
+                "name": "Lana Parrilla",
+                "image": "https://image.tmdb.org/t/p/w185/jw0H1hMEW9xJ4atAzGMMRUFiys.jpg"
+            },
+            {
+                "name": "Madison Iseman",
+                "image": "https://image.tmdb.org/t/p/w185/5JVhacnNhqLcWpGPH1fqL7Ovq7g.jpg"
+            },
+            {
+                "name": "P.J. Byrne",
+                "image": "https://image.tmdb.org/t/p/w185/1JVBaxRy3OxkHymD3nwBd5kVWWL.jpg"
+            },
+            {
+                "name": "Dan Fogler",
+                "image": "https://image.tmdb.org/t/p/w185/zJWbLEjfbDthBMucq9M6L4GJXL3.jpg"
+            }
+        ],
+        "details": "Fresh out of law school, Rudy Baylor goes head to head with courtroom lion Leo Drummond as well as his law school girlfriend, Sarah. Rudy, along with his boss, Bruiser, and her disheveled paralegal, Deck, uncovers two connected conspiracies surrounding the mysterious death of their client's son.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/07/24/545c95571178fffb5c707a5fba0fbbb0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/07/24/545c95571178fffb5c707a5fba0fbbb0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1148365",
+        "type": "movie",
+        "title": "Matchbox the Movie",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=7xfqITrMDcI",
+        "poster": "https://image.tmdb.org/t/p/w500/lFKA4GMz36dImEy3DQPdPF7G4V9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-08",
+        "runtime": "127 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Comedy",
+            "Adventure"
+        ],
+        "cast": [
+            {
+                "name": "John Cena",
+                "image": "https://image.tmdb.org/t/p/w185/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg"
+            },
+            {
+                "name": "Jessica Biel",
+                "image": "https://image.tmdb.org/t/p/w185/u5DzbWKvAzS0M4ZhYqpUR9MZr2M.jpg"
+            },
+            {
+                "name": "Sam Richardson",
+                "image": "https://image.tmdb.org/t/p/w185/hUN7IIbegvL7aSqQI5KRWoqqJLm.jpg"
+            },
+            {
+                "name": "Arturo Castro",
+                "image": "https://image.tmdb.org/t/p/w185/pbLoDCfjm3fLtGHVqQcnbM2d0cu.jpg"
+            },
+            {
+                "name": "Teyonah Parris",
+                "image": "https://image.tmdb.org/t/p/w185/iGvBTOi0y2fbBVwgnBRXgY0IXDY.jpg"
+            }
+        ],
+        "details": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot—and must save the world.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/963d1683d5c57143436f2dfa070972bf-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/963d1683d5c57143436f2dfa070972bf-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_318239",
+        "type": "series",
+        "title": "Oops! Mysterious Sounds",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/dFMli79rMlGveNocOW8cAMfJpFi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vxUL7EZHqev4YSJ0EwpaW97336B.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Patarachai Kimanonth",
+                "image": "https://image.tmdb.org/t/p/w185/szvWLX8dFEhrqkAANObagEJzX8A.jpg"
+            },
+            {
+                "name": "Namna Thanthai",
+                "image": "https://image.tmdb.org/t/p/w185/tJGlylmqhdohGJR7siiBfac4Gx8.jpg"
+            },
+            {
+                "name": "Punyaphat Punyatham",
+                "image": "https://image.tmdb.org/t/p/w185/s2fWvJjww07S46jAe9kKBYdozBx.jpg"
+            },
+            {
+                "name": "Pufah Amornchatchawankul",
+                "image": "https://image.tmdb.org/t/p/w185/1iGcVRmfgQXM9Sclqx4eIEwWEm9.jpg"
+            },
+            {
+                "name": "Chayatorn Suwanpichaisi",
+                "image": "https://image.tmdb.org/t/p/w185/5njfLrDezNkpzeHOWTPDxNNtcWJ.jpg"
+            }
+        ],
+        "details": "Forced into a fake relationship, college rivals Podduang and Jinna team up to solve an actor's murder using a supernatural earpiece that guides them.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/18/baae2184f378eaf8b6a1ea63ffeec9cd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/18/baae2184f378eaf8b6a1ea63ffeec9cd-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
