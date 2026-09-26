@@ -33795,7 +33795,8 @@
         "categories": [
             "Web Series",
             "English",
-            "Action & Adventure"
+            "Action & Adventure",
+            "Comedy"
         ],
         "cast": [
             {
@@ -55934,5 +55935,166 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1492640",
+        "type": "movie",
+        "title": "UNABOMBER",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=B3tR6qQjbgI",
+        "poster": "https://image.tmdb.org/t/p/w500/39aMkR8Y5vhCG9dTkjiqRl8AVqp.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/58D9nalUYW5L5K0guw7hcpsEJBH.jpg",
+        "rating": 7.2,
+        "release_date": "2026-09-25",
+        "runtime": "101 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Russell Crowe",
+                "image": "https://image.tmdb.org/t/p/w185/3IBZF0qCZMZ7zJYlgrH0sQzNZV.jpg"
+            },
+            {
+                "name": "Shailene Woodley",
+                "image": "https://image.tmdb.org/t/p/w185/gL2NvHKW9wAH3qkZuJ76ULUiArB.jpg"
+            },
+            {
+                "name": "Jacob Tremblay",
+                "image": "https://image.tmdb.org/t/p/w185/h8CXDp86Y36CUENF4SXJq5ZRTsf.jpg"
+            },
+            {
+                "name": "Annabelle Wallis",
+                "image": "https://image.tmdb.org/t/p/w185/2ZmO2Zz9TcR0rmSJHOkivcu0heR.jpg"
+            },
+            {
+                "name": "Alexander Ludwig",
+                "image": "https://image.tmdb.org/t/p/w185/3KpzKT4iGhNivSISQMe6EwpAmCi.jpg"
+            }
+        ],
+        "details": "Follow Ted Kaczynski's transformation from Harvard prodigy into the infamous Unabomber. Subjected to controversial psychological experiments by Professor Henry Murray, Kaczynski's troubled past resurfaces decades later when his manhunt, led by FBI agent Joanne Miller, brings to light the chilling consequences of ambition and isolation.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/17/16c27657a4997f5f8896340e788afc11-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/17/16c27657a4997f5f8896340e788afc11-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_521720",
+        "type": "movie",
+        "title": "Avengers Grimm: Time Wars",
+        "release_year": 2018,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=m9fvrfoVJDs",
+        "poster": "https://image.tmdb.org/t/p/w500/nNlDEQ4ksXpzpu3M230Yba6zMQv.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sORO7a1cSghfWE5GD4cSJ0qTN8O.jpg",
+        "rating": 5.0,
+        "release_date": "2018-05-01",
+        "runtime": "88 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Lauren Parkinson",
+                "image": "https://image.tmdb.org/t/p/w185/2BittiPJTMUWbuC8htds3fS29Ki.jpg"
+            },
+            {
+                "name": "Marah Fairclough",
+                "image": "https://image.tmdb.org/t/p/w185/ruE1szGrhj3DX5pwVpuV8CtJ5A7.jpg"
+            },
+            {
+                "name": "Christina Licciardi",
+                "image": "https://image.tmdb.org/t/p/w185/6VyLR5CC2Dx0ZImO4UIObIu1oU4.jpg"
+            },
+            {
+                "name": "Elizabeth Peterson",
+                "image": "https://image.tmdb.org/t/p/w185/lmxq320qLjyVaALnBqSrd9mIjXd.jpg"
+            },
+            {
+                "name": "Eric Feltes",
+                "image": "https://image.tmdb.org/t/p/w185/e2UrtXSdeMuRUIuRfB3v9hKHQ5P.jpg"
+            }
+        ],
+        "details": "When Rumpelstiltskin tries to take over Earth once and for all, The Avengers Grimm must track him down through time in order to defeat him.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab7a7810a66c",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_323660",
+        "type": "movie",
+        "title": "Avengers Grimm",
+        "release_year": 2015,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/9sdAHQxt53W8gZKivX0Pdk4DuXA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tui9Z2QEoZSIPZMfpvPcNP9HIoA.jpg",
+        "rating": 4.1,
+        "release_date": "2015-03-17",
+        "runtime": "90 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Casper Van Dien",
+                "image": "https://image.tmdb.org/t/p/w185/jxRmw8gJYsJ7IG5n9B0PFzy2nHO.jpg"
+            },
+            {
+                "name": "Lou Ferrigno",
+                "image": "https://image.tmdb.org/t/p/w185/obTtRrm8EbDzuiKpLjAd9s1i9v5.jpg"
+            },
+            {
+                "name": "Kimo Leopoldo",
+                "image": ""
+            },
+            {
+                "name": "Milynn Sarley",
+                "image": "https://image.tmdb.org/t/p/w185/nUL8K05qPBgyeUPn57pQIWJusUE.jpg"
+            },
+            {
+                "name": "Marah Fairclough",
+                "image": "https://image.tmdb.org/t/p/w185/ruE1szGrhj3DX5pwVpuV8CtJ5A7.jpg"
+            }
+        ],
+        "details": "When Rumpelstiltskin destroys the Magic Mirror and escapes to the modern world, the four princesses of \"Once Upon a Time\"-Cinderella, Sleeping Beauty, Snow White, and Rapunzel-are sucked through the portal too. Well-trained and endowed with magical powers, the four women must fight Rumpelstiltskin and his army of thralls before he enslaves everyone on Earth.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab7a6104ef3d",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
