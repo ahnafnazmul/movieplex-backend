@@ -53066,7 +53066,8 @@
             "Movies",
             "English",
             "Crime",
-            "Drama"
+            "Drama",
+            "Thriller"
         ],
         "cast": [
             {
@@ -56091,6 +56092,163 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://turbovidhls.com/t/6ab7a6104ef3d",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_332401",
+        "type": "series",
+        "title": "City of Blood",
+        "release_year": 2026,
+        "original_language": "de",
+        "video_trailer": "https://www.youtube.com/watch?v=zzjxf3ExHc4",
+        "poster": "https://image.tmdb.org/t/p/w500/Njr0Rlb4CobAfrGE8NVffYDGqx.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/icPBB9V5IX1hggtNs1fvskP2lsi.jpg",
+        "rating": 6.0,
+        "release_date": "2026-09-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Lea Drinda",
+                "image": "https://image.tmdb.org/t/p/w185/1HYkiGcfdo9Gc5klqbRHpn1jJ4P.jpg"
+            },
+            {
+                "name": "Soma Pysall",
+                "image": "https://image.tmdb.org/t/p/w185/n6FI3M8AeMQnm1MjActLjo4rrfC.jpg"
+            },
+            {
+                "name": "Franz Hartwig",
+                "image": "https://image.tmdb.org/t/p/w185/x1sAXpEBTRVFq0yc6xkWuX166Lc.jpg"
+            },
+            {
+                "name": "David Schütter",
+                "image": "https://image.tmdb.org/t/p/w185/eCyL55l0fb9tccOQfdCGCd7XKAf.jpg"
+            },
+            {
+                "name": "Mouataz Alshaltouh",
+                "image": "https://image.tmdb.org/t/p/w185/24189XQS0pUOZjHSMXuGJyT73cI.jpg"
+            }
+        ],
+        "details": "Berlin — a city-state on the brink. While a privileged few live beneath a climate-controlled dome, those outside struggle to survive in a world ravaged by heat, corruption, and crime. After years apart, sisters Bea and Phoebe are reunited and uncover a dark secret: Vampires are determined to seize political power — and blood has become the city's new currency.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/569c0e7eb25bafafe75ee6985ae16d6f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/569c0e7eb25bafafe75ee6985ae16d6f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_379648",
+        "type": "movie",
+        "title": "Shajarur Kanta",
+        "release_year": 2015,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=z1D1v6uWs5A",
+        "poster": "https://image.tmdb.org/t/p/w500/6aFb4Sg2cifsMBZZANUB3qM2vFy.jpg",
+        "backdrop": "",
+        "rating": 6.0,
+        "release_date": "2015-03-20",
+        "runtime": "178 min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [
+            {
+                "name": "Dhritiman Chatterjee",
+                "image": "https://image.tmdb.org/t/p/w185/uoj2dsDhDe1epdubkpEcv0M5DPX.jpg"
+            },
+            {
+                "name": "Pradip Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/cppOzQRYXNNxezwzJpYnJAqbJeG.jpg"
+            },
+            {
+                "name": "Konkona Sen Sharma",
+                "image": "https://image.tmdb.org/t/p/w185/i538HToMEGR6J2OVmOGX3GfWcQC.jpg"
+            },
+            {
+                "name": "Sonali Gupta Basu",
+                "image": ""
+            },
+            {
+                "name": "Indraneil Sengupta",
+                "image": "https://image.tmdb.org/t/p/w185/vjigFQVRuIHMd6ztGsR0jeDAT92.jpg"
+            }
+        ],
+        "details": "Deepa and Debasish are married under unhappy circumstances, and their relationship proceeds as such, with little communication or connection between husband and wife. Meanwhile, there is a series of mysterious murders where the quill of a porcupine pierces the heart of the victim, killing them instantly. These two stories converge, requiring the presence of detective Byomkesh Bakshi to solve the mystery.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab7f5aed7266",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1444466",
+        "type": "movie",
+        "title": "Awarapan 2",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "https://www.youtube.com/watch?v=1ya87ENCRj0",
+        "poster": "https://image.tmdb.org/t/p/w500/lD3J6zTbWkVtPYuSUuuBwpuKMCO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dLw4YK72fW4dF82nnLFDbeXotSX.jpg",
+        "rating": 0.0,
+        "release_date": "2026-08-14",
+        "runtime": "142 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Emraan Hashmi",
+                "image": "https://image.tmdb.org/t/p/w185/kflgvFCFZnpTRbKmJWn5T0G5EKI.jpg"
+            },
+            {
+                "name": "Shabana Azmi",
+                "image": "https://image.tmdb.org/t/p/w185/gy7DpFaZnpU4XOwBc8jhhE8rYYj.jpg"
+            },
+            {
+                "name": "Disha Patani",
+                "image": "https://image.tmdb.org/t/p/w185/jeFgIW3d3BP6MkfnMlmEGP33Oyq.jpg"
+            },
+            {
+                "name": "Suvinder Vicky",
+                "image": "https://image.tmdb.org/t/p/w185/6T3Y0jvLMdMw19ShLZvLNHIkaSD.jpg"
+            },
+            {
+                "name": "Vijayant Kohli",
+                "image": "https://image.tmdb.org/t/p/w185/dzzewlf0Z5dEkVxu4QkH86xUEx4.jpg"
+            }
+        ],
+        "details": "Shivam returns to the crime world, where his path forward demands redemption, love, and sacrifice. As relationships deepen and conflicts intensify, every choice tests his resolve and shapes his destiny.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab7ef91216b6",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
             }
