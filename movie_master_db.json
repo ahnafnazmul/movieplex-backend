@@ -46551,7 +46551,9 @@
         "categories": [
             "Movies",
             "English",
-            "Drama"
+            "Drama",
+            "Family",
+            "Action"
         ],
         "cast": [
             {
@@ -46580,6 +46582,12 @@
             {
                 "server_name": "Rtally Stream",
                 "player_url": "https://turbovidhls.com/t/6a8ac4c3dbabf",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab8f8a6bf041",
                 "source_site": "rtally",
                 "source_domain": "turbovidhls.com"
             }
@@ -48859,6 +48867,18 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/ccf3c06c388d6baaff36ed1990c0564b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/14/f3015e3fe75d414af777faeaa3eaa232-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/04/14/f3015e3fe75d414af777faeaa3eaa232-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
@@ -56322,5 +56342,107 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1640649",
+        "type": "movie",
+        "title": "Love Lottery",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/v4OkeQDiO1OnGJxBfiYAaO89472.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wEwodGO5qaCERyreucYcPJ00zqi.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-25",
+        "runtime": "123 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Akshay Oberoi",
+                "image": "https://image.tmdb.org/t/p/w185/dsFqDJzSzUiKZpicmj05Iv1YbOs.jpg"
+            },
+            {
+                "name": "Heli Daruwala",
+                "image": "https://image.tmdb.org/t/p/w185/7StLQWr4HBFiHHOq1oTNWieQTmL.jpg"
+            },
+            {
+                "name": "Kabir Duhan Singh",
+                "image": "https://image.tmdb.org/t/p/w185/lAVAxFARP63oTHMYWpwHrWsXPWa.jpg"
+            },
+            {
+                "name": "Vijayant Kohli",
+                "image": "https://image.tmdb.org/t/p/w185/dzzewlf0Z5dEkVxu4QkH86xUEx4.jpg"
+            },
+            {
+                "name": "Hemant Pandey",
+                "image": "https://image.tmdb.org/t/p/w185/wARUtSrR7lVk9AUy78sXhWt2xUK.jpg"
+            }
+        ],
+        "details": "When a young woman, Bharani Verma, is found dead under mysterious circumstances, the police quickly arrest Kartik Saxena, making him the prime suspect in a seemingly open-and-shut murder case. But as the courtroom battle begins, every testimony uncovers new questions instead of answers. Hidden relationships, conflicting statements, and buried secrets gradually transform a simple murder trial into a gripping mystery where nothing is as it appears. Beyond the suspense, the film also explores a thought-provoking question: Have marriage and legal battles become a silent punishment for some innocent men, or is the truth far more complex than it seems? With every hearing, the truth becomes more elusive, and just when the verdict seems certain, an unexpected twist changes the entire direction of the case. A taut courtroom suspense thriller that keeps the audience guessing until the very last moment.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab8fad48d212",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1479832",
+        "type": "movie",
+        "title": "DC",
+        "release_year": 2026,
+        "original_language": "ta",
+        "video_trailer": "https://www.youtube.com/watch?v=4WuvS-w3J10",
+        "poster": "https://image.tmdb.org/t/p/w500/8k71CD24GIAmEFgHYRhqFvwbXH8.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9GmAODqkVdRvSgg5C4Vfeomi5Nj.jpg",
+        "rating": 7.9,
+        "release_date": "2026-08-07",
+        "runtime": "142 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Lokesh Kanagaraj",
+                "image": "https://image.tmdb.org/t/p/w185/yym15SAcSzIe6xzxOWCgDWiSaZN.jpg"
+            },
+            {
+                "name": "Wamiqa Gabbi",
+                "image": "https://image.tmdb.org/t/p/w185/e1CNXkH2scGeoabOTowFJJxX2YF.jpg"
+            },
+            {
+                "name": "Sanjana Krishnamoorthy",
+                "image": "https://image.tmdb.org/t/p/w185/sPh2ToZD1U981VZFOmRZO6wZ16v.jpg"
+            },
+            {
+                "name": "Avinash Raghudevan",
+                "image": "https://image.tmdb.org/t/p/w185/AuiRkWkzpmZU2P88s1wwcqVDKJV.jpg"
+            },
+            {
+                "name": "Jawahar Sakthi",
+                "image": "https://image.tmdb.org/t/p/w185/tujqtpUT92SDeo2AuUJiJGKBfYp.jpg"
+            }
+        ],
+        "details": "Rebel Devadas  joins forces with Chandra in a dangerous world where passion and peril collide. Their turbulent alliance demands bloodshed and tests loyalties as survival becomes the ultimate stake in their fight.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6ab8f8a840581",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
