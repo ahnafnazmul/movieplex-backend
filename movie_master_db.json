@@ -56614,5 +56614,108 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1729323",
+        "type": "movie",
+        "title": "Bhootam Bhayyam",
+        "release_year": 2026,
+        "original_language": "mr",
+        "video_trailer": "https://www.youtube.com/watch?v=qfnUiAxUE9s",
+        "poster": "https://image.tmdb.org/t/p/w500/dxjbpaEkwm81FU9m4jCtXtnjmax.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tZ0Hh44qoC8rn83uyAO3FBdu2Bh.jpg",
+        "rating": 0.0,
+        "release_date": "2026-07-24",
+        "runtime": "164 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Chhaya Kadam",
+                "image": "https://image.tmdb.org/t/p/w185/umOPkpPA4JUWLkVziYU5GF6gELD.jpg"
+            },
+            {
+                "name": "Karan Sonawane",
+                "image": ""
+            },
+            {
+                "name": "Neel Salekar",
+                "image": ""
+            },
+            {
+                "name": "Saurabh Ghadge",
+                "image": ""
+            },
+            {
+                "name": "Sidhanth Sarfare",
+                "image": "https://image.tmdb.org/t/p/w185/rx0aG2V2SPtQeVtemj0VEnAbeRs.jpg"
+            }
+        ],
+        "details": "Seven unemployed friends move into a cursed mansion and discover a mysterious coin. Using it in planchette sessions for quick cash, they awaken ancient forces. Now spirits and occultists hunt them as dark secrets emerge.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6abaa11d1de34",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_292139",
+        "type": "movie",
+        "title": "Power",
+        "release_year": 2014,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ss0DcmUNQ6XaBwPfxJA7lktKhCi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gmaF8Z8A2K3FQJ0ZDBisUEjftJk.jpg",
+        "rating": 5.5,
+        "release_date": "2014-09-12",
+        "runtime": "147 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Ravi Teja",
+                "image": "https://image.tmdb.org/t/p/w185/5a9g645O30Qzhe3VFjvkhjnNfm2.jpg"
+            },
+            {
+                "name": "Hansika Motwani",
+                "image": "https://image.tmdb.org/t/p/w185/3xCuu8Wwj8TCCtYjVTiXt1nGTtn.jpg"
+            },
+            {
+                "name": "Regena Cassandrra",
+                "image": "https://image.tmdb.org/t/p/w185/ypUo0oOCjY2FMhjrNBeCR9esmpS.jpg"
+            },
+            {
+                "name": "Prakash Raj",
+                "image": "https://image.tmdb.org/t/p/w185/dJvFZOXmZdkYCOUcKTXQAhBcAoH.jpg"
+            },
+            {
+                "name": "Mukesh Rishi",
+                "image": "https://image.tmdb.org/t/p/w185/iNLleMqHTHrbAlVRCFyye4NZxxb.jpg"
+            }
+        ],
+        "details": "Ravi Teja plays a young man desperate to become a police officer, who becomes embroiled in a plot to pose as his lookalike in order to re-capture an infamous thug from rogue cops. The film revolves around two similar looking people, Baldev Sahay - a corrupt ACP in Kolkata and Tirupathi - a person aspiring to become a police officer in Hyderabad. The home minister of Kolkata recruits Tirupathi to play as Baldev to catch a gangster rescued by Baldev. Rest of the story is all about why Baldev became a corrupt cop and how Tirupathi executed the unfinished mission of Baldev.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://turbovidhls.com/t/6aba9788323c1",
+                "source_site": "rtally",
+                "source_domain": "turbovidhls.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
