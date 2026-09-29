@@ -21222,7 +21222,8 @@
             "Movies",
             "Hindi",
             "Horror",
-            "Thriller"
+            "Thriller",
+            "English"
         ],
         "cast": [
             {
@@ -21257,6 +21258,18 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2022/11/22/711d52097b2ac0ceac6fda10e1db6a2f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/29/ef537523e4da442d3e15b25084992434-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/29/ef537523e4da442d3e15b25084992434-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
@@ -56717,5 +56730,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1469930",
+        "type": "movie",
+        "title": "Project Sacrifice",
+        "release_year": 2026,
+        "original_language": "id",
+        "video_trailer": "https://www.youtube.com/watch?v=StEBQjJcubs",
+        "poster": "https://image.tmdb.org/t/p/w500/321rzg1B6RRhcuRgsFHjQ7Xl3XX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/k3Nc57fdRkzleHjodta45mGJV2C.jpg",
+        "rating": 3.9,
+        "release_date": "2026-05-13",
+        "runtime": "106 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Callista Arum",
+                "image": "https://image.tmdb.org/t/p/w185/1GaAlD5Qeg1KkBND9kCKWtMEmZu.jpg"
+            },
+            {
+                "name": "Kiesha Alvaro",
+                "image": "https://image.tmdb.org/t/p/w185/uz9x67Jx6KRwug0Onmr8u3seCJs.jpg"
+            },
+            {
+                "name": "Karina Suwandi",
+                "image": "https://image.tmdb.org/t/p/w185/Aq9se0UB9NbcKbzXnvKhIKHxWM6.jpg"
+            },
+            {
+                "name": "Eduwart Manalu",
+                "image": "https://image.tmdb.org/t/p/w185/b41nhh0rKQqWT6oGasxCW1pht7E.jpg"
+            },
+            {
+                "name": "Fuad Idris",
+                "image": "https://image.tmdb.org/t/p/w185/kxgoUFeX1ERJ6ENDYAFnPXzNgaz.jpg"
+            }
+        ],
+        "details": "While investigating their father’s death inside a major bridge construction company, Yuda and his family attempt to prove that the frequent, deadly workplace accidents are actually human sacrifices.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/ab83c5a06fbc76e0dc04d9b650b32141-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/02/17/ab83c5a06fbc76e0dc04d9b650b32141-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
