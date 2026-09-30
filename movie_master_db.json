@@ -56787,5 +56787,116 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_60743",
+        "type": "series",
+        "title": "Constantine",
+        "release_year": 2014,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/gQ3bA1DBKyZwkDCHJFEAT0MkKpu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lmDDpCCei9kTPIZb13P2NAqpmvO.jpg",
+        "rating": 7.7,
+        "release_date": "2014-10-24",
+        "runtime": "43 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Matt Ryan",
+                "image": "https://image.tmdb.org/t/p/w185/qLx6rzn6MMcJtTals5Z7Mb6z4Y9.jpg"
+            },
+            {
+                "name": "Angélica Celaya",
+                "image": "https://image.tmdb.org/t/p/w185/7yRxQE1DtUiL4z33P4I61VsQQsP.jpg"
+            },
+            {
+                "name": "Charles Halford",
+                "image": "https://image.tmdb.org/t/p/w185/mrCy6dA5AHqczA4aJX4drCQ3tjC.jpg"
+            },
+            {
+                "name": "Harold Perrineau",
+                "image": "https://image.tmdb.org/t/p/w185/bVSLpGUaislREbujmknOqadrxYM.jpg"
+            }
+        ],
+        "details": "A man struggling with his faith is haunted by the sins of his past but is suddenly thrust into the role of defending humanity from the gathering forces of darkness.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/ba8caac44ac44b4f8dd8fcb614afd967-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2023/08/12/ba8caac44ac44b4f8dd8fcb614afd967-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1381078",
+        "type": "movie",
+        "title": "Love of Your Life",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=HzGx48E64Xg",
+        "poster": "https://image.tmdb.org/t/p/w500/o7ZCmjeW59yujCcAJjjYSJRoZLe.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mTUWpyf15tLs4YLvy3nirbn6xA9.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-07",
+        "runtime": "106 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Margaret Qualley",
+                "image": "https://image.tmdb.org/t/p/w185/4LeaweyyTXCNs9V5swAuU4gGgZC.jpg"
+            },
+            {
+                "name": "Aaron Pierre",
+                "image": "https://image.tmdb.org/t/p/w185/hNwZWdT2KxKj1YLbipvtUhNjfAp.jpg"
+            },
+            {
+                "name": "Gabriel Basso",
+                "image": "https://image.tmdb.org/t/p/w185/6jHYQf6Y37BEouavp03WWpWpFyR.jpg"
+            },
+            {
+                "name": "Patrick Schwarzenegger",
+                "image": "https://image.tmdb.org/t/p/w185/jKbI0OpFMMz4SPCU1VoMHXIbA3Y.jpg"
+            },
+            {
+                "name": "Catherine Keener",
+                "image": "https://image.tmdb.org/t/p/w185/n4CTwGszs6cwS1wJRlDQ5Mlh7Ex.jpg"
+            }
+        ],
+        "details": "After a chance encounter sparks a sweeping romance, Maya's future is suddenly upended, sending her on an unexpected journey to love and live again.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/67f05b9c8c5bbfbac9ff2f04ba2939a4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/67f05b9c8c5bbfbac9ff2f04ba2939a4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
