@@ -56938,5 +56938,178 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1380417",
+        "type": "movie",
+        "title": "By Any Means",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=fvnyrBnUx4E",
+        "poster": "https://image.tmdb.org/t/p/w500/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
+        "rating": 7.7,
+        "release_date": "2026-09-02",
+        "runtime": "107 min",
+        "categories": [
+            "Movies",
+            "English",
+            "History",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Yahya Abdul-Mateen II",
+                "image": "https://image.tmdb.org/t/p/w185/79VdVjUoiYGcgjOT9UmE5XIpoZM.jpg"
+            },
+            {
+                "name": "Mark Wahlberg",
+                "image": "https://image.tmdb.org/t/p/w185/1Oc3XSLyb8hxmjmlgFENu582Kqw.jpg"
+            },
+            {
+                "name": "Nicole Beharie",
+                "image": "https://image.tmdb.org/t/p/w185/7ZgUAk3hkCrWSfjLYvnbKdyaNiN.jpg"
+            },
+            {
+                "name": "Josh Lucas",
+                "image": "https://image.tmdb.org/t/p/w185/ueR4CH32f22DGjFxuhnW1o3YKB3.jpg"
+            },
+            {
+                "name": "David Strathairn",
+                "image": "https://image.tmdb.org/t/p/w185/w5YM2cGefPnkoyIXCi2UrCQW53r.jpg"
+            }
+        ],
+        "details": "In 1960s Mississippi, a young Black FBI agent is forced to partner with a notorious mafia hitman to investigate a wave of brutal civil rights murders.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/01/01f6e120e1dd7935ff1c2c32530cacc3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/01/01f6e120e1dd7935ff1c2c32530cacc3-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_305357",
+        "type": "series",
+        "title": "A Different World",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=W8jMEXwErvk",
+        "poster": "https://image.tmdb.org/t/p/w500/mmE4RNbsPOwwRo5rnVRd1IXzgcZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1lVbKPOVjTV02FtLqiPk9F9z1Fh.jpg",
+        "rating": 6.8,
+        "release_date": "2026-09-24",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Maleah Joi Moon",
+                "image": "https://image.tmdb.org/t/p/w185/kNk8SbGl6kNE1CSBqrlU32qAweQ.jpg"
+            },
+            {
+                "name": "Alijah Kai",
+                "image": "https://image.tmdb.org/t/p/w185/4Zm8bN7rL1JGRcoQQ1JY0eZdWX7.jpg"
+            },
+            {
+                "name": "Chibuikem Uche",
+                "image": "https://image.tmdb.org/t/p/w185/mnFbtkw3CahJez70swDCkq0IcUl.jpg"
+            },
+            {
+                "name": "Cornell Young IV",
+                "image": "https://image.tmdb.org/t/p/w185/pRy7ZJkjlLnejySjoT9ENQNAWoZ.jpg"
+            },
+            {
+                "name": "Jordan Aaron Hall",
+                "image": "https://image.tmdb.org/t/p/w185/70wXromowEycW1SN88xzzwuzwk7.jpg"
+            }
+        ],
+        "details": "Deborah Wayne enters her freshman year at her parents' HBCU alma mater and finds their shadow difficult to escape. She sets out to build her own legacy – while having the time of her life – alongside a whole new generation of Hillman’s best and brightest.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/5040e7ead840718eaa95baac24264c5e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/18/5040e7ead840718eaa95baac24264c5e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_290856",
+        "type": "series",
+        "title": "Marshals",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=FGKuQa6ulEQ",
+        "poster": "https://image.tmdb.org/t/p/w500/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ihT4s15wPjqXLblKlE6cwBhJVz4.jpg",
+        "rating": 7.9,
+        "release_date": "2026-03-01",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Luke Grimes",
+                "image": "https://image.tmdb.org/t/p/w185/c547Xiwf9feeDbGfQchfJCkC111.jpg"
+            },
+            {
+                "name": "Logan Marshall-Green",
+                "image": "https://image.tmdb.org/t/p/w185/vOV76X3Dd8LsBxrTLdHybFLU8w8.jpg"
+            },
+            {
+                "name": "Arielle Kebbel",
+                "image": "https://image.tmdb.org/t/p/w185/c98cwlydVsihduXnq6VLW4fQFC.jpg"
+            },
+            {
+                "name": "Ash Santos",
+                "image": "https://image.tmdb.org/t/p/w185/uT0GGLGN2mAZcc0dlVrtP7cpy6t.jpg"
+            },
+            {
+                "name": "Tatanka Means",
+                "image": "https://image.tmdb.org/t/p/w185/Aq7VrwQeUeDNn0y74m7bxDBOAGj.jpg"
+            }
+        ],
+        "details": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/17/43b4329fbcd43d53149370a9aceb69e2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/17/43b4329fbcd43d53149370a9aceb69e2-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
