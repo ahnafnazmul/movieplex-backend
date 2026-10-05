@@ -57397,5 +57397,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1599993",
+        "type": "movie",
+        "title": "Animals",
+        "release_year": 2026,
+        "original_language": "es",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/9fbZdiOI9fRinl44mNm3CYgEtYR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3jgATRIFenOrgNKEC9bFv5QqKGf.jpg",
+        "rating": 6.2,
+        "release_date": "2026-02-05",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Nashla Bogaert",
+                "image": "https://image.tmdb.org/t/p/w185/tGCIlMxyMh3qpt7xNLzzltNHDQq.jpg"
+            },
+            {
+                "name": "Frank Perozo",
+                "image": "https://image.tmdb.org/t/p/w185/qWqwiMFEdQE0dLuqSPt3qHDQfQQ.jpg"
+            },
+            {
+                "name": "Pamela Sued",
+                "image": "https://image.tmdb.org/t/p/w185/pk9vigh6rVrJMcsGDyuxabaBfcm.jpg"
+            },
+            {
+                "name": "David Maler",
+                "image": "https://image.tmdb.org/t/p/w185/u4KAt1CqQ3LocxyKxWsXKUbuPeQ.jpg"
+            },
+            {
+                "name": "Camila Issa",
+                "image": "https://image.tmdb.org/t/p/w185/xOlZ7bA7OlePdxMRNPsGJ8Yi3nU.jpg"
+            }
+        ],
+        "details": "Four couples sail the thin line between desire and search for authenticity, in a world where truth is as fragile as their relationships.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/43fcbda7cfe85dee3eb7b167409db2a6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/43fcbda7cfe85dee3eb7b167409db2a6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
