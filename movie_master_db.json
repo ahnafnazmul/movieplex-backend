@@ -57454,5 +57454,119 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_321984",
+        "type": "series",
+        "title": "Summertime",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=zY9mTImaoBg",
+        "poster": "https://image.tmdb.org/t/p/w500/fSilsCC2dtqVx1GBzseqHkBvI5d.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ehLsNBoh2FkjZPUUSo7BWZ6RkBu.jpg",
+        "rating": 7.5,
+        "release_date": "2026-08-28",
+        "runtime": "30 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kim Do-min",
+                "image": "https://image.tmdb.org/t/p/w185/waMXcbM9XrAiJckq6KE9L6qEgHD.jpg"
+            },
+            {
+                "name": "Seong In-ho",
+                "image": "https://image.tmdb.org/t/p/w185/ku7sEy6RpPDtXsHaLeGy2v1HS8X.jpg"
+            },
+            {
+                "name": "Lim Young-min",
+                "image": "https://image.tmdb.org/t/p/w185/m2xmZ2aUSXGmPieT61VPMKlt2e9.jpg"
+            },
+            {
+                "name": "Han Jong-kyu",
+                "image": "https://image.tmdb.org/t/p/w185/ilFXpWUdO90cCxybHHeaLE8o3K3.jpg"
+            },
+            {
+                "name": "Park Hyun-ji",
+                "image": "https://image.tmdb.org/t/p/w185/f6S7DR9BHpwIolRXMAufZWlPnVd.jpg"
+            }
+        ],
+        "details": "After 19 years of friendship, Eun-ho is oblivious to Do-hyun’s obsessive crush. But a new student’s arrival threatens to expose the perfect façade.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/27/66b8ce5a0bf54fd66002cb5910e25fe0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/27/66b8ce5a0bf54fd66002cb5910e25fe0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1477712",
+        "type": "movie",
+        "title": "Ice Cream Man",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Cgw3zNmFtRo",
+        "poster": "https://image.tmdb.org/t/p/w500/lNBxToxHWrzmkqeFnf1XADUTxQq.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
+        "rating": 4.8,
+        "release_date": "2026-08-03",
+        "runtime": "86 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Ari Millen",
+                "image": "https://image.tmdb.org/t/p/w185/x2hFdgnrJ1er0VpteRcqTr8aWTT.jpg"
+            },
+            {
+                "name": "Charlie Zeltzer",
+                "image": "https://image.tmdb.org/t/p/w185/ytbrQ4R1iiRD3I0qdAddVfgooD7.jpg"
+            },
+            {
+                "name": "Shiloh O’Reilly",
+                "image": "https://image.tmdb.org/t/p/w185/ogT1ycS4CoOassN1GeCaS7qVcgO.jpg"
+            },
+            {
+                "name": "Kiori Mirza Waldman",
+                "image": "https://image.tmdb.org/t/p/w185/yfEe5f4kT411DH2NNx1VU3gDQZV.jpg"
+            },
+            {
+                "name": "Sarah Abbott",
+                "image": "https://image.tmdb.org/t/p/w185/riLNrHSQNFL2jgT3IRhIYOiBCXG.jpg"
+            }
+        ],
+        "details": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/30/40867cd5eb892b4ef394fa174c972dc0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/30/40867cd5eb892b4ef394fa174c972dc0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
