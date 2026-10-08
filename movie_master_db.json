@@ -57568,5 +57568,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_305551",
+        "type": "series",
+        "title": "Merry Berry Love",
+        "release_year": 2026,
+        "original_language": "ja",
+        "video_trailer": "https://www.youtube.com/watch?v=3c68oabNkJs",
+        "poster": "https://image.tmdb.org/t/p/w500/av7wQdYaicBCCUFQ6jRlm9ylZx4.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vPDVee1j6w0hJ2xMJ2bU5HVBA0Z.jpg",
+        "rating": 9.0,
+        "release_date": "2026-10-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ji Chang-wook",
+                "image": "https://image.tmdb.org/t/p/w185/sBmHrO5Tn27Ot5hy0yAKniROmNb.jpg"
+            },
+            {
+                "name": "Mio Imada",
+                "image": "https://image.tmdb.org/t/p/w185/1RiNJI6v9rBvATZ59m0CAZCFOpI.jpg"
+            },
+            {
+                "name": "Nam Yoon-su",
+                "image": "https://image.tmdb.org/t/p/w185/lPOTG0iwINk1N1w7N0Xv2ndKqm0.jpg"
+            },
+            {
+                "name": "Rinka Kumada",
+                "image": "https://image.tmdb.org/t/p/w185/1WkAsP86ZvE1QwS3sbUb7Rx84QF.jpg"
+            },
+            {
+                "name": "Jung Soon-won",
+                "image": "https://image.tmdb.org/t/p/w185/E80fMLgKBeOASTnHLEi4jSuCqo.jpg"
+            }
+        ],
+        "details": "When star Korean spatial designer Lee Yubin loses everything, he heads off to a Japanese island. There, he meets Karin, a resilient strawberry farmer. Hailing from different worlds, their lives collide in a big misunderstanding. Buckle up for \"Merry Berry Love,\" a sweet and sour Korea-Japan rom-com.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/07/6b118edac3fb19ecb6cbb712521b6acf-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/07/6b118edac3fb19ecb6cbb712521b6acf-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
