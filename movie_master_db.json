@@ -57740,5 +57740,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_284558",
+        "type": "series",
+        "title": "Kill Jackie",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=dKgTyq2-4w0",
+        "poster": "https://image.tmdb.org/t/p/w500/3tjZspkqquE24iK1rc0nvnJwdEZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/twc2YYBXTjdv52TShVumB1voT3Q.jpg",
+        "rating": 7.1,
+        "release_date": "2026-10-02",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Catherine Zeta-Jones",
+                "image": "https://image.tmdb.org/t/p/w185/2fAo0jWy8zPl9jgR4DH5nLyL8Xa.jpg"
+            },
+            {
+                "name": "Daniel Ings",
+                "image": "https://image.tmdb.org/t/p/w185/oupwxNxbTwNEknTFo2jKlrXZsl6.jpg"
+            },
+            {
+                "name": "Sidse Babett Knudsen",
+                "image": "https://image.tmdb.org/t/p/w185/yVkWyBuJaup9I6FIgjZlGkczNNj.jpg"
+            },
+            {
+                "name": "Julian Rhind-Tutt",
+                "image": "https://image.tmdb.org/t/p/w185/jvwtFc8XFpTb7NX1XRJX8TOfH5.jpg"
+            },
+            {
+                "name": "Raff Law",
+                "image": "https://image.tmdb.org/t/p/w185/mK4Pcrju73vh0yegXcxFwEO8PnE.jpg"
+            }
+        ],
+        "details": "Jackie Price has been living a wealthy, luxurious life for the past 20 years after escaping a dangerous past as an international cocaine dealer. But just as life begins to feel a little boring, she discovers that The Seven Demons, a group of the world’s most terrifying hitmen, have been hired to kill her.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/02/009fbf8afb6d61bf75974dfb9baaf211-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/02/009fbf8afb6d61bf75974dfb9baaf211-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
