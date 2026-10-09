@@ -57625,5 +57625,120 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_320513",
+        "type": "series",
+        "title": "kiDnap GAME",
+        "release_year": 2026,
+        "original_language": "ja",
+        "video_trailer": "https://www.youtube.com/watch?v=MrpDLW_DT6Q",
+        "poster": "https://image.tmdb.org/t/p/w500/tjbKBHKqFLDdqscv3aVMVpmkGxj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zOwp7e8K0BSGtm7m5FZxsJS5Bas.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-06",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kentaro Sakaguchi",
+                "image": "https://image.tmdb.org/t/p/w185/llQqj3BE4MUWBBzjUA2rpHIENxV.jpg"
+            },
+            {
+                "name": "Lee Joon-gi",
+                "image": "https://image.tmdb.org/t/p/w185/tHPJUgGiQRWt1Bh7ymqmmJ2zKF6.jpg"
+            },
+            {
+                "name": "Alice Ko",
+                "image": "https://image.tmdb.org/t/p/w185/4AyTq3yyDRJkGpUaBRUmoCOF87e.jpg"
+            },
+            {
+                "name": "Carrie Wong",
+                "image": "https://image.tmdb.org/t/p/w185/6dEnHDEfR6EwubXICqKf5hcVBOB.jpg"
+            },
+            {
+                "name": "Show Kasamatsu",
+                "image": "https://image.tmdb.org/t/p/w185/tDASDMyIZQFooUQimqrVCd4rN5I.jpg"
+            }
+        ],
+        "details": "Across seven Asian cities, strangers are forced into a deadly game where only one can save their loved one by beating the others.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/07/9af1cc7020556aeb0fa6a5092fefb222-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/07/9af1cc7020556aeb0fa6a5092fefb222-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_288673",
+        "type": "series",
+        "title": "Carrie",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=jkUw2nh6fT0",
+        "poster": "https://image.tmdb.org/t/p/w500/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+        "rating": 8.5,
+        "release_date": "2026-10-07",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Summer H. Howell",
+                "image": "https://image.tmdb.org/t/p/w185/9l9D6DhugB4FBIZecuMyZ4Uulyr.jpg"
+            },
+            {
+                "name": "Samantha Sloyan",
+                "image": "https://image.tmdb.org/t/p/w185/iI6mYgxrQSwphBJdfwYN3vB6oS2.jpg"
+            },
+            {
+                "name": "Siena Agudong",
+                "image": "https://image.tmdb.org/t/p/w185/nCVWiVrIVqw0LnpyhYsckOMQJHS.jpg"
+            },
+            {
+                "name": "Alison Thornton",
+                "image": "https://image.tmdb.org/t/p/w185/hDCMe5RLABbSBA04BIUxJnBmol6.jpg"
+            },
+            {
+                "name": "Joel Oulette",
+                "image": "https://image.tmdb.org/t/p/w185/qmzQBjq1hLpU37HtsKw5MszgRKa.jpg"
+            }
+        ],
+        "details": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/29/ef537523e4da442d3e15b25084992434-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/29/ef537523e4da442d3e15b25084992434-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
