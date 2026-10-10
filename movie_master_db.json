@@ -57853,5 +57853,58 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_318634",
+        "type": "series",
+        "title": "Twisted Tie",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/h5UlSUBTG7XQ8UsGdAdkqeiNTSo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jIR92epQdsA90SSAaCkHh3EweLQ.jpg",
+        "rating": 7.0,
+        "release_date": "2026-10-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Ko Tae-woon",
+                "image": "https://image.tmdb.org/t/p/w185/dZlFPfIt8y5j1grFDH7UcdQYHHo.jpg"
+            },
+            {
+                "name": "Kim Do-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/gDVPLWvvWe9qhe0U0HhSUcRG6e5.jpg"
+            },
+            {
+                "name": "Baek Seung-hoon",
+                "image": "https://image.tmdb.org/t/p/w185/nUVlX4F53tkGHST74qgSIdK6NEV.jpg"
+            },
+            {
+                "name": "Lee Kyung-won",
+                "image": "https://image.tmdb.org/t/p/w185/5GnV9a7Dfym72La06LUEXmESVE1.jpg"
+            }
+        ],
+        "details": "Kang Dojin is a ruthless, perfectionist team leader at a VVIP spatial design agency, and Lee Sunwoo is a rookie who blindly admires him. While secretly nurturing a subtle mutual attraction, their relationship is instantly flipped upside down on a rainy night shift when Sunwoo, losing his mind to Dojin's calculated provocation, crosses the line. Afterward, Dojin suggests a secret, in-office 'hands-on tutoring' session to the confused Sunwoo, placing him firmly under his control. However, Baek Yigeon, a sly manager from a partner company, steps between them and starts provoking Sunwoo. Dojin, who once sought to control everything with pure logic, is gradually consumed by uncontrollable jealousy and possessiveness until his perfect facade completely breaks down.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/10/89220b5f134455c6ec6d750721cebe12-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/10/89220b5f134455c6ec6d750721cebe12-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
