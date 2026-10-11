@@ -57976,5 +57976,105 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_766150",
+        "type": "movie",
+        "title": "The Good Man",
+        "release_year": 2020,
+        "original_language": "sq",
+        "video_trailer": "https://www.youtube.com/watch?v=D_mpMRJ_p0A",
+        "poster": "https://image.tmdb.org/t/p/w500/qtGy8iD5hh9kby83Zc6Wn1ZO7H6.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2020-09-16",
+        "runtime": "14 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kastriot Ramollari",
+                "image": ""
+            },
+            {
+                "name": "Neritan Liçaj",
+                "image": "https://image.tmdb.org/t/p/w185/ae6FVQ0SzkgBYrCek8jDCuchMbJ.jpg"
+            }
+        ],
+        "details": "A middle aged man is going to his hunting cabin in the middle of nowhere. After the loss of his wife, his only company is his hunting dog. The silence is broken by an escaped prisoner. The man faces a dilemma: help or report them?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/23/607fada6987e186b385e0383012b850d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/23/607fada6987e186b385e0383012b850d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_40440",
+        "type": "series",
+        "title": "The Bay",
+        "release_year": 2010,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=ZGnlB3JFbxg",
+        "poster": "https://image.tmdb.org/t/p/w500/mrObP2wI1wVNV5XU4t1N85YCboO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kuo6CwgSYD3bEccZ4GCr6ZEKdx0.jpg",
+        "rating": 3.0,
+        "release_date": "2010-09-15",
+        "runtime": "30 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kristos Andrews",
+                "image": "https://image.tmdb.org/t/p/w185/t2SXjAL1afX5ZMQPNnhLZBTCdQx.jpg"
+            },
+            {
+                "name": "Taylor Stanley",
+                "image": "https://image.tmdb.org/t/p/w185/77CouF9NNwJfqqTMPZ3QEpZGpA6.jpg"
+            },
+            {
+                "name": "Terri Ivens",
+                "image": "https://image.tmdb.org/t/p/w185/6w4O6uroc62Z3fqkDUJxaBbfvYI.jpg"
+            },
+            {
+                "name": "Eric Nelsen",
+                "image": "https://image.tmdb.org/t/p/w185/xw1fKCVGVKx2UpkjYuX65cDOarw.jpg"
+            },
+            {
+                "name": "Karrueche Tran",
+                "image": "https://image.tmdb.org/t/p/w185/zWvMAHDHlonbihbBQ6w9zz15Ka5.jpg"
+            }
+        ],
+        "details": "The Bay follows the affluent, yet dysfunctional Bay City residents living in a town cursed by the spirit of Senator Red Garrett, the grandfather of socialite Sara Garrett. Their lives are riddled with sex, lies, & never-ending scandals.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/17/683200b2c04eb24ea603cd8f753a6fc4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/17/683200b2c04eb24ea603cd8f753a6fc4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
