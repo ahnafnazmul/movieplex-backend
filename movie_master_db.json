@@ -58116,5 +58116,63 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1695381",
+        "type": "movie",
+        "title": "Ajosepo 2: The Gathering",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=lTcFot8E8Q4",
+        "poster": "https://image.tmdb.org/t/p/w500/te3qUdNxsVmeGuax0aQBRHNhPjk.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bvbkA2YWR7TsPNYQdbVt9tZYFsS.jpg",
+        "rating": 0.0,
+        "release_date": "2026-05-28",
+        "runtime": "115 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Comedy",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Timini Egbuson",
+                "image": "https://image.tmdb.org/t/p/w185/cI1LWYIVu1CYVRkARjawktcFkL6.jpg"
+            },
+            {
+                "name": "Mike Afolarin",
+                "image": "https://image.tmdb.org/t/p/w185/py2R12iLMAkHQkMT1kUyjcyHMSx.jpg"
+            },
+            {
+                "name": "Tomike Adeoye",
+                "image": "https://image.tmdb.org/t/p/w185/8gM13CWfArAzV8hU7Ma1Cjpz1kL.jpg"
+            },
+            {
+                "name": "Odunlade Adekola",
+                "image": "https://image.tmdb.org/t/p/w185/wdUhDXHjlqDBHKZmKHnZcioGGtp.jpg"
+            },
+            {
+                "name": "Bolaji Ogunmola",
+                "image": "https://image.tmdb.org/t/p/w185/2jsHx9tpL9QE1te9anN5CALc18q.jpg"
+            }
+        ],
+        "details": "Two families reunite for a lavish Yoruba wedding after a past scandal nearly tore them apart. As Mary and Jide prepare to marry, unresolved tensions, family pressure, and reputation fears threaten their union. Meanwhile, new parents Dapo and Tani battle constant clashes between their feuding mothers. Amid tradition, church politics, and romantic distractions, both couples must choose honesty and commitment before the celebration unravels.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/25/49ac1dbaaecdaca91f5b711efc334530-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/25/49ac1dbaaecdaca91f5b711efc334530-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
