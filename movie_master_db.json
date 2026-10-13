@@ -58174,5 +58174,118 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_60888",
+        "type": "series",
+        "title": "Young & Hungry",
+        "release_year": 2014,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/fh6DbXa5soHPd72dl2I8IJq4uZ0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pTzgocsWDXy3Td72k3FMZXmTCuc.jpg",
+        "rating": 6.8,
+        "release_date": "2014-06-25",
+        "runtime": "22 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Family",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Emily Osment",
+                "image": "https://image.tmdb.org/t/p/w185/bRqBSRe5t1FjMUEb3XgiKbpCy30.jpg"
+            },
+            {
+                "name": "Jonathan Sadowski",
+                "image": "https://image.tmdb.org/t/p/w185/xjH9R0xBes13OZ7H3rjrghCwQDj.jpg"
+            },
+            {
+                "name": "Aimee Carrero",
+                "image": "https://image.tmdb.org/t/p/w185/jp9L7d3cGMYvPEaFnqfot7Et4Ga.jpg"
+            },
+            {
+                "name": "Kym Whitley",
+                "image": "https://image.tmdb.org/t/p/w185/kWo5pJe9Ogi3YQAocVoDMP1Sndj.jpg"
+            },
+            {
+                "name": "Rex Lee",
+                "image": "https://image.tmdb.org/t/p/w185/fSi2t7nysMai8hr4SVDDNKrzsjz.jpg"
+            }
+        ],
+        "details": "Two worlds collide when Josh, a wealthy young tech entrepreneur, meets Gabi, a feisty young food blogger, looking to be his personal chef. Gabi is desperate for the job and must prove herself, mostly to Josh's aide, who prefers a famous chef for the job. When Josh enlists Gabi to prepare a romantic meal for him and his girlfriend, the dinner goes awry and Gabi finds herself in a very awkward position. With the help of her best friend Sofia and Josh's housekeeper, Gabi turns a difficult situation into an opportunity for employment and maybe even love. Gabi gets some much needed help and advice from Josh’s assistant and his housekeeper.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/23/52bbbbf62a8ead5a0522e254ae93c154-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/23/52bbbbf62a8ead5a0522e254ae93c154-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_294636",
+        "type": "series",
+        "title": "The Ordinary Jackpot",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=vAtzkLX_8no",
+        "poster": "https://image.tmdb.org/t/p/w500/3jLoiPorNssIfLlEuw8Om7ujca6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oxJIuxIWiBEcIBRDdu48vTwQcJZ.jpg",
+        "rating": 7.5,
+        "release_date": "2026-09-10",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Lee Jun-hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/zXo037qPJhdSvyhAjGCNoT0TcCF.jpg"
+            },
+            {
+                "name": "Seo Hyun-woo",
+                "image": "https://image.tmdb.org/t/p/w185/i5HP0n06Y5GIZfpsbibFQWAcUjV.jpg"
+            },
+            {
+                "name": "Oh Dae-hwan",
+                "image": "https://image.tmdb.org/t/p/w185/d3ThGdnujocRKLHrwHbJqHlXpWC.jpg"
+            },
+            {
+                "name": "Ok Ja-yeon",
+                "image": "https://image.tmdb.org/t/p/w185/6yWwOkFMXYBJAC2z8sfN54DRAwj.jpg"
+            },
+            {
+                "name": "Ha Yul-Ri",
+                "image": "https://image.tmdb.org/t/p/w185/14nrDiXswkFLvPs5XpnJle9HaSw.jpg"
+            }
+        ],
+        "details": "An ordinary office worker wins the lottery – the amount isn't enough for him to quit his job, but it's enough to give him a new outlook on life.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/10/9ca860b44663cb4ea053d810f89daf5c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/10/9ca860b44663cb4ea053d810f89daf5c-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
