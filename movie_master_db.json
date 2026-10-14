@@ -58287,5 +58287,120 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_303493",
+        "type": "series",
+        "title": "Knot",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/8z62pp4K602d1y6079oU1GBeiAG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zq22918LdWTkBstphgUfxDZUO7i.jpg",
+        "rating": 6.7,
+        "release_date": "2026-06-30",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Pasakorn Sanrattana",
+                "image": "https://image.tmdb.org/t/p/w185/yitxOnStiS5EPIAwE4iEBh4Lcf1.jpg"
+            },
+            {
+                "name": "Yongyut Termtuo",
+                "image": "https://image.tmdb.org/t/p/w185/pRuwmR7oh4Sswm8X1hq19Pw18V8.jpg"
+            },
+            {
+                "name": "Phubeth Atarunwong",
+                "image": "https://image.tmdb.org/t/p/w185/oB1m08Ao3ZqbTgDnaLxWkYXgHJS.jpg"
+            },
+            {
+                "name": "Teerawat Tanacom",
+                "image": "https://image.tmdb.org/t/p/w185/7Ioo7vYsp9XhYRErNNFuK90q1wZ.jpg"
+            },
+            {
+                "name": "Supawit Wongfu",
+                "image": "https://image.tmdb.org/t/p/w185/a9AKqNC2FHDdXE1igshzcPBV6rG.jpg"
+            }
+        ],
+        "details": "A young man’s life changes forever when a powerful Alpha marks him, binding their fates together in an inescapable bond.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/06/7f642307b460df81686ab9bc8eabc46f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/06/7f642307b460df81686ab9bc8eabc46f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1744241",
+        "type": "movie",
+        "title": "Your Personal Taxi",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=9uCWL8UVTQA",
+        "poster": "https://image.tmdb.org/t/p/w500/xsMbmpFvBkXOniQHZhuwwGMihE6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wDWceA3ZQPu8d48QIbEf9cgIeZY.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-04",
+        "runtime": "109 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Music"
+        ],
+        "cast": [
+            {
+                "name": "Cha Tae-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/fzMKBBQaBeK6V0dJnPMWHFaJx8T.jpg"
+            },
+            {
+                "name": "Im Se-mi",
+                "image": "https://image.tmdb.org/t/p/w185/WZhJWf02ara2TkOWDqKUOVHw35.jpg"
+            },
+            {
+                "name": "Joo Jong-hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/xOx3f9y4rLa84AMglgejC6spEQD.jpg"
+            },
+            {
+                "name": "Ahn Ji-ho",
+                "image": "https://image.tmdb.org/t/p/w185/9fWhH0j84Ou72CSEdOpNB79X7QG.jpg"
+            },
+            {
+                "name": "Im Ha-ryong",
+                "image": "https://image.tmdb.org/t/p/w185/u3GvkCflbBNEwFHnuQqWrVGppM2.jpg"
+            }
+        ],
+        "details": "A one-of-a-kind classic taxi carries passengers with seemingly ordinary lives but extraordinary stories, each journey accompanied by a song of their choosing.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/02/f19900386e8abc8a1424cf67464d44d5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/02/f19900386e8abc8a1424cf67464d44d5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
