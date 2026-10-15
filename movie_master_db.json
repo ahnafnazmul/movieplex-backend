@@ -58472,5 +58472,50 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_307106",
+        "type": "series",
+        "title": "Between Steps",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=9rYSMI9azZg",
+        "poster": "https://image.tmdb.org/t/p/w500/pGqcErS76y8bcvZZSFUefdZOg2x.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mA4ClzkBvBCiTHQ8zHFsuWRaLW2.jpg",
+        "rating": 7.2,
+        "release_date": "2026-10-05",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Choo Young-woo",
+                "image": "https://image.tmdb.org/t/p/w185/nGICKq8yq7G6nDUNVjrUoMe4iQ0.jpg"
+            },
+            {
+                "name": "Kim So-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/jrRXistOzBtfRkvf3WrxSmyDKBY.jpg"
+            }
+        ],
+        "details": "Minjae, a former swimmer, lost a leg to illness. Now a PhD student, he's built a quiet, controlled life, until Yujin, a master's student starting over after losing her way, throws it off balance. In a robotics lab, their romance turns fiery, bittersweet, and tender.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/05/fed97e6c356bf49da913f14a783c1948-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/05/fed97e6c356bf49da913f14a783c1948-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
