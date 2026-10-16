@@ -58758,5 +58758,108 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1608666",
+        "type": "movie",
+        "title": "DeSu7",
+        "release_year": 2026,
+        "original_language": "bn",
+        "video_trailer": "https://www.youtube.com/watch?v=ZRW6h0mzqNw",
+        "poster": "https://image.tmdb.org/t/p/w500/t6ZwnDxwfNq51dHv8gONXJ48Axf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/a4tkxaHY3XRmQviZlgy5Nzz2yXq.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-16",
+        "runtime": "166 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Dev",
+                "image": "https://image.tmdb.org/t/p/w185/5mBOEEyenbcHgxwAV0NCGNRHaxY.jpg"
+            },
+            {
+                "name": "Subhashree Ganguly",
+                "image": "https://image.tmdb.org/t/p/w185/uA0c9gZNiwAG83t6K4TzR6JqGWA.jpg"
+            },
+            {
+                "name": "Anirban Bhattacharya",
+                "image": "https://image.tmdb.org/t/p/w185/9eph0DtlBImkdJdOaDopzCmx4E8.jpg"
+            },
+            {
+                "name": "Parthasarathi Chakraborty",
+                "image": "https://image.tmdb.org/t/p/w185/bfuaonOVXDjoOoC0VcTe1MUsfmM.jpg"
+            },
+            {
+                "name": "Rajatabha Dutta",
+                "image": "https://image.tmdb.org/t/p/w185/8ukhcXEule4DROSsd4MtXaVoQnt.jpg"
+            }
+        ],
+        "details": "After years apart, two people reunite for a fresh start. A story of deep emotion, romance, and action about love that endures and a reunion destined to happen.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://www.youtube.com/embed/ZRW6h0mzqNw",
+                "source_site": "rtally",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1153576",
+        "type": "movie",
+        "title": "Street Fighter",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=U6sbm1OaJb8",
+        "poster": "https://image.tmdb.org/t/p/w500/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+        "rating": 6.4,
+        "release_date": "2026-10-13",
+        "runtime": "120 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Andrew Koji",
+                "image": "https://image.tmdb.org/t/p/w185/oU53nWLQ6wFHzERwSi1fD53LxZB.jpg"
+            },
+            {
+                "name": "Noah Centineo",
+                "image": "https://image.tmdb.org/t/p/w185/p1bcst401RyxfDGykx2iQLI7CV5.jpg"
+            },
+            {
+                "name": "Callina Liang",
+                "image": "https://image.tmdb.org/t/p/w185/blJ4iEqMs5oTiKVxUyB9Ky7kNRO.jpg"
+            },
+            {
+                "name": "David Dastmalchian",
+                "image": "https://image.tmdb.org/t/p/w185/eLafwcpL64CqzwjjSgKpO7Rv4ae.jpg"
+            },
+            {
+                "name": "Eric Andre",
+                "image": "https://image.tmdb.org/t/p/w185/e9XlcFnZQiBSQ1vISQVyTOrkIaq.jpg"
+            }
+        ],
+        "details": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://www.youtube.com/embed/6_MaiogJvSE",
+                "source_site": "rtally",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
