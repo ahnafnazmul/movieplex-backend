@@ -58586,5 +58586,177 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_285322",
+        "type": "series",
+        "title": "Below",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=U57CNxSgoss",
+        "poster": "https://image.tmdb.org/t/p/w500/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+        "rating": 7.3,
+        "release_date": "2026-10-08",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Josh Hartnett",
+                "image": "https://image.tmdb.org/t/p/w185/5eMo8D7h1XrSu6ZN4UXhPcS6YNG.jpg"
+            },
+            {
+                "name": "Mackenzie Davis",
+                "image": "https://image.tmdb.org/t/p/w185/ekQbEIKh26jbz17P0wwLbo6uNs9.jpg"
+            },
+            {
+                "name": "Charlie Heaton",
+                "image": "https://image.tmdb.org/t/p/w185/lTFj22o0odUj9MfzjLvBtjfGyOT.jpg"
+            },
+            {
+                "name": "Ruby Stokes",
+                "image": "https://image.tmdb.org/t/p/w185/82itS42KR0RisdZNRemnGuKowIe.jpg"
+            },
+            {
+                "name": "Kaleb Horn",
+                "image": "https://image.tmdb.org/t/p/w185/e8Dw4RNTmmbn5p7pYNP92wO3cA9.jpg"
+            }
+        ],
+        "details": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/21/3b769a5ba02c10a94d38aa5a886ed051-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/21/3b769a5ba02c10a94d38aa5a886ed051-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1383750",
+        "type": "movie",
+        "title": "Rise of the Footsoldier: Retribution",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=1E2Dmm8fyWc",
+        "poster": "https://image.tmdb.org/t/p/w500/5Czi3k9zc8BhJFaz6XNDKC4AUtm.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/fBsKkb6ZaxfFLqHVF1YSHzmXlMn.jpg",
+        "rating": 6.5,
+        "release_date": "2026-08-28",
+        "runtime": "112 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Craig Fairbrass",
+                "image": "https://image.tmdb.org/t/p/w185/z5WnSqwkM0Ax0Z47etVNmcew5Pn.jpg"
+            },
+            {
+                "name": "Tamer Hassan",
+                "image": "https://image.tmdb.org/t/p/w185/5xDdmxKqRsiPVf2KQ16AK7Fmock.jpg"
+            },
+            {
+                "name": "Leo Gregory",
+                "image": "https://image.tmdb.org/t/p/w185/hntA25YHbPiNaq8Hcx7Fw07NQsu.jpg"
+            },
+            {
+                "name": "Jamie Foreman",
+                "image": "https://image.tmdb.org/t/p/w185/yKUHNdA0Oe9JJqHJDLUMRx9Bnfa.jpg"
+            },
+            {
+                "name": "Jana Pérez",
+                "image": "https://image.tmdb.org/t/p/w185/9cxbdFeyVtZMdre77GBaTdIFLEU.jpg"
+            }
+        ],
+        "details": "Tate battles ruthless mercenaries throughout Ibiza as he avenges his friend's death.  Get ready for the biggest and most action packed film in the successful independent crime saga.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/01/0666a870fc359f8950daca4c6a87ffe4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/01/0666a870fc359f8950daca4c6a87ffe4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1375161",
+        "type": "movie",
+        "title": "Don't Move",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=FwoYYKyJo1g",
+        "poster": "https://image.tmdb.org/t/p/w500/uh0ZSdM8iOQgHwnUlhhanP8Dkl6.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1b0RrVxLAMhfT0vQXfWtDLwg1ke.jpg",
+        "rating": 5.2,
+        "release_date": "2026-09-11",
+        "runtime": "94 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Lyndsy Fonseca",
+                "image": "https://image.tmdb.org/t/p/w185/xPbbiLpUpmaHIVnyR3BAfG1tm5S.jpg"
+            },
+            {
+                "name": "Russ",
+                "image": "https://image.tmdb.org/t/p/w185/mHBSird3BUr2Ezuw6bQunsWgeVt.jpg"
+            },
+            {
+                "name": "Tom Cavanagh",
+                "image": "https://image.tmdb.org/t/p/w185/ySArFxNLO43QJsWBUQ9I85TmnqW.jpg"
+            },
+            {
+                "name": "Hunter King",
+                "image": "https://image.tmdb.org/t/p/w185/7w2B5PtjSZe64ZzDuf7S3JNAOCx.jpg"
+            },
+            {
+                "name": "Joseph Lee Anderson",
+                "image": "https://image.tmdb.org/t/p/w185/3u6LOjmlhjvhXsLFJdXieBZmJaU.jpg"
+            }
+        ],
+        "details": "A church group's annual retreat turns deadly when they wander into the wrong part of the Ozark wilderness, and something starts picking them off one by one.  Suspicion falls on Ricky, the troublemaker of the group. But the real threat is far worse.  Deep in the forest, wrapped in a labyrinth of webs, the group is pursued by a terrifying prehistoric arachnid that hunts by vibration. When every step could be their last, they only have one choice: Don't Move.  It's up to Megan to hold what's left of the group together and get them out alive.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/21/0cfca13e16dbd27c5b42ad1d38224791-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/21/0cfca13e16dbd27c5b42ad1d38224791-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
