@@ -58917,5 +58917,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_100333",
+        "type": "series",
+        "title": "Summertime",
+        "release_year": 2020,
+        "original_language": "it",
+        "video_trailer": "https://www.youtube.com/watch?v=qDFDZE_9Mcw",
+        "poster": "https://image.tmdb.org/t/p/w500/9PCmLDADfqrCnnxOo8yeM5AjnWY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mSBdRkNrncpV9Qj4aFKmxhzyIID.jpg",
+        "rating": 6.8,
+        "release_date": "2020-04-29",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Coco Rebecca Edogamhe",
+                "image": "https://image.tmdb.org/t/p/w185/yVgHScKn6w9IcDoZtmfenFxuZBw.jpg"
+            },
+            {
+                "name": "Ludovico Tersigni",
+                "image": "https://image.tmdb.org/t/p/w185/4T0kWwPlNnSqmA3vgJSvmHNXPXX.jpg"
+            },
+            {
+                "name": "Amanda Campana",
+                "image": "https://image.tmdb.org/t/p/w185/kV6rzf6GiX3vHQPy31LcIBnwRAo.jpg"
+            },
+            {
+                "name": "Andrea Lattanzi",
+                "image": "https://image.tmdb.org/t/p/w185/ePZXTemSLsokmAI75JM87NhtYv0.jpg"
+            },
+            {
+                "name": "Thony",
+                "image": "https://image.tmdb.org/t/p/w185/w3nnvagfoe6RWn00Kh2DEF7et6B.jpg"
+            }
+        ],
+        "details": "A modern love story set during the summer on Italy’s Adriatic Coast. An undeniable attraction brings together Ale and Summer, who come from very different worlds. For both, these holidays will be an unforgettable journey that will take them far from who they were before they met.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/27/66b8ce5a0bf54fd66002cb5910e25fe0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/27/66b8ce5a0bf54fd66002cb5910e25fe0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
