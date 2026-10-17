@@ -59085,5 +59085,119 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1236045",
+        "type": "movie",
+        "title": "Animals",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=ZkN2M4ODdys",
+        "poster": "https://image.tmdb.org/t/p/w500/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+        "rating": 7.1,
+        "release_date": "2026-10-09",
+        "runtime": "106 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Thriller",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ben Affleck",
+                "image": "https://image.tmdb.org/t/p/w185/aTcqu8cI4wMohU17xTdqmXKTGrw.jpg"
+            },
+            {
+                "name": "Kerry Washington",
+                "image": "https://image.tmdb.org/t/p/w185/zgyjYlxmHG6Ntbg16JcTp8Vu8M3.jpg"
+            },
+            {
+                "name": "Gillian Anderson",
+                "image": "https://image.tmdb.org/t/p/w185/3Ny8ZYahb33vpqNEPNCE2IOXPew.jpg"
+            },
+            {
+                "name": "Steven Yeun",
+                "image": "https://image.tmdb.org/t/p/w185/fOMFO2Xx4duzpNgS9Q5ytO44yGb.jpg"
+            },
+            {
+                "name": "Adriana Paz",
+                "image": "https://image.tmdb.org/t/p/w185/aUBNKmudV1CCMUHskWemg58vc3n.jpg"
+            }
+        ],
+        "details": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/43fcbda7cfe85dee3eb7b167409db2a6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/43fcbda7cfe85dee3eb7b167409db2a6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1594952",
+        "type": "movie",
+        "title": "Oversabi Aunty",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=7OUwU55YDOk",
+        "poster": "https://image.tmdb.org/t/p/w500/iwVEpAI9ci1EWqVNwJtNEzNC5av.jpg",
+        "backdrop": "",
+        "rating": 7.0,
+        "release_date": "2025-12-19",
+        "runtime": "127 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Toyin Abraham",
+                "image": "https://image.tmdb.org/t/p/w185/7Hmot3IO6qfscUpmHqMiKuxOD7B.jpg"
+            },
+            {
+                "name": "Tana Egbo-Adelana",
+                "image": "https://image.tmdb.org/t/p/w185/4aSOYDIRhBFQwNsp3ghXnZNqYXU.jpg"
+            },
+            {
+                "name": "Enioluwa Adeoluwa",
+                "image": ""
+            },
+            {
+                "name": "Toyin Afolayan",
+                "image": ""
+            },
+            {
+                "name": "Ngozi Ezeonu",
+                "image": ""
+            }
+        ],
+        "details": "A zealous church usher's mission to \"fix\" everyone backfires as her moral crusade wreaks havoc on family life, culminating at a wedding introduction that forces her to face the consequences of her religious fervor.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/02/4ba32b12f7b82e8792cd6e8c2ee5b8f4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/02/4ba32b12f7b82e8792cd6e8c2ee5b8f4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
