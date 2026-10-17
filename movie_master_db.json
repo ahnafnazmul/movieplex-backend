@@ -58974,5 +58974,116 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_294446",
+        "type": "series",
+        "title": "The Vanishing Beauty",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/m3r695bVVi5y4UjbqIdkSkz060f.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6Iha7gx0lTdrv6x7dECtjB8YnLA.jpg",
+        "rating": 8.0,
+        "release_date": "2026-10-09",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Li Yitong",
+                "image": "https://image.tmdb.org/t/p/w185/jfostFmHde0D1Wj9F57GWHEVzmO.jpg"
+            },
+            {
+                "name": "Wang Jiajia",
+                "image": "https://image.tmdb.org/t/p/w185/3JMac2dAdRtYWZ9ddfsyIZAyU6z.jpg"
+            },
+            {
+                "name": "Chang Huasen",
+                "image": "https://image.tmdb.org/t/p/w185/6F0qlEZS0xqgxU5lQlRqS2SiUYL.jpg"
+            },
+            {
+                "name": "Zeng Mengxue",
+                "image": "https://image.tmdb.org/t/p/w185/hqbH32t4wHqk62z8a2zoy2gNPop.jpg"
+            }
+        ],
+        "details": "Yu Meng, an only child from Jiangsu Zhejiang Shanghai and a popular internet blogger, is admired as a woman with a perfect life. On her fifth wedding anniversary, the bubble of her seemingly flawless happiness shatters. Her model husband is no longer so perfect, and her marriage begins to crack, while she also faces the threat of being financially exploited. With the support of her friends, Yu Meng reexamines her life and fights to take back control.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/10/7a93b1da458a02ac91ffb2d7a5a884ed-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/10/7a93b1da458a02ac91ffb2d7a5a884ed-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_235577",
+        "type": "series",
+        "title": "The Judge from Hell",
+        "release_year": 2024,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=xvec_vioks8",
+        "poster": "https://image.tmdb.org/t/p/w500/9vhLHbUiiP9HiXfJw5OUC7KoaJG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dNwVnRWE4LRLJ9f3WIWOnIURPwn.jpg",
+        "rating": 8.6,
+        "release_date": "2024-09-21",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy",
+            "Crime",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Park Shin-hye",
+                "image": "https://image.tmdb.org/t/p/w185/5wyerOQUW0Ej7Xs8eqfwdoJgV7E.jpg"
+            },
+            {
+                "name": "Kim Jae-young",
+                "image": "https://image.tmdb.org/t/p/w185/s6qcQ7rvKOjMZOsxcl1KgYLHIiz.jpg"
+            },
+            {
+                "name": "Kim Ah-young",
+                "image": "https://image.tmdb.org/t/p/w185/mIRYdYJMUMtfBrIjH0l4va6dJHz.jpg"
+            },
+            {
+                "name": "Kim In-kwon",
+                "image": "https://image.tmdb.org/t/p/w185/vMPHVFE0FhItp2uMMgGRYq5z5Bj.jpg"
+            },
+            {
+                "name": "Kim Hye-hwa",
+                "image": "https://image.tmdb.org/t/p/w185/pCwGRkimaHXcv7MOn20cgJrUCAU.jpg"
+            }
+        ],
+        "details": "A cruel and vicious judge, who wields power only for herself, meets a warm and cheerful detective who puts the victims first.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/09/baddc0defcfeeb5afac9a49d9a22ae42-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/06/09/baddc0defcfeeb5afac9a49d9a22ae42-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
