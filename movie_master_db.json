@@ -55555,7 +55555,8 @@
             "Movies",
             "English",
             "Action",
-            "Thriller"
+            "Thriller",
+            "Horror"
         ],
         "cast": [
             {
@@ -59194,6 +59195,64 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/02/4ba32b12f7b82e8792cd6e8c2ee5b8f4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1514026",
+        "type": "movie",
+        "title": "Buddy",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
+        "rating": 7.3,
+        "release_date": "2026-08-27",
+        "runtime": "96 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Comedy",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Keegan-Michael Key",
+                "image": "https://image.tmdb.org/t/p/w185/xmdzYXP9j87a43FSiL138nLesuS.jpg"
+            },
+            {
+                "name": "Cristin Milioti",
+                "image": "https://image.tmdb.org/t/p/w185/aiOOWmej3qYSiR9cUs3lm5x5SkB.jpg"
+            },
+            {
+                "name": "Delaney Quinn",
+                "image": "https://image.tmdb.org/t/p/w185/byBPP7Zg4NKQEejOBme9PUdRAZp.jpg"
+            },
+            {
+                "name": "Caleb Williams",
+                "image": "https://image.tmdb.org/t/p/w185/6I6wWh2dDYziQhqncAT0isaDGoY.jpg"
+            },
+            {
+                "name": "Madison Skyy Polan",
+                "image": "https://image.tmdb.org/t/p/w185/9O5EsUmfrr4uHvjFV9sJJFg900g.jpg"
+            }
+        ],
+        "details": "A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/da6c850319c2c6146370371ab8387ab5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/da6c850319c2c6146370371ab8387ab5-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
