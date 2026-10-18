@@ -59371,5 +59371,61 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_333101",
+        "type": "series",
+        "title": "Treasure Island",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=UsFVIvngwRA",
+        "poster": "https://image.tmdb.org/t/p/w500/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/cv102XnL9r7M9jFr0hsMeqzpAWW.jpg",
+        "rating": 6.2,
+        "release_date": "2026-10-11",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "David Oyelowo",
+                "image": "https://image.tmdb.org/t/p/w185/7UZHRwOKe2cYxj8SeNUklyPYkns.jpg"
+            },
+            {
+                "name": "Tom Sweet",
+                "image": "https://image.tmdb.org/t/p/w185/w4CjZHZ5PNSEP4Z1BKuVgCeAXMV.jpg"
+            },
+            {
+                "name": "Tomer Capone",
+                "image": "https://image.tmdb.org/t/p/w185/r6s7dkYZUJpd00C7p9itT6Gp8XB.jpg"
+            },
+            {
+                "name": "Craige Els",
+                "image": "https://image.tmdb.org/t/p/w185/8zvmwwRRTLn7lsZpRlJBAeK8l9a.jpg"
+            },
+            {
+                "name": "Neil Pendleton",
+                "image": ""
+            }
+        ],
+        "details": "Young Jim Hawkins and his mother Bess come into possession of a legendary pirate’s treasure map and are drawn into a deadly voyage across the Atlantic, where Jim is forced to navigate mutiny, violence and betrayal, leaving him forever changed.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/12/0d51a780badc6505bc865af5d91a0ce8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/12/0d51a780badc6505bc865af5d91a0ce8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
