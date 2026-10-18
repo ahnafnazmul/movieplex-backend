@@ -59258,5 +59258,118 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_214252",
+        "type": "series",
+        "title": "All My Love For You",
+        "release_year": 2010,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/3EMZdgTIz140RSJ4RYigZgtFhZf.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rmLzHGnD23DbxzUzDDKpfweIxjn.jpg",
+        "rating": 0.0,
+        "release_date": "2010-11-08",
+        "runtime": "60 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Park Mi-sun",
+                "image": "https://image.tmdb.org/t/p/w185/bF7OxYNi2GwhQspZnausMTuCeoH.jpg"
+            },
+            {
+                "name": "Yoon Seung-ah",
+                "image": "https://image.tmdb.org/t/p/w185/uBs9J9zkgSPHW14h10AXMBWC4yX.jpg"
+            },
+            {
+                "name": "Jo Kwon",
+                "image": "https://image.tmdb.org/t/p/w185/fFuEpw7UM1TdhxWapIfBEFSW8xN.jpg"
+            },
+            {
+                "name": "Son Ga-in",
+                "image": "https://image.tmdb.org/t/p/w185/hrkhURX2hKlXLokV9k07kqG1HiA.jpg"
+            },
+            {
+                "name": "Kim Kap-soo",
+                "image": "https://image.tmdb.org/t/p/w185/u5Y4oC2qKPD2Xsw5JsC8vHQRo8s.jpg"
+            }
+        ],
+        "details": "The story of the relationship between two families, based on the traditional Korean Cinderella folktale about Kongji and Patji. The Kongji family is poor but kind, while the Patji family is rich but selfish.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/05/01e250327331d10d2a9a40ab8b4069f9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/05/01e250327331d10d2a9a40ab8b4069f9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_258165",
+        "type": "series",
+        "title": "East of Eden",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=M9NWvGZViCg",
+        "poster": "https://image.tmdb.org/t/p/w500/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
+        "rating": 8.0,
+        "release_date": "2026-10-01",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Florence Pugh",
+                "image": "https://image.tmdb.org/t/p/w185/1QfiLnofJFlOJOLCWaxyDpIN03v.jpg"
+            },
+            {
+                "name": "Christopher Abbott",
+                "image": "https://image.tmdb.org/t/p/w185/bE7zzh60RXydH3p632ZZSmsTlcn.jpg"
+            },
+            {
+                "name": "Mike Faist",
+                "image": "https://image.tmdb.org/t/p/w185/xRl1Pa8a80L3QUT7LrTtlTZv1l4.jpg"
+            },
+            {
+                "name": "Hoon Lee",
+                "image": "https://image.tmdb.org/t/p/w185/3Ux4nTEfPySyZg6yBlu1uXR1TyT.jpg"
+            },
+            {
+                "name": "Ciarán Hinds",
+                "image": "https://image.tmdb.org/t/p/w185/lyaKf0FipuiYWsVEQ5Nt0v5KwYx.jpg"
+            }
+        ],
+        "details": "In the early 1900s, a fiercely independent woman drives a rift between two brothers, igniting a saga that unfolds across two generations.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/29/827ca5c2a3625c94e481fcc401960f98-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/29/827ca5c2a3625c94e481fcc401960f98-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
