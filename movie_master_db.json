@@ -59540,5 +59540,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1643135",
+        "type": "movie",
+        "title": "Run Hide Fight: Infidels",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=sF4OZoLcCD0",
+        "poster": "https://image.tmdb.org/t/p/w500/f3iZCUxaTj8zAZRWQZLQZhUIRTl.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5LINHN9KrzfYZxogKlTCcvR1Gki.jpg",
+        "rating": 5.8,
+        "release_date": "2026-09-15",
+        "runtime": "129 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Jonathan Majors",
+                "image": "https://image.tmdb.org/t/p/w185/nsxnMbkl9Lpc12AmYwKi9SmsJ7e.jpg"
+            },
+            {
+                "name": "JC Kilcoyne",
+                "image": ""
+            },
+            {
+                "name": "Tyler Aser",
+                "image": "https://image.tmdb.org/t/p/w185/oefipYXaMWNKZe9wqD7AbtNThxg.jpg"
+            },
+            {
+                "name": "Stephen Hailo",
+                "image": ""
+            },
+            {
+                "name": "James Bingham",
+                "image": "https://image.tmdb.org/t/p/w185/15G4PYPuqrWfq7pCPdzllF1JfkR.jpg"
+            }
+        ],
+        "details": "When radical Islamist terrorists hijack a liberal college's pro-Palestine encampment, a ragtag band of red-blooded students, a security guard, and a Delta Force vet must arm up to save their clueless peers.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/16/a5646e11036f9de6d25c4ff9541160c7-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/16/a5646e11036f9de6d25c4ff9541160c7-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
