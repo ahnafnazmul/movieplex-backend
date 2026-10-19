@@ -59427,5 +59427,61 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_297982",
+        "type": "series",
+        "title": "Irreplaceable",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=P7uYQmgNJko",
+        "poster": "https://image.tmdb.org/t/p/w500/uvdFDRZUUZarJirBQAjYk2yIkMi.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/o91jmFILQk1UAqPbpEjT3D3OxoO.jpg",
+        "rating": 8.0,
+        "release_date": "2026-09-28",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Zhao Jinmai",
+                "image": "https://image.tmdb.org/t/p/w185/hndhOhSK0GAMi1qQaacacl3aHzO.jpg"
+            },
+            {
+                "name": "Wei Daxun",
+                "image": "https://image.tmdb.org/t/p/w185/8zDh8Tp6xbVSpxr307alnGqUiJP.jpg"
+            },
+            {
+                "name": "Zhou Qi",
+                "image": "https://image.tmdb.org/t/p/w185/p8mUtx6C5o6jVYQ86eSOMvN3ZTz.jpg"
+            },
+            {
+                "name": "Michelle Bai",
+                "image": "https://image.tmdb.org/t/p/w185/nfrH7OSmsk6tYrpDQMJrKmMAZ5K.jpg"
+            },
+            {
+                "name": "Hu Yixuan",
+                "image": "https://image.tmdb.org/t/p/w185/vOa4szQkowRT34eNPvjwwJKqBAN.jpg"
+            }
+        ],
+        "details": "After witnessing her mother's suicide following a divorce, Xu Chi defies her tragic fate by rising from an ordinary graduate to a sharp-witted top consultant. Drawn into the covert revenge scheme of seasoned partner Ye Xinzhi, who mentors her while navigating their growing mutual attraction, the duo confronts a crossroads when professional upheavals collide with their evolving bond.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/28/76d84ca4dc2d769c6227851e4e7c74c9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/28/76d84ca4dc2d769c6227851e4e7c74c9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
