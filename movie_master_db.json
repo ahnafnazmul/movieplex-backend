@@ -59483,5 +59483,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_37517",
+        "type": "movie",
+        "title": "Kiss or Kill",
+        "release_year": 1997,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/vV0tah9ztJbj0kWSzAMtvQm2L9L.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/jRTbtpVdcCgBylYvEVZvqHW6DyM.jpg",
+        "rating": 4.5,
+        "release_date": "1997-07-01",
+        "runtime": "96 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Matt Day",
+                "image": "https://image.tmdb.org/t/p/w185/2elQ6hUC5cSlw5yzJE1tHEXhKAh.jpg"
+            },
+            {
+                "name": "Frances O'Connor",
+                "image": "https://image.tmdb.org/t/p/w185/tWGMS7DciV43tlxA6UEc2UqxrhL.jpg"
+            },
+            {
+                "name": "Chris Haywood",
+                "image": "https://image.tmdb.org/t/p/w185/4YoZ8aRnDObtxZ9VFvRhunkG1Ha.jpg"
+            },
+            {
+                "name": "Andrew S. Gilbert",
+                "image": "https://image.tmdb.org/t/p/w185/9TF2jm5C8jHRNOPzv5E9vKBx1mw.jpg"
+            },
+            {
+                "name": "Tiffany Peters",
+                "image": ""
+            }
+        ],
+        "details": "Two lovers, Nikki and Al, have a scam in which Nikki allows herself to be picked up by older men, drugs them, and, with Al's help, robs them. After accidentally killing one of her victims with an overdose, Nikki and Al are on the run.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/aa2e6e58924a44e8b9de45e81dc9660d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/26/aa2e6e58924a44e8b9de45e81dc9660d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
