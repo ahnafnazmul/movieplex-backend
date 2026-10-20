@@ -57337,7 +57337,8 @@
             "Web Series",
             "English",
             "Sci-Fi & Fantasy",
-            "Comedy"
+            "Comedy",
+            "Drama"
         ],
         "cast": [
             {
@@ -59650,6 +59651,70 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/04/41371c2a30e6bf88d46962b24e920ea5-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_16377",
+        "type": "series",
+        "title": "Breaking Point",
+        "release_year": 1963,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/zgb5jQ6wOreapkVXSdAH5hDmVd1.jpg",
+        "backdrop": "",
+        "rating": 7.4,
+        "release_date": "1963-09-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Eduard Franz",
+                "image": "https://image.tmdb.org/t/p/w185/nWe0UzZ00UlPbIlxSYeQIteRCp5.jpg"
+            },
+            {
+                "name": "Paul Richards",
+                "image": "https://image.tmdb.org/t/p/w185/ue9laBJhpkR5BiMvvHQKdR09HDU.jpg"
+            },
+            {
+                "name": "Robert Redford",
+                "image": "https://image.tmdb.org/t/p/w185/m5ayL8ASLdaaFYzqJZNYvrKRuhD.jpg"
+            },
+            {
+                "name": "Joey Heatherton",
+                "image": ""
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/10/a8edf8a857c88a65aee42d54f5392d4d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/10/a8edf8a857c88a65aee42d54f5392d4d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=0rakGyBI1EE_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=0rakGyBI1EE_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
             }
         ],
         "_source_site": "themoviebox"
