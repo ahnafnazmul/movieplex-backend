@@ -59597,5 +59597,61 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_335052",
+        "type": "series",
+        "title": "Decoding You",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ssTxNbl1LPFBgzuEirW96BIhcCE.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8EPepJRIu8TuggJ7Sr8tCh6Itgh.jpg",
+        "rating": 7.0,
+        "release_date": "2026-10-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Peerakrit Phacharaboonyakiat",
+                "image": "https://image.tmdb.org/t/p/w185/tr7Lmmqp1iRKlSaoJCyec0OZ1sf.jpg"
+            },
+            {
+                "name": "Kawin Onglaor",
+                "image": "https://image.tmdb.org/t/p/w185/oeZlF52s9fAiL3aopGGbHTbeRTZ.jpg"
+            },
+            {
+                "name": "Kanin Stanley",
+                "image": "https://image.tmdb.org/t/p/w185/diVWlcxdoXF8AJlQ7pCfHBQBsqA.jpg"
+            },
+            {
+                "name": "Paradee Wongsawat",
+                "image": "https://image.tmdb.org/t/p/w185/hNm90v0zGjhhkPkYTUEOyPLKIdh.jpg"
+            },
+            {
+                "name": "Krittakan Prasitpanit",
+                "image": "https://image.tmdb.org/t/p/w185/aMAHIkjO0YSKcve5hrY89NlYk1J.jpg"
+            }
+        ],
+        "details": "Krit, a data analytics CEO pressured by a scandal and his mother, enters a fake marriage with his adopted brother Nont. As Nont attracts others, Krit's hidden feelings emerge, forcing him to choose between his family empire and love.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/04/41371c2a30e6bf88d46962b24e920ea5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/04/41371c2a30e6bf88d46962b24e920ea5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
