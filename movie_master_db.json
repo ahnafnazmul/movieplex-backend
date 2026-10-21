@@ -59718,5 +59718,130 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_389910",
+        "type": "movie",
+        "title": "Love and Duty",
+        "release_year": 1916,
+        "original_language": "xx",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/A4w7jMyWheqkQKADsFaK5ImbwtK.jpg",
+        "backdrop": "",
+        "rating": 4.9,
+        "release_date": "1916-09-21",
+        "runtime": "12 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Oliver Hardy",
+                "image": "https://image.tmdb.org/t/p/w185/qRMGQo5oWwcLpwgXSoArXK5riwe.jpg"
+            },
+            {
+                "name": "Billy Ruge",
+                "image": ""
+            },
+            {
+                "name": "Bert Tracy",
+                "image": ""
+            },
+            {
+                "name": "Florence McLaughlin",
+                "image": ""
+            },
+            {
+                "name": "Ray Godfrey",
+                "image": ""
+            }
+        ],
+        "details": "Ollie is a love-struck private who is drilled by his unsympathetic lieutenant at reveille. The colonel of the regiment wants his daughter to marry the lieutenant but she has her heart set on the chubby-faced Hardy, who himself is in love with another woman. He is thrown into a cell for disobeying orders, where he later escapes with the assistance of his sweetheart, and a casual touch of assault when he bumps the guard with his large stomach. The final chase scene ends with everyone getting what they want.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/13/710fa6de1de394357b03786aa121ae96-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/13/710fa6de1de394357b03786aa121ae96-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=_9Z0EtKKNVQ_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=_9Z0EtKKNVQ_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1561726",
+        "type": "movie",
+        "title": "Masterplan",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=gc0t8AfMP6k",
+        "poster": "https://image.tmdb.org/t/p/w500/5xmXVd7nCK3tAo34XkO58SxUCip.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg",
+        "rating": 7.1,
+        "release_date": "2026-10-16",
+        "runtime": "110 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Stanley Tucci",
+                "image": "https://image.tmdb.org/t/p/w185/q4TanMDI5Rgsvw4SfyNbPBh4URr.jpg"
+            },
+            {
+                "name": "Simona Tabasco",
+                "image": "https://image.tmdb.org/t/p/w185/eHH3kzBwc69E9BvDRCtOEtY1CSc.jpg"
+            },
+            {
+                "name": "Victor Belmondo",
+                "image": "https://image.tmdb.org/t/p/w185/sO3BOoXM8UseOJr7Ba0q0jgGbRV.jpg"
+            },
+            {
+                "name": "Eliott Margueron",
+                "image": "https://image.tmdb.org/t/p/w185/bXXHdRf9NBXHlA0OBlROZgolaMp.jpg"
+            },
+            {
+                "name": "Barbara Lo Gaglio",
+                "image": ""
+            }
+        ],
+        "details": "When a legendary thief sets his sights on the Mona Lisa, he recruits two young strangers to help him before revealing they are long-lost siblings… and oh yes, by the way, he is their father. Thrown into a chaotic reunion they never asked for, this new family must learn to work together — and try not to kill each other — if they want any chance at pulling off the heist of the century.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/28/3e4cf38dd0a4f85e21f7a627d9c1009d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/28/3e4cf38dd0a4f85e21f7a627d9c1009d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
