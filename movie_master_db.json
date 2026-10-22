@@ -59913,5 +59913,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_19222",
+        "type": "movie",
+        "title": "Parasomnia",
+        "release_year": 2008,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=CPF8B6OWvXA",
+        "poster": "https://image.tmdb.org/t/p/w500/k4Rx1dwoKkZrtSD0mZBRBo22jmb.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zcGdi9MKNQZFh8ab4GFb6AQZyqB.jpg",
+        "rating": 4.9,
+        "release_date": "2008-10-17",
+        "runtime": "103 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Cherilyn Wilson",
+                "image": "https://image.tmdb.org/t/p/w185/k8itd4vlL7vGYDZUuAhrMrVq5pO.jpg"
+            },
+            {
+                "name": "Sean Young",
+                "image": "https://image.tmdb.org/t/p/w185/yfJADYt6xYPpg1g7Z7TTW0bcL2s.jpg"
+            },
+            {
+                "name": "Patrick Kilpatrick",
+                "image": "https://image.tmdb.org/t/p/w185/yhujborr3HMC9ALvuOPu25ffAhN.jpg"
+            },
+            {
+                "name": "Dylan McKnight",
+                "image": "https://image.tmdb.org/t/p/w185/4NpMRXQZpcye5aiV8qo8p7iJE4u.jpg"
+            },
+            {
+                "name": "Jeffrey Combs",
+                "image": "https://image.tmdb.org/t/p/w185/dfWcxKNsyGuN18GjWkbOmMhO4c9.jpg"
+            }
+        ],
+        "details": "Laura Baxter is a young woman, literally a \"sleeping beauty,\" who suffers from a medical condition called \"parasomnia.\" A childhood accident victim, she is actually sleeping her life away, awakening briefly on rare occasions. Art student Danny Sloan falls in love with her, unaware that her hospital neighbor, a terrifying mass murderer and mesmerist named Byron Volpe has other, more sinister plans.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/04/70b6387534d5180074af288149a7c0ed-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/04/70b6387534d5180074af288149a7c0ed-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
