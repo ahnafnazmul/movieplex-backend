@@ -59843,5 +59843,75 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_214932",
+        "type": "movie",
+        "title": "Matters of the Heart",
+        "release_year": 1990,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/Kqxoc5fTlKqnz6P8B6jHLOGqAU.jpg",
+        "backdrop": "",
+        "rating": 5.0,
+        "release_date": "1990-12-26",
+        "runtime": "100 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "TV Movie",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Jane Seymour",
+                "image": "https://image.tmdb.org/t/p/w185/4crZXhSXSeAiwZDZyjfQ9dMgbj0.jpg"
+            },
+            {
+                "name": "Chris Gartin",
+                "image": "https://image.tmdb.org/t/p/w185/6Oy9QRX9BjMc7rHFC0ttaI778i0.jpg"
+            },
+            {
+                "name": "James Stacy",
+                "image": "https://image.tmdb.org/t/p/w185/63U38b0Fiqlgb63Ee66IcEztQoF.jpg"
+            },
+            {
+                "name": "Geoffrey Lewis",
+                "image": "https://image.tmdb.org/t/p/w185/codb8rrsNqnsq3e0MHkH3kAAJwg.jpg"
+            },
+            {
+                "name": "Nan Martin",
+                "image": "https://image.tmdb.org/t/p/w185/ldZew6Zn5K0yAtghvvJyMxECfjx.jpg"
+            }
+        ],
+        "details": "A noted concert pianist in her early forties, totally obsessed with her music, retreats to a small town to be alone and to write a concerto, but there falls for a talented teenage musician and becomes consumed in an affair with him.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/11/08bfbae59bed0a3bafd631680e6f1d24-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/11/08bfbae59bed0a3bafd631680e6f1d24-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=-ahL61xAPQQ_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=-ahL61xAPQQ_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
