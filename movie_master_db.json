@@ -60072,5 +60072,106 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1422822",
+        "type": "movie",
+        "title": "It's a Medical Miracle",
+        "release_year": 2026,
+        "original_language": "ml",
+        "video_trailer": "https://www.youtube.com/watch?v=wK2CU6znTDw",
+        "poster": "https://image.tmdb.org/t/p/w500/tT9VKxtyyb5uFsxZhdnvE1GVZJd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vhmUAwPtqZI4wVsQHmTJNR8bRK6.jpg",
+        "rating": 4.5,
+        "release_date": "2026-09-18",
+        "runtime": "137 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Sangeeth Prathap",
+                "image": "https://image.tmdb.org/t/p/w185/2f7mTmZ1RttbacuADm6vv7xpTAi.jpg"
+            },
+            {
+                "name": "Sharafudheen",
+                "image": "https://image.tmdb.org/t/p/w185/icEHwPLrRp2sAk3gzylO8ar4Hey.jpg"
+            },
+            {
+                "name": "Akhila Bhargavan",
+                "image": "https://image.tmdb.org/t/p/w185/dGaNyhTvnotJpqxmRLXCqIfKGjC.jpg"
+            },
+            {
+                "name": "Anand Manmadhan",
+                "image": "https://image.tmdb.org/t/p/w185/xlx9Rmb3NGHNX7VFGD55kskCM04.jpg"
+            },
+            {
+                "name": "Kiran Peethambaran",
+                "image": "https://image.tmdb.org/t/p/w185/qbfH2hMSspS1PWVNRQP2xa2buWK.jpg"
+            }
+        ],
+        "details": "A young man declared brain-dead suddenly awakens with the ability to hear everything. Seeking the nurse whose voice saved him, he's drawn into a dark game of masks, memories, and revenge where every sound may be a clue or a trap.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/zfa99pt6y6s9",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_930305",
+        "type": "movie",
+        "title": "Doosra",
+        "release_year": 2022,
+        "original_language": "fr",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/aalW0a44CSlYFde1huE7rnlcI9s.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ebYXrHJ3OBP40TOIVUlwV4KQIRP.jpg",
+        "rating": 0.0,
+        "release_date": "2022-01-21",
+        "runtime": "29 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Lawrence Valin",
+                "image": "https://image.tmdb.org/t/p/w185/gNJHez2df24gHIxSzu2WNzebJev.jpg"
+            },
+            {
+                "name": "Vithyaah Subramaniam",
+                "image": ""
+            },
+            {
+                "name": "Rita Peverelli",
+                "image": ""
+            },
+            {
+                "name": "Pascal Parizot",
+                "image": ""
+            },
+            {
+                "name": "Marie Lechot",
+                "image": ""
+            }
+        ],
+        "details": "Vinoth, a young Sri Lankan refugee, has been living alone and working in Switzerland for a year. He is looking for a volunteer activity to escape his loneliness but no one is willing to accept his help.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/a8n2wfyf7bqp",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
