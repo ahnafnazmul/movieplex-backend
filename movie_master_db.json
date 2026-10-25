@@ -60173,5 +60173,120 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1058424",
+        "type": "movie",
+        "title": "Hope",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=OFaJzL83y0Q",
+        "poster": "https://image.tmdb.org/t/p/w500/6VY1ZKgpsc8CfGsQcCGiYEgHdH0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/qqHFLg90IUSoTmSMpKOOW5RyqN3.jpg",
+        "rating": 6.8,
+        "release_date": "2026-07-15",
+        "runtime": "157 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Science Fiction",
+            "Mystery",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Hwang Jung-min",
+                "image": "https://image.tmdb.org/t/p/w185/hKF1uh0iEfuZlBE79CXPw415qyn.jpg"
+            },
+            {
+                "name": "Zo In-sung",
+                "image": "https://image.tmdb.org/t/p/w185/69gbyFI0ET0l0dyjKChlx1Zx269.jpg"
+            },
+            {
+                "name": "Hoyeon",
+                "image": "https://image.tmdb.org/t/p/w185/AfQFFyGeG9xOQnEJb1Ash1RomkP.jpg"
+            },
+            {
+                "name": "Alicia Vikander",
+                "image": "https://image.tmdb.org/t/p/w185/lZu8qiTwiQIN96cuptgqMCCaUtg.jpg"
+            },
+            {
+                "name": "Michael Fassbender",
+                "image": "https://image.tmdb.org/t/p/w185/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg"
+            }
+        ],
+        "details": "In the remote South Korean village of Hope Harbor, police chief Bum-seok and officer Sung-ae are called to investigate a mysterious creature wreaking havoc on the community. But all is not as it seems, and perceptions can be misleading. What begins as ignorance plants the seed of disaster, escalating through human conflict into a tragedy of cosmic proportions.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/28/66ec9e2165d402a5acec57135712408b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/28/66ec9e2165d402a5acec57135712408b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_311648",
+        "type": "series",
+        "title": "Make Me Tingle",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=lYowvljL9T8",
+        "poster": "https://image.tmdb.org/t/p/w500/e4MlbtE02So4D5DJy197DbiAxqs.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/voAufY8Jv3AVfG15sxY5H6XWFKr.jpg",
+        "rating": 8.0,
+        "release_date": "2026-10-15",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Nam Ji-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/dSFP974u2btrs44Ynw0osCTDBtH.jpg"
+            },
+            {
+                "name": "Kim Jae-young",
+                "image": "https://image.tmdb.org/t/p/w185/s6qcQ7rvKOjMZOsxcl1KgYLHIiz.jpg"
+            },
+            {
+                "name": "Park So-jin",
+                "image": "https://image.tmdb.org/t/p/w185/cI64vJSNXzLwLm8wqIMKpLJTnmM.jpg"
+            },
+            {
+                "name": "Kim Shin-bi",
+                "image": "https://image.tmdb.org/t/p/w185/or6KtPM9qvgBuiXsNImpCUBjMit.jpg"
+            },
+            {
+                "name": "So A-rin",
+                "image": "https://image.tmdb.org/t/p/w185/qeTxHCPowzNjmR7qDjq8UEyILKp.jpg"
+            }
+        ],
+        "details": "A marketer with traditional views on love and marriage tries to navigate a connection with an adult toy company CEO with different values.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/15/3703e6fe566b143323a5a88dbd042096-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/15/3703e6fe566b143323a5a88dbd042096-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
