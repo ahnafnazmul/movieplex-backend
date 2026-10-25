@@ -18993,7 +18993,8 @@
             "Hindi",
             "Action",
             "Science Fiction",
-            "Fantasy"
+            "Fantasy",
+            "English"
         ],
         "cast": [
             {
@@ -19036,6 +19037,12 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2025/07/25/c71696e09b28ceae2efec38068a3ff0c-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/jr6rpw2ak6u4",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
             }
         ],
         "_source_site": "themoviebox"
