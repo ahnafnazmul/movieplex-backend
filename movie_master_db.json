@@ -60474,5 +60474,64 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_303745",
+        "type": "series",
+        "title": "Love in Disguise",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/kSAXIAovLC4z7Wp2Hy8oqLmpkox.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/32g5MD6eHPAZ5NAgkNAURb4eupm.jpg",
+        "rating": 8.6,
+        "release_date": "2026-10-19",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama",
+            "Crime",
+            "Action & Adventure"
+        ],
+        "cast": [
+            {
+                "name": "Yim Si-wan",
+                "image": "https://image.tmdb.org/t/p/w185/xhItkYqo5DnFunTLBe65npwi0Me.jpg"
+            },
+            {
+                "name": "Seorina",
+                "image": "https://image.tmdb.org/t/p/w185/nfHLot4nBfqWQKwcXykeol4Owjb.jpg"
+            },
+            {
+                "name": "Kim Jung-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/hSv3ihM8sK6aGPirXq6j758m05P.jpg"
+            },
+            {
+                "name": "Yeon Woo",
+                "image": "https://image.tmdb.org/t/p/w185/tn2g5D33zqea9eKTpwVFFneyr2s.jpg"
+            },
+            {
+                "name": "Ryu Seung-soo",
+                "image": "https://image.tmdb.org/t/p/w185/x9XcfwqcXNpk2hIrP6qeR0DDkOs.jpg"
+            }
+        ],
+        "details": "Taekang Group's successor, Yoon Yi-jun, is the prime suspect of a shocking murder. To uncover the truth, Kang Jae-hee goes undercover as a male secretary to keep an eye on Yi-jun. The closer they get to what really happened, the closer Yi-jun and Jae-hee become. Will Jae-hee, who is hiding her identity, and Yi-jun, who is hiding a secret, be able to let their true feelings be known to one another?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/19/9a75ae937133e271a5ba85e5f5daa538-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/19/9a75ae937133e271a5ba85e5f5daa538-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
