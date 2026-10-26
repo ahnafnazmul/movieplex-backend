@@ -60533,5 +60533,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_293607",
+        "type": "series",
+        "title": "100 Days of Deception",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=P0ElxnFyfXY",
+        "poster": "https://image.tmdb.org/t/p/w500/bZHEU42QynnMrHUWK1Hhvj2cdPA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3SvKCITqMtjgPIhFBjRc4yTAc4H.jpg",
+        "rating": 9.4,
+        "release_date": "2026-10-10",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kim You-jung",
+                "image": "https://image.tmdb.org/t/p/w185/eFcMTDIgzSGLHZYXcsf1M42cvFt.jpg"
+            },
+            {
+                "name": "Jinyoung",
+                "image": "https://image.tmdb.org/t/p/w185/e2U4M1vkwvFjwj834ttERQva61E.jpg"
+            },
+            {
+                "name": "Kim Hyun-joo",
+                "image": "https://image.tmdb.org/t/p/w185/AeYZSlVauG1BMJdzfyaw3u5jcyA.jpg"
+            },
+            {
+                "name": "Lee Mu-saeng",
+                "image": "https://image.tmdb.org/t/p/w185/xokzuuLDfVzassk0bmje2fvdMcM.jpg"
+            },
+            {
+                "name": "Jin Sun-kyu",
+                "image": "https://image.tmdb.org/t/p/w185/toFCyPac5rSpN58p0fsZ7lbogYc.jpg"
+            }
+        ],
+        "details": "Hoping for freedom, Gyeongseong's top pickpocket infiltrates the Japanese colonial government to steal secrets — only to fall for her target's son.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/18/19f8f4b840d9610cd20f66f0031776c9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/18/19f8f4b840d9610cd20f66f0031776c9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
