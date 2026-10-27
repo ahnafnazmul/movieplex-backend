@@ -57036,7 +57036,8 @@
             "English",
             "History",
             "Crime",
-            "Drama"
+            "Drama",
+            "Thriller"
         ],
         "cast": [
             {
@@ -60585,6 +60586,232 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/18/19f8f4b840d9610cd20f66f0031776c9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_239993",
+        "type": "series",
+        "title": "What's Wrong With Secretary Kim",
+        "release_year": 2024,
+        "original_language": "tl",
+        "video_trailer": "https://www.youtube.com/watch?v=kcVYwdufwBI",
+        "poster": "https://image.tmdb.org/t/p/w500/2NUtA4ODZphAknsXna84Nk9rq6F.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wvCF59w0fRTmPg3sJUxY3sf5p2C.jpg",
+        "rating": 8.3,
+        "release_date": "2024-03-18",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kim Chiu",
+                "image": "https://image.tmdb.org/t/p/w185/k9vsW7qWxTK99UBU3NqdZeanOwY.jpg"
+            },
+            {
+                "name": "Paulo Avelino",
+                "image": "https://image.tmdb.org/t/p/w185/b37rKQQBnPsqaiTQX8k3wzvFTtw.jpg"
+            },
+            {
+                "name": "Jake Cuenca",
+                "image": "https://image.tmdb.org/t/p/w185/vDdf6gSv4Uwkq5uHfJpffhNEPa9.jpg"
+            },
+            {
+                "name": "Janice de Belen",
+                "image": "https://image.tmdb.org/t/p/w185/cfK5VrfILIOdAbSAZIlrF4g2Uwk.jpg"
+            },
+            {
+                "name": "Franco Laurel",
+                "image": "https://image.tmdb.org/t/p/w185/ysXaLLb7e9J3HaysZdVKB0XjSS2.jpg"
+            }
+        ],
+        "details": "A competent secretary and a narcissistic boss fall in love while uncovering a traumatic past that causes them to question whether their feelings are real or the result of a shared trauma.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/04/10/f1243ed4145414d6fe6ed81ea10e93d2-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/04/10/f1243ed4145414d6fe6ed81ea10e93d2-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1376400",
+        "type": "movie",
+        "title": "Crawlers",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=4DowjB87tRE",
+        "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ayJsUQ4bEG6yY0UB6lMboiaDfYE.jpg",
+        "rating": 6.1,
+        "release_date": "2026-09-24",
+        "runtime": "80 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Matilda Lutz",
+                "image": "https://image.tmdb.org/t/p/w185/yqeYvGgDvrhvn5lP6fuRE1ImQXv.jpg"
+            },
+            {
+                "name": "Gary Anthony Stennette",
+                "image": "https://image.tmdb.org/t/p/w185/AgtXWf3Ph4itjIyehy2eJdYwTSu.jpg"
+            },
+            {
+                "name": "Elena Sanz",
+                "image": "https://image.tmdb.org/t/p/w185/dRJi4W6q9D882RQnmNhJhi00QB3.jpg"
+            },
+            {
+                "name": "Andrea Scott Méndez",
+                "image": "https://image.tmdb.org/t/p/w185/64YAJim4COEi49PkKpk4iULzOPg.jpg"
+            },
+            {
+                "name": "Isabella Marie Egizi",
+                "image": "https://image.tmdb.org/t/p/w185/2FGVJ15H9beEjFysnULSSTb5n0P.jpg"
+            }
+        ],
+        "details": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/17/24c2bf48db54b92f5d88b2c5c35f9fc0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/17/24c2bf48db54b92f5d88b2c5c35f9fc0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1796809",
+        "type": "movie",
+        "title": "Remain Calm",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/mwS8LsBd7FWp0XomfzVpynrGhHR.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mJ7zo8mMjXtvgf70EMiiT9aiola.jpg",
+        "rating": 7.4,
+        "release_date": "2026-10-12",
+        "runtime": "13 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Pauly Shore",
+                "image": "https://image.tmdb.org/t/p/w185/uI7ctTqSIlLL7nn6UqDdqqhGNVC.jpg"
+            },
+            {
+                "name": "Nick Swardson",
+                "image": "https://image.tmdb.org/t/p/w185/eyZkNQvpvNzYBg9oXh2IM6zOE5G.jpg"
+            },
+            {
+                "name": "Doug Jones",
+                "image": "https://image.tmdb.org/t/p/w185/rpvvWATYWHGjedJea0G97XufOwU.jpg"
+            },
+            {
+                "name": "Kevin Keppy",
+                "image": "https://image.tmdb.org/t/p/w185/52KbtEvQylLmtfGpqFZW3jXme6Y.jpg"
+            },
+            {
+                "name": "Zoran Gvojic",
+                "image": "https://image.tmdb.org/t/p/w185/6PD1A8Wywmg4b4Ra1ZuOitEO1Hl.jpg"
+            }
+        ],
+        "details": "The story follows the two gas station clerks whose routine night shift turns into a fight for survival. A government agent warns them about Mr. Frett, a terrifying creature that tracks and hunts people who show any signs of anxiety, stress, or panic. To stay alive, the characters must force themselves into a state of aggressive positivity and calm.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/27/6196ccacd37c95ec7b2a757d76646e5b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/27/6196ccacd37c95ec7b2a757d76646e5b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_297710",
+        "type": "series",
+        "title": "School Trip: Joined a Group I'm Not Close To",
+        "release_year": 2025,
+        "original_language": "ja",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/hlgLNj2vg7XHixFpg2EJRf9JIsZ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3YXRu9tLvpAfaNYuNswaBDpSALU.jpg",
+        "rating": 8.5,
+        "release_date": "2025-10-19",
+        "runtime": "30 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kodai Fujimoto",
+                "image": "https://image.tmdb.org/t/p/w185/1ePYx19QYyUW3Wr3Itxt1wOla35.jpg"
+            },
+            {
+                "name": "Hideyoshi Kan",
+                "image": "https://image.tmdb.org/t/p/w185/ldE0qGsAkQ44kNyrZY0Bu5f36rA.jpg"
+            },
+            {
+                "name": "Masaya Sakuragi",
+                "image": "https://image.tmdb.org/t/p/w185/5pp751du9M9TQ0NqxZwxVFtCY0F.jpg"
+            },
+            {
+                "name": "Ayuta Fukuda",
+                "image": "https://image.tmdb.org/t/p/w185/tSYTAL7APPcMOGV63lR5veCqpgP.jpg"
+            },
+            {
+                "name": "Kairi Shimizu",
+                "image": "https://image.tmdb.org/t/p/w185/8ZX17P11x5lkyGuwEj8sbLcpnQj.jpg"
+            }
+        ],
+        "details": "An awkward teen joins a group of popular classmates on a school trip, sparking an unexpected romance with the most popular and charming boy in school.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/23/c81e2f7b4bf1210e11abb662d160b298-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/23/c81e2f7b4bf1210e11abb662d160b298-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
