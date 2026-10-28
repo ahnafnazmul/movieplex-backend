@@ -61047,5 +61047,118 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1596275",
+        "type": "movie",
+        "title": "Drive - The Pretenders",
+        "release_year": 2026,
+        "original_language": "de",
+        "video_trailer": "https://www.youtube.com/watch?v=-sV69CJwUwU",
+        "poster": "https://image.tmdb.org/t/p/w500/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
+        "rating": 7.0,
+        "release_date": "2026-10-27",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Lisa-Marie Koroll",
+                "image": "https://image.tmdb.org/t/p/w185/kgCzVmxbvS40J3bOK9AMlefmnDr.jpg"
+            },
+            {
+                "name": "Amin Baahmed",
+                "image": "https://image.tmdb.org/t/p/w185/oyFyPJkzefovbnRE6DnWwwYLZaD.jpg"
+            },
+            {
+                "name": "Gustav Schmidt",
+                "image": "https://image.tmdb.org/t/p/w185/okAsgPvMjDEVkLg5S2lyfZbsGvD.jpg"
+            },
+            {
+                "name": "Mišel Matičević",
+                "image": "https://image.tmdb.org/t/p/w185/jKYzgKIBs4O7eBBMDKk1T5RWYjN.jpg"
+            },
+            {
+                "name": "Lucie Heinze",
+                "image": "https://image.tmdb.org/t/p/w185/mOOEz6Xx06RGPn6Wqo2Thy4H2XI.jpg"
+            }
+        ],
+        "details": "A young race car mechanic fakes an engagement with racing's most scandalous star - officially for his reputation, secretly for her own shot behind the wheel. But soon the lie threatens to destroy everything - including what's already become so much more than just a deal.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/27/4e6f7c97acccecafb0fb5bc255b4e460-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/27/4e6f7c97acccecafb0fb5bc255b4e460-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_306630",
+        "type": "series",
+        "title": "You Maniac",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "https://www.youtube.com/watch?v=qzwvncmhcY4",
+        "poster": "https://image.tmdb.org/t/p/w500/gTvfipRjEdRzbn09CbI7XRj6cmg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hYBtbqNGijJRRmoSxLhp6rq44bC.jpg",
+        "rating": 9.9,
+        "release_date": "2026-08-29",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Jakrapatr Kaewpanpong",
+                "image": "https://image.tmdb.org/t/p/w185/vzuZIIfTITlgTEUHuWqimRxFUvc.jpg"
+            },
+            {
+                "name": "Supha Sangaworawong",
+                "image": "https://image.tmdb.org/t/p/w185/jVHEDHKHg9DkDBT0CTdnfSsANEU.jpg"
+            },
+            {
+                "name": "Tinnasit Isarapongporn",
+                "image": "https://image.tmdb.org/t/p/w185/t9LG2rnWgOny9ILwijenHaGtUJL.jpg"
+            },
+            {
+                "name": "Thanachai Sakchaicharoenkul",
+                "image": "https://image.tmdb.org/t/p/w185/6vQkatnituzuG2b82J5sSIeneCR.jpg"
+            },
+            {
+                "name": "Napat Patcharachavalit",
+                "image": "https://image.tmdb.org/t/p/w185/2smMFUwHxQQoVsNGZaun14JmO00.jpg"
+            }
+        ],
+        "details": "When a carefree playboy meets the one man who refuses to fall for his charm, his competitive ego turns into an obsession he can't resist.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/25/f999be4575aecea29c072420715878be-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/25/f999be4575aecea29c072420715878be-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
