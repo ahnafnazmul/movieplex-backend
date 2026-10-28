@@ -60991,5 +60991,61 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_316702",
+        "type": "series",
+        "title": "Final Table",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/uaMjtALuvZC7dGkYllGKKWEWW1J.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/anwMEnTDkhv5qJ8wXSRieCvFHGs.jpg",
+        "rating": 8.6,
+        "release_date": "2026-10-24",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Ahn Hyo-seop",
+                "image": "https://image.tmdb.org/t/p/w185/hVnKQ5WO8MGFrm6ShPmL90NZloV.jpg"
+            },
+            {
+                "name": "Hong Hwa-yeon",
+                "image": "https://image.tmdb.org/t/p/w185/XzUpzJuGHsghd1ZolrFU7JIXOV.jpg"
+            },
+            {
+                "name": "Chang Ryul",
+                "image": "https://image.tmdb.org/t/p/w185/ad3JzZUeo9jj3UpRK4NoYioCIxQ.jpg"
+            },
+            {
+                "name": "Eugene Jung",
+                "image": "https://image.tmdb.org/t/p/w185/iiY8UUU93EjutlfRrTZTPm566d6.jpg"
+            },
+            {
+                "name": "Jang Young-nam",
+                "image": "https://image.tmdb.org/t/p/w185/u0hl8WSswFhKVaKwaMAERU0xUJk.jpg"
+            }
+        ],
+        "details": "The Table: K-Chef 2026 brings together Korea's top chefs to compete for the title of the country's best chef. Mysterious world-renowned chef Chris K., also known as Kang Han, Song-yi, who is fighting to save her restaurant, perfectionist star chef Woo-jin, and chefs with stories of their own face off in a fierce culinary battle. More than a competition, they find comfort in food and one another.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/25/c8c7cfd537c9b26a4602a74b49aadc61-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/25/c8c7cfd537c9b26a4602a74b49aadc61-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
