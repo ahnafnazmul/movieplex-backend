@@ -61213,5 +61213,197 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_105962",
+        "type": "movie",
+        "title": "A Mile in His Shoes",
+        "release_year": 2011,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Ev2T0BFetH4",
+        "poster": "https://image.tmdb.org/t/p/w500/vh5Ok5yqk5cWea175wJ4CQrwdik.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vQeZJkv2cz5qfTuIPwe4KgEaTc6.jpg",
+        "rating": 6.2,
+        "release_date": "2011-09-05",
+        "runtime": "90 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Luke Schroder",
+                "image": "https://image.tmdb.org/t/p/w185/yjp2DDnARXfvwBvrhVQlA9msIgu.jpg"
+            },
+            {
+                "name": "George Canyon",
+                "image": "https://image.tmdb.org/t/p/w185/wUQT48qAAf7fbtgwtrQS0qzxdPA.jpg"
+            },
+            {
+                "name": "Dean Cain",
+                "image": "https://image.tmdb.org/t/p/w185/vVBqgo0BJQVreLZaIW8tHI8hXYZ.jpg"
+            },
+            {
+                "name": "Chilton Crane",
+                "image": "https://image.tmdb.org/t/p/w185/1jpYn3wATxtZkuKN5OTcX816YWr.jpg"
+            },
+            {
+                "name": "Jarod Joseph",
+                "image": "https://image.tmdb.org/t/p/w185/vh6t5Muz7c1gus4ZkljLgTWMtEX.jpg"
+            }
+        ],
+        "details": "Based on the book “The Legend of Mickey Tussler”, this film follows the story of eighteen-year-old Mickey Tussler, who lives on a farm with his father and mother and who has Asperger’s Syndrome, a form of autism. But he can throw apples at an amazing speed.  When a chance meeting occurs with the baseball manager of the semi-pro team the River Rats, from Clayton, Ohio, Mickey gets a chance to pitch for the team and to prove to his father he can do more than live hidden away on the family farm, taking care of his pig Oscar.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/28/7e1fce9fbb4c0979c8fe172a8c00b850-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/28/7e1fce9fbb4c0979c8fe172a8c00b850-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=KHtBFzfvEl4_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=KHtBFzfvEl4_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_304452",
+        "type": "series",
+        "title": "The Lament of Autumn",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=4Idq9bH6zl8",
+        "poster": "https://image.tmdb.org/t/p/w500/mwVscAJp4yyN8PBC1jJmOn4wy4Z.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/vD84yLJVVd7cC2lKF8sEukQG2A3.jpg",
+        "rating": 8.0,
+        "release_date": "2026-10-12",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Cheng Lei",
+                "image": "https://image.tmdb.org/t/p/w185/lPCcaPjZkd1LVzIf9ZYRB82u9Z0.jpg"
+            },
+            {
+                "name": "Xu Ruohan",
+                "image": "https://image.tmdb.org/t/p/w185/2STQEbzr74sOlJ4iGZLyWxsMenp.jpg"
+            }
+        ],
+        "details": "In the turbulent era of the Republic of China, student Ye Pingjun takes a job at a Western Hunan meeting house to fund her mother’s medical care. However, she's unexpectedly caught in the crossfire of an assassination attempt against the powerful Yu family’s fifth son, Yu Changxuan, and ends up accused of a crime she didn’t commit. Pingjun strikes a bold bargain: if Changxuan cannot identify the true culprit within ten days, he must clear her name. What begins as a high-stakes investigation quickly evolves into a calculated courtship as Changxuan maneuvers to win her heart while hiding a complex web of secrets. Will their blossoming romance survive the encroaching shadows of war, or will the secrets of their past pull them apart?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/12/0df48b3f6fe866c713e40491bdc16f63-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/12/0df48b3f6fe866c713e40491bdc16f63-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1497463",
+        "type": "movie",
+        "title": "All That We Never Were",
+        "release_year": 2026,
+        "original_language": "es",
+        "video_trailer": "https://www.youtube.com/watch?v=bMM-vqUyO3w",
+        "poster": "https://image.tmdb.org/t/p/w500/zqxIT48mWFsC4NSjGEHAcp1pjEo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/liVDJBzSplrboMCykKydhaaR215.jpg",
+        "rating": 8.2,
+        "release_date": "2026-06-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Margarida Corceiro",
+                "image": "https://image.tmdb.org/t/p/w185/8YxCNGN4qyrN0E12umJb7LRgReZ.jpg"
+            },
+            {
+                "name": "Maxi Iglesias",
+                "image": "https://image.tmdb.org/t/p/w185/sX0fOdN7Urawav29j24nVAjNgaC.jpg"
+            },
+            {
+                "name": "Natalia Rodríguez",
+                "image": "https://image.tmdb.org/t/p/w185/sn1MGn3Plx0QQPDkUwztJJTpvRm.jpg"
+            },
+            {
+                "name": "Sebastián Zurita",
+                "image": "https://image.tmdb.org/t/p/w185/b1njEJSLGGOUmzvjkwS45Yhi8An.jpg"
+            },
+            {
+                "name": "Adriana Hormigos",
+                "image": "https://image.tmdb.org/t/p/w185/8tCkSPyOPAQgsurkOCdi5HXr13n.jpg"
+            }
+        ],
+        "details": "19-year-old Leah navigates a coming-of-age journey in the wake of a tragic car accident that claims her parents. Relocated to a coastal town under the care of her brother’s best friend Axel, Leah grapples with grief, haunting nightmares and a fractured sense of self.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/u4kt48oyavp5",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1809572",
+        "type": "movie",
+        "title": "The Vision of Ramayana",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dpTobuDOkFLCdf2x4uwzSAdxu0R.jpg",
+        "rating": 0.0,
+        "release_date": "2026",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "Go behind the vision of Namit Malhotra's Ramayana, bringing India's timeless epic to life for generations to come.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/mry19p9n983w",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
