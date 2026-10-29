@@ -61160,5 +61160,58 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1384216",
+        "type": "movie",
+        "title": "The Dog Stars",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=-xSxaE1ClEE",
+        "poster": "https://image.tmdb.org/t/p/w500/5O616X9vmRzQdB68PHzBewPittd.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3k7GzxOdLZkN3eZsuhLi2eRzkXO.jpg",
+        "rating": 6.9,
+        "release_date": "2026-08-26",
+        "runtime": "119 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller",
+            "Science Fiction",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Jacob Elordi",
+                "image": "https://image.tmdb.org/t/p/w185/9FGS8AGjVNtpWuUeoipYWR23sRZ.jpg"
+            },
+            {
+                "name": "Josh Brolin",
+                "image": "https://image.tmdb.org/t/p/w185/7QpneI3HoZCCDVPyWx3p3t7yeo7.jpg"
+            },
+            {
+                "name": "Margaret Qualley",
+                "image": "https://image.tmdb.org/t/p/w185/r5WeMrU4YLJqRRE3joeOrBVicAH.jpg"
+            },
+            {
+                "name": "Guy Pearce",
+                "image": "https://image.tmdb.org/t/p/w185/vTqk6Nh3WgqPubkS23eOlMAwmwa.jpg"
+            },
+            {
+                "name": "Benedict Wong",
+                "image": "https://image.tmdb.org/t/p/w185/yYfLyrC2CE6vBWSJfkpuVKL2POM.jpg"
+            }
+        ],
+        "details": "After the world's population has been ravaged by a pandemic, a man lives a lonesome existence in a Colorado airplane hangar with his dog and a dour gunman he has befriended. When a mysterious transmission comes through on the radio while he’s flying his old Cessna, it sparks a hunt for the provenance of the sound.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/0cneyhjbbsd9",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
