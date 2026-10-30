@@ -61405,5 +61405,114 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1288069",
+        "type": "movie",
+        "title": "Tenzing",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=KkYCY5YR12U",
+        "poster": "https://image.tmdb.org/t/p/w500/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
+        "rating": 8.3,
+        "release_date": "2026-10-09",
+        "runtime": "126 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "History"
+        ],
+        "cast": [
+            {
+                "name": "Genden Phuntsok",
+                "image": "https://image.tmdb.org/t/p/w185/2xsreNBuPpBZYJTlpuTapi2ZvP.jpg"
+            },
+            {
+                "name": "Tom Hiddleston",
+                "image": "https://image.tmdb.org/t/p/w185/mclHxMm8aPlCPKptP67257F5GPo.jpg"
+            },
+            {
+                "name": "Willem Dafoe",
+                "image": "https://image.tmdb.org/t/p/w185/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg"
+            },
+            {
+                "name": "Samdrup Dorje Lama",
+                "image": ""
+            },
+            {
+                "name": "Bhuchung Kata",
+                "image": ""
+            }
+        ],
+        "details": "A determined man embarks on a high-stakes quest—and defies seemingly impossible odds—to fulfill his dream of being the first to reach the summit of Mount Everest.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/9ca948c2c90b10aa13a7fb769319d914-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/9ca948c2c90b10aa13a7fb769319d914-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1428295",
+        "type": "movie",
+        "title": "Comrade Kalyan",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/pvRJWA4WnaoPeQ7Fs7G9P7EKu6h.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/zsAbkmTkGE3l98Jhvdiy7ybNFo8.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-09",
+        "runtime": "145 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Sree Vishnu",
+                "image": "https://image.tmdb.org/t/p/w185/fSbWn5uUjPMgEtIIrZiJoiU9v1C.jpg"
+            },
+            {
+                "name": "Mahima Nambiar",
+                "image": "https://image.tmdb.org/t/p/w185/us0TCjr5IHotLbyr6PKjofEqN2x.jpg"
+            },
+            {
+                "name": "Upendra Limaye",
+                "image": "https://image.tmdb.org/t/p/w185/vFELR5TiBfc6LkLvI5kC5lpEnHv.jpg"
+            },
+            {
+                "name": "Shine Tom Chacko",
+                "image": "https://image.tmdb.org/t/p/w185/lIfhgkTK8bgM5jS2R91ZvCxKIwj.jpg"
+            },
+            {
+                "name": "Radhika Sarathkumar",
+                "image": "https://image.tmdb.org/t/p/w185/kEKzT8HAJw8lfFUtWWd0SoQ9kC9.jpg"
+            }
+        ],
+        "details": "In a naxal-dominated village on the Andhra-Odisha border, a theatre owner uses communist sentiment to keep his old cinema running. He joins the naxals and kidnaps a leader, setting off a chain of events.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/8br0w09gtpno",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
