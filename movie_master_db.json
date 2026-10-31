@@ -61865,5 +61865,57 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1496785",
+        "type": "movie",
+        "title": "Aadarsha Kutumbam House No: 47 - AK47",
+        "release_year": 2026,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/1Z0ypXqSRWjnjPRVU6YiHwawsLC.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rzeJe8pONgRyalcTDM3gqXssqeM.jpg",
+        "rating": 5.7,
+        "release_date": "2026-10-30",
+        "runtime": "149 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Family",
+            "Comedy",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Venkatesh",
+                "image": "https://image.tmdb.org/t/p/w185/t5PWjy177ZTUM6wdjaVjqp5FLJq.jpg"
+            },
+            {
+                "name": "Srinidhi Shetty",
+                "image": "https://image.tmdb.org/t/p/w185/pTsixKDFS3n2xsvR6wDZ9J6jjfQ.jpg"
+            },
+            {
+                "name": "Nara Rohith",
+                "image": "https://image.tmdb.org/t/p/w185/nfgWrE7d3IJwCDhwzg895djIQbB.jpg"
+            },
+            {
+                "name": "Nivetha Pethuraj",
+                "image": "https://image.tmdb.org/t/p/w185/nfUWHQgNmtwPzWBaVlEQkjwo372.jpg"
+            },
+            {
+                "name": "Yuvina Parthavi",
+                "image": "https://image.tmdb.org/t/p/w185/1PeXMRvuBppI9NGokjQNiysaFme.jpg"
+            }
+        ],
+        "details": "A tight-knit family faces an unexpected crisis that threatens their bond, forcing them to re-evaluate their values and fight to stay united.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/tk3e2gdtqjnl",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
