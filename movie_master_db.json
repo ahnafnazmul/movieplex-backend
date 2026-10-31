@@ -61750,5 +61750,120 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1118031",
+        "type": "movie",
+        "title": "Apocalypse Z: The Beginning of the End",
+        "release_year": 2024,
+        "original_language": "es",
+        "video_trailer": "https://www.youtube.com/watch?v=zeQXjn3JJ-A",
+        "poster": "https://image.tmdb.org/t/p/w500/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lTYGtgDRygku7iiFLWyiEc4wLzz.jpg",
+        "rating": 6.8,
+        "release_date": "2024-10-04",
+        "runtime": "119 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Action",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Francisco Ortiz",
+                "image": "https://image.tmdb.org/t/p/w185/iIwGt05vG5smGDiLJ7f6bMRQOOY.jpg"
+            },
+            {
+                "name": "José María Yázpik",
+                "image": "https://image.tmdb.org/t/p/w185/GEV4PnIhxAAPxIHvsyhdLUjnSv.jpg"
+            },
+            {
+                "name": "Berta Vázquez",
+                "image": "https://image.tmdb.org/t/p/w185/2QNOI5L03XomONmCR42GPyVYryy.jpg"
+            },
+            {
+                "name": "Iria del Río",
+                "image": "https://image.tmdb.org/t/p/w185/z7Dqvpnb8R13P6B5pmUCDxb2Jvv.jpg"
+            },
+            {
+                "name": "Marta Poveda",
+                "image": "https://image.tmdb.org/t/p/w185/zEItOysCUPfKgEXhg4JayBZvmim.jpg"
+            }
+        ],
+        "details": "When a kind of rabies that transforms people into aggressive creatures spreads across the planet, Manel isolates himself at home with his cat, relying on his wits to survive; but soon they must go out in search of food, by land and by sea, dodging many dangers.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/01/b419c50d7f352051b996b265d5954772-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/11/01/b419c50d7f352051b996b265d5954772-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_258742",
+        "type": "series",
+        "title": "All's Fair",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/igHpitLtbzBG7EyNZhF9vPYm6PK.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7t55fTjn0KRqCGPOSXM9RUk0zny.jpg",
+        "rating": 4.8,
+        "release_date": "2025-11-04",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kim Kardashian",
+                "image": "https://image.tmdb.org/t/p/w185/3TLSq0aHXyxtqaXe9p7yB5Daqsa.jpg"
+            },
+            {
+                "name": "Naomi Watts",
+                "image": "https://image.tmdb.org/t/p/w185/7ysvff7ZhW388SIh2YjQ0XIryOn.jpg"
+            },
+            {
+                "name": "Niecy Nash-Betts",
+                "image": "https://image.tmdb.org/t/p/w185/1QblRt1zawcjTHrdXyzAwtdXKYl.jpg"
+            },
+            {
+                "name": "Teyana Taylor",
+                "image": "https://image.tmdb.org/t/p/w185/5b2dAuTsBejBsdm9SkWX4F7jG9w.jpg"
+            },
+            {
+                "name": "Matthew Noszka",
+                "image": "https://image.tmdb.org/t/p/w185/1kALpbgg7wmeeVBZ2THHTQCnU4l.jpg"
+            }
+        ],
+        "details": "A team of female divorce attorneys leave a male-dominated firm to open their own powerhouse practice. Fierce, brilliant, and emotionally complicated, they navigate high-stakes breakups, scandalous secrets, and shifting allegiances—both in the courtroom and within their own ranks. In a world where money talks and love is a battleground, these women don't just play the game—they change it.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/10/193a8ace8909cd546bb08187318b0b44-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/10/10/193a8ace8909cd546bb08187318b0b44-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
