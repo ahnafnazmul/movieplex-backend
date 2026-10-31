@@ -61917,5 +61917,61 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_527591",
+        "type": "movie",
+        "title": "Tamed",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ckyeX83hMo9yWjb2DoJARMb8moq.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bw1lNOA7WSzzlfs2XZFg3y0A3RC.jpg",
+        "rating": 0.0,
+        "release_date": "2026",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Clarion Chukwurah-Abiola",
+                "image": ""
+            },
+            {
+                "name": "Chinyere Nwabueze",
+                "image": ""
+            },
+            {
+                "name": "John Dumelo",
+                "image": ""
+            },
+            {
+                "name": "Jibola Dabo",
+                "image": ""
+            },
+            {
+                "name": "Sydney Diala I.",
+                "image": ""
+            }
+        ],
+        "details": "A young single mother is offered an opportunity of a lifetime by a handsome Casanova, desperate to take over his father’s empire. But unknown to his greedy family, their father has everything in place before he succumbs.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/27/8b9d491a712231ab444518fbeca0df5d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/27/8b9d491a712231ab444518fbeca0df5d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
