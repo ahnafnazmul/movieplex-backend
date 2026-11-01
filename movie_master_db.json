@@ -61973,5 +61973,194 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1503762",
+        "type": "movie",
+        "title": "Sense and Sensibility",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=OFLyW0lxFU0",
+        "poster": "https://image.tmdb.org/t/p/w500/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
+        "rating": 7.3,
+        "release_date": "2026-09-23",
+        "runtime": "132 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Romance",
+            "History"
+        ],
+        "cast": [
+            {
+                "name": "Daisy Edgar-Jones",
+                "image": "https://image.tmdb.org/t/p/w185/4Fdc3VSoVhkkEZNx5Zpz3AU6DYz.jpg"
+            },
+            {
+                "name": "Esmé Creed-Miles",
+                "image": "https://image.tmdb.org/t/p/w185/hmGkEC4OWsyDe7ZGVkZ7e1RjViD.jpg"
+            },
+            {
+                "name": "Caitríona Balfe",
+                "image": "https://image.tmdb.org/t/p/w185/lerCNTjO6FQIam2lF5SXHA4dY7H.jpg"
+            },
+            {
+                "name": "Frank Dillane",
+                "image": "https://image.tmdb.org/t/p/w185/eitUc8e045y8dDfBSm681hU471g.jpg"
+            },
+            {
+                "name": "Herbert Nordrum",
+                "image": "https://image.tmdb.org/t/p/w185/wMT9o2WNfLGE4dD8Rkt2Rem4Ljt.jpg"
+            }
+        ],
+        "details": "A charming, witty, and deeply relatable story of love and sisterhood.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/04/3f1f8d87c836fc503cedeaa5f49b2a8a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/07/04/3f1f8d87c836fc503cedeaa5f49b2a8a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1283166",
+        "type": "movie",
+        "title": "Prasanna Vadanam",
+        "release_year": 2024,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/tMfo278jVwld28ALm2lxNxmSINC.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1U4l7jfxDs0l5aojMyyqU67MrAZ.jpg",
+        "rating": 7.1,
+        "release_date": "2024-05-03",
+        "runtime": "143 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Suhas",
+                "image": "https://image.tmdb.org/t/p/w185/4TZK8EkWiWPiC7wvDu4yFIXP41D.jpg"
+            },
+            {
+                "name": "Raashi Singh",
+                "image": "https://image.tmdb.org/t/p/w185/aC6HtWhMFrSmM2MbIktR4m7yCee.jpg"
+            },
+            {
+                "name": "Nandu Vijay Krishna",
+                "image": "https://image.tmdb.org/t/p/w185/z4ntPEduBCkqmci7RgrZ8xiNQ8a.jpg"
+            },
+            {
+                "name": "Paayal Radhakrishna",
+                "image": "https://image.tmdb.org/t/p/w185/6y23RlPFxC7MoJFuS4thcQuo014.jpg"
+            },
+            {
+                "name": "Harsha Chemudu",
+                "image": "https://image.tmdb.org/t/p/w185/be0atwoQTudy7WaVCNwWbQuxjvG.jpg"
+            }
+        ],
+        "details": "A fatal accident leaves Surya afflicted with face blindness and an inability to recognize voices. When he witnesses the horrific murder of Amrutha, circumstances plunge him into the depths of a criminal plot.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/az6zn9gpx833",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1813349",
+        "type": "movie",
+        "title": "Jhaad Phoonk",
+        "release_year": 2026,
+        "original_language": "hi",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/1YP2UfkYtZP1n9O5fMZtZhFxmrO.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026-10-30",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Horror"
+        ],
+        "cast": [],
+        "details": "Jhaad Phoonk is a horror-drama directed by Rajan Ramgopal Verma. The movie features Padmini Kolhapure, Sumbul Touqeer, Yashpal Sharma, and Harsh Rajput in pivotal roles.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/jh4nij2vx1zq",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1754629",
+        "type": "movie",
+        "title": "Bol Bhavein Na Bol",
+        "release_year": 2026,
+        "original_language": "pa",
+        "video_trailer": "https://www.youtube.com/watch?v=DKGA6_370ZY",
+        "poster": "https://image.tmdb.org/t/p/w500/trcfXIP3DGYEzh9kLAPnV1m1Dal.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/wx1VRzRtqfDgPz7p7kkWxQsDsRB.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-04",
+        "runtime": "140 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Sidak Gill",
+                "image": ""
+            },
+            {
+                "name": "Jaanya Joshi",
+                "image": ""
+            },
+            {
+                "name": "Kaka Ji",
+                "image": ""
+            },
+            {
+                "name": "Anand Priya",
+                "image": ""
+            },
+            {
+                "name": "Hardip Gill",
+                "image": ""
+            }
+        ],
+        "details": "A boy and girl meet by chance. Their quiet connection grows into love as they learn the most profound feelings need no words. Grounded in innocence, hope, and life's simple beauty, it honors love that's felt beyond expression.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/3duwrujtxjw5",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
