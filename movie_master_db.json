@@ -48673,6 +48673,12 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/01/e43f2c64b83b0e40110cee29435301a5-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/sy2fuo07jk7o",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
             }
         ],
         "_source_site": "rtally"
