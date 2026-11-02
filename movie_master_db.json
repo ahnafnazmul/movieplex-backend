@@ -62523,5 +62523,116 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_321231",
+        "type": "series",
+        "title": "My Rival and Me",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/k9IttZgEAl4SViMBgZFAtPSMXj3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/8oEf5TJ5DfR9MhHZuZ4OlVxlDYs.jpg",
+        "rating": 8.0,
+        "release_date": "2026-10-30",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Han Xiaoyao",
+                "image": "https://image.tmdb.org/t/p/w185/fWf7nnrhBqas7kz3FM2B2dljMPR.jpg"
+            },
+            {
+                "name": "Jiang Chen",
+                "image": "https://image.tmdb.org/t/p/w185/gs16hZ0dOtYuCCh3mm8mjE3xDwu.jpg"
+            },
+            {
+                "name": "Cheng Yaoran",
+                "image": "https://image.tmdb.org/t/p/w185/s8S6U4SnYPA2icqJYOwTkEQk8nH.jpg"
+            },
+            {
+                "name": "Zhang Haochen",
+                "image": "https://image.tmdb.org/t/p/w185/gft7Pzn9DavhsmVmGhAkl2SJOts.jpg"
+            }
+        ],
+        "details": "Acclaimed actor Gu Yiliang and rising star Wei Yanzi are sworn rivals in the eyes of their fans. But when Wei Yanzi accidentally discovers a fan community dedicated to shipping the two of them, he becomes hopelessly obsessed. Little does he know that the seemingly aloof Gu Yiliang has already fallen for him. Believing Wei Yanzi hates him, Gu can only watch over him from afar. In this hilarious and heartwarming showbiz BL rom-com about rivals becoming lovers, who will fall first, and who will confess first?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/02/3c26a4a596d999ca4640631891125dcc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/02/3c26a4a596d999ca4640631891125dcc-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1290418",
+        "type": "movie",
+        "title": "The Cycle",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=m8vcBN8uza8",
+        "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+        "rating": 6.8,
+        "release_date": "2026-09-24",
+        "runtime": "111 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Deborah Ann Woll",
+                "image": "https://image.tmdb.org/t/p/w185/btTnyvRLXOH0pz2SLBwyKbmnFhX.jpg"
+            },
+            {
+                "name": "Jeffrey Donovan",
+                "image": "https://image.tmdb.org/t/p/w185/wlDXfXpu6Uz32LUmbFzU8QPDoQH.jpg"
+            },
+            {
+                "name": "Gretchen Corbett",
+                "image": "https://image.tmdb.org/t/p/w185/qGtjneRWJlK5opx4qSBWCW6rBFs.jpg"
+            },
+            {
+                "name": "Jack Doolan",
+                "image": "https://image.tmdb.org/t/p/w185/oxG0UbYNecEjsIMHxi0E5J1ywBD.jpg"
+            },
+            {
+                "name": "Will Hochman",
+                "image": "https://image.tmdb.org/t/p/w185/uSefUOsCY0h3gdMY4uhFzwERYI.jpg"
+            }
+        ],
+        "details": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/28/34d44f873c66fdf9a3a9516f82f18e43-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/28/34d44f873c66fdf9a3a9516f82f18e43-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
