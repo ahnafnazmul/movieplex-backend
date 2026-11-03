@@ -62737,5 +62737,171 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1787570",
+        "type": "movie",
+        "title": "Changed Forever",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=lKxW7DU5Wyc",
+        "poster": "https://image.tmdb.org/t/p/w500/vPZG3dtUAqex4FaY9kBnsKxAXTF.jpg",
+        "backdrop": "",
+        "rating": 1.0,
+        "release_date": "2026-09-27",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Karen Abercrombie",
+                "image": "https://image.tmdb.org/t/p/w185/yDTPfrVXge69QZo8hc8GTDPnW9U.jpg"
+            },
+            {
+                "name": "Chrissy Ball",
+                "image": ""
+            },
+            {
+                "name": "Genesis Bohman",
+                "image": ""
+            },
+            {
+                "name": "Terri Bonds",
+                "image": ""
+            },
+            {
+                "name": "Dean Cain",
+                "image": "https://image.tmdb.org/t/p/w185/vVBqgo0BJQVreLZaIW8tHI8hXYZ.jpg"
+            }
+        ],
+        "details": "CHANGED FOREVER tells the raw and inspiring true story of Alexis, a woman consumed by the darkness of addiction, teetering on the brink of self-destruction. Her life is a whirlwind of bad choices and devastating consequences, leaving her isolated and hopeless. Just when she believes all is lost, a flicker of faith ignites within her. Driven by desperation, her unwavering faith culminates in a profound, life-altering encounter with God, an experience that shatters her old life and rebuilds her from the ground up. CHANGED FOREVER follows Alexis's arduous journey to sobriety, healing, and ultimately, redemption. More than just a story of overcoming addiction, CHANGED FOREVER is a testament to the transformative power of faith and prayer, offering a beacon of hope to anyone struggling to find their own new beginning.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/25/6a65428036f79932ee41628b7fb1fb2f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/04/25/6a65428036f79932ee41628b7fb1fb2f-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_338118",
+        "type": "series",
+        "title": "TAMED",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/4hIbUYA6lQqgnZpBxVNqu1U3Ekz.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bHaQV6bhuZEOkj1MvqZezxOQ61u.jpg",
+        "rating": 6.0,
+        "release_date": "2026-10-25",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Hu Shuoran",
+                "image": "https://image.tmdb.org/t/p/w185/OodAwgmzmIqI3rQyiF6jgUxisU.jpg"
+            },
+            {
+                "name": "Lu Sen",
+                "image": "https://image.tmdb.org/t/p/w185/oTukuzFKSWicVuFPrkh8XtEOnJc.jpg"
+            },
+            {
+                "name": "Li Qingyuan",
+                "image": "https://image.tmdb.org/t/p/w185/iYKPxgL60YwjOL1P8Ch3otCGqn0.jpg"
+            },
+            {
+                "name": "Wu Youyu",
+                "image": "https://image.tmdb.org/t/p/w185/5d3NutwjOFaeacVBm7xCqMVA9sm.jpg"
+            }
+        ],
+        "details": "A guarded man takes in a desperate stranger under a “master and pet” pact, but their rules unravel as secrets surface and feelings grow.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/27/8b9d491a712231ab444518fbeca0df5d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/27/8b9d491a712231ab444518fbeca0df5d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_298505",
+        "type": "series",
+        "title": "Coven Academy",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=zz9nAM9qa3c",
+        "poster": "https://image.tmdb.org/t/p/w500/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+        "rating": 7.6,
+        "release_date": "2026-10-01",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Malina Weissman",
+                "image": "https://image.tmdb.org/t/p/w185/5alONfoc28zHqCC6GP1DAgYFQoU.jpg"
+            },
+            {
+                "name": "Malachi Barton",
+                "image": "https://image.tmdb.org/t/p/w185/lmV6ParCZkniV1OQO71xxfjFjaG.jpg"
+            },
+            {
+                "name": "Jordan Leftwich",
+                "image": "https://image.tmdb.org/t/p/w185/yHvEhCqnPXaPFsIjYlLxZpjJFeA.jpg"
+            },
+            {
+                "name": "Ora Duplass",
+                "image": "https://image.tmdb.org/t/p/w185/aUb9KQDx5NN3yTXjuYr0ixRFeKe.jpg"
+            },
+            {
+                "name": "Louis Thresher",
+                "image": "https://image.tmdb.org/t/p/w185/9LVXDj4w1cQqTbgveH2ftsXJOzD.jpg"
+            }
+        ],
+        "details": "A coven protects their magic school from a dark fate.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/29/5785d566518cd89de9b1058c201bb69b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/29/5785d566518cd89de9b1058c201bb69b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
