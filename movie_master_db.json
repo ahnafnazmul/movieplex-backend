@@ -63066,5 +63066,107 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_4660",
+        "type": "series",
+        "title": "Adam-12",
+        "release_year": 1968,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/jXlPZz943xMbqfp2Ne1OvOWaPo.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/dM6fTSA55edFYGPTc7VOaaz9NdK.jpg",
+        "rating": 7.1,
+        "release_date": "1968-09-21",
+        "runtime": "30 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Martin Milner",
+                "image": "https://image.tmdb.org/t/p/w185/2sEL4PauMRhLGnOyVwYtw5QP1YL.jpg"
+            },
+            {
+                "name": "Kent McCord",
+                "image": "https://image.tmdb.org/t/p/w185/12izGGcKLSWvsFenB3FVHJjwwP.jpg"
+            },
+            {
+                "name": "William Boyett",
+                "image": "https://image.tmdb.org/t/p/w185/y3aYTWtDFScgy1hTJw7Pb1837R3.jpg"
+            }
+        ],
+        "details": "Adam-12 is a television police drama that followed two police officers of the Los Angeles Police Department, Pete Malloy and Jim Reed, as they patrolled the streets of Los Angeles in their patrol unit, 1-Adam-12.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/15/631edffbd2c43b05af71bc1763818832-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/15/631edffbd2c43b05af71bc1763818832-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_279246",
+        "type": "series",
+        "title": "The Remarried Empress",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=aScUjuKvHSo",
+        "poster": "https://image.tmdb.org/t/p/w500/zn3IXZzGavH3qle3o3g1r32eXDy.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1ptukf8gx19U1HcBv3aRzzlXuyJ.jpg",
+        "rating": 8.6,
+        "release_date": "2026-11-03",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Shin Min-a",
+                "image": "https://image.tmdb.org/t/p/w185/6CjxjYvZBuvbAQTcuoPb8EeVrUI.jpg"
+            },
+            {
+                "name": "Ju Ji-hoon",
+                "image": "https://image.tmdb.org/t/p/w185/7PYfUrBBXhYv5PIsTalJhjbRteg.jpg"
+            },
+            {
+                "name": "Lee Jong-suk",
+                "image": "https://image.tmdb.org/t/p/w185/eW73DbmKQrqb6xDC52oMbVehw6G.jpg"
+            },
+            {
+                "name": "Lee Se-young",
+                "image": "https://image.tmdb.org/t/p/w185/58jlu0lSO0rWEzsWPjGLoEI0NWr.jpg"
+            }
+        ],
+        "details": "Beloved Empress Navier rules the Eastern Empire alongside Emperor Sovieshu. But when Sovieshu falls for a runaway slave and demands a divorce, Navier will agree on one condition: that she's given approval to remarry rival Prince Heinrey of the Western Kingdom.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/03/69009e07c01e34c3d51b50686c9a4012-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/03/69009e07c01e34c3d51b50686c9a4012-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
