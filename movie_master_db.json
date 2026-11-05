@@ -63168,5 +63168,159 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_73578",
+        "type": "movie",
+        "title": "Jalsa",
+        "release_year": 2008,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/xVzwnGouqZtBDDfp3Q2fGr0Sh16.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/g4AnaSh8fR3puCIzSVgabTi54Yt.jpg",
+        "rating": 6.9,
+        "release_date": "2008-04-02",
+        "runtime": "161 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Pawan Kalyan",
+                "image": "https://image.tmdb.org/t/p/w185/5vbrrJgkH79UV4PSQupwc8TFw8i.jpg"
+            },
+            {
+                "name": "Ileana D'Cruz",
+                "image": "https://image.tmdb.org/t/p/w185/xoKp6IDot9vG4yB6EtoByzRYlik.jpg"
+            },
+            {
+                "name": "Parvati Melton",
+                "image": "https://image.tmdb.org/t/p/w185/tu26jQACUQ8EagZeGShQsQEDZX9.jpg"
+            },
+            {
+                "name": "Kamalinee Mukherjee",
+                "image": "https://image.tmdb.org/t/p/w185/xoOdHUgXUAIzsrCgAwSsXT9pXrE.jpg"
+            },
+            {
+                "name": "Prakash Raj",
+                "image": "https://image.tmdb.org/t/p/w185/dJvFZOXmZdkYCOUcKTXQAhBcAoH.jpg"
+            }
+        ],
+        "details": "Sanjay falls in love with Indu. Her father Rammohan Reddy doesnt approve of it and she is married to someone else. Later, Bhagyamathi falls for him and he goes to meet her father who turns out to be Rammohan Reddy. Somewhere in between Sanjay's life as a Naxal is depicted.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/8ogbrc67s35m",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_113728",
+        "type": "movie",
+        "title": "Dhammu",
+        "release_year": 2012,
+        "original_language": "te",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/xO3epYityNOlkeLCdGOXVT2HwDw.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/2vJlV4Rkj0hh8n0gIwnEihiLk2A.jpg",
+        "rating": 4.0,
+        "release_date": "2012-04-27",
+        "runtime": "156 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "N.T. Rama Rao Jr.",
+                "image": "https://image.tmdb.org/t/p/w185/5ycQgZ3SPUa12bq0yn1jpToBq9X.jpg"
+            },
+            {
+                "name": "Trisha Krishnan",
+                "image": "https://image.tmdb.org/t/p/w185/8YkgaUlTshiDWHymBOEXZ948Yyn.jpg"
+            },
+            {
+                "name": "Karthika Nair",
+                "image": "https://image.tmdb.org/t/p/w185/dnyRBr80bRsfTvQX1g00soXCcgj.jpg"
+            },
+            {
+                "name": "Kota Srinivasa Rao",
+                "image": "https://image.tmdb.org/t/p/w185/qLaoB9jAfyTrJh7neJ9ajhpSuev.jpg"
+            },
+            {
+                "name": "Chalapathi Rao",
+                "image": "https://image.tmdb.org/t/p/w185/51zzAobEchxSwHI1b4tUxrVpQaz.jpg"
+            }
+        ],
+        "details": "Rama Chandra, an orphan, gets involved in a feud between two royal families while trying to woo Sathya, his lady love. He soon realises that the lives of his fellow villagers depend on his choices.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/cfddfzw66yg0",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_52944",
+        "type": "movie",
+        "title": "Don Seenu",
+        "release_year": 2010,
+        "original_language": "te",
+        "video_trailer": "https://www.youtube.com/watch?v=5PKnVDho_vE",
+        "poster": "https://image.tmdb.org/t/p/w500/xzG4qy5yqq5LJWV8FqIAENTeM8X.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uUD3l9juYOGNfw2GyTNCLH285dp.jpg",
+        "rating": 5.2,
+        "release_date": "2010-08-06",
+        "runtime": "166 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Ravi Teja",
+                "image": "https://image.tmdb.org/t/p/w185/5a9g645O30Qzhe3VFjvkhjnNfm2.jpg"
+            },
+            {
+                "name": "Shriya Saran",
+                "image": "https://image.tmdb.org/t/p/w185/ioOgKBSCJhOdKoZpg86ld7zANbf.jpg"
+            },
+            {
+                "name": "Anjana Sukhani",
+                "image": "https://image.tmdb.org/t/p/w185/dAflBouhR7ygcJFkufCv9g8Bk5L.jpg"
+            },
+            {
+                "name": "Mahesh Manjrekar",
+                "image": "https://image.tmdb.org/t/p/w185/4lFytre6m4SruIUpUIoyNjsMo7F.jpg"
+            },
+            {
+                "name": "Sayaji Shinde",
+                "image": "https://image.tmdb.org/t/p/w185/r4VBYop4XktGuSZ0wozRqJbEzMH.jpg"
+            }
+        ],
+        "details": "This story is all about a ambitious boy named Seenu (Ravi Teja) who dreams of becoming a don. He always likes to be called as ‘Don’ Seenu since childhood due to the strong influence of the Amitabh Bachchan starrer ‘Don’. He grows up with just one passion - that of becoming the World's No: 1 Don. Thanks to his enterprising nature, he gains access to the cream of the city's dons, and uses his cleverness to play off the top two - Machiraju (Sayaji Shinde) and Narsing (Sri Hari), fierce rivals - against each other.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/6ns1pzegivdh",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
