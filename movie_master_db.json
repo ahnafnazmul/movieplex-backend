@@ -63430,5 +63430,161 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1507560",
+        "type": "movie",
+        "title": "Divorce Me",
+        "release_year": 2025,
+        "original_language": "ar",
+        "video_trailer": "https://www.youtube.com/watch?v=bERM78DDJck",
+        "poster": "https://image.tmdb.org/t/p/w500/uDPVi84WZrtj0MHjWjleEuyYSJu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/61s6rhbbB1Jn8D7tHpW99dl8qBX.jpg",
+        "rating": 1.2,
+        "release_date": "2025-12-17",
+        "runtime": "104 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Karim Mahmoud Abdel Aziz",
+                "image": "https://image.tmdb.org/t/p/w185/lIIiYr9DUWFoBIMVwX10gM7XpuV.jpg"
+            },
+            {
+                "name": "Dina El Sherbiny",
+                "image": "https://image.tmdb.org/t/p/w185/yKIdQwGzMtYN7j75gSQOYQOwVXz.jpg"
+            },
+            {
+                "name": "Hatim Salah",
+                "image": "https://image.tmdb.org/t/p/w185/oMKk9Z3Jbmk5JLpLBP3Nsnd5JNc.jpg"
+            },
+            {
+                "name": "Hanaa ElShorbagi",
+                "image": "https://image.tmdb.org/t/p/w185/8ROuHPttds8mdqEVRQEi6YbwWN6.jpg"
+            },
+            {
+                "name": "Donia Maher",
+                "image": "https://image.tmdb.org/t/p/w185/y4lVAb0EBl5M1sCIeATftZzbi2G.jpg"
+            }
+        ],
+        "details": "A strained relationship between a married couple ends in divorce, but the husband faces a severe financial crisis that compels him to seek help from his ex-wife to save him from prison. Together, they embark on a journey full of challenges and funny situations, during which they discover their true feelings for each other.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/30/e52f314f0a9f121ad1190ee2f55c10f1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/30/e52f314f0a9f121ad1190ee2f55c10f1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=7AOEUP9mBJo_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=7AOEUP9mBJo_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1244523",
+        "type": "movie",
+        "title": "Beware Boiúna",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=MQKqgFVU4dQ",
+        "poster": "https://image.tmdb.org/t/p/w500/uW5YMPxJUzT9bkafrCKHXjPTCoQ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/9nU0FKNefmhbgi2xXlvZchZsqwm.jpg",
+        "rating": 6.2,
+        "release_date": "2026-10-01",
+        "runtime": "104 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller",
+            "Action"
+        ],
+        "cast": [
+            {
+                "name": "Kiana Madeira",
+                "image": "https://image.tmdb.org/t/p/w185/sw5jTOmdHhAZzVMIzSVEDi5g7lz.jpg"
+            },
+            {
+                "name": "Jessica Rothe",
+                "image": "https://image.tmdb.org/t/p/w185/oItPXy56W0Y5taqIMZilRtnPDMn.jpg"
+            },
+            {
+                "name": "Will Close",
+                "image": "https://image.tmdb.org/t/p/w185/lgsHBbNrY8SEdsOIQEEXMOSqTgY.jpg"
+            },
+            {
+                "name": "Juan Pablo Shuk",
+                "image": "https://image.tmdb.org/t/p/w185/bUJgufFSqWMpa8gEXPTNun8MP8i.jpg"
+            },
+            {
+                "name": "Logan Marshall-Green",
+                "image": "https://image.tmdb.org/t/p/w185/oogXh2Osxw43bfjMVCcCH8SGsUB.jpg"
+            }
+        ],
+        "details": "A medical mission deep in the Amazon becomes a desperate fight for survival when a colossal ancient predator awakens, turning the jungle into a deadly battleground where nature decides who lives and dies.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/10/4ccbc35c71efec482b16d4d1fe0700f4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/10/4ccbc35c71efec482b16d4d1fe0700f4-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1819399",
+        "type": "movie",
+        "title": "7 Star Boys",
+        "release_year": 2026,
+        "original_language": "ta",
+        "video_trailer": "https://www.youtube.com/watch?v=kaqsPAn4AKI",
+        "poster": "https://image.tmdb.org/t/p/w500/8Zgs2vSzItEXpBtrpmyxB5M4YUJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pF33Py5zpWnCjp4ahmhgsofpLhZ.jpg",
+        "rating": 0.0,
+        "release_date": "2026-09-04",
+        "runtime": "125 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama"
+        ],
+        "cast": [],
+        "details": "A group of boys passionate about football cleans up an abandoned field with help from a local hero. When a tournament is announced, a professional player arrives to coach them toward their dreams of victory.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/c2deye5zfpd5",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
