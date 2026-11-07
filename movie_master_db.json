@@ -63740,5 +63740,73 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_18858",
+        "type": "series",
+        "title": "Hawak Ko Ang Langit",
+        "release_year": 2003,
+        "original_language": "tl",
+        "video_trailer": "",
+        "poster": "",
+        "backdrop": "",
+        "rating": 5.0,
+        "release_date": "2003-07-14",
+        "runtime": "30 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Assunta de Rossi",
+                "image": "https://image.tmdb.org/t/p/w185/nhI1XIGNkkfQhjLB3WW32LyaieW.jpg"
+            },
+            {
+                "name": "Jomari Yllana",
+                "image": "https://image.tmdb.org/t/p/w185/o5mVXQMWtSRQTdxclJJ13CKduIv.jpg"
+            },
+            {
+                "name": "Melanie Marquez",
+                "image": ""
+            },
+            {
+                "name": "Regine Tolentino",
+                "image": "https://image.tmdb.org/t/p/w185/9mVH056b30HpUIDdplhgTJaIw3K.jpg"
+            },
+            {
+                "name": "BB. Gandanghari",
+                "image": "https://image.tmdb.org/t/p/w185/kQEObgULmToKA43oaeFsJiNTNos.jpg"
+            }
+        ],
+        "details": "Hawak Ko Ang Langit is a Filipino drama series produced by TAPE, Inc. for GMA Network. It featured Assunta de Rossi and Jomari Yllana as the lead cast. Written by RJ Nuevas and directed by Gina Alajar premiered July 14, 2003 and concluded October 17, 2003.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/01/9edd153066ca1022c760193b1279a538-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/01/9edd153066ca1022c760193b1279a538-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=9vSYH5Uuj9o_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=9vSYH5Uuj9o_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
