@@ -61452,7 +61452,8 @@
             "Movies",
             "English",
             "Drama",
-            "History"
+            "History",
+            "Adventure"
         ],
         "cast": [
             {
@@ -64033,6 +64034,46 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2024/02/22/2d09f71b0b352423cd182ff429306805-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_217180",
+        "type": "series",
+        "title": "The Chemistry of Death",
+        "release_year": 2023,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=0SQvq5To5DA",
+        "poster": "https://image.tmdb.org/t/p/w500/uPHFvc2ma51e9AEHjRDAbRSsWIA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ndq6lOTc5OnItaRQDzsm61apYKZ.jpg",
+        "rating": 6.5,
+        "release_date": "2023-01-12",
+        "runtime": "46 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime"
+        ],
+        "cast": [
+            {
+                "name": "Harry Treadaway",
+                "image": "https://image.tmdb.org/t/p/w185/sPHrK9AvAYJY3udd9DcdPIyQZaE.jpg"
+            }
+        ],
+        "details": "When bodies begin turning up in the tranquil English countryside that he has recently made home, a forensic anthropologist helps local police in a race against time.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/30/6e771753be1fed86b21918c7f450b050-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/30/6e771753be1fed86b21918c7f450b050-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
