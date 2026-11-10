@@ -64079,5 +64079,218 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_322051",
+        "type": "series",
+        "title": "The Sound of Sugar Cubes",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/g93FD4IwGc5ZokStoc8cYC8fu55.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bGveCIHFN2FZrn4OcXsHZiQrrgr.jpg",
+        "rating": 8.0,
+        "release_date": "2026-10-23",
+        "runtime": "25 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Jo Chan-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/zacyzT9wW6IEnXuO6tH9nxkGJAO.jpg"
+            },
+            {
+                "name": "Yoo Do-hyun",
+                "image": "https://image.tmdb.org/t/p/w185/fVGySzbS6DQa6BlpniSDKCHlrr9.jpg"
+            },
+            {
+                "name": "Ko Gyeol",
+                "image": "https://image.tmdb.org/t/p/w185/wruA4kFkPMrrlmoeDJbnnLbIlrf.jpg"
+            },
+            {
+                "name": "Min Sung-wook",
+                "image": "https://image.tmdb.org/t/p/w185/pgJbsoJlsETvxxpWXTiitE1uUg4.jpg"
+            },
+            {
+                "name": "Ha Yo-seop",
+                "image": "https://image.tmdb.org/t/p/w185/ygN5nPlA9zZYGYxpVdUE8CbH5XV.jpg"
+            }
+        ],
+        "details": "A high school boy who can hear the emotions and memories of others through sound tries to hide his unusual ability from the world. His encounter with a seemingly perfect idol trainee forces him to confront feelings he has long suppressed. As love, obsession, and emotional wounds intertwine, their relationship reveals the fragile boundary between salvation and destruction.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/23/edcdfcb68c356efb101f69dea0beed64-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/23/edcdfcb68c356efb101f69dea0beed64-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1654940",
+        "type": "movie",
+        "title": "One Year to Live, Buy a Man",
+        "release_year": 2026,
+        "original_language": "ja",
+        "video_trailer": "https://www.youtube.com/watch?v=WH-RRKQGdJ8",
+        "poster": "https://image.tmdb.org/t/p/w500/fez7kLyGzpowduJapTFZZ1feCS0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
+        "rating": 7.5,
+        "release_date": "2026-11-05",
+        "runtime": "109 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Ko Shibasaki",
+                "image": "https://image.tmdb.org/t/p/w185/eEBNceN1MsDFibWVV3VIcEHygUW.jpg"
+            },
+            {
+                "name": "Eiji Akaso",
+                "image": "https://image.tmdb.org/t/p/w185/avmVUrCnFPQi8mhfz3LYKGIzaTO.jpg"
+            },
+            {
+                "name": "Michitaka Tsutsui",
+                "image": "https://image.tmdb.org/t/p/w185/pufgt0lPJBUYr2AiMFXbFRh9nEj.jpg"
+            },
+            {
+                "name": "Naomi Nishida",
+                "image": "https://image.tmdb.org/t/p/w185/oO9MWTZfBOKpFPuwWMiHFH9ksDJ.jpg"
+            },
+            {
+                "name": "Yui Narumi",
+                "image": "https://image.tmdb.org/t/p/w185/bj22Nu7mg4AU63IRkeU9d6909q5.jpg"
+            }
+        ],
+        "details": "Given a year to live, frugal 40-year-old Yui finally lets herself spend: \"buying\" nightclub host Sena. What begins as a contract takes an unexpected turn.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/o94kt5pmqixl",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1630420",
+        "type": "movie",
+        "title": "Overacting",
+        "release_year": 2026,
+        "original_language": "th",
+        "video_trailer": "https://www.youtube.com/watch?v=a28p9c4zTdI",
+        "poster": "https://image.tmdb.org/t/p/w500/rve2a7JXJbXivl0JakEWgc9Fhwh.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5pMZA0EdgE66jcSCkfDCAtWiizk.jpg",
+        "rating": 6.3,
+        "release_date": "2026-11-04",
+        "runtime": "116 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Pongsak Pongsuwan",
+                "image": "https://image.tmdb.org/t/p/w185/7vPnrSW5acxAYbcAkQ1JKP9UGHX.jpg"
+            },
+            {
+                "name": "Maylada Susri",
+                "image": "https://image.tmdb.org/t/p/w185/8yABH08obOp9A2QOKXm1AQEXGcy.jpg"
+            },
+            {
+                "name": "Akkharadech Yodjampa",
+                "image": "https://image.tmdb.org/t/p/w185/5SCjK0otPkXnGeSc6qW10LoY5G6.jpg"
+            },
+            {
+                "name": "Gornpop Janjaroen",
+                "image": "https://image.tmdb.org/t/p/w185/eR2SyVBjZPS9SFmubOynPSXEZlV.jpg"
+            },
+            {
+                "name": "Prakasit Bosuwan",
+                "image": "https://image.tmdb.org/t/p/w185/iBo6x5jGTldCdYZiIuTfJVZwdiG.jpg"
+            }
+        ],
+        "details": "When her father's memories as a retired top cop resurface, a struggling actress stages wild missions to keep him from pursuing his elusive archnemesis.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/ne3lrfrm39ee",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_76487",
+        "type": "movie",
+        "title": "The Devil Inside",
+        "release_year": 2012,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=MVpcszlYT7s",
+        "poster": "https://image.tmdb.org/t/p/w500/x1KYpYqf4a4fzlKLJ7pqBphWf4Y.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5Ao48b5Fo3yBj5jHuQlpsLaC9JR.jpg",
+        "rating": 4.7,
+        "release_date": "2012-01-06",
+        "runtime": "83 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Fernanda Andrade",
+                "image": "https://image.tmdb.org/t/p/w185/tXbeS1OnVKwC2BxXl4rNQjH0rh4.jpg"
+            },
+            {
+                "name": "Simon Quarterman",
+                "image": "https://image.tmdb.org/t/p/w185/m9U1BfmPT9XJLizKaWb7mp9IZje.jpg"
+            },
+            {
+                "name": "Evan Helmuth",
+                "image": "https://image.tmdb.org/t/p/w185/xMl0uxmhCfhTkhDoA54jbbfObZE.jpg"
+            },
+            {
+                "name": "Ionut Grama",
+                "image": "https://image.tmdb.org/t/p/w185/o6lu5fApGmDpEHSO8wnEJMgCHFU.jpg"
+            },
+            {
+                "name": "Suzan Crowley",
+                "image": "https://image.tmdb.org/t/p/w185/s7hfHrdTkKZG2YO4FRf8U27puWp.jpg"
+            }
+        ],
+        "details": "In Italy, a woman becomes involved in a series of unauthorized exorcisms during her mission to discover what happened to her mother, who allegedly murdered three people during her own exorcism.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/64cgtzl3n914",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
