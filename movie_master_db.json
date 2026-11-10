@@ -64292,5 +64292,74 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_580088",
+        "type": "movie",
+        "title": "Beyond Blood",
+        "release_year": 2019,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/k1haYLXim0o4dVNWnWpTfBILPj1.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2019-08-23",
+        "runtime": "92 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Documentary",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Julien Maury",
+                "image": "https://image.tmdb.org/t/p/w185/wGjIJKoWjgqUM7Jo3olPDbmmxVM.jpg"
+            },
+            {
+                "name": "Alexandre Bustillo",
+                "image": "https://image.tmdb.org/t/p/w185/voErWN6HFQ5xwRP1XodfgWbUMJ6.jpg"
+            },
+            {
+                "name": "Alexandre Aja",
+                "image": "https://image.tmdb.org/t/p/w185/5uiPUg3mclsr6Ee3DXPsW1O1ric.jpg"
+            },
+            {
+                "name": "Pascal Laugier",
+                "image": "https://image.tmdb.org/t/p/w185/1s4nJTsl921VAOwyBoXqByvOS19.jpg"
+            },
+            {
+                "name": "Xavier Gens",
+                "image": "https://image.tmdb.org/t/p/w185/zZ2ZtJeBq0yXB1Z5hSztarGt1yN.jpg"
+            }
+        ],
+        "details": "High Tension, Inside, Martyrs, Frontier(s) and Them. In the years of 2003 to 2008, those sensational and innovative horror movies were made and left huge impact around the world. This movement is called New Wave of French Horror. This film explores the meaning and hidden secrets of this significant movement.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/07/eefac58b7e141616641acca137d02bfb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/07/eefac58b7e141616641acca137d02bfb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=YsW3tcUcvuY_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=YsW3tcUcvuY_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
