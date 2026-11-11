@@ -64361,5 +64361,170 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1570488",
+        "type": "movie",
+        "title": "A Dog's Perfect Christmas",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=L18ih13Bf-U",
+        "poster": "https://image.tmdb.org/t/p/w500/zvsNAohDHRWcGvbPSD7r3WojpKb.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
+        "rating": 7.3,
+        "release_date": "2026-11-04",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Dennis Quaid",
+                "image": "https://image.tmdb.org/t/p/w185/lMaDAJHzsKH7U3dln2B3kY3rOhE.jpg"
+            },
+            {
+                "name": "Milo Ventimiglia",
+                "image": "https://image.tmdb.org/t/p/w185/9yFPsQCYi9sbPQ0xJGtoAF4Ar6v.jpg"
+            },
+            {
+                "name": "Brooke Lena Johnson",
+                "image": "https://image.tmdb.org/t/p/w185/gcidhYtCeH19FdpMjbVgjvBhbtA.jpg"
+            },
+            {
+                "name": "Kathleen Rose Perkins",
+                "image": "https://image.tmdb.org/t/p/w185/A6bG3mffBZ7xsr6aszSF2RJ0zIC.jpg"
+            },
+            {
+                "name": "Jennifer Tilly",
+                "image": "https://image.tmdb.org/t/p/w185/9vYoYF385cVq9oDO3pDpXihP4vz.jpg"
+            }
+        ],
+        "details": "When a medical emergency pulls the Goss family apart, determined dog Winstead will do all he can to bring his humans back together before Christmas Eve.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/28/f45cdf03d235255550acea9d7e2b9b72-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/28/f45cdf03d235255550acea9d7e2b9b72-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1261825",
+        "type": "movie",
+        "title": "Oh. What. Fun.",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=FRfj0OHlcvo",
+        "poster": "https://image.tmdb.org/t/p/w500/qynCyBKCJUUcj4wo4PE2aQVvote.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/haAekI7zBtffqILr90DkviTe9fk.jpg",
+        "rating": 5.7,
+        "release_date": "2025-12-02",
+        "runtime": "108 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Michelle Pfeiffer",
+                "image": "https://image.tmdb.org/t/p/w185/8qwNMFzmM3BxGKIj1iIqiHHBpx3.jpg"
+            },
+            {
+                "name": "Denis Leary",
+                "image": "https://image.tmdb.org/t/p/w185/tAOziVWQBnrW9eR442M6g9SQkmA.jpg"
+            },
+            {
+                "name": "Felicity Jones",
+                "image": "https://image.tmdb.org/t/p/w185/35KdWSfTldNEdsn4MUGFIRoxJEu.jpg"
+            },
+            {
+                "name": "Chloë Grace Moretz",
+                "image": "https://image.tmdb.org/t/p/w185/yq4rYmaTRC5degaOYmJQFpaiho1.jpg"
+            },
+            {
+                "name": "Dominic Sessa",
+                "image": "https://image.tmdb.org/t/p/w185/tSRLahrkA3iHJmKjkh3R2ZBFIQN.jpg"
+            }
+        ],
+        "details": "Claire Clauster is the glue that holds her chaotic, lovable family together at the holidays. But this year, after planning a special outing for them, they make a crucial mistake and leave her home alone. Fed up and feeling under appreciated, she sets off on an impromptu adventure of her own. As her family scrambles to find her, Claire discovers the unexpected magic of a Christmas gone off-script.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/01/fc8340d50aa91707b6b4d0676ed1850a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/01/fc8340d50aa91707b6b4d0676ed1850a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1487113",
+        "type": "movie",
+        "title": "Sardaarji 3",
+        "release_year": 2025,
+        "original_language": "pa",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/ncLqJpmFlTxHbgeVRrdKZrHGfUl.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/kZ2pgjmDZPnCJgjhEwU2ad97v1B.jpg",
+        "rating": 7.0,
+        "release_date": "2025-06-27",
+        "runtime": "133 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Adventure",
+            "Comedy",
+            "Horror"
+        ],
+        "cast": [
+            {
+                "name": "Diljit Dosanjh",
+                "image": "https://image.tmdb.org/t/p/w185/xB57LAMYa1q3CaS0TZjgf4d2OaS.jpg"
+            },
+            {
+                "name": "Neeru Bajwa",
+                "image": "https://image.tmdb.org/t/p/w185/8WmLolNEPl2mq0JxTUi6Opzwk8c.jpg"
+            },
+            {
+                "name": "Hania Aamir",
+                "image": "https://image.tmdb.org/t/p/w185/cbLivTNOQ12Om1uEnn9UVt7f3Of.jpg"
+            },
+            {
+                "name": "Manav Vij",
+                "image": "https://image.tmdb.org/t/p/w185/qBGYyDNhHB8Gt2gKQUs0VdsWutJ.jpg"
+            },
+            {
+                "name": "Gulshan Grover",
+                "image": "https://image.tmdb.org/t/p/w185/hmGFOgCnYVUpeY1gTc0gx4QUCOF.jpg"
+            }
+        ],
+        "details": "Legendary ghosthunter Jaggi returns with his ghost buddy Pinky to take on a haunted English castle. As the spirit defies all rules and a dark secret comes to light, Jaggi faces his toughest challenge yet. Will he discover the truth before it's too late?",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/mm62hmbnt49v",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
