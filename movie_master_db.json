@@ -64526,5 +64526,114 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1441563",
+        "type": "movie",
+        "title": "My Secret Santa",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=I9Y5qYp8ro8",
+        "poster": "https://image.tmdb.org/t/p/w500/tpOAzBasKPsKwsUtPZOx1Mzuqq3.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/bXZcSDQoyXlzzUw9qxjZjiUSYov.jpg",
+        "rating": 6.2,
+        "release_date": "2025-12-02",
+        "runtime": "93 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Comedy",
+            "Romance"
+        ],
+        "cast": [
+            {
+                "name": "Alexandra Breckenridge",
+                "image": "https://image.tmdb.org/t/p/w185/fMrvdWpmfM7sUknkNydgtQPF9kk.jpg"
+            },
+            {
+                "name": "Ryan Eggold",
+                "image": "https://image.tmdb.org/t/p/w185/6YZfGMzcugWwMquOIzGlsgx4wYN.jpg"
+            },
+            {
+                "name": "Tia Mowry",
+                "image": "https://image.tmdb.org/t/p/w185/2p0l5uyURd1D4Iy3k8A81yc8lXJ.jpg"
+            },
+            {
+                "name": "Madison MacIsaac",
+                "image": "https://image.tmdb.org/t/p/w185/nHcNlwsbdM4C9463HkQoqE6aPhU.jpg"
+            },
+            {
+                "name": "Diana Maria Riva",
+                "image": "https://image.tmdb.org/t/p/w185/fe6KB60w93zaHFzvI2sprIVOBVE.jpg"
+            }
+        ],
+        "details": "A single mom needs a job. A ski resort needs a Santa. Disguised as a St. Nick lookalike, can Taylor fool a charming hotel heir into ho-ho-hiring her?",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/11/24/2766990aec9616d8866d8ff38cc07fc6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/11/24/2766990aec9616d8866d8ff38cc07fc6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_317312",
+        "type": "series",
+        "title": "Echo of a Letter",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=NehmEacjE1c",
+        "poster": "https://image.tmdb.org/t/p/w500/4O3DOj4pwknMLTnpAQuPWerrYQ0.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/5vOphP04tNGzdc440mZQ8fHBiDl.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-16",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Fang Yusong",
+                "image": "https://image.tmdb.org/t/p/w185/t3pkotUqE4bYk1guyVihDsrWUvl.jpg"
+            },
+            {
+                "name": "Liu Hanlin",
+                "image": "https://image.tmdb.org/t/p/w185/roaJkcx7qcaFqLvv3EPtIZ22OsX.jpg"
+            },
+            {
+                "name": "Liu Shuolin",
+                "image": "https://image.tmdb.org/t/p/w185/bU9eSQJvEjTSqiHOsyU6pthr6Pj.jpg"
+            },
+            {
+                "name": "Yang Hanzhi",
+                "image": "https://image.tmdb.org/t/p/w185/htodrpW1ZVQbLD4BveokQMNdu5l.jpg"
+            }
+        ],
+        "details": "Reunited sixteen years after rehab, a strategic CEO and his secret guardian team up in Macau to fight corporate threats and reconnect.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/28/3806f4e042c7403bca01ecf467076287-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/28/3806f4e042c7403bca01ecf467076287-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
