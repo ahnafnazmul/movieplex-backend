@@ -64951,5 +64951,62 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_83584",
+        "type": "series",
+        "title": "Crash",
+        "release_year": 2018,
+        "original_language": "tr",
+        "video_trailer": "https://www.youtube.com/watch?v=RZ9yzoFKpo8",
+        "poster": "https://image.tmdb.org/t/p/w500/nnC6rX59DdIRxOq5fnvAX8xJP6V.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/sWUHQs8Hv7pCqMEOCXBoYU9wDJZ.jpg",
+        "rating": 7.9,
+        "release_date": "2018-11-22",
+        "runtime": "120 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Kıvanç Tatlıtuğ",
+                "image": "https://image.tmdb.org/t/p/w185/rs7Z3PKa82UhKGQLrBNAy0JAWV5.jpg"
+            },
+            {
+                "name": "Elçin Sangu",
+                "image": "https://image.tmdb.org/t/p/w185/5jGVTT2ykGro046rvKP75y7Mnyi.jpg"
+            },
+            {
+                "name": "Melisa Aslı Pamuk",
+                "image": "https://image.tmdb.org/t/p/w185/uYfh73RwqKLB6qmCMrc22AVXOh9.jpg"
+            },
+            {
+                "name": "Alperen Duymaz",
+                "image": "https://image.tmdb.org/t/p/w185/ipjCVnBGIA7vPOmo5kKP8P71Lzf.jpg"
+            },
+            {
+                "name": "Onur Saylak",
+                "image": "https://image.tmdb.org/t/p/w185/zrVHIFWuYuggeOOKdRnFtW69uYt.jpg"
+            }
+        ],
+        "details": "After losing his wife and daughter in a terrorist act, Kadir Adalı decides to attempt suicide via car accident, unwittingly changing the course of his life and the three others involved in the accident.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/06/26/ef69a5dc0bd815636814430b77a200c4-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/06/26/ef69a5dc0bd815636814430b77a200c4-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
