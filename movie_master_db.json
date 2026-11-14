@@ -65008,5 +65008,218 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_313738",
+        "type": "series",
+        "title": "One of a Kind Romance",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/l9oQ1Ql8DJqYnrDyU85fAPYTmrD.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/pSsJ2qQypNVzLNYKV6ixORDW7kM.jpg",
+        "rating": 0.0,
+        "release_date": "2026-11-09",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "JOY",
+                "image": "https://image.tmdb.org/t/p/w185/4S14P69iASzrsAPaSJqBlh07hj0.jpg"
+            },
+            {
+                "name": "Kim Hyun-jin",
+                "image": "https://image.tmdb.org/t/p/w185/svQuuEv10uqaPxfjUsNmIRqvzS8.jpg"
+            },
+            {
+                "name": "Kang Na-eon",
+                "image": "https://image.tmdb.org/t/p/w185/35dCaXNi3jEd1lZ633gDmEpDZFI.jpg"
+            },
+            {
+                "name": "Shin Hyun-soo",
+                "image": "https://image.tmdb.org/t/p/w185/mIcB3QsN7JtwFL58mlbQaMekI2r.jpg"
+            },
+            {
+                "name": "Lee Do-han",
+                "image": "https://image.tmdb.org/t/p/w185/A29Wt1mgwGu5Ji0b9k7zJlx6pgB.jpg"
+            }
+        ],
+        "details": "A romance driven by personal desire that unfolds when top actor Tak Mu-i and idol Ryu Min enter the ordinary daily life of job seeker Gong Yu-il.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/09/edb70e151c96954bd75897644ae39a7e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/09/edb70e151c96954bd75897644ae39a7e-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_289517",
+        "type": "series",
+        "title": "Dead-End Job",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=Sn2ZCxOxsN0",
+        "poster": "https://image.tmdb.org/t/p/w500/wUvzMC7EToPgci31ZZRCeqCmQ6d.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/gWedDgBsZkuOho2qe3q2sTQmbpO.jpg",
+        "rating": 7.6,
+        "release_date": "2026-10-30",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Mystery",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Lee Jae-wook",
+                "image": "https://image.tmdb.org/t/p/w185/9dsWM2kiXO4utrg4GctdXDvhOKD.jpg"
+            },
+            {
+                "name": "Go Min-si",
+                "image": "https://image.tmdb.org/t/p/w185/tgBb9dDyewLlautcmJH9KSXZz1O.jpg"
+            },
+            {
+                "name": "Kim Min-ha",
+                "image": "https://image.tmdb.org/t/p/w185/zPNNamrJLWoXADXALQmuTdo6zBS.jpg"
+            },
+            {
+                "name": "Lee Hee-jun",
+                "image": "https://image.tmdb.org/t/p/w185/4slyXnHbKgzmeyJNetBSORgDDEF.jpg"
+            }
+        ],
+        "details": "Drowning in debt, a young man takes lucrative part-time jobs from a mysterious agency — only to find his hustle for more money turning nightmarish.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/30/4a6bab439419cbbd5bba77e56f88129d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/30/4a6bab439419cbbd5bba77e56f88129d-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1384528",
+        "type": "movie",
+        "title": "O.M: Operation Mole",
+        "release_year": 2026,
+        "original_language": "ta",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/vFnFLqXjf7RQfkNxrrys43BZKxJ.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/r0CliRoVddOLJ5zVT2Zd8ldbLuu.jpg",
+        "rating": 0.0,
+        "release_date": "2026-11-20",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Action",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Dhanush",
+                "image": "https://image.tmdb.org/t/p/w185/xnGKntkTDURY5mJ0sOVRI3VIDsY.jpg"
+            },
+            {
+                "name": "Mammootty",
+                "image": "https://image.tmdb.org/t/p/w185/c5ewp9XtDIOwK5QWhwA7TD0GzqO.jpg"
+            },
+            {
+                "name": "Sai Pallavi",
+                "image": "https://image.tmdb.org/t/p/w185/qAPdGKUIUEzLibdgVCey7oKvvME.jpg"
+            },
+            {
+                "name": "Sreeleela",
+                "image": "https://image.tmdb.org/t/p/w185/fHrQFHy9GPII2rGsImbpBg83N3p.jpg"
+            },
+            {
+                "name": "Naseeruddin Shah",
+                "image": "https://image.tmdb.org/t/p/w185/iaRC8eqliA5clpsQ50sITYoNQGG.jpg"
+            }
+        ],
+        "details": "Set across the temple corridors of Tirupati and Tiruvannamalai, an elite undercover operative infiltrates a sprawling transnational red sanders syndicate. As criminal politics escalate, a covert task force launches Operation Mole to dismantle the cartel from within.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://www.youtube.com/embed/aGSOpb_6kv8",
+                "source_site": "rtally",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1431738",
+        "type": "movie",
+        "title": "Anbil Avan",
+        "release_year": 2026,
+        "original_language": "ta",
+        "video_trailer": "https://www.youtube.com/watch?v=h5UFAz7LsSo",
+        "poster": "https://image.tmdb.org/t/p/w500/2cN2WjL4xQvbJIhxSjGmhXL41rX.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uHSlzN0WbaNMgmmgkpQlod9hWje.jpg",
+        "rating": 0.0,
+        "release_date": "2026-10-02",
+        "runtime": "158 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Ashok Selvan",
+                "image": "https://image.tmdb.org/t/p/w185/qA8w8hRmyw7IWxIuM64s7aPwqbe.jpg"
+            },
+            {
+                "name": "Preity Mukhundhan",
+                "image": "https://image.tmdb.org/t/p/w185/m3qGm6zD2MIye4PB0OaeaS6wc9v.jpg"
+            },
+            {
+                "name": "Sabumon Abdusamad",
+                "image": "https://image.tmdb.org/t/p/w185/mI81jD0mykZh84e0k8X0TPb11Sj.jpg"
+            },
+            {
+                "name": "Kadirbalu",
+                "image": ""
+            },
+            {
+                "name": "Mahadevan Ganesh",
+                "image": ""
+            }
+        ],
+        "details": "A married couple attempts to start a good life together, but unexpected trouble traps them in an unsettling situation that forces them to fight back for their survival.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://www.youtube.com/embed/dttG5wtkgCw",
+                "source_site": "rtally",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
