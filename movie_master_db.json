@@ -65221,5 +65221,196 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "movie_1517824",
+        "type": "movie",
+        "title": "Christmas Everyday",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=dwFOVwNRg8o",
+        "poster": "https://image.tmdb.org/t/p/w500/f0N8rHm4LLEatGk1MDtQo1DvP2E.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/mi40Td9jtcdKw0EJCTzLDrfODxY.jpg",
+        "rating": 6.8,
+        "release_date": "2025-11-29",
+        "runtime": "87 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Music",
+            "Drama",
+            "TV Movie"
+        ],
+        "cast": [
+            {
+                "name": "Brandy Norwood",
+                "image": "https://image.tmdb.org/t/p/w185/ie1IH8LQI3aGzke4FoYRbcdHv88.jpg"
+            },
+            {
+                "name": "Robert C. Riley",
+                "image": "https://image.tmdb.org/t/p/w185/4kH4ssN7IPX9cdNtjMLT1fGyTCE.jpg"
+            },
+            {
+                "name": "Lamman Rucker",
+                "image": "https://image.tmdb.org/t/p/w185/97JGsO3FR13MLa3hrs9A0cIzGBo.jpg"
+            },
+            {
+                "name": "Sy’Rai Smith",
+                "image": "https://image.tmdb.org/t/p/w185/34QFZjvL9Y6wnEVWD5x5ykKo3ee.jpg"
+            },
+            {
+                "name": "Journey Carter",
+                "image": "https://image.tmdb.org/t/p/w185/jWYpok7dXorsXslmGR1GCMp5lJg.jpg"
+            }
+        ],
+        "details": "When a water pipe bursts and disrupts her sister's wedding plans, Fancy finds herself drawn to the rugged yet charming contractor. Through all the chaos, she learns valuable lessons about faith, family, and the true meaning of Christmas.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/16/cf65d52280a0e999e785691c375afc82-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/16/cf65d52280a0e999e785691c375afc82-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1181504",
+        "type": "movie",
+        "title": "Legend of Fox Demon Nie Xiaoqian",
+        "release_year": 2019,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/aqcFCBGUgzRUu0Prjc45qBdCaaC.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2019-09-06",
+        "runtime": "N/A min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "Nie Xiao Qian, a lonely girl controlled by a monster, accidentally ran into Ning Cai Chen, a scholar who went to Beijing to sit for the imperial exam. Xiao Qian was preparing for a tribute for the demon tree grandmother Lao Lao. After being in good-natured nature, Xiao Qian repeatedly approached Ning Cai Chen and was moved by his innocence. After learning about Xiao Qian's situation, Ning Cai Chen asked Yan Chi Xia to retrieve Xiao Qian's soul, but was blocked by the old Black Mountain demon, and went through a period of tortuous and difficult experience from demon to human..",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/khrp73fq3f5i",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "tv_135786",
+        "type": "series",
+        "title": "Monstrous",
+        "release_year": 2022,
+        "original_language": "ko",
+        "video_trailer": "https://www.youtube.com/watch?v=JN1JOlDMTq8",
+        "poster": "https://image.tmdb.org/t/p/w500/hqtp6EnL41A5aBtIAVOUFGthT8L.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4RdfeOFwWOapnQDjeyAVv0cvhCV.jpg",
+        "rating": 6.1,
+        "release_date": "2022-04-29",
+        "runtime": "40 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Koo Kyo-hwan",
+                "image": "https://image.tmdb.org/t/p/w185/aFwCpSKPGFqoiTStY6ljXnD5CwH.jpg"
+            },
+            {
+                "name": "Shin Hyun-been",
+                "image": "https://image.tmdb.org/t/p/w185/lU0yMFh5KgOEWZRThLYbB6ZI1hE.jpg"
+            },
+            {
+                "name": "Kim Ji-young",
+                "image": "https://image.tmdb.org/t/p/w185/7bEs0Z6klajJZE3PWBAy5gh099D.jpg"
+            },
+            {
+                "name": "Park Ho-san",
+                "image": "https://image.tmdb.org/t/p/w185/gL5eN7UvYlseBD0rjdjgjiVKuQJ.jpg"
+            },
+            {
+                "name": "Kwak Dong-yeon",
+                "image": "https://image.tmdb.org/t/p/w185/klgX8YheSFFXqEdjuCQY5rxTTGa.jpg"
+            }
+        ],
+        "details": "A giant Buddha statue is unearthed in a small rural town. The mayor believes that it will change the town into a major tourist attraction. However, a catastrophe starts to grow. A centuries-old curse is unleashed from the statue, and it starts to eat up people's souls and make them non-human. Jung Ki-hoon, as archaeologist tries to seek the truth behind the paranormal phenomenon.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/isw4sm1dwdl1",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
+    },
+    {
+        "id": "movie_971511",
+        "type": "movie",
+        "title": "Must Love Christmas",
+        "release_year": 2022,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=NAhxyGnuKak",
+        "poster": "https://image.tmdb.org/t/p/w500/psgIF5lvCpm14vaoOkVnmW5Xgiv.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ou3PlMNBW7SUSExG4c6JZukBrNQ.jpg",
+        "rating": 5.8,
+        "release_date": "2022-12-11",
+        "runtime": "85 min",
+        "categories": [
+            "Movies",
+            "English",
+            "TV Movie",
+            "Comedy",
+            "Romance",
+            "Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Neal Bledsoe",
+                "image": "https://image.tmdb.org/t/p/w185/c3DHH4r8y40KCJbg46htdbL5M69.jpg"
+            },
+            {
+                "name": "Liza Lapira",
+                "image": "https://image.tmdb.org/t/p/w185/o3jvQAGWtxi5rEycslhC6CY8BWX.jpg"
+            },
+            {
+                "name": "Nathan Witte",
+                "image": "https://image.tmdb.org/t/p/w185/oLRTmhoo4IFf8piUcZn7qjm4ODr.jpg"
+            },
+            {
+                "name": "Ian Collins",
+                "image": "https://image.tmdb.org/t/p/w185/j5HMzXHfoCAXQvWPTnwznvC9r5V.jpg"
+            },
+            {
+                "name": "Simone Bailly",
+                "image": "https://image.tmdb.org/t/p/w185/hrX9UURtFuQGj21sZE2pI13o4k9.jpg"
+            }
+        ],
+        "details": "A renowned romance novelist becomes involved in a love triangle between her childhood crush and a reporter.",
+        "players": [
+            {
+                "server_name": "Rtally Stream",
+                "player_url": "https://embedorigin.cc/e/2y73j74g4n6m",
+                "source_site": "rtally",
+                "source_domain": "embedorigin.cc"
+            }
+        ],
+        "_source_site": "rtally"
     }
 ]
