@@ -65464,5 +65464,61 @@
             }
         ],
         "_source_site": "rtally"
+    },
+    {
+        "id": "tv_303044",
+        "type": "series",
+        "title": "Campus Drivers",
+        "release_year": 2026,
+        "original_language": "fr",
+        "video_trailer": "https://www.youtube.com/watch?v=xybsbjGt1KA",
+        "poster": "https://image.tmdb.org/t/p/w500/kTgV6VLp70QOBpCZqvEuTWAA4Ng.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oaWJm4brEMSWBmQIB73DFxsU683.jpg",
+        "rating": 7.8,
+        "release_date": "2026-11-06",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Carmen Kassovitz",
+                "image": "https://image.tmdb.org/t/p/w185/iNLGKtgKWrnHjfZtUbLEwTjJPlf.jpg"
+            },
+            {
+                "name": "Baptiste Masseline",
+                "image": "https://image.tmdb.org/t/p/w185/yM0TUy6pKm9nIPSZi5XMUZm7vqB.jpg"
+            },
+            {
+                "name": "Esteban Vial",
+                "image": "https://image.tmdb.org/t/p/w185/bS61EfCCt77ZpG2fRYZm8cOdVTY.jpg"
+            },
+            {
+                "name": "Félix Nebel",
+                "image": "https://image.tmdb.org/t/p/w185/4hRE5xTDVrn7VlXL9hb3YBTSQW3.jpg"
+            },
+            {
+                "name": "Madior Fall",
+                "image": "https://image.tmdb.org/t/p/w185/aHEr670j2N4VZuai0mF6XhkR9mY.jpg"
+            }
+        ],
+        "details": "Lois arrives in Belrose with Max, the love of her life. Lane, the creator of Campus Drivers, the hottest app on campus, is known for never getting attached. Their paths were never meant to cross. But some encounters change everything, reopening old wounds. And when love appears unexpectedly, nothing is certain anymore.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/03/f27bb789dbfa504c4a8a7d539c53b78a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/03/f27bb789dbfa504c4a8a7d539c53b78a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
