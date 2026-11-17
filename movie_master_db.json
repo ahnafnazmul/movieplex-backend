@@ -65520,5 +65520,115 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_61299",
+        "type": "series",
+        "title": "Chasing Shadows",
+        "release_year": 2014,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=gqk0qTIw9qA",
+        "poster": "https://image.tmdb.org/t/p/w500/nBKLfkLHoG9pqy2GuTWcVemylsO.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lWgXDFeln0gLyhOI8VEMn5FPPJb.jpg",
+        "rating": 7.2,
+        "release_date": "2014-09-04",
+        "runtime": "60 min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Crime",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Reece Shearsmith",
+                "image": "https://image.tmdb.org/t/p/w185/4RJLh3e4Ha4K2ET8ruPcoaL2gqt.jpg"
+            },
+            {
+                "name": "Alex Kingston",
+                "image": "https://image.tmdb.org/t/p/w185/pBK1qMZEFkRAFcfdLb7Z28f6qd2.jpg"
+            },
+            {
+                "name": "Noel Clarke",
+                "image": "https://image.tmdb.org/t/p/w185/B4VwUzthFfF4g2cr8xdyz7n3Vp.jpg"
+            },
+            {
+                "name": "Don Warrington",
+                "image": "https://image.tmdb.org/t/p/w185/cSwF6Wz2HidEYGCDuX6kzBYydCv.jpg"
+            },
+            {
+                "name": "Adjoa Andoh",
+                "image": "https://image.tmdb.org/t/p/w185/4dsLkxU3Vcw1P97JoyGWlbYhV1h.jpg"
+            }
+        ],
+        "details": "A socially awkward detective who deals better with data than people is assigned to work on a missing persons unit searching for lost souls.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/10/c027e2ba1a791257e6c5cc7ad6fba270-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/10/c027e2ba1a791257e6c5cc7ad6fba270-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=cz_fclTEVG4_CMS_360p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://www.youtube.com/watch?v=cz_fclTEVG4_CMS_480p.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "www.youtube.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_279601",
+        "type": "series",
+        "title": "Man vs Baby",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=zHhR3daI3bY",
+        "poster": "https://image.tmdb.org/t/p/w500/x7UZVTEr26H5yCSVQoKTeBdvUvg.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/lSffVt0etoSLyl2hsTREdJ1CnQ1.jpg",
+        "rating": 6.8,
+        "release_date": "2025-12-11",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Rowan Atkinson",
+                "image": "https://image.tmdb.org/t/p/w185/gdiN2zLjC3Mnfrp7hM3TXVJjWJv.jpg"
+            }
+        ],
+        "details": "As Christmas approaches, a blundering-all-the-way dad juggles housesitting a posh London penthouse with an unexpected pickle: caring for a lost baby.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/11/24/238d95adbc125685da2c3899955fcdbb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/11/24/238d95adbc125685da2c3899955fcdbb-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
