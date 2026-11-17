@@ -65630,5 +65630,272 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1757174",
+        "type": "movie",
+        "title": "The Christmas Switch",
+        "release_year": 2026,
+        "original_language": "sv",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/9kHrUoPF2rl5Hj0QMquAy3xznXT.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4BsOLok9WaTTTcSpmoMtCLERScS.jpg",
+        "rating": 6.6,
+        "release_date": "2026-11-12",
+        "runtime": "103 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Romance",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Felice Jankell",
+                "image": "https://image.tmdb.org/t/p/w185/7DbXVbGlWcYESPBtAHwwRvMLwzf.jpg"
+            },
+            {
+                "name": "Happy Jankell",
+                "image": "https://image.tmdb.org/t/p/w185/1HxWCM4tKvr3BE7LbWNi7iSjSCo.jpg"
+            },
+            {
+                "name": "Christian Fandango Sundgren",
+                "image": "https://image.tmdb.org/t/p/w185/yFzKniD7f5eZWR5cbheKLsoPM9R.jpg"
+            },
+            {
+                "name": "Celie Sparre",
+                "image": "https://image.tmdb.org/t/p/w185/hWlwSfIKMEg7MStKtxW7DPlOidM.jpg"
+            },
+            {
+                "name": "Anastasios Soulis",
+                "image": "https://image.tmdb.org/t/p/w185/ioaYJiSJd3jtirOETB1dit4XLEi.jpg"
+            }
+        ],
+        "details": "Craving a change of pace, work-hard-play-hard city girl Freddie swaps lives with her homebody sister Mattie at Christmas time, only to unwrap a whole new kind of mess.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/12/c220c8456743a552a307493d86e964f5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/12/c220c8456743a552a307493d86e964f5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_301354",
+        "type": "series",
+        "title": "Sword & Silence",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/jlHH1OGMrupWfVSeiGkxPabmSYN.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ohxUMg44IaMTtdaSmPn1M1QW3Js.jpg",
+        "rating": 7.5,
+        "release_date": "2026-11-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "War & Politics"
+        ],
+        "cast": [
+            {
+                "name": "Lee Hyun-wook",
+                "image": "https://image.tmdb.org/t/p/w185/gu1sSYADankzaBQudyRhiL3mCuf.jpg"
+            },
+            {
+                "name": "Jang Hyuk",
+                "image": "https://image.tmdb.org/t/p/w185/wOGbzgmlogfpPUvXTWVSROVTUYf.jpg"
+            },
+            {
+                "name": "Kim Kang-woo",
+                "image": "https://image.tmdb.org/t/p/w185/1B883y0AG0WPTmGkC14XIggXVLz.jpg"
+            },
+            {
+                "name": "Park Sung-woong",
+                "image": "https://image.tmdb.org/t/p/w185/m6k3SCs4ppc73PaYQuGsVctmGTg.jpg"
+            },
+            {
+                "name": "Jung Woong-in",
+                "image": "https://image.tmdb.org/t/p/w185/8chD5NkFYH5glIqBt6zyevoQRhK.jpg"
+            }
+        ],
+        "details": "Six centuries of war have left the Three Kingdoms in turmoil. Facing powerful rivals, a small nation fights to unite a divided land.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/15/93ba8c56e667fffe5d91cd6460cf5633-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/15/93ba8c56e667fffe5d91cd6460cf5633-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_6744",
+        "type": "series",
+        "title": "The Merv Griffin Show",
+        "release_year": 1962,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/pF9rFdF6Gd4dNJ0Rh4mFsaFTi3m.jpg",
+        "backdrop": "",
+        "rating": 6.8,
+        "release_date": "1962-10-01",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Talk"
+        ],
+        "cast": [
+            {
+                "name": "Merv Griffin",
+                "image": "https://image.tmdb.org/t/p/w185/tYU8HL88jJvQb4zZVJi988Jeux9.jpg"
+            }
+        ],
+        "details": "",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/01/62fb782202ac9b8bba010313e45601b0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/12/01/62fb782202ac9b8bba010313e45601b0-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_299764",
+        "type": "series",
+        "title": "Happy Anding",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/4fjhWeTNyTz0ElvDpjOthABNp3g.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/uh1RVXu8o2nQ1WP5Gnl5pO8p6nF.jpg",
+        "rating": 0.0,
+        "release_date": "2026-11-11",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Kang Hoon",
+                "image": "https://image.tmdb.org/t/p/w185/dg2FTdGkacJLyLP8PlsE3Oz93fO.jpg"
+            },
+            {
+                "name": "Cho Hyun-chul",
+                "image": "https://image.tmdb.org/t/p/w185/i1yEjtwITyedbFCealmBfuaAn3M.jpg"
+            },
+            {
+                "name": "Kim Jeong-jin",
+                "image": "https://image.tmdb.org/t/p/w185/3A0SbbXZcz6P6mfNhp3enT27Y2y.jpg"
+            },
+            {
+                "name": "Lee E-dam",
+                "image": "https://image.tmdb.org/t/p/w185/raND8efeLH0TmIgs6ZSzgp42the.jpg"
+            },
+            {
+                "name": "Choi Moon-hee",
+                "image": "https://image.tmdb.org/t/p/w185/yuzSt2IzADE5uvYEfRAiphWXxa.jpg"
+            }
+        ],
+        "details": "The story of three unknown comedians who are running towards their dreams and a woman whose life has collapsed, getting back up and finding her dream.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/12/c5c79b2e54157fe72397c6ba83f2141f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/12/c5c79b2e54157fe72397c6ba83f2141f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_286171",
+        "type": "series",
+        "title": "Tigers Sniff the Rose",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "https://www.youtube.com/watch?v=taRLq2g43AA",
+        "poster": "https://image.tmdb.org/t/p/w500/5OuUPWLwr5JKLZBhzF7antNWdvY.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ccG6WAuf2XBC808HFaeIjvk2hXW.jpg",
+        "rating": 9.5,
+        "release_date": "2026-10-23",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Meng Ziyi",
+                "image": "https://image.tmdb.org/t/p/w185/qHoGZ7putFkjSeoZbBm6mOsOs0n.jpg"
+            },
+            {
+                "name": "Li Yunrui",
+                "image": "https://image.tmdb.org/t/p/w185/lmWu3qwmdwGv9qmcS3vbjj5Bkao.jpg"
+            },
+            {
+                "name": "Wu Hankun",
+                "image": "https://image.tmdb.org/t/p/w185/jjgJS29Omk1COobTdZWLwC5fiPd.jpg"
+            },
+            {
+                "name": "Li Xiaoqian",
+                "image": "https://image.tmdb.org/t/p/w185/xDhD8qUNrNfzPRDdqMzmVEu5TS1.jpg"
+            },
+            {
+                "name": "Yu Ailei",
+                "image": "https://image.tmdb.org/t/p/w185/nuyaR00afCkuwMXts1Mpc7Wycqg.jpg"
+            }
+        ],
+        "details": "Princess Danyang, Mu Wanyao, a formidable and arrogant royal, is married to Yan Shang, a cunning scholar of humble origins. Amid court intrigues, they move from rivalry and mutual suspicion to reconciliation, becoming powerful allies who join forces to break political deadlocks and safeguard peace.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/23/8192197b8fdce8c235b5a086a6eb4978-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/23/8192197b8fdce8c235b5a086a6eb4978-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
