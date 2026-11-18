@@ -65897,5 +65897,176 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_1100",
+        "type": "series",
+        "title": "How I Met Your Mother",
+        "release_year": 2005,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=cjJLEYMzpjc",
+        "poster": "https://image.tmdb.org/t/p/w500/b34jPzmB0wZy7EjUZoleXOl2RRI.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/3f8aW6vcYRP6mTZdgXm83BiuB9t.jpg",
+        "rating": 8.1,
+        "release_date": "2005-09-19",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Josh Radnor",
+                "image": "https://image.tmdb.org/t/p/w185/rHx4D70iRUkka5kl9064kOvmSQs.jpg"
+            },
+            {
+                "name": "Neil Patrick Harris",
+                "image": "https://image.tmdb.org/t/p/w185/r2twLWLwDpKJ7JyhWsD1YsL7rJV.jpg"
+            },
+            {
+                "name": "Jason Segel",
+                "image": "https://image.tmdb.org/t/p/w185/aG6tVNSbl1YEjN65G3luFYnWbUM.jpg"
+            },
+            {
+                "name": "Alyson Hannigan",
+                "image": "https://image.tmdb.org/t/p/w185/bO16z8rAzZWdjCga8dcbJ2AFAh2.jpg"
+            },
+            {
+                "name": "Cobie Smulders",
+                "image": "https://image.tmdb.org/t/p/w185/1b0mYokcGsfFRge4bjXlS5ihtek.jpg"
+            }
+        ],
+        "details": "A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/27/d16cde625f7cfbc391cbf935d0dcd943-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/06/27/d16cde625f7cfbc391cbf935d0dcd943-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_158141",
+        "type": "series",
+        "title": "Supacell",
+        "release_year": 2024,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=Frmk94Etedo",
+        "poster": "https://image.tmdb.org/t/p/w500/vHtNgRLWdMk7wIV2WbqkOzU7HHI.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/st2VoiCq6RVKsHoLFAchB9cTmKO.jpg",
+        "rating": 7.4,
+        "release_date": "2024-06-27",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Action & Adventure",
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Tosin Cole",
+                "image": "https://image.tmdb.org/t/p/w185/8sFFg9Pw2OmAXPr4Lhql8ANzd4e.jpg"
+            },
+            {
+                "name": "Nadine Mills",
+                "image": "https://image.tmdb.org/t/p/w185/dzZHdK1sE9WNHQSdvLm3C2UMOLc.jpg"
+            },
+            {
+                "name": "Eric Kofi Abrefa",
+                "image": "https://image.tmdb.org/t/p/w185/l804UyJ1wLVGS6lGH9UhgW1j6fq.jpg"
+            },
+            {
+                "name": "Calvin Demba",
+                "image": "https://image.tmdb.org/t/p/w185/sFE7iG0fgBZQhqwkFvutRbm7br7.jpg"
+            },
+            {
+                "name": "Josh Tedeku",
+                "image": "https://image.tmdb.org/t/p/w185/ejnHDJjLgFzDmlrKakokd0I103x.jpg"
+            }
+        ],
+        "details": "When five ordinary South Londoners discover they have extraordinary powers, it's down to just one man to bring them together to save the woman he loves.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/05/22/6a7f7f4eb431b312535941e0b7c2e1c0-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2024/05/22/6a7f7f4eb431b312535941e0b7c2e1c0-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_326975",
+        "type": "series",
+        "title": "What a Boss Wants",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/1lrHuB1zHomAa4CIbfIrgkmftBA.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/ypJyuwEqvF60u3H1yprnrYZPtw9.jpg",
+        "rating": 4.0,
+        "release_date": "2026-11-11",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Sung Hoon",
+                "image": "https://image.tmdb.org/t/p/w185/wGNCbshSo0YBcrsUCxfWMR9DLNr.jpg"
+            },
+            {
+                "name": "Oh Se-young",
+                "image": "https://image.tmdb.org/t/p/w185/iPA2Rf0xDC56DWy8EPE5slB5B7d.jpg"
+            },
+            {
+                "name": "Lee Jung-shin",
+                "image": "https://image.tmdb.org/t/p/w185/ceYBMElPqwMiv4cYwOAdp3r68kx.jpg"
+            },
+            {
+                "name": "Park Jeong-hak",
+                "image": "https://image.tmdb.org/t/p/w185/kTwGBs0NhWIam4CjyTtOzjSLZqf.jpg"
+            },
+            {
+                "name": "Kim Yoon-kyung",
+                "image": "https://image.tmdb.org/t/p/w185/l0Kl2T4XDNfzAhFIfQWO1Uo7ZJV.jpg"
+            }
+        ],
+        "details": "A struggling CEO's only hope to turn his career around lies in an indie singer – but neither of them expected to fall for each other.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/11/9de6190bc80853fd464c71ac9c9747f5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/11/9de6190bc80853fd464c71ac9c9747f5-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
