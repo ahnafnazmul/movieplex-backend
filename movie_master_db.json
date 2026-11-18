@@ -66068,5 +66068,147 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1807876",
+        "type": "movie",
+        "title": "The Sea God's disguise fishing for love",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/72PryJQ03zzkgNynQQif4OyqBFe.jpg",
+        "backdrop": "",
+        "rating": 0.0,
+        "release_date": "2026",
+        "runtime": "93 min",
+        "categories": [
+            "Movies",
+            "English"
+        ],
+        "cast": [],
+        "details": "Sixty years after Edmund Ashford saves the Sea God's life, the dying man asks the deity to protect his family for another three years. The Sea God assumes the identity of a humble fisherman named Magnus and marries Edmund's daughter, Adriana. Despite secretly protecting her family, Magnus endures years of humiliation while Adriana remains attached to her former lover, Sebastian Haverworth. When their marriage contract expires, Magnus finally walks away, leaving Adriana to confront the truth about the husband she took for granted.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://bcdn.hakunaymatata.com/reelshort/09fd44aa2dfa8d7dead61d6afd41a731.mp4?sign=52ea8a82958a90115f6c0c8f89eba462&t=1795031700",
+                "source_site": "themoviebox",
+                "source_domain": "bcdn.hakunaymatata.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_280058",
+        "type": "series",
+        "title": "My Sibling's Romance",
+        "release_year": 2025,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/x6o2FXGqnq7k6STunC4pybo3dn8.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/hrntNs3jhUr19rUETlsIb9S4qcF.jpg",
+        "rating": 7.0,
+        "release_date": "2025-03-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Reality"
+        ],
+        "cast": [
+            {
+                "name": "Dunhao Jiang",
+                "image": "https://image.tmdb.org/t/p/w185/wJzW5zC7jtCXBTTRuz3TrwOS0IP.jpg"
+            },
+            {
+                "name": "Cecilia Boey",
+                "image": "https://image.tmdb.org/t/p/w185/5Uk3Y6RbwzsQ3xLBCWwmv3zntGo.jpg"
+            },
+            {
+                "name": "Wu Chun",
+                "image": "https://image.tmdb.org/t/p/w185/pMwdSldLomzxKLe0EgKHWIt6iil.jpg"
+            },
+            {
+                "name": "Xiao Lu",
+                "image": "https://image.tmdb.org/t/p/w185/abvThT9bqdQCiPucSEQSw2t2FMT.jpg"
+            },
+            {
+                "name": "Yang Gen",
+                "image": "https://image.tmdb.org/t/p/w185/k7DaZly7sQgPcgVU7OeTIHCJ0hV.jpg"
+            }
+        ],
+        "details": "South Korea's popular model was introduced, and the original creator participated in the production. Five pairs of native siblings/siblings stayed in the cabin and each looked for the other half under the gaze and participation of their brothers and sisters. Break the traditional comprehensive love model and parallel love and family love. Hiding the identity of brothers and sisters at the beginning and looking at the influence of the native family on feelings is no longer a journey of seeking love alone, but a mystery of \"true and false Cupid\" with constant laughter. It is also a new journey of heart-warming and warmth intertwined with brothers and sisters.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/01/dc970961c4c290a1a3edcbe8bb969057-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/05/01/dc970961c4c290a1a3edcbe8bb969057-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_332269",
+        "type": "series",
+        "title": "Francesca Next Door",
+        "release_year": 2026,
+        "original_language": "ko",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/xiB4NaaTssLxFEIao3IOb9MOHHB.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/oD8zIQxAkIob0XZXXdkVaQYI67S.jpg",
+        "rating": 9.0,
+        "release_date": "2026-11-06",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Comedy",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Han Su-ah",
+                "image": "https://image.tmdb.org/t/p/w185/gFOoNJK0l3wginNKrsjBpPwVnxf.jpg"
+            },
+            {
+                "name": "Kim Hyun-jin",
+                "image": "https://image.tmdb.org/t/p/w185/svQuuEv10uqaPxfjUsNmIRqvzS8.jpg"
+            },
+            {
+                "name": "Lee Seung-gyu",
+                "image": "https://image.tmdb.org/t/p/w185/wQRbqJdTargXqwUDooW7Bfw7gY5.jpg"
+            },
+            {
+                "name": "Shim Hye-jin",
+                "image": "https://image.tmdb.org/t/p/w185/dFZksi2ovgOy43fqZUHgzvi1988.jpg"
+            },
+            {
+                "name": "Park Seul-gi",
+                "image": "https://image.tmdb.org/t/p/w185/hr1Cd9qd26mD36IlGLoH8IeLgtT.jpg"
+            }
+        ],
+        "details": "Woo-ju, a dedicated student preparing for medical school, has his life turned upside down when Na-young, a vampire transfer student from Romania, arrives at his school. As he becomes her keeper and helps her navigate school life, their constant clashes lead to unexpected feelings that leave Na-young questioning whether it's love or simply her vampire instincts.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/06/dd4375acf47a387ead975d1097146cd1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/06/dd4375acf47a387ead975d1097146cd1-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
