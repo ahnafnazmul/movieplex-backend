@@ -66210,5 +66210,62 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1280115",
+        "type": "movie",
+        "title": "Way of the Warrior Kid",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=R1ECMLrwDYQ",
+        "poster": "https://image.tmdb.org/t/p/w500/atI81xXKNVah7PJFBo3aXqQKtnG.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/1JL6mDxYRauwv81bLupSZczC39M.jpg",
+        "rating": 0.0,
+        "release_date": "2026-11-24",
+        "runtime": "106 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Drama",
+            "Family"
+        ],
+        "cast": [
+            {
+                "name": "Chris Pratt",
+                "image": "https://image.tmdb.org/t/p/w185/cRH6HPAQ98PlOwwEvhYO4CM9lwu.jpg"
+            },
+            {
+                "name": "Jude Hill",
+                "image": "https://image.tmdb.org/t/p/w185/yAcW6qaqQVok6UpfPb1D9dPBFbK.jpg"
+            },
+            {
+                "name": "Linda Cardellini",
+                "image": "https://image.tmdb.org/t/p/w185/bcycvynDprC1rrhBNrnBjn5uOUd.jpg"
+            },
+            {
+                "name": "Levi McConaughey",
+                "image": ""
+            },
+            {
+                "name": "Ava Torres",
+                "image": "https://image.tmdb.org/t/p/w185/yc0M1jojP4lIbOZ4uVA7CDyJ848.jpg"
+            }
+        ],
+        "details": "Jake is an injured Navy SEAL who becomes a mentor for his shy, struggling nephew Marc. Using the principles of his military training, Jake teaches Marc how to be a Warrior Kid as he enters high school.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/28/2585b38758beafeecb20d3edb4064a29-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/28/2585b38758beafeecb20d3edb4064a29-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
