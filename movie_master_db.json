@@ -66540,5 +66540,110 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_22258",
+        "type": "series",
+        "title": "The Porter Wagoner Show",
+        "release_year": 1961,
+        "original_language": "en",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/r7VCgnQxWq1M5Sl5dMUb09989K1.jpg",
+        "backdrop": "",
+        "rating": 8.0,
+        "release_date": "1961-09-14",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Porter Wagoner",
+                "image": "https://image.tmdb.org/t/p/w185/p9AVJPtILXM9sMWY1YyQyN50dwm.jpg"
+            },
+            {
+                "name": "Speck Rhodes",
+                "image": ""
+            },
+            {
+                "name": "Norma Jean",
+                "image": ""
+            }
+        ],
+        "details": "Wagoner showcased other country artists and performed his own songs in this long-running series, which boosted the career of various country performers, including Dolly Parton.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/01/14/5a68f7f947bc39aed289635943f533e3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/01/14/5a68f7f947bc39aed289635943f533e3-sd.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_244447",
+        "type": "series",
+        "title": "The Hunting Wives",
+        "release_year": 2025,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=uZvZfqiAhdQ",
+        "poster": "https://image.tmdb.org/t/p/w500/knR0tDKgFwsUMxe0MqZSWQYhwpL.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/6PerjrTmwTNiRcfn0SpjU8N9Nio.jpg",
+        "rating": 7.0,
+        "release_date": "2025-07-21",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Mystery"
+        ],
+        "cast": [
+            {
+                "name": "Brittany Snow",
+                "image": "https://image.tmdb.org/t/p/w185/uSQW2E7caOaXHBbvL2jdzGbwDwH.jpg"
+            },
+            {
+                "name": "Malin Akerman",
+                "image": "https://image.tmdb.org/t/p/w185/u38qRcCAiO3SZdFKJKx3fncDyef.jpg"
+            },
+            {
+                "name": "Dermot Mulroney",
+                "image": "https://image.tmdb.org/t/p/w185/kkrMKD6b4vEdphVgKsenRY4NgiC.jpg"
+            },
+            {
+                "name": "Jaime Ray Newman",
+                "image": "https://image.tmdb.org/t/p/w185/2NZqIILL9BW8fSveWDGBDLoMYN8.jpg"
+            },
+            {
+                "name": "George Ferrier",
+                "image": "https://image.tmdb.org/t/p/w185/mH9D0zQ9AYFpXglD4gJy3ZzKLOE.jpg"
+            }
+        ],
+        "details": "Sophie trades New England for East Texas and falls into a wealthy socialite's magnetic orbit — where a clique of housewives hide deadly secrets.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/07/22/44d78f89c42962c964a3d215770b51ae-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2025/07/22/44d78f89c42962c964a3d215770b51ae-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
