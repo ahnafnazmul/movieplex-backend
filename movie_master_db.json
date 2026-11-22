@@ -56012,6 +56012,42 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/09/22/963d1683d5c57143436f2dfa070972bf-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/ad1ee55bd2860cb07de1339344f604ac-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/92be14d38b3001e1a672deee75728921-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/85b2c934f9667e04689c047f439a83a7-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/5718dc82c049b55566d20fc4465c3b33-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/c3a810d7f31fc86ec7adc2226aa88b45-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/97105adcada6d439099f33aeaac2fac6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -61114,6 +61150,48 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/10/25/c8c7cfd537c9b26a4602a74b49aadc61-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/c950e220e79a52f29a1b9efde36e2dff-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/31db31b84e7b1eb1e5989fc15f7fd9b8-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/fde7ed09cfe794174f5433afd631aa75-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/c80482283ccd424ecae979d2d7fcd683-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/dfd4af58f05e769d5f5005625a2946ad-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/cadaddafb6a5a8c8abd6b458ec961412-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/34b2cab579392da12a219a1ed09db32b-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
@@ -66640,6 +66718,64 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2025/07/22/44d78f89c42962c964a3d215770b51ae-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1559980",
+        "type": "movie",
+        "title": "The Gospel of Christmas",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=lXh2rNl2wdQ",
+        "poster": "https://image.tmdb.org/t/p/w500/ihbN6lNDXKe6w9xE6IBFMVF2Rkr.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/p1Ag7etCR5yUvElhwZmWsMo5IFu.jpg",
+        "rating": 6.5,
+        "release_date": "2026-11-11",
+        "runtime": "103 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Music",
+            "Family",
+            "Drama"
+        ],
+        "cast": [
+            {
+                "name": "Fantasia Barrino",
+                "image": "https://image.tmdb.org/t/p/w185/z8EsOmdzNxUQooSjH4NBSpzhnP3.jpg"
+            },
+            {
+                "name": "Tank",
+                "image": "https://image.tmdb.org/t/p/w185/4rT7a9OukGG6eBz9izKMfOqwWdT.jpg"
+            },
+            {
+                "name": "Mason Douglas",
+                "image": "https://image.tmdb.org/t/p/w185/ilPoDR0eIG1e4OXJwuTmV4M3v1r.jpg"
+            },
+            {
+                "name": "Eric Wiltz",
+                "image": "https://image.tmdb.org/t/p/w185/8MKGJiR1nPdLqjtdC51Bav3ittJ.jpg"
+            },
+            {
+                "name": "John Gray",
+                "image": ""
+            }
+        ],
+        "details": "A struggling pastor moves his family to a troubled New York neighborhood, where they must save a neglected church from foreclosure before Christmas.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/11/e0f9d126828e401f70f2b0dbec507a6b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/11/e0f9d126828e401f70f2b0dbec507a6b-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
