@@ -43918,6 +43918,42 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/08/13/4a782b8044e9f9b5677dd1ccc9383c78-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/07218617ea54cb7d81a72e1a027f42a9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/f2b801ccc5ad032f2250ef0569930bda-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/daad4f1e0a34553a47d1058ef3b77bb9-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/db7016e31738f5c0a88b88cc5d3a3b19-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/a372aaceff529e1ea819dbbd02acee9b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/e349e14297f8c7535e1fa7f6a9b33671-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -66890,6 +66926,58 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/11/e0f9d126828e401f70f2b0dbec507a6b-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_171802",
+        "type": "series",
+        "title": "Blade Runner 2099",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=1d4x_eSdqNc",
+        "poster": "https://image.tmdb.org/t/p/w500/qAcXaAoJiYry9nGEyxTirnJ82Jj.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rACaCUxa8WAxkqdpZl0vGqBmIJg.jpg",
+        "rating": 0.0,
+        "release_date": "2026-11-24",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Hunter Schafer",
+                "image": "https://image.tmdb.org/t/p/w185/AilBKow2NuvPBQbvGRx69RxKUBi.jpg"
+            },
+            {
+                "name": "Michelle Yeoh",
+                "image": "https://image.tmdb.org/t/p/w185/i6fHvGt7Rb8oVyjjdQVV6vEHB94.jpg"
+            },
+            {
+                "name": "Dimitri Abold",
+                "image": "https://image.tmdb.org/t/p/w185/aMWxgEAyDIvV9GtbKaMxqOsGCxG.jpg"
+            },
+            {
+                "name": "Lewis Gribben",
+                "image": "https://image.tmdb.org/t/p/w185/EpYHJL9DlxVpPDMSwi2wFZwaBd.jpg"
+            }
+        ],
+        "details": "Fifty years after the events of Blade Runner 2049, Los Angeles has been reborn, just not by humanity. Cora, a fugitive in a final bid to stop running, takes on one last identity: a Blade Runner. Forced to partner with Olwen, a Replicant days from dying, she hunts down a runaway hiding a truth that could collapse their fragile city.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/17/772a9181f6586e65f6ff287bf0195f60-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/17/772a9181f6586e65f6ff287bf0195f60-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
