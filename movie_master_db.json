@@ -67452,5 +67452,178 @@
             }
         ],
         "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1379486",
+        "type": "movie",
+        "title": "Victorian Psycho",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=sDiFol_2j2I",
+        "poster": "https://image.tmdb.org/t/p/w500/9LHVZevgdsdbjJdkFr6bk9EwX7q.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/84Sh7J9uvMjqEqEyRsKXaiSBcjP.jpg",
+        "rating": 6.3,
+        "release_date": "2026-11-11",
+        "runtime": "102 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Maika Monroe",
+                "image": "https://image.tmdb.org/t/p/w185/xyWS5RyykP68FyXF8EOhrVxifyx.jpg"
+            },
+            {
+                "name": "Thomasin McKenzie",
+                "image": "https://image.tmdb.org/t/p/w185/WOpnEFG5Q8LWxP81MtUrskmVox.jpg"
+            },
+            {
+                "name": "Ruth Wilson",
+                "image": "https://image.tmdb.org/t/p/w185/fdFVatb9pt5dfT9tDK8tikKWafS.jpg"
+            },
+            {
+                "name": "Jason Isaacs",
+                "image": "https://image.tmdb.org/t/p/w185/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg"
+            },
+            {
+                "name": "Evie Templeton",
+                "image": "https://image.tmdb.org/t/p/w185/1JV3FEULVnROl4APfkUprqTrFF6.jpg"
+            }
+        ],
+        "details": "When eccentric young governess Winifred Notty arrives at a remote Gothic manor, a string of unsettling events leads the household to suspect she isn't who she claims to be—but the truth may be far more dangerous than they imagine.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/31/a7dd4a48a90b2d37b01a5d1bd5404959-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/05/31/a7dd4a48a90b2d37b01a5d1bd5404959-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1381273",
+        "type": "movie",
+        "title": "Paper Tiger",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=dUxQ3ltEEwU",
+        "poster": "https://image.tmdb.org/t/p/w500/p6oLmq5KmuWY6uRXBQBL2q30jia.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/7QshsnWS3NIZp60qMgcYm1C6dxm.jpg",
+        "rating": 7.8,
+        "release_date": "2026-11-13",
+        "runtime": "115 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Adam Driver",
+                "image": "https://image.tmdb.org/t/p/w185/b5w381C8Z33D1iF30KT4k8tJNsk.jpg"
+            },
+            {
+                "name": "Miles Teller",
+                "image": "https://image.tmdb.org/t/p/w185/kDf3sW3USjEBDQ3Ua7lbwOfwty6.jpg"
+            },
+            {
+                "name": "Scarlett Johansson",
+                "image": "https://image.tmdb.org/t/p/w185/mjReG6rR7NPMEIWb1T4YWtV11ty.jpg"
+            },
+            {
+                "name": "Gavin Goudey",
+                "image": "https://image.tmdb.org/t/p/w185/bMLs3rapyMb6QRfSQmONbxOBBoQ.jpg"
+            },
+            {
+                "name": "Roman Engel",
+                "image": "https://image.tmdb.org/t/p/w185/yPIBt7b3AyE8N2pBpUeomvolBfh.jpg"
+            }
+        ],
+        "details": "Two brothers become entangled in a scheme that turns out to be too good to be true. As they try to navigate their way through the dangerous world of the Russian mafia, family bonds begin to fray with life-altering consequences.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/13/73d8bdd263f19d6ae9690b993c7e6504-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/13/73d8bdd263f19d6ae9690b993c7e6504-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1642568",
+        "type": "movie",
+        "title": "The Last Temptation of Becky",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=aQrxHLuqJCk",
+        "poster": "https://image.tmdb.org/t/p/w500/nzSx9jiInWGWumMV1n1qyRqrpbq.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/4IyYpwIUAkWE3CiUEg2YItc4mIv.jpg",
+        "rating": 7.0,
+        "release_date": "2026-11-04",
+        "runtime": "89 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Action",
+            "Horror",
+            "Thriller"
+        ],
+        "cast": [
+            {
+                "name": "Lulu Wilson",
+                "image": "https://image.tmdb.org/t/p/w185/7qqMBuvdZoayPVmVZKHBLqUgKiJ.jpg"
+            },
+            {
+                "name": "Neil Patrick Harris",
+                "image": "https://image.tmdb.org/t/p/w185/r2twLWLwDpKJ7JyhWsD1YsL7rJV.jpg"
+            },
+            {
+                "name": "Kate Siegel",
+                "image": "https://image.tmdb.org/t/p/w185/jJJGmVKvMFHMJEwyfiHgxXEFePO.jpg"
+            },
+            {
+                "name": "James Urbaniak",
+                "image": "https://image.tmdb.org/t/p/w185/7KUK2x6OI5XdPX5xrYAo9hxL49Z.jpg"
+            },
+            {
+                "name": "Brandon Flynn",
+                "image": "https://image.tmdb.org/t/p/w185/2fir5bwu0nNB4FiQZYY5J9tWZqC.jpg"
+            }
+        ],
+        "details": "Now working as a field agent for the CIA, Becky is sent undercover to Poland to infiltrate a family of innkeepers running a tourist venture at The Wolf's Lair, Hitler's WWII bunker. After learning that the father, Wilhelm Reuss, is on a mission to bring about the Fourth Reich, Becky takes matters into her own hands.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/07/e57215e76c5162bcb38c1453434aae16-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/07/e57215e76c5162bcb38c1453434aae16-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
     }
 ]
