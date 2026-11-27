@@ -66100,6 +66100,24 @@
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/03/f27bb789dbfa504c4a8a7d539c53b78a-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/642bbd8b1778ef8bf7a1873f848afd5f-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/5e69ef3d8e9988f56987b2075883077a-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/2e28d7ded42e9c9ea472b5ca0ad4d762-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
             }
         ],
         "_source_site": "themoviebox"
@@ -67620,6 +67638,134 @@
             {
                 "server_name": "MovieBox Premium",
                 "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/07/e57215e76c5162bcb38c1453434aae16-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "tv_342135",
+        "type": "series",
+        "title": "The Scent of Karma",
+        "release_year": 2026,
+        "original_language": "zh",
+        "video_trailer": "",
+        "poster": "https://image.tmdb.org/t/p/w500/wvJl3pKNGsa3Nm08q5ocOyADnhu.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/rCuCHtZB5Q6VeqfaJgZgHr9F9z8.jpg",
+        "rating": 0.0,
+        "release_date": "2026-11-22",
+        "runtime": "N/A min",
+        "categories": [
+            "Web Series",
+            "English",
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "cast": [
+            {
+                "name": "Yi Qi",
+                "image": ""
+            },
+            {
+                "name": "Chi Ming",
+                "image": ""
+            },
+            {
+                "name": "Run Ze",
+                "image": ""
+            },
+            {
+                "name": "温耐思",
+                "image": ""
+            }
+        ],
+        "details": "After an accident, a pop idol falls for his reserved doctor—unaware the healer is immortal and carries a deadly curse that dooms anyone who loves him.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/27/22f99169fc3bb442990a038090f597d6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/27/22f99169fc3bb442990a038090f597d6-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            }
+        ],
+        "_source_site": "themoviebox"
+    },
+    {
+        "id": "movie_1567605",
+        "type": "movie",
+        "title": "Ebenezer",
+        "release_year": 2026,
+        "original_language": "en",
+        "video_trailer": "https://www.youtube.com/watch?v=D-n-lqKVr78",
+        "poster": "https://image.tmdb.org/t/p/w500/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+        "backdrop": "https://image.tmdb.org/t/p/w1280/274ahmbkJSzdmcWrWSTu9DFv5rp.jpg",
+        "rating": 7.6,
+        "release_date": "2026-11-11",
+        "runtime": "115 min",
+        "categories": [
+            "Movies",
+            "English",
+            "Fantasy",
+            "Comedy"
+        ],
+        "cast": [
+            {
+                "name": "Johnny Depp",
+                "image": "https://image.tmdb.org/t/p/w185/k2xt6EUxQDwYRKIyI4IBdZxfs8n.jpg"
+            },
+            {
+                "name": "Rupert Grint",
+                "image": "https://image.tmdb.org/t/p/w185/hYSX3RIxe2nA6A9EBfEDYZ36mYF.jpg"
+            },
+            {
+                "name": "Daisy Ridley",
+                "image": "https://image.tmdb.org/t/p/w185/9XO1HIKhefHCn7t1D568XcAlHyS.jpg"
+            },
+            {
+                "name": "Ian McKellen",
+                "image": "https://image.tmdb.org/t/p/w185/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg"
+            },
+            {
+                "name": "Andrea Riseborough",
+                "image": "https://image.tmdb.org/t/p/w185/9f975GWIWksWQrSgKaaBQlxBKoh.jpg"
+            }
+        ],
+        "details": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+        "players": [
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/13/923d802ae4f0e61d6880a85446ee7140-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/13/923d802ae4f0e61d6880a85446ee7140-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/89d1bc9e046e0f4d13354aca29dd60ff-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/46c395fbd4166f249c2c8d634310e293-ld.mp4",
+                "source_site": "themoviebox",
+                "source_domain": "macdn.aoneroom.com"
+            },
+            {
+                "server_name": "MovieBox Premium",
+                "player_url": "https://macdn.aoneroom.com/media/vone/2026/11/19/f553a1056b8a77327303bef75c56008a-ld.mp4",
                 "source_site": "themoviebox",
                 "source_domain": "macdn.aoneroom.com"
             }
